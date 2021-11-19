@@ -21,8 +21,8 @@ docker run \
 [main]
 name = "alpine"
 tag = ["zsh", "2021-11-19"]
-os = ""
-release = ""
+os = "alpine"
+release = "edge"
 arch = "amd64"
 nogui = true
 
@@ -30,12 +30,12 @@ nogui = true
 completed = true
 
 [file]
-name = "alpine-zsh-amd64_2021-11-19_21-44.tar.zst"
+name = "alpine-zsh-amd64_2021-11-19_22-20.tar.zst"
 
 version = "0.0.0-alpha.1"
 
 # This value can be used to verify the integrity of the file
-sha256 = "0d9bb125766d2afe01910649e5e99067e51526f5b85d9ee5e137851d3210e7f7"
+sha256 = "d54f7a1e2496f76deeff61a9112d904666b225fb91061fc4ce17071a554be9de"
 
 # zstd: [1-22]
 zstd-level = 13
@@ -49,28 +49,28 @@ tar-bytes = 96668672
 # Space occupied ≈ tar-size + zstd-size
 # You will need to prepare a large enough space before installation.
 zstd = "32M"
-zstd-bytes = 33011797
+zstd-bytes = 33012024
 
 [compatibility]
 compatible_mode = true
 rootfs_version = "latest02"
 # edition 2021
 # DISTRO_NAME=alpine-edge_amd64
-# ROOTFS_FILE=alpine-zsh-amd64_2021-11-19_21-44.tar.zst
+# ROOTFS_FILE=alpine-zsh-amd64_2021-11-19_22-20.tar.zst
 # BUILD_DATE=20211119
 # STATUS=completed
 # VERSION=latest02
-# END_TIME=21:44
+# END_TIME=22:20
 
 [time]
 format = "rfc-3339"
 zone = "UTC"
-begin = 2021-11-19 21:41:23.052148502+00:00
-start-sync_0 = 21:41:53
-start-zstd = 21:44:13
-start-sync_1 = 21:44:18
-end-sync_1 = 21:44:24
-end = 2021-11-19 21:44:24.585179353+00:00
+begin = 2021-11-19 22:17:16.665084216+00:00
+start-sync_0 = 22:17:54
+start-zstd = 22:20:15
+start-sync_1 = 22:20:21
+end-sync_1 = 22:20:28
+end = 2021-11-19 22:20:28.151114167+00:00
 
 [server]
 name = "docker"
