@@ -1,0 +1,83 @@
+# alpine-zsh-amd64
+
+## How to run it?
+
+```shell
+docker run \
+    -it \
+    --name alpine-zsh-amd64 \
+    cake233/alpine-zsh-amd64
+```
+
+## How to exec shell?
+
+```shell
+    docker exec -it alpine-zsh-amd64 zsh
+```
+
+## build info
+
+```toml
+[main]
+name = "alpine"
+tag = ["zsh", "2021-11-19"]
+os = ""
+release = ""
+arch = "amd64"
+nogui = true
+
+# If the value is false, then the container will not be downloaded.
+completed = true
+
+[file]
+name = "alpine-zsh-amd64_2021-11-19_21-44.tar.zst"
+
+version = "0.0.0-alpha.1"
+
+# This value can be used to verify the integrity of the file
+sha256 = "0d9bb125766d2afe01910649e5e99067e51526f5b85d9ee5e137851d3210e7f7"
+
+# zstd: [1-22]
+zstd-level = 13
+
+[file.size]
+# Installed size ≈ tar-size
+# Installed size is approximately equal to the size of the tar file
+tar = "93M"
+tar-bytes = 96668672
+
+# Space occupied ≈ tar-size + zstd-size
+# You will need to prepare a large enough space before installation.
+zstd = "32M"
+zstd-bytes = 33011797
+
+[compatibility]
+compatible_mode = true
+rootfs_version = "latest02"
+# edition 2021
+# DISTRO_NAME=alpine-edge_amd64
+# ROOTFS_FILE=alpine-zsh-amd64_2021-11-19_21-44.tar.zst
+# BUILD_DATE=20211119
+# STATUS=completed
+# VERSION=latest02
+# END_TIME=21:44
+
+[time]
+format = "rfc-3339"
+zone = "UTC"
+begin = 2021-11-19 21:41:23.052148502+00:00
+start-sync_0 = 21:41:53
+start-zstd = 21:44:13
+start-sync_1 = 21:44:18
+end-sync_1 = 21:44:24
+end = 2021-11-19 21:44:24.585179353+00:00
+
+[server]
+name = "docker"
+node = 4
+repo = "cake233/alpine-zsh-amd64"
+
+# Environment variables  (●＞ω＜●)
+[env]
+LANG = "en_US.UTF-8"
+```
