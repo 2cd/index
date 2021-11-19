@@ -1,24 +1,3 @@
-# test-hello-amd64
-
-## How to run it?
-
-```shell
-docker run \
-    -it \
-    --name test-hello-amd64 \
-    -e LANG=en_US.UTF-8 \
-    cake233/test-hello-amd64
-```
-
-## How to exec shell?
-
-```shell
-    docker exec -it test-hello-amd64 sh
-```
-
-## build info
-
-```toml
 [main]
 name = "test"
 tag = ["hello", "2021-11-19", "test"]
@@ -80,4 +59,3 @@ repo = "cake233/test-hello-amd64"
 # Environment variables  (●＞ω＜●)
 [env]
 LANG = "en_US.UTF-8"
-```
