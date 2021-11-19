@@ -6,7 +6,6 @@
 docker run \
     -it \
     --name test-hello-amd64 \
-    -e LANG=en_US.UTF-8 \
     cake233/test-hello-amd64
 ```
 
@@ -31,12 +30,12 @@ nogui = true
 completed = true
 
 [file]
-name = "test-hello-amd64_2021-11-19_18-29.tar.zst"
+name = "test-hello-amd64_2021-11-19_18-34.tar.zst"
 
 version = "0.0.0-alpha.1"
 
 # This value can be used to verify the integrity of the file
-sha256 = "bf69377d48b2824cb7bbe95b8fc944e181ebb1a19eca4c510c5e6fc4bebccd8a"
+sha256 = "d18a055696b8615529f97d1e604fdc03caeaf3224c04ba2d1a5ddf43e43d5ac0"
 
 # zstd: [1-22]
 zstd-level = 13
@@ -56,21 +55,21 @@ zstd-bytes = 5698094
 compatible_mode = true
 # edition 2021
 # DISTRO_NAME=alpine-edge_amd64
-# ROOTFS_FILE=test-hello-amd64_2021-11-19_18-29.tar.zst
+# ROOTFS_FILE=test-hello-amd64_2021-11-19_18-34.tar.zst
 # BUILD_DATE=20211119
 # STATUS=completed
 # VERSION=latest02
-# END_TIME=18:29
+# END_TIME=18:34
 
 [time]
 format = "rfc-3339"
 zone = "UTC"
-begin = 2021-11-19 18:28:55.854034198+00:00
-start-sync_0 = 18:29:01
-start-zstd = 18:29:06
-start-sync_1 = 18:29:07
-end-sync_1 = 18:29:13
-end = 2021-11-19 18:29:13.204329395+00:00
+begin = 2021-11-19 18:34:19.051566422+00:00
+start-sync_0 = 18:34:23
+start-zstd = 18:34:27
+start-sync_1 = 18:34:29
+end-sync_1 = 18:34:33
+end = 2021-11-19 18:34:33.850414864+00:00
 
 [server]
 name = docker
