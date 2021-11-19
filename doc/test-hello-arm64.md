@@ -30,12 +30,12 @@ nogui = true
 completed = true
 
 [file]
-name = "test-hello-arm64_2021-11-19_18-34.tar.zst"
+name = "test-hello-arm64_2021-11-19_18-50.tar.zst"
 
 version = "0.0.0-alpha.1"
 
 # This value can be used to verify the integrity of the file
-sha256 = "d1043cf2bcbd1cb17bdf772dc8857c46bb2d987352090ebbf337f46a5c0d9c2e"
+sha256 = "4c18b9d6db28540ea20cdd92a6a6717668b27b4b726afad762d9add49c2fe608"
 
 # zstd: [1-22]
 zstd-level = 13
@@ -49,30 +49,31 @@ tar-bytes = 9996288
 # Space occupied ≈ tar-size + zstd-size
 # You will need to prepare a large enough space before installation.
 zstd = "5.4M"
-zstd-bytes = 5598990
+zstd-bytes = 5598995
 
 [compatibility]
 compatible_mode = true
+rootfs_version = "latest02"
 # edition 2021
 # DISTRO_NAME=alpine-edge_arm64
-# ROOTFS_FILE=test-hello-arm64_2021-11-19_18-34.tar.zst
+# ROOTFS_FILE=test-hello-arm64_2021-11-19_18-50.tar.zst
 # BUILD_DATE=20211119
 # STATUS=completed
 # VERSION=latest02
-# END_TIME=18:34
+# END_TIME=18:50
 
 [time]
 format = "rfc-3339"
 zone = "UTC"
-begin = 2021-11-19 18:34:20.304957613+00:00
-start-sync_0 = 18:34:37
-start-zstd = 18:34:45
-start-sync_1 = 18:34:46
-end-sync_1 = 18:34:54
-end = 2021-11-19 18:34:54.196673342+00:00
+begin = 2021-11-19 18:49:35.834175137+00:00
+start-sync_0 = 18:49:57
+start-zstd = 18:50:04
+start-sync_1 = 18:50:05
+end-sync_1 = 18:50:13
+end = 2021-11-19 18:50:13.153558969+00:00
 
 [server]
-name = docker
+name = "docker"
 node = 4
 repo = "cake233/test-hello-arm64"
 
