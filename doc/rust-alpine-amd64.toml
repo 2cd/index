@@ -1,0 +1,87 @@
+[main]
+name = "rust"
+tag = ["alpine", "2021-11-27", "musl-libc", "musl"]
+os = ""
+release = ""
+arch = "amd64"
+platform = "linux/amd64"
+x11_or_wayland = 
+
+# If the value is false, then the container will not be downloaded.
+completed = true
+
+[file]
+name = "rust-alpine-amd64_2021-11-27_23-05.tar.zst"
+
+version = "0.0.0-alpha.1"
+
+# This value can be used to verify the integrity of the file
+sha256 = "61b386e0f004852259e923bb9abb2f2c6cbe5783a2d9b0ab9ff1584b3662745d"
+
+# zstd: [1-22]
+zstd-level = 13
+
+[file.size]
+# Installed size ≈ tar-size
+# Installed size is approximately equal to the size of the tar file
+tar = "788M"
+tar-bytes = 826260480
+
+# Space occupied ≈ tar-size + zstd-size
+# You will need to prepare a large enough space before installation.
+zstd = "210M"
+zstd-bytes = 220143749
+
+[compatibility]
+compatible_mode = true
+rootfs_version = ""
+# edition 2021
+# DISTRO_NAME=
+# ROOTFS_FILE=rust-alpine-amd64_2021-11-27_23-05.tar.zst
+# BUILD_DATE=20211127
+# STATUS=completed
+# VERSION=
+# END_TIME=23:05
+
+[time]
+format = "rfc-3339"
+zone = "UTC"
+begin = 2021-11-27 23:03:42.867198346+00:00
+start-sync_0 = 23:04:04
+start-zstd = 23:04:17
+start-sync_1 = 23:05:02
+end-sync_1 = 23:05:22
+end = 2021-11-27 23:05:22.153449628+00:00
+
+[server]
+name = "docker"
+node = 4
+repo = "cake233/rust-alpine-amd64"
+
+# Environment variables  (●＞ω＜●)
+[env]
+LANG = ""
+PATH = "/usr/local/cargo/bin${PATH:+:${PATH}}"
+ RUSTUP_HOME=/usr/local/rustup
+ CARGO_HOME=/usr/local/cargo
+
+[version]
+rustup = 'rustup 1.24.3 (2021-05-31)'
+cargo = 'cargo 1.56.0 (4ed5d137b 2021-10-04)'
+rustc = 'rustc 1.56.1 (59eed8a2a 2021-11-01)'
+cc = 'cc (Alpine 10.3.1_git20210424) 10.3.1 20210424'
+cargo_verbose = '''
+cargo 1.56.0 (4ed5d137b 2021-10-04)
+release: 1.56.0
+commit-hash: 4ed5d137baff5eccf1bae5a7b2ae4b57efad4a7d
+commit-date: 2021-10-04
+'''
+rustc_verbose = '''
+rustc 1.56.1 (59eed8a2a 2021-11-01)
+binary: rustc
+commit-hash: 59eed8a2aac0230a8b53e89d4e99d55912ba6b35
+commit-date: 2021-11-01
+host: x86_64-unknown-linux-musl
+release: 1.56.1
+LLVM version: 13.0.0
+'''
