@@ -23,19 +23,20 @@ name = "arch"
 tag = ["zsh", "2021-11-27"]
 os = "arch"
 release = "latest"
-arch = "armv7"
+arch = "armhf"
+platform = "linux/arm/v7"
 nogui = true
 
 # If the value is false, then the container will not be downloaded.
 completed = true
 
 [file]
-name = "arch-zsh-armv7_2021-11-27_13-33.tar.zst"
+name = "arch-zsh-armv7_2021-11-27_16-47.tar.zst"
 
 version = "0.0.0-alpha.1"
 
 # This value can be used to verify the integrity of the file
-sha256 = "4b473783812020cd0019b01a28793981df6b54939e66789da85ccfb7079eac9d"
+sha256 = "965889f04bb59f0ffeb0c7471a19dd51b80d6b9cae84f8ec869a38a8f01c1e9c"
 
 # zstd: [1-22]
 zstd-level = 13
@@ -44,33 +45,33 @@ zstd-level = 13
 # Installed size ≈ tar-size
 # Installed size is approximately equal to the size of the tar file
 tar = "847M"
-tar-bytes = 887741952
+tar-bytes = 887709184
 
 # Space occupied ≈ tar-size + zstd-size
 # You will need to prepare a large enough space before installation.
-zstd = "256M"
-zstd-bytes = 267407051
+zstd = "255M"
+zstd-bytes = 266788380
 
 [compatibility]
 compatible_mode = true
 rootfs_version = "latest02"
 # edition 2021
 # DISTRO_NAME=arch_armv7
-# ROOTFS_FILE=arch-zsh-armv7_2021-11-27_13-33.tar.zst
+# ROOTFS_FILE=arch-zsh-armv7_2021-11-27_16-47.tar.zst
 # BUILD_DATE=20211127
 # STATUS=completed
 # VERSION=latest02
-# END_TIME=13:33
+# END_TIME=16:47
 
 [time]
 format = "rfc-3339"
 zone = "UTC"
-begin = 2021-11-27 13:19:44.398699221+00:00
-start-sync_0 = 13:30:52
-start-zstd = 13:32:39
-start-sync_1 = 13:33:21
-end-sync_1 = 13:33:47
-end = 2021-11-27 13:33:47.140362570+00:00
+begin = 2021-11-27 16:33:03.352532908+00:00
+start-sync_0 = 16:44:34
+start-zstd = 16:46:12
+start-sync_1 = 16:46:57
+end-sync_1 = 16:47:24
+end = 2021-11-27 16:47:24.670888777+00:00
 
 [server]
 name = "docker"
