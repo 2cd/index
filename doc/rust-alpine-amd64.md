@@ -1,22 +1,53 @@
+# rust-alpine-amd64
+
+## How to run it?
+
+```shell
+docker run \
+    -it \
+    --name rust-alpine-amd64 \
+    cake233/rust-alpine-amd64
+```
+
+## How to exec shell?
+
+```shell
+    docker exec -it rust-alpine-amd64 bash
+```
+
+## example
+
+```shell
+docker run \
+    --rm \
+    -v "$PWD"/rs-project:/app \
+    -w /app \
+    rust-alpine-amd64 \
+    cargo b --release
+```
+
+## rust-alpine-amd64.toml
+
+```toml
 [main]
 name = "rust"
 tag = ["alpine", "2021-11-27", "musl-libc", "musl"]
-os = ""
-release = ""
+os = "alpine"
+release = "stable"
 arch = "amd64"
 platform = "linux/amd64"
-x11_or_wayland = 
+x11_or_wayland = false
 
 # If the value is false, then the container will not be downloaded.
 completed = true
 
 [file]
-name = "rust-alpine-amd64_2021-11-27_23-05.tar.zst"
+name = "rust-alpine-amd64_2021-11-27_23-13.tar.zst"
 
 version = "0.0.0-alpha.1"
 
 # This value can be used to verify the integrity of the file
-sha256 = "61b386e0f004852259e923bb9abb2f2c6cbe5783a2d9b0ab9ff1584b3662745d"
+sha256 = "5077b8fda28114ec18dc73bc22a766bc8707a2da99153f9281a5e49b036c953d"
 
 # zstd: [1-22]
 zstd-level = 13
@@ -30,28 +61,28 @@ tar-bytes = 826260480
 # Space occupied ≈ tar-size + zstd-size
 # You will need to prepare a large enough space before installation.
 zstd = "210M"
-zstd-bytes = 220143749
+zstd-bytes = 220143676
 
 [compatibility]
 compatible_mode = true
-rootfs_version = ""
+rootfs_version = "latest02"
 # edition 2021
-# DISTRO_NAME=
-# ROOTFS_FILE=rust-alpine-amd64_2021-11-27_23-05.tar.zst
+# DISTRO_NAME=rust_amd64
+# ROOTFS_FILE=rust-alpine-amd64_2021-11-27_23-13.tar.zst
 # BUILD_DATE=20211127
 # STATUS=completed
-# VERSION=
-# END_TIME=23:05
+# VERSION=latest02
+# END_TIME=23:13
 
 [time]
 format = "rfc-3339"
 zone = "UTC"
-begin = 2021-11-27 23:03:42.867198346+00:00
-start-sync_0 = 23:04:04
-start-zstd = 23:04:17
-start-sync_1 = 23:05:02
-end-sync_1 = 23:05:22
-end = 2021-11-27 23:05:22.153449628+00:00
+begin = 2021-11-27 23:11:51.770315128+00:00
+start-sync_0 = 23:12:16
+start-zstd = 23:12:30
+start-sync_1 = 23:13:22
+end-sync_1 = 23:13:44
+end = 2021-11-27 23:13:44.035994766+00:00
 
 [server]
 name = "docker"
@@ -60,10 +91,10 @@ repo = "cake233/rust-alpine-amd64"
 
 # Environment variables  (●＞ω＜●)
 [env]
-LANG = ""
+LANG = "C.UTF-8"
 PATH = "/usr/local/cargo/bin${PATH:+:${PATH}}"
- RUSTUP_HOME=/usr/local/rustup
- CARGO_HOME=/usr/local/cargo
+RUSTUP_HOME = "/usr/local/rustup"
+CARGO_HOME = "/usr/local/cargo"
 
 [version]
 rustup = 'rustup 1.24.3 (2021-05-31)'
