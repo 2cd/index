@@ -1,0 +1,83 @@
+# arch-armv7
+
+## How to run it?
+
+```shell
+docker run \
+    -it \
+    --name arch-armv7 \
+    cake233/arch-armv7
+```
+
+## How to exec shell?
+
+```shell
+    docker exec -it arch-armv7 sh
+```
+
+## build info
+
+```toml
+[main]
+name = "arch"
+tag = ["base", "2021-11-27"]
+os = "arch"
+release = "latest"
+arch = "armv7"
+nogui = true
+
+# If the value is false, then the container will not be downloaded.
+completed = true
+
+[file]
+name = "arch-armv7_2021-11-27_13-14.tar.zst"
+
+version = "0.0.0-alpha.1"
+
+# This value can be used to verify the integrity of the file
+sha256 = "f22a7e7c8ccc9563a9d11329b9317c9c9b1346fd994e3a3c879343306f47a569"
+
+# zstd: [1-22]
+zstd-level = 13
+
+[file.size]
+# Installed size ≈ tar-size
+# Installed size is approximately equal to the size of the tar file
+tar = "560M"
+tar-bytes = 586267648
+
+# Space occupied ≈ tar-size + zstd-size
+# You will need to prepare a large enough space before installation.
+zstd = "167M"
+zstd-bytes = 174083219
+
+[compatibility]
+compatible_mode = true
+rootfs_version = "latest02"
+# edition 2021
+# DISTRO_NAME=arch_armv7
+# ROOTFS_FILE=arch-armv7_2021-11-27_13-14.tar.zst
+# BUILD_DATE=20211127
+# STATUS=completed
+# VERSION=latest02
+# END_TIME=13:14
+
+[time]
+format = "rfc-3339"
+zone = "UTC"
+begin = 2021-11-27 13:12:06.862889524+00:00
+start-sync_0 = 13:13:28
+start-zstd = 13:14:10
+start-sync_1 = 13:14:38
+end-sync_1 = 13:14:57
+end = 2021-11-27 13:14:57.550052890+00:00
+
+[server]
+name = "docker"
+node = 4
+repo = "cake233/arch-armv7"
+
+# Environment variables  (●＞ω＜●)
+[env]
+LANG = "en_US.UTF-8"
+```
