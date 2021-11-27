@@ -26,9 +26,9 @@ docker run \
     go build -v
 ```
 
-## README.go
+## readme.go
 ```go
-// go run README.go
+// go run readme.go
 package main
 
 import "fmt"
@@ -48,7 +48,7 @@ func main() {
 }
 ```
 
-## build info
+## go-alpine-amd64.toml
 
 ```toml
 [main]
@@ -64,12 +64,12 @@ nogui = true
 completed = true
 
 [file]
-name = "go-alpine-amd64_2021-11-27_19-50.tar.zst"
+name = "go-alpine-amd64_2021-11-27_20-31.tar.zst"
 
 version = "0.0.0-alpha.1"
 
 # This value can be used to verify the integrity of the file
-sha256 = "dd5e0202e544e3854b76015f69fbb167b0d7f6ee05f31b055f5263c883939a71"
+sha256 = "e6e45362c8846cd59ea38cc576637048704f1d005c3d6017e184c47ead198723"
 
 # zstd: [1-22]
 zstd-level = 13
@@ -83,28 +83,28 @@ tar-bytes = 338339328
 # Space occupied ≈ tar-size + zstd-size
 # You will need to prepare a large enough space before installation.
 zstd = "98M"
-zstd-bytes = 102103052
+zstd-bytes = 102103050
 
 [compatibility]
 compatible_mode = true
 rootfs_version = "latest02"
 # edition 2021
 # DISTRO_NAME=go_amd64
-# ROOTFS_FILE=go-alpine-amd64_2021-11-27_19-50.tar.zst
+# ROOTFS_FILE=go-alpine-amd64_2021-11-27_20-31.tar.zst
 # BUILD_DATE=20211127
 # STATUS=completed
 # VERSION=latest02
-# END_TIME=19:50
+# END_TIME=20:31
 
 [time]
 format = "rfc-3339"
 zone = "UTC"
-begin = 2021-11-27 19:49:05.357015853+00:00
-start-sync_0 = 19:49:26
-start-zstd = 19:49:35
-start-sync_1 = 19:49:51
-end-sync_1 = 19:50:04
-end = 2021-11-27 19:50:04.293435687+00:00
+begin = 2021-11-27 20:30:33.529817824+00:00
+start-sync_0 = 20:30:53
+start-zstd = 20:31:01
+start-sync_1 = 20:31:17
+end-sync_1 = 20:31:29
+end = 2021-11-27 20:31:29.531393544+00:00
 
 [server]
 name = "docker"
@@ -113,7 +113,7 @@ repo = "cake233/go-alpine-amd64"
 
 # Environment variables  (●＞ω＜●)
 [env]
-LANG = "en_US.UTF-8"
+LANG = "${LOCALE}"
 PATH = "/go/bin:/usr/local/go/bin${PATH:+:${PATH}}"
 GOPATH = "/go"
 
