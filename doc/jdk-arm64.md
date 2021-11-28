@@ -1,0 +1,113 @@
+# jdk-arm64
+
+## How to run it?
+
+```shell
+docker run \
+    -it \
+    --name jdk-arm64 \
+    cake233/jdk-arm64
+```
+
+## How to exec shell?
+
+```shell
+    docker exec -it jdk-arm64 bash
+```
+
+## jdk-arm64.toml
+
+```toml
+[main]
+name = "jdk"
+tag = ["latest", "2021-11-28"]
+os = "debian"
+release = "stable"
+arch = "arm64"
+platform = "linux/arm64"
+x11_or_wayland = false
+
+[file]
+name = "jdk-arm64_2021-11-28_02-21.tar.zst"
+
+version = "0.0.0-alpha.1"
+
+# This value can be used to verify the integrity of the file
+sha256 = "b1d870aca87797c43bdb3969c988ec4ed490c30312e1f547d1666078379851fb"
+
+# zstd: [1-22]
+zstd-level = 13
+
+[file.size]
+# Installed size ≈ tar-size
+# Installed size is approximately equal to the size of the tar file
+tar = "414M"
+tar_bytes = 433327104
+
+# Space occupied ≈ tar-size + zstd-size
+# You will need to prepare a large enough space before installation.
+zstd = "193M"
+zstd_bytes = 201611887
+
+[compatibility]
+compatible_mode = true
+current_version = "latest02"
+current_date = 20211128
+last_version = "latest01"
+last_date = 20211101
+# edition 2021
+# DISTRO_NAME=jdk_arm64
+# ROOTFS_FILE=jdk-arm64_2021-11-28_02-21.tar.zst
+# BUILD_DATE=20211128
+# STATUS=completed
+# VERSION=latest02
+# END_TIME=02:21
+
+[time]
+format = "rfc-3339"
+zone = "UTC"
+begin = 2021-11-28 02:18:31.212580925+00:00
+start-sync_0 = 02:20:30
+start-zstd = 02:20:41
+start-sync_1 = 02:21:01
+end-sync_1 = 02:21:19
+end = 2021-11-28 02:21:19.957463684+00:00
+
+[server]
+repo = "cake233/jdk-arm64"
+
+[server.node1]
+name = "cn"
+current = false
+last = true
+split = false
+
+[server.node2]
+name = "us"
+current = false
+last = false
+split = false
+part = 12
+
+[server.node3]
+name = "global"
+current = false
+last = false
+split = false
+
+[server.node4]
+name = "docker"
+current = true
+
+# Environment variables  (●＞ω＜●)
+[env]
+LANG = "en_US.UTF-8"
+PATH = "/usr/local/openjdk-17/bin${PATH:+:${PATH}}"
+ JAVA_HOME=/usr/local/openjdk-17
+
+[version]
+java = 'openjdk 17.0.1 2021-10-19
+OpenJDK Runtime Environment (build 17.0.1+12-39)
+OpenJDK 64-Bit Server VM (build 17.0.1+12-39, mixed mode, sharing)'
+javac = 'javac 17.0.1'
+```
