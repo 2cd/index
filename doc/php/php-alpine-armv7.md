@@ -28,12 +28,12 @@ platform = "linux/arm/v7"
 x11_or_wayland = false
 
 [file]
-name = "php-alpine-armv7_2021-11-28_21-11.tar.zst"
+name = "php-musl_armhf_2021-11-28_23-02.tar.zst"
 
 version = "0.0.0-alpha.1"
 
 # This value can be used to verify the integrity of the file
-sha256 = "620972daea9299632938fab124224c989288533236ccc8ca9711b1109aa7172c"
+sha256 = "42c57199e3cbc8e57b20a2d10a695fdfa379743b5c077235fb8dce910834df0f"
 
 # zstd: [1-22]
 zstd-level = 18
@@ -47,7 +47,7 @@ tar_bytes = 75278848
 # Space occupied ≈ tar-size + zstd-size
 # You will need to prepare a large enough space before installation.
 zstd = "26M"
-zstd_bytes = 27252829
+zstd_bytes = 27256542
 
 [compatibility]
 compatible_mode = true
@@ -63,23 +63,23 @@ current_version = "latest01"
 current_date = "20211128"
 # edition 2021
 # DISTRO_NAME=php_armhf
-# ROOTFS_FILE=php-alpine-armv7_2021-11-28_21-11.tar.zst
+# ROOTFS_FILE=php-musl_armhf_2021-11-28_23-02.tar.zst
 # BUILD_DATE=20211128
 # BUILD_TAG=2021-11-28
 # STATUS=completed
 # VERSION=latest01
-# END_TIME=21:11
+# END_TIME=23:02
 
 [time]
 format = "rfc-3339"
 zone = "UTC"
 date = 2021-11-28
-begin = 2021-11-28 21:10:31.533275750+00:00
-start-sync_0 = 21:10:55
-start-zstd = 21:11:01
-start-sync_1 = 21:11:08
-end-sync_1 = 21:11:15
-end = 2021-11-28 21:11:15.381817705+00:00
+begin = 2021-11-28 23:01:43.175158886+00:00
+start-sync_0 = 23:02:07
+start-zstd = 23:02:13
+start-sync_1 = 23:02:22
+end-sync_1 = 23:02:29
+end = 2021-11-28 23:02:29.278756197+00:00
 
 [server]
 repo = "cake233/php-alpine-armv7"
@@ -93,7 +93,7 @@ split = false
 [server.node2]
 name = "us"
 current = false
-last = false
+last = true
 split = false
 part = 12
 
@@ -110,7 +110,7 @@ current = true
 # Environment variables  (●＞ω＜●)
 [env]
 LANG = "C.UTF-8"
- PHP_INI_DIR=/usr/local/etc/php
+PHP_INI_DIR = '/usr/local/etc/php'
 
 [version]
 php = 'PHP 8.0.13 (cli) (built: Nov 19 2021 21:47:53) ( NTS )
