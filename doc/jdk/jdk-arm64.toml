@@ -8,12 +8,12 @@ platform = "linux/arm64"
 x11_or_wayland = false
 
 [file]
-name = "jdk_arm64_2021-11-28_22-39.tar.zst"
+name = "jdk_arm64_2021-11-28_23-05.tar.zst"
 
 version = "0.0.0-alpha.1"
 
 # This value can be used to verify the integrity of the file
-sha256 = "195e97a3b8e28e8fefd8b67c66eff767961166be95fd3ada92b0337bd2978f11"
+sha256 = "773b0e52fc6560a623ed91b336867a2a94084b96ef4e50948465b2a08f39b773"
 
 # zstd: [1-22]
 zstd-level = 20
@@ -27,7 +27,7 @@ tar_bytes = 433410048
 # Space occupied ≈ tar-size + zstd-size
 # You will need to prepare a large enough space before installation.
 zstd = "179M"
-zstd_bytes = 187299769
+zstd_bytes = 187298732
 
 [compatibility]
 compatible_mode = true
@@ -43,23 +43,23 @@ current_version = "latest02"
 current_date = "20211128"
 # edition 2021
 # DISTRO_NAME=jdk_arm64
-# ROOTFS_FILE=jdk_arm64_2021-11-28_22-39.tar.zst
+# ROOTFS_FILE=jdk_arm64_2021-11-28_23-05.tar.zst
 # BUILD_DATE=20211128
 # BUILD_TAG=2021-11-28
 # STATUS=completed
 # VERSION=latest02
-# END_TIME=22:39
+# END_TIME=23:05
 
 [time]
 format = "rfc-3339"
 zone = "UTC"
 date = 2021-11-28
-begin = 2021-11-28 22:34:10.821098461+00:00
-start-sync_0 = 22:36:45
-start-zstd = 22:36:58
-start-sync_1 = 22:38:59
-end-sync_1 = 22:39:17
-end = 2021-11-28 22:39:17.642524180+00:00
+begin = 2021-11-28 22:59:25.281008528+00:00
+start-sync_0 = 23:02:22
+start-zstd = 23:02:40
+start-sync_1 = 23:04:51
+end-sync_1 = 23:05:14
+end = 2021-11-28 23:05:14.371717846+00:00
 
 [server]
 repo = "cake233/jdk-arm64"
