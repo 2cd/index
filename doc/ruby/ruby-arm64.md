@@ -1,0 +1,122 @@
+# ruby-arm64
+
+## How to run it?
+
+```shell
+docker run \
+    -it \
+    --name ruby-arm64 \
+    cake233/ruby-arm64
+```
+
+## How to exec shell?
+
+```shell
+    docker exec -it ruby-arm64 bash
+```
+
+## ruby-arm64.toml
+
+```toml
+[main]
+name = "ruby"
+tag = ["latest", "2021-11-28"]
+os = "debian"
+release = "stable"
+arch = "arm64"
+platform = "linux/arm64"
+x11_or_wayland = false
+
+[file]
+name = "ruby-arm64_2021-11-28_21-20.tar.zst"
+
+version = "0.0.0-alpha.1"
+
+# This value can be used to verify the integrity of the file
+sha256 = "7c0309d4bc9d288df2c91d3667509160e07beeb06c5c13f0e1e7bad6ce333fa2"
+
+# zstd: [1-22]
+zstd-level = 18
+
+[file.size]
+# Installed size ≈ tar-size
+# Installed size is approximately equal to the size of the tar file
+tar = "838M"
+tar_bytes = 877925376
+
+# Space occupied ≈ tar-size + zstd-size
+# You will need to prepare a large enough space before installation.
+zstd = "227M"
+zstd_bytes = 237291714
+
+[compatibility]
+compatible_mode = true
+
+last_version = "latest02"
+
+# The value is &str, not int
+last_date = "20211101"
+last_tag = ""
+last_file = "ruby_arm64+latest-2021_11-01-rootfs.tar.zst"
+
+current_version = "latest01"
+current_date = "20211128"
+# edition 2021
+# DISTRO_NAME=ruby_arm64
+# ROOTFS_FILE=ruby-arm64_2021-11-28_21-20.tar.zst
+# BUILD_DATE=20211128
+# BUILD_TAG=2021-11-28
+# STATUS=completed
+# VERSION=latest01
+# END_TIME=21:20
+
+[time]
+format = "rfc-3339"
+zone = "UTC"
+date = 2021-11-28
+begin = 2021-11-28 21:15:11.223999276+00:00
+start-sync_0 = 21:17:23
+start-zstd = 21:17:41
+start-sync_1 = 21:19:53
+end-sync_1 = 21:20:15
+end = 2021-11-28 21:20:15.661087153+00:00
+
+[server]
+repo = "cake233/ruby-arm64"
+
+[server.node1]
+name = "cn"
+current = false
+last = true
+split = false
+
+[server.node2]
+name = "us"
+current = false
+last = false
+split = false
+part = 12
+
+[server.node3]
+name = "global"
+current = false
+last = true
+split = false
+
+[server.node4]
+name = "docker"
+current = true
+
+# Environment variables  (●＞ω＜●)
+[env]
+LANG = "en_US.UTF-8"
+PATH = "/usr/local/bundle/bin${PATH:+:${PATH}}"
+ GEM_HOME=/usr/local/bundle
+ BUNDLE_SILENCE_ROOT_WARNING=1
+ BUNDLE_APP_CONFIG=/usr/local/bundle
+
+[version]
+ruby = 'ruby 3.0.3p157 (2021-11-24 revision 3fb7d2cadc) [aarch64-linux]'
+gem = '3.2.32'
+bundle = 'Bundler version 2.2.32'
+```
