@@ -1,0 +1,129 @@
+# php-amd64
+
+## How to run it?
+
+```shell
+docker run \
+    -it \
+    --name php-amd64 \
+    cake233/php-amd64
+```
+
+## How to exec shell?
+
+```shell
+    docker exec -it php-amd64 bash
+```
+
+## php-amd64.toml
+
+```toml
+[main]
+name = "php"
+tag = ["latest", "2021-11-28"]
+os = "debian"
+release = "stable"
+arch = "amd64"
+platform = "linux/amd64"
+x11_or_wayland = false
+
+[file]
+name = "php-amd64_2021-11-28_21-13.tar.zst"
+
+version = "0.0.0-alpha.1"
+
+# This value can be used to verify the integrity of the file
+sha256 = "fb01cf74dc8818921aaf6caa41192339e9e55559f79bd901669890ecad6bf431"
+
+# zstd: [1-22]
+zstd-level = 18
+
+[file.size]
+# Installed size ≈ tar-size
+# Installed size is approximately equal to the size of the tar file
+tar = "483M"
+tar_bytes = 506086912
+
+# Space occupied ≈ tar-size + zstd-size
+# You will need to prepare a large enough space before installation.
+zstd = "124M"
+zstd_bytes = 129965244
+
+[compatibility]
+compatible_mode = true
+
+last_version = "latest02"
+
+# The value is &str, not int
+last_date = "20211128"
+last_tag = ""
+last_file = ""
+
+current_version = "latest01"
+current_date = "20211128"
+# edition 2021
+# DISTRO_NAME=php_amd64
+# ROOTFS_FILE=php-amd64_2021-11-28_21-13.tar.zst
+# BUILD_DATE=20211128
+# BUILD_TAG=2021-11-28
+# STATUS=completed
+# VERSION=latest01
+# END_TIME=21:13
+
+[time]
+format = "rfc-3339"
+zone = "UTC"
+date = 2021-11-28
+begin = 2021-11-28 21:11:31.603653127+00:00
+start-sync_0 = 21:12:01
+start-zstd = 21:12:16
+start-sync_1 = 21:13:23
+end-sync_1 = 21:13:37
+end = 2021-11-28 21:13:38.011861954+00:00
+
+[server]
+repo = "cake233/php-amd64"
+
+[server.node1]
+name = "cn"
+current = false
+last = true
+split = false
+
+[server.node2]
+name = "us"
+current = false
+last = false
+split = false
+part = 12
+
+[server.node3]
+name = "global"
+current = false
+last = true
+split = false
+
+[server.node4]
+name = "docker"
+current = true
+
+# Environment variables  (●＞ω＜●)
+[env]
+LANG = "en_US.UTF-8"
+ PHP_INI_DIR=/usr/local/etc/php
+
+[version]
+php = 'PHP 8.0.13 (cli) (built: Nov 19 2021 21:31:18) ( NTS )
+Copyright (c) The PHP Group
+Zend Engine v4.0.13, Copyright (c) Zend Technologies'
+
+[other]
+phpize_deps = 'autoconf 		dpkg-dev 		file 		g++ 		gcc 		libc-dev 		make 		pkg-config 		re2c'
+php_extra_configure_args = '--enable-embed'
+php_cflags = '-fstack-protector-strong -fpic -fpie -O2 -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64'
+php_cppflags = '-fstack-protector-strong -fpic -fpie -O2 -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64'
+php_ldflags = '-Wl,-O1 -pie'
+gpg_keys = '1729F83938DA44E27BA0F4D3DBDB397470D12172 BFDDD28642824F8118EF77909B67A5C12229118F'
+php_url = 'https://www.php.net/distributions/php-8.0.13.tar.xz'
+php_src_url = 'https://www.php.net/distributions/php-8.0.13.tar.xz.asc'
+```
