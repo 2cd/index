@@ -8,12 +8,12 @@ platform = "linux/arm64"
 x11_or_wayland = false
 
 [file]
-name = "alpine-zsh-arm64_2021-11-28_10-47.tar.zst"
+name = "alpine-zsh-arm64_2021-11-28_16-59.tar.zst"
 
 version = "0.0.0-alpha.1"
 
 # This value can be used to verify the integrity of the file
-sha256 = "fb392b2e554f41939d6719ebd43c910db91bc4a069d1c1328d6db90fd9d466ed"
+sha256 = "d2215eee08b0f22ef4a59bf6f615b396304b5c07ed6b3bebf9893ea15110f6ab"
 
 # zstd: [1-22]
 zstd-level = 13
@@ -21,37 +21,45 @@ zstd-level = 13
 [file.size]
 # Installed size ≈ tar-size
 # Installed size is approximately equal to the size of the tar file
-tar = "93M"
-tar_bytes = 96697344
+tar = "91M"
+tar_bytes = 94794752
 
 # Space occupied ≈ tar-size + zstd-size
 # You will need to prepare a large enough space before installation.
-zstd = "32M"
-zstd_bytes = 32582213
+zstd = "30M"
+zstd_bytes = 31400927
 
 [compatibility]
 compatible_mode = true
-current_version = "latest02"
-current_date = 20211128
+
 last_version = "latest01"
-last_date = 20211109
+
+# The value is &str, not int
+last_date = "20211109"
+last_tag = ""
+last_file = "alpine-edge_arm64+zsh-2021_11-09-rootfs.tar.zst"
+
+current_version = "latest02"
+current_date = "20211128"
 # edition 2021
 # DISTRO_NAME=alpine-edge_arm64
-# ROOTFS_FILE=alpine-zsh-arm64_2021-11-28_10-47.tar.zst
+# ROOTFS_FILE=alpine-zsh-arm64_2021-11-28_16-59.tar.zst
 # BUILD_DATE=20211128
+# BUILD_TAG=2021-11-28
 # STATUS=completed
 # VERSION=latest02
-# END_TIME=10:47
+# END_TIME=16:59
 
 [time]
 format = "rfc-3339"
 zone = "UTC"
-begin = 2021-11-28 10:43:39.408754532+00:00
-start-sync_0 = 10:45:58
-start-zstd = 10:47:23
-start-sync_1 = 10:47:28
-end-sync_1 = 10:47:36
-end = 2021-11-28 10:47:36.707306906+00:00
+date = 2021-11-28
+begin = 2021-11-28 16:53:23.569101717+00:00
+start-sync_0 = 16:57:27
+start-zstd = 16:58:50
+start-sync_1 = 16:58:55
+end-sync_1 = 16:59:01
+end = 2021-11-28 16:59:01.472339799+00:00
 
 [server]
 repo = "cake233/alpine-zsh-arm64"
@@ -72,7 +80,7 @@ part = 12
 [server.node3]
 name = "global"
 current = false
-last = false
+last = true
 split = false
 
 [server.node4]
