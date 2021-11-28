@@ -8,12 +8,12 @@ platform = "linux/arm64"
 x11_or_wayland = false
 
 [file]
-name = "node-musl_arm64_2021-11-28_22-38.tar.zst"
+name = "node-musl_arm64_2021-11-28_23-02.tar.zst"
 
 version = "0.0.0-alpha.1"
 
 # This value can be used to verify the integrity of the file
-sha256 = "896a0f3932b90f0dc1ba70de9933d1069839e4988294ba4b2573f579fe2427a3"
+sha256 = "ba49781465817df6b34fee1fbd51a41e86aad503f16d189a2028c8965aecc449"
 
 # zstd: [1-22]
 zstd-level = 20
@@ -27,7 +27,7 @@ tar_bytes = 187028992
 # Space occupied ≈ tar-size + zstd-size
 # You will need to prepare a large enough space before installation.
 zstd = "33M"
-zstd_bytes = 33605619
+zstd_bytes = 33606643
 
 [compatibility]
 compatible_mode = true
@@ -43,23 +43,23 @@ current_version = "latest02"
 current_date = "20211128"
 # edition 2021
 # DISTRO_NAME=node_arm64
-# ROOTFS_FILE=node-musl_arm64_2021-11-28_22-38.tar.zst
+# ROOTFS_FILE=node-musl_arm64_2021-11-28_23-02.tar.zst
 # BUILD_DATE=20211128
 # BUILD_TAG=2021-11-28
 # STATUS=completed
 # VERSION=latest02
-# END_TIME=22:38
+# END_TIME=23:02
 
 [time]
 format = "rfc-3339"
 zone = "UTC"
 date = 2021-11-28
-begin = 2021-11-28 22:36:59.456720959+00:00
-start-sync_0 = 22:37:35
-start-zstd = 22:37:43
-start-sync_1 = 22:38:34
-end-sync_1 = 22:38:41
-end = 2021-11-28 22:38:41.527692050+00:00
+begin = 2021-11-28 23:00:36.443785658+00:00
+start-sync_0 = 23:01:08
+start-zstd = 23:01:17
+start-sync_1 = 23:02:05
+end-sync_1 = 23:02:12
+end = 2021-11-28 23:02:12.893203446+00:00
 
 [server]
 repo = "cake233/node-alpine-arm64"
