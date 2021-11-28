@@ -85,12 +85,12 @@ platform = "linux/amd64"
 x11_or_wayland = true
 
 [file]
-name = "arch-mate-amd64_2021-11-28_19-23.tar.zst"
+name = "arch-mate_amd64_2021-11-28_23-47.tar.zst"
 
 version = "0.0.0-alpha.1"
 
 # This value can be used to verify the integrity of the file
-sha256 = "ea265544a50e9d6fc85c5e9adc92384ecec770efec004535a2194b68a9ba982c"
+sha256 = "50d27fece239b3bba0626967ad6b464e8bf7aea4d0d7d2ad8060114993a5e5ec"
 
 # zstd: [1-22]
 zstd-level = 15
@@ -99,12 +99,12 @@ zstd-level = 15
 # Installed size ≈ tar-size
 # Installed size is approximately equal to the size of the tar file
 tar = "4.5G"
-tar_bytes = 4749721088
+tar_bytes = 4726382592
 
 # Space occupied ≈ tar-size + zstd-size
 # You will need to prepare a large enough space before installation.
 zstd = "1.4G"
-zstd_bytes = 1459844677
+zstd_bytes = 1452757752
 
 [compatibility]
 compatible_mode = true
@@ -120,23 +120,23 @@ current_version = "latest01"
 current_date = "20211128"
 # edition 2021
 # DISTRO_NAME=arch_amd64
-# ROOTFS_FILE=arch-mate-amd64_2021-11-28_19-23.tar.zst
+# ROOTFS_FILE=arch-mate_amd64_2021-11-28_23-47.tar.zst
 # BUILD_DATE=20211128
 # BUILD_TAG=2021-11-28
 # STATUS=completed
 # VERSION=latest01
-# END_TIME=19:23
+# END_TIME=23:47
 
 [time]
 format = "rfc-3339"
 zone = "UTC"
 date = 2021-11-28
-begin = 2021-11-28 19:02:10.765939539+00:00
-start-sync_0 = 19:10:07
-start-zstd = 19:15:22
-start-sync_1 = 19:22:10
-end-sync_1 = 19:23:48
-end = 2021-11-28 19:23:48.070164158+00:00
+begin = 2021-11-28 23:26:22.306717667+00:00
+start-sync_0 = 23:35:48
+start-zstd = 23:40:34
+start-sync_1 = 23:46:14
+end-sync_1 = 23:47:33
+end = 2021-11-28 23:47:34.022460011+00:00
 
 [server]
 repo = "cake233/arch-mate-amd64"
@@ -150,7 +150,7 @@ split = false
 [server.node2]
 name = "us"
 current = false
-last = false
+last = true
 split = false
 part = 12
 
