@@ -8,12 +8,12 @@ platform = "linux/amd64"
 x11_or_wayland = false
 
 [file]
-name = "go_amd64_2021-11-28_22-39.tar.zst"
+name = "go_amd64_2021-11-28_23-05.tar.zst"
 
 version = "0.0.0-alpha.1"
 
 # This value can be used to verify the integrity of the file
-sha256 = "987a53e2651022e9a4ea544358513a1daae17b289601982ca45727f3be41d10c"
+sha256 = "1821c5ba5c999c4e3b860dc7ddf77cfa37ab1fdb78defdbf23b62df1649dca65"
 
 # zstd: [1-22]
 zstd-level = 20
@@ -27,7 +27,7 @@ tar_bytes = 989388800
 # Space occupied ≈ tar-size + zstd-size
 # You will need to prepare a large enough space before installation.
 zstd = "222M"
-zstd_bytes = 232301628
+zstd_bytes = 232304025
 
 [compatibility]
 compatible_mode = true
@@ -43,23 +43,23 @@ current_version = "latest01"
 current_date = "20211128"
 # edition 2021
 # DISTRO_NAME=go_amd64
-# ROOTFS_FILE=go_amd64_2021-11-28_22-39.tar.zst
+# ROOTFS_FILE=go_amd64_2021-11-28_23-05.tar.zst
 # BUILD_DATE=20211128
 # BUILD_TAG=2021-11-28
 # STATUS=completed
 # VERSION=latest01
-# END_TIME=22:39
+# END_TIME=23:05
 
 [time]
 format = "rfc-3339"
 zone = "UTC"
 date = 2021-11-28
-begin = 2021-11-28 22:33:01.162953104+00:00
-start-sync_0 = 22:34:03
-start-zstd = 22:34:58
-start-sync_1 = 22:39:11
-end-sync_1 = 22:39:31
-end = 2021-11-28 22:39:31.442596795+00:00
+begin = 2021-11-28 22:59:20.180371186+00:00
+start-sync_0 = 23:00:10
+start-zstd = 23:00:52
+start-sync_1 = 23:05:06
+end-sync_1 = 23:05:31
+end = 2021-11-28 23:05:32.012780427+00:00
 
 [server]
 repo = "cake233/go-amd64"
