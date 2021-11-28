@@ -28,12 +28,12 @@ platform = "linux/amd64"
 x11_or_wayland = false
 
 [file]
-name = "ruby-musl_amd64_2021-11-28_22-40.tar.zst"
+name = "ruby-musl_amd64_2021-11-28_23-03.tar.zst"
 
 version = "0.0.0-alpha.1"
 
 # This value can be used to verify the integrity of the file
-sha256 = "c81a5631af0f909ce5bbc94b8554218614c0b1ed2e8177437c42f6d4070f5ee0"
+sha256 = "86b90ed74a25f3908098c83631bc6d58a9fe2b1452499c2291314fa9bf7b4aad"
 
 # zstd: [1-22]
 zstd-level = 18
@@ -47,7 +47,7 @@ tar_bytes = 79244288
 # Space occupied ≈ tar-size + zstd-size
 # You will need to prepare a large enough space before installation.
 zstd = "32M"
-zstd_bytes = 32556690
+zstd_bytes = 32556811
 
 [compatibility]
 compatible_mode = true
@@ -63,23 +63,23 @@ current_version = "latest01"
 current_date = "20211128"
 # edition 2021
 # DISTRO_NAME=ruby_amd64
-# ROOTFS_FILE=ruby-musl_amd64_2021-11-28_22-40.tar.zst
+# ROOTFS_FILE=ruby-musl_amd64_2021-11-28_23-03.tar.zst
 # BUILD_DATE=20211128
 # BUILD_TAG=2021-11-28
 # STATUS=completed
 # VERSION=latest01
-# END_TIME=22:40
+# END_TIME=23:03
 
 [time]
 format = "rfc-3339"
 zone = "UTC"
 date = 2021-11-28
-begin = 2021-11-28 22:39:47.687265107+00:00
-start-sync_0 = 22:40:02
-start-zstd = 22:40:09
-start-sync_1 = 22:40:22
-end-sync_1 = 22:40:29
-end = 2021-11-28 22:40:29.780702501+00:00
+begin = 2021-11-28 23:02:28.505007630+00:00
+start-sync_0 = 23:02:43
+start-zstd = 23:02:50
+start-sync_1 = 23:03:02
+end-sync_1 = 23:03:09
+end = 2021-11-28 23:03:09.728003420+00:00
 
 [server]
 repo = "cake233/ruby-alpine-amd64"
