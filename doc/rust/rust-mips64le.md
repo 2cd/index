@@ -39,12 +39,12 @@ platform = "linux/mips64le"
 x11_or_wayland = false
 
 [file]
-name = "rust-mips64le_2021-11-28_22-23.tar.zst"
+name = "rust_mips64el_2021-11-28_23-19.tar.zst"
 
 version = "0.0.0-alpha.1"
 
 # This value can be used to verify the integrity of the file
-sha256 = "78e253995cc27a532b2bb69f42c5633b450a7daf5f09c3bf49de3544f4fe9b7a"
+sha256 = "d7aae96e474a83fb93377ec85c69b1645f5d8c4687829cea7f4023abc23e0107"
 
 # zstd: [1-22]
 zstd-level = 20
@@ -58,7 +58,7 @@ tar_bytes = 1407841792
 # Space occupied ≈ tar-size + zstd-size
 # You will need to prepare a large enough space before installation.
 zstd = "298M"
-zstd_bytes = 312329045
+zstd_bytes = 312325936
 
 [compatibility]
 compatible_mode = true
@@ -74,23 +74,23 @@ current_version = "latest01"
 current_date = "20211128"
 # edition 2021
 # DISTRO_NAME=rust_mips64el
-# ROOTFS_FILE=rust-mips64le_2021-11-28_22-23.tar.zst
+# ROOTFS_FILE=rust_mips64el_2021-11-28_23-19.tar.zst
 # BUILD_DATE=20211128
 # BUILD_TAG=2021-11-28
 # STATUS=completed
 # VERSION=latest01
-# END_TIME=22:23
+# END_TIME=23:19
 
 [time]
 format = "rfc-3339"
 zone = "UTC"
 date = 2021-11-28
-begin = 2021-11-28 22:10:03.866905555+00:00
-start-sync_0 = 22:16:23
-start-zstd = 22:17:11
-start-sync_1 = 22:23:09
-end-sync_1 = 22:23:33
-end = 2021-11-28 22:23:33.132058883+00:00
+begin = 2021-11-28 23:05:14.137294500+00:00
+start-sync_0 = 23:12:06
+start-zstd = 23:13:00
+start-sync_1 = 23:18:59
+end-sync_1 = 23:19:24
+end = 2021-11-28 23:19:24.526501515+00:00
 
 [server]
 repo = "cake233/rust-mips64le"
@@ -104,7 +104,7 @@ split = false
 [server.node2]
 name = "us"
 current = false
-last = false
+last = true
 split = false
 part = 12
 
