@@ -15,68 +15,97 @@ docker run \
     docker exec -it arch-zsh-arm64 zsh
 ```
 
-## build info
+## arch-zsh-arm64.toml
 
 ```toml
 [main]
 name = "arch"
-tag = ["zsh", "2021-11-27"]
+tag = ["zsh", "2021-11-28"]
 os = "arch"
 release = "latest"
 arch = "arm64"
 platform = "linux/arm64"
-nogui = true
-
-# If the value is false, then the container will not be downloaded.
-completed = true
+x11_or_wayland = false
 
 [file]
-name = "arch-zsh-arm64_2021-11-27_16-42.tar.zst"
+name = "arch-zsh-arm64_2021-11-28_18-55.tar.zst"
 
 version = "0.0.0-alpha.1"
 
 # This value can be used to verify the integrity of the file
-sha256 = "2d3ef8e81aa746a57f2427f966c6b4a2ae750070a519c436620216d02989d11b"
+sha256 = "8e25717bf6d10a543e8e69fd83b38f52c66c6377c6d68226dcc3d62efe9b5642"
 
 # zstd: [1-22]
-zstd-level = 13
+zstd-level = 20
 
 [file.size]
 # Installed size ≈ tar-size
 # Installed size is approximately equal to the size of the tar file
 tar = "960M"
-tar-bytes = 1006012416
+tar_bytes = 1006014976
 
 # Space occupied ≈ tar-size + zstd-size
 # You will need to prepare a large enough space before installation.
-zstd = "272M"
-zstd-bytes = 284559956
+zstd = "220M"
+zstd_bytes = 230509419
 
 [compatibility]
 compatible_mode = true
-rootfs_version = "latest01"
+
+last_version = "latest02"
+
+# The value is &str, not int
+last_date = "20211103"
+last_tag = ""
+last_file = "arch_arm64+zsh-2021_11-03-rootfs.tar.zst"
+
+current_version = "latest01"
+current_date = "20211128"
 # edition 2021
 # DISTRO_NAME=arch_arm64
-# ROOTFS_FILE=arch-zsh-arm64_2021-11-27_16-42.tar.zst
-# BUILD_DATE=20211127
+# ROOTFS_FILE=arch-zsh-arm64_2021-11-28_18-55.tar.zst
+# BUILD_DATE=20211128
+# BUILD_TAG=2021-11-28
 # STATUS=completed
 # VERSION=latest01
-# END_TIME=16:42
+# END_TIME=18:55
 
 [time]
 format = "rfc-3339"
 zone = "UTC"
-begin = 2021-11-27 16:33:05.129522938+00:00
-start-sync_0 = 16:39:52
-start-zstd = 16:41:34
-start-sync_1 = 16:42:25
-end-sync_1 = 16:42:49
-end = 2021-11-27 16:42:49.151267850+00:00
+date = 2021-11-28
+begin = 2021-11-28 18:42:22.502495488+00:00
+start-sync_0 = 18:49:35
+start-zstd = 18:51:15
+start-sync_1 = 18:55:05
+end-sync_1 = 18:55:25
+end = 2021-11-28 18:55:25.854245882+00:00
 
 [server]
-name = "docker"
-node = 4
 repo = "cake233/arch-zsh-arm64"
+
+[server.node1]
+name = "cn"
+current = false
+last = true
+split = false
+
+[server.node2]
+name = "us"
+current = false
+last = false
+split = false
+part = 12
+
+[server.node3]
+name = "global"
+current = false
+last = true
+split = false
+
+[server.node4]
+name = "docker"
+current = true
 
 # Environment variables  (●＞ω＜●)
 [env]
