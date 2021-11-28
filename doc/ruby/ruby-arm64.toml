@@ -8,12 +8,12 @@ platform = "linux/arm64"
 x11_or_wayland = false
 
 [file]
-name = "ruby_arm64_2021-11-28_22-46.tar.zst"
+name = "ruby_arm64_2021-11-28_23-08.tar.zst"
 
 version = "0.0.0-alpha.1"
 
 # This value can be used to verify the integrity of the file
-sha256 = "ec57031f0a5000c280acca9413fdb07334e37b5195d2650184ff5e6b9058d3b6"
+sha256 = "09d654af5c9d57ea13741e8622e70e902c2dfd28ac65f0ab6a5fb9e62257f5d7"
 
 # zstd: [1-22]
 zstd-level = 18
@@ -27,7 +27,7 @@ tar_bytes = 877925376
 # Space occupied ≈ tar-size + zstd-size
 # You will need to prepare a large enough space before installation.
 zstd = "227M"
-zstd_bytes = 237295396
+zstd_bytes = 237281719
 
 [compatibility]
 compatible_mode = true
@@ -43,23 +43,23 @@ current_version = "latest01"
 current_date = "20211128"
 # edition 2021
 # DISTRO_NAME=ruby_arm64
-# ROOTFS_FILE=ruby_arm64_2021-11-28_22-46.tar.zst
+# ROOTFS_FILE=ruby_arm64_2021-11-28_23-08.tar.zst
 # BUILD_DATE=20211128
 # BUILD_TAG=2021-11-28
 # STATUS=completed
 # VERSION=latest01
-# END_TIME=22:46
+# END_TIME=23:08
 
 [time]
 format = "rfc-3339"
 zone = "UTC"
 date = 2021-11-28
-begin = 2021-11-28 22:40:33.714912739+00:00
-start-sync_0 = 22:43:10
-start-zstd = 22:43:26
-start-sync_1 = 22:45:57
-end-sync_1 = 22:46:18
-end = 2021-11-28 22:46:18.167393929+00:00
+begin = 2021-11-28 23:03:07.043716738+00:00
+start-sync_0 = 23:05:31
+start-zstd = 23:05:46
+start-sync_1 = 23:08:14
+end-sync_1 = 23:08:35
+end = 2021-11-28 23:08:35.143927732+00:00
 
 [server]
 repo = "cake233/ruby-arm64"
