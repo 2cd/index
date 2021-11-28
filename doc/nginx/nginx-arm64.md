@@ -28,12 +28,12 @@ platform = "linux/arm64"
 x11_or_wayland = false
 
 [file]
-name = "nginx_arm64_2021-11-28_22-40.tar.zst"
+name = "nginx_arm64_2021-11-28_23-03.tar.zst"
 
 version = "0.0.0-alpha.1"
 
 # This value can be used to verify the integrity of the file
-sha256 = "e507282e118b81f2ee56bdf48c113cf19ee803ef020e491a5e24b1ebe44461d3"
+sha256 = "82a2e49e5de6983dd4932d01b95c73c0dbd9868d89c777ef6b3aed64f7b0ff5c"
 
 # zstd: [1-22]
 zstd-level = 20
@@ -47,7 +47,7 @@ tar_bytes = 162939392
 # Space occupied ≈ tar-size + zstd-size
 # You will need to prepare a large enough space before installation.
 zstd = "40M"
-zstd_bytes = 41542684
+zstd_bytes = 41541373
 
 [compatibility]
 compatible_mode = true
@@ -63,23 +63,23 @@ current_version = "latest01"
 current_date = "20211128"
 # edition 2021
 # DISTRO_NAME=nginx_arm64
-# ROOTFS_FILE=nginx_arm64_2021-11-28_22-40.tar.zst
+# ROOTFS_FILE=nginx_arm64_2021-11-28_23-03.tar.zst
 # BUILD_DATE=20211128
 # BUILD_TAG=2021-11-28
 # STATUS=completed
 # VERSION=latest01
-# END_TIME=22:40
+# END_TIME=23:03
 
 [time]
 format = "rfc-3339"
 zone = "UTC"
 date = 2021-11-28
-begin = 2021-11-28 22:36:20.996581869+00:00
-start-sync_0 = 22:38:44
-start-zstd = 22:38:54
-start-sync_1 = 22:39:55
-end-sync_1 = 22:40:03
-end = 2021-11-28 22:40:03.393692139+00:00
+begin = 2021-11-28 23:00:28.603189437+00:00
+start-sync_0 = 23:02:12
+start-zstd = 23:02:21
+start-sync_1 = 23:03:12
+end-sync_1 = 23:03:20
+end = 2021-11-28 23:03:20.261156937+00:00
 
 [server]
 repo = "cake233/nginx-arm64"
