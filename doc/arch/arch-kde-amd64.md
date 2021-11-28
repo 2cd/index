@@ -85,12 +85,12 @@ platform = "linux/amd64"
 x11_or_wayland = true
 
 [file]
-name = "arch-kde-amd64_2021-11-28_19-24.tar.zst"
+name = "arch-kde_amd64_2021-11-28_23-48.tar.zst"
 
 version = "0.0.0-alpha.1"
 
 # This value can be used to verify the integrity of the file
-sha256 = "fa09889cef13c7dbc389e00f1c5bd4bd6f9c0c3c7fb50a95633f8159f845f8ae"
+sha256 = "e7a12d2512eeef8e658bb4367494719374757216207095b7acaf3be34158c325"
 
 # zstd: [1-22]
 zstd-level = 15
@@ -99,12 +99,12 @@ zstd-level = 15
 # Installed size ≈ tar-size
 # Installed size is approximately equal to the size of the tar file
 tar = "4.4G"
-tar_bytes = 4671697920
+tar_bytes = 4671521280
 
 # Space occupied ≈ tar-size + zstd-size
 # You will need to prepare a large enough space before installation.
 zstd = "1.5G"
-zstd_bytes = 1527876397
+zstd_bytes = 1527834607
 
 [compatibility]
 compatible_mode = true
@@ -120,23 +120,23 @@ current_version = "latest01"
 current_date = "20211128"
 # edition 2021
 # DISTRO_NAME=arch_amd64
-# ROOTFS_FILE=arch-kde-amd64_2021-11-28_19-24.tar.zst
+# ROOTFS_FILE=arch-kde_amd64_2021-11-28_23-48.tar.zst
 # BUILD_DATE=20211128
 # BUILD_TAG=2021-11-28
 # STATUS=completed
 # VERSION=latest01
-# END_TIME=19:24
+# END_TIME=23:48
 
 [time]
 format = "rfc-3339"
 zone = "UTC"
 date = 2021-11-28
-begin = 2021-11-28 19:02:18.341094956+00:00
-start-sync_0 = 19:10:05
-start-zstd = 19:15:40
-start-sync_1 = 19:22:41
-end-sync_1 = 19:24:24
-end = 2021-11-28 19:24:24.846945138+00:00
+begin = 2021-11-28 23:26:21.551472473+00:00
+start-sync_0 = 23:36:22
+start-zstd = 23:41:26
+start-sync_1 = 23:47:07
+end-sync_1 = 23:48:44
+end = 2021-11-28 23:48:44.915437915+00:00
 
 [server]
 repo = "cake233/arch-kde-amd64"
@@ -150,7 +150,7 @@ split = false
 [server.node2]
 name = "us"
 current = false
-last = false
+last = true
 split = false
 part = 12
 
