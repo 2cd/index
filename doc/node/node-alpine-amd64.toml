@@ -8,12 +8,12 @@ platform = "linux/amd64"
 x11_or_wayland = false
 
 [file]
-name = "node-musl_amd64_2021-11-28_22-38.tar.zst"
+name = "node-musl_amd64_2021-11-28_23-01.tar.zst"
 
 version = "0.0.0-alpha.1"
 
 # This value can be used to verify the integrity of the file
-sha256 = "cbd9f0620a00eafcf93ba8c4d09d889edca054ea15209f533391eae11025940b"
+sha256 = "80b47046b6e8d838bcde84e4462d4ddab51370a9263b9bb3d71f2d18fd7cb9fd"
 
 # zstd: [1-22]
 zstd-level = 20
@@ -27,7 +27,7 @@ tar_bytes = 189308928
 # Space occupied ≈ tar-size + zstd-size
 # You will need to prepare a large enough space before installation.
 zstd = "33M"
-zstd_bytes = 33897342
+zstd_bytes = 33898002
 
 [compatibility]
 compatible_mode = true
@@ -43,23 +43,23 @@ current_version = "latest01"
 current_date = "20211128"
 # edition 2021
 # DISTRO_NAME=node_amd64
-# ROOTFS_FILE=node-musl_amd64_2021-11-28_22-38.tar.zst
+# ROOTFS_FILE=node-musl_amd64_2021-11-28_23-01.tar.zst
 # BUILD_DATE=20211128
 # BUILD_TAG=2021-11-28
 # STATUS=completed
 # VERSION=latest01
-# END_TIME=22:38
+# END_TIME=23:01
 
 [time]
 format = "rfc-3339"
 zone = "UTC"
 date = 2021-11-28
-begin = 2021-11-28 22:36:51.282483690+00:00
-start-sync_0 = 22:37:09
-start-zstd = 22:37:20
-start-sync_1 = 22:38:04
-end-sync_1 = 22:38:13
-end = 2021-11-28 22:38:13.598851625+00:00
+begin = 2021-11-28 23:00:35.198169870+00:00
+start-sync_0 = 23:00:52
+start-zstd = 23:01:01
+start-sync_1 = 23:01:46
+end-sync_1 = 23:01:52
+end = 2021-11-28 23:01:52.864734516+00:00
 
 [server]
 repo = "cake233/node-alpine-amd64"
