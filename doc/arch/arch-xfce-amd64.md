@@ -85,12 +85,12 @@ platform = "linux/amd64"
 x11_or_wayland = true
 
 [file]
-name = "arch-xfce-amd64_2021-11-28_19-24.tar.zst"
+name = "arch-xfce_amd64_2021-11-28_23-45.tar.zst"
 
 version = "0.0.0-alpha.1"
 
 # This value can be used to verify the integrity of the file
-sha256 = "d9c90a74064721f132a88295e28cfc0c65863a577ceb8a95c886bc2023b139c4"
+sha256 = "3195e8deed51d88a1b2b2c51b5e5bdbe89eff808f018ac65ade554bf808f48dc"
 
 # zstd: [1-22]
 zstd-level = 15
@@ -99,12 +99,12 @@ zstd-level = 15
 # Installed size ≈ tar-size
 # Installed size is approximately equal to the size of the tar file
 tar = "3.6G"
-tar_bytes = 3846575616
+tar_bytes = 3829494784
 
 # Space occupied ≈ tar-size + zstd-size
 # You will need to prepare a large enough space before installation.
 zstd = "1.2G"
-zstd_bytes = 1265298469
+zstd_bytes = 1247777181
 
 [compatibility]
 compatible_mode = true
@@ -120,23 +120,23 @@ current_version = "latest01"
 current_date = "20211128"
 # edition 2021
 # DISTRO_NAME=arch_amd64
-# ROOTFS_FILE=arch-xfce-amd64_2021-11-28_19-24.tar.zst
+# ROOTFS_FILE=arch-xfce_amd64_2021-11-28_23-45.tar.zst
 # BUILD_DATE=20211128
 # BUILD_TAG=2021-11-28
 # STATUS=completed
 # VERSION=latest01
-# END_TIME=19:24
+# END_TIME=23:45
 
 [time]
 format = "rfc-3339"
 zone = "UTC"
 date = 2021-11-28
-begin = 2021-11-28 19:02:11.080808524+00:00
-start-sync_0 = 19:13:49
-start-zstd = 19:17:46
-start-sync_1 = 19:22:47
-end-sync_1 = 19:24:06
-end = 2021-11-28 19:24:06.415838433+00:00
+begin = 2021-11-28 23:26:23.766533524+00:00
+start-sync_0 = 23:35:49
+start-zstd = 23:39:15
+start-sync_1 = 23:44:27
+end-sync_1 = 23:45:45
+end = 2021-11-28 23:45:45.193335815+00:00
 
 [server]
 repo = "cake233/arch-xfce-amd64"
@@ -150,7 +150,7 @@ split = false
 [server.node2]
 name = "us"
 current = false
-last = false
+last = true
 split = false
 part = 12
 
