@@ -15,27 +15,25 @@ docker run \
     docker exec -it alpine-zsh-amd64 zsh
 ```
 
-## build info
+## alpine-zsh-amd64.toml
 
 ```toml
 [main]
 name = "alpine"
-tag = ["zsh", "2021-11-19"]
+tag = ["zsh", "2021-11-28"]
 os = "alpine"
 release = "edge"
 arch = "amd64"
-nogui = true
-
-# If the value is false, then the container will not be downloaded.
-completed = true
+platform = "linux/amd64"
+x11_or_wayland = false
 
 [file]
-name = "alpine-zsh-amd64_2021-11-19_22-20.tar.zst"
+name = "alpine-zsh-amd64_2021-11-28_10-47.tar.zst"
 
 version = "0.0.0-alpha.1"
 
 # This value can be used to verify the integrity of the file
-sha256 = "d54f7a1e2496f76deeff61a9112d904666b225fb91061fc4ce17071a554be9de"
+sha256 = "56cbea8d0ca1ab50375c1cf3230fede95a0d7de310e32154636a3d8a6e26ccaa"
 
 # zstd: [1-22]
 zstd-level = 13
@@ -43,41 +41,65 @@ zstd-level = 13
 [file.size]
 # Installed size ≈ tar-size
 # Installed size is approximately equal to the size of the tar file
-tar = "93M"
-tar-bytes = 96668672
+tar = "90M"
+tar_bytes = 93686272
 
 # Space occupied ≈ tar-size + zstd-size
 # You will need to prepare a large enough space before installation.
-zstd = "32M"
-zstd-bytes = 33012024
+zstd = "30M"
+zstd_bytes = 31233289
 
 [compatibility]
 compatible_mode = true
-rootfs_version = "latest02"
+current_version = "latest02"
+current_date = 20211128
+last_version = "latest01"
+last_date = 20211109
 # edition 2021
 # DISTRO_NAME=alpine-edge_amd64
-# ROOTFS_FILE=alpine-zsh-amd64_2021-11-19_22-20.tar.zst
-# BUILD_DATE=20211119
+# ROOTFS_FILE=alpine-zsh-amd64_2021-11-28_10-47.tar.zst
+# BUILD_DATE=20211128
 # STATUS=completed
 # VERSION=latest02
-# END_TIME=22:20
+# END_TIME=10:47
 
 [time]
 format = "rfc-3339"
 zone = "UTC"
-begin = 2021-11-19 22:17:16.665084216+00:00
-start-sync_0 = 22:17:54
-start-zstd = 22:20:15
-start-sync_1 = 22:20:21
-end-sync_1 = 22:20:28
-end = 2021-11-19 22:20:28.151114167+00:00
+begin = 2021-11-28 10:43:37.587326943+00:00
+start-sync_0 = 10:46:23
+start-zstd = 10:47:45
+start-sync_1 = 10:47:50
+end-sync_1 = 10:47:56
+end = 2021-11-28 10:47:56.565587252+00:00
 
 [server]
-name = "docker"
-node = 4
 repo = "cake233/alpine-zsh-amd64"
+
+[server.node1]
+name = "cn"
+current = false
+last = true
+split = false
+
+[server.node2]
+name = "us"
+current = false
+last = false
+split = false
+part = 12
+
+[server.node3]
+name = "global"
+current = false
+last = false
+split = false
+
+[server.node4]
+name = "docker"
+current = true
 
 # Environment variables  (●＞ω＜●)
 [env]
-LANG = "en_US.UTF-8"
+LANG = "C.UTF-8"
 ```
