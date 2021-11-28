@@ -8,12 +8,12 @@ platform = "linux/arm64"
 x11_or_wayland = false
 
 [file]
-name = "mongo-arm64_2021-11-28_01-52.tar.zst"
+name = "mongo-arm64_2021-11-28_02-01.tar.zst"
 
 version = "0.0.0-alpha.1"
 
 # This value can be used to verify the integrity of the file
-sha256 = "6df62b1f64879ed792f790072a4bb39f8a13309699a02b7bffb8c05b716077d5"
+sha256 = "562c0ee5cae824b291ec81bf0dd153f1f30c2c6e3dfc95c237e1404b89b107fe"
 
 # zstd: [1-22]
 zstd-level = 13
@@ -27,7 +27,7 @@ tar_bytes = 908545024
 # Space occupied ≈ tar-size + zstd-size
 # You will need to prepare a large enough space before installation.
 zstd = "233M"
-zstd_bytes = 243575623
+zstd_bytes = 243575633
 
 [compatibility]
 compatible_mode = true
@@ -37,24 +37,24 @@ last_version = "latest02"
 last_date = 20211101
 # edition 2021
 # DISTRO_NAME=mongo_arm64
-# ROOTFS_FILE=mongo-arm64_2021-11-28_01-52.tar.zst
+# ROOTFS_FILE=mongo-arm64_2021-11-28_02-01.tar.zst
 # BUILD_DATE=20211128
 # STATUS=completed
 # VERSION=latest01
-# END_TIME=01:52
+# END_TIME=02:01
 
 [time]
 format = "rfc-3339"
 zone = "UTC"
-begin = 2021-11-28 01:47:23.849510363+00:00
-start-sync_0 = 01:50:43
-start-zstd = 01:51:22
-start-sync_1 = 01:52:06
-end-sync_1 = 01:52:27
-end = 2021-11-28 01:52:27.135130809+00:00
+begin = 2021-11-28 01:56:15.689281360+00:00
+start-sync_0 = 01:59:23
+start-zstd = 02:00:03
+start-sync_1 = 02:00:53
+end-sync_1 = 02:01:15
+end = 2021-11-28 02:01:15.534516440+00:00
 
 [server]
-repo = \"cake233/mongo-arm64\"
+repo = "cake233/mongo-arm64"
 
 [server.node1]
 name = "cn"
@@ -81,9 +81,9 @@ current = true
 
 # Environment variables  (●＞ω＜●)
 [env]
-LANG = \"en_US.UTF-8\"
- MONGO_PACKAGE=mongodb-org
- MONGO_REPO=repo.mongodb.org
+LANG = "en_US.UTF-8"
+MONGO_PACKAGE = 'mongodb-org'
+MONGO_REPO = 'repo.mongodb.org'
 
 [version]
 gosu = '1.12 (go1.13.10 on linux/arm64; gc)'
