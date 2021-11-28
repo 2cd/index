@@ -1,0 +1,66 @@
+[main]
+name = "code"
+tag = ["latest", "2021-11-27", "vsc", "vscode", "online"]
+os = "debian"
+release = "sid"
+arch = "amd64"
+platform = "linux/amd64"
+nogui = true
+
+# If the value is false, then the container will not be downloaded.
+completed = true
+
+[file]
+name = "code-amd64_2021-11-27_17-53.tar.zst"
+
+version = "0.0.0-alpha.1"
+
+# This value can be used to verify the integrity of the file
+sha256 = "2d98f57f574d7ee43618ba51a51a361ea92ee824dea2697544b4d2fc4c27e08d"
+
+# zstd: [1-22]
+zstd-level = 13
+
+[file.size]
+# Installed size ≈ tar-size
+# Installed size is approximately equal to the size of the tar file
+tar = "517M"
+tar-bytes = 541172224
+
+# Space occupied ≈ tar-size + zstd-size
+# You will need to prepare a large enough space before installation.
+zstd = "128M"
+zstd-bytes = 133841425
+
+[compatibility]
+compatible_mode = true
+rootfs_version = "latest02"
+# edition 2021
+# DISTRO_NAME=debian_amd64
+# ROOTFS_FILE=code-amd64_2021-11-27_17-53.tar.zst
+# BUILD_DATE=20211127
+# STATUS=completed
+# VERSION=latest02
+# END_TIME=17:53
+
+[time]
+format = "rfc-3339"
+zone = "UTC"
+begin = 2021-11-27 17:51:25.723531078+00:00
+start-sync_0 = 17:52:08
+start-zstd = 17:52:41
+start-sync_1 = 17:53:07
+end-sync_1 = 17:53:22
+end = 2021-11-27 17:53:22.649462357+00:00
+
+[server]
+name = "docker"
+node = 4
+repo = "cake233/code-amd64"
+
+# Environment variables  (●＞ω＜●)
+[env]
+LANG = "en_US.UTF-8"
+
+[version]
+code='3.12.0 b37ff28a0a582aee84a8f961755d0cb40a4081db'

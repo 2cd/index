@@ -1,0 +1,113 @@
+# arch-zsh-amd64
+
+## How to run it?
+
+```shell
+docker run \
+    -it \
+    --name arch-zsh-amd64 \
+    cake233/arch-zsh-amd64
+```
+
+## How to exec shell?
+
+```shell
+    docker exec -it arch-zsh-amd64 zsh
+```
+
+## arch-zsh-amd64.toml
+
+```toml
+[main]
+name = "arch"
+tag = ["zsh", "2021-11-28"]
+os = "arch"
+release = "latest"
+arch = "amd64"
+platform = "linux/amd64"
+x11_or_wayland = false
+
+[file]
+name = "arch-zsh-amd64_2021-11-28_18-51.tar.zst"
+
+version = "0.0.0-alpha.1"
+
+# This value can be used to verify the integrity of the file
+sha256 = "576c2b8293f9d2d89e599441b58c0fe7200496760d7b4d8e9ee7abbf12b5752c"
+
+# zstd: [1-22]
+zstd-level = 20
+
+[file.size]
+# Installed size ≈ tar-size
+# Installed size is approximately equal to the size of the tar file
+tar = "975M"
+tar_bytes = 1021854208
+
+# Space occupied ≈ tar-size + zstd-size
+# You will need to prepare a large enough space before installation.
+zstd = "235M"
+zstd_bytes = 245892170
+
+[compatibility]
+compatible_mode = true
+
+last_version = "latest01"
+
+# The value is &str, not int
+last_date = "20211103"
+last_tag = ""
+last_file = "arch_amd64+zsh-2021_11-03-rootfs.tar.zst"
+
+current_version = "latest02"
+current_date = "20211128"
+# edition 2021
+# DISTRO_NAME=arch_amd64
+# ROOTFS_FILE=arch-zsh-amd64_2021-11-28_18-51.tar.zst
+# BUILD_DATE=20211128
+# BUILD_TAG=2021-11-28
+# STATUS=completed
+# VERSION=latest02
+# END_TIME=18:51
+
+[time]
+format = "rfc-3339"
+zone = "UTC"
+date = 2021-11-28
+begin = 2021-11-28 18:42:23.217566435+00:00
+start-sync_0 = 18:44:34
+start-zstd = 18:46:22
+start-sync_1 = 18:51:04
+end-sync_1 = 18:51:26
+end = 2021-11-28 18:51:26.300599787+00:00
+
+[server]
+repo = "cake233/arch-zsh-amd64"
+
+[server.node1]
+name = "cn"
+current = false
+last = true
+split = false
+
+[server.node2]
+name = "us"
+current = false
+last = false
+split = false
+part = 12
+
+[server.node3]
+name = "global"
+current = false
+last = true
+split = false
+
+[server.node4]
+name = "docker"
+current = true
+
+# Environment variables  (●＞ω＜●)
+[env]
+LANG = "en_US.UTF-8"
+```
