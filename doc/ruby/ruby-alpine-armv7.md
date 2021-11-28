@@ -28,12 +28,12 @@ platform = "linux/arm/v7"
 x11_or_wayland = false
 
 [file]
-name = "ruby-musl_armhf_2021-11-28_22-41.tar.zst"
+name = "ruby-musl_armhf_2021-11-28_23-03.tar.zst"
 
 version = "0.0.0-alpha.1"
 
 # This value can be used to verify the integrity of the file
-sha256 = "850c8dd42fcb905f41edd6c6c178468b9abfa623fe333705c3637ec208d55ffe"
+sha256 = "a7a684c71128e7b818157d17ea40ee79272d128b0fb86b67baa120ebef2dbaad"
 
 # zstd: [1-22]
 zstd-level = 18
@@ -47,7 +47,7 @@ tar_bytes = 68652544
 # Space occupied ≈ tar-size + zstd-size
 # You will need to prepare a large enough space before installation.
 zstd = "30M"
-zstd_bytes = 30994711
+zstd_bytes = 30991169
 
 [compatibility]
 compatible_mode = true
@@ -63,23 +63,23 @@ current_version = "latest01"
 current_date = "20211128"
 # edition 2021
 # DISTRO_NAME=ruby_armhf
-# ROOTFS_FILE=ruby-musl_armhf_2021-11-28_22-41.tar.zst
+# ROOTFS_FILE=ruby-musl_armhf_2021-11-28_23-03.tar.zst
 # BUILD_DATE=20211128
 # BUILD_TAG=2021-11-28
 # STATUS=completed
 # VERSION=latest01
-# END_TIME=22:41
+# END_TIME=23:03
 
 [time]
 format = "rfc-3339"
 zone = "UTC"
 date = 2021-11-28
-begin = 2021-11-28 22:40:26.383121724+00:00
-start-sync_0 = 22:41:02
-start-zstd = 22:41:15
-start-sync_1 = 22:41:24
-end-sync_1 = 22:41:35
-end = 2021-11-28 22:41:35.645199661+00:00
+begin = 2021-11-28 23:02:34.242082650+00:00
+start-sync_0 = 23:03:01
+start-zstd = 23:03:08
+start-sync_1 = 23:03:17
+end-sync_1 = 23:03:24
+end = 2021-11-28 23:03:24.473768305+00:00
 
 [server]
 repo = "cake233/ruby-alpine-armv7"
