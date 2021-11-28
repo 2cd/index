@@ -1,0 +1,118 @@
+# nginx-arm64
+
+## How to run it?
+
+```shell
+docker run \
+    -it \
+    --name nginx-arm64 \
+    cake233/nginx-arm64
+```
+
+## How to exec shell?
+
+```shell
+    docker exec -it nginx-arm64 bash
+```
+
+## nginx-arm64.toml
+
+```toml
+[main]
+name = "nginx"
+tag = ["latest", "2021-11-28"]
+os = "debian"
+release = "stable"
+arch = "arm64"
+platform = "linux/arm64"
+x11_or_wayland = false
+
+[file]
+name = "nginx_arm64_2021-11-28_22-40.tar.zst"
+
+version = "0.0.0-alpha.1"
+
+# This value can be used to verify the integrity of the file
+sha256 = "e507282e118b81f2ee56bdf48c113cf19ee803ef020e491a5e24b1ebe44461d3"
+
+# zstd: [1-22]
+zstd-level = 20
+
+[file.size]
+# Installed size ≈ tar-size
+# Installed size is approximately equal to the size of the tar file
+tar = "156M"
+tar_bytes = 162939392
+
+# Space occupied ≈ tar-size + zstd-size
+# You will need to prepare a large enough space before installation.
+zstd = "40M"
+zstd_bytes = 41542684
+
+[compatibility]
+compatible_mode = true
+
+last_version = "latest02"
+
+# The value is &str, not int
+last_date = "20211101"
+last_tag = ""
+last_file = "nginx_arm64+latest-2021_11-01-rootfs.tar.zst"
+
+current_version = "latest01"
+current_date = "20211128"
+# edition 2021
+# DISTRO_NAME=nginx_arm64
+# ROOTFS_FILE=nginx_arm64_2021-11-28_22-40.tar.zst
+# BUILD_DATE=20211128
+# BUILD_TAG=2021-11-28
+# STATUS=completed
+# VERSION=latest01
+# END_TIME=22:40
+
+[time]
+format = "rfc-3339"
+zone = "UTC"
+date = 2021-11-28
+begin = 2021-11-28 22:36:20.996581869+00:00
+start-sync_0 = 22:38:44
+start-zstd = 22:38:54
+start-sync_1 = 22:39:55
+end-sync_1 = 22:40:03
+end = 2021-11-28 22:40:03.393692139+00:00
+
+[server]
+repo = "cake233/nginx-arm64"
+
+[server.node1]
+name = "cn"
+current = false
+last = true
+split = false
+
+[server.node2]
+name = "us"
+current = false
+last = true
+split = false
+part = 12
+
+[server.node3]
+name = "global"
+current = false
+last = true
+split = false
+
+[server.node4]
+name = "docker"
+current = true
+
+# Environment variables  (●＞ω＜●)
+[env]
+LANG = "en_US.UTF-8"
+
+[version]
+nginx = '1.21.4'
+njs = '0.7.0'
+pkg_release = '1~bullseye'
+```
