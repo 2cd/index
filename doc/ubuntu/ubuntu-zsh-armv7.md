@@ -1,0 +1,113 @@
+# ubuntu-zsh-armv7
+
+## How to run it?
+
+```shell
+docker run \
+    -it \
+    --name ubuntu-zsh-armv7 \
+    cake233/ubuntu-zsh-armv7
+```
+
+## How to exec shell?
+
+```shell
+    docker exec -it ubuntu-zsh-armv7 zsh
+```
+
+## ubuntu-zsh-armv7.toml
+
+```toml
+[main]
+name = "ubuntu"
+tag = ["zsh", "2021-11-28", "devel"]
+os = "ubuntu"
+release = "dev"
+arch = "armhf"
+platform = "linux/arm/v7"
+x11_or_wayland = false
+
+[file]
+name = "ubuntu-zsh-armv7_2021-11-28_21-09.tar.zst"
+
+version = "0.0.0-alpha.1"
+
+# This value can be used to verify the integrity of the file
+sha256 = "5aab4bbb2fe8b2c77f379bba9ef47afc78be5a51e84dc6c45017310022eb6780"
+
+# zstd: [1-22]
+zstd-level = 20
+
+[file.size]
+# Installed size ≈ tar-size
+# Installed size is approximately equal to the size of the tar file
+tar = "567M"
+tar_bytes = 593850368
+
+# Space occupied ≈ tar-size + zstd-size
+# You will need to prepare a large enough space before installation.
+zstd = "106M"
+zstd_bytes = 110428400
+
+[compatibility]
+compatible_mode = true
+
+last_version = "latest02"
+
+# The value is &str, not int
+last_date = "20211128"
+last_tag = ""
+last_file = ""
+
+current_version = "latest01"
+current_date = "20211128"
+# edition 2021
+# DISTRO_NAME=ubuntu-dev_armhf
+# ROOTFS_FILE=ubuntu-zsh-armv7_2021-11-28_21-09.tar.zst
+# BUILD_DATE=20211128
+# BUILD_TAG=2021-11-28
+# STATUS=completed
+# VERSION=latest01
+# END_TIME=21:09
+
+[time]
+format = "rfc-3339"
+zone = "UTC"
+date = 2021-11-28
+begin = 2021-11-28 20:51:08.105489883+00:00
+start-sync_0 = 21:05:15
+start-zstd = 21:06:57
+start-sync_1 = 21:08:59
+end-sync_1 = 21:09:12
+end = 2021-11-28 21:09:12.085853733+00:00
+
+[server]
+repo = "cake233/ubuntu-zsh-armv7"
+
+[server.node1]
+name = "cn"
+current = false
+last = true
+split = false
+
+[server.node2]
+name = "us"
+current = false
+last = false
+split = false
+part = 12
+
+[server.node3]
+name = "global"
+current = false
+last = true
+split = false
+
+[server.node4]
+name = "docker"
+current = true
+
+# Environment variables  (●＞ω＜●)
+[env]
+LANG = "en_US.UTF-8"
+```
