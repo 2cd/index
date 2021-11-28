@@ -8,12 +8,12 @@ platform = "linux/amd64"
 x11_or_wayland = false
 
 [file]
-name = "go-musl_amd64_2021-11-28_22-33.tar.zst"
+name = "go-musl_amd64_2021-11-28_23-00.tar.zst"
 
 version = "0.0.0-alpha.1"
 
 # This value can be used to verify the integrity of the file
-sha256 = "0c4bbec425258c96b33003070fa0aef65d7327a3e5754af30fa7b9d8c962e3ea"
+sha256 = "5839b8141975daf12ce0a4c3fc6f08a4266637727411455b916f244148133316"
 
 # zstd: [1-22]
 zstd-level = 20
@@ -27,7 +27,7 @@ tar_bytes = 338341888
 # Space occupied ≈ tar-size + zstd-size
 # You will need to prepare a large enough space before installation.
 zstd = "81M"
-zstd_bytes = 83995194
+zstd_bytes = 83990628
 
 [compatibility]
 compatible_mode = true
@@ -43,23 +43,23 @@ current_version = "latest01"
 current_date = "20211128"
 # edition 2021
 # DISTRO_NAME=go_amd64
-# ROOTFS_FILE=go-musl_amd64_2021-11-28_22-33.tar.zst
+# ROOTFS_FILE=go-musl_amd64_2021-11-28_23-00.tar.zst
 # BUILD_DATE=20211128
 # BUILD_TAG=2021-11-28
 # STATUS=completed
 # VERSION=latest01
-# END_TIME=22:33
+# END_TIME=23:00
 
 [time]
 format = "rfc-3339"
 zone = "UTC"
 date = 2021-11-28
-begin = 2021-11-28 22:30:54.031459232+00:00
-start-sync_0 = 22:31:20
-start-zstd = 22:31:37
-start-sync_1 = 22:33:16
-end-sync_1 = 22:33:31
-end = 2021-11-28 22:33:31.621565435+00:00
+begin = 2021-11-28 22:58:33.529354825+00:00
+start-sync_0 = 22:58:52
+start-zstd = 22:59:04
+start-sync_1 = 23:00:24
+end-sync_1 = 23:00:37
+end = 2021-11-28 23:00:37.096157367+00:00
 
 [server]
 repo = "cake233/go-alpine-amd64"
