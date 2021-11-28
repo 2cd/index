@@ -28,15 +28,15 @@ platform = "linux/arm64"
 x11_or_wayland = false
 
 [file]
-name = "manjaro-zsh-arm64_2021-11-28_20-15.tar.zst"
+name = "manjaro-zsh-arm64_2021-11-28_21-08.tar.zst"
 
 version = "0.0.0-alpha.1"
 
 # This value can be used to verify the integrity of the file
-sha256 = "5d4a14fceb1d236c1f00b8f3ebe392b8e8677afe31a6b8606c2f373ddaf75b44"
+sha256 = "91c8967b8eaec561fa3e345fceba20e378ba4a36590e038849a2fed2522e0c29"
 
 # zstd: [1-22]
-zstd-level = 13
+zstd-level = 20
 
 [file.size]
 # Installed size ≈ tar-size
@@ -46,8 +46,8 @@ tar_bytes = 1146412544
 
 # Space occupied ≈ tar-size + zstd-size
 # You will need to prepare a large enough space before installation.
-zstd = "302M"
-zstd_bytes = 316512893
+zstd = "241M"
+zstd_bytes = 251718052
 
 [compatibility]
 compatible_mode = true
@@ -63,23 +63,23 @@ current_version = "latest01"
 current_date = "20211128"
 # edition 2021
 # DISTRO_NAME=manjaro-stable_arm64
-# ROOTFS_FILE=manjaro-zsh-arm64_2021-11-28_20-15.tar.zst
+# ROOTFS_FILE=manjaro-zsh-arm64_2021-11-28_21-08.tar.zst
 # BUILD_DATE=20211128
 # BUILD_TAG=2021-11-28
 # STATUS=completed
 # VERSION=latest01
-# END_TIME=20:15
+# END_TIME=21:08
 
 [time]
 format = "rfc-3339"
 zone = "UTC"
 date = 2021-11-28
-begin = 2021-11-28 20:02:31.044488645+00:00
-start-sync_0 = 20:12:11
-start-zstd = 20:13:42
-start-sync_1 = 20:14:44
-end-sync_1 = 20:15:15
-end = 2021-11-28 20:15:15.823246282+00:00
+begin = 2021-11-28 20:51:12.231617070+00:00
+start-sync_0 = 21:02:04
+start-zstd = 21:03:35
+start-sync_1 = 21:08:05
+end-sync_1 = 21:08:26
+end = 2021-11-28 21:08:26.261529134+00:00
 
 [server]
 repo = "cake233/manjaro-zsh-arm64"
