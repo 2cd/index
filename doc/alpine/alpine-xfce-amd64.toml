@@ -1,0 +1,98 @@
+[main]
+name = "alpine"
+tag = ["xfce", "2021-11-28"]
+os = "alpine"
+release = "edge"
+arch = "amd64"
+platform = "linux/amd64"
+x11_or_wayland = true
+
+[file]
+name = "alpine-xfce-amd64_2021-11-28_21-09.tar.zst"
+
+version = "0.0.0-alpha.1"
+
+# This value can be used to verify the integrity of the file
+sha256 = "12af7d925ae8b4300d2294f59d7762b5a1b256af14012b5cd19c6a7dcdeec770"
+
+# zstd: [1-22]
+zstd-level = 19
+
+[file.size]
+# Installed size ≈ tar-size
+# Installed size is approximately equal to the size of the tar file
+tar = "901M"
+tar_bytes = 944583168
+
+# Space occupied ≈ tar-size + zstd-size
+# You will need to prepare a large enough space before installation.
+zstd = "328M"
+zstd_bytes = 343213791
+
+[compatibility]
+compatible_mode = true
+
+last_version = "latest02"
+
+# The value is &str, not int
+last_date = "20211028"
+last_tag = ""
+last_file = "alpine-edge_amd64+xfce-2021_10-28-rootfs.tar.zst"
+
+current_version = "latest01"
+current_date = "20211128"
+# edition 2021
+# DISTRO_NAME=alpine-edge_amd64
+# ROOTFS_FILE=alpine-xfce-amd64_2021-11-28_21-09.tar.zst
+# BUILD_DATE=20211128
+# BUILD_TAG=2021-11-28
+# STATUS=completed
+# VERSION=latest01
+# END_TIME=21:09
+
+[time]
+format = "rfc-3339"
+zone = "UTC"
+date = 2021-11-28
+begin = 2021-11-28 20:59:45.858291167+00:00
+start-sync_0 = 21:04:36
+start-zstd = 21:05:40
+start-sync_1 = 21:09:08
+end-sync_1 = 21:09:37
+end = 2021-11-28 21:09:37.127273710+00:00
+
+[server]
+repo = "cake233/alpine-xfce-amd64"
+
+[server.node1]
+name = "cn"
+current = false
+last = true
+split = false
+
+[server.node2]
+name = "us"
+current = false
+last = false
+split = false
+part = 12
+
+[server.node3]
+name = "global"
+current = false
+last = true
+split = false
+
+[server.node4]
+name = "docker"
+current = true
+
+# Environment variables  (●＞ω＜●)
+[env]
+LANG = "C.UTF-8"
+
+[version]
+zsh = 'zsh 5.8 (x86_64-alpine-linux-musl)'
+
+[port]
+tcp = [5902, 36080]
