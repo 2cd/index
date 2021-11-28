@@ -15,27 +15,25 @@ docker run \
     docker exec -it arch-amd64 sh
 ```
 
-## build info
+## arch-amd64.toml
 
 ```toml
 [main]
 name = "arch"
-tag = ["base", "2021-11-27"]
+tag = ["base", "2021-11-28"]
 os = "arch"
 release = "latest"
 arch = "amd64"
-nogui = true
-
-# If the value is false, then the container will not be downloaded.
-completed = true
+platform = "linux/amd64"
+x11_or_wayland = false
 
 [file]
-name = "arch-amd64_2021-11-27_13-15.tar.zst"
+name = "arch-amd64_2021-11-28_18-33.tar.zst"
 
 version = "0.0.0-alpha.1"
 
 # This value can be used to verify the integrity of the file
-sha256 = "6f1e6037672292d136802ebbd068170a9829afe71517bb7ca2594343f4461cab"
+sha256 = "f64cd6b2794e7a563d8f40787ba7c12ac5d8af5b28800dd73ce0f9bc71262e96"
 
 # zstd: [1-22]
 zstd-level = 13
@@ -44,38 +42,70 @@ zstd-level = 13
 # Installed size ≈ tar-size
 # Installed size is approximately equal to the size of the tar file
 tar = "622M"
-tar-bytes = 651251200
+tar_bytes = 651252224
 
 # Space occupied ≈ tar-size + zstd-size
 # You will need to prepare a large enough space before installation.
 zstd = "178M"
-zstd-bytes = 186261051
+zstd_bytes = 186262662
 
 [compatibility]
 compatible_mode = true
-rootfs_version = "latest02"
+
+last_version = "latest02"
+
+# The value is &str, not int
+last_date = "20211128"
+last_tag = ""
+last_file = ""
+
+current_version = "latest01"
+current_date = "20211128"
 # edition 2021
 # DISTRO_NAME=arch_amd64
-# ROOTFS_FILE=arch-amd64_2021-11-27_13-15.tar.zst
-# BUILD_DATE=20211127
+# ROOTFS_FILE=arch-amd64_2021-11-28_18-33.tar.zst
+# BUILD_DATE=20211128
+# BUILD_TAG=2021-11-28
 # STATUS=completed
-# VERSION=latest02
-# END_TIME=13:15
+# VERSION=latest01
+# END_TIME=18:33
 
 [time]
 format = "rfc-3339"
 zone = "UTC"
-begin = 2021-11-27 13:12:05.674489339+00:00
-start-sync_0 = 13:13:19
-start-zstd = 13:14:08
-start-sync_1 = 13:14:43
-end-sync_1 = 13:15:01
-end = 2021-11-27 13:15:01.873082965+00:00
+date = 2021-11-28
+begin = 2021-11-28 18:31:19.250315889+00:00
+start-sync_0 = 18:32:21
+start-zstd = 18:33:07
+start-sync_1 = 18:33:37
+end-sync_1 = 18:33:56
+end = 2021-11-28 18:33:56.429603118+00:00
 
 [server]
-name = "docker"
-node = 4
 repo = "cake233/arch-amd64"
+
+[server.node1]
+name = "cn"
+current = false
+last = true
+split = false
+
+[server.node2]
+name = "us"
+current = false
+last = false
+split = false
+part = 12
+
+[server.node3]
+name = "global"
+current = false
+last = true
+split = false
+
+[server.node4]
+name = "docker"
+current = true
 
 # Environment variables  (●＞ω＜●)
 [env]
