@@ -28,15 +28,15 @@ platform = "linux/amd64"
 x11_or_wayland = false
 
 [file]
-name = "arch-amd64_2021-11-28_18-33.tar.zst"
+name = "arch-amd64_2021-11-28_18-42.tar.zst"
 
 version = "0.0.0-alpha.1"
 
 # This value can be used to verify the integrity of the file
-sha256 = "f64cd6b2794e7a563d8f40787ba7c12ac5d8af5b28800dd73ce0f9bc71262e96"
+sha256 = "33bfb138a6dc2ac707bd7d706773f5cf4374681972d964ec7fa5e87f3d85fc45"
 
 # zstd: [1-22]
-zstd-level = 13
+zstd-level = 12
 
 [file.size]
 # Installed size ≈ tar-size
@@ -47,7 +47,7 @@ tar_bytes = 651252224
 # Space occupied ≈ tar-size + zstd-size
 # You will need to prepare a large enough space before installation.
 zstd = "178M"
-zstd_bytes = 186262662
+zstd_bytes = 186599772
 
 [compatibility]
 compatible_mode = true
@@ -63,23 +63,23 @@ current_version = "latest01"
 current_date = "20211128"
 # edition 2021
 # DISTRO_NAME=arch_amd64
-# ROOTFS_FILE=arch-amd64_2021-11-28_18-33.tar.zst
+# ROOTFS_FILE=arch-amd64_2021-11-28_18-42.tar.zst
 # BUILD_DATE=20211128
 # BUILD_TAG=2021-11-28
 # STATUS=completed
 # VERSION=latest01
-# END_TIME=18:33
+# END_TIME=18:42
 
 [time]
 format = "rfc-3339"
 zone = "UTC"
 date = 2021-11-28
-begin = 2021-11-28 18:31:19.250315889+00:00
-start-sync_0 = 18:32:21
-start-zstd = 18:33:07
-start-sync_1 = 18:33:37
-end-sync_1 = 18:33:56
-end = 2021-11-28 18:33:56.429603118+00:00
+begin = 2021-11-28 18:39:26.929159262+00:00
+start-sync_0 = 18:40:40
+start-zstd = 18:41:32
+start-sync_1 = 18:41:45
+end-sync_1 = 18:42:03
+end = 2021-11-28 18:42:03.990020347+00:00
 
 [server]
 repo = "cake233/arch-amd64"
