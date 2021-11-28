@@ -28,12 +28,12 @@ platform = "linux/amd64"
 x11_or_wayland = false
 
 [file]
-name = "ruby-alpine-amd64_2021-11-28_21-13.tar.zst"
+name = "ruby-musl_amd64_2021-11-28_22-40.tar.zst"
 
 version = "0.0.0-alpha.1"
 
 # This value can be used to verify the integrity of the file
-sha256 = "2c4933a2550755e729d4d957e18b83f43b5445378d47565383efef6dc408e5c9"
+sha256 = "c81a5631af0f909ce5bbc94b8554218614c0b1ed2e8177437c42f6d4070f5ee0"
 
 # zstd: [1-22]
 zstd-level = 18
@@ -47,7 +47,7 @@ tar_bytes = 79244288
 # Space occupied ≈ tar-size + zstd-size
 # You will need to prepare a large enough space before installation.
 zstd = "32M"
-zstd_bytes = 32556254
+zstd_bytes = 32556690
 
 [compatibility]
 compatible_mode = true
@@ -63,23 +63,23 @@ current_version = "latest01"
 current_date = "20211128"
 # edition 2021
 # DISTRO_NAME=ruby_amd64
-# ROOTFS_FILE=ruby-alpine-amd64_2021-11-28_21-13.tar.zst
+# ROOTFS_FILE=ruby-musl_amd64_2021-11-28_22-40.tar.zst
 # BUILD_DATE=20211128
 # BUILD_TAG=2021-11-28
 # STATUS=completed
 # VERSION=latest01
-# END_TIME=21:13
+# END_TIME=22:40
 
 [time]
 format = "rfc-3339"
 zone = "UTC"
 date = 2021-11-28
-begin = 2021-11-28 21:12:27.083193101+00:00
-start-sync_0 = 21:12:42
-start-zstd = 21:12:49
-start-sync_1 = 21:13:01
-end-sync_1 = 21:13:07
-end = 2021-11-28 21:13:07.525207971+00:00
+begin = 2021-11-28 22:39:47.687265107+00:00
+start-sync_0 = 22:40:02
+start-zstd = 22:40:09
+start-sync_1 = 22:40:22
+end-sync_1 = 22:40:29
+end = 2021-11-28 22:40:29.780702501+00:00
 
 [server]
 repo = "cake233/ruby-alpine-amd64"
@@ -93,7 +93,7 @@ split = false
 [server.node2]
 name = "us"
 current = false
-last = false
+last = true
 split = false
 part = 12
 
@@ -111,9 +111,9 @@ current = true
 [env]
 LANG = "C.UTF-8"
 PATH = "/usr/local/bundle/bin${PATH:+:${PATH}}"
- GEM_HOME=/usr/local/bundle
- BUNDLE_SILENCE_ROOT_WARNING=1
- BUNDLE_APP_CONFIG=/usr/local/bundle
+GEM_HOME = '/usr/local/bundle'
+BUNDLE_SILENCE_ROOT_WARNING = '1'
+BUNDLE_APP_CONFIG = '/usr/local/bundle'
 
 [version]
 ruby = 'ruby 3.0.3p157 (2021-11-24 revision 3fb7d2cadc) [x86_64-linux-musl]'
