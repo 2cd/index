@@ -1,0 +1,93 @@
+[main]
+name = "mongo"
+tag = ["latest", "2021-11-28"]
+os = "ubuntu"
+release = "lts"
+arch = "arm64"
+platform = "linux/arm64"
+x11_or_wayland = false
+
+[file]
+name = "mongo-arm64_2021-11-28_01-52.tar.zst"
+
+version = "0.0.0-alpha.1"
+
+# This value can be used to verify the integrity of the file
+sha256 = "6df62b1f64879ed792f790072a4bb39f8a13309699a02b7bffb8c05b716077d5"
+
+# zstd: [1-22]
+zstd-level = 13
+
+[file.size]
+# Installed size ≈ tar-size
+# Installed size is approximately equal to the size of the tar file
+tar = "867M"
+tar_bytes = 908545024
+
+# Space occupied ≈ tar-size + zstd-size
+# You will need to prepare a large enough space before installation.
+zstd = "233M"
+zstd_bytes = 243575623
+
+[compatibility]
+compatible_mode = true
+current_version = "latest01"
+current_date = 20211128
+last_version = "latest02"
+last_date = 20211101
+# edition 2021
+# DISTRO_NAME=mongo_arm64
+# ROOTFS_FILE=mongo-arm64_2021-11-28_01-52.tar.zst
+# BUILD_DATE=20211128
+# STATUS=completed
+# VERSION=latest01
+# END_TIME=01:52
+
+[time]
+format = "rfc-3339"
+zone = "UTC"
+begin = 2021-11-28 01:47:23.849510363+00:00
+start-sync_0 = 01:50:43
+start-zstd = 01:51:22
+start-sync_1 = 01:52:06
+end-sync_1 = 01:52:27
+end = 2021-11-28 01:52:27.135130809+00:00
+
+[server]
+repo = \"cake233/mongo-arm64\"
+
+[server.node1]
+name = "cn"
+current = false
+last = true
+split = false
+
+[server.node2]
+name = "us"
+current = false
+last = false
+split = false
+part = 12
+
+[server.node3]
+name = "global"
+current = false
+last = false
+split = false
+
+[server.node4]
+name = "docker"
+current = true
+
+# Environment variables  (●＞ω＜●)
+[env]
+LANG = \"en_US.UTF-8\"
+ MONGO_PACKAGE=mongodb-org
+ MONGO_REPO=repo.mongodb.org
+
+[version]
+gosu = '1.12 (go1.13.10 on linux/arm64; gc)'
+jsyaml = '3.13.1'
+mongo_major = '5.0'
+mongo_version = '5.0.4'
+```
