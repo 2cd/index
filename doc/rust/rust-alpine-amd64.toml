@@ -8,12 +8,12 @@ platform = "linux/amd64"
 x11_or_wayland = false
 
 [file]
-name = "rust-alpine-amd64_2021-11-28_22-29.tar.zst"
+name = "rust-musl_amd64_2021-11-28_23-10.tar.zst"
 
 version = "0.0.0-alpha.1"
 
 # This value can be used to verify the integrity of the file
-sha256 = "8aadf34dcd106597c374ad123feab5e7d1ad151ed25b8c3c1986688d800ef84b"
+sha256 = "7333df24d1e402678bc37aacfbd2d7bab99a212524710654357ac196dfc33e59"
 
 # zstd: [1-22]
 zstd-level = 18
@@ -27,7 +27,7 @@ tar_bytes = 878290944
 # Space occupied ≈ tar-size + zstd-size
 # You will need to prepare a large enough space before installation.
 zstd = "191M"
-zstd_bytes = 199544510
+zstd_bytes = 199546091
 
 [compatibility]
 compatible_mode = true
@@ -43,23 +43,23 @@ current_version = "latest01"
 current_date = "20211128"
 # edition 2021
 # DISTRO_NAME=rust_amd64
-# ROOTFS_FILE=rust-alpine-amd64_2021-11-28_22-29.tar.zst
+# ROOTFS_FILE=rust-musl_amd64_2021-11-28_23-10.tar.zst
 # BUILD_DATE=20211128
 # BUILD_TAG=2021-11-28
 # STATUS=completed
 # VERSION=latest01
-# END_TIME=22:29
+# END_TIME=23:10
 
 [time]
 format = "rfc-3339"
 zone = "UTC"
 date = 2021-11-28
-begin = 2021-11-28 22:25:54.046897079+00:00
-start-sync_0 = 22:26:32
-start-zstd = 22:27:17
-start-sync_1 = 22:29:40
-end-sync_1 = 22:29:59
-end = 2021-11-28 22:29:59.511487898+00:00
+begin = 2021-11-28 23:06:02.725844564+00:00
+start-sync_0 = 23:06:41
+start-zstd = 23:07:28
+start-sync_1 = 23:09:48
+end-sync_1 = 23:10:06
+end = 2021-11-28 23:10:06.308444562+00:00
 
 [server]
 repo = "cake233/rust-alpine-amd64"
@@ -73,7 +73,7 @@ split = false
 [server.node2]
 name = "us"
 current = false
-last = false
+last = true
 split = false
 part = 12
 
