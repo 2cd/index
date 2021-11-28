@@ -28,12 +28,12 @@ platform = "linux/amd64"
 x11_or_wayland = false
 
 [file]
-name = "php-alpine-amd64_2021-11-28_21-12.tar.zst"
+name = "php-musl_amd64_2021-11-28_23-02.tar.zst"
 
 version = "0.0.0-alpha.1"
 
 # This value can be used to verify the integrity of the file
-sha256 = "7519b0eedddb6dcd253ab9a5e29fb48b00c6fa5979631b1b6e059be7e0e59e3c"
+sha256 = "9443445343e3090a67f3c42b028d124a125b4df49e19e550f4ce5187cff3dbe9"
 
 # zstd: [1-22]
 zstd-level = 18
@@ -47,7 +47,7 @@ tar_bytes = 97124352
 # Space occupied ≈ tar-size + zstd-size
 # You will need to prepare a large enough space before installation.
 zstd = "28M"
-zstd_bytes = 29276461
+zstd_bytes = 29276459
 
 [compatibility]
 compatible_mode = true
@@ -63,23 +63,23 @@ current_version = "latest01"
 current_date = "20211128"
 # edition 2021
 # DISTRO_NAME=php_amd64
-# ROOTFS_FILE=php-alpine-amd64_2021-11-28_21-12.tar.zst
+# ROOTFS_FILE=php-musl_amd64_2021-11-28_23-02.tar.zst
 # BUILD_DATE=20211128
 # BUILD_TAG=2021-11-28
 # STATUS=completed
 # VERSION=latest01
-# END_TIME=21:12
+# END_TIME=23:02
 
 [time]
 format = "rfc-3339"
 zone = "UTC"
 date = 2021-11-28
-begin = 2021-11-28 21:11:18.251257932+00:00
-start-sync_0 = 21:11:35
-start-zstd = 21:11:49
-start-sync_1 = 21:12:01
-end-sync_1 = 21:12:11
-end = 2021-11-28 21:12:11.840700470+00:00
+begin = 2021-11-28 23:01:38.008289943+00:00
+start-sync_0 = 23:01:52
+start-zstd = 23:01:59
+start-sync_1 = 23:02:11
+end-sync_1 = 23:02:18
+end = 2021-11-28 23:02:18.313729099+00:00
 
 [server]
 repo = "cake233/php-alpine-amd64"
@@ -93,7 +93,7 @@ split = false
 [server.node2]
 name = "us"
 current = false
-last = false
+last = true
 split = false
 part = 12
 
@@ -110,7 +110,7 @@ current = true
 # Environment variables  (●＞ω＜●)
 [env]
 LANG = "C.UTF-8"
- PHP_INI_DIR=/usr/local/etc/php
+PHP_INI_DIR = '/usr/local/etc/php'
 
 [version]
 php = 'PHP 8.0.13 (cli) (built: Nov 19 2021 22:28:43) ( NTS )
