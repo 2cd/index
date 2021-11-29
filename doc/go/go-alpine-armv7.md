@@ -61,15 +61,15 @@ platform = "linux/arm/v7"
 x11_or_wayland = false
 
 [file]
-name = "go-musl_armhf_2021-11-29_00-28.tar.zst"
+name = "go-musl_armhf_2021-11-29_19-44.tar.zst"
 
 version = "0.0.0-alpha.1"
 
 # This value can be used to verify the integrity of the file
-sha256 = "798fd1cafa24f2063a020f0a030acac8dcc78cb89f108b7e9410db73f230bfe1"
+sha256 = "9196bb83518f1b5db68d5e117ec12a899e8eec5cfe6e6cc298a0b3487c632b08"
 
 # zstd: [1-22]
-zstd-level = 13
+zstd-level = 20
 
 [file.size]
 # Installed size ≈ tar-size
@@ -79,40 +79,40 @@ tar_bytes = 315339776
 
 # Space occupied ≈ tar-size + zstd-size
 # You will need to prepare a large enough space before installation.
-zstd = "92M"
-zstd_bytes = 95798882
+zstd = "75M"
+zstd_bytes = 78482623
 
 [compatibility]
 compatible_mode = true
 
-last_version = "latest02"
+last_version = "latest01"
 
 # The value is &str, not int
-last_date = "20211128"
-last_tag = ""
-last_file = ""
+last_date = "20211129"
+last_tag = "2021-11-29"
+last_file = "go-musl_armhf_2021-11-29_00-28-rootfs.tar.zst"
 
-current_version = "latest01"
+current_version = "latest02"
 current_date = "20211129"
 # edition 2021
 # DISTRO_NAME=go_armhf
-# ROOTFS_FILE=go-musl_armhf_2021-11-29_00-28-rootfs.tar.zst
+# ROOTFS_FILE=go-musl_armhf_2021-11-29_19-44-rootfs.tar.zst
 # BUILD_DATE=20211129
 # BUILD_TAG=2021-11-29
 # STATUS=completed
-# VERSION=latest01
-# END_TIME=00:28
+# VERSION=latest02
+# END_TIME=19:44
 
 [time]
 format = "rfc-3339"
 zone = "UTC"
 date = 2021-11-29
-begin = 2021-11-29 00:27:04.934123788+00:00
-start-sync_0 = 00:27:55
-start-zstd = 00:28:03
-start-sync_1 = 00:28:17
-end-sync_1 = 00:28:34
-end = 2021-11-29 00:28:34.477437293+00:00
+begin = 2021-11-29 19:41:52.668508242+00:00
+start-sync_0 = 19:42:47
+start-zstd = 19:42:56
+start-sync_1 = 19:44:20
+end-sync_1 = 19:44:29
+end = 2021-11-29 19:44:29.982027669+00:00
 
 [server]
 repo = "cake233/go-alpine-armv7"
