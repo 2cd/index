@@ -20,7 +20,7 @@ docker run \
 ```toml
 [main]
 name = "ruby"
-tag = ["alpine", "2021-11-28", "musl-libc", "musl"]
+tag = ["alpine", "2021-11-29", "musl-libc", "musl"]
 os = "alpine"
 release = "stable"
 arch = "arm64"
@@ -28,12 +28,12 @@ platform = "linux/arm64"
 x11_or_wayland = false
 
 [file]
-name = "ruby-musl_arm64_2021-11-28_23-03.tar.zst"
+name = "ruby-musl_arm64_2021-11-29_19-43.tar.zst"
 
 version = "0.0.0-alpha.1"
 
 # This value can be used to verify the integrity of the file
-sha256 = "db78155fa8eaceba3d1ac21e6a95abb66329f521010efdb89b088af64408f645"
+sha256 = "cb8246e70066cd5db327e3c1471cbbfd7698a00b90f4bf89e248fd5167c8687d"
 
 # zstd: [1-22]
 zstd-level = 18
@@ -47,39 +47,39 @@ tar_bytes = 77740544
 # Space occupied ≈ tar-size + zstd-size
 # You will need to prepare a large enough space before installation.
 zstd = "31M"
-zstd_bytes = 32011773
+zstd_bytes = 32006684
 
 [compatibility]
 compatible_mode = true
 
-last_version = "latest01"
+last_version = "latest02"
 
 # The value is &str, not int
-last_date = "20211109"
-last_tag = ""
-last_file = "ruby_arm64+alpine-2021_11-09-rootfs.tar.zst"
+last_date = "20211128"
+last_tag = "2021-11-28"
+last_file = "ruby-musl_arm64_2021-11-28_23-03-rootfs.tar.zst"
 
-current_version = "latest02"
-current_date = "20211128"
+current_version = "latest01"
+current_date = "20211129"
 # edition 2021
 # DISTRO_NAME=ruby_arm64
-# ROOTFS_FILE=ruby-musl_arm64_2021-11-28_23-03-rootfs.tar.zst
-# BUILD_DATE=20211128
-# BUILD_TAG=2021-11-28
+# ROOTFS_FILE=ruby-musl_arm64_2021-11-29_19-43-rootfs.tar.zst
+# BUILD_DATE=20211129
+# BUILD_TAG=2021-11-29
 # STATUS=completed
-# VERSION=latest02
-# END_TIME=23:03
+# VERSION=latest01
+# END_TIME=19:43
 
 [time]
 format = "rfc-3339"
 zone = "UTC"
-date = 2021-11-28
-begin = 2021-11-28 23:02:34.139899823+00:00
-start-sync_0 = 23:03:07
-start-zstd = 23:03:14
-start-sync_1 = 23:03:25
-end-sync_1 = 23:03:32
-end = 2021-11-28 23:03:32.528011274+00:00
+date = 2021-11-29
+begin = 2021-11-29 19:41:52.507325797+00:00
+start-sync_0 = 19:42:53
+start-zstd = 19:43:00
+start-sync_1 = 19:43:11
+end-sync_1 = 19:43:19
+end = 2021-11-29 19:43:19.185970308+00:00
 
 [server]
 repo = "cake233/ruby-alpine-arm64"
