@@ -28,15 +28,15 @@ platform = "linux/arm/v7"
 x11_or_wayland = false
 
 [file]
-name = "php-musl_armhf_2021-11-29_01-07.tar.zst"
+name = "php-musl_armhf_2021-11-29_19-43.tar.zst"
 
 version = "0.0.0-alpha.1"
 
 # This value can be used to verify the integrity of the file
-sha256 = "6a15869f58c179aa7d8ae28ca42922681ae3377540155bf8a389c699df321696"
+sha256 = "70aea5c0505ce904ed6edee5f29e47a1a41823ce947aaa04b20fedd23f61cf53"
 
 # zstd: [1-22]
-zstd-level = 13
+zstd-level = 18
 
 [file.size]
 # Installed size ≈ tar-size
@@ -46,40 +46,40 @@ tar_bytes = 75278848
 
 # Space occupied ≈ tar-size + zstd-size
 # You will need to prepare a large enough space before installation.
-zstd = "28M"
-zstd_bytes = 28987744
+zstd = "26M"
+zstd_bytes = 27253844
 
 [compatibility]
 compatible_mode = true
 
-last_version = "latest02"
+last_version = "latest01"
 
 # The value is &str, not int
-last_date = "20211128"
-last_tag = ""
-last_file = ""
+last_date = "20211129"
+last_tag = "2021-11-29"
+last_file = "php-musl_armhf_2021-11-29_01-07-rootfs.tar.zst"
 
-current_version = "latest01"
+current_version = "latest02"
 current_date = "20211129"
 # edition 2021
 # DISTRO_NAME=php_armhf
-# ROOTFS_FILE=php-musl_armhf_2021-11-29_01-07-rootfs.tar.zst
+# ROOTFS_FILE=php-musl_armhf_2021-11-29_19-43-rootfs.tar.zst
 # BUILD_DATE=20211129
 # BUILD_TAG=2021-11-29
 # STATUS=completed
-# VERSION=latest01
-# END_TIME=01:07
+# VERSION=latest02
+# END_TIME=19:43
 
 [time]
 format = "rfc-3339"
 zone = "UTC"
 date = 2021-11-29
-begin = 2021-11-29 01:06:38.219277844+00:00
-start-sync_0 = 01:06:57
-start-zstd = 01:07:02
-start-sync_1 = 01:07:05
-end-sync_1 = 01:07:12
-end = 2021-11-29 01:07:12.995490716+00:00
+begin = 2021-11-29 19:41:55.137427966+00:00
+start-sync_0 = 19:42:59
+start-zstd = 19:43:05
+start-sync_1 = 19:43:14
+end-sync_1 = 19:43:21
+end = 2021-11-29 19:43:21.143991697+00:00
 
 [server]
 repo = "cake233/php-alpine-armv7"
