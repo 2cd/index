@@ -28,15 +28,15 @@ platform = "linux/amd64"
 x11_or_wayland = false
 
 [file]
-name = "php-musl_amd64_2021-11-29_01-03.tar.zst"
+name = "php-musl_amd64_2021-11-29_19-42.tar.zst"
 
 version = "0.0.0-alpha.1"
 
 # This value can be used to verify the integrity of the file
-sha256 = "1c8e1e12090f4f16f78c22c065493e4965657ceb7364a6f749d9850c415794ab"
+sha256 = "87687cfbe1f4693bda5358c56500f13bdbd2f812e069e2f3f90ab00848c5ff3b"
 
 # zstd: [1-22]
-zstd-level = 13
+zstd-level = 18
 
 [file.size]
 # Installed size ≈ tar-size
@@ -46,40 +46,40 @@ tar_bytes = 97124352
 
 # Space occupied ≈ tar-size + zstd-size
 # You will need to prepare a large enough space before installation.
-zstd = "30M"
-zstd_bytes = 31328567
+zstd = "28M"
+zstd_bytes = 29276295
 
 [compatibility]
 compatible_mode = true
 
-last_version = "latest02"
+last_version = "latest01"
 
 # The value is &str, not int
-last_date = "20211128"
-last_tag = ""
-last_file = ""
+last_date = "20211129"
+last_tag = "2021-11-29"
+last_file = "php-musl_amd64_2021-11-29_01-03-rootfs.tar.zst"
 
-current_version = "latest01"
+current_version = "latest02"
 current_date = "20211129"
 # edition 2021
 # DISTRO_NAME=php_amd64
-# ROOTFS_FILE=php-musl_amd64_2021-11-29_01-03-rootfs.tar.zst
+# ROOTFS_FILE=php-musl_amd64_2021-11-29_19-42-rootfs.tar.zst
 # BUILD_DATE=20211129
 # BUILD_TAG=2021-11-29
 # STATUS=completed
-# VERSION=latest01
-# END_TIME=01:03
+# VERSION=latest02
+# END_TIME=19:42
 
 [time]
 format = "rfc-3339"
 zone = "UTC"
 date = 2021-11-29
-begin = 2021-11-29 01:02:46.442311088+00:00
-start-sync_0 = 01:03:13
-start-zstd = 01:03:22
-start-sync_1 = 01:03:26
-end-sync_1 = 01:03:35
-end = 2021-11-29 01:03:35.354602620+00:00
+begin = 2021-11-29 19:41:49.416890102+00:00
+start-sync_0 = 19:42:18
+start-zstd = 19:42:24
+start-sync_1 = 19:42:37
+end-sync_1 = 19:42:44
+end = 2021-11-29 19:42:44.616114900+00:00
 
 [server]
 repo = "cake233/php-alpine-amd64"
