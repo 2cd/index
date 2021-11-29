@@ -8,12 +8,12 @@ platform = "linux/arm/v7"
 x11_or_wayland = true
 
 [file]
-name = "arch-xfce-armv7_2021-11-28_20-18.tar.zst"
+name = "arch-xfce_armhf_2021-11-29_00-38.tar.zst"
 
 version = "0.0.0-alpha.1"
 
 # This value can be used to verify the integrity of the file
-sha256 = "0a066c975af6c52c6a6755df59a97dab487507f61e2afb9f8f90a5bd60677679"
+sha256 = "d0dd6bed3d5da081c9afe641b3ca6cb2e5e47f51117fc1cf44bf50243e3aca83"
 
 # zstd: [1-22]
 zstd-level = 15
@@ -21,13 +21,13 @@ zstd-level = 15
 [file.size]
 # Installed size ≈ tar-size
 # Installed size is approximately equal to the size of the tar file
-tar = "3.0G"
-tar_bytes = 3164699648
+tar = "3.1G"
+tar_bytes = 3230961664
 
 # Space occupied ≈ tar-size + zstd-size
 # You will need to prepare a large enough space before installation.
-zstd = "1.1G"
-zstd_bytes = 1175161322
+zstd = "1.2G"
+zstd_bytes = 1185365473
 
 [compatibility]
 compatible_mode = true
@@ -40,26 +40,26 @@ last_tag = ""
 last_file = "arch_armhf+xfce-2021_11-03-rootfs.tar.zst"
 
 current_version = "latest01"
-current_date = "20211128"
+current_date = "20211129"
 # edition 2021
 # DISTRO_NAME=arch_armhf
-# ROOTFS_FILE=arch-xfce-armv7_2021-11-28_20-18.tar.zst
-# BUILD_DATE=20211128
-# BUILD_TAG=2021-11-28
+# ROOTFS_FILE=arch-xfce_armhf_2021-11-29_00-38.tar.zst
+# BUILD_DATE=20211129
+# BUILD_TAG=2021-11-29
 # STATUS=completed
 # VERSION=latest01
-# END_TIME=20:18
+# END_TIME=00:38
 
 [time]
 format = "rfc-3339"
 zone = "UTC"
-date = 2021-11-28
-begin = 2021-11-28 19:02:13.991739127+00:00
-start-sync_0 = 20:10:12
-start-zstd = 20:13:02
-start-sync_1 = 20:17:14
-end-sync_1 = 20:18:30
-end = 2021-11-28 20:18:30.781248827+00:00
+date = 2021-11-29
+begin = 2021-11-28 23:26:24.372900060+00:00
+start-sync_0 = 00:29:08
+start-zstd = 00:32:11
+start-sync_1 = 00:36:42
+end-sync_1 = 00:38:06
+end = 2021-11-29 00:38:06.156207865+00:00
 
 [server]
 repo = "cake233/arch-xfce-armv7"
@@ -73,7 +73,7 @@ split = false
 [server.node2]
 name = "us"
 current = false
-last = false
+last = true
 split = false
 part = 12
 
