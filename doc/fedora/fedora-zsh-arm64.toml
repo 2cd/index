@@ -72,7 +72,7 @@ split = false
 
 [server.node2]
 name = "us"
-current = false
+current = true
 last = false
 split = false
 part = 12
