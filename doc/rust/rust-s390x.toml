@@ -79,8 +79,8 @@ part = 12
 
 [server.node3]
 name = "global"
-current = false
-last = true
+current = true
+last = false
 split = false
 
 [server.node4]
