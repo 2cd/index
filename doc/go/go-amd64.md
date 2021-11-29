@@ -22,7 +22,7 @@ docker run \
     --rm \
     -v "$PWD"/go-project:/app \
     -w /app \
-    go-amd64 \
+    cake233/go-amd64 \
     go build -v
 ```
 
@@ -53,7 +53,7 @@ func main() {
 ```toml
 [main]
 name = "go"
-tag = ["latest", "2021-11-28"]
+tag = ["latest", "2021-11-29"]
 os = "debian"
 release = "stable"
 arch = "amd64"
@@ -61,15 +61,15 @@ platform = "linux/amd64"
 x11_or_wayland = false
 
 [file]
-name = "go_amd64_2021-11-28_23-05.tar.zst"
+name = "go_amd64_2021-11-29_00-30.tar.zst"
 
 version = "0.0.0-alpha.1"
 
 # This value can be used to verify the integrity of the file
-sha256 = "1821c5ba5c999c4e3b860dc7ddf77cfa37ab1fdb78defdbf23b62df1649dca65"
+sha256 = "0bf0a3f4531ac50117b0669b1aaf71d6b8d220d7f60978b57870215331cf2b7d"
 
 # zstd: [1-22]
-zstd-level = 20
+zstd-level = 13
 
 [file.size]
 # Installed size ≈ tar-size
@@ -79,8 +79,8 @@ tar_bytes = 989388800
 
 # Space occupied ≈ tar-size + zstd-size
 # You will need to prepare a large enough space before installation.
-zstd = "222M"
-zstd_bytes = 232304025
+zstd = "272M"
+zstd_bytes = 285140591
 
 [compatibility]
 compatible_mode = true
@@ -93,26 +93,26 @@ last_tag = ""
 last_file = ""
 
 current_version = "latest01"
-current_date = "20211128"
+current_date = "20211129"
 # edition 2021
 # DISTRO_NAME=go_amd64
-# ROOTFS_FILE=go_amd64_2021-11-28_23-05.tar.zst
-# BUILD_DATE=20211128
-# BUILD_TAG=2021-11-28
+# ROOTFS_FILE=go_amd64_2021-11-29_00-30.tar.zst
+# BUILD_DATE=20211129
+# BUILD_TAG=2021-11-29
 # STATUS=completed
 # VERSION=latest01
-# END_TIME=23:05
+# END_TIME=00:30
 
 [time]
 format = "rfc-3339"
 zone = "UTC"
-date = 2021-11-28
-begin = 2021-11-28 22:59:20.180371186+00:00
-start-sync_0 = 23:00:10
-start-zstd = 23:00:52
-start-sync_1 = 23:05:06
-end-sync_1 = 23:05:31
-end = 2021-11-28 23:05:32.012780427+00:00
+date = 2021-11-29
+begin = 2021-11-29 00:27:06.380358372+00:00
+start-sync_0 = 00:28:32
+start-zstd = 00:29:20
+start-sync_1 = 00:30:21
+end-sync_1 = 00:30:45
+end = 2021-11-29 00:30:45.807553656+00:00
 
 [server]
 repo = "cake233/go-amd64"
