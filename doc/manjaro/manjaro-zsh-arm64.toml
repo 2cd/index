@@ -68,7 +68,7 @@ repo = "cake233/manjaro-zsh-arm64"
 name = "cn"
 current = true
 last = true
-split = false
+in_sync = true
 
 [server.node2]
 name = "us"
