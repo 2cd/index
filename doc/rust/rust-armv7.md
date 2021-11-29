@@ -22,7 +22,7 @@ docker run \
     --rm \
     -v "$PWD"/rs-project:/app \
     -w /app \
-    rust-armv7 \
+    cake233/rust-armv7 \
     cargo b --release
 ```
 
@@ -31,7 +31,7 @@ docker run \
 ```toml
 [main]
 name = "rust"
-tag = ["latest", "2021-11-28", "nightly", "unstable", "default", "gnu-libc"]
+tag = ["latest", "2021-11-29", "nightly", "unstable", "default", "gnu-libc"]
 os = "debian"
 release = "sid"
 arch = "armhf"
@@ -39,12 +39,12 @@ platform = "linux/arm/v7"
 x11_or_wayland = false
 
 [file]
-name = "rust_armhf_2021-11-28_23-15.tar.zst"
+name = "rust_armhf_2021-11-29_00-40.tar.zst"
 
 version = "0.0.0-alpha.1"
 
 # This value can be used to verify the integrity of the file
-sha256 = "7b5192a4a67160e6fc8e5d347d73525a74063a46adba95f4975a966a21b95b5b"
+sha256 = "d5138d0a9129cb9df8f7bae778adc54849c1454d0147c025793983db0b392e3a"
 
 # zstd: [1-22]
 zstd-level = 20
@@ -58,7 +58,7 @@ tar_bytes = 971016704
 # Space occupied ≈ tar-size + zstd-size
 # You will need to prepare a large enough space before installation.
 zstd = "227M"
-zstd_bytes = 237320899
+zstd_bytes = 237321416
 
 [compatibility]
 compatible_mode = true
@@ -71,26 +71,26 @@ last_tag = ""
 last_file = ""
 
 current_version = "latest01"
-current_date = "20211128"
+current_date = "20211129"
 # edition 2021
 # DISTRO_NAME=rust_armhf
-# ROOTFS_FILE=rust_armhf_2021-11-28_23-15.tar.zst
-# BUILD_DATE=20211128
-# BUILD_TAG=2021-11-28
+# ROOTFS_FILE=rust_armhf_2021-11-29_00-40.tar.zst
+# BUILD_DATE=20211129
+# BUILD_TAG=2021-11-29
 # STATUS=completed
 # VERSION=latest01
-# END_TIME=23:15
+# END_TIME=00:40
 
 [time]
 format = "rfc-3339"
 zone = "UTC"
-date = 2021-11-28
-begin = 2021-11-28 23:04:58.408038310+00:00
-start-sync_0 = 23:10:26
-start-zstd = 23:11:07
-start-sync_1 = 23:14:48
-end-sync_1 = 23:15:07
-end = 2021-11-28 23:15:07.489025561+00:00
+date = 2021-11-29
+begin = 2021-11-29 00:27:05.934367981+00:00
+start-sync_0 = 00:34:47
+start-zstd = 00:35:37
+start-sync_1 = 00:39:42
+end-sync_1 = 00:40:04
+end = 2021-11-29 00:40:04.699661398+00:00
 
 [server]
 repo = "cake233/rust-armv7"
