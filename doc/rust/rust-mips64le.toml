@@ -68,7 +68,7 @@ repo = "cake233/rust-mips64le"
 name = "cn"
 current = false
 last = true
-split = false
+in_sync = true
 
 [server.node2]
 name = "us"
