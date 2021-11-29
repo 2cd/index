@@ -1,6 +1,6 @@
 [main]
 name = "nginx"
-tag = ["alpine", "2021-11-28", "musl-libc", "musl"]
+tag = ["alpine", "2021-11-29", "musl-libc", "musl"]
 os = "alpine"
 release = "stable"
 arch = "arm64"
@@ -8,15 +8,15 @@ platform = "linux/arm64"
 x11_or_wayland = false
 
 [file]
-name = "nginx-musl_arm64_2021-11-28_23-34.tar.zst"
+name = "nginx-musl_arm64_2021-11-29_19-44.tar.zst"
 
 version = "0.0.0-alpha.1"
 
 # This value can be used to verify the integrity of the file
-sha256 = "24f7eea007f2ed8b5f230d6971c9486edf65d01caab4192ac289c7233052a774"
+sha256 = "66cc86454fb33df8542d677f2ea203ad1b0b6c425c87bf9128416dd875fd8aac"
 
 # zstd: [1-22]
-zstd-level = 13
+zstd-level = 20
 
 [file.size]
 # Installed size ≈ tar-size
@@ -26,60 +26,60 @@ tar_bytes = 33597952
 
 # Space occupied ≈ tar-size + zstd-size
 # You will need to prepare a large enough space before installation.
-zstd = "11M"
-zstd_bytes = 11145739
+zstd = "8.8M"
+zstd_bytes = 9177788
 
 [compatibility]
 compatible_mode = true
 
-last_version = "latest02"
+last_version = "latest01"
 
 # The value is &str, not int
-last_date = "20211101"
-last_tag = ""
-last_file = "nginx_arm64+alpine-2021_11-01-rootfs.tar.zst"
+last_date = "20211128"
+last_tag = "2021-11-28"
+last_file = "nginx-musl_arm64_2021-11-28_23-34-rootfs.tar.zst"
 
-current_version = "latest01"
-current_date = "20211128"
+current_version = "latest02"
+current_date = "20211129"
 # edition 2021
 # DISTRO_NAME=nginx_arm64
-# ROOTFS_FILE=nginx-musl_arm64_2021-11-28_23-34-rootfs.tar.zst
-# BUILD_DATE=20211128
-# BUILD_TAG=2021-11-28
+# ROOTFS_FILE=nginx-musl_arm64_2021-11-29_19-44-rootfs.tar.zst
+# BUILD_DATE=20211129
+# BUILD_TAG=2021-11-29
 # STATUS=completed
-# VERSION=latest01
-# END_TIME=23:34
+# VERSION=latest02
+# END_TIME=19:44
 
 [time]
 format = "rfc-3339"
 zone = "UTC"
-date = 2021-11-28
-begin = 2021-11-28 23:33:48.066353279+00:00
-start-sync_0 = 23:34:34
-start-zstd = 23:34:46
-start-sync_1 = 23:34:48
-end-sync_1 = 23:34:57
-end = 2021-11-28 23:34:57.871104119+00:00
+date = 2021-11-29
+begin = 2021-11-29 19:44:05.161087783+00:00
+start-sync_0 = 19:44:27
+start-zstd = 19:44:33
+start-sync_1 = 19:44:48
+end-sync_1 = 19:44:54
+end = 2021-11-29 19:44:54.302666334+00:00
 
 [server]
 repo = "cake233/nginx-alpine-arm64"
 
 [server.node1]
 name = "cn"
-current = true
+current = false
 last = true
 split = false
 
 [server.node2]
 name = "us"
-current = true
-last = false
+current = false
+last = true
 split = false
 part = 12
 
 [server.node3]
 name = "global"
-current = true
+current = false
 last = true
 split = false
 
