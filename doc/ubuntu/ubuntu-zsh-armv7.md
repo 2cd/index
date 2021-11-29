@@ -63,7 +63,7 @@ current_version = "latest01"
 current_date = "20211128"
 # edition 2021
 # DISTRO_NAME=ubuntu-dev_armhf
-# ROOTFS_FILE=ubuntu-zsh-armv7_2021-11-28_21-09.tar.zst
+# ROOTFS_FILE=ubuntu-zsh-armv7_2021-11-28_21-09-rootfs.tar.zst
 # BUILD_DATE=20211128
 # BUILD_TAG=2021-11-28
 # STATUS=completed

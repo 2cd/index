@@ -63,7 +63,7 @@ current_version = "latest02"
 current_date = "20211129"
 # edition 2021
 # DISTRO_NAME=php_arm64
-# ROOTFS_FILE=php-musl_arm64_2021-11-29_01-03.tar.zst
+# ROOTFS_FILE=php-musl_arm64_2021-11-29_01-03-rootfs.tar.zst
 # BUILD_DATE=20211129
 # BUILD_TAG=2021-11-29
 # STATUS=completed

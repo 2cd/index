@@ -120,7 +120,7 @@ current_version = "latest02"
 current_date = "20211128"
 # edition 2021
 # DISTRO_NAME=alpine-edge_i386
-# ROOTFS_FILE=alpine-mate-386_2021-11-28_21-25.tar.zst
+# ROOTFS_FILE=alpine-mate-386_2021-11-28_21-25-rootfs.tar.zst
 # BUILD_DATE=20211128
 # BUILD_TAG=2021-11-28
 # STATUS=completed

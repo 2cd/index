@@ -63,7 +63,7 @@ current_version = "latest02"
 current_date = "20211128"
 # edition 2021
 # DISTRO_NAME=alpine-edge_arm64
-# ROOTFS_FILE=alpine-zsh-arm64_2021-11-28_20-58.tar.zst
+# ROOTFS_FILE=alpine-zsh-arm64_2021-11-28_20-58-rootfs.tar.zst
 # BUILD_DATE=20211128
 # BUILD_TAG=2021-11-28
 # STATUS=completed

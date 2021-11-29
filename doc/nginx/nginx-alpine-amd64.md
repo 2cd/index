@@ -63,7 +63,7 @@ current_version = "latest01"
 current_date = "20211128"
 # edition 2021
 # DISTRO_NAME=nginx_amd64
-# ROOTFS_FILE=nginx-musl_amd64_2021-11-28_23-00.tar.zst
+# ROOTFS_FILE=nginx-musl_amd64_2021-11-28_23-00-rootfs.tar.zst
 # BUILD_DATE=20211128
 # BUILD_TAG=2021-11-28
 # STATUS=completed

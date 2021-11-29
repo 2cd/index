@@ -74,7 +74,7 @@ current_version = "latest01"
 current_date = "20211129"
 # edition 2021
 # DISTRO_NAME=rust_riscv64
-# ROOTFS_FILE=rust_riscv64_2021-11-29_00-38.tar.zst
+# ROOTFS_FILE=rust_riscv64_2021-11-29_00-38-rootfs.tar.zst
 # BUILD_DATE=20211129
 # BUILD_TAG=2021-11-29
 # STATUS=completed

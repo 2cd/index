@@ -120,7 +120,7 @@ current_version = "latest02"
 current_date = "20211128"
 # edition 2021
 # DISTRO_NAME=kali-rolling_armhf
-# ROOTFS_FILE=kali-xfce-armv7_2021-11-28_22-43.tar.zst
+# ROOTFS_FILE=kali-xfce-armv7_2021-11-28_22-43-rootfs.tar.zst
 # BUILD_DATE=20211128
 # BUILD_TAG=2021-11-28
 # STATUS=completed

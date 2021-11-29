@@ -120,7 +120,7 @@ current_version = "latest01"
 current_date = "20211129"
 # edition 2021
 # DISTRO_NAME=arch_arm64
-# ROOTFS_FILE=arch-xfce_arm64_2021-11-29_00-00.tar.zst
+# ROOTFS_FILE=arch-xfce_arm64_2021-11-29_00-00-rootfs.tar.zst
 # BUILD_DATE=20211129
 # BUILD_TAG=2021-11-29
 # STATUS=completed

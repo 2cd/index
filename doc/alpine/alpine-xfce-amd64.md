@@ -120,7 +120,7 @@ current_version = "latest01"
 current_date = "20211128"
 # edition 2021
 # DISTRO_NAME=alpine-edge_amd64
-# ROOTFS_FILE=alpine-xfce-amd64_2021-11-28_21-09.tar.zst
+# ROOTFS_FILE=alpine-xfce-amd64_2021-11-28_21-09-rootfs.tar.zst
 # BUILD_DATE=20211128
 # BUILD_TAG=2021-11-28
 # STATUS=completed

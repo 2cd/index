@@ -63,7 +63,7 @@ current_version = "latest01"
 current_date = "20211128"
 # edition 2021
 # DISTRO_NAME=manjaro-stable_arm64
-# ROOTFS_FILE=manjaro-zsh-arm64_2021-11-28_21-08.tar.zst
+# ROOTFS_FILE=manjaro-zsh-arm64_2021-11-28_21-08-rootfs.tar.zst
 # BUILD_DATE=20211128
 # BUILD_TAG=2021-11-28
 # STATUS=completed

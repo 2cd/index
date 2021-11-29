@@ -63,7 +63,7 @@ current_version = "latest01"
 current_date = "20211128"
 # edition 2021
 # DISTRO_NAME=fedora-rawhide_arm64
-# ROOTFS_FILE=fedora-zsh-arm64_2021-11-28_21-29.tar.zst
+# ROOTFS_FILE=fedora-zsh-arm64_2021-11-28_21-29-rootfs.tar.zst
 # BUILD_DATE=20211128
 # BUILD_TAG=2021-11-28
 # STATUS=completed

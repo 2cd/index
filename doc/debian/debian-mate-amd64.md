@@ -120,7 +120,7 @@ current_version = "latest01"
 current_date = "20211128"
 # edition 2021
 # DISTRO_NAME=debian-sid_amd64
-# ROOTFS_FILE=debian-mate-amd64_2021-11-28_21-54.tar.zst
+# ROOTFS_FILE=debian-mate-amd64_2021-11-28_21-54-rootfs.tar.zst
 # BUILD_DATE=20211128
 # BUILD_TAG=2021-11-28
 # STATUS=completed

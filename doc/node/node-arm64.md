@@ -63,7 +63,7 @@ current_version = "latest02"
 current_date = "20211128"
 # edition 2021
 # DISTRO_NAME=node_arm64
-# ROOTFS_FILE=node_arm64_2021-11-28_23-07.tar.zst
+# ROOTFS_FILE=node_arm64_2021-11-28_23-07-rootfs.tar.zst
 # BUILD_DATE=20211128
 # BUILD_TAG=2021-11-28
 # STATUS=completed

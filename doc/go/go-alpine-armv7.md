@@ -96,7 +96,7 @@ current_version = "latest01"
 current_date = "20211129"
 # edition 2021
 # DISTRO_NAME=go_armhf
-# ROOTFS_FILE=go-musl_armhf_2021-11-29_00-28.tar.zst
+# ROOTFS_FILE=go-musl_armhf_2021-11-29_00-28-rootfs.tar.zst
 # BUILD_DATE=20211129
 # BUILD_TAG=2021-11-29
 # STATUS=completed

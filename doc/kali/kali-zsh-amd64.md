@@ -63,7 +63,7 @@ current_version = "latest02"
 current_date = "20211128"
 # edition 2021
 # DISTRO_NAME=kali-rolling_amd64
-# ROOTFS_FILE=kali-zsh-amd64_2021-11-28_21-00.tar.zst
+# ROOTFS_FILE=kali-zsh-amd64_2021-11-28_21-00-rootfs.tar.zst
 # BUILD_DATE=20211128
 # BUILD_TAG=2021-11-28
 # STATUS=completed
