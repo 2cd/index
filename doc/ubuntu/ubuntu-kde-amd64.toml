@@ -68,7 +68,7 @@ repo = "cake233/ubuntu-kde-amd64"
 name = "cn"
 current = false
 last = true
-split = false
+in_sync = true
 
 [server.node2]
 name = "us"
