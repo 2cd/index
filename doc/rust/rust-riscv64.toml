@@ -1,6 +1,6 @@
 [main]
 name = "rust"
-tag = ["latest", "2021-11-28", "nightly", "unstable", "default", "gnu-libc"]
+tag = ["latest", "2021-11-29", "nightly", "unstable", "default", "gnu-libc"]
 os = "debian"
 release = "sid"
 arch = "riscv64"
@@ -8,12 +8,12 @@ platform = "linux/riscv64"
 x11_or_wayland = false
 
 [file]
-name = "rust_riscv64_2021-11-28_23-18.tar.zst"
+name = "rust_riscv64_2021-11-29_00-38.tar.zst"
 
 version = "0.0.0-alpha.1"
 
 # This value can be used to verify the integrity of the file
-sha256 = "b2947f752bd26988c94eac90affd65670bcffd139a6a5c026dbaa7eefd8a72e1"
+sha256 = "b8ee5fad670f64a1bbf3b89af656c4892e2b65b91ff739c073ccc9ee5db00d0c"
 
 # zstd: [1-22]
 zstd-level = 20
@@ -27,7 +27,7 @@ tar_bytes = 1073917440
 # Space occupied ≈ tar-size + zstd-size
 # You will need to prepare a large enough space before installation.
 zstd = "213M"
-zstd_bytes = 222520745
+zstd_bytes = 222524884
 
 [compatibility]
 compatible_mode = true
@@ -40,26 +40,26 @@ last_tag = ""
 last_file = ""
 
 current_version = "latest01"
-current_date = "20211128"
+current_date = "20211129"
 # edition 2021
 # DISTRO_NAME=rust_riscv64
-# ROOTFS_FILE=rust_riscv64_2021-11-28_23-18.tar.zst
-# BUILD_DATE=20211128
-# BUILD_TAG=2021-11-28
+# ROOTFS_FILE=rust_riscv64_2021-11-29_00-38.tar.zst
+# BUILD_DATE=20211129
+# BUILD_TAG=2021-11-29
 # STATUS=completed
 # VERSION=latest01
-# END_TIME=23:18
+# END_TIME=00:38
 
 [time]
 format = "rfc-3339"
 zone = "UTC"
-date = 2021-11-28
-begin = 2021-11-28 23:05:47.710366975+00:00
-start-sync_0 = 23:12:35
-start-zstd = 23:13:26
-start-sync_1 = 23:18:08
-end-sync_1 = 23:18:32
-end = 2021-11-28 23:18:32.316959303+00:00
+date = 2021-11-29
+begin = 2021-11-29 00:27:05.411952408+00:00
+start-sync_0 = 00:33:11
+start-zstd = 00:33:55
+start-sync_1 = 00:38:10
+end-sync_1 = 00:38:31
+end = 2021-11-29 00:38:31.226133305+00:00
 
 [server]
 repo = "cake233/rust-riscv64"
