@@ -81,7 +81,7 @@ part = 12
 name = "global"
 current = false
 last = true
-split = false
+in_sync = true
 
 [server.node4]
 name = "docker"
