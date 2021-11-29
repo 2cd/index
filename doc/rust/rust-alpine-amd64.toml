@@ -1,6 +1,6 @@
 [main]
 name = "rust"
-tag = ["alpine", "2021-11-28", "nightly", "unstable", "minimal", "musl-libc", "musl"]
+tag = ["alpine", "2021-11-29", "nightly", "unstable", "minimal", "musl-libc", "musl"]
 os = "alpine"
 release = "edge"
 arch = "amd64"
@@ -8,12 +8,12 @@ platform = "linux/amd64"
 x11_or_wayland = false
 
 [file]
-name = "rust-musl_amd64_2021-11-28_23-10.tar.zst"
+name = "rust-musl_amd64_2021-11-29_00-32.tar.zst"
 
 version = "0.0.0-alpha.1"
 
 # This value can be used to verify the integrity of the file
-sha256 = "7333df24d1e402678bc37aacfbd2d7bab99a212524710654357ac196dfc33e59"
+sha256 = "29659ea29453342ba20feab273e5433ca791b9ffb0bf8dfd09fb3ec811c7cace"
 
 # zstd: [1-22]
 zstd-level = 18
@@ -27,7 +27,7 @@ tar_bytes = 878290944
 # Space occupied ≈ tar-size + zstd-size
 # You will need to prepare a large enough space before installation.
 zstd = "191M"
-zstd_bytes = 199546091
+zstd_bytes = 199549553
 
 [compatibility]
 compatible_mode = true
@@ -40,26 +40,26 @@ last_tag = ""
 last_file = ""
 
 current_version = "latest01"
-current_date = "20211128"
+current_date = "20211129"
 # edition 2021
 # DISTRO_NAME=rust_amd64
-# ROOTFS_FILE=rust-musl_amd64_2021-11-28_23-10.tar.zst
-# BUILD_DATE=20211128
-# BUILD_TAG=2021-11-28
+# ROOTFS_FILE=rust-musl_amd64_2021-11-29_00-32.tar.zst
+# BUILD_DATE=20211129
+# BUILD_TAG=2021-11-29
 # STATUS=completed
 # VERSION=latest01
-# END_TIME=23:10
+# END_TIME=00:32
 
 [time]
 format = "rfc-3339"
 zone = "UTC"
-date = 2021-11-28
-begin = 2021-11-28 23:06:02.725844564+00:00
-start-sync_0 = 23:06:41
-start-zstd = 23:07:28
-start-sync_1 = 23:09:48
-end-sync_1 = 23:10:06
-end = 2021-11-28 23:10:06.308444562+00:00
+date = 2021-11-29
+begin = 2021-11-29 00:27:06.367387432+00:00
+start-sync_0 = 00:28:17
+start-zstd = 00:29:07
+start-sync_1 = 00:31:47
+end-sync_1 = 00:32:05
+end = 2021-11-29 00:32:05.602728256+00:00
 
 [server]
 repo = "cake233/rust-alpine-amd64"
