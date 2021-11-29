@@ -8,15 +8,15 @@ platform = "linux/arm64"
 x11_or_wayland = false
 
 [file]
-name = "php-musl_arm64_2021-11-29_01-03.tar.zst"
+name = "php-musl_arm64_2021-11-29_19-43.tar.zst"
 
 version = "0.0.0-alpha.1"
 
 # This value can be used to verify the integrity of the file
-sha256 = "b4d0b4ad31fc99e2a5eb8d951590621846e9ef6903b7211e4d3069434e092b52"
+sha256 = "db8803dfdff0a7535d9a366259c6b4f89b90e8ca9cbdf565afee4039d72e57fd"
 
 # zstd: [1-22]
-zstd-level = 13
+zstd-level = 18
 
 [file.size]
 # Installed size ≈ tar-size
@@ -26,60 +26,60 @@ tar_bytes = 89687040
 
 # Space occupied ≈ tar-size + zstd-size
 # You will need to prepare a large enough space before installation.
-zstd = "30M"
-zstd_bytes = 30730199
+zstd = "28M"
+zstd_bytes = 28543424
 
 [compatibility]
 compatible_mode = true
 
-last_version = "latest01"
+last_version = "latest02"
 
 # The value is &str, not int
-last_date = "20211101"
-last_tag = ""
-last_file = "php_arm64+alpine-2021_11-01-rootfs.tar.zst"
+last_date = "20211129"
+last_tag = "2021-11-29"
+last_file = "php-musl_arm64_2021-11-29_01-03-rootfs.tar.zst"
 
-current_version = "latest02"
+current_version = "latest01"
 current_date = "20211129"
 # edition 2021
 # DISTRO_NAME=php_arm64
-# ROOTFS_FILE=php-musl_arm64_2021-11-29_01-03-rootfs.tar.zst
+# ROOTFS_FILE=php-musl_arm64_2021-11-29_19-43-rootfs.tar.zst
 # BUILD_DATE=20211129
 # BUILD_TAG=2021-11-29
 # STATUS=completed
-# VERSION=latest02
-# END_TIME=01:03
+# VERSION=latest01
+# END_TIME=19:43
 
 [time]
 format = "rfc-3339"
 zone = "UTC"
 date = 2021-11-29
-begin = 2021-11-29 01:02:44.182103206+00:00
-start-sync_0 = 01:03:15
-start-zstd = 01:03:22
-start-sync_1 = 01:03:26
-end-sync_1 = 01:03:33
-end = 2021-11-29 01:03:33.816100263+00:00
+begin = 2021-11-29 19:41:52.916889853+00:00
+start-sync_0 = 19:42:49
+start-zstd = 19:43:01
+start-sync_1 = 19:43:15
+end-sync_1 = 19:43:25
+end = 2021-11-29 19:43:25.846021043+00:00
 
 [server]
 repo = "cake233/php-alpine-arm64"
 
 [server.node1]
 name = "cn"
-current = true
+current = false
 last = true
 split = false
 
 [server.node2]
 name = "us"
-current = true
-last = false
+current = false
+last = true
 split = false
 part = 12
 
 [server.node3]
 name = "global"
-current = true
+current = false
 last = true
 split = false
 
