@@ -22,7 +22,7 @@ docker run \
     --rm \
     -v "$PWD"/rs-project:/app \
     -w /app \
-    rust-ppc64le \
+    cake233/rust-ppc64le \
     cargo b --release
 ```
 
@@ -31,7 +31,7 @@ docker run \
 ```toml
 [main]
 name = "rust"
-tag = ["latest", "2021-11-28", "nightly", "unstable", "default", "gnu-libc"]
+tag = ["latest", "2021-11-29", "nightly", "unstable", "default", "gnu-libc"]
 os = "debian"
 release = "sid"
 arch = "ppc64el"
@@ -39,15 +39,15 @@ platform = "linux/ppc64le"
 x11_or_wayland = false
 
 [file]
-name = "rust_ppc64el_2021-11-28_23-41.tar.zst"
+name = "rust_ppc64el_2021-11-29_00-38.tar.zst"
 
 version = "0.0.0-alpha.1"
 
 # This value can be used to verify the integrity of the file
-sha256 = "df4c06062c12ae742934aa28caaa934cd14b9b008f669961293f4b9159981e57"
+sha256 = "d4df7618d6ab7b82f1b77e91612a3fd7c9f87801dfcce120ae0114f97b4c27db"
 
 # zstd: [1-22]
-zstd-level = 13
+zstd-level = 20
 
 [file.size]
 # Installed size ≈ tar-size
@@ -57,8 +57,8 @@ tar_bytes = 1126638592
 
 # Space occupied ≈ tar-size + zstd-size
 # You will need to prepare a large enough space before installation.
-zstd = "278M"
-zstd_bytes = 290501328
+zstd = "224M"
+zstd_bytes = 234517730
 
 [compatibility]
 compatible_mode = true
@@ -71,26 +71,26 @@ last_tag = ""
 last_file = ""
 
 current_version = "latest01"
-current_date = "20211128"
+current_date = "20211129"
 # edition 2021
 # DISTRO_NAME=rust_ppc64el
-# ROOTFS_FILE=rust_ppc64el_2021-11-28_23-41.tar.zst
-# BUILD_DATE=20211128
-# BUILD_TAG=2021-11-28
+# ROOTFS_FILE=rust_ppc64el_2021-11-29_00-38.tar.zst
+# BUILD_DATE=20211129
+# BUILD_TAG=2021-11-29
 # STATUS=completed
 # VERSION=latest01
-# END_TIME=23:41
+# END_TIME=00:38
 
 [time]
 format = "rfc-3339"
 zone = "UTC"
-date = 2021-11-28
-begin = 2021-11-28 23:33:48.531885093+00:00
-start-sync_0 = 23:39:48
-start-zstd = 23:40:36
-start-sync_1 = 23:41:23
-end-sync_1 = 23:41:48
-end = 2021-11-28 23:41:48.510213811+00:00
+date = 2021-11-29
+begin = 2021-11-29 00:27:09.165938260+00:00
+start-sync_0 = 00:33:27
+start-zstd = 00:34:14
+start-sync_1 = 00:38:37
+end-sync_1 = 00:38:59
+end = 2021-11-29 00:38:59.199445909+00:00
 
 [server]
 repo = "cake233/rust-ppc64le"
