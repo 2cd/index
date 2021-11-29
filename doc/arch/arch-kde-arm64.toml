@@ -8,12 +8,12 @@ platform = "linux/arm64"
 x11_or_wayland = true
 
 [file]
-name = "arch-kde-arm64_2021-11-28_19-42.tar.zst"
+name = "arch-kde_arm64_2021-11-29_00-02.tar.zst"
 
 version = "0.0.0-alpha.1"
 
 # This value can be used to verify the integrity of the file
-sha256 = "f4bb7f901a1883d5c26ca314e8cea142cc22ee5b90260d7bd888132a1a628c2a"
+sha256 = "46d5be8d0cfe588d85dc1ecedcbc65d97434aece1e5951b3e8fe38bc01b7fadb"
 
 # zstd: [1-22]
 zstd-level = 15
@@ -21,13 +21,13 @@ zstd-level = 15
 [file.size]
 # Installed size ≈ tar-size
 # Installed size is approximately equal to the size of the tar file
-tar = "4.8G"
-tar_bytes = 5098024448
+tar = "4.9G"
+tar_bytes = 5247655936
 
 # Space occupied ≈ tar-size + zstd-size
 # You will need to prepare a large enough space before installation.
-zstd = "1.5G"
-zstd_bytes = 1609634940
+zstd = "1.6G"
+zstd_bytes = 1662674313
 
 [compatibility]
 compatible_mode = true
@@ -40,26 +40,26 @@ last_tag = ""
 last_file = "arch_arm64+kde-2021_11-03-rootfs.tar.zst"
 
 current_version = "latest01"
-current_date = "20211128"
+current_date = "20211129"
 # edition 2021
 # DISTRO_NAME=arch_arm64
-# ROOTFS_FILE=arch-kde-arm64_2021-11-28_19-42.tar.zst
-# BUILD_DATE=20211128
-# BUILD_TAG=2021-11-28
+# ROOTFS_FILE=arch-kde_arm64_2021-11-29_00-02.tar.zst
+# BUILD_DATE=20211129
+# BUILD_TAG=2021-11-29
 # STATUS=completed
 # VERSION=latest01
-# END_TIME=19:42
+# END_TIME=00:02
 
 [time]
 format = "rfc-3339"
 zone = "UTC"
-date = 2021-11-28
-begin = 2021-11-28 19:02:13.238948071+00:00
-start-sync_0 = 19:27:21
-start-zstd = 19:33:01
-start-sync_1 = 19:40:21
-end-sync_1 = 19:42:13
-end = 2021-11-28 19:42:13.942928041+00:00
+date = 2021-11-29
+begin = 2021-11-28 23:26:24.291824568+00:00
+start-sync_0 = 23:49:10
+start-zstd = 23:54:17
+start-sync_1 = 00:01:07
+end-sync_1 = 00:02:48
+end = 2021-11-29 00:02:48.068712348+00:00
 
 [server]
 repo = "cake233/arch-kde-arm64"
@@ -73,7 +73,7 @@ split = false
 [server.node2]
 name = "us"
 current = false
-last = false
+last = true
 split = false
 part = 12
 
