@@ -22,7 +22,7 @@ docker run \
     --rm \
     -v "$PWD"/go-project:/app \
     -w /app \
-    go-alpine-amd64 \
+    cake233/go-alpine-amd64 \
     go build -v
 ```
 
@@ -53,7 +53,7 @@ func main() {
 ```toml
 [main]
 name = "go"
-tag = ["alpine", "2021-11-28", "musl-libc", "musl"]
+tag = ["alpine", "2021-11-29", "musl-libc", "musl"]
 os = "alpine"
 release = "stable"
 arch = "amd64"
@@ -61,15 +61,15 @@ platform = "linux/amd64"
 x11_or_wayland = false
 
 [file]
-name = "go-musl_amd64_2021-11-28_23-00.tar.zst"
+name = "go-musl_amd64_2021-11-29_00-29.tar.zst"
 
 version = "0.0.0-alpha.1"
 
 # This value can be used to verify the integrity of the file
-sha256 = "5839b8141975daf12ce0a4c3fc6f08a4266637727411455b916f244148133316"
+sha256 = "856da6c6b9a0696ef3db19cdf09dfc41fe414a3d648cb1d8c3010ddce66889f7"
 
 # zstd: [1-22]
-zstd-level = 20
+zstd-level = 13
 
 [file.size]
 # Installed size ≈ tar-size
@@ -79,8 +79,8 @@ tar_bytes = 338341888
 
 # Space occupied ≈ tar-size + zstd-size
 # You will need to prepare a large enough space before installation.
-zstd = "81M"
-zstd_bytes = 83990628
+zstd = "98M"
+zstd_bytes = 102109348
 
 [compatibility]
 compatible_mode = true
@@ -93,26 +93,26 @@ last_tag = ""
 last_file = ""
 
 current_version = "latest01"
-current_date = "20211128"
+current_date = "20211129"
 # edition 2021
 # DISTRO_NAME=go_amd64
-# ROOTFS_FILE=go-musl_amd64_2021-11-28_23-00.tar.zst
-# BUILD_DATE=20211128
-# BUILD_TAG=2021-11-28
+# ROOTFS_FILE=go-musl_amd64_2021-11-29_00-29.tar.zst
+# BUILD_DATE=20211129
+# BUILD_TAG=2021-11-29
 # STATUS=completed
 # VERSION=latest01
-# END_TIME=23:00
+# END_TIME=00:29
 
 [time]
 format = "rfc-3339"
 zone = "UTC"
-date = 2021-11-28
-begin = 2021-11-28 22:58:33.529354825+00:00
-start-sync_0 = 22:58:52
-start-zstd = 22:59:04
-start-sync_1 = 23:00:24
-end-sync_1 = 23:00:37
-end = 2021-11-28 23:00:37.096157367+00:00
+date = 2021-11-29
+begin = 2021-11-29 00:27:11.082777536+00:00
+start-sync_0 = 00:28:13
+start-zstd = 00:28:29
+start-sync_1 = 00:28:47
+end-sync_1 = 00:29:04
+end = 2021-11-29 00:29:04.783677084+00:00
 
 [server]
 repo = "cake233/go-alpine-amd64"
