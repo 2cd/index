@@ -20,7 +20,7 @@ docker run \
 ```toml
 [main]
 name = "alpine"
-tag = ["zsh", "2021-11-28"]
+tag = ["zsh", "2021-11-29"]
 os = "alpine"
 release = "edge"
 arch = "arm64"
@@ -28,12 +28,12 @@ platform = "linux/arm64"
 x11_or_wayland = false
 
 [file]
-name = "alpine-zsh-arm64_2021-11-28_20-58.tar.zst"
+name = "alpine-zsh_arm64_2021-11-29_18-07.tar.zst"
 
 version = "0.0.0-alpha.1"
 
 # This value can be used to verify the integrity of the file
-sha256 = "3bea546530cb9fec65d1f75680a5de49a4bc5783c4fa8d737b13d7c56c2e6bc0"
+sha256 = "017af3edd5ecac055b0c0b7384734247d04bba82180b77b4ae6f64005b1f1c3a"
 
 # zstd: [1-22]
 zstd-level = 20
@@ -41,45 +41,45 @@ zstd-level = 20
 [file.size]
 # Installed size ≈ tar-size
 # Installed size is approximately equal to the size of the tar file
-tar = "91M"
-tar_bytes = 94792704
+tar = "93M"
+tar_bytes = 96698880
 
 # Space occupied ≈ tar-size + zstd-size
 # You will need to prepare a large enough space before installation.
-zstd = "25M"
-zstd_bytes = 26035987
+zstd = "26M"
+zstd_bytes = 27186630
 
 [compatibility]
 compatible_mode = true
 
-last_version = "latest01"
+last_version = "latest02"
 
 # The value is &str, not int
-last_date = "20211109"
-last_tag = ""
-last_file = "alpine-edge_arm64+zsh-2021_11-09-rootfs.tar.zst"
+last_date = "20211128"
+last_tag = "2021-11-28"
+last_file = "alpine-zsh-arm64_2021-11-28_20-58.tar.zst"
 
-current_version = "latest02"
-current_date = "20211128"
+current_version = "latest01"
+current_date = "20211129"
 # edition 2021
 # DISTRO_NAME=alpine-edge_arm64
-# ROOTFS_FILE=alpine-zsh-arm64_2021-11-28_20-58-rootfs.tar.zst
-# BUILD_DATE=20211128
-# BUILD_TAG=2021-11-28
+# ROOTFS_FILE=alpine-zsh_arm64_2021-11-29_18-07-rootfs.tar.zst
+# BUILD_DATE=20211129
+# BUILD_TAG=2021-11-29
 # STATUS=completed
-# VERSION=latest02
-# END_TIME=20:58
+# VERSION=latest01
+# END_TIME=18:07
 
 [time]
 format = "rfc-3339"
 zone = "UTC"
-date = 2021-11-28
-begin = 2021-11-28 20:51:12.106913585+00:00
-start-sync_0 = 20:56:13
-start-zstd = 20:57:38
-start-sync_1 = 20:58:11
-end-sync_1 = 20:58:26
-end = 2021-11-28 20:58:26.479722446+00:00
+date = 2021-11-29
+begin = 2021-11-29 18:03:00.760753301+00:00
+start-sync_0 = 18:04:57
+start-zstd = 18:06:22
+start-sync_1 = 18:06:54
+end-sync_1 = 18:07:04
+end = 2021-11-29 18:07:04.416247144+00:00
 
 [server]
 repo = "cake233/alpine-zsh-arm64"
@@ -93,7 +93,7 @@ split = false
 [server.node2]
 name = "us"
 current = false
-last = false
+last = true
 split = false
 part = 12
 
