@@ -22,7 +22,7 @@ docker run \
     --rm \
     -v "$PWD"/rs-project:/app \
     -w /app \
-    rust-alpine-arm64 \
+    cake233/rust-alpine-arm64 \
     cargo b --release
 ```
 
@@ -31,7 +31,7 @@ docker run \
 ```toml
 [main]
 name = "rust"
-tag = ["alpine", "2021-11-28", "nightly", "unstable", "minimal", "musl-libc", "musl"]
+tag = ["alpine", "2021-11-29", "nightly", "unstable", "minimal", "musl-libc", "musl"]
 os = "alpine"
 release = "edge"
 arch = "arm64"
@@ -39,12 +39,12 @@ platform = "linux/arm64"
 x11_or_wayland = false
 
 [file]
-name = "rust-musl_arm64_2021-11-28_23-12.tar.zst"
+name = "rust-musl_arm64_2021-11-29_00-33.tar.zst"
 
 version = "0.0.0-alpha.1"
 
 # This value can be used to verify the integrity of the file
-sha256 = "b86cd56530a4da9bbbd91fe14156cb7862a9240119ffbdf30e75ae915fbc9829"
+sha256 = "601a991924566e7f078893e8a87cae0fb7fb242cc848ff723799a864c3c3ad98"
 
 # zstd: [1-22]
 zstd-level = 18
@@ -58,7 +58,7 @@ tar_bytes = 825146880
 # Space occupied ≈ tar-size + zstd-size
 # You will need to prepare a large enough space before installation.
 zstd = "182M"
-zstd_bytes = 190663783
+zstd_bytes = 190660211
 
 [compatibility]
 compatible_mode = true
@@ -71,26 +71,26 @@ last_tag = ""
 last_file = "rust_arm64+alpine-2021_11-01-rootfs.tar.zst"
 
 current_version = "latest01"
-current_date = "20211128"
+current_date = "20211129"
 # edition 2021
 # DISTRO_NAME=rust_arm64
-# ROOTFS_FILE=rust-musl_arm64_2021-11-28_23-12.tar.zst
-# BUILD_DATE=20211128
-# BUILD_TAG=2021-11-28
+# ROOTFS_FILE=rust-musl_arm64_2021-11-29_00-33.tar.zst
+# BUILD_DATE=20211129
+# BUILD_TAG=2021-11-29
 # STATUS=completed
 # VERSION=latest01
-# END_TIME=23:12
+# END_TIME=00:33
 
 [time]
 format = "rfc-3339"
 zone = "UTC"
-date = 2021-11-28
-begin = 2021-11-28 23:06:17.047399153+00:00
-start-sync_0 = 23:08:17
-start-zstd = 23:09:03
-start-sync_1 = 23:11:49
-end-sync_1 = 23:12:06
-end = 2021-11-28 23:12:06.514634079+00:00
+date = 2021-11-29
+begin = 2021-11-29 00:27:05.466229314+00:00
+start-sync_0 = 00:29:45
+start-zstd = 00:30:29
+start-sync_1 = 00:32:59
+end-sync_1 = 00:33:21
+end = 2021-11-29 00:33:21.074352689+00:00
 
 [server]
 repo = "cake233/rust-alpine-arm64"
