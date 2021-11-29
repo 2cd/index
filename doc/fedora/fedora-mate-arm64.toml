@@ -66,9 +66,11 @@ repo = "cake233/fedora-mate-arm64"
 
 [server.node1]
 name = "cn"
-current = false
+current = true
 last = true
-in_sync = true
+in_sync = false
+start_sync = 2021-11-29 22:12:22.999674455+00:00
+end_sync = 2021-11-29 22:22:07.772234579+00:00
 
 [server.node2]
 name = "us"
