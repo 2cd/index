@@ -66,7 +66,7 @@ repo = "cake233/go-alpine-amd64"
 
 [server.node1]
 name = "cn"
-current = false
+current = true
 last = true
 split = false
 
