@@ -8,15 +8,15 @@ platform = "linux/amd64"
 x11_or_wayland = false
 
 [file]
-name = "php_amd64_2021-11-29_01-04.tar.zst"
+name = "php_amd64_2021-11-29_19-44.tar.zst"
 
 version = "0.0.0-alpha.1"
 
 # This value can be used to verify the integrity of the file
-sha256 = "e2ebea0579e2efc853cf0d9d877696294876631adeabace91f11763353e195b5"
+sha256 = "ec2fde79a13998f2eb57b799d4b6ecd77e084b9b9145906c33ed07f8ccd09eeb"
 
 # zstd: [1-22]
-zstd-level = 13
+zstd-level = 18
 
 [file.size]
 # Installed size ≈ tar-size
@@ -26,60 +26,60 @@ tar_bytes = 506086912
 
 # Space occupied ≈ tar-size + zstd-size
 # You will need to prepare a large enough space before installation.
-zstd = "139M"
-zstd_bytes = 145410228
+zstd = "124M"
+zstd_bytes = 129965375
 
 [compatibility]
 compatible_mode = true
 
-last_version = "latest02"
+last_version = "latest01"
 
 # The value is &str, not int
-last_date = "20211128"
-last_tag = ""
-last_file = ""
+last_date = "20211129"
+last_tag = "2021-11-29"
+last_file = "php_amd64_2021-11-29_01-04-rootfs.tar.zst"
 
-current_version = "latest01"
+current_version = "latest02"
 current_date = "20211129"
 # edition 2021
 # DISTRO_NAME=php_amd64
-# ROOTFS_FILE=php_amd64_2021-11-29_01-04-rootfs-rootfs.tar.zst
+# ROOTFS_FILE=php_amd64_2021-11-29_19-44-rootfs.tar.zst
 # BUILD_DATE=20211129
 # BUILD_TAG=2021-11-29
 # STATUS=completed
-# VERSION=latest01
-# END_TIME=01:04
+# VERSION=latest02
+# END_TIME=19:44
 
 [time]
 format = "rfc-3339"
 zone = "UTC"
 date = 2021-11-29
-begin = 2021-11-29 01:02:46.691329642+00:00
-start-sync_0 = 01:03:31
-start-zstd = 01:03:44
-start-sync_1 = 01:04:14
-end-sync_1 = 01:04:29
-end = 2021-11-29 01:04:30.017185976+00:00
+begin = 2021-11-29 19:41:54.023285507+00:00
+start-sync_0 = 19:42:57
+start-zstd = 19:43:11
+start-sync_1 = 19:44:35
+end-sync_1 = 19:44:50
+end = 2021-11-29 19:44:50.289419583+00:00
 
 [server]
 repo = "cake233/php-amd64"
 
 [server.node1]
 name = "cn"
-current = true
+current = false
 last = true
 split = false
 
 [server.node2]
 name = "us"
-current = true
-last = false
+current = false
+last = true
 split = false
 part = 12
 
 [server.node3]
 name = "global"
-current = true
+current = false
 last = true
 split = false
 
