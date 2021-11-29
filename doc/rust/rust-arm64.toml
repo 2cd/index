@@ -1,6 +1,6 @@
 [main]
 name = "rust"
-tag = ["latest", "2021-11-28", "nightly", "unstable", "default", "gnu-libc"]
+tag = ["latest", "2021-11-29", "nightly", "unstable", "default", "gnu-libc"]
 os = "debian"
 release = "sid"
 arch = "arm64"
@@ -8,12 +8,12 @@ platform = "linux/arm64"
 x11_or_wayland = false
 
 [file]
-name = "rust_arm64_2021-11-28_23-16.tar.zst"
+name = "rust_arm64_2021-11-29_00-44.tar.zst"
 
 version = "0.0.0-alpha.1"
 
 # This value can be used to verify the integrity of the file
-sha256 = "0e05ccd9ed0e143144ddecb76aac40d0e11a4f9c7f84d51e563f3de191ada668"
+sha256 = "1523c9bf8c9a2a1628a4e5d56c9ff8a0999d0435c731f4c2aa3b8b2f8e4111b7"
 
 # zstd: [1-22]
 zstd-level = 20
@@ -27,7 +27,7 @@ tar_bytes = 1766415360
 # Space occupied ≈ tar-size + zstd-size
 # You will need to prepare a large enough space before installation.
 zstd = "263M"
-zstd_bytes = 275178539
+zstd_bytes = 275177467
 
 [compatibility]
 compatible_mode = true
@@ -40,26 +40,26 @@ last_tag = ""
 last_file = "rust_arm64+latest-2021_11-01-rootfs.tar.zst"
 
 current_version = "latest02"
-current_date = "20211128"
+current_date = "20211129"
 # edition 2021
 # DISTRO_NAME=rust_arm64
-# ROOTFS_FILE=rust_arm64_2021-11-28_23-16.tar.zst
-# BUILD_DATE=20211128
-# BUILD_TAG=2021-11-28
+# ROOTFS_FILE=rust_arm64_2021-11-29_00-44.tar.zst
+# BUILD_DATE=20211129
+# BUILD_TAG=2021-11-29
 # STATUS=completed
 # VERSION=latest02
-# END_TIME=23:16
+# END_TIME=00:44
 
 [time]
 format = "rfc-3339"
 zone = "UTC"
-date = 2021-11-28
-begin = 2021-11-28 23:03:42.485791685+00:00
-start-sync_0 = 23:09:25
-start-zstd = 23:10:29
-start-sync_1 = 23:15:54
-end-sync_1 = 23:16:18
-end = 2021-11-28 23:16:18.274578119+00:00
+date = 2021-11-29
+begin = 2021-11-29 00:27:08.581464833+00:00
+start-sync_0 = 00:35:57
+start-zstd = 00:37:25
+start-sync_1 = 00:44:07
+end-sync_1 = 00:44:35
+end = 2021-11-29 00:44:36.001497429+00:00
 
 [server]
 repo = "cake233/rust-arm64"
