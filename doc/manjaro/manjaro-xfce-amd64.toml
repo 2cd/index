@@ -79,9 +79,11 @@ part = 12
 
 [server.node3]
 name = "global"
-current = false
+current = true
 last = true
-in_sync = true
+in_sync = false
+start_sync = 2021-11-29 22:14:53.792724344+00:00
+end_sync = 2021-11-29 22:17:26.773799519+00:00
 
 [server.node4]
 name = "docker"
