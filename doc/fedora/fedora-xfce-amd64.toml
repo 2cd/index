@@ -66,9 +66,11 @@ repo = "cake233/fedora-xfce-amd64"
 
 [server.node1]
 name = "cn"
-current = false
+current = true
 last = true
-split = false
+in_sync = false
+start_sync = 2021-11-29 22:43:22.040489672+00:00
+end_sync = 2021-11-29 22:52:02.800877424+00:00
 
 [server.node2]
 name = "us"
