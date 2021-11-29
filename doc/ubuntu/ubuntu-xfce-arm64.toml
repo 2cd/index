@@ -66,9 +66,11 @@ repo = "cake233/ubuntu-xfce-arm64"
 
 [server.node1]
 name = "cn"
-current = false
+current = true
 last = true
-in_sync = true
+in_sync = false
+start_sync = 2021-11-29 22:28:57.342004928+00:00
+end_sync = 2021-11-29 22:36:32.785688574+00:00
 
 [server.node2]
 name = "us"
