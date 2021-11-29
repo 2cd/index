@@ -22,7 +22,7 @@ docker run \
     --rm \
     -v "$PWD"/go-project:/app \
     -w /app \
-    go-alpine-arm64 \
+    cake233/go-alpine-arm64 \
     go build -v
 ```
 
@@ -53,7 +53,7 @@ func main() {
 ```toml
 [main]
 name = "go"
-tag = ["alpine", "2021-11-28", "musl-libc", "musl"]
+tag = ["alpine", "2021-11-29", "musl-libc", "musl"]
 os = "alpine"
 release = "stable"
 arch = "arm64"
@@ -61,15 +61,15 @@ platform = "linux/arm64"
 x11_or_wayland = false
 
 [file]
-name = "go-musl_arm64_2021-11-28_23-02.tar.zst"
+name = "go-musl_arm64_2021-11-29_00-29.tar.zst"
 
 version = "0.0.0-alpha.1"
 
 # This value can be used to verify the integrity of the file
-sha256 = "87052001195f7127e092e30b8cef999ce682753191c93e6d5824e41f34e230c3"
+sha256 = "4be03873feaac41b33a0594e6abf0f0ed9146e083e7253734dc5ef5dd25a55bf"
 
 # zstd: [1-22]
-zstd-level = 20
+zstd-level = 13
 
 [file.size]
 # Installed size ≈ tar-size
@@ -79,8 +79,8 @@ tar_bytes = 335077376
 
 # Space occupied ≈ tar-size + zstd-size
 # You will need to prepare a large enough space before installation.
-zstd = "76M"
-zstd_bytes = 79496138
+zstd = "92M"
+zstd_bytes = 96335780
 
 [compatibility]
 compatible_mode = true
@@ -93,26 +93,26 @@ last_tag = ""
 last_file = "go_arm64+alpine-2021_11-01-rootfs.tar.zst"
 
 current_version = "latest02"
-current_date = "20211128"
+current_date = "20211129"
 # edition 2021
 # DISTRO_NAME=go_arm64
-# ROOTFS_FILE=go-musl_arm64_2021-11-28_23-02.tar.zst
-# BUILD_DATE=20211128
-# BUILD_TAG=2021-11-28
+# ROOTFS_FILE=go-musl_arm64_2021-11-29_00-29.tar.zst
+# BUILD_DATE=20211129
+# BUILD_TAG=2021-11-29
 # STATUS=completed
 # VERSION=latest02
-# END_TIME=23:02
+# END_TIME=00:29
 
 [time]
 format = "rfc-3339"
 zone = "UTC"
-date = 2021-11-28
-begin = 2021-11-28 22:59:14.555761464+00:00
-start-sync_0 = 22:59:50
-start-zstd = 23:00:05
-start-sync_1 = 23:01:45
-end-sync_1 = 23:02:00
-end = 2021-11-28 23:02:00.525491262+00:00
+date = 2021-11-29
+begin = 2021-11-29 00:27:07.727256703+00:00
+start-sync_0 = 00:28:21
+start-zstd = 00:28:37
+start-sync_1 = 00:28:52
+end-sync_1 = 00:29:09
+end = 2021-11-29 00:29:09.164754796+00:00
 
 [server]
 repo = "cake233/go-alpine-arm64"
