@@ -20,7 +20,7 @@ docker run \
 ```toml
 [main]
 name = "php"
-tag = ["latest", "2021-11-28"]
+tag = ["latest", "2021-11-29"]
 os = "debian"
 release = "stable"
 arch = "amd64"
@@ -28,15 +28,15 @@ platform = "linux/amd64"
 x11_or_wayland = false
 
 [file]
-name = "php_amd64_2021-11-28_23-04.tar.zst"
+name = "php_amd64_2021-11-29_01-04.tar.zst"
 
 version = "0.0.0-alpha.1"
 
 # This value can be used to verify the integrity of the file
-sha256 = "e7cbf590fac4e3afc8efb6fc1b28ea63101fe60862df9b34afa5f7deacf07b15"
+sha256 = "e2ebea0579e2efc853cf0d9d877696294876631adeabace91f11763353e195b5"
 
 # zstd: [1-22]
-zstd-level = 18
+zstd-level = 13
 
 [file.size]
 # Installed size ≈ tar-size
@@ -46,8 +46,8 @@ tar_bytes = 506086912
 
 # Space occupied ≈ tar-size + zstd-size
 # You will need to prepare a large enough space before installation.
-zstd = "124M"
-zstd_bytes = 129964586
+zstd = "139M"
+zstd_bytes = 145410228
 
 [compatibility]
 compatible_mode = true
@@ -60,26 +60,26 @@ last_tag = ""
 last_file = ""
 
 current_version = "latest01"
-current_date = "20211128"
+current_date = "20211129"
 # edition 2021
 # DISTRO_NAME=php_amd64
-# ROOTFS_FILE=php_amd64_2021-11-28_23-04.tar.zst
-# BUILD_DATE=20211128
-# BUILD_TAG=2021-11-28
+# ROOTFS_FILE=php_amd64_2021-11-29_01-04.tar.zst
+# BUILD_DATE=20211129
+# BUILD_TAG=2021-11-29
 # STATUS=completed
 # VERSION=latest01
-# END_TIME=23:04
+# END_TIME=01:04
 
 [time]
 format = "rfc-3339"
 zone = "UTC"
-date = 2021-11-28
-begin = 2021-11-28 23:02:20.983096071+00:00
-start-sync_0 = 23:02:53
-start-zstd = 23:03:08
-start-sync_1 = 23:04:41
-end-sync_1 = 23:04:56
-end = 2021-11-28 23:04:56.767628294+00:00
+date = 2021-11-29
+begin = 2021-11-29 01:02:46.691329642+00:00
+start-sync_0 = 01:03:31
+start-zstd = 01:03:44
+start-sync_1 = 01:04:14
+end-sync_1 = 01:04:29
+end = 2021-11-29 01:04:30.017185976+00:00
 
 [server]
 repo = "cake233/php-amd64"
@@ -113,9 +113,11 @@ LANG = "en_US.UTF-8"
 PHP_INI_DIR = '/usr/local/etc/php'
 
 [version]
-php = 'PHP 8.0.13 (cli) (built: Nov 19 2021 21:31:18) ( NTS )
+php = '''
+PHP 8.0.13 (cli) (built: Nov 19 2021 21:31:18) ( NTS )
 Copyright (c) The PHP Group
-Zend Engine v4.0.13, Copyright (c) Zend Technologies'
+Zend Engine v4.0.13, Copyright (c) Zend Technologies
+'''
 
 [other]
 phpize_deps = 'autoconf 		dpkg-dev 		file 		g++ 		gcc 		libc-dev 		make 		pkg-config 		re2c'
