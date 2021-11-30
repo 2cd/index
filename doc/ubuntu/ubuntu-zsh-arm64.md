@@ -20,7 +20,7 @@ docker run \
 ```toml
 [main]
 name = "ubuntu"
-tag = ["zsh", "2021-11-28", "devel"]
+tag = ["zsh", "2021-11-30", "devel"]
 os = "ubuntu"
 release = "dev"
 arch = "arm64"
@@ -28,12 +28,12 @@ platform = "linux/arm64"
 x11_or_wayland = false
 
 [file]
-name = "ubuntu-zsh-arm64_2021-11-28_21-09.tar.zst"
+name = "ubuntu-zsh_arm64_2021-11-30_13-42.tar.zst"
 
-version = "0.0.0-alpha.1"
+version = "0.0.0-alpha.2"
 
 # This value can be used to verify the integrity of the file
-sha256 = "11b959df32ebb921d345565297e1e13916952ef872680058cd7173cebfaa2a4f"
+sha256 = "cd528d6b2a3cd0c7719dc68596494ff2d6b4f2cf3a4cf27b14582e9f5aac2f74"
 
 # zstd: [1-22]
 zstd-level = 20
@@ -42,44 +42,45 @@ zstd-level = 20
 # Installed size ≈ tar-size
 # Installed size is approximately equal to the size of the tar file
 tar = "615M"
-tar_bytes = 643916800
+tar_bytes = 644457984
 
 # Space occupied ≈ tar-size + zstd-size
 # You will need to prepare a large enough space before installation.
 zstd = "110M"
-zstd_bytes = 114361223
+zstd_bytes = 114492716
 
 [compatibility]
 compatible_mode = true
 
-last_version = "latest01"
+last_version = "latest02"
 
 # The value is &str, not int
-last_date = "20211102"
-last_tag = ""
-last_file = "ubuntu-dev_arm64+zsh-2021_11-02-rootfs.tar.zst"
+last_date = "20211128"
+last_tag = "2021-11-28"
+last_file = "ubuntu-zsh-arm64_2021-11-28_21-09-rootfs.tar.zst"
 
-current_version = "latest02"
-current_date = "20211128"
+current_version = "latest01"
+current_date = "20211130"
+old_file = "ubuntu-dev_arm64+zsh-2021_11-02-rootfs.tar.zst"
 # edition 2021
 # DISTRO_NAME=ubuntu-dev_arm64
-# ROOTFS_FILE=ubuntu-zsh-arm64_2021-11-28_21-09-rootfs.tar.zst
-# BUILD_DATE=20211128
-# BUILD_TAG=2021-11-28
+# ROOTFS_FILE=ubuntu-zsh_arm64_2021-11-30_13-42-rootfs.tar.zst
+# BUILD_DATE=20211130
+# BUILD_TAG=2021-11-30
 # STATUS=completed
-# VERSION=latest02
-# END_TIME=21:09
+# VERSION=latest01
+# END_TIME=13:42
 
 [time]
 format = "rfc-3339"
 zone = "UTC"
-date = 2021-11-28
-begin = 2021-11-28 20:51:09.448851625+00:00
-start-sync_0 = 21:04:41
-start-zstd = 21:06:27
-start-sync_1 = 21:08:53
-end-sync_1 = 21:09:05
-end = 2021-11-28 21:09:05.756822115+00:00
+date = 2021-11-30
+begin = 2021-11-30 13:26:12.370779940+00:00
+start-sync_0 = 13:38:33
+start-zstd = 13:40:20
+start-sync_1 = 13:42:38
+end-sync_1 = 13:42:53
+end = 2021-11-30 13:42:53.166117034+00:00
 
 [server]
 repo = "cake233/ubuntu-zsh-arm64"
@@ -88,19 +89,21 @@ repo = "cake233/ubuntu-zsh-arm64"
 name = "cn"
 current = false
 last = true
+in_sync = false
 split = false
 
 [server.node2]
 name = "us"
 current = false
-last = false
+last = true
+in_sync = false
 split = false
-part = 12
 
 [server.node3]
 name = "global"
 current = false
 last = true
+in_sync = false
 split = false
 
 [server.node4]
