@@ -1,6 +1,6 @@
 [main]
 name = "ubuntu"
-tag = ["kde", "2021-11-28", "devel"]
+tag = ["kde", "2021-11-30", "devel"]
 os = "ubuntu"
 release = "dev"
 arch = "armhf"
@@ -8,12 +8,12 @@ platform = "linux/arm/v7"
 x11_or_wayland = true
 
 [file]
-name = "ubuntu-kde-armv7_2021-11-28_22-35.tar.zst"
+name = "ubuntu-kde_armhf_2021-11-30_15-19.tar.zst"
 
-version = "0.0.0-alpha.1"
+version = "0.0.0-alpha.2"
 
 # This value can be used to verify the integrity of the file
-sha256 = "66249a6ff577145b6bcb4f2b787550b0283de60252e0ddba26a861d971ac75a0"
+sha256 = "a75698ad01d847c6028c029506fc69c233be46ba9db4bf3c3a9d331e5a471903"
 
 # zstd: [1-22]
 zstd-level = 18
@@ -22,70 +22,69 @@ zstd-level = 18
 # Installed size ≈ tar-size
 # Installed size is approximately equal to the size of the tar file
 tar = "3.0G"
-tar_bytes = 3155593216
+tar_bytes = 3156150784
 
 # Space occupied ≈ tar-size + zstd-size
 # You will need to prepare a large enough space before installation.
 zstd = "1008M"
-zstd_bytes = 1056655271
+zstd_bytes = 1056693725
 
 [compatibility]
 compatible_mode = true
 
-last_version = "latest02"
+last_version = "latest01"
 
 # The value is &str, not int
 last_date = "20211128"
-last_tag = ""
-last_file = ""
+last_tag = "2021-11-28"
+last_file = "ubuntu-kde-armv7_2021-11-28_22-35-rootfs.tar.zst"
 
-current_version = "latest01"
-current_date = "20211128"
+current_version = "latest02"
+current_date = "20211130"
+old_file = ""
 # edition 2021
 # DISTRO_NAME=ubuntu-dev_armhf
-# ROOTFS_FILE=ubuntu-kde-armv7_2021-11-28_22-35-rootfs.tar.zst
-# BUILD_DATE=20211128
-# BUILD_TAG=2021-11-28
+# ROOTFS_FILE=ubuntu-kde_armhf_2021-11-30_15-19-rootfs.tar.zst
+# BUILD_DATE=20211130
+# BUILD_TAG=2021-11-30
 # STATUS=completed
-# VERSION=latest01
-# END_TIME=22:35
+# VERSION=latest02
+# END_TIME=15:19
 
 [time]
 format = "rfc-3339"
 zone = "UTC"
-date = 2021-11-28
-begin = 2021-11-28 21:09:29.208475776+00:00
-start-sync_0 = 22:24:47
-start-zstd = 22:27:14
-start-sync_1 = 22:34:15
-end-sync_1 = 22:35:18
-end = 2021-11-28 22:35:18.440287372+00:00
+date = 2021-11-30
+begin = 2021-11-30 13:43:16.303806252+00:00
+start-sync_0 = 15:07:42
+start-zstd = 15:10:19
+start-sync_1 = 15:18:35
+end-sync_1 = 15:19:48
+end = 2021-11-30 15:19:48.987466252+00:00
 
 [server]
 repo = "cake233/ubuntu-kde-armv7"
 
 [server.node1]
 name = "cn"
-current = true
+current = false
 last = true
 in_sync = false
-start_sync = 2021-11-29 23:12:28.293126881+00:00
-end_sync = 2021-11-29 23:20:31.787982000+00:00
+split = false
 
 [server.node2]
 name = "us"
-current = true
-last = false
+current = false
+last = true
+in_sync = false
 split = false
-part = 12
 
 [server.node3]
 name = "global"
-current = true
+current = false
 last = true
 in_sync = false
-start_sync = 2021-11-29 23:08:40.766346616+00:00
-end_sync = 2021-11-29 23:12:16.431712043+00:00
+split = false
 
 [server.node4]
 name = "docker"
