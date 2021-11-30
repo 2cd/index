@@ -85,12 +85,12 @@ platform = "linux/amd64"
 x11_or_wayland = true
 
 [file]
-name = "fedora-mate_amd64_2021-11-30_13-15.tar.zst"
+name = "fedora-mate_amd64_2021-11-30_15-53.tar.zst"
 
 version = "0.0.0-alpha.2"
 
 # This value can be used to verify the integrity of the file
-sha256 = "c63a4395fd330d4c25010cfcc5d2193d41d2c19286e24ed1df6bae52cc9695cb"
+sha256 = "b50cbc94fdaaf2c5a08dcfd793bda1da771d189c7c55a7d0efb118565a4784ca"
 
 # zstd: [1-22]
 zstd-level = 18
@@ -99,12 +99,12 @@ zstd-level = 18
 # Installed size ≈ tar-size
 # Installed size is approximately equal to the size of the tar file
 tar = "4.4G"
-tar_bytes = 4719636992
+tar_bytes = 4719567872
 
 # Space occupied ≈ tar-size + zstd-size
 # You will need to prepare a large enough space before installation.
 zstd = "1.4G"
-zstd_bytes = 1439282061
+zstd_bytes = 1439083061
 
 [compatibility]
 compatible_mode = true
@@ -121,23 +121,23 @@ current_date = "20211130"
 old_file = "fedora-rawhide_amd64+mate-2021_11-02-rootfs.tar.zst"
 # edition 2021
 # DISTRO_NAME=fedora-rawhide_amd64
-# ROOTFS_FILE=fedora-mate_amd64_2021-11-30_13-15-rootfs.tar.zst
+# ROOTFS_FILE=fedora-mate_amd64_2021-11-30_15-53-rootfs.tar.zst
 # BUILD_DATE=20211130
 # BUILD_TAG=2021-11-30
 # STATUS=completed
 # VERSION=latest01
-# END_TIME=13:15
+# END_TIME=15:53
 
 [time]
 format = "rfc-3339"
 zone = "UTC"
 date = 2021-11-30
-begin = 2021-11-30 12:43:12.870707835+00:00
-start-sync_0 = 12:53:57
-start-zstd = 12:59:08
-start-sync_1 = 13:14:07
-end-sync_1 = 13:15:44
-end = 2021-11-30 13:15:44.889172030+00:00
+begin = 2021-11-30 15:26:57.032003886+00:00
+start-sync_0 = 15:34:09
+start-zstd = 15:38:43
+start-sync_1 = 15:51:59
+end-sync_1 = 15:53:30
+end = 2021-11-30 15:53:30.838290441+00:00
 
 [server]
 repo = "cake233/fedora-mate-amd64"
