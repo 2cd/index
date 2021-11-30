@@ -81,9 +81,11 @@ split = false
 
 [server.node3]
 name = "global"
-current = false
+current = true
 last = true
-in_sync = true
+in_sync = false
+start_sync = 2021-11-30 18:32:01.235205701+00:00
+end_sync = 2021-11-30 18:35:28.119529654+00:00
 split = false
 
 [server.node4]
