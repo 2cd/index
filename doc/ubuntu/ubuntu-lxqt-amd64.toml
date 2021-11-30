@@ -1,6 +1,6 @@
 [main]
 name = "ubuntu"
-tag = ["lxqt", "2021-11-28", "devel"]
+tag = ["lxqt", "2021-11-30", "devel"]
 os = "ubuntu"
 release = "dev"
 arch = "amd64"
@@ -8,12 +8,12 @@ platform = "linux/amd64"
 x11_or_wayland = true
 
 [file]
-name = "ubuntu-lxqt-amd64_2021-11-28_21-40.tar.zst"
+name = "ubuntu-lxqt_amd64_2021-11-30_14-08.tar.zst"
 
-version = "0.0.0-alpha.1"
+version = "0.0.0-alpha.2"
 
 # This value can be used to verify the integrity of the file
-sha256 = "da94726f994530904060e5440e499be4b860ad99cab7cd3fb163436b035a62e2"
+sha256 = "74fcc84865d2e5f0e7b64551a64461b219f64b7c1e669bd3a0eda4da0ebb47bf"
 
 # zstd: [1-22]
 zstd-level = 18
@@ -22,65 +22,68 @@ zstd-level = 18
 # Installed size ≈ tar-size
 # Installed size is approximately equal to the size of the tar file
 tar = "3.1G"
-tar_bytes = 3223819776
+tar_bytes = 3238370816
 
 # Space occupied ≈ tar-size + zstd-size
 # You will need to prepare a large enough space before installation.
-zstd = "822M"
-zstd_bytes = 861454490
+zstd = "825M"
+zstd_bytes = 864398362
 
 [compatibility]
 compatible_mode = true
 
-last_version = "latest01"
+last_version = "latest02"
 
 # The value is &str, not int
-last_date = "20211102"
-last_tag = ""
-last_file = "ubuntu-dev_amd64+lxqt-2021_11-02-rootfs.tar.zst"
+last_date = "20211128"
+last_tag = "2021-11-28"
+last_file = "ubuntu-lxqt-amd64_2021-11-28_21-40-rootfs.tar.zst"
 
-current_version = "latest02"
-current_date = "20211128"
+current_version = "latest01"
+current_date = "20211130"
+old_file = "ubuntu-dev_amd64+lxqt-2021_11-02-rootfs.tar.zst"
 # edition 2021
 # DISTRO_NAME=ubuntu-dev_amd64
-# ROOTFS_FILE=ubuntu-lxqt-amd64_2021-11-28_21-40-rootfs-rootfs.tar.zst
-# BUILD_DATE=20211128
-# BUILD_TAG=2021-11-28
+# ROOTFS_FILE=ubuntu-lxqt_amd64_2021-11-30_14-08-rootfs.tar.zst
+# BUILD_DATE=20211130
+# BUILD_TAG=2021-11-30
 # STATUS=completed
-# VERSION=latest02
-# END_TIME=21:40
+# VERSION=latest01
+# END_TIME=14:08
 
 [time]
 format = "rfc-3339"
 zone = "UTC"
-date = 2021-11-28
-begin = 2021-11-28 21:09:28.752281998+00:00
-start-sync_0 = 21:27:23
-start-zstd = 21:30:02
-start-sync_1 = 21:39:14
-end-sync_1 = 21:40:11
-end = 2021-11-28 21:40:11.266196947+00:00
+date = 2021-11-30
+begin = 2021-11-30 13:43:14.180280068+00:00
+start-sync_0 = 13:56:50
+start-zstd = 13:59:23
+start-sync_1 = 14:07:46
+end-sync_1 = 14:08:38
+end = 2021-11-30 14:08:38.377074420+00:00
 
 [server]
 repo = "cake233/ubuntu-lxqt-amd64"
 
 [server.node1]
 name = "cn"
-current = true
+current = false
 last = true
+in_sync = false
 split = false
 
 [server.node2]
 name = "us"
-current = true
-last = false
+current = false
+last = true
+in_sync = false
 split = false
-part = 12
 
 [server.node3]
 name = "global"
-current = true
+current = false
 last = true
+in_sync = false
 split = false
 
 [server.node4]
