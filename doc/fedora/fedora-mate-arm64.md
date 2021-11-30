@@ -85,12 +85,12 @@ platform = "linux/arm64"
 x11_or_wayland = true
 
 [file]
-name = "fedora-mate_arm64_2021-11-30_14-11.tar.zst"
+name = "fedora-mate_arm64_2021-11-30_17-04.tar.zst"
 
 version = "0.0.0-alpha.2"
 
 # This value can be used to verify the integrity of the file
-sha256 = "4e72b41ea5b1ecfa91993f395fdbcdc67a32ef55cec9c2a897b75d2bf97d0187"
+sha256 = "a07b7c87b54c1e4c41405243ecfa884123a074ef27464ad0d940bfb5d2b819e3"
 
 # zstd: [1-22]
 zstd-level = 18
@@ -99,12 +99,12 @@ zstd-level = 18
 # Installed size ≈ tar-size
 # Installed size is approximately equal to the size of the tar file
 tar = "5.8G"
-tar_bytes = 6142986240
+tar_bytes = 6143091200
 
 # Space occupied ≈ tar-size + zstd-size
 # You will need to prepare a large enough space before installation.
 zstd = "1.5G"
-zstd_bytes = 1609127923
+zstd_bytes = 1609155641
 
 [compatibility]
 compatible_mode = true
@@ -121,23 +121,23 @@ current_date = "20211130"
 old_file = "fedora-rawhide_arm64+mate-2021_11-02-rootfs.tar.zst"
 # edition 2021
 # DISTRO_NAME=fedora-rawhide_arm64
-# ROOTFS_FILE=fedora-mate_arm64_2021-11-30_14-11-rootfs.tar.zst
+# ROOTFS_FILE=fedora-mate_arm64_2021-11-30_17-04-rootfs.tar.zst
 # BUILD_DATE=20211130
 # BUILD_TAG=2021-11-30
 # STATUS=completed
 # VERSION=latest01
-# END_TIME=14:11
+# END_TIME=17:04
 
 [time]
 format = "rfc-3339"
 zone = "UTC"
 date = 2021-11-30
-begin = 2021-11-30 12:43:10.529628270+00:00
-start-sync_0 = 13:49:06
-start-zstd = 13:54:29
-start-sync_1 = 14:09:30
-end-sync_1 = 14:11:13
-end = 2021-11-30 14:11:13.538980470+00:00
+begin = 2021-11-30 15:26:56.812843083+00:00
+start-sync_0 = 16:40:22
+start-zstd = 16:46:14
+start-sync_1 = 17:02:41
+end-sync_1 = 17:04:28
+end = 2021-11-30 17:04:28.907837353+00:00
 
 [server]
 repo = "cake233/fedora-mate-arm64"
