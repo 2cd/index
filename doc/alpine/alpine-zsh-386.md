@@ -20,7 +20,7 @@ docker run \
 ```toml
 [main]
 name = "alpine"
-tag = ["zsh", "2021-11-29"]
+tag = ["zsh", "2021-11-30"]
 os = "alpine"
 release = "edge"
 arch = "i386"
@@ -28,12 +28,12 @@ platform = "linux/386"
 x11_or_wayland = false
 
 [file]
-name = "alpine-zsh_i386_2021-11-29_18-07.tar.zst"
+name = "alpine-zsh_i386_2021-11-30_14-59.tar.zst"
 
-version = "0.0.0-alpha.1"
+version = "0.0.0-alpha.2"
 
 # This value can be used to verify the integrity of the file
-sha256 = "a52f30b0fcd2943b10384d0d2edf7ad97c820bc84972e787926ba0bab74d1733"
+sha256 = "d1835fde09fcd97a027570614abb24f7124ea6eef39a1719e66d4ee6239cca44"
 
 # zstd: [1-22]
 zstd-level = 20
@@ -42,12 +42,12 @@ zstd-level = 20
 # Installed size ≈ tar-size
 # Installed size is approximately equal to the size of the tar file
 tar = "93M"
-tar_bytes = 97065984
+tar_bytes = 97081856
 
 # Space occupied ≈ tar-size + zstd-size
 # You will need to prepare a large enough space before installation.
 zstd = "27M"
-zstd_bytes = 28264080
+zstd_bytes = 28267299
 
 [compatibility]
 compatible_mode = true
@@ -60,26 +60,27 @@ last_tag = "2021-11-28"
 last_file = "alpine-zsh-386_2021-11-28_20-56-rootfs.tar.zst"
 
 current_version = "latest02"
-current_date = "20211129"
+current_date = "20211130"
+old_file = "alpine-edge_i386+zsh-2021_10-28-rootfs.tar.zst"
 # edition 2021
 # DISTRO_NAME=alpine-edge_i386
-# ROOTFS_FILE=alpine-zsh_i386_2021-11-29_18-07-rootfs.tar.zst
-# BUILD_DATE=20211129
-# BUILD_TAG=2021-11-29
+# ROOTFS_FILE=alpine-zsh_i386_2021-11-30_14-59-rootfs.tar.zst
+# BUILD_DATE=20211130
+# BUILD_TAG=2021-11-30
 # STATUS=completed
 # VERSION=latest02
-# END_TIME=18:07
+# END_TIME=14:59
 
 [time]
 format = "rfc-3339"
 zone = "UTC"
-date = 2021-11-29
-begin = 2021-11-29 18:03:01.980242687+00:00
-start-sync_0 = 18:05:10
-start-zstd = 18:06:34
-start-sync_1 = 18:07:07
-end-sync_1 = 18:07:15
-end = 2021-11-29 18:07:15.914254136+00:00
+date = 2021-11-30
+begin = 2021-11-30 14:56:10.177057175+00:00
+start-sync_0 = 14:57:37
+start-zstd = 14:58:59
+start-sync_1 = 14:59:36
+end-sync_1 = 14:59:42
+end = 2021-11-30 14:59:42.434558955+00:00
 
 [server]
 repo = "cake233/alpine-zsh-386"
@@ -88,19 +89,21 @@ repo = "cake233/alpine-zsh-386"
 name = "cn"
 current = false
 last = true
+in_sync = false
 split = false
 
 [server.node2]
 name = "us"
 current = false
 last = true
+in_sync = false
 split = false
-part = 12
 
 [server.node3]
 name = "global"
 current = false
 last = true
+in_sync = false
 split = false
 
 [server.node4]
