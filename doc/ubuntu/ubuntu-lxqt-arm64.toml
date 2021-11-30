@@ -67,9 +67,11 @@ repo = "cake233/ubuntu-lxqt-arm64"
 
 [server.node1]
 name = "cn"
-current = false
+current = true
 last = true
-in_sync = true
+in_sync = false
+start_sync = 2021-11-30 16:44:38.880454482+00:00
+end_sync = 2021-11-30 16:53:53.328590235+00:00
 split = false
 
 [server.node2]
