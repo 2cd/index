@@ -20,7 +20,7 @@ docker run \
 ```toml
 [main]
 name = "kali"
-tag = ["zsh", "2021-11-28"]
+tag = ["zsh", "2021-11-30"]
 os = "kali"
 release = "rolling"
 arch = "amd64"
@@ -28,12 +28,12 @@ platform = "linux/amd64"
 x11_or_wayland = false
 
 [file]
-name = "kali-zsh-amd64_2021-11-28_21-00.tar.zst"
+name = "kali-zsh_amd64_2021-11-30_15-02.tar.zst"
 
-version = "0.0.0-alpha.1"
+version = "0.0.0-alpha.2"
 
 # This value can be used to verify the integrity of the file
-sha256 = "b277daa82e9a830e3321f376388bf4f03a710e65188db6f34d62f53144484017"
+sha256 = "3388bc6c1cdd26685265a940209f0f5253e0dad2630889151adb06ca70bedfdc"
 
 # zstd: [1-22]
 zstd-level = 20
@@ -41,45 +41,46 @@ zstd-level = 20
 [file.size]
 # Installed size ≈ tar-size
 # Installed size is approximately equal to the size of the tar file
-tar = "721M"
-tar_bytes = 755018752
+tar = "729M"
+tar_bytes = 763729408
 
 # Space occupied ≈ tar-size + zstd-size
 # You will need to prepare a large enough space before installation.
-zstd = "139M"
-zstd_bytes = 145136787
+zstd = "140M"
+zstd_bytes = 146784012
 
 [compatibility]
 compatible_mode = true
 
-last_version = "latest01"
+last_version = "latest02"
 
 # The value is &str, not int
-last_date = "20211028"
-last_tag = ""
-last_file = "kali-rolling_amd64+zsh-2021_10-28-rootfs.tar.zst"
+last_date = "20211128"
+last_tag = "2021-11-28"
+last_file = "kali-zsh-amd64_2021-11-28_21-00-rootfs.tar.zst"
 
-current_version = "latest02"
-current_date = "20211128"
+current_version = "latest01"
+current_date = "20211130"
+old_file = "kali-rolling_amd64+zsh-2021_10-28-rootfs.tar.zst"
 # edition 2021
 # DISTRO_NAME=kali-rolling_amd64
-# ROOTFS_FILE=kali-zsh-amd64_2021-11-28_21-00-rootfs.tar.zst
-# BUILD_DATE=20211128
-# BUILD_TAG=2021-11-28
+# ROOTFS_FILE=kali-zsh_amd64_2021-11-30_15-02-rootfs.tar.zst
+# BUILD_DATE=20211130
+# BUILD_TAG=2021-11-30
 # STATUS=completed
-# VERSION=latest02
-# END_TIME=21:00
+# VERSION=latest01
+# END_TIME=15:02
 
 [time]
 format = "rfc-3339"
 zone = "UTC"
-date = 2021-11-28
-begin = 2021-11-28 20:51:10.826292099+00:00
-start-sync_0 = 20:56:28
-start-zstd = 20:58:16
-start-sync_1 = 21:00:38
-end-sync_1 = 21:00:55
-end = 2021-11-28 21:00:55.271776091+00:00
+date = 2021-11-30
+begin = 2021-11-30 14:56:28.802569963+00:00
+start-sync_0 = 14:58:25
+start-zstd = 15:00:12
+start-sync_1 = 15:02:43
+end-sync_1 = 15:02:59
+end = 2021-11-30 15:02:59.399920829+00:00
 
 [server]
 repo = "cake233/kali-zsh-amd64"
@@ -88,19 +89,21 @@ repo = "cake233/kali-zsh-amd64"
 name = "cn"
 current = false
 last = true
+in_sync = false
 split = false
 
 [server.node2]
 name = "us"
 current = false
-last = false
+last = true
+in_sync = false
 split = false
-part = 12
 
 [server.node3]
 name = "global"
 current = false
 last = true
+in_sync = false
 split = false
 
 [server.node4]
