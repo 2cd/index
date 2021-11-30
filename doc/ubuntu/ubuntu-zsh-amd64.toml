@@ -1,6 +1,6 @@
 [main]
 name = "ubuntu"
-tag = ["zsh", "2021-11-28", "devel"]
+tag = ["zsh", "2021-11-30", "devel"]
 os = "ubuntu"
 release = "dev"
 arch = "amd64"
@@ -8,12 +8,12 @@ platform = "linux/amd64"
 x11_or_wayland = false
 
 [file]
-name = "ubuntu-zsh-amd64_2021-11-28_20-58.tar.zst"
+name = "ubuntu-zsh_amd64_2021-11-30_00-08.tar.zst"
 
-version = "0.0.0-alpha.1"
+version = "0.0.0-alpha.2"
 
 # This value can be used to verify the integrity of the file
-sha256 = "e1b6aa38ec96398d6c94dc7b794d5033aa9f79ed487be69c4578c611ae4d653f"
+sha256 = "5bc18e22a8d682e689d6653819e400563de24bedad7be458d66038ab980ca4f7"
 
 # zstd: [1-22]
 zstd-level = 20
@@ -22,65 +22,68 @@ zstd-level = 20
 # Installed size ≈ tar-size
 # Installed size is approximately equal to the size of the tar file
 tar = "626M"
-tar_bytes = 655797248
+tar_bytes = 655793664
 
 # Space occupied ≈ tar-size + zstd-size
 # You will need to prepare a large enough space before installation.
 zstd = "111M"
-zstd_bytes = 115504081
+zstd_bytes = 115523906
 
 [compatibility]
 compatible_mode = true
 
-last_version = "latest01"
+last_version = "latest02"
 
 # The value is &str, not int
-last_date = "20211102"
-last_tag = ""
-last_file = "ubuntu-dev_amd64+zsh-2021_11-02-rootfs.tar.zst"
+last_date = "20211128"
+last_tag = "2021-11-28"
+last_file = "ubuntu-zsh-amd64_2021-11-28_20-58-rootfs.tar.zst"
 
-current_version = "latest02"
-current_date = "20211128"
+current_version = "latest01"
+current_date = "20211130"
+old_file = "ubuntu-dev_amd64+zsh-2021_11-02-rootfs.tar.zst"
 # edition 2021
 # DISTRO_NAME=ubuntu-dev_amd64
-# ROOTFS_FILE=ubuntu-zsh-amd64_2021-11-28_20-58-rootfs-rootfs.tar.zst
-# BUILD_DATE=20211128
-# BUILD_TAG=2021-11-28
+# ROOTFS_FILE=ubuntu-zsh_amd64_2021-11-30_00-08-rootfs.tar.zst
+# BUILD_DATE=20211130
+# BUILD_TAG=2021-11-30
 # STATUS=completed
-# VERSION=latest02
-# END_TIME=20:58
+# VERSION=latest01
+# END_TIME=00:08
 
 [time]
 format = "rfc-3339"
 zone = "UTC"
-date = 2021-11-28
-begin = 2021-11-28 20:51:08.749195703+00:00
-start-sync_0 = 20:53:40
-start-zstd = 20:55:24
-start-sync_1 = 20:57:55
-end-sync_1 = 20:58:09
-end = 2021-11-28 20:58:09.413192708+00:00
+date = 2021-11-30
+begin = 2021-11-30 00:01:50.960161548+00:00
+start-sync_0 = 00:03:55
+start-zstd = 00:05:37
+start-sync_1 = 00:07:49
+end-sync_1 = 00:08:01
+end = 2021-11-30 00:08:01.235289152+00:00
 
 [server]
 repo = "cake233/ubuntu-zsh-amd64"
 
 [server.node1]
 name = "cn"
-current = true
+current = false
 last = true
+in_sync = false
 split = false
 
 [server.node2]
 name = "us"
-current = true
-last = false
+current = false
+last = true
+in_sync = false
 split = false
-part = 12
 
 [server.node3]
 name = "global"
-current = true
+current = false
 last = true
+in_sync = false
 split = false
 
 [server.node4]
