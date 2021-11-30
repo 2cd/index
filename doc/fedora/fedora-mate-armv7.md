@@ -77,7 +77,7 @@ localhost:5903
 ```toml
 [main]
 name = "fedora"
-tag = ["mate", "2021-11-28"]
+tag = ["mate", "2021-11-30"]
 os = "fedora"
 release = "rawhide"
 arch = "armhf"
@@ -85,12 +85,12 @@ platform = "linux/arm/v7"
 x11_or_wayland = true
 
 [file]
-name = "fedora-mate-armv7_2021-11-28_22-43.tar.zst"
+name = "fedora-mate_armhf_2021-11-30_13-20.tar.zst"
 
-version = "0.0.0-alpha.1"
+version = "0.0.0-alpha.2"
 
 # This value can be used to verify the integrity of the file
-sha256 = "217a556316c6009f557ba052467faebdcb7cc2d3e30b3abb60098bf543a9f85b"
+sha256 = "6fd0d08258389f6ce0674e291c8ea0911ca3a2301970a6e7f7751f3905a9af56"
 
 # zstd: [1-22]
 zstd-level = 18
@@ -99,44 +99,45 @@ zstd-level = 18
 # Installed size ≈ tar-size
 # Installed size is approximately equal to the size of the tar file
 tar = "3.2G"
-tar_bytes = 3346215424
+tar_bytes = 3383944192
 
 # Space occupied ≈ tar-size + zstd-size
 # You will need to prepare a large enough space before installation.
 zstd = "1.1G"
-zstd_bytes = 1108405785
+zstd_bytes = 1115610848
 
 [compatibility]
 compatible_mode = true
 
-last_version = "latest02"
+last_version = "latest01"
 
 # The value is &str, not int
-last_date = "20211102"
-last_tag = ""
-last_file = "fedora-rawhide_armhf+mate-2021_11-02-rootfs.tar.zst"
+last_date = "20211128"
+last_tag = "2021-11-28"
+last_file = "fedora-mate-armv7_2021-11-28_22-43-rootfs.tar.zst"
 
-current_version = "latest01"
-current_date = "20211128"
+current_version = "latest02"
+current_date = "20211130"
+old_file = "fedora-rawhide_armhf+mate-2021_11-02-rootfs.tar.zst"
 # edition 2021
 # DISTRO_NAME=fedora-rawhide_armhf
-# ROOTFS_FILE=fedora-mate-armv7_2021-11-28_22-43-rootfs.tar.zst
-# BUILD_DATE=20211128
-# BUILD_TAG=2021-11-28
+# ROOTFS_FILE=fedora-mate_armhf_2021-11-30_13-20-rootfs.tar.zst
+# BUILD_DATE=20211130
+# BUILD_TAG=2021-11-30
 # STATUS=completed
-# VERSION=latest01
-# END_TIME=22:43
+# VERSION=latest02
+# END_TIME=13:20
 
 [time]
 format = "rfc-3339"
 zone = "UTC"
-date = 2021-11-28
-begin = 2021-11-28 22:06:59.389213220+00:00
-start-sync_0 = 22:32:05
-start-zstd = 22:34:42
-start-sync_1 = 22:42:41
-end-sync_1 = 22:43:47
-end = 2021-11-28 22:43:47.422150900+00:00
+date = 2021-11-30
+begin = 2021-11-30 12:43:14.072089672+00:00
+start-sync_0 = 13:08:32
+start-zstd = 13:11:34
+start-sync_1 = 13:19:28
+end-sync_1 = 13:20:45
+end = 2021-11-30 13:20:45.441570481+00:00
 
 [server]
 repo = "cake233/fedora-mate-armv7"
@@ -145,19 +146,21 @@ repo = "cake233/fedora-mate-armv7"
 name = "cn"
 current = false
 last = true
+in_sync = false
 split = false
 
 [server.node2]
 name = "us"
 current = false
-last = false
+last = true
+in_sync = false
 split = false
-part = 12
 
 [server.node3]
 name = "global"
 current = false
 last = true
+in_sync = false
 split = false
 
 [server.node4]
