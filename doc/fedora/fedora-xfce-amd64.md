@@ -85,12 +85,12 @@ platform = "linux/amd64"
 x11_or_wayland = true
 
 [file]
-name = "fedora-xfce_amd64_2021-11-30_13-04.tar.zst"
+name = "fedora-xfce_amd64_2021-11-30_15-52.tar.zst"
 
 version = "0.0.0-alpha.2"
 
 # This value can be used to verify the integrity of the file
-sha256 = "c4bf99269f234c997d027c1ac0be83ca70d2b12a142fb9a6664210e0cba49288"
+sha256 = "2a9b67077cb0de4fa130d9110378dea72c574fc43af79bd99a19d4f8e807e082"
 
 # zstd: [1-22]
 zstd-level = 18
@@ -99,12 +99,12 @@ zstd-level = 18
 # Installed size ≈ tar-size
 # Installed size is approximately equal to the size of the tar file
 tar = "3.8G"
-tar_bytes = 3989030400
+tar_bytes = 3989008384
 
 # Space occupied ≈ tar-size + zstd-size
 # You will need to prepare a large enough space before installation.
 zstd = "1.2G"
-zstd_bytes = 1279163730
+zstd_bytes = 1279052466
 
 [compatibility]
 compatible_mode = true
@@ -121,23 +121,23 @@ current_date = "20211130"
 old_file = "fedora-rawhide_amd64+xfce-2021_11-02-rootfs.tar.zst"
 # edition 2021
 # DISTRO_NAME=fedora-rawhide_amd64
-# ROOTFS_FILE=fedora-xfce_amd64_2021-11-30_13-04-rootfs.tar.zst
+# ROOTFS_FILE=fedora-xfce_amd64_2021-11-30_15-52-rootfs.tar.zst
 # BUILD_DATE=20211130
 # BUILD_TAG=2021-11-30
 # STATUS=completed
 # VERSION=latest01
-# END_TIME=13:04
+# END_TIME=15:52
 
 [time]
 format = "rfc-3339"
 zone = "UTC"
 date = 2021-11-30
-begin = 2021-11-30 12:43:10.315189061+00:00
-start-sync_0 = 12:49:24
-start-zstd = 12:52:43
-start-sync_1 = 13:03:03
-end-sync_1 = 13:04:19
-end = 2021-11-30 13:04:19.233280920+00:00
+begin = 2021-11-30 15:26:57.729784667+00:00
+start-sync_0 = 15:34:17
+start-zstd = 15:38:16
+start-sync_1 = 15:51:01
+end-sync_1 = 15:52:37
+end = 2021-11-30 15:52:37.120014508+00:00
 
 [server]
 repo = "cake233/fedora-xfce-amd64"
