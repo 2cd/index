@@ -77,7 +77,7 @@ localhost:5903
 ```toml
 [main]
 name = "ubuntu"
-tag = ["xfce", "2021-11-28", "devel"]
+tag = ["xfce", "2021-11-30", "devel"]
 os = "ubuntu"
 release = "dev"
 arch = "amd64"
@@ -85,12 +85,12 @@ platform = "linux/amd64"
 x11_or_wayland = true
 
 [file]
-name = "ubuntu-xfce-amd64_2021-11-28_21-36.tar.zst"
+name = "ubuntu-xfce_amd64_2021-11-30_14-09.tar.zst"
 
-version = "0.0.0-alpha.1"
+version = "0.0.0-alpha.2"
 
 # This value can be used to verify the integrity of the file
-sha256 = "10e444afb91571ca62e36ff42899f7c182006c86715529c038ab9302d43a596d"
+sha256 = "ff7d9e1f41d35a2f55ff556c6ea003b019cd64fc42bc1d7621d9cfdd04aecbd6"
 
 # zstd: [1-22]
 zstd-level = 18
@@ -99,44 +99,45 @@ zstd-level = 18
 # Installed size ≈ tar-size
 # Installed size is approximately equal to the size of the tar file
 tar = "2.8G"
-tar_bytes = 2910117376
+tar_bytes = 2918132736
 
 # Space occupied ≈ tar-size + zstd-size
 # You will need to prepare a large enough space before installation.
-zstd = "744M"
-zstd_bytes = 779699861
+zstd = "752M"
+zstd_bytes = 788259478
 
 [compatibility]
 compatible_mode = true
 
-last_version = "latest01"
+last_version = "latest02"
 
 # The value is &str, not int
-last_date = "20211126"
-last_tag = ""
-last_file = ""
+last_date = "20211128"
+last_tag = "2021-11-28"
+last_file = "ubuntu-xfce-amd64_2021-11-28_21-36-rootfs.tar.zst"
 
-current_version = "latest02"
-current_date = "20211128"
+current_version = "latest01"
+current_date = "20211130"
+old_file = ""
 # edition 2021
 # DISTRO_NAME=ubuntu-dev_amd64
-# ROOTFS_FILE=ubuntu-xfce-amd64_2021-11-28_21-36-rootfs.tar.zst
-# BUILD_DATE=20211128
-# BUILD_TAG=2021-11-28
+# ROOTFS_FILE=ubuntu-xfce_amd64_2021-11-30_14-09-rootfs.tar.zst
+# BUILD_DATE=20211130
+# BUILD_TAG=2021-11-30
 # STATUS=completed
-# VERSION=latest02
-# END_TIME=21:36
+# VERSION=latest01
+# END_TIME=14:09
 
 [time]
 format = "rfc-3339"
 zone = "UTC"
-date = 2021-11-28
-begin = 2021-11-28 21:09:52.306150435+00:00
-start-sync_0 = 21:25:17
-start-zstd = 21:27:37
-start-sync_1 = 21:35:31
-end-sync_1 = 21:36:23
-end = 2021-11-28 21:36:23.858978556+00:00
+date = 2021-11-30
+begin = 2021-11-30 13:43:15.964825632+00:00
+start-sync_0 = 13:58:58
+start-zstd = 14:01:28
+start-sync_1 = 14:08:39
+end-sync_1 = 14:09:34
+end = 2021-11-30 14:09:34.102283578+00:00
 
 [server]
 repo = "cake233/ubuntu-xfce-amd64"
@@ -145,19 +146,21 @@ repo = "cake233/ubuntu-xfce-amd64"
 name = "cn"
 current = false
 last = true
+in_sync = false
 split = false
 
 [server.node2]
 name = "us"
 current = false
-last = false
+last = true
+in_sync = false
 split = false
-part = 12
 
 [server.node3]
 name = "global"
 current = false
 last = true
+in_sync = false
 split = false
 
 [server.node4]
