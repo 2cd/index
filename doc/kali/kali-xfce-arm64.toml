@@ -81,7 +81,9 @@ part = 12
 name = "global"
 current = true
 last = true
-in_sync = true
+in_sync = false
+start_sync = 2021-11-30 18:25:48.668320066+00:00
+end_sync = 2021-11-30 18:42:54.229089941+00:00
 
 [server.node4]
 name = "docker"
