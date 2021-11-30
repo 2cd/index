@@ -67,9 +67,11 @@ repo = "cake233/ubuntu-kde-arm64"
 
 [server.node1]
 name = "cn"
-current = false
+current = true
 last = true
-in_sync = true
+in_sync = false
+start_sync = 2021-11-30 18:21:25.027786907+00:00
+end_sync = 2021-11-30 18:30:28.639388921+00:00
 split = false
 
 [server.node2]
