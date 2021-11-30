@@ -68,7 +68,9 @@ repo = "cake233/kali-xfce-arm64"
 name = "cn"
 current = true
 last = true
-in_sync = true
+in_sync = false
+start_sync = 2021-11-30 18:43:10.581448886+00:00
+end_sync = 2021-11-30 18:53:20.043243318+00:00
 
 [server.node2]
 name = "us"
