@@ -77,7 +77,7 @@ localhost:5903
 ```toml
 [main]
 name = "alpine"
-tag = ["mate", "2021-11-28"]
+tag = ["mate", "2021-11-30"]
 os = "alpine"
 release = "edge"
 arch = "amd64"
@@ -85,12 +85,12 @@ platform = "linux/amd64"
 x11_or_wayland = true
 
 [file]
-name = "alpine-mate-amd64_2021-11-28_21-06.tar.zst"
+name = "alpine-mate_amd64_2021-11-30_15-06.tar.zst"
 
-version = "0.0.0-alpha.1"
+version = "0.0.0-alpha.2"
 
 # This value can be used to verify the integrity of the file
-sha256 = "ea329f348e08eb25bb47bd570bf327483e05b0835b65507e93c239aea4cac852"
+sha256 = "faca39cc79117a4e7605733bfc9e4a2f47c965b672f9ef220000583edb96e30f"
 
 # zstd: [1-22]
 zstd-level = 19
@@ -99,44 +99,45 @@ zstd-level = 19
 # Installed size ≈ tar-size
 # Installed size is approximately equal to the size of the tar file
 tar = "1.1G"
-tar_bytes = 1076783104
+tar_bytes = 1076795392
 
 # Space occupied ≈ tar-size + zstd-size
 # You will need to prepare a large enough space before installation.
 zstd = "325M"
-zstd_bytes = 339756937
+zstd_bytes = 340003924
 
 [compatibility]
 compatible_mode = true
 
-last_version = "latest01"
+last_version = "latest02"
 
 # The value is &str, not int
-last_date = "20211028"
-last_tag = ""
-last_file = "alpine-edge_amd64+mate-2021_10-28-rootfs.tar.zst"
+last_date = "20211128"
+last_tag = "2021-11-28"
+last_file = "alpine-mate-amd64_2021-11-28_21-06-rootfs.tar.zst"
 
-current_version = "latest02"
-current_date = "20211128"
+current_version = "latest01"
+current_date = "20211130"
+old_file = "alpine-edge_amd64+mate-2021_10-28-rootfs.tar.zst"
 # edition 2021
 # DISTRO_NAME=alpine-edge_amd64
-# ROOTFS_FILE=alpine-mate-amd64_2021-11-28_21-06-rootfs.tar.zst
-# BUILD_DATE=20211128
-# BUILD_TAG=2021-11-28
+# ROOTFS_FILE=alpine-mate_amd64_2021-11-30_15-06-rootfs.tar.zst
+# BUILD_DATE=20211130
+# BUILD_TAG=2021-11-30
 # STATUS=completed
-# VERSION=latest02
-# END_TIME=21:06
+# VERSION=latest01
+# END_TIME=15:06
 
 [time]
 format = "rfc-3339"
 zone = "UTC"
-date = 2021-11-28
-begin = 2021-11-28 20:58:48.158575739+00:00
-start-sync_0 = 21:01:10
-start-zstd = 21:02:13
-start-sync_1 = 21:05:50
-end-sync_1 = 21:06:18
-end = 2021-11-28 21:06:18.430940754+00:00
+date = 2021-11-30
+begin = 2021-11-30 15:00:01.227941462+00:00
+start-sync_0 = 15:02:05
+start-zstd = 15:03:01
+start-sync_1 = 15:06:25
+end-sync_1 = 15:06:49
+end = 2021-11-30 15:06:49.395843837+00:00
 
 [server]
 repo = "cake233/alpine-mate-amd64"
@@ -145,19 +146,21 @@ repo = "cake233/alpine-mate-amd64"
 name = "cn"
 current = false
 last = true
+in_sync = false
 split = false
 
 [server.node2]
 name = "us"
 current = false
-last = false
+last = true
+in_sync = false
 split = false
-part = 12
 
 [server.node3]
 name = "global"
 current = false
 last = true
+in_sync = false
 split = false
 
 [server.node4]
