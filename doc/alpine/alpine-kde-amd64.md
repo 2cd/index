@@ -77,7 +77,7 @@ localhost:5903
 ```toml
 [main]
 name = "alpine"
-tag = ["kde", "2021-11-28"]
+tag = ["kde", "2021-11-30"]
 os = "alpine"
 release = "edge"
 arch = "amd64"
@@ -85,12 +85,12 @@ platform = "linux/amd64"
 x11_or_wayland = true
 
 [file]
-name = "alpine-kde-amd64_2021-11-28_21-09.tar.zst"
+name = "alpine-kde_amd64_2021-11-30_15-13.tar.zst"
 
-version = "0.0.0-alpha.1"
+version = "0.0.0-alpha.2"
 
 # This value can be used to verify the integrity of the file
-sha256 = "c2a3677dc14fa2931587a8465d9ad088ce826be92c1137e2710ba02f5a3b3410"
+sha256 = "54b0d763a738b8fae0babdf59beab3e663375b44a4a050cc0ac951ef9577ef30"
 
 # zstd: [1-22]
 zstd-level = 19
@@ -99,44 +99,45 @@ zstd-level = 19
 # Installed size ≈ tar-size
 # Installed size is approximately equal to the size of the tar file
 tar = "1.7G"
-tar_bytes = 1819679232
+tar_bytes = 1819695104
 
 # Space occupied ≈ tar-size + zstd-size
 # You will need to prepare a large enough space before installation.
 zstd = "549M"
-zstd_bytes = 575434365
+zstd_bytes = 575533124
 
 [compatibility]
 compatible_mode = true
 
-last_version = "latest01"
+last_version = "latest02"
 
 # The value is &str, not int
-last_date = "20211028"
-last_tag = ""
-last_file = "alpine-edge_amd64+kde-2021_10-28-rootfs.tar.zst"
+last_date = "20211128"
+last_tag = "2021-11-28"
+last_file = "alpine-kde-amd64_2021-11-28_21-09-rootfs.tar.zst"
 
-current_version = "latest02"
-current_date = "20211128"
+current_version = "latest01"
+current_date = "20211130"
+old_file = "alpine-edge_amd64+kde-2021_10-28-rootfs.tar.zst"
 # edition 2021
 # DISTRO_NAME=alpine-edge_amd64
-# ROOTFS_FILE=alpine-kde-amd64_2021-11-28_21-09-rootfs.tar.zst
-# BUILD_DATE=20211128
-# BUILD_TAG=2021-11-28
+# ROOTFS_FILE=alpine-kde_amd64_2021-11-30_15-13-rootfs.tar.zst
+# BUILD_DATE=20211130
+# BUILD_TAG=2021-11-30
 # STATUS=completed
-# VERSION=latest02
-# END_TIME=21:09
+# VERSION=latest01
+# END_TIME=15:13
 
 [time]
 format = "rfc-3339"
 zone = "UTC"
-date = 2021-11-28
-begin = 2021-11-28 20:58:49.256185350+00:00
-start-sync_0 = 21:01:19
-start-zstd = 21:03:04
-start-sync_1 = 21:08:37
-end-sync_1 = 21:09:21
-end = 2021-11-28 21:09:21.090580020+00:00
+date = 2021-11-30
+begin = 2021-11-30 15:00:02.400545354+00:00
+start-sync_0 = 15:02:46
+start-zstd = 15:04:41
+start-sync_1 = 15:12:17
+end-sync_1 = 15:13:00
+end = 2021-11-30 15:13:00.801359773+00:00
 
 [server]
 repo = "cake233/alpine-kde-amd64"
@@ -145,19 +146,21 @@ repo = "cake233/alpine-kde-amd64"
 name = "cn"
 current = false
 last = true
+in_sync = false
 split = false
 
 [server.node2]
 name = "us"
 current = false
-last = false
+last = true
+in_sync = false
 split = false
-part = 12
 
 [server.node3]
 name = "global"
 current = false
 last = true
+in_sync = false
 split = false
 
 [server.node4]
