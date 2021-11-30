@@ -77,7 +77,7 @@ localhost:5903
 ```toml
 [main]
 name = "ubuntu"
-tag = ["kde", "2021-11-28", "devel"]
+tag = ["kde", "2021-11-30", "devel"]
 os = "ubuntu"
 release = "dev"
 arch = "arm64"
@@ -85,12 +85,12 @@ platform = "linux/arm64"
 x11_or_wayland = true
 
 [file]
-name = "ubuntu-kde-arm64_2021-11-28_22-33.tar.zst"
+name = "ubuntu-kde_arm64_2021-11-30_15-12.tar.zst"
 
-version = "0.0.0-alpha.1"
+version = "0.0.0-alpha.2"
 
 # This value can be used to verify the integrity of the file
-sha256 = "3db6af3f88a8461d7d0fc57f4ad43a01e99eb072a59d581d5c8a4800894e6e66"
+sha256 = "6cb7cad1976855a6ab4d487959388e119958882a20ae3db19f98c45af824af8f"
 
 # zstd: [1-22]
 zstd-level = 18
@@ -99,44 +99,45 @@ zstd-level = 18
 # Installed size ≈ tar-size
 # Installed size is approximately equal to the size of the tar file
 tar = "4.1G"
-tar_bytes = 4379956736
+tar_bytes = 4380144640
 
 # Space occupied ≈ tar-size + zstd-size
 # You will need to prepare a large enough space before installation.
 zstd = "1.2G"
-zstd_bytes = 1229675238
+zstd_bytes = 1229806575
 
 [compatibility]
 compatible_mode = true
 
-last_version = "latest01"
+last_version = "latest02"
 
 # The value is &str, not int
-last_date = "20211126"
-last_tag = ""
-last_file = ""
+last_date = "20211128"
+last_tag = "2021-11-28"
+last_file = "ubuntu-kde-arm64_2021-11-28_22-33-rootfs.tar.zst"
 
-current_version = "latest02"
-current_date = "20211128"
+current_version = "latest01"
+current_date = "20211130"
+old_file = ""
 # edition 2021
 # DISTRO_NAME=ubuntu-dev_arm64
-# ROOTFS_FILE=ubuntu-kde-arm64_2021-11-28_22-33-rootfs.tar.zst
-# BUILD_DATE=20211128
-# BUILD_TAG=2021-11-28
+# ROOTFS_FILE=ubuntu-kde_arm64_2021-11-30_15-12-rootfs.tar.zst
+# BUILD_DATE=20211130
+# BUILD_TAG=2021-11-30
 # STATUS=completed
-# VERSION=latest02
-# END_TIME=22:33
+# VERSION=latest01
+# END_TIME=15:12
 
 [time]
 format = "rfc-3339"
 zone = "UTC"
-date = 2021-11-28
-begin = 2021-11-28 21:09:28.754824061+00:00
-start-sync_0 = 22:17:41
-start-zstd = 22:21:31
-start-sync_1 = 22:31:59
-end-sync_1 = 22:33:16
-end = 2021-11-28 22:33:16.273395797+00:00
+date = 2021-11-30
+begin = 2021-11-30 13:43:14.187671883+00:00
+start-sync_0 = 14:55:27
+start-zstd = 14:59:05
+start-sync_1 = 15:10:55
+end-sync_1 = 15:12:10
+end = 2021-11-30 15:12:10.844832157+00:00
 
 [server]
 repo = "cake233/ubuntu-kde-arm64"
@@ -145,19 +146,21 @@ repo = "cake233/ubuntu-kde-arm64"
 name = "cn"
 current = false
 last = true
+in_sync = false
 split = false
 
 [server.node2]
 name = "us"
 current = false
-last = false
+last = true
+in_sync = false
 split = false
-part = 12
 
 [server.node3]
 name = "global"
 current = false
 last = true
+in_sync = false
 split = false
 
 [server.node4]
