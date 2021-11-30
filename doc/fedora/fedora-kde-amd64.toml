@@ -8,12 +8,12 @@ platform = "linux/amd64"
 x11_or_wayland = true
 
 [file]
-name = "fedora-kde_amd64_2021-11-30_13-12.tar.zst"
+name = "fedora-kde_amd64_2021-11-30_15-53.tar.zst"
 
 version = "0.0.0-alpha.2"
 
 # This value can be used to verify the integrity of the file
-sha256 = "f2214e11260170e91aa5974777685ae971a41236b50e491a75691d3d0682dd3b"
+sha256 = "455b6dae986255b20aa3992df4421d31c9f93b17d87c0689168b4c16a50f4b28"
 
 # zstd: [1-22]
 zstd-level = 18
@@ -22,12 +22,12 @@ zstd-level = 18
 # Installed size ≈ tar-size
 # Installed size is approximately equal to the size of the tar file
 tar = "4.7G"
-tar_bytes = 4981508608
+tar_bytes = 4982255616
 
 # Space occupied ≈ tar-size + zstd-size
 # You will need to prepare a large enough space before installation.
 zstd = "1.5G"
-zstd_bytes = 1535082244
+zstd_bytes = 1535174286
 
 [compatibility]
 compatible_mode = true
@@ -44,23 +44,23 @@ current_date = "20211130"
 old_file = "fedora-rawhide_amd64+kde-2021_11-02-rootfs.tar.zst"
 # edition 2021
 # DISTRO_NAME=fedora-rawhide_amd64
-# ROOTFS_FILE=fedora-kde_amd64_2021-11-30_13-12-rootfs.tar.zst
+# ROOTFS_FILE=fedora-kde_amd64_2021-11-30_15-53-rootfs.tar.zst
 # BUILD_DATE=20211130
 # BUILD_TAG=2021-11-30
 # STATUS=completed
 # VERSION=latest01
-# END_TIME=13:12
+# END_TIME=15:53
 
 [time]
 format = "rfc-3339"
 zone = "UTC"
 date = 2021-11-30
-begin = 2021-11-30 12:43:09.675018273+00:00
-start-sync_0 = 12:53:06
-start-zstd = 12:57:13
-start-sync_1 = 13:11:29
-end-sync_1 = 13:12:58
-end = 2021-11-30 13:12:58.571027266+00:00
+begin = 2021-11-30 15:26:58.217738090+00:00
+start-sync_0 = 15:33:48
+start-zstd = 15:38:24
+start-sync_1 = 15:51:51
+end-sync_1 = 15:53:22
+end = 2021-11-30 15:53:22.093229849+00:00
 
 [server]
 repo = "cake233/fedora-kde-amd64"
