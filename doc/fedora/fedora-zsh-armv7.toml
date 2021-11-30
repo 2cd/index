@@ -8,12 +8,12 @@ platform = "linux/arm/v7"
 x11_or_wayland = false
 
 [file]
-name = "fedora-zsh_armhf_2021-11-30_12-18.tar.zst"
+name = "fedora-zsh_armhf_2021-11-30_15-03.tar.zst"
 
 version = "0.0.0-alpha.2"
 
 # This value can be used to verify the integrity of the file
-sha256 = "834446d6e6750115a097e85ee08ecd6994181be5648be5c4e01fccdfdc9e79a3"
+sha256 = "5d82bc3d8331ec62b8444a84ac435232fe3cacf1654b27ae3ddc0698e23f70dc"
 
 # zstd: [1-22]
 zstd-level = 20
@@ -22,12 +22,12 @@ zstd-level = 20
 # Installed size ≈ tar-size
 # Installed size is approximately equal to the size of the tar file
 tar = "1.1G"
-tar_bytes = 1107755008
+tar_bytes = 1107807744
 
 # Space occupied ≈ tar-size + zstd-size
 # You will need to prepare a large enough space before installation.
 zstd = "198M"
-zstd_bytes = 207218033
+zstd_bytes = 207195681
 
 [compatibility]
 compatible_mode = true
@@ -44,23 +44,23 @@ current_date = "20211130"
 old_file = "fedora-rawhide_armhf+zsh-2021_11-02-rootfs.tar.zst"
 # edition 2021
 # DISTRO_NAME=fedora-rawhide_armhf
-# ROOTFS_FILE=fedora-zsh_armhf_2021-11-30_12-18-rootfs.tar.zst
+# ROOTFS_FILE=fedora-zsh_armhf_2021-11-30_15-03-rootfs.tar.zst
 # BUILD_DATE=20211130
 # BUILD_TAG=2021-11-30
 # STATUS=completed
 # VERSION=latest02
-# END_TIME=12:18
+# END_TIME=15:03
 
 [time]
 format = "rfc-3339"
 zone = "UTC"
 date = 2021-11-30
-begin = 2021-11-30 12:01:51.116594146+00:00
-start-sync_0 = 12:12:19
-start-zstd = 12:14:15
-start-sync_1 = 12:17:54
-end-sync_1 = 12:18:13
-end = 2021-11-30 12:18:13.395662245+00:00
+begin = 2021-11-30 14:48:57.224934981+00:00
+start-sync_0 = 14:57:55
+start-zstd = 14:59:51
+start-sync_1 = 15:03:12
+end-sync_1 = 15:03:33
+end = 2021-11-30 15:03:33.846856372+00:00
 
 [server]
 repo = "cake233/fedora-zsh-armv7"
