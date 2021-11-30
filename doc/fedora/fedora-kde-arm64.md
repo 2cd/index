@@ -77,7 +77,7 @@ localhost:5903
 ```toml
 [main]
 name = "fedora"
-tag = ["kde", "2021-11-28"]
+tag = ["kde", "2021-11-30"]
 os = "fedora"
 release = "rawhide"
 arch = "arm64"
@@ -85,12 +85,12 @@ platform = "linux/arm64"
 x11_or_wayland = true
 
 [file]
-name = "fedora-kde-arm64_2021-11-28_23-28.tar.zst"
+name = "fedora-kde_arm64_2021-11-30_14-13.tar.zst"
 
-version = "0.0.0-alpha.1"
+version = "0.0.0-alpha.2"
 
 # This value can be used to verify the integrity of the file
-sha256 = "efa8f83618c7d957713b3b40a3fc01ed40bbd2be1445ea9d641624b1eb2fabc4"
+sha256 = "0836997e853d952a89e0e90cfc1ee47ac4c6292416abd8bdf673a7a682e1fbab"
 
 # zstd: [1-22]
 zstd-level = 18
@@ -99,44 +99,45 @@ zstd-level = 18
 # Installed size ≈ tar-size
 # Installed size is approximately equal to the size of the tar file
 tar = "6.0G"
-tar_bytes = 6418791424
+tar_bytes = 6419049984
 
 # Space occupied ≈ tar-size + zstd-size
 # You will need to prepare a large enough space before installation.
 zstd = "1.6G"
-zstd_bytes = 1707218991
+zstd_bytes = 1705686431
 
 [compatibility]
 compatible_mode = true
 
-last_version = "latest02"
+last_version = "latest01"
 
 # The value is &str, not int
-last_date = "20211102"
-last_tag = ""
-last_file = "fedora-rawhide_arm64+kde-2021_11-02-rootfs.tar.zst"
+last_date = "20211128"
+last_tag = "2021-11-28"
+last_file = "fedora-kde-arm64_2021-11-28_23-28-rootfs.tar.zst"
 
-current_version = "latest01"
-current_date = "20211128"
+current_version = "latest02"
+current_date = "20211130"
+old_file = "fedora-rawhide_arm64+kde-2021_11-02-rootfs.tar.zst"
 # edition 2021
 # DISTRO_NAME=fedora-rawhide_arm64
-# ROOTFS_FILE=fedora-kde-arm64_2021-11-28_23-28-rootfs.tar.zst
-# BUILD_DATE=20211128
-# BUILD_TAG=2021-11-28
+# ROOTFS_FILE=fedora-kde_arm64_2021-11-30_14-13-rootfs.tar.zst
+# BUILD_DATE=20211130
+# BUILD_TAG=2021-11-30
 # STATUS=completed
-# VERSION=latest01
-# END_TIME=23:28
+# VERSION=latest02
+# END_TIME=14:13
 
 [time]
 format = "rfc-3339"
 zone = "UTC"
-date = 2021-11-28
-begin = 2021-11-28 21:46:32.033093666+00:00
-start-sync_0 = 23:04:07
-start-zstd = 23:09:55
-start-sync_1 = 23:26:44
-end-sync_1 = 23:28:40
-end = 2021-11-28 23:28:40.946916285+00:00
+date = 2021-11-30
+begin = 2021-11-30 12:43:09.336707693+00:00
+start-sync_0 = 13:51:13
+start-zstd = 13:56:21
+start-sync_1 = 14:11:36
+end-sync_1 = 14:13:27
+end = 2021-11-30 14:13:27.220052291+00:00
 
 [server]
 repo = "cake233/fedora-kde-arm64"
@@ -145,19 +146,21 @@ repo = "cake233/fedora-kde-arm64"
 name = "cn"
 current = false
 last = true
+in_sync = false
 split = false
 
 [server.node2]
 name = "us"
 current = false
-last = false
+last = true
+in_sync = false
 split = false
-part = 12
 
 [server.node3]
 name = "global"
 current = false
 last = true
+in_sync = false
 split = false
 
 [server.node4]
