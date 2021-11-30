@@ -77,7 +77,7 @@ localhost:5903
 ```toml
 [main]
 name = "ubuntu"
-tag = ["mate", "2021-11-28", "devel"]
+tag = ["mate", "2021-11-30", "devel"]
 os = "ubuntu"
 release = "dev"
 arch = "arm64"
@@ -85,12 +85,12 @@ platform = "linux/arm64"
 x11_or_wayland = true
 
 [file]
-name = "ubuntu-mate-arm64_2021-11-28_22-49.tar.zst"
+name = "ubuntu-mate_arm64_2021-11-30_15-03.tar.zst"
 
-version = "0.0.0-alpha.1"
+version = "0.0.0-alpha.2"
 
 # This value can be used to verify the integrity of the file
-sha256 = "9ebc7a7d46adba6a7e7856e2e7e9110153ce2974c812176c0696ceea4bb157c2"
+sha256 = "1eac56db8698225f6bd91d6814ba21608e024e6d446e08cba195515ff59d23be"
 
 # zstd: [1-22]
 zstd-level = 18
@@ -98,45 +98,46 @@ zstd-level = 18
 [file.size]
 # Installed size ≈ tar-size
 # Installed size is approximately equal to the size of the tar file
-tar = "3.8G"
-tar_bytes = 3984516608
+tar = "3.7G"
+tar_bytes = 3967667200
 
 # Space occupied ≈ tar-size + zstd-size
 # You will need to prepare a large enough space before installation.
 zstd = "992M"
-zstd_bytes = 1039250168
+zstd_bytes = 1039270385
 
 [compatibility]
 compatible_mode = true
 
-last_version = "latest02"
+last_version = "latest01"
 
 # The value is &str, not int
 last_date = "20211128"
-last_tag = ""
-last_file = ""
+last_tag = "2021-11-28"
+last_file = "ubuntu-mate-arm64_2021-11-28_22-49-rootfs.tar.zst"
 
-current_version = "latest01"
-current_date = "20211128"
+current_version = "latest02"
+current_date = "20211130"
+old_file = ""
 # edition 2021
 # DISTRO_NAME=ubuntu-dev_arm64
-# ROOTFS_FILE=ubuntu-mate-arm64_2021-11-28_22-49-rootfs.tar.zst
-# BUILD_DATE=20211128
-# BUILD_TAG=2021-11-28
+# ROOTFS_FILE=ubuntu-mate_arm64_2021-11-30_15-03-rootfs.tar.zst
+# BUILD_DATE=20211130
+# BUILD_TAG=2021-11-30
 # STATUS=completed
-# VERSION=latest01
-# END_TIME=22:49
+# VERSION=latest02
+# END_TIME=15:03
 
 [time]
 format = "rfc-3339"
 zone = "UTC"
-date = 2021-11-28
-begin = 2021-11-28 21:09:52.719627516+00:00
-start-sync_0 = 22:32:29
-start-zstd = 22:36:28
-start-sync_1 = 22:48:44
-end-sync_1 = 22:49:59
-end = 2021-11-28 22:49:59.283669578+00:00
+date = 2021-11-30
+begin = 2021-11-30 13:43:14.171500013+00:00
+start-sync_0 = 14:49:05
+start-zstd = 14:52:13
+start-sync_1 = 15:02:04
+end-sync_1 = 15:03:09
+end = 2021-11-30 15:03:09.092842916+00:00
 
 [server]
 repo = "cake233/ubuntu-mate-arm64"
@@ -145,19 +146,21 @@ repo = "cake233/ubuntu-mate-arm64"
 name = "cn"
 current = false
 last = true
+in_sync = false
 split = false
 
 [server.node2]
 name = "us"
 current = false
-last = false
+last = true
+in_sync = false
 split = false
-part = 12
 
 [server.node3]
 name = "global"
 current = false
 last = true
+in_sync = false
 split = false
 
 [server.node4]
