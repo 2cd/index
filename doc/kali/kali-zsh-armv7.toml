@@ -67,9 +67,11 @@ repo = "cake233/kali-zsh-armv7"
 
 [server.node1]
 name = "cn"
-current = false
+current = true
 last = true
-in_sync = true
+in_sync = false
+start_sync = 2021-11-30 17:34:05.224128218+00:00
+end_sync = 2021-11-30 17:40:20.189484563+00:00
 split = false
 
 [server.node2]
