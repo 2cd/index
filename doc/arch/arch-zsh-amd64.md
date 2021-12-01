@@ -20,7 +20,7 @@ docker run \
 ```toml
 [main]
 name = "arch"
-tag = ["zsh", "2021-11-28"]
+tag = ["zsh", "2021-12-01"]
 os = "arch"
 release = "latest"
 arch = "amd64"
@@ -28,12 +28,12 @@ platform = "linux/amd64"
 x11_or_wayland = false
 
 [file]
-name = "arch-zsh_amd64_2021-11-28_23-14.tar.zst"
+name = "arch-zsh_amd64_2021-12-01_00-14.tar.zst"
 
-version = "0.0.0-alpha.1"
+version = "0.0.0-alpha.2"
 
 # This value can be used to verify the integrity of the file
-sha256 = "0b4c51b422b1a092d686eedaca28473991b4d2f9d036506448a371bfca4541c8"
+sha256 = "20cc22cf9d25d4de1910f877d09e4ab584f853c5ff2db40626a4b53131c37cc1"
 
 # zstd: [1-22]
 zstd-level = 20
@@ -42,44 +42,45 @@ zstd-level = 20
 # Installed size ≈ tar-size
 # Installed size is approximately equal to the size of the tar file
 tar = "975M"
-tar_bytes = 1021987840
+tar_bytes = 1021983232
 
 # Space occupied ≈ tar-size + zstd-size
 # You will need to prepare a large enough space before installation.
 zstd = "235M"
-zstd_bytes = 245820421
+zstd_bytes = 245945844
 
 [compatibility]
 compatible_mode = true
 
-last_version = "latest01"
+last_version = "latest02"
 
 # The value is &str, not int
-last_date = "20211103"
-last_tag = ""
-last_file = "arch_amd64+zsh-2021_11-03-rootfs.tar.zst"
+last_date = "20211128"
+last_tag = "2021-11-28"
+last_file = "arch-zsh_amd64_2021-11-28_23-14-rootfs.tar.zst"
 
-current_version = "latest02"
-current_date = "20211128"
+current_version = "latest01"
+current_date = "20211201"
+old_file = "arch_amd64+zsh-2021_11-03-rootfs.tar.zst"
 # edition 2021
 # DISTRO_NAME=arch_amd64
-# ROOTFS_FILE=arch-zsh_amd64_2021-11-28_23-14-rootfs.tar.zst
-# BUILD_DATE=20211128
-# BUILD_TAG=2021-11-28
+# ROOTFS_FILE=arch-zsh_amd64_2021-12-01_00-14-rootfs.tar.zst
+# BUILD_DATE=20211201
+# BUILD_TAG=2021-12-01
 # STATUS=completed
-# VERSION=latest02
-# END_TIME=23:14
+# VERSION=latest01
+# END_TIME=00:14
 
 [time]
 format = "rfc-3339"
 zone = "UTC"
-date = 2021-11-28
-begin = 2021-11-28 23:07:48.179632638+00:00
-start-sync_0 = 23:09:21
-start-zstd = 23:11:02
-start-sync_1 = 23:14:35
-end-sync_1 = 23:14:54
-end = 2021-11-28 23:14:54.628860892+00:00
+date = 2021-12-01
+begin = 2021-12-01 00:05:19.769009798+00:00
+start-sync_0 = 00:07:01
+start-zstd = 00:08:54
+start-sync_1 = 00:13:34
+end-sync_1 = 00:14:01
+end = 2021-12-01 00:14:01.046402918+00:00
 
 [server]
 repo = "cake233/arch-zsh-amd64"
@@ -88,19 +89,21 @@ repo = "cake233/arch-zsh-amd64"
 name = "cn"
 current = false
 last = true
+in_sync = false
 split = false
 
 [server.node2]
 name = "us"
 current = false
 last = true
+in_sync = false
 split = false
-part = 12
 
 [server.node3]
 name = "global"
 current = false
 last = true
+in_sync = false
 split = false
 
 [server.node4]
