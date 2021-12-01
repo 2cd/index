@@ -1,6 +1,6 @@
 [main]
 name = "arch"
-tag = ["xfce", "2021-11-28"]
+tag = ["xfce", "2021-12-01"]
 os = "arch"
 release = "latest"
 arch = "arm64"
@@ -8,12 +8,12 @@ platform = "linux/arm64"
 x11_or_wayland = true
 
 [file]
-name = "arch-xfce_arm64_2021-11-29_00-00.tar.zst"
+name = "arch-xfce_arm64_2021-12-01_00-57.tar.zst"
 
-version = "0.0.0-alpha.1"
+version = "0.0.0-alpha.2"
 
 # This value can be used to verify the integrity of the file
-sha256 = "5124ca7e8259a5b7f47e787dd5d85bfca43153918dd36fb2d675aacea658b4da"
+sha256 = "850296f26a10c613ee7fe48f8561902691ebc12b712f1a5d611b8111f9f533ff"
 
 # zstd: [1-22]
 zstd-level = 15
@@ -22,65 +22,68 @@ zstd-level = 15
 # Installed size ≈ tar-size
 # Installed size is approximately equal to the size of the tar file
 tar = "4.1G"
-tar_bytes = 4374694400
+tar_bytes = 4340898304
 
 # Space occupied ≈ tar-size + zstd-size
 # You will need to prepare a large enough space before installation.
 zstd = "1.3G"
-zstd_bytes = 1378920760
+zstd_bytes = 1361295478
 
 [compatibility]
 compatible_mode = true
 
-last_version = "latest02"
+last_version = "latest01"
 
 # The value is &str, not int
-last_date = "20211103"
-last_tag = ""
-last_file = "arch_arm64+xfce-2021_11-03-rootfs.tar.zst"
+last_date = "20211129"
+last_tag = "2021-11-29"
+last_file = "arch-xfce_arm64_2021-11-29_00-00-rootfs.tar.zst"
 
-current_version = "latest01"
-current_date = "20211129"
+current_version = "latest02"
+current_date = "20211201"
+old_file = "arch_arm64+xfce-2021_11-03-rootfs.tar.zst"
 # edition 2021
 # DISTRO_NAME=arch_arm64
-# ROOTFS_FILE=arch-xfce_arm64_2021-11-29_00-00-rootfs.tar.zst
-# BUILD_DATE=20211129
-# BUILD_TAG=2021-11-29
+# ROOTFS_FILE=arch-xfce_arm64_2021-12-01_00-57-rootfs.tar.zst
+# BUILD_DATE=20211201
+# BUILD_TAG=2021-12-01
 # STATUS=completed
-# VERSION=latest01
-# END_TIME=00:00
+# VERSION=latest02
+# END_TIME=00:57
 
 [time]
 format = "rfc-3339"
 zone = "UTC"
-date = 2021-11-29
-begin = 2021-11-28 23:26:21.273599992+00:00
-start-sync_0 = 23:50:02
-start-zstd = 23:53:51
-start-sync_1 = 23:59:31
-end-sync_1 = 00:00:55
-end = 2021-11-29 00:00:55.522513341+00:00
+date = 2021-12-01
+begin = 2021-12-01 00:21:32.036996330+00:00
+start-sync_0 = 00:44:36
+start-zstd = 00:49:27
+start-sync_1 = 00:56:11
+end-sync_1 = 00:57:46
+end = 2021-12-01 00:57:46.404831259+00:00
 
 [server]
 repo = "cake233/arch-xfce-arm64"
 
 [server.node1]
 name = "cn"
-current = true
+current = false
 last = true
+in_sync = false
 split = false
 
 [server.node2]
 name = "us"
-current = true
-last = false
+current = false
+last = true
+in_sync = false
 split = false
-part = 12
 
 [server.node3]
 name = "global"
-current = true
+current = false
 last = true
+in_sync = false
 split = false
 
 [server.node4]
