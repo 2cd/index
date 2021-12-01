@@ -77,7 +77,7 @@ localhost:5903
 ```toml
 [main]
 name = "arch"
-tag = ["mate", "2021-11-28"]
+tag = ["mate", "2021-12-01"]
 os = "arch"
 release = "latest"
 arch = "amd64"
@@ -85,12 +85,12 @@ platform = "linux/amd64"
 x11_or_wayland = true
 
 [file]
-name = "arch-mate_amd64_2021-11-28_23-47.tar.zst"
+name = "arch-mate_amd64_2021-12-01_00-41.tar.zst"
 
-version = "0.0.0-alpha.1"
+version = "0.0.0-alpha.2"
 
 # This value can be used to verify the integrity of the file
-sha256 = "50d27fece239b3bba0626967ad6b464e8bf7aea4d0d7d2ad8060114993a5e5ec"
+sha256 = "3c39662baad40ac9c74f9ce206f59cb8cb8f92540f6c53c6ed57265536e4c026"
 
 # zstd: [1-22]
 zstd-level = 15
@@ -99,44 +99,45 @@ zstd-level = 15
 # Installed size ≈ tar-size
 # Installed size is approximately equal to the size of the tar file
 tar = "4.5G"
-tar_bytes = 4726382592
+tar_bytes = 4750082560
 
 # Space occupied ≈ tar-size + zstd-size
 # You will need to prepare a large enough space before installation.
 zstd = "1.4G"
-zstd_bytes = 1452757752
+zstd_bytes = 1459664274
 
 [compatibility]
 compatible_mode = true
 
-last_version = "latest02"
+last_version = "latest01"
 
 # The value is &str, not int
-last_date = "20211103"
-last_tag = ""
-last_file = "arch_amd64+mate-2021_11-03-rootfs.tar.zst"
+last_date = "20211128"
+last_tag = "2021-11-28"
+last_file = "arch-mate_amd64_2021-11-28_23-47-rootfs.tar.zst"
 
-current_version = "latest01"
-current_date = "20211128"
+current_version = "latest02"
+current_date = "20211201"
+old_file = "arch_amd64+mate-2021_11-03-rootfs.tar.zst"
 # edition 2021
 # DISTRO_NAME=arch_amd64
-# ROOTFS_FILE=arch-mate_amd64_2021-11-28_23-47-rootfs.tar.zst
-# BUILD_DATE=20211128
-# BUILD_TAG=2021-11-28
+# ROOTFS_FILE=arch-mate_amd64_2021-12-01_00-41-rootfs.tar.zst
+# BUILD_DATE=20211201
+# BUILD_TAG=2021-12-01
 # STATUS=completed
-# VERSION=latest01
-# END_TIME=23:47
+# VERSION=latest02
+# END_TIME=00:41
 
 [time]
 format = "rfc-3339"
 zone = "UTC"
-date = 2021-11-28
-begin = 2021-11-28 23:26:22.306717667+00:00
-start-sync_0 = 23:35:48
-start-zstd = 23:40:34
-start-sync_1 = 23:46:14
-end-sync_1 = 23:47:33
-end = 2021-11-28 23:47:34.022460011+00:00
+date = 2021-12-01
+begin = 2021-12-01 00:21:29.132126505+00:00
+start-sync_0 = 00:28:32
+start-zstd = 00:33:26
+start-sync_1 = 00:39:44
+end-sync_1 = 00:41:13
+end = 2021-12-01 00:41:13.097189211+00:00
 
 [server]
 repo = "cake233/arch-mate-amd64"
@@ -145,19 +146,21 @@ repo = "cake233/arch-mate-amd64"
 name = "cn"
 current = false
 last = true
+in_sync = false
 split = false
 
 [server.node2]
 name = "us"
 current = false
 last = true
+in_sync = false
 split = false
-part = 12
 
 [server.node3]
 name = "global"
 current = false
 last = true
+in_sync = false
 split = false
 
 [server.node4]
