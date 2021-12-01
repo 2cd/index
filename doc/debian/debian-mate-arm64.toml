@@ -1,6 +1,6 @@
 [main]
 name = "debian"
-tag = ["mate", "2021-11-28"]
+tag = ["mate", "2021-12-01"]
 os = "debian"
 release = "sid"
 arch = "arm64"
@@ -8,12 +8,12 @@ platform = "linux/arm64"
 x11_or_wayland = true
 
 [file]
-name = "debian-mate-arm64_2021-11-28_22-20.tar.zst"
+name = "debian-mate_arm64_2021-12-01_13-07.tar.zst"
 
-version = "0.0.0-alpha.1"
+version = "0.0.0-alpha.2"
 
 # This value can be used to verify the integrity of the file
-sha256 = "05b9292cacd6efbe39a5ad98bb89c21ebd0adf9b658b17430cd713e8d6de0659"
+sha256 = "d40fd6e2a7ee13f78157b9768f3db9b5c6d051d70dcb3712ca1edc16e94fe687"
 
 # zstd: [1-22]
 zstd-level = 18
@@ -22,65 +22,68 @@ zstd-level = 18
 # Installed size ≈ tar-size
 # Installed size is approximately equal to the size of the tar file
 tar = "4.2G"
-tar_bytes = 4468397568
+tar_bytes = 4485351936
 
 # Space occupied ≈ tar-size + zstd-size
 # You will need to prepare a large enough space before installation.
 zstd = "1.2G"
-zstd_bytes = 1203461471
+zstd_bytes = 1204016383
 
 [compatibility]
 compatible_mode = true
 
-last_version = "latest01"
+last_version = "latest02"
 
 # The value is &str, not int
-last_date = "20211103"
-last_tag = ""
-last_file = "debian-sid_arm64+mate-2021_11-03-rootfs.tar.zst"
+last_date = "20211128"
+last_tag = "2021-11-28"
+last_file = "debian-mate-arm64_2021-11-28_22-20-rootfs.tar.zst"
 
-current_version = "latest02"
-current_date = "20211128"
+current_version = "latest01"
+current_date = "20211201"
+old_file = "debian-sid_arm64+mate-2021_11-03-rootfs.tar.zst"
 # edition 2021
 # DISTRO_NAME=debian-sid_arm64
-# ROOTFS_FILE=debian-mate-arm64_2021-11-28_22-20-rootfs.tar.zst
-# BUILD_DATE=20211128
-# BUILD_TAG=2021-11-28
+# ROOTFS_FILE=debian-mate_arm64_2021-12-01_13-07-rootfs.tar.zst
+# BUILD_DATE=20211201
+# BUILD_TAG=2021-12-01
 # STATUS=completed
-# VERSION=latest02
-# END_TIME=22:20
+# VERSION=latest01
+# END_TIME=13:07
 
 [time]
 format = "rfc-3339"
 zone = "UTC"
-date = 2021-11-28
-begin = 2021-11-28 21:29:38.347245682+00:00
-start-sync_0 = 22:04:33
-start-zstd = 22:08:19
-start-sync_1 = 22:19:33
-end-sync_1 = 22:20:45
-end = 2021-11-28 22:20:45.723725199+00:00
+date = 2021-12-01
+begin = 2021-12-01 12:18:04.274364869+00:00
+start-sync_0 = 12:51:32
+start-zstd = 12:55:17
+start-sync_1 = 13:06:15
+end-sync_1 = 13:07:28
+end = 2021-12-01 13:07:28.099520903+00:00
 
 [server]
 repo = "cake233/debian-mate-arm64"
 
 [server.node1]
 name = "cn"
-current = true
+current = false
 last = true
+in_sync = false
 split = false
 
 [server.node2]
 name = "us"
-current = true
-last = false
+current = false
+last = true
+in_sync = false
 split = false
-part = 12
 
 [server.node3]
 name = "global"
-current = true
+current = false
 last = true
+in_sync = false
 split = false
 
 [server.node4]
