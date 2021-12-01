@@ -68,7 +68,9 @@ repo = "cake233/arch-xfce-armv7"
 name = "cn"
 current = true
 last = true
-in_sync = true
+in_sync = false
+start_sync = 2021-12-01 12:57:59.759684945+00:00
+end_sync = 2021-12-01 14:08:06.488606142+00:00
 
 [server.node2]
 name = "us"
