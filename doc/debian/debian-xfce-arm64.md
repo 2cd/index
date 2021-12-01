@@ -77,7 +77,7 @@ localhost:5903
 ```toml
 [main]
 name = "debian"
-tag = ["xfce", "2021-11-28"]
+tag = ["xfce", "2021-12-01"]
 os = "debian"
 release = "sid"
 arch = "arm64"
@@ -85,12 +85,12 @@ platform = "linux/arm64"
 x11_or_wayland = true
 
 [file]
-name = "debian-xfce-arm64_2021-11-28_22-41.tar.zst"
+name = "debian-xfce_arm64_2021-12-01_13-24.tar.zst"
 
-version = "0.0.0-alpha.1"
+version = "0.0.0-alpha.2"
 
 # This value can be used to verify the integrity of the file
-sha256 = "1c03dee94c595026e1ca59b56372483f5996c055040cfe29f58c4ee714b9c305"
+sha256 = "1a884570c57050d33b0a38d0e0c13502c8df1ddb53f9489b7f5556b79c977738"
 
 # zstd: [1-22]
 zstd-level = 18
@@ -99,44 +99,45 @@ zstd-level = 18
 # Installed size ≈ tar-size
 # Installed size is approximately equal to the size of the tar file
 tar = "3.9G"
-tar_bytes = 4173006848
+tar_bytes = 4171906048
 
 # Space occupied ≈ tar-size + zstd-size
 # You will need to prepare a large enough space before installation.
 zstd = "1.1G"
-zstd_bytes = 1146731811
+zstd_bytes = 1163273929
 
 [compatibility]
 compatible_mode = true
 
-last_version = "latest02"
+last_version = "latest01"
 
 # The value is &str, not int
-last_date = "20211103"
-last_tag = ""
-last_file = "debian-sid_arm64+xfce-2021_11-03-rootfs.tar.zst"
+last_date = "20211128"
+last_tag = "2021-11-28"
+last_file = "debian-xfce-arm64_2021-11-28_22-41-rootfs.tar.zst"
 
-current_version = "latest01"
-current_date = "20211128"
+current_version = "latest02"
+current_date = "20211201"
+old_file = "debian-sid_arm64+xfce-2021_11-03-rootfs.tar.zst"
 # edition 2021
 # DISTRO_NAME=debian-sid_arm64
-# ROOTFS_FILE=debian-xfce-arm64_2021-11-28_22-41-rootfs.tar.zst
-# BUILD_DATE=20211128
-# BUILD_TAG=2021-11-28
+# ROOTFS_FILE=debian-xfce_arm64_2021-12-01_13-24-rootfs.tar.zst
+# BUILD_DATE=20211201
+# BUILD_TAG=2021-12-01
 # STATUS=completed
-# VERSION=latest01
-# END_TIME=22:41
+# VERSION=latest02
+# END_TIME=13:24
 
 [time]
 format = "rfc-3339"
 zone = "UTC"
-date = 2021-11-28
-begin = 2021-11-28 21:36:45.063506607+00:00
-start-sync_0 = 22:23:45
-start-zstd = 22:27:50
-start-sync_1 = 22:40:04
-end-sync_1 = 22:41:24
-end = 2021-11-28 22:41:24.172924066+00:00
+date = 2021-12-01
+begin = 2021-12-01 12:18:08.167253523+00:00
+start-sync_0 = 13:04:58
+start-zstd = 13:09:09
+start-sync_1 = 13:23:21
+end-sync_1 = 13:24:43
+end = 2021-12-01 13:24:43.484749249+00:00
 
 [server]
 repo = "cake233/debian-xfce-arm64"
@@ -145,19 +146,21 @@ repo = "cake233/debian-xfce-arm64"
 name = "cn"
 current = false
 last = true
+in_sync = false
 split = false
 
 [server.node2]
 name = "us"
 current = false
-last = false
+last = true
+in_sync = false
 split = false
-part = 12
 
 [server.node3]
 name = "global"
 current = false
 last = true
+in_sync = false
 split = false
 
 [server.node4]
