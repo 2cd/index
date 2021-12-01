@@ -67,9 +67,11 @@ repo = "cake233/arch-mate-arm64"
 
 [server.node1]
 name = "cn"
-current = false
+current = true
 last = true
-in_sync = true
+in_sync = false
+start_sync = 2021-12-01 15:03:21.166144441+00:00
+end_sync = 2021-12-01 15:21:43.357668206+00:00
 split = false
 
 [server.node2]
