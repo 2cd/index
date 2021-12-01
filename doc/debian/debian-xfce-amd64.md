@@ -77,7 +77,7 @@ localhost:5903
 ```toml
 [main]
 name = "debian"
-tag = ["xfce", "2021-11-28"]
+tag = ["xfce", "2021-12-01"]
 os = "debian"
 release = "sid"
 arch = "amd64"
@@ -85,12 +85,12 @@ platform = "linux/amd64"
 x11_or_wayland = true
 
 [file]
-name = "debian-xfce-amd64_2021-11-28_21-59.tar.zst"
+name = "debian-xfce_amd64_2021-12-01_12-39.tar.zst"
 
-version = "0.0.0-alpha.1"
+version = "0.0.0-alpha.2"
 
 # This value can be used to verify the integrity of the file
-sha256 = "d9e6dd2008983bcc790ad7857b4a3b400e34ed191804b6bc6f2918f99574eeb0"
+sha256 = "400552ce2bea8c52d0a76ba7a486cdbc6f18ce217e91dc7262db8234fd5ae943"
 
 # zstd: [1-22]
 zstd-level = 18
@@ -99,44 +99,45 @@ zstd-level = 18
 # Installed size ≈ tar-size
 # Installed size is approximately equal to the size of the tar file
 tar = "3.4G"
-tar_bytes = 3642688000
+tar_bytes = 3645401088
 
 # Space occupied ≈ tar-size + zstd-size
 # You will need to prepare a large enough space before installation.
-zstd = "993M"
-zstd_bytes = 1040342973
+zstd = "995M"
+zstd_bytes = 1043243708
 
 [compatibility]
 compatible_mode = true
 
-last_version = "latest01"
+last_version = "latest02"
 
 # The value is &str, not int
-last_date = "20211103"
-last_tag = ""
-last_file = "debian-sid_amd64+xfce-2021_11-03-rootfs.tar.zst"
+last_date = "20211128"
+last_tag = "2021-11-28"
+last_file = "debian-xfce-amd64_2021-11-28_21-59-rootfs.tar.zst"
 
-current_version = "latest02"
-current_date = "20211128"
+current_version = "latest01"
+current_date = "20211201"
+old_file = "debian-sid_amd64+xfce-2021_11-03-rootfs.tar.zst"
 # edition 2021
 # DISTRO_NAME=debian-sid_amd64
-# ROOTFS_FILE=debian-xfce-amd64_2021-11-28_21-59-rootfs.tar.zst
-# BUILD_DATE=20211128
-# BUILD_TAG=2021-11-28
+# ROOTFS_FILE=debian-xfce_amd64_2021-12-01_12-39-rootfs.tar.zst
+# BUILD_DATE=20211201
+# BUILD_TAG=2021-12-01
 # STATUS=completed
-# VERSION=latest02
-# END_TIME=21:59
+# VERSION=latest01
+# END_TIME=12:39
 
 [time]
 format = "rfc-3339"
 zone = "UTC"
-date = 2021-11-28
-begin = 2021-11-28 21:36:11.781263301+00:00
-start-sync_0 = 21:44:18
-start-zstd = 21:47:42
-start-sync_1 = 21:57:51
-end-sync_1 = 21:59:00
-end = 2021-11-28 21:59:00.739096617+00:00
+date = 2021-12-01
+begin = 2021-12-01 12:18:08.732098843+00:00
+start-sync_0 = 12:24:50
+start-zstd = 12:27:56
+start-sync_1 = 12:38:19
+end-sync_1 = 12:39:26
+end = 2021-12-01 12:39:26.972157225+00:00
 
 [server]
 repo = "cake233/debian-xfce-amd64"
@@ -145,19 +146,21 @@ repo = "cake233/debian-xfce-amd64"
 name = "cn"
 current = false
 last = true
+in_sync = false
 split = false
 
 [server.node2]
 name = "us"
 current = false
-last = false
+last = true
+in_sync = false
 split = false
-part = 12
 
 [server.node3]
 name = "global"
 current = false
 last = true
+in_sync = false
 split = false
 
 [server.node4]
