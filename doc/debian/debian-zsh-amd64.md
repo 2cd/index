@@ -20,7 +20,7 @@ docker run \
 ```toml
 [main]
 name = "debian"
-tag = ["zsh", "2021-11-28"]
+tag = ["zsh", "2021-12-01"]
 os = "debian"
 release = "sid"
 arch = "amd64"
@@ -28,12 +28,12 @@ platform = "linux/amd64"
 x11_or_wayland = false
 
 [file]
-name = "debian-zsh-amd64_2021-11-28_20-59.tar.zst"
+name = "debian-zsh_amd64_2021-12-01_12-08.tar.zst"
 
-version = "0.0.0-alpha.1"
+version = "0.0.0-alpha.2"
 
 # This value can be used to verify the integrity of the file
-sha256 = "088241529ccf1b184a0b9d3e125c9b7ce82c7ddfaa2345e19819f0727b1929fa"
+sha256 = "b05e2d19425c15a2b68fc938cdd217bbaa05e552286007000dbe350cd9841394"
 
 # zstd: [1-22]
 zstd-level = 20
@@ -42,44 +42,45 @@ zstd-level = 20
 # Installed size ≈ tar-size
 # Installed size is approximately equal to the size of the tar file
 tar = "731M"
-tar_bytes = 765543936
+tar_bytes = 765548032
 
 # Space occupied ≈ tar-size + zstd-size
 # You will need to prepare a large enough space before installation.
 zstd = "140M"
-zstd_bytes = 146633611
+zstd_bytes = 146627934
 
 [compatibility]
 compatible_mode = true
 
-last_version = "latest02"
+last_version = "latest01"
 
 # The value is &str, not int
-last_date = "20211103"
-last_tag = ""
-last_file = "debian-sid_amd64+zsh-2021_11-03-rootfs.tar.zst"
+last_date = "20211128"
+last_tag = "2021-11-28"
+last_file = "debian-zsh-amd64_2021-11-28_20-59-rootfs.tar.zst"
 
-current_version = "latest01"
-current_date = "20211128"
+current_version = "latest02"
+current_date = "20211201"
+old_file = "debian-sid_amd64+zsh-2021_11-03-rootfs.tar.zst"
 # edition 2021
 # DISTRO_NAME=debian-sid_amd64
-# ROOTFS_FILE=debian-zsh-amd64_2021-11-28_20-59-rootfs.tar.zst
-# BUILD_DATE=20211128
-# BUILD_TAG=2021-11-28
+# ROOTFS_FILE=debian-zsh_amd64_2021-12-01_12-08-rootfs.tar.zst
+# BUILD_DATE=20211201
+# BUILD_TAG=2021-12-01
 # STATUS=completed
-# VERSION=latest01
-# END_TIME=20:59
+# VERSION=latest02
+# END_TIME=12:08
 
 [time]
 format = "rfc-3339"
 zone = "UTC"
-date = 2021-11-28
-begin = 2021-11-28 20:51:09.934302806+00:00
-start-sync_0 = 20:54:22
-start-zstd = 20:56:16
-start-sync_1 = 20:59:15
-end-sync_1 = 20:59:30
-end = 2021-11-28 20:59:30.360597474+00:00
+date = 2021-12-01
+begin = 2021-12-01 12:01:53.913869389+00:00
+start-sync_0 = 12:03:47
+start-zstd = 12:05:36
+start-sync_1 = 12:08:17
+end-sync_1 = 12:08:31
+end = 2021-12-01 12:08:31.983671707+00:00
 
 [server]
 repo = "cake233/debian-zsh-amd64"
@@ -88,19 +89,21 @@ repo = "cake233/debian-zsh-amd64"
 name = "cn"
 current = false
 last = true
+in_sync = false
 split = false
 
 [server.node2]
 name = "us"
 current = false
-last = false
+last = true
+in_sync = false
 split = false
-part = 12
 
 [server.node3]
 name = "global"
 current = false
 last = true
+in_sync = false
 split = false
 
 [server.node4]
