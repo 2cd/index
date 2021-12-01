@@ -1,6 +1,6 @@
 [main]
 name = "arch"
-tag = ["kde", "2021-11-28"]
+tag = ["kde", "2021-12-01"]
 os = "arch"
 release = "latest"
 arch = "amd64"
@@ -8,12 +8,12 @@ platform = "linux/amd64"
 x11_or_wayland = true
 
 [file]
-name = "arch-kde_amd64_2021-11-28_23-48.tar.zst"
+name = "arch-kde_amd64_2021-12-01_00-44.tar.zst"
 
-version = "0.0.0-alpha.1"
+version = "0.0.0-alpha.2"
 
 # This value can be used to verify the integrity of the file
-sha256 = "e7a12d2512eeef8e658bb4367494719374757216207095b7acaf3be34158c325"
+sha256 = "f884ff5450cb0f03850c1cd94442ec9e12ade656ed6fabcf53bb3298399bef07"
 
 # zstd: [1-22]
 zstd-level = 15
@@ -22,65 +22,68 @@ zstd-level = 15
 # Installed size ≈ tar-size
 # Installed size is approximately equal to the size of the tar file
 tar = "4.4G"
-tar_bytes = 4671521280
+tar_bytes = 4672277504
 
 # Space occupied ≈ tar-size + zstd-size
 # You will need to prepare a large enough space before installation.
 zstd = "1.5G"
-zstd_bytes = 1527834607
+zstd_bytes = 1528022701
 
 [compatibility]
 compatible_mode = true
 
-last_version = "latest02"
+last_version = "latest01"
 
 # The value is &str, not int
-last_date = "20211103"
-last_tag = ""
-last_file = "arch_amd64+kde-2021_11-03-rootfs.tar.zst"
+last_date = "20211128"
+last_tag = "2021-11-28"
+last_file = "arch-kde_amd64_2021-11-28_23-48-rootfs.tar.zst"
 
-current_version = "latest01"
-current_date = "20211128"
+current_version = "latest02"
+current_date = "20211201"
+old_file = "arch_amd64+kde-2021_11-03-rootfs.tar.zst"
 # edition 2021
 # DISTRO_NAME=arch_amd64
-# ROOTFS_FILE=arch-kde_amd64_2021-11-28_23-48-rootfs-rootfs.tar.zst
-# BUILD_DATE=20211128
-# BUILD_TAG=2021-11-28
+# ROOTFS_FILE=arch-kde_amd64_2021-12-01_00-44-rootfs.tar.zst
+# BUILD_DATE=20211201
+# BUILD_TAG=2021-12-01
 # STATUS=completed
-# VERSION=latest01
-# END_TIME=23:48
+# VERSION=latest02
+# END_TIME=00:44
 
 [time]
 format = "rfc-3339"
 zone = "UTC"
-date = 2021-11-28
-begin = 2021-11-28 23:26:21.551472473+00:00
-start-sync_0 = 23:36:22
-start-zstd = 23:41:26
-start-sync_1 = 23:47:07
-end-sync_1 = 23:48:44
-end = 2021-11-28 23:48:44.915437915+00:00
+date = 2021-12-01
+begin = 2021-12-01 00:21:33.099529876+00:00
+start-sync_0 = 00:29:03
+start-zstd = 00:34:53
+start-sync_1 = 00:42:15
+end-sync_1 = 00:44:07
+end = 2021-12-01 00:44:07.479223380+00:00
 
 [server]
 repo = "cake233/arch-kde-amd64"
 
 [server.node1]
 name = "cn"
-current = true
+current = false
 last = true
+in_sync = false
 split = false
 
 [server.node2]
 name = "us"
-current = true
-last = false
+current = false
+last = true
+in_sync = false
 split = false
-part = 12
 
 [server.node3]
 name = "global"
-current = true
+current = false
 last = true
+in_sync = false
 split = false
 
 [server.node4]
