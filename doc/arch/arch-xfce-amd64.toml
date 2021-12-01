@@ -67,9 +67,11 @@ repo = "cake233/arch-xfce-amd64"
 
 [server.node1]
 name = "cn"
-current = false
+current = true
 last = true
-in_sync = true
+in_sync = false
+start_sync = 2021-12-01 12:12:09.758570746+00:00
+end_sync = 2021-12-01 12:21:05.305741951+00:00
 split = false
 
 [server.node2]
