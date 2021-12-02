@@ -67,9 +67,11 @@ repo = "cake233/alpine-kde-arm64"
 
 [server.node1]
 name = "cn"
-current = false
+current = true
 last = true
-in_sync = true
+in_sync = false
+start_sync = 2021-12-02 09:07:32.011598706+00:00
+end_sync = 2021-12-02 09:14:07.395767956+00:00
 split = false
 
 [server.node2]
