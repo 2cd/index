@@ -1,6 +1,6 @@
 [main]
 name = "alpine"
-tag = ["zsh", "2021-11-30"]
+tag = ["zsh", "2021-12-02"]
 os = "alpine"
 release = "edge"
 arch = "arm64"
@@ -8,12 +8,12 @@ platform = "linux/arm64"
 x11_or_wayland = false
 
 [file]
-name = "alpine-zsh_arm64_2021-11-30_14-59.tar.zst"
+name = "alpine-zsh_arm64_2021-12-02_00-05.tar.zst"
 
 version = "0.0.0-alpha.2"
 
 # This value can be used to verify the integrity of the file
-sha256 = "8ffc2d47b163d38309ca002f9a0f7c4b448e0e1f43b671c40f646d7c5e3fe9c7"
+sha256 = "becb74a261d58018d0b16afce2d929811037938d2838d230ee51452b41383ca0"
 
 # zstd: [1-22]
 zstd-level = 20
@@ -22,72 +22,68 @@ zstd-level = 20
 # Installed size ≈ tar-size
 # Installed size is approximately equal to the size of the tar file
 tar = "93M"
-tar_bytes = 96715264
+tar_bytes = 96712192
 
 # Space occupied ≈ tar-size + zstd-size
 # You will need to prepare a large enough space before installation.
 zstd = "26M"
-zstd_bytes = 27204352
+zstd_bytes = 27198279
 
 [compatibility]
 compatible_mode = true
 
-last_version = "latest02"
+last_version = "latest01"
 
 # The value is &str, not int
-last_date = "20211128"
-last_tag = "2021-11-28"
-last_file = "alpine-zsh-arm64_2021-11-28_20-58.tar.zst"
+last_date = "20211130"
+last_tag = "2021-11-30"
+last_file = "alpine-zsh_arm64_2021-11-30_14-59-rootfs.tar.zst"
 
-current_version = "latest01"
-current_date = "20211130"
-old_file = "alpine-edge_arm64+zsh-2021_11-09-rootfs.tar.zst"
+current_version = "latest02"
+current_date = "20211202"
+old_file = "alpine-zsh-arm64_2021-11-28_20-58.tar.zst"
 # edition 2021
 # DISTRO_NAME=alpine-edge_arm64
-# ROOTFS_FILE=alpine-zsh_arm64_2021-11-30_14-59-rootfs.tar.zst
-# BUILD_DATE=20211130
-# BUILD_TAG=2021-11-30
+# ROOTFS_FILE=alpine-zsh_arm64_2021-12-02_00-05-rootfs.tar.zst
+# BUILD_DATE=20211202
+# BUILD_TAG=2021-12-02
 # STATUS=completed
-# VERSION=latest01
-# END_TIME=14:59
+# VERSION=latest02
+# END_TIME=00:05
 
 [time]
 format = "rfc-3339"
 zone = "UTC"
-date = 2021-11-30
-begin = 2021-11-30 14:56:11.323802907+00:00
-start-sync_0 = 14:57:19
-start-zstd = 14:58:45
-start-sync_1 = 14:59:14
-end-sync_1 = 14:59:20
-end = 2021-11-30 14:59:20.197344715+00:00
+date = 2021-12-02
+begin = 2021-12-02 00:01:57.154127884+00:00
+start-sync_0 = 00:03:20
+start-zstd = 00:04:43
+start-sync_1 = 00:05:12
+end-sync_1 = 00:05:23
+end = 2021-12-02 00:05:23.911271169+00:00
 
 [server]
 repo = "cake233/alpine-zsh-arm64"
 
 [server.node1]
 name = "cn"
-current = true
+current = false
 last = true
 in_sync = false
-start_sync = 2021-11-30 16:40:36.385148116+00:00
-end_sync = 2021-11-30 16:46:22.318686496+00:00
 split = false
 
 [server.node2]
 name = "us"
-current = true
-last = false
+current = false
+last = true
 in_sync = false
 split = false
 
 [server.node3]
 name = "global"
-current = true
+current = false
 last = true
 in_sync = false
-start_sync = 2021-11-30 16:40:12.189241024+00:00
-end_sync = 2021-11-30 16:40:24.058077958+00:00
 split = false
 
 [server.node4]
