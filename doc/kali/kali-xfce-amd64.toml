@@ -1,6 +1,6 @@
 [main]
 name = "kali"
-tag = ["xfce", "2021-11-30"]
+tag = ["xfce", "2021-12-02"]
 os = "kali"
 release = "rolling"
 arch = "amd64"
@@ -8,12 +8,12 @@ platform = "linux/amd64"
 x11_or_wayland = true
 
 [file]
-name = "kali-xfce_amd64_2021-11-30_16-00.tar.zst"
+name = "kali-xfce_amd64_2021-12-02_08-19.tar.zst"
 
 version = "0.0.0-alpha.2"
 
 # This value can be used to verify the integrity of the file
-sha256 = "9e6f48a087d93ac6b4997de908dc26092db543b40713037dcf2c90512d152679"
+sha256 = "e2dbdb944f342f2f8c06aa0e50eff6257ededb88825de3af4ce863185eac2ed3"
 
 # zstd: [1-22]
 zstd-level = 18
@@ -22,72 +22,68 @@ zstd-level = 18
 # Installed size ≈ tar-size
 # Installed size is approximately equal to the size of the tar file
 tar = "5.6G"
-tar_bytes = 5930836480
+tar_bytes = 5908386816
 
 # Space occupied ≈ tar-size + zstd-size
 # You will need to prepare a large enough space before installation.
-zstd = "1.7G"
-zstd_bytes = 1731399212
+zstd = "1.6G"
+zstd_bytes = 1709554349
 
 [compatibility]
 compatible_mode = true
 
-last_version = "latest02"
+last_version = "latest01"
 
 # The value is &str, not int
-last_date = "20211128"
-last_tag = "2021-11-28"
-last_file = "kali-xfce-amd64_2021-11-28_22-07-rootfs.tar.zst"
+last_date = "20211130"
+last_tag = "2021-11-30"
+last_file = "kali-xfce_amd64_2021-11-30_16-00-rootfs.tar.zst"
 
-current_version = "latest01"
-current_date = "20211130"
-old_file = "kali-rolling_amd64+xfce-2021_11-10-rootfs.tar.zst"
+current_version = "latest02"
+current_date = "20211202"
+old_file = "kali-xfce-amd64_2021-11-28_22-07-rootfs.tar.zst"
 # edition 2021
 # DISTRO_NAME=kali-rolling_amd64
-# ROOTFS_FILE=kali-xfce_amd64_2021-11-30_16-00-rootfs.tar.zst
-# BUILD_DATE=20211130
-# BUILD_TAG=2021-11-30
+# ROOTFS_FILE=kali-xfce_amd64_2021-12-02_08-19-rootfs.tar.zst
+# BUILD_DATE=20211202
+# BUILD_TAG=2021-12-02
 # STATUS=completed
-# VERSION=latest01
-# END_TIME=16:00
+# VERSION=latest02
+# END_TIME=08:19
 
 [time]
 format = "rfc-3339"
 zone = "UTC"
-date = 2021-11-30
-begin = 2021-11-30 15:16:00.742248667+00:00
-start-sync_0 = 15:33:52
-start-zstd = 15:41:13
-start-sync_1 = 15:58:28
-end-sync_1 = 16:00:24
-end = 2021-11-30 16:00:24.441568362+00:00
+date = 2021-12-02
+begin = 2021-12-02 07:38:03.456222220+00:00
+start-sync_0 = 07:54:38
+start-zstd = 08:00:57
+start-sync_1 = 08:17:31
+end-sync_1 = 08:19:19
+end = 2021-12-02 08:19:19.954783028+00:00
 
 [server]
 repo = "cake233/kali-xfce-amd64"
 
 [server.node1]
 name = "cn"
-current = true
+current = false
 last = true
 in_sync = false
-start_sync = 2021-11-30 18:07:58.989960732+00:00
-end_sync = 2021-11-30 18:22:51.218244339+00:00
 split = false
 
 [server.node2]
 name = "us"
-current = true
-last = false
+current = false
+last = true
 in_sync = false
 split = false
 
 [server.node3]
 name = "global"
-current = true
+current = false
 last = true
 in_sync = false
-start_sync = 2021-11-30 17:42:53.631823511+00:00
-end_sync = 2021-11-30 18:07:46.627272154+00:00
 split = false
 
 [server.node4]
