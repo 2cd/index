@@ -67,9 +67,11 @@ repo = "cake233/debian-kde-amd64"
 
 [server.node1]
 name = "cn"
-current = false
+current = true
 last = true
-in_sync = true
+in_sync = false
+start_sync = 2021-12-02 07:04:29.214959974+00:00
+end_sync = 2021-12-02 07:13:44.666761244+00:00
 split = false
 
 [server.node2]
