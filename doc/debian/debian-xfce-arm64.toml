@@ -69,7 +69,7 @@ repo = "cake233/debian-xfce-arm64"
 name = "cn"
 current = false
 last = true
-in_sync = false
+in_sync = true
 split = false
 
 [server.node2]
