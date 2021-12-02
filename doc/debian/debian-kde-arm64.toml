@@ -81,9 +81,9 @@ split = false
 
 [server.node3]
 name = "global"
-current = false
+current = true
 last = true
-in_sync = true
+in_sync = false
 split = false
 
 [server.node4]
