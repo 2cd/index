@@ -67,9 +67,11 @@ repo = "cake233/debian-mate-arm64"
 
 [server.node1]
 name = "cn"
-current = false
+current = true
 last = true
-in_sync = true
+in_sync = false
+start_sync = 2021-12-02 05:58:40.468062036+00:00
+end_sync = 2021-12-02 06:07:19.060630814+00:00
 split = false
 
 [server.node2]
