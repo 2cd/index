@@ -67,9 +67,11 @@ repo = "cake233/alpine-zsh-arm64"
 
 [server.node1]
 name = "cn"
-current = false
+current = true
 last = true
-in_sync = true
+in_sync = false
+start_sync = 2021-12-02 07:32:42.702686539+00:00
+end_sync = 2021-12-02 07:37:48.741174725+00:00
 split = false
 
 [server.node2]
