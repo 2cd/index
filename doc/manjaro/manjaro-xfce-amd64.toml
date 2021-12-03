@@ -1,6 +1,6 @@
 [main]
 name = "manjaro"
-tag = ["xfce", "2021-11-28"]
+tag = ["xfce", "2021-12-03"]
 os = "manjaro"
 release = "stable"
 arch = "amd64"
@@ -8,12 +8,12 @@ platform = "linux/amd64"
 x11_or_wayland = true
 
 [file]
-name = "manjaro-xfce-amd64_2021-11-28_21-35.tar.zst"
+name = "manjaro-xfce_amd64_2021-12-03_12-45.tar.zst"
 
-version = "0.0.0-alpha.1"
+version = "0.0.0-alpha.2"
 
 # This value can be used to verify the integrity of the file
-sha256 = "e9906ccab8bda0e35d306a839d793d64c950021fda46bf997c5c74e3350ca1b9"
+sha256 = "02756b3690dd7ccd311d0ce0f194dff9f109015880ea7c3b543f635c8e462dab"
 
 # zstd: [1-22]
 zstd-level = 18
@@ -22,70 +22,69 @@ zstd-level = 18
 # Installed size ≈ tar-size
 # Installed size is approximately equal to the size of the tar file
 tar = "3.7G"
-tar_bytes = 3907235328
+tar_bytes = 3913473024
 
 # Space occupied ≈ tar-size + zstd-size
 # You will need to prepare a large enough space before installation.
 zstd = "1.2G"
-zstd_bytes = 1181836412
+zstd_bytes = 1184327666
 
 [compatibility]
 compatible_mode = true
 
-last_version = "latest02"
+last_version = "latest01"
 
 # The value is &str, not int
-last_date = "20211024"
-last_tag = ""
-last_file = "manjaro-stable_amd64+xfce-2021_10-24-rootfs.tar.zst"
+last_date = "20211128"
+last_tag = "2021-11-28"
+last_file = "manjaro-xfce-amd64_2021-11-28_21-35-rootfs.tar.zst"
 
-current_version = "latest01"
-current_date = "20211128"
+current_version = "latest02"
+current_date = "20211203"
+old_file = "manjaro-stable_amd64+xfce-2021_10-24-rootfs.tar.zst"
 # edition 2021
 # DISTRO_NAME=manjaro-stable_amd64
-# ROOTFS_FILE=manjaro-xfce-amd64_2021-11-28_21-35-rootfs-rootfs.tar.zst
-# BUILD_DATE=20211128
-# BUILD_TAG=2021-11-28
+# ROOTFS_FILE=manjaro-xfce_amd64_2021-12-03_12-45-rootfs.tar.zst
+# BUILD_DATE=20211203
+# BUILD_TAG=2021-12-03
 # STATUS=completed
-# VERSION=latest01
-# END_TIME=21:35
+# VERSION=latest02
+# END_TIME=12:45
 
 [time]
 format = "rfc-3339"
 zone = "UTC"
-date = 2021-11-28
-begin = 2021-11-28 21:08:43.499885325+00:00
-start-sync_0 = 21:20:26
-start-zstd = 21:23:47
-start-sync_1 = 21:34:36
-end-sync_1 = 21:35:56
-end = 2021-11-28 21:35:56.362458522+00:00
+date = 2021-12-03
+begin = 2021-12-03 12:17:19.929764553+00:00
+start-sync_0 = 12:27:30
+start-zstd = 12:30:36
+start-sync_1 = 12:43:57
+end-sync_1 = 12:45:09
+end = 2021-12-03 12:45:09.028337889+00:00
 
 [server]
 repo = "cake233/manjaro-xfce-amd64"
 
 [server.node1]
 name = "cn"
-current = true
+current = false
 last = true
 in_sync = false
-start_sync = 2021-11-29 22:17:37.930744665+00:00
-end_sync = 2021-11-29 22:26:00.629065365+00:00
+split = false
 
 [server.node2]
 name = "us"
-current = true
-last = false
+current = false
+last = true
+in_sync = false
 split = false
-part = 12
 
 [server.node3]
 name = "global"
-current = true
+current = false
 last = true
 in_sync = false
-start_sync = 2021-11-29 22:14:53.792724344+00:00
-end_sync = 2021-11-29 22:17:26.773799519+00:00
+split = false
 
 [server.node4]
 name = "docker"
