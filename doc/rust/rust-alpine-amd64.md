@@ -31,7 +31,7 @@ docker run \
 ```toml
 [main]
 name = "rust"
-tag = ["alpine", "2021-11-29", "nightly", "unstable", "minimal", "musl-libc", "musl"]
+tag = ["alpine", "2021-12-03", "nightly", "unstable", "minimal", "musl-libc", "musl"]
 os = "alpine"
 release = "edge"
 arch = "amd64"
@@ -39,12 +39,12 @@ platform = "linux/amd64"
 x11_or_wayland = false
 
 [file]
-name = "rust-musl_amd64_2021-11-29_00-32.tar.zst"
+name = "rust-musl_amd64_2021-12-03_00-07.tar.zst"
 
-version = "0.0.0-alpha.1"
+version = "0.0.0-alpha.2"
 
 # This value can be used to verify the integrity of the file
-sha256 = "29659ea29453342ba20feab273e5433ca791b9ffb0bf8dfd09fb3ec811c7cace"
+sha256 = "76e1e80bf4c2cd575883cc2019b4c765af09f8713b739e56656afe284c932329"
 
 # zstd: [1-22]
 zstd-level = 18
@@ -52,45 +52,46 @@ zstd-level = 18
 [file.size]
 # Installed size ≈ tar-size
 # Installed size is approximately equal to the size of the tar file
-tar = "838M"
-tar_bytes = 878290944
+tar = "833M"
+tar_bytes = 872525824
 
 # Space occupied ≈ tar-size + zstd-size
 # You will need to prepare a large enough space before installation.
-zstd = "191M"
-zstd_bytes = 199549553
+zstd = "190M"
+zstd_bytes = 198835277
 
 [compatibility]
 compatible_mode = true
 
-last_version = "latest02"
+last_version = "latest01"
 
 # The value is &str, not int
-last_date = "20211128"
-last_tag = ""
-last_file = ""
+last_date = "20211129"
+last_tag = "2021-11-29"
+last_file = "rust-musl_amd64_2021-11-29_00-32-rootfs.tar.zst"
 
-current_version = "latest01"
-current_date = "20211129"
+current_version = "latest02"
+current_date = "20211203"
+old_file = ""
 # edition 2021
 # DISTRO_NAME=rust_amd64
-# ROOTFS_FILE=rust-musl_amd64_2021-11-29_00-32-rootfs.tar.zst
-# BUILD_DATE=20211129
-# BUILD_TAG=2021-11-29
+# ROOTFS_FILE=rust-musl_amd64_2021-12-03_00-07-rootfs.tar.zst
+# BUILD_DATE=20211203
+# BUILD_TAG=2021-12-03
 # STATUS=completed
-# VERSION=latest01
-# END_TIME=00:32
+# VERSION=latest02
+# END_TIME=00:07
 
 [time]
 format = "rfc-3339"
 zone = "UTC"
-date = 2021-11-29
-begin = 2021-11-29 00:27:06.367387432+00:00
-start-sync_0 = 00:28:17
-start-zstd = 00:29:07
-start-sync_1 = 00:31:47
-end-sync_1 = 00:32:05
-end = 2021-11-29 00:32:05.602728256+00:00
+date = 2021-12-03
+begin = 2021-12-03 00:01:57.809248205+00:00
+start-sync_0 = 00:02:55
+start-zstd = 00:03:57
+start-sync_1 = 00:06:41
+end-sync_1 = 00:07:05
+end = 2021-12-03 00:07:05.197338622+00:00
 
 [server]
 repo = "cake233/rust-alpine-amd64"
@@ -99,19 +100,21 @@ repo = "cake233/rust-alpine-amd64"
 name = "cn"
 current = false
 last = true
+in_sync = false
 split = false
 
 [server.node2]
 name = "us"
 current = false
 last = true
+in_sync = false
 split = false
-part = 12
 
 [server.node3]
 name = "global"
 current = false
 last = true
+in_sync = false
 split = false
 
 [server.node4]
@@ -127,24 +130,24 @@ CARGO_HOME = "/usr/local/cargo"
 
 [version]
 rustup = 'rustup 1.24.3 (2021-05-31)'
-cargo = 'cargo 1.58.0-nightly (7f08ace4f 2021-11-24)'
-rustc = 'rustc 1.59.0-nightly (686e313a9 2021-11-27)'
-cc = 'cc (Alpine 11.2.1_git20211125) 11.2.1 20211125'
+cargo = 'cargo 1.58.0-nightly (294967c53 2021-11-29)'
+rustc = 'rustc 1.59.0-nightly (48a5999fc 2021-12-01)'
+cc = 'cc (Alpine 11.2.1_git20211128) 11.2.1 20211128'
 cargo_verbose = '''
-cargo 1.58.0-nightly (7f08ace4f 2021-11-24)
+cargo 1.58.0-nightly (294967c53 2021-11-29)
 release: 1.58.0
-commit-hash: 7f08ace4f1305de7f3b1b0e2f765911957226bd4
-commit-date: 2021-11-24
+commit-hash: 294967c53f0c70d598fc54ca189313c86c576ea7
+commit-date: 2021-11-29
 host: x86_64-unknown-linux-musl
 libgit2: 1.3.0 (sys:0.13.23 vendored)
 libcurl: 7.80.0-DEV (sys:0.4.51+curl-7.80.0 vendored ssl:OpenSSL/1.1.1l)
 os: Alpine Linux 3.15.0_alpha20210804 [64-bit]
 '''
 rustc_verbose = '''
-rustc 1.59.0-nightly (686e313a9 2021-11-27)
+rustc 1.59.0-nightly (48a5999fc 2021-12-01)
 binary: rustc
-commit-hash: 686e313a9aa14107c8631ffe48fa09110a7692db
-commit-date: 2021-11-27
+commit-hash: 48a5999fceeea84a8971634355287faa349909d4
+commit-date: 2021-12-01
 host: x86_64-unknown-linux-musl
 release: 1.59.0-nightly
 LLVM version: 13.0.0
