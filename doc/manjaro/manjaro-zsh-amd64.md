@@ -20,7 +20,7 @@ docker run \
 ```toml
 [main]
 name = "manjaro"
-tag = ["zsh", "2021-11-28"]
+tag = ["zsh", "2021-12-03"]
 os = "manjaro"
 release = "stable"
 arch = "amd64"
@@ -28,12 +28,12 @@ platform = "linux/amd64"
 x11_or_wayland = false
 
 [file]
-name = "manjaro-zsh-amd64_2021-11-28_21-03.tar.zst"
+name = "manjaro-zsh_amd64_2021-12-03_12-10.tar.zst"
 
-version = "0.0.0-alpha.1"
+version = "0.0.0-alpha.2"
 
 # This value can be used to verify the integrity of the file
-sha256 = "e491b9b008e881a352a1fba087deaac51a268568f73dce3af676823c43ac88db"
+sha256 = "f0b8bf9bafabbba15a85c45fe48e0bb6d84a3e54e4ffcf0d1ae85388281d5668"
 
 # zstd: [1-22]
 zstd-level = 20
@@ -42,44 +42,45 @@ zstd-level = 20
 # Installed size ≈ tar-size
 # Installed size is approximately equal to the size of the tar file
 tar = "1.1G"
-tar_bytes = 1147610112
+tar_bytes = 1156395008
 
 # Space occupied ≈ tar-size + zstd-size
 # You will need to prepare a large enough space before installation.
-zstd = "255M"
-zstd_bytes = 266501484
+zstd = "256M"
+zstd_bytes = 268204067
 
 [compatibility]
 compatible_mode = true
 
-last_version = "latest02"
+last_version = "latest01"
 
 # The value is &str, not int
 last_date = "20211128"
-last_tag = ""
-last_file = ""
+last_tag = "2021-11-28"
+last_file = "manjaro-zsh-amd64_2021-11-28_21-03-rootfs.tar.zst"
 
-current_version = "latest01"
-current_date = "20211128"
+current_version = "latest02"
+current_date = "20211203"
+old_file = ""
 # edition 2021
 # DISTRO_NAME=manjaro-stable_amd64
-# ROOTFS_FILE=manjaro-zsh-amd64_2021-11-28_21-03-rootfs.tar.zst
-# BUILD_DATE=20211128
-# BUILD_TAG=2021-11-28
+# ROOTFS_FILE=manjaro-zsh_amd64_2021-12-03_12-10-rootfs.tar.zst
+# BUILD_DATE=20211203
+# BUILD_TAG=2021-12-03
 # STATUS=completed
-# VERSION=latest01
-# END_TIME=21:03
+# VERSION=latest02
+# END_TIME=12:10
 
 [time]
 format = "rfc-3339"
 zone = "UTC"
-date = 2021-11-28
-begin = 2021-11-28 20:51:10.745812666+00:00
-start-sync_0 = 20:55:48
-start-zstd = 20:57:17
-start-sync_1 = 21:02:36
-end-sync_1 = 21:03:00
-end = 2021-11-28 21:03:00.979262239+00:00
+date = 2021-12-03
+begin = 2021-12-03 12:01:52.392481583+00:00
+start-sync_0 = 12:03:34
+start-zstd = 12:05:04
+start-sync_1 = 12:10:05
+end-sync_1 = 12:10:27
+end = 2021-12-03 12:10:27.646543567+00:00
 
 [server]
 repo = "cake233/manjaro-zsh-amd64"
@@ -88,19 +89,21 @@ repo = "cake233/manjaro-zsh-amd64"
 name = "cn"
 current = false
 last = true
+in_sync = false
 split = false
 
 [server.node2]
 name = "us"
 current = false
-last = false
+last = true
+in_sync = false
 split = false
-part = 12
 
 [server.node3]
 name = "global"
 current = false
 last = true
+in_sync = false
 split = false
 
 [server.node4]
