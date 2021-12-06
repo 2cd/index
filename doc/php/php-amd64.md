@@ -20,7 +20,7 @@ docker run \
 ```toml
 [main]
 name = "php"
-tag = ["latest", "2021-11-29"]
+tag = ["latest", "2021-12-06"]
 os = "debian"
 release = "stable"
 arch = "amd64"
@@ -28,12 +28,12 @@ platform = "linux/amd64"
 x11_or_wayland = false
 
 [file]
-name = "php_amd64_2021-11-29_19-44.tar.zst"
+name = "php_amd64_2021-12-06_20-07.tar.zst"
 
-version = "0.0.0-alpha.1"
+version = "0.0.0-alpha.2"
 
 # This value can be used to verify the integrity of the file
-sha256 = "ec2fde79a13998f2eb57b799d4b6ecd77e084b9b9145906c33ed07f8ccd09eeb"
+sha256 = "23bf5e6442d2e54896ef639b85a3c6d2a90f29fee76fd0850f1ef9c2f8997688"
 
 # zstd: [1-22]
 zstd-level = 18
@@ -41,13 +41,13 @@ zstd-level = 18
 [file.size]
 # Installed size ≈ tar-size
 # Installed size is approximately equal to the size of the tar file
-tar = "483M"
-tar_bytes = 506086912
+tar = "490M"
+tar_bytes = 513724416
 
 # Space occupied ≈ tar-size + zstd-size
 # You will need to prepare a large enough space before installation.
-zstd = "124M"
-zstd_bytes = 129965375
+zstd = "126M"
+zstd_bytes = 131488924
 
 [compatibility]
 compatible_mode = true
@@ -60,26 +60,27 @@ last_tag = "2021-11-29"
 last_file = "php_amd64_2021-11-29_01-04-rootfs.tar.zst"
 
 current_version = "latest02"
-current_date = "20211129"
+current_date = "20211206"
+old_file = ""
 # edition 2021
 # DISTRO_NAME=php_amd64
-# ROOTFS_FILE=php_amd64_2021-11-29_19-44-rootfs.tar.zst
-# BUILD_DATE=20211129
-# BUILD_TAG=2021-11-29
+# ROOTFS_FILE=php_amd64_2021-12-06_20-07-rootfs.tar.zst
+# BUILD_DATE=20211206
+# BUILD_TAG=2021-12-06
 # STATUS=completed
 # VERSION=latest02
-# END_TIME=19:44
+# END_TIME=20:07
 
 [time]
 format = "rfc-3339"
 zone = "UTC"
-date = 2021-11-29
-begin = 2021-11-29 19:41:54.023285507+00:00
-start-sync_0 = 19:42:57
-start-zstd = 19:43:11
-start-sync_1 = 19:44:35
-end-sync_1 = 19:44:50
-end = 2021-11-29 19:44:50.289419583+00:00
+date = 2021-12-06
+begin = 2021-12-06 20:04:32.579123599+00:00
+start-sync_0 = 20:05:38
+start-zstd = 20:05:59
+start-sync_1 = 20:07:21
+end-sync_1 = 20:07:42
+end = 2021-12-06 20:07:42.651458135+00:00
 
 [server]
 repo = "cake233/php-amd64"
@@ -88,19 +89,21 @@ repo = "cake233/php-amd64"
 name = "cn"
 current = false
 last = true
+in_sync = false
 split = false
 
 [server.node2]
 name = "us"
 current = false
 last = true
+in_sync = false
 split = false
-part = 12
 
 [server.node3]
 name = "global"
 current = false
 last = true
+in_sync = false
 split = false
 
 [server.node4]
@@ -114,9 +117,9 @@ PHP_INI_DIR = '/usr/local/etc/php'
 
 [version]
 php = '''
-PHP 8.0.13 (cli) (built: Nov 19 2021 21:31:18) ( NTS )
+PHP 8.1.0 (cli) (built: Dec  2 2021 12:11:39) (NTS)
 Copyright (c) The PHP Group
-Zend Engine v4.0.13, Copyright (c) Zend Technologies
+Zend Engine v4.1.0, Copyright (c) Zend Technologies
 '''
 
 [other]
@@ -125,7 +128,7 @@ php_extra_configure_args = '--enable-embed'
 php_cflags = '-fstack-protector-strong -fpic -fpie -O2 -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64'
 php_cppflags = '-fstack-protector-strong -fpic -fpie -O2 -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64'
 php_ldflags = '-Wl,-O1 -pie'
-gpg_keys = '1729F83938DA44E27BA0F4D3DBDB397470D12172 BFDDD28642824F8118EF77909B67A5C12229118F'
-php_url = 'https://www.php.net/distributions/php-8.0.13.tar.xz'
-php_src_url = 'https://www.php.net/distributions/php-8.0.13.tar.xz.asc'
+gpg_keys = '528995BFEDFBA7191D46839EF9BA0ADA31CBD89E 39B641343D8C104B2B146DC3F9C39DC0B9698544 F1F692238FBC1666E5A5CCD4199F9DFEF6FFBAFD'
+php_url = 'https://www.php.net/distributions/php-8.1.0.tar.xz'
+php_src_url = 'https://www.php.net/distributions/php-8.1.0.tar.xz.asc'
 ```
