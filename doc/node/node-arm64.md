@@ -20,7 +20,7 @@ docker run \
 ```toml
 [main]
 name = "node"
-tag = ["latest", "2021-11-28"]
+tag = ["latest", "2021-12-06"]
 os = "debian"
 release = "stable"
 arch = "arm64"
@@ -28,58 +28,59 @@ platform = "linux/arm64"
 x11_or_wayland = false
 
 [file]
-name = "node_arm64_2021-11-28_23-07.tar.zst"
+name = "node_arm64_2021-12-06_20-11.tar.zst"
 
-version = "0.0.0-alpha.1"
+version = "0.0.0-alpha.2"
 
 # This value can be used to verify the integrity of the file
-sha256 = "4fdf27466cf90141c8ee82ade1ab4c53816dc93b35ca8acbac8a0948b7e68b8c"
+sha256 = "7cfb5ad70f8662f92471d84ff16e4591895d929e37f928ef9729d88036189ef2"
 
 # zstd: [1-22]
-zstd-level = 20
+zstd-level = 18
 
 [file.size]
 # Installed size ≈ tar-size
 # Installed size is approximately equal to the size of the tar file
-tar = "947M"
-tar_bytes = 992163328
+tar = "948M"
+tar_bytes = 993234432
 
 # Space occupied ≈ tar-size + zstd-size
 # You will need to prepare a large enough space before installation.
-zstd = "205M"
-zstd_bytes = 214835812
+zstd = "228M"
+zstd_bytes = 238727451
 
 [compatibility]
 compatible_mode = true
 
-last_version = "latest01"
+last_version = "latest02"
 
 # The value is &str, not int
-last_date = "20211101"
-last_tag = ""
-last_file = "node_arm64+latest-2021_11-01-rootfs.tar.zst"
+last_date = "20211128"
+last_tag = "2021-11-28"
+last_file = "node_arm64_2021-11-28_23-07-rootfs.tar.zst"
 
-current_version = "latest02"
-current_date = "20211128"
+current_version = "latest01"
+current_date = "20211206"
+old_file = "node_arm64+latest-2021_11-01-rootfs.tar.zst"
 # edition 2021
 # DISTRO_NAME=node_arm64
-# ROOTFS_FILE=node_arm64_2021-11-28_23-07-rootfs.tar.zst
-# BUILD_DATE=20211128
-# BUILD_TAG=2021-11-28
+# ROOTFS_FILE=node_arm64_2021-12-06_20-11-rootfs.tar.zst
+# BUILD_DATE=20211206
+# BUILD_TAG=2021-12-06
 # STATUS=completed
-# VERSION=latest02
-# END_TIME=23:07
+# VERSION=latest01
+# END_TIME=20:11
 
 [time]
 format = "rfc-3339"
 zone = "UTC"
-date = 2021-11-28
-begin = 2021-11-28 23:01:38.792354087+00:00
-start-sync_0 = 23:03:50
-start-zstd = 23:04:07
-start-sync_1 = 23:07:14
-end-sync_1 = 23:07:33
-end = 2021-11-28 23:07:33.982888759+00:00
+date = 2021-12-06
+begin = 2021-12-06 20:04:29.188078841+00:00
+start-sync_0 = 20:07:46
+start-zstd = 20:08:07
+start-sync_1 = 20:10:52
+end-sync_1 = 20:11:16
+end = 2021-12-06 20:11:16.392211130+00:00
 
 [server]
 repo = "cake233/node-arm64"
@@ -88,19 +89,21 @@ repo = "cake233/node-arm64"
 name = "cn"
 current = false
 last = true
+in_sync = false
 split = false
 
 [server.node2]
 name = "us"
 current = false
 last = true
+in_sync = false
 split = false
-part = 12
 
 [server.node3]
 name = "global"
 current = false
 last = true
+in_sync = false
 split = false
 
 [server.node4]
@@ -112,7 +115,7 @@ current = true
 LANG = "en_US.UTF-8"
 
 [version]
-node = 'v17.1.0'
+node = 'v17.2.0'
 yarn = '1.22.15'
-npm = '8.1.2'
+npm = '8.1.4'
 ```
