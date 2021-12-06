@@ -67,9 +67,11 @@ repo = "cake233/ruby-alpine-armv7"
 
 [server.node1]
 name = "cn"
-current = false
+current = true
 last = true
-in_sync = true
+in_sync = false
+start_sync = 2021-12-06 20:28:03.203032063+00:00
+end_sync = 2021-12-06 20:33:25.197245911+00:00
 split = false
 
 [server.node2]
