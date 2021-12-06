@@ -1,6 +1,6 @@
 [main]
 name = "rust"
-tag = ["alpine", "2021-12-03", "nightly", "unstable", "minimal", "musl-libc", "musl"]
+tag = ["alpine", "2021-12-06", "nightly", "unstable", "minimal", "musl-libc", "musl"]
 os = "alpine"
 release = "edge"
 arch = "arm64"
@@ -8,12 +8,12 @@ platform = "linux/arm64"
 x11_or_wayland = false
 
 [file]
-name = "rust-musl_arm64_2021-12-03_00-08.tar.zst"
+name = "rust-musl_arm64_2021-12-06_10-33.tar.zst"
 
 version = "0.0.0-alpha.2"
 
 # This value can be used to verify the integrity of the file
-sha256 = "1fd8749eee8ea5efaa8435d865c02dbc715920fd7b53b6f8dd1a3f8fb758d3a5"
+sha256 = "a4b6c59943950921d0c32686e795f906733588903cef3b06bdded9d828d40d17"
 
 # zstd: [1-22]
 zstd-level = 18
@@ -21,77 +21,69 @@ zstd-level = 18
 [file.size]
 # Installed size ≈ tar-size
 # Installed size is approximately equal to the size of the tar file
-tar = "782M"
-tar_bytes = 819028992
+tar = "783M"
+tar_bytes = 820828160
 
 # Space occupied ≈ tar-size + zstd-size
 # You will need to prepare a large enough space before installation.
-zstd = "181M"
-zstd_bytes = 189788541
+zstd = "182M"
+zstd_bytes = 190325913
 
 [compatibility]
 compatible_mode = true
 
-last_version = "latest01"
+last_version = "latest02"
 
 # The value is &str, not int
-last_date = "20211129"
-last_tag = "2021-11-29"
-last_file = "rust-musl_arm64_2021-11-29_00-33-rootfs.tar.zst"
+last_date = "20211203"
+last_tag = "2021-12-03"
+last_file = "rust-musl_arm64_2021-12-03_00-08-rootfs.tar.zst"
 
-current_version = "latest02"
-current_date = "20211203"
-old_file = "rust_arm64+alpine-2021_11-01-rootfs.tar.zst"
+current_version = "latest01"
+current_date = "20211206"
+old_file = "rust-musl_arm64_2021-11-29_00-33-rootfs.tar.zst"
 # edition 2021
 # DISTRO_NAME=rust_arm64
-# ROOTFS_FILE=rust-musl_arm64_2021-12-03_00-08-rootfs.tar.zst
-# BUILD_DATE=20211203
-# BUILD_TAG=2021-12-03
+# ROOTFS_FILE=rust-musl_arm64_2021-12-06_10-33-rootfs.tar.zst
+# BUILD_DATE=20211206
+# BUILD_TAG=2021-12-06
 # STATUS=completed
-# VERSION=latest02
-# END_TIME=00:08
+# VERSION=latest01
+# END_TIME=10:33
 
 [time]
 format = "rfc-3339"
 zone = "UTC"
-date = 2021-12-03
-begin = 2021-12-03 00:01:56.160995543+00:00
-start-sync_0 = 00:04:19
-start-zstd = 00:05:06
-start-sync_1 = 00:07:42
-end-sync_1 = 00:08:00
-end = 2021-12-03 00:08:00.632761715+00:00
+date = 2021-12-06
+begin = 2021-12-06 10:28:29.153704683+00:00
+start-sync_0 = 10:30:22
+start-zstd = 10:31:01
+start-sync_1 = 10:33:11
+end-sync_1 = 10:33:27
+end = 2021-12-06 10:33:27.208734701+00:00
 
 [server]
 repo = "cake233/rust-alpine-arm64"
 
 [server.node1]
 name = "cn"
-current = true
+current = false
 last = true
 in_sync = false
-start_sync = 2021-12-03 13:08:49.421139378+00:00
-end_sync = 2021-12-03 16:07:13.985447042+00:00
-start_sync = 2021-12-03 06:11:03.995382584+00:00
-end_sync = 2021-12-03 06:17:10.244483196+00:00
 split = false
 
 [server.node2]
 name = "us"
-current = true
-last = false
+current = false
+last = true
 in_sync = false
 split = false
 
 [server.node3]
 name = "global"
-current = true
+current = false
 last = true
 in_sync = false
-start_sync = 2021-12-03 13:07:41.623517121+00:00
-end_sync = 2021-12-03 13:08:36.238621557+00:00
-start_sync = 2021-12-03 06:10:12.112949002+00:00
-end_sync = 2021-12-03 06:10:51.542252131+00:00
 split = false
 
 [server.node4]
@@ -108,7 +100,7 @@ CARGO_HOME = "/usr/local/cargo"
 [version]
 rustup = 'rustup 1.24.3 (ce5817a94 2021-05-31)'
 cargo = 'cargo 1.58.0-nightly (294967c53 2021-11-29)'
-rustc = 'rustc 1.59.0-nightly (48a5999fc 2021-12-01)'
+rustc = 'rustc 1.59.0-nightly (e2116acae 2021-12-05)'
 cc = 'cc (Alpine 11.2.1_git20211128) 11.2.1 20211128'
 cargo_verbose = '''
 cargo 1.58.0-nightly (294967c53 2021-11-29)
@@ -121,10 +113,10 @@ libcurl: 7.80.0-DEV (sys:0.4.51+curl-7.80.0 vendored ssl:OpenSSL/1.1.1l)
 os: Alpine Linux 3.15.0_alpha20210804 [64-bit]
 '''
 rustc_verbose = '''
-rustc 1.59.0-nightly (48a5999fc 2021-12-01)
+rustc 1.59.0-nightly (e2116acae 2021-12-05)
 binary: rustc
-commit-hash: 48a5999fceeea84a8971634355287faa349909d4
-commit-date: 2021-12-01
+commit-hash: e2116acae59654bfab2a9729a024f3e2fd6d4b02
+commit-date: 2021-12-05
 host: aarch64-unknown-linux-musl
 release: 1.59.0-nightly
 LLVM version: 13.0.0
