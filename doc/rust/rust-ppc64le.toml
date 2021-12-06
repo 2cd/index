@@ -67,9 +67,11 @@ repo = "cake233/rust-ppc64le"
 
 [server.node1]
 name = "cn"
-current = false
+current = true
 last = true
-in_sync = true
+in_sync = false
+start_sync = 2021-12-06 18:08:09.447238210+00:00
+end_sync = 2021-12-06 18:15:27.968176423+00:00
 split = false
 
 [server.node2]
