@@ -20,7 +20,7 @@ docker run \
 ```toml
 [main]
 name = "ruby"
-tag = ["alpine", "2021-11-29", "musl-libc", "musl"]
+tag = ["alpine", "2021-12-06", "musl-libc", "musl"]
 os = "alpine"
 release = "stable"
 arch = "amd64"
@@ -28,12 +28,12 @@ platform = "linux/amd64"
 x11_or_wayland = false
 
 [file]
-name = "ruby-musl_amd64_2021-11-29_19-42.tar.zst"
+name = "ruby-musl_amd64_2021-12-06_20-05.tar.zst"
 
-version = "0.0.0-alpha.1"
+version = "0.0.0-alpha.2"
 
 # This value can be used to verify the integrity of the file
-sha256 = "1f0008fad39fbb8f0fab72b76cc235b7ac450ba7d7c0a11ef3941e2f4ecc88fc"
+sha256 = "8cfa9028fbc7e678176c2a0c18747da6674883ae1dd31d532a5611ab1c3fbe79"
 
 # zstd: [1-22]
 zstd-level = 18
@@ -42,12 +42,12 @@ zstd-level = 18
 # Installed size ≈ tar-size
 # Installed size is approximately equal to the size of the tar file
 tar = "76M"
-tar_bytes = 79244288
+tar_bytes = 79358464
 
 # Space occupied ≈ tar-size + zstd-size
 # You will need to prepare a large enough space before installation.
 zstd = "32M"
-zstd_bytes = 32555835
+zstd_bytes = 32580940
 
 [compatibility]
 compatible_mode = true
@@ -60,26 +60,27 @@ last_tag = "2021-11-28"
 last_file = "ruby-musl_amd64_2021-11-28_23-03-rootfs.tar.zst"
 
 current_version = "latest02"
-current_date = "20211129"
+current_date = "20211206"
+old_file = ""
 # edition 2021
 # DISTRO_NAME=ruby_amd64
-# ROOTFS_FILE=ruby-musl_amd64_2021-11-29_19-42-rootfs.tar.zst
-# BUILD_DATE=20211129
-# BUILD_TAG=2021-11-29
+# ROOTFS_FILE=ruby-musl_amd64_2021-12-06_20-05-rootfs.tar.zst
+# BUILD_DATE=20211206
+# BUILD_TAG=2021-12-06
 # STATUS=completed
 # VERSION=latest02
-# END_TIME=19:42
+# END_TIME=20:05
 
 [time]
 format = "rfc-3339"
 zone = "UTC"
-date = 2021-11-29
-begin = 2021-11-29 19:41:49.115126169+00:00
-start-sync_0 = 19:42:15
-start-zstd = 19:42:22
-start-sync_1 = 19:42:33
-end-sync_1 = 19:42:40
-end = 2021-11-29 19:42:40.524997086+00:00
+date = 2021-12-06
+begin = 2021-12-06 20:04:31.699140032+00:00
+start-sync_0 = 20:05:15
+start-zstd = 20:05:25
+start-sync_1 = 20:05:38
+end-sync_1 = 20:05:48
+end = 2021-12-06 20:05:48.643358589+00:00
 
 [server]
 repo = "cake233/ruby-alpine-amd64"
@@ -88,19 +89,21 @@ repo = "cake233/ruby-alpine-amd64"
 name = "cn"
 current = false
 last = true
+in_sync = false
 split = false
 
 [server.node2]
 name = "us"
 current = false
 last = true
+in_sync = false
 split = false
-part = 12
 
 [server.node3]
 name = "global"
 current = false
 last = true
+in_sync = false
 split = false
 
 [server.node4]
