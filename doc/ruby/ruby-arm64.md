@@ -20,7 +20,7 @@ docker run \
 ```toml
 [main]
 name = "ruby"
-tag = ["latest", "2021-11-28"]
+tag = ["latest", "2021-12-06"]
 os = "debian"
 release = "stable"
 arch = "arm64"
@@ -28,12 +28,12 @@ platform = "linux/arm64"
 x11_or_wayland = false
 
 [file]
-name = "ruby_arm64_2021-11-28_23-08.tar.zst"
+name = "ruby_arm64_2021-12-06_20-11.tar.zst"
 
-version = "0.0.0-alpha.1"
+version = "0.0.0-alpha.2"
 
 # This value can be used to verify the integrity of the file
-sha256 = "09d654af5c9d57ea13741e8622e70e902c2dfd28ac65f0ab6a5fb9e62257f5d7"
+sha256 = "6e6ce575f931b8a031f033b62843613fabf5a7561ec520e0fc8041a0f9bd2cc0"
 
 # zstd: [1-22]
 zstd-level = 18
@@ -47,39 +47,40 @@ tar_bytes = 877925376
 # Space occupied ≈ tar-size + zstd-size
 # You will need to prepare a large enough space before installation.
 zstd = "227M"
-zstd_bytes = 237281719
+zstd_bytes = 237294965
 
 [compatibility]
 compatible_mode = true
 
-last_version = "latest02"
+last_version = "latest01"
 
 # The value is &str, not int
-last_date = "20211101"
-last_tag = ""
-last_file = "ruby_arm64+latest-2021_11-01-rootfs.tar.zst"
+last_date = "20211128"
+last_tag = "2021-11-28"
+last_file = "ruby_arm64_2021-11-28_23-08-rootfs.tar.zst"
 
-current_version = "latest01"
-current_date = "20211128"
+current_version = "latest02"
+current_date = "20211206"
+old_file = "ruby_arm64+latest-2021_11-01-rootfs.tar.zst"
 # edition 2021
 # DISTRO_NAME=ruby_arm64
-# ROOTFS_FILE=ruby_arm64_2021-11-28_23-08-rootfs.tar.zst
-# BUILD_DATE=20211128
-# BUILD_TAG=2021-11-28
+# ROOTFS_FILE=ruby_arm64_2021-12-06_20-11-rootfs.tar.zst
+# BUILD_DATE=20211206
+# BUILD_TAG=2021-12-06
 # STATUS=completed
-# VERSION=latest01
-# END_TIME=23:08
+# VERSION=latest02
+# END_TIME=20:11
 
 [time]
 format = "rfc-3339"
 zone = "UTC"
-date = 2021-11-28
-begin = 2021-11-28 23:03:07.043716738+00:00
-start-sync_0 = 23:05:31
-start-zstd = 23:05:46
-start-sync_1 = 23:08:14
-end-sync_1 = 23:08:35
-end = 2021-11-28 23:08:35.143927732+00:00
+date = 2021-12-06
+begin = 2021-12-06 20:04:30.974410675+00:00
+start-sync_0 = 20:07:45
+start-zstd = 20:08:06
+start-sync_1 = 20:10:40
+end-sync_1 = 20:11:04
+end = 2021-12-06 20:11:04.856830164+00:00
 
 [server]
 repo = "cake233/ruby-arm64"
@@ -88,19 +89,21 @@ repo = "cake233/ruby-arm64"
 name = "cn"
 current = false
 last = true
+in_sync = false
 split = false
 
 [server.node2]
 name = "us"
 current = false
 last = true
+in_sync = false
 split = false
-part = 12
 
 [server.node3]
 name = "global"
 current = false
 last = true
+in_sync = false
 split = false
 
 [server.node4]
