@@ -67,9 +67,11 @@ repo = "cake233/rust-armv7"
 
 [server.node1]
 name = "cn"
-current = false
+current = true
 last = true
-in_sync = true
+in_sync = false
+start_sync = 2021-12-06 17:39:52.036503132+00:00
+end_sync = 2021-12-06 17:57:58.040548584+00:00
 split = false
 
 [server.node2]
