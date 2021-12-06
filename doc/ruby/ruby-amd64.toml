@@ -83,7 +83,7 @@ split = false
 name = "global"
 current = false
 last = true
-in_sync = false
+in_sync = true
 split = false
 
 [server.node4]
