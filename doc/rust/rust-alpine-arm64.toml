@@ -67,9 +67,11 @@ repo = "cake233/rust-alpine-arm64"
 
 [server.node1]
 name = "cn"
-current = false
+current = true
 last = true
-in_sync = true
+in_sync = false
+start_sync = 2021-12-06 14:43:57.200535184+00:00
+end_sync = 2021-12-06 14:51:59.344692233+00:00
 split = false
 
 [server.node2]
