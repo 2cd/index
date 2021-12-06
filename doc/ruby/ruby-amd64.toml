@@ -67,9 +67,11 @@ repo = "cake233/ruby-amd64"
 
 [server.node1]
 name = "cn"
-current = false
+current = true
 last = true
-in_sync = true
+in_sync = false
+start_sync = 2021-12-06 20:35:07.580222562+00:00
+end_sync = 2021-12-06 20:41:02.032411354+00:00
 split = false
 
 [server.node2]
