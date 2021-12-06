@@ -67,9 +67,11 @@ repo = "cake233/rust-mips64le"
 
 [server.node1]
 name = "cn"
-current = false
+current = true
 last = true
-in_sync = true
+in_sync = false
+start_sync = 2021-12-06 18:25:49.110990800+00:00
+end_sync = 2021-12-06 18:32:01.492555291+00:00
 split = false
 
 [server.node2]
