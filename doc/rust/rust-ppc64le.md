@@ -31,7 +31,7 @@ docker run \
 ```toml
 [main]
 name = "rust"
-tag = ["latest", "2021-12-03", "nightly", "unstable", "default", "gnu-libc"]
+tag = ["latest", "2021-12-06", "nightly", "unstable", "default", "gnu-libc"]
 os = "debian"
 release = "sid"
 arch = "ppc64el"
@@ -39,12 +39,12 @@ platform = "linux/ppc64le"
 x11_or_wayland = false
 
 [file]
-name = "rust_ppc64el_2021-12-03_00-13.tar.zst"
+name = "rust_ppc64el_2021-12-06_10-41.tar.zst"
 
 version = "0.0.0-alpha.2"
 
 # This value can be used to verify the integrity of the file
-sha256 = "327f447aa00611d44b6d79f4c402548932431660008e755c2e5e31484653e78a"
+sha256 = "e9a2d85a643358f39cd4a4f68876aad964e67f35c25817632ba6894eaaccedf1"
 
 # zstd: [1-22]
 zstd-level = 20
@@ -53,45 +53,45 @@ zstd-level = 20
 # Installed size ≈ tar-size
 # Installed size is approximately equal to the size of the tar file
 tar = "1.1G"
-tar_bytes = 1126396416
+tar_bytes = 1126882304
 
 # Space occupied ≈ tar-size + zstd-size
 # You will need to prepare a large enough space before installation.
 zstd = "224M"
-zstd_bytes = 234544840
+zstd_bytes = 234567260
 
 [compatibility]
 compatible_mode = true
 
-last_version = "latest01"
+last_version = "latest02"
 
 # The value is &str, not int
-last_date = "20211129"
-last_tag = "2021-11-29"
-last_file = "rust_ppc64el_2021-11-29_00-38-rootfs.tar.zst"
+last_date = "20211203"
+last_tag = "2021-12-03"
+last_file = "rust_ppc64el_2021-12-03_00-13-rootfs.tar.zst"
 
-current_version = "latest02"
-current_date = "20211203"
-old_file = ""
+current_version = "latest01"
+current_date = "20211206"
+old_file = "rust_ppc64el_2021-11-29_00-38-rootfs.tar.zst"
 # edition 2021
 # DISTRO_NAME=rust_ppc64el
-# ROOTFS_FILE=rust_ppc64el_2021-12-03_00-13-rootfs.tar.zst
-# BUILD_DATE=20211203
-# BUILD_TAG=2021-12-03
+# ROOTFS_FILE=rust_ppc64el_2021-12-06_10-41-rootfs.tar.zst
+# BUILD_DATE=20211206
+# BUILD_TAG=2021-12-06
 # STATUS=completed
-# VERSION=latest02
-# END_TIME=00:13
+# VERSION=latest01
+# END_TIME=10:41
 
 [time]
 format = "rfc-3339"
 zone = "UTC"
-date = 2021-12-03
-begin = 2021-12-03 00:01:54.919313710+00:00
-start-sync_0 = 00:08:00
-start-zstd = 00:08:50
-start-sync_1 = 00:13:01
-end-sync_1 = 00:13:27
-end = 2021-12-03 00:13:27.065014254+00:00
+date = 2021-12-06
+begin = 2021-12-06 10:28:30.399778065+00:00
+start-sync_0 = 10:35:26
+start-zstd = 10:36:17
+start-sync_1 = 10:41:10
+end-sync_1 = 10:41:31
+end = 2021-12-06 10:41:31.761061717+00:00
 
 [server]
 repo = "cake233/rust-ppc64le"
@@ -131,7 +131,7 @@ CARGO_HOME = "/usr/local/cargo"
 [version]
 rustup = 'rustup 1.24.3 (ce5817a94 2021-05-31)'
 cargo = 'cargo 1.58.0-nightly (294967c53 2021-11-29)'
-rustc = 'rustc 1.59.0-nightly (48a5999fc 2021-12-01)'
+rustc = 'rustc 1.59.0-nightly (e2116acae 2021-12-05)'
 cc = 'cc (Debian 11.2.0-12) 11.2.0'
 cargo_verbose = '''
 cargo 1.58.0-nightly (294967c53 2021-11-29)
@@ -144,10 +144,10 @@ libcurl: 7.80.0-DEV (sys:0.4.51+curl-7.80.0 vendored ssl:OpenSSL/1.1.1l)
 os: Linux [64-bit]
 '''
 rustc_verbose = '''
-rustc 1.59.0-nightly (48a5999fc 2021-12-01)
+rustc 1.59.0-nightly (e2116acae 2021-12-05)
 binary: rustc
-commit-hash: 48a5999fceeea84a8971634355287faa349909d4
-commit-date: 2021-12-01
+commit-hash: e2116acae59654bfab2a9729a024f3e2fd6d4b02
+commit-date: 2021-12-05
 host: powerpc64le-unknown-linux-gnu
 release: 1.59.0-nightly
 LLVM version: 13.0.0
