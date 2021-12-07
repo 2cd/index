@@ -77,7 +77,7 @@ localhost:5903
 ```toml
 [main]
 name = "ubuntu"
-tag = ["mate", "2021-11-30", "devel"]
+tag = ["mate", "2021-12-07", "devel"]
 os = "ubuntu"
 release = "dev"
 arch = "amd64"
@@ -85,12 +85,12 @@ platform = "linux/amd64"
 x11_or_wayland = true
 
 [file]
-name = "ubuntu-mate_amd64_2021-11-30_14-13.tar.zst"
+name = "ubuntu-mate_amd64_2021-12-07_00-50.tar.zst"
 
 version = "0.0.0-alpha.2"
 
 # This value can be used to verify the integrity of the file
-sha256 = "47e4928f332a742c8fe8e20465681a66a9f60125edb174a1254df85711e226f9"
+sha256 = "adf48e36546345bf7adb58db05580519c0e0d5ca3fd02999832ad60d07416d82"
 
 # zstd: [1-22]
 zstd-level = 18
@@ -98,46 +98,49 @@ zstd-level = 18
 [file.size]
 # Installed size ≈ tar-size
 # Installed size is approximately equal to the size of the tar file
-tar = "3.2G"
-tar_bytes = 3425825280
+tar = "3.3G"
+tar_bytes = 3454202880
 
 # Space occupied ≈ tar-size + zstd-size
 # You will need to prepare a large enough space before installation.
-zstd = "868M"
-zstd_bytes = 909684602
+zstd = "874M"
+zstd_bytes = 916327721
 
 [compatibility]
 compatible_mode = true
 
-last_version = "latest02"
+last_version = "latest01"
 
 # The value is &str, not int
-last_date = "20211128"
-last_tag = "2021-11-28"
-last_file = "ubuntu-mate-amd64_2021-11-28_21-46-rootfs.tar.zst"
+last_date = "20211130"
+last_tag = "2021-11-30"
+last_file = "ubuntu-mate_amd64_2021-11-30_14-13-rootfs.tar.zst"
+last_sha256 = ""
 
-current_version = "latest01"
-current_date = "20211130"
-old_file = ""
+current_version = "latest02"
+current_date = "20211207"
+old_file = "ubuntu-mate-amd64_2021-11-28_21-46-rootfs.tar.zst"
+old_sha256 = ""
 # edition 2021
 # DISTRO_NAME=ubuntu-dev_amd64
-# ROOTFS_FILE=ubuntu-mate_amd64_2021-11-30_14-13-rootfs.tar.zst
-# BUILD_DATE=20211130
-# BUILD_TAG=2021-11-30
+# ROOTFS_FILE=ubuntu-mate_amd64_2021-12-07_00-50-rootfs.tar.zst
+# SHA256SUM=adf48e36546345bf7adb58db05580519c0e0d5ca3fd02999832ad60d07416d82
+# BUILD_DATE=20211207
+# BUILD_TAG=2021-12-07
 # STATUS=completed
-# VERSION=latest01
-# END_TIME=14:13
+# VERSION=latest02
+# END_TIME=00:50
 
 [time]
 format = "rfc-3339"
 zone = "UTC"
-date = 2021-11-30
-begin = 2021-11-30 13:43:15.260421223+00:00
-start-sync_0 = 13:59:30
-start-zstd = 14:02:50
-start-sync_1 = 14:12:47
-end-sync_1 = 14:13:51
-end = 2021-11-30 14:13:51.327965121+00:00
+date = 2021-12-07
+begin = 2021-12-07 00:23:06.180412216+00:00
+start-sync_0 = 00:37:17
+start-zstd = 00:40:33
+start-sync_1 = 00:49:26
+end-sync_1 = 00:50:26
+end = 2021-12-07 00:50:26.841539758+00:00
 
 [server]
 repo = "cake233/ubuntu-mate-amd64"
@@ -150,14 +153,14 @@ in_sync = false
 split = false
 
 [server.node2]
-name = "us"
+name = "tmoe"
 current = false
 last = true
 in_sync = false
 split = false
 
 [server.node3]
-name = "global"
+name = "azure"
 current = false
 last = true
 in_sync = false
