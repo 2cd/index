@@ -77,7 +77,7 @@ localhost:5903
 ```toml
 [main]
 name = "ubuntu"
-tag = ["kde", "2021-11-30", "devel"]
+tag = ["kde", "2021-12-07", "devel"]
 os = "ubuntu"
 release = "dev"
 arch = "amd64"
@@ -85,12 +85,12 @@ platform = "linux/amd64"
 x11_or_wayland = true
 
 [file]
-name = "ubuntu-kde_amd64_2021-11-30_14-16.tar.zst"
+name = "ubuntu-kde_amd64_2021-12-07_00-53.tar.zst"
 
 version = "0.0.0-alpha.2"
 
 # This value can be used to verify the integrity of the file
-sha256 = "88fd92530ebeee318e73cd33c3490ff5193794fd29162f9c89541860915590ff"
+sha256 = "755582c270881a8a94a4fba7402c49e23b3fbb1e8b492d5874388a26fab5819e"
 
 # zstd: [1-22]
 zstd-level = 18
@@ -98,46 +98,49 @@ zstd-level = 18
 [file.size]
 # Installed size ≈ tar-size
 # Installed size is approximately equal to the size of the tar file
-tar = "3.6G"
-tar_bytes = 3843986432
+tar = "3.7G"
+tar_bytes = 3868499456
 
 # Space occupied ≈ tar-size + zstd-size
 # You will need to prepare a large enough space before installation.
 zstd = "1.1G"
-zstd_bytes = 1107988285
+zstd_bytes = 1110458480
 
 [compatibility]
 compatible_mode = true
 
-last_version = "latest02"
+last_version = "latest01"
 
 # The value is &str, not int
-last_date = "20211128"
-last_tag = "2021-11-28"
-last_file = "ubuntu-kde-amd64_2021-11-28_21-46-rootfs.tar.zst"
+last_date = "20211130"
+last_tag = "2021-11-30"
+last_file = "ubuntu-kde_amd64_2021-11-30_14-16-rootfs.tar.zst"
+last_sha256 = ""
 
-current_version = "latest01"
-current_date = "20211130"
-old_file = ""
+current_version = "latest02"
+current_date = "20211207"
+old_file = "ubuntu-kde-amd64_2021-11-28_21-46-rootfs.tar.zst"
+old_sha256 = ""
 # edition 2021
 # DISTRO_NAME=ubuntu-dev_amd64
-# ROOTFS_FILE=ubuntu-kde_amd64_2021-11-30_14-16-rootfs.tar.zst
-# BUILD_DATE=20211130
-# BUILD_TAG=2021-11-30
+# ROOTFS_FILE=ubuntu-kde_amd64_2021-12-07_00-53-rootfs.tar.zst
+# SHA256SUM=755582c270881a8a94a4fba7402c49e23b3fbb1e8b492d5874388a26fab5819e
+# BUILD_DATE=20211207
+# BUILD_TAG=2021-12-07
 # STATUS=completed
-# VERSION=latest01
-# END_TIME=14:16
+# VERSION=latest02
+# END_TIME=00:53
 
 [time]
 format = "rfc-3339"
 zone = "UTC"
-date = 2021-11-30
-begin = 2021-11-30 13:43:15.329986686+00:00
-start-sync_0 = 13:59:24
-start-zstd = 14:03:23
-start-sync_1 = 14:14:45
-end-sync_1 = 14:16:00
-end = 2021-11-30 14:16:00.274254720+00:00
+date = 2021-12-07
+begin = 2021-12-07 00:23:08.949380700+00:00
+start-sync_0 = 00:38:55
+start-zstd = 00:42:43
+start-sync_1 = 00:52:40
+end-sync_1 = 00:53:58
+end = 2021-12-07 00:53:58.506093436+00:00
 
 [server]
 repo = "cake233/ubuntu-kde-amd64"
@@ -150,14 +153,14 @@ in_sync = false
 split = false
 
 [server.node2]
-name = "us"
+name = "tmoe"
 current = false
 last = true
 in_sync = false
 split = false
 
 [server.node3]
-name = "global"
+name = "azure"
 current = false
 last = true
 in_sync = false
