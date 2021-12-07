@@ -77,8 +77,8 @@ split = false
 
 [server.node2]
 name = "tmoe"
-current = false
-last = true
+current = true
+last = false
 in_sync = false
 split = false
 
