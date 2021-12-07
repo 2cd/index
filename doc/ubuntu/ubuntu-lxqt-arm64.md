@@ -77,7 +77,7 @@ localhost:5903
 ```toml
 [main]
 name = "ubuntu"
-tag = ["lxqt", "2021-11-30", "devel"]
+tag = ["lxqt", "2021-12-07", "devel"]
 os = "ubuntu"
 release = "dev"
 arch = "arm64"
@@ -85,12 +85,12 @@ platform = "linux/arm64"
 x11_or_wayland = true
 
 [file]
-name = "ubuntu-lxqt_arm64_2021-11-30_15-05.tar.zst"
+name = "ubuntu-lxqt_arm64_2021-12-07_01-45.tar.zst"
 
 version = "0.0.0-alpha.2"
 
 # This value can be used to verify the integrity of the file
-sha256 = "9a981d1784f0b5a484f3d24ae6d9209ff1e350795288a2e5d3db39a257a5b62d"
+sha256 = "052719895a94bafb464380185ff5dce0dc4c3e154af7d5a555593e0fea9688ab"
 
 # zstd: [1-22]
 zstd-level = 18
@@ -99,45 +99,48 @@ zstd-level = 18
 # Installed size ≈ tar-size
 # Installed size is approximately equal to the size of the tar file
 tar = "3.6G"
-tar_bytes = 3797446144
+tar_bytes = 3823355392
 
 # Space occupied ≈ tar-size + zstd-size
 # You will need to prepare a large enough space before installation.
-zstd = "948M"
-zstd_bytes = 993940015
+zstd = "954M"
+zstd_bytes = 999598004
 
 [compatibility]
 compatible_mode = true
 
-last_version = "latest02"
+last_version = "latest01"
 
 # The value is &str, not int
-last_date = "20211128"
-last_tag = "2021-11-28"
-last_file = "ubuntu-lxqt-arm64_2021-11-28_22-31-rootfs.tar.zst"
+last_date = "20211130"
+last_tag = "2021-11-30"
+last_file = "ubuntu-lxqt_arm64_2021-11-30_15-05-rootfs.tar.zst"
+last_sha256 = ""
 
-current_version = "latest01"
-current_date = "20211130"
-old_file = "ubuntu-dev_arm64+lxqt-2021_11-02-rootfs.tar.zst"
+current_version = "latest02"
+current_date = "20211207"
+old_file = "ubuntu-lxqt-arm64_2021-11-28_22-31-rootfs.tar.zst"
+old_sha256 = ""
 # edition 2021
 # DISTRO_NAME=ubuntu-dev_arm64
-# ROOTFS_FILE=ubuntu-lxqt_arm64_2021-11-30_15-05-rootfs.tar.zst
-# BUILD_DATE=20211130
-# BUILD_TAG=2021-11-30
+# ROOTFS_FILE=ubuntu-lxqt_arm64_2021-12-07_01-45-rootfs.tar.zst
+# SHA256SUM=052719895a94bafb464380185ff5dce0dc4c3e154af7d5a555593e0fea9688ab
+# BUILD_DATE=20211207
+# BUILD_TAG=2021-12-07
 # STATUS=completed
-# VERSION=latest01
-# END_TIME=15:05
+# VERSION=latest02
+# END_TIME=01:45
 
 [time]
 format = "rfc-3339"
 zone = "UTC"
-date = 2021-11-30
-begin = 2021-11-30 13:43:17.227806607+00:00
-start-sync_0 = 14:51:06
-start-zstd = 14:54:23
-start-sync_1 = 15:04:48
-end-sync_1 = 15:05:50
-end = 2021-11-30 15:05:50.906275887+00:00
+date = 2021-12-07
+begin = 2021-12-07 00:23:05.662300288+00:00
+start-sync_0 = 01:31:03
+start-zstd = 01:34:17
+start-sync_1 = 01:44:55
+end-sync_1 = 01:45:56
+end = 2021-12-07 01:45:56.680839726+00:00
 
 [server]
 repo = "cake233/ubuntu-lxqt-arm64"
@@ -150,14 +153,14 @@ in_sync = false
 split = false
 
 [server.node2]
-name = "us"
+name = "tmoe"
 current = false
 last = true
 in_sync = false
 split = false
 
 [server.node3]
-name = "global"
+name = "azure"
 current = false
 last = true
 in_sync = false
