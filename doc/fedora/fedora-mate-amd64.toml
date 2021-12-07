@@ -1,6 +1,6 @@
 [main]
 name = "fedora"
-tag = ["mate", "2021-11-30"]
+tag = ["mate", "2021-12-07"]
 os = "fedora"
 release = "rawhide"
 arch = "amd64"
@@ -8,12 +8,12 @@ platform = "linux/amd64"
 x11_or_wayland = true
 
 [file]
-name = "fedora-mate_amd64_2021-11-30_15-53.tar.zst"
+name = "fedora-mate_amd64_2021-12-07_13-05.tar.zst"
 
 version = "0.0.0-alpha.2"
 
 # This value can be used to verify the integrity of the file
-sha256 = "b50cbc94fdaaf2c5a08dcfd793bda1da771d189c7c55a7d0efb118565a4784ca"
+sha256 = "4662759aaef419697e5f1fdbcb7838f4256f38b4d4fd1087542d863848b47924"
 
 # zstd: [1-22]
 zstd-level = 18
@@ -21,73 +21,72 @@ zstd-level = 18
 [file.size]
 # Installed size ≈ tar-size
 # Installed size is approximately equal to the size of the tar file
-tar = "4.4G"
-tar_bytes = 4719567872
+tar = "4.5G"
+tar_bytes = 4752936448
 
 # Space occupied ≈ tar-size + zstd-size
 # You will need to prepare a large enough space before installation.
 zstd = "1.4G"
-zstd_bytes = 1439083061
+zstd_bytes = 1469816459
 
 [compatibility]
 compatible_mode = true
 
-last_version = "latest02"
+last_version = "latest01"
 
 # The value is &str, not int
-last_date = "20211128"
-last_tag = "2021-11-28"
-last_file = "fedora-mate-amd64_2021-11-28_22-30-rootfs.tar.zst"
+last_date = "20211130"
+last_tag = "2021-11-30"
+last_file = "fedora-mate_amd64_2021-11-30_15-53-rootfs.tar.zst"
+last_sha256 = ""
 
-current_version = "latest01"
-current_date = "20211130"
-old_file = "fedora-rawhide_amd64+mate-2021_11-02-rootfs.tar.zst"
+current_version = "latest02"
+current_date = "20211207"
+old_file = "fedora-mate-amd64_2021-11-28_22-30-rootfs.tar.zst"
+old_sha256 = ""
 # edition 2021
 # DISTRO_NAME=fedora-rawhide_amd64
-# ROOTFS_FILE=fedora-mate_amd64_2021-11-30_15-53-rootfs.tar.zst
-# BUILD_DATE=20211130
-# BUILD_TAG=2021-11-30
+# ROOTFS_FILE=fedora-mate_amd64_2021-12-07_13-05-rootfs.tar.zst
+# SHA256SUM=4662759aaef419697e5f1fdbcb7838f4256f38b4d4fd1087542d863848b47924
+# BUILD_DATE=20211207
+# BUILD_TAG=2021-12-07
 # STATUS=completed
-# VERSION=latest01
-# END_TIME=15:53
+# VERSION=latest02
+# END_TIME=13:05
 
 [time]
 format = "rfc-3339"
 zone = "UTC"
-date = 2021-11-30
-begin = 2021-11-30 15:26:57.032003886+00:00
-start-sync_0 = 15:34:09
-start-zstd = 15:38:43
-start-sync_1 = 15:51:59
-end-sync_1 = 15:53:30
-end = 2021-11-30 15:53:30.838290441+00:00
+date = 2021-12-07
+begin = 2021-12-07 12:39:50.984032948+00:00
+start-sync_0 = 12:45:47
+start-zstd = 12:50:30
+start-sync_1 = 13:04:05
+end-sync_1 = 13:05:38
+end = 2021-12-07 13:05:38.110130163+00:00
 
 [server]
 repo = "cake233/fedora-mate-amd64"
 
 [server.node1]
 name = "cn"
-current = true
+current = false
 last = true
 in_sync = false
-start_sync = 2021-11-30 17:51:43.986455397+00:00
-end_sync = 2021-11-30 18:01:13.781570825+00:00
 split = false
 
 [server.node2]
-name = "us"
-current = true
-last = false
+name = "tmoe"
+current = false
+last = true
 in_sync = false
 split = false
 
 [server.node3]
-name = "global"
-current = true
+name = "azure"
+current = false
 last = true
 in_sync = false
-start_sync = 2021-11-30 17:46:10.312045857+00:00
-end_sync = 2021-11-30 17:51:31.434752305+00:00
 split = false
 
 [server.node4]
