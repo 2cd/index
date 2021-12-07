@@ -77,7 +77,7 @@ localhost:5903
 ```toml
 [main]
 name = "fedora"
-tag = ["kde", "2021-11-30"]
+tag = ["kde", "2021-12-07"]
 os = "fedora"
 release = "rawhide"
 arch = "amd64"
@@ -85,12 +85,12 @@ platform = "linux/amd64"
 x11_or_wayland = true
 
 [file]
-name = "fedora-kde_amd64_2021-11-30_15-53.tar.zst"
+name = "fedora-kde_amd64_2021-12-07_13-07.tar.zst"
 
 version = "0.0.0-alpha.2"
 
 # This value can be used to verify the integrity of the file
-sha256 = "455b6dae986255b20aa3992df4421d31c9f93b17d87c0689168b4c16a50f4b28"
+sha256 = "dddcade6101fd45f72ac6bf0dd196cb675588cc5069315591f5dd1529da76f1d"
 
 # zstd: [1-22]
 zstd-level = 18
@@ -99,45 +99,48 @@ zstd-level = 18
 # Installed size ≈ tar-size
 # Installed size is approximately equal to the size of the tar file
 tar = "4.7G"
-tar_bytes = 4982255616
+tar_bytes = 4948971008
 
 # Space occupied ≈ tar-size + zstd-size
 # You will need to prepare a large enough space before installation.
 zstd = "1.5G"
-zstd_bytes = 1535174286
+zstd_bytes = 1562903380
 
 [compatibility]
 compatible_mode = true
 
-last_version = "latest02"
+last_version = "latest01"
 
 # The value is &str, not int
-last_date = "20211128"
-last_tag = "2021-11-28"
-last_file = "fedora-kde-amd64_2021-11-28_22-10-rootfs.tar.zst"
+last_date = "20211130"
+last_tag = "2021-11-30"
+last_file = "fedora-kde_amd64_2021-11-30_15-53-rootfs.tar.zst"
+last_sha256 = ""
 
-current_version = "latest01"
-current_date = "20211130"
-old_file = "fedora-rawhide_amd64+kde-2021_11-02-rootfs.tar.zst"
+current_version = "latest02"
+current_date = "20211207"
+old_file = "fedora-kde-amd64_2021-11-28_22-10-rootfs.tar.zst"
+old_sha256 = ""
 # edition 2021
 # DISTRO_NAME=fedora-rawhide_amd64
-# ROOTFS_FILE=fedora-kde_amd64_2021-11-30_15-53-rootfs.tar.zst
-# BUILD_DATE=20211130
-# BUILD_TAG=2021-11-30
+# ROOTFS_FILE=fedora-kde_amd64_2021-12-07_13-07-rootfs.tar.zst
+# SHA256SUM=dddcade6101fd45f72ac6bf0dd196cb675588cc5069315591f5dd1529da76f1d
+# BUILD_DATE=20211207
+# BUILD_TAG=2021-12-07
 # STATUS=completed
-# VERSION=latest01
-# END_TIME=15:53
+# VERSION=latest02
+# END_TIME=13:07
 
 [time]
 format = "rfc-3339"
 zone = "UTC"
-date = 2021-11-30
-begin = 2021-11-30 15:26:58.217738090+00:00
-start-sync_0 = 15:33:48
-start-zstd = 15:38:24
-start-sync_1 = 15:51:51
-end-sync_1 = 15:53:22
-end = 2021-11-30 15:53:22.093229849+00:00
+date = 2021-12-07
+begin = 2021-12-07 12:39:52.694639683+00:00
+start-sync_0 = 12:45:51
+start-zstd = 12:50:02
+start-sync_1 = 13:05:26
+end-sync_1 = 13:07:02
+end = 2021-12-07 13:07:02.421553925+00:00
 
 [server]
 repo = "cake233/fedora-kde-amd64"
@@ -150,14 +153,14 @@ in_sync = false
 split = false
 
 [server.node2]
-name = "us"
+name = "tmoe"
 current = false
 last = true
 in_sync = false
 split = false
 
 [server.node3]
-name = "global"
+name = "azure"
 current = false
 last = true
 in_sync = false
