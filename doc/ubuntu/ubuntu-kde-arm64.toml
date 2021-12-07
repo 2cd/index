@@ -1,6 +1,6 @@
 [main]
 name = "ubuntu"
-tag = ["kde", "2021-11-30", "devel"]
+tag = ["kde", "2021-12-07", "devel"]
 os = "ubuntu"
 release = "dev"
 arch = "arm64"
@@ -8,12 +8,12 @@ platform = "linux/arm64"
 x11_or_wayland = true
 
 [file]
-name = "ubuntu-kde_arm64_2021-11-30_15-12.tar.zst"
+name = "ubuntu-kde_arm64_2021-12-07_02-13.tar.zst"
 
 version = "0.0.0-alpha.2"
 
 # This value can be used to verify the integrity of the file
-sha256 = "6cb7cad1976855a6ab4d487959388e119958882a20ae3db19f98c45af824af8f"
+sha256 = "e7d5be638d668ab8c868d02a2de5dcf091ce8d0cd36620e9a25e7a00834bdd91"
 
 # zstd: [1-22]
 zstd-level = 18
@@ -22,72 +22,71 @@ zstd-level = 18
 # Installed size ≈ tar-size
 # Installed size is approximately equal to the size of the tar file
 tar = "4.1G"
-tar_bytes = 4380144640
+tar_bytes = 4396615168
 
 # Space occupied ≈ tar-size + zstd-size
 # You will need to prepare a large enough space before installation.
 zstd = "1.2G"
-zstd_bytes = 1229806575
+zstd_bytes = 1231460739
 
 [compatibility]
 compatible_mode = true
 
-last_version = "latest02"
+last_version = "latest01"
 
 # The value is &str, not int
-last_date = "20211128"
-last_tag = "2021-11-28"
-last_file = "ubuntu-kde-arm64_2021-11-28_22-33-rootfs.tar.zst"
+last_date = "20211130"
+last_tag = "2021-11-30"
+last_file = "ubuntu-kde_arm64_2021-11-30_15-12-rootfs.tar.zst"
+last_sha256 = ""
 
-current_version = "latest01"
-current_date = "20211130"
-old_file = ""
+current_version = "latest02"
+current_date = "20211207"
+old_file = "ubuntu-kde-arm64_2021-11-28_22-33-rootfs.tar.zst"
+old_sha256 = ""
 # edition 2021
 # DISTRO_NAME=ubuntu-dev_arm64
-# ROOTFS_FILE=ubuntu-kde_arm64_2021-11-30_15-12-rootfs.tar.zst
-# BUILD_DATE=20211130
-# BUILD_TAG=2021-11-30
+# ROOTFS_FILE=ubuntu-kde_arm64_2021-12-07_02-13-rootfs.tar.zst
+# SHA256SUM=e7d5be638d668ab8c868d02a2de5dcf091ce8d0cd36620e9a25e7a00834bdd91
+# BUILD_DATE=20211207
+# BUILD_TAG=2021-12-07
 # STATUS=completed
-# VERSION=latest01
-# END_TIME=15:12
+# VERSION=latest02
+# END_TIME=02:13
 
 [time]
 format = "rfc-3339"
 zone = "UTC"
-date = 2021-11-30
-begin = 2021-11-30 13:43:14.187671883+00:00
-start-sync_0 = 14:55:27
-start-zstd = 14:59:05
-start-sync_1 = 15:10:55
-end-sync_1 = 15:12:10
-end = 2021-11-30 15:12:10.844832157+00:00
+date = 2021-12-07
+begin = 2021-12-07 00:23:06.262959228+00:00
+start-sync_0 = 01:54:57
+start-zstd = 01:59:12
+start-sync_1 = 02:12:16
+end-sync_1 = 02:13:34
+end = 2021-12-07 02:13:34.175744502+00:00
 
 [server]
 repo = "cake233/ubuntu-kde-arm64"
 
 [server.node1]
 name = "cn"
-current = true
+current = false
 last = true
 in_sync = false
-start_sync = 2021-11-30 18:21:25.027786907+00:00
-end_sync = 2021-11-30 18:30:28.639388921+00:00
 split = false
 
 [server.node2]
-name = "us"
-current = true
-last = false
+name = "tmoe"
+current = false
+last = true
 in_sync = false
 split = false
 
 [server.node3]
-name = "global"
-current = true
+name = "azure"
+current = false
 last = true
 in_sync = false
-start_sync = 2021-11-30 18:17:14.934989369+00:00
-end_sync = 2021-11-30 18:21:11.047006131+00:00
 split = false
 
 [server.node4]
