@@ -1,6 +1,6 @@
 [main]
 name = "ubuntu"
-tag = ["xfce", "2021-11-30", "devel"]
+tag = ["xfce", "2021-12-07", "devel"]
 os = "ubuntu"
 release = "dev"
 arch = "amd64"
@@ -8,12 +8,12 @@ platform = "linux/amd64"
 x11_or_wayland = true
 
 [file]
-name = "ubuntu-xfce_amd64_2021-11-30_14-09.tar.zst"
+name = "ubuntu-xfce_amd64_2021-12-07_00-52.tar.zst"
 
 version = "0.0.0-alpha.2"
 
 # This value can be used to verify the integrity of the file
-sha256 = "ff7d9e1f41d35a2f55ff556c6ea003b019cd64fc42bc1d7621d9cfdd04aecbd6"
+sha256 = "52346cbbe773dc2d647901e7c737823dc46c85f65797a643aa48bbcfd6904390"
 
 # zstd: [1-22]
 zstd-level = 18
@@ -22,72 +22,71 @@ zstd-level = 18
 # Installed size ≈ tar-size
 # Installed size is approximately equal to the size of the tar file
 tar = "2.8G"
-tar_bytes = 2918132736
+tar_bytes = 2953854464
 
 # Space occupied ≈ tar-size + zstd-size
 # You will need to prepare a large enough space before installation.
-zstd = "752M"
-zstd_bytes = 788259478
+zstd = "765M"
+zstd_bytes = 801434969
 
 [compatibility]
 compatible_mode = true
 
-last_version = "latest02"
+last_version = "latest01"
 
 # The value is &str, not int
-last_date = "20211128"
-last_tag = "2021-11-28"
-last_file = "ubuntu-xfce-amd64_2021-11-28_21-36-rootfs.tar.zst"
+last_date = "20211130"
+last_tag = "2021-11-30"
+last_file = "ubuntu-xfce_amd64_2021-11-30_14-09-rootfs.tar.zst"
+last_sha256 = ""
 
-current_version = "latest01"
-current_date = "20211130"
-old_file = ""
+current_version = "latest02"
+current_date = "20211207"
+old_file = "ubuntu-xfce-amd64_2021-11-28_21-36-rootfs.tar.zst"
+old_sha256 = ""
 # edition 2021
 # DISTRO_NAME=ubuntu-dev_amd64
-# ROOTFS_FILE=ubuntu-xfce_amd64_2021-11-30_14-09-rootfs.tar.zst
-# BUILD_DATE=20211130
-# BUILD_TAG=2021-11-30
+# ROOTFS_FILE=ubuntu-xfce_amd64_2021-12-07_00-52-rootfs.tar.zst
+# SHA256SUM=52346cbbe773dc2d647901e7c737823dc46c85f65797a643aa48bbcfd6904390
+# BUILD_DATE=20211207
+# BUILD_TAG=2021-12-07
 # STATUS=completed
-# VERSION=latest01
-# END_TIME=14:09
+# VERSION=latest02
+# END_TIME=00:52
 
 [time]
 format = "rfc-3339"
 zone = "UTC"
-date = 2021-11-30
-begin = 2021-11-30 13:43:15.964825632+00:00
-start-sync_0 = 13:58:58
-start-zstd = 14:01:28
-start-sync_1 = 14:08:39
-end-sync_1 = 14:09:34
-end = 2021-11-30 14:09:34.102283578+00:00
+date = 2021-12-07
+begin = 2021-12-07 00:23:08.137274561+00:00
+start-sync_0 = 00:40:27
+start-zstd = 00:43:14
+start-sync_1 = 00:51:59
+end-sync_1 = 00:52:56
+end = 2021-12-07 00:52:56.444457086+00:00
 
 [server]
 repo = "cake233/ubuntu-xfce-amd64"
 
 [server.node1]
 name = "cn"
-current = true
+current = false
 last = true
 in_sync = false
-start_sync = 2021-11-30 17:32:14.706129468+00:00
-end_sync = 2021-11-30 17:39:40.735332521+00:00
 split = false
 
 [server.node2]
-name = "us"
-current = true
-last = false
+name = "tmoe"
+current = false
+last = true
 in_sync = false
 split = false
 
 [server.node3]
-name = "global"
-current = true
+name = "azure"
+current = false
 last = true
 in_sync = false
-start_sync = 2021-11-30 17:22:29.896522029+00:00
-end_sync = 2021-11-30 17:32:02.101502388+00:00
 split = false
 
 [server.node4]
