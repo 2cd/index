@@ -1,6 +1,6 @@
 [main]
 name = "code"
-tag = ["latest", "2021-11-28", "vsc", "vscode", "web"]
+tag = ["latest", "2021-12-08", "vsc", "vscode", "web"]
 os = "debian"
 release = "sid"
 arch = "arm64"
@@ -8,12 +8,12 @@ platform = "linux/arm64"
 x11_or_wayland = false
 
 [file]
-name = "code_arm64_2021-11-28_23-05.tar.zst"
+name = "code_arm64_2021-12-08_01-13.tar.zst"
 
-version = "0.0.0-alpha.1"
+version = "0.0.0-alpha.2"
 
 # This value can be used to verify the integrity of the file
-sha256 = "8d227a43a7cd549b10cdad8ad0a68a97568ec5c8ee6884a06cac67befb8b9dde"
+sha256 = "b1728ebac68eb2fcfd1b7f6ef9c44ac02c81507f126eb1cab98d1037aafd5e61"
 
 # zstd: [1-22]
 zstd-level = 20
@@ -22,65 +22,71 @@ zstd-level = 20
 # Installed size ≈ tar-size
 # Installed size is approximately equal to the size of the tar file
 tar = "508M"
-tar_bytes = 532382208
+tar_bytes = 532367872
 
 # Space occupied ≈ tar-size + zstd-size
 # You will need to prepare a large enough space before installation.
 zstd = "104M"
-zstd_bytes = 108691333
+zstd_bytes = 108761201
 
 [compatibility]
 compatible_mode = true
 
-last_version = "latest01"
+last_version = "latest02"
 
 # The value is &str, not int
-last_date = "20211101"
-last_tag = ""
-last_file = "code_arm64+latest-2021_11-01-rootfs.tar.zst"
+last_date = "20211128"
+last_tag = "2021-11-28"
+last_file = "code_arm64_2021-11-28_23-05-rootfs.tar.zst"
+last_sha256 = ""
 
-current_version = "latest02"
-current_date = "20211128"
+current_version = "latest01"
+current_date = "20211208"
+old_file = "code_arm64+latest-2021_11-01-rootfs.tar.zst"
+old_sha256 = "17ca3f94e2e71e734fa96c3ec55207049f06cd1dcdacaf638431ac42d6595700"
 # edition 2021
 # DISTRO_NAME=code_arm64
-# ROOTFS_FILE=code_arm64_2021-11-28_23-05-rootfs.tar.zst
-# BUILD_DATE=20211128
-# BUILD_TAG=2021-11-28
+# ROOTFS_FILE=code_arm64_2021-12-08_01-13-rootfs.tar.zst
+# SHA256SUM=b1728ebac68eb2fcfd1b7f6ef9c44ac02c81507f126eb1cab98d1037aafd5e61
+# BUILD_DATE=20211208
+# BUILD_TAG=2021-12-08
 # STATUS=completed
-# VERSION=latest02
-# END_TIME=23:05
+# VERSION=latest01
+# END_TIME=01:13
 
 [time]
 format = "rfc-3339"
 zone = "UTC"
-date = 2021-11-28
-begin = 2021-11-28 22:57:01.517060112+00:00
-start-sync_0 = 23:02:34
-start-zstd = 23:03:08
-start-sync_1 = 23:05:14
-end-sync_1 = 23:05:28
-end = 2021-11-28 23:05:28.673836567+00:00
+date = 2021-12-08
+begin = 2021-12-08 01:06:14.997380902+00:00
+start-sync_0 = 01:10:42
+start-zstd = 01:11:15
+start-sync_1 = 01:13:04
+end-sync_1 = 01:13:18
+end = 2021-12-08 01:13:18.456042134+00:00
 
 [server]
 repo = "cake233/code-arm64"
 
 [server.node1]
 name = "cn"
-current = true
+current = false
 last = true
+in_sync = false
 split = false
 
 [server.node2]
-name = "us"
-current = true
-last = false
+name = "tmoe"
+current = false
+last = true
+in_sync = false
 split = false
-part = 12
 
 [server.node3]
-name = "global"
-current = true
+name = "azure"
+current = false
 last = true
+in_sync = false
 split = false
 
 [server.node4]
