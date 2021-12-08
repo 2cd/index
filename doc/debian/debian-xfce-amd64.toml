@@ -1,6 +1,6 @@
 [main]
 name = "debian"
-tag = ["xfce", "2021-12-01"]
+tag = ["xfce", "2021-12-08"]
 os = "debian"
 release = "sid"
 arch = "amd64"
@@ -8,12 +8,12 @@ platform = "linux/amd64"
 x11_or_wayland = true
 
 [file]
-name = "debian-xfce_amd64_2021-12-01_12-39.tar.zst"
+name = "debian-xfce_amd64_2021-12-08_12-41.tar.zst"
 
 version = "0.0.0-alpha.2"
 
 # This value can be used to verify the integrity of the file
-sha256 = "400552ce2bea8c52d0a76ba7a486cdbc6f18ce217e91dc7262db8234fd5ae943"
+sha256 = "91a3bccc9f19ae7d6924f9f57e671badb9a2080721b59075ce43ae18e7fc3ba4"
 
 # zstd: [1-22]
 zstd-level = 18
@@ -22,72 +22,71 @@ zstd-level = 18
 # Installed size ≈ tar-size
 # Installed size is approximately equal to the size of the tar file
 tar = "3.4G"
-tar_bytes = 3645401088
+tar_bytes = 3640049152
 
 # Space occupied ≈ tar-size + zstd-size
 # You will need to prepare a large enough space before installation.
-zstd = "995M"
-zstd_bytes = 1043243708
+zstd = "987M"
+zstd_bytes = 1034470618
 
 [compatibility]
 compatible_mode = true
 
-last_version = "latest02"
+last_version = "latest01"
 
 # The value is &str, not int
-last_date = "20211128"
-last_tag = "2021-11-28"
-last_file = "debian-xfce-amd64_2021-11-28_21-59-rootfs.tar.zst"
+last_date = "20211201"
+last_tag = "2021-12-01"
+last_file = "debian-xfce_amd64_2021-12-01_12-39-rootfs.tar.zst"
+last_sha256 = ""
 
-current_version = "latest01"
-current_date = "20211201"
-old_file = "debian-sid_amd64+xfce-2021_11-03-rootfs.tar.zst"
+current_version = "latest02"
+current_date = "20211208"
+old_file = "debian-xfce-amd64_2021-11-28_21-59-rootfs.tar.zst"
+old_sha256 = ""
 # edition 2021
 # DISTRO_NAME=debian-sid_amd64
-# ROOTFS_FILE=debian-xfce_amd64_2021-12-01_12-39-rootfs.tar.zst
-# BUILD_DATE=20211201
-# BUILD_TAG=2021-12-01
+# ROOTFS_FILE=debian-xfce_amd64_2021-12-08_12-41-rootfs.tar.zst
+# SHA256SUM=91a3bccc9f19ae7d6924f9f57e671badb9a2080721b59075ce43ae18e7fc3ba4
+# BUILD_DATE=20211208
+# BUILD_TAG=2021-12-08
 # STATUS=completed
-# VERSION=latest01
-# END_TIME=12:39
+# VERSION=latest02
+# END_TIME=12:41
 
 [time]
 format = "rfc-3339"
 zone = "UTC"
-date = 2021-12-01
-begin = 2021-12-01 12:18:08.732098843+00:00
-start-sync_0 = 12:24:50
-start-zstd = 12:27:56
-start-sync_1 = 12:38:19
-end-sync_1 = 12:39:26
-end = 2021-12-01 12:39:26.972157225+00:00
+date = 2021-12-08
+begin = 2021-12-08 12:19:51.377852603+00:00
+start-sync_0 = 12:25:37
+start-zstd = 12:29:14
+start-sync_1 = 12:40:14
+end-sync_1 = 12:41:25
+end = 2021-12-08 12:41:25.596325336+00:00
 
 [server]
 repo = "cake233/debian-xfce-amd64"
 
 [server.node1]
 name = "cn"
-current = true
+current = false
 last = true
 in_sync = false
-start_sync = 2021-12-02 06:17:18.089946032+00:00
-end_sync = 2021-12-02 06:25:43.105553453+00:00
 split = false
 
 [server.node2]
-name = "us"
-current = true
-last = false
+name = "tmoe"
+current = false
+last = true
 in_sync = false
 split = false
 
 [server.node3]
-name = "global"
-current = true
+name = "azure"
+current = false
 last = true
 in_sync = false
-start_sync = 2021-12-02 06:09:12.058845379+00:00
-end_sync = 2021-12-02 06:17:04.526656948+00:00
 split = false
 
 [server.node4]
