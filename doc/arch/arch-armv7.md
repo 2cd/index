@@ -28,12 +28,12 @@ platform = "linux/arm/v7"
 x11_or_wayland = false
 
 [file]
-name = "arch_armhf_2021-12-08_00-05.tar.zst"
+name = "arch_armhf_2021-12-08_01-09.tar.zst"
 
 version = "0.0.0-alpha.2"
 
 # This value can be used to verify the integrity of the file
-sha256 = "1bd54c102a9fda7cecf36a0e36780651b7009c60da801b44a28a1ea5c42af9ed"
+sha256 = "4c77d6017353394e0b43fdd47f89dcd1149e7140c3b308243119ed50e96e917d"
 
 # zstd: [1-22]
 zstd-level = 12
@@ -47,7 +47,7 @@ tar_bytes = 586338816
 # Space occupied ≈ tar-size + zstd-size
 # You will need to prepare a large enough space before installation.
 zstd = "167M"
-zstd_bytes = 174404793
+zstd_bytes = 174404857
 
 [compatibility]
 compatible_mode = true
@@ -66,24 +66,24 @@ old_file = ""
 old_sha256 = ""
 # edition 2021
 # DISTRO_NAME=arch_armhf
-# ROOTFS_FILE=arch_armhf_2021-12-08_00-05-rootfs.tar.zst
-# SHA256SUM=1bd54c102a9fda7cecf36a0e36780651b7009c60da801b44a28a1ea5c42af9ed
+# ROOTFS_FILE=arch_armhf_2021-12-08_01-09-rootfs.tar.zst
+# SHA256SUM=4c77d6017353394e0b43fdd47f89dcd1149e7140c3b308243119ed50e96e917d
 # BUILD_DATE=20211208
 # BUILD_TAG=2021-12-08
 # STATUS=completed
 # VERSION=latest01
-# END_TIME=00:05
+# END_TIME=01:09
 
 [time]
 format = "rfc-3339"
 zone = "UTC"
 date = 2021-12-08
-begin = 2021-12-08 00:02:29.245622371+00:00
-start-sync_0 = 00:04:13
-start-zstd = 00:05:06
-start-sync_1 = 00:05:18
-end-sync_1 = 00:05:41
-end = 2021-12-08 00:05:41.660065517+00:00
+begin = 2021-12-08 01:07:14.708934227+00:00
+start-sync_0 = 01:08:38
+start-zstd = 01:09:22
+start-sync_1 = 01:09:34
+end-sync_1 = 01:09:51
+end = 2021-12-08 01:09:51.633427816+00:00
 
 [server]
 repo = "cake233/arch-armv7"
