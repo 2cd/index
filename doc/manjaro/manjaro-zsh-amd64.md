@@ -52,12 +52,12 @@ zstd_bytes = 268204067
 [compatibility]
 compatible_mode = true
 
-last_version = "latest01"
+previous_version = "latest01"
 
 # The value is &str, not int
-last_date = "20211128"
-last_tag = "2021-11-28"
-last_file = "manjaro-zsh-amd64_2021-11-28_21-03-rootfs.tar.zst"
+previous_date = "20211128"
+previous_tag = "2021-11-28"
+previous_file = "manjaro-zsh-amd64_2021-11-28_21-03-rootfs.tar.zst"
 
 current_version = "latest02"
 current_date = "20211203"
@@ -88,21 +88,21 @@ repo = "cake233/manjaro-zsh-amd64"
 [server.node1]
 name = "cn"
 current = false
-last = true
+previous = true
 in_sync = false
 split = false
 
 [server.node2]
 name = "us"
 current = false
-last = true
+previous = true
 in_sync = false
 split = false
 
 [server.node3]
 name = "global"
 current = false
-last = true
+previous = true
 in_sync = false
 split = false
 

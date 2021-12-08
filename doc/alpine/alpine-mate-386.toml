@@ -32,12 +32,12 @@ zstd_bytes = 258548160
 [compatibility]
 compatible_mode = true
 
-last_version = "latest01"
+previous_version = "latest01"
 
 # The value is &str, not int
-last_date = "20211130"
-last_tag = "2021-11-30"
-last_file = "alpine-mate_i386_2021-11-30_15-20-rootfs.tar.zst"
+previous_date = "20211130"
+previous_tag = "2021-11-30"
+previous_file = "alpine-mate_i386_2021-11-30_15-20-rootfs.tar.zst"
 
 current_version = "latest02"
 current_date = "20211202"
@@ -68,7 +68,7 @@ repo = "cake233/alpine-mate-386"
 [server.node1]
 name = "cn"
 current = true
-last = true
+previous = true
 in_sync = false
 start_sync = 2021-12-02 07:59:51.387259334+00:00
 end_sync = 2021-12-02 08:07:50.922172566+00:00
@@ -77,14 +77,14 @@ split = false
 [server.node2]
 name = "us"
 current = true
-last = false
+previous = false
 in_sync = false
 split = false
 
 [server.node3]
 name = "global"
 current = true
-last = true
+previous = true
 in_sync = false
 start_sync = 2021-12-02 07:58:40.834372248+00:00
 end_sync = 2021-12-02 07:59:39.831110282+00:00

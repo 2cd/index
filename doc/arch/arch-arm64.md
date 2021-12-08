@@ -52,13 +52,13 @@ zstd_bytes = 184910593
 [compatibility]
 compatible_mode = true
 
-last_version = "latest02"
+previous_version = "latest02"
 
 # The value is &str, not int
-last_date = "20211128"
-last_tag = ""
-last_file = ""
-last_sha256 = ""
+previous_date = "20211128"
+previous_tag = ""
+previous_file = ""
+previous_sha256 = ""
 
 current_version = "latest01"
 current_date = "20211208"
@@ -91,21 +91,21 @@ repo = "cake233/arch-arm64"
 [server.node1]
 name = "cn"
 current = false
-last = false
+previous = false
 in_sync = false
 split = false
 
 [server.node2]
 name = "tmoe"
 current = false
-last = false
+previous = false
 in_sync = false
 split = false
 
 [server.node3]
 name = "azure"
 current = false
-last = false
+previous = false
 in_sync = false
 split = false
 

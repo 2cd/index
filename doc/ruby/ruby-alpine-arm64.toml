@@ -32,12 +32,12 @@ zstd_bytes = 32048709
 [compatibility]
 compatible_mode = true
 
-last_version = "latest02"
+previous_version = "latest02"
 
 # The value is &str, not int
-last_date = "20211128"
-last_tag = "2021-11-28"
-last_file = "ruby-musl_arm64_2021-11-28_23-03-rootfs.tar.zst"
+previous_date = "20211128"
+previous_tag = "2021-11-28"
+previous_file = "ruby-musl_arm64_2021-11-28_23-03-rootfs.tar.zst"
 
 current_version = "latest01"
 current_date = "20211206"
@@ -68,7 +68,7 @@ repo = "cake233/ruby-alpine-arm64"
 [server.node1]
 name = "cn"
 current = true
-last = true
+previous = true
 in_sync = false
 start_sync = 2021-12-06 20:21:33.729000071+00:00
 end_sync = 2021-12-06 20:27:01.115420527+00:00
@@ -77,14 +77,14 @@ split = false
 [server.node2]
 name = "us"
 current = true
-last = false
+previous = false
 in_sync = false
 split = false
 
 [server.node3]
 name = "global"
 current = true
-last = true
+previous = true
 in_sync = false
 start_sync = 2021-12-07 18:04:14.940422208+00:00
 end_sync = 2021-12-07 18:04:25.685174371+00:00

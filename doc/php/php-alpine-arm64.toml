@@ -32,12 +32,12 @@ zstd_bytes = 30370898
 [compatibility]
 compatible_mode = true
 
-last_version = "latest02"
+previous_version = "latest02"
 
 # The value is &str, not int
-last_date = "20211129"
-last_tag = "2021-11-29"
-last_file = "php-musl_arm64_2021-11-29_01-03-rootfs.tar.zst"
+previous_date = "20211129"
+previous_tag = "2021-11-29"
+previous_file = "php-musl_arm64_2021-11-29_01-03-rootfs.tar.zst"
 
 current_version = "latest01"
 current_date = "20211206"
@@ -68,7 +68,7 @@ repo = "cake233/php-alpine-arm64"
 [server.node1]
 name = "cn"
 current = true
-last = true
+previous = true
 in_sync = false
 start_sync = 2021-12-06 21:31:45.678537476+00:00
 end_sync = 2021-12-06 21:37:18.828939502+00:00
@@ -77,14 +77,14 @@ split = false
 [server.node2]
 name = "us"
 current = true
-last = false
+previous = false
 in_sync = false
 split = false
 
 [server.node3]
 name = "global"
 current = true
-last = true
+previous = true
 in_sync = false
 start_sync = 2021-12-07 18:15:37.705094203+00:00
 end_sync = 2021-12-07 18:15:48.643296674+00:00

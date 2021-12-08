@@ -32,12 +32,12 @@ zstd_bytes = 33156717
 [compatibility]
 compatible_mode = true
 
-last_version = "latest01"
+previous_version = "latest01"
 
 # The value is &str, not int
-last_date = "20211128"
-last_tag = "2021-11-28"
-last_file = "node-musl_armhf_2021-11-28_23-02-rootfs.tar.zst"
+previous_date = "20211128"
+previous_tag = "2021-11-28"
+previous_file = "node-musl_armhf_2021-11-28_23-02-rootfs.tar.zst"
 
 current_version = "latest02"
 current_date = "20211206"
@@ -68,7 +68,7 @@ repo = "cake233/node-alpine-armv7"
 [server.node1]
 name = "cn"
 current = true
-last = true
+previous = true
 in_sync = false
 start_sync = 2021-12-06 21:02:59.492103908+00:00
 end_sync = 2021-12-06 21:08:18.334838058+00:00
@@ -77,14 +77,14 @@ split = false
 [server.node2]
 name = "us"
 current = true
-last = false
+previous = false
 in_sync = false
 split = false
 
 [server.node3]
 name = "global"
 current = true
-last = true
+previous = true
 in_sync = false
 start_sync = 2021-12-07 18:11:33.388719578+00:00
 end_sync = 2021-12-07 18:11:44.684440772+00:00

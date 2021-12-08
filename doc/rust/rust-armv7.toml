@@ -32,12 +32,12 @@ zstd_bytes = 237436878
 [compatibility]
 compatible_mode = true
 
-last_version = "latest02"
+previous_version = "latest02"
 
 # The value is &str, not int
-last_date = "20211203"
-last_tag = "2021-12-03"
-last_file = "rust_armhf_2021-12-03_00-12-rootfs.tar.zst"
+previous_date = "20211203"
+previous_tag = "2021-12-03"
+previous_file = "rust_armhf_2021-12-03_00-12-rootfs.tar.zst"
 
 current_version = "latest01"
 current_date = "20211206"
@@ -68,7 +68,7 @@ repo = "cake233/rust-armv7"
 [server.node1]
 name = "cn"
 current = true
-last = true
+previous = true
 in_sync = false
 start_sync = 2021-12-06 17:39:52.036503132+00:00
 end_sync = 2021-12-06 17:57:58.040548584+00:00
@@ -77,14 +77,14 @@ split = false
 [server.node2]
 name = "us"
 current = true
-last = false
+previous = false
 in_sync = false
 split = false
 
 [server.node3]
 name = "global"
 current = true
-last = true
+previous = true
 in_sync = false
 start_sync = 2021-12-06 17:38:43.175603955+00:00
 end_sync = 2021-12-06 17:39:39.572004097+00:00

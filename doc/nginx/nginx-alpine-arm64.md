@@ -52,13 +52,13 @@ zstd_bytes = 9177545
 [compatibility]
 compatible_mode = true
 
-last_version = "latest01"
+previous_version = "latest01"
 
 # The value is &str, not int
-last_date = "20211128"
-last_tag = "2021-11-28"
-last_file = "nginx-musl_arm64_2021-11-28_23-34-rootfs.tar.zst"
-last_sha256 = "c6c81eea8740a9fd441890878a91509b0af448cd02c9d51471764d826d55054b"
+previous_date = "20211128"
+previous_tag = "2021-11-28"
+previous_file = "nginx-musl_arm64_2021-11-28_23-34-rootfs.tar.zst"
+previous_sha256 = "c6c81eea8740a9fd441890878a91509b0af448cd02c9d51471764d826d55054b"
 
 current_version = "latest02"
 current_date = "20211208"
@@ -91,21 +91,21 @@ repo = "cake233/nginx-alpine-arm64"
 [server.node1]
 name = "cn"
 current = false
-last = true
+previous = true
 in_sync = false
 split = false
 
 [server.node2]
 name = "tmoe"
 current = false
-last = true
+previous = true
 in_sync = false
 split = false
 
 [server.node3]
 name = "azure"
 current = false
-last = true
+previous = true
 in_sync = false
 split = false
 

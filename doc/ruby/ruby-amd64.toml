@@ -32,12 +32,12 @@ zstd_bytes = 243356788
 [compatibility]
 compatible_mode = true
 
-last_version = "latest01"
+previous_version = "latest01"
 
 # The value is &str, not int
-last_date = "20211128"
-last_tag = "2021-11-28"
-last_file = "ruby_amd64_2021-11-28_23-08-rootfs.tar.zst"
+previous_date = "20211128"
+previous_tag = "2021-11-28"
+previous_file = "ruby_amd64_2021-11-28_23-08-rootfs.tar.zst"
 
 current_version = "latest02"
 current_date = "20211206"
@@ -68,7 +68,7 @@ repo = "cake233/ruby-amd64"
 [server.node1]
 name = "cn"
 current = true
-last = true
+previous = true
 in_sync = false
 start_sync = 2021-12-06 20:35:07.580222562+00:00
 end_sync = 2021-12-06 20:41:02.032411354+00:00
@@ -77,14 +77,14 @@ split = false
 [server.node2]
 name = "us"
 current = true
-last = false
+previous = false
 in_sync = false
 split = false
 
 [server.node3]
 name = "global"
 current = true
-last = true
+previous = true
 in_sync = false
 start_sync = 2021-12-07 18:05:57.350936761+00:00
 end_sync = 2021-12-07 18:08:05.323358408+00:00

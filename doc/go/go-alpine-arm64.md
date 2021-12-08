@@ -27,6 +27,7 @@ docker run \
 ```
 
 ## readme.go
+
 ```go
 // go run readme.go
 package main
@@ -85,13 +86,13 @@ zstd_bytes = 79500773
 [compatibility]
 compatible_mode = true
 
-last_version = "latest01"
+previous_version = "latest01"
 
 # The value is &str, not int
-last_date = "20211206"
-last_tag = "2021-12-06"
-last_file = "go-musl_arm64_2021-12-06_22-55-rootfs.tar.zst"
-last_sha256 = ""
+previous_date = "20211206"
+previous_tag = "2021-12-06"
+previous_file = "go-musl_arm64_2021-12-06_22-55-rootfs.tar.zst"
+previous_sha256 = ""
 
 current_version = "latest02"
 current_date = "20211208"
@@ -124,21 +125,21 @@ repo = "cake233/go-alpine-arm64"
 [server.node1]
 name = "cn"
 current = false
-last = true
+previous = true
 in_sync = false
 split = false
 
 [server.node2]
 name = "tmoe"
 current = false
-last = true
+previous = true
 in_sync = false
 split = false
 
 [server.node3]
 name = "azure"
 current = false
-last = true
+previous = true
 in_sync = false
 split = false
 

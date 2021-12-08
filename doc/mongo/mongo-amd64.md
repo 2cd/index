@@ -52,13 +52,13 @@ zstd_bytes = 186798893
 [compatibility]
 compatible_mode = true
 
-last_version = "latest01"
+previous_version = "latest01"
 
 # The value is &str, not int
-last_date = "20211128"
-last_tag = "2021-11-28"
-last_file = "mongo_amd64_2021-11-28_23-04-rootfs.tar.zst"
-last_sha256 = ""
+previous_date = "20211128"
+previous_tag = "2021-11-28"
+previous_file = "mongo_amd64_2021-11-28_23-04-rootfs.tar.zst"
+previous_sha256 = ""
 
 current_version = "latest02"
 current_date = "20211208"
@@ -91,21 +91,21 @@ repo = "cake233/mongo-amd64"
 [server.node1]
 name = "cn"
 current = false
-last = true
+previous = true
 in_sync = false
 split = false
 
 [server.node2]
 name = "tmoe"
 current = false
-last = true
+previous = true
 in_sync = false
 split = false
 
 [server.node3]
 name = "azure"
 current = false
-last = true
+previous = true
 in_sync = false
 split = false
 

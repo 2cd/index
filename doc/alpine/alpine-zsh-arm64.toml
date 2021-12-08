@@ -32,12 +32,12 @@ zstd_bytes = 27198279
 [compatibility]
 compatible_mode = true
 
-last_version = "latest01"
+previous_version = "latest01"
 
 # The value is &str, not int
-last_date = "20211130"
-last_tag = "2021-11-30"
-last_file = "alpine-zsh_arm64_2021-11-30_14-59-rootfs.tar.zst"
+previous_date = "20211130"
+previous_tag = "2021-11-30"
+previous_file = "alpine-zsh_arm64_2021-11-30_14-59-rootfs.tar.zst"
 
 current_version = "latest02"
 current_date = "20211202"
@@ -68,7 +68,7 @@ repo = "cake233/alpine-zsh-arm64"
 [server.node1]
 name = "cn"
 current = true
-last = true
+previous = true
 in_sync = false
 start_sync = 2021-12-02 07:32:42.702686539+00:00
 end_sync = 2021-12-02 07:37:48.741174725+00:00
@@ -77,14 +77,14 @@ split = false
 [server.node2]
 name = "us"
 current = true
-last = false
+previous = false
 in_sync = false
 split = false
 
 [server.node3]
 name = "global"
 current = true
-last = true
+previous = true
 in_sync = false
 start_sync = 2021-12-02 07:32:12.726797707+00:00
 end_sync = 2021-12-02 07:32:31.917236660+00:00

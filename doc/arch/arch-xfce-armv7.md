@@ -109,13 +109,13 @@ zstd_bytes = 1185448593
 [compatibility]
 compatible_mode = true
 
-last_version = "latest01"
+previous_version = "latest01"
 
 # The value is &str, not int
-last_date = "20211129"
-last_tag = "2021-11-29"
-last_file = "arch-xfce_armhf_2021-11-29_00-38-rootfs.tar.zst"
-last_sha256 = "bbbaba228ca672ae0026ffd6a42833b1787a205b56b0ed562e273e7150c07e17"
+previous_date = "20211129"
+previous_tag = "2021-11-29"
+previous_file = "arch-xfce_armhf_2021-11-29_00-38-rootfs.tar.zst"
+previous_sha256 = "bbbaba228ca672ae0026ffd6a42833b1787a205b56b0ed562e273e7150c07e17"
 
 current_version = "latest02"
 current_date = "20211208"
@@ -148,21 +148,21 @@ repo = "cake233/arch-xfce-armv7"
 [server.node1]
 name = "cn"
 current = false
-last = true
+previous = true
 in_sync = false
 split = false
 
 [server.node2]
 name = "tmoe"
 current = false
-last = true
+previous = true
 in_sync = false
 split = false
 
 [server.node3]
 name = "azure"
 current = false
-last = true
+previous = true
 in_sync = false
 split = false
 

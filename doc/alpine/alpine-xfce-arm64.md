@@ -109,12 +109,12 @@ zstd_bytes = 319756720
 [compatibility]
 compatible_mode = true
 
-last_version = "latest01"
+previous_version = "latest01"
 
 # The value is &str, not int
-last_date = "20211130"
-last_tag = "2021-11-30"
-last_file = "alpine-xfce_arm64_2021-11-30_15-24-rootfs.tar.zst"
+previous_date = "20211130"
+previous_tag = "2021-11-30"
+previous_file = "alpine-xfce_arm64_2021-11-30_15-24-rootfs.tar.zst"
 
 current_version = "latest02"
 current_date = "20211202"
@@ -145,21 +145,21 @@ repo = "cake233/alpine-xfce-arm64"
 [server.node1]
 name = "cn"
 current = false
-last = true
+previous = true
 in_sync = false
 split = false
 
 [server.node2]
 name = "us"
 current = false
-last = true
+previous = true
 in_sync = false
 split = false
 
 [server.node3]
 name = "global"
 current = false
-last = true
+previous = true
 in_sync = false
 split = false
 

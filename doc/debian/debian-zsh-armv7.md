@@ -52,13 +52,13 @@ zstd_bytes = 140817682
 [compatibility]
 compatible_mode = true
 
-last_version = "latest01"
+previous_version = "latest01"
 
 # The value is &str, not int
-last_date = "20211128"
-last_tag = "2021-11-28"
-last_file = "debian-zsh-armv7_2021-11-28_21-09-rootfs.tar.zst"
-last_sha256 = "11939f205cce0e7bbd73ce91703a7bfaebd85ec1579ed834763255d1b6a25f23"
+previous_date = "20211128"
+previous_tag = "2021-11-28"
+previous_file = "debian-zsh-armv7_2021-11-28_21-09-rootfs.tar.zst"
+previous_sha256 = "11939f205cce0e7bbd73ce91703a7bfaebd85ec1579ed834763255d1b6a25f23"
 
 current_version = "latest02"
 current_date = "20211208"
@@ -91,21 +91,21 @@ repo = "cake233/debian-zsh-armv7"
 [server.node1]
 name = "cn"
 current = false
-last = true
+previous = true
 in_sync = false
 split = false
 
 [server.node2]
 name = "tmoe"
 current = false
-last = true
+previous = true
 in_sync = false
 split = false
 
 [server.node3]
 name = "azure"
 current = false
-last = true
+previous = true
 in_sync = false
 split = false
 

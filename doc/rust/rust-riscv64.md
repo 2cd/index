@@ -63,12 +63,12 @@ zstd_bytes = 223236196
 [compatibility]
 compatible_mode = true
 
-last_version = "latest02"
+previous_version = "latest02"
 
 # The value is &str, not int
-last_date = "20211203"
-last_tag = "2021-12-03"
-last_file = "rust_riscv64_2021-12-03_00-12-rootfs.tar.zst"
+previous_date = "20211203"
+previous_tag = "2021-12-03"
+previous_file = "rust_riscv64_2021-12-03_00-12-rootfs.tar.zst"
 
 current_version = "latest01"
 current_date = "20211206"
@@ -99,21 +99,21 @@ repo = "cake233/rust-riscv64"
 [server.node1]
 name = "cn"
 current = false
-last = true
+previous = true
 in_sync = false
 split = false
 
 [server.node2]
 name = "us"
 current = false
-last = true
+previous = true
 in_sync = false
 split = false
 
 [server.node3]
 name = "global"
 current = false
-last = true
+previous = true
 in_sync = false
 split = false
 

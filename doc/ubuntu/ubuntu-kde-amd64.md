@@ -109,13 +109,13 @@ zstd_bytes = 1110458480
 [compatibility]
 compatible_mode = true
 
-last_version = "latest01"
+previous_version = "latest01"
 
 # The value is &str, not int
-last_date = "20211130"
-last_tag = "2021-11-30"
-last_file = "ubuntu-kde_amd64_2021-11-30_14-16-rootfs.tar.zst"
-last_sha256 = ""
+previous_date = "20211130"
+previous_tag = "2021-11-30"
+previous_file = "ubuntu-kde_amd64_2021-11-30_14-16-rootfs.tar.zst"
+previous_sha256 = ""
 
 current_version = "latest02"
 current_date = "20211207"
@@ -148,21 +148,21 @@ repo = "cake233/ubuntu-kde-amd64"
 [server.node1]
 name = "cn"
 current = false
-last = true
+previous = true
 in_sync = false
 split = false
 
 [server.node2]
 name = "tmoe"
 current = false
-last = true
+previous = true
 in_sync = false
 split = false
 
 [server.node3]
 name = "azure"
 current = false
-last = true
+previous = true
 in_sync = false
 split = false
 

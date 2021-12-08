@@ -109,13 +109,13 @@ zstd_bytes = 842125273
 [compatibility]
 compatible_mode = true
 
-last_version = "latest01"
+previous_version = "latest01"
 
 # The value is &str, not int
-last_date = "20211102"
-last_tag = ""
-last_file = "fedora-rawhide_amd64+lxqt-2021_11-02-rootfs.tar.zst"
-last_sha256 = "e507e03c2fba7bde2a8166834367ba9a4d407b87840550d3504aab03a9f877c1"
+previous_date = "20211102"
+previous_tag = ""
+previous_file = "fedora-rawhide_amd64+lxqt-2021_11-02-rootfs.tar.zst"
+previous_sha256 = "e507e03c2fba7bde2a8166834367ba9a4d407b87840550d3504aab03a9f877c1"
 
 current_version = "latest02"
 current_date = "20211207"
@@ -148,21 +148,21 @@ repo = "cake233/fedora-lxqt-amd64"
 [server.node1]
 name = "cn"
 current = false
-last = true
+previous = true
 in_sync = false
 split = false
 
 [server.node2]
 name = "tmoe"
 current = false
-last = true
+previous = true
 in_sync = false
 split = false
 
 [server.node3]
 name = "azure"
 current = false
-last = true
+previous = true
 in_sync = false
 split = false
 

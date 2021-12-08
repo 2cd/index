@@ -32,12 +32,12 @@ zstd_bytes = 246530626
 [compatibility]
 compatible_mode = true
 
-last_version = "latest02"
+previous_version = "latest02"
 
 # The value is &str, not int
-last_date = "20211130"
-last_tag = "2021-11-30"
-last_file = "alpine-mate_armhf_2021-11-30_15-16-rootfs.tar.zst"
+previous_date = "20211130"
+previous_tag = "2021-11-30"
+previous_file = "alpine-mate_armhf_2021-11-30_15-16-rootfs.tar.zst"
 
 current_version = "latest01"
 current_date = "20211202"
@@ -68,7 +68,7 @@ repo = "cake233/alpine-mate-armv7"
 [server.node1]
 name = "cn"
 current = true
-last = true
+previous = true
 in_sync = false
 start_sync = 2021-12-02 08:20:08.204109848+00:00
 end_sync = 2021-12-02 08:26:31.670196531+00:00
@@ -77,14 +77,14 @@ split = false
 [server.node2]
 name = "us"
 current = true
-last = false
+previous = false
 in_sync = false
 split = false
 
 [server.node3]
 name = "global"
 current = true
-last = true
+previous = true
 in_sync = false
 start_sync = 2021-12-02 08:18:59.797216873+00:00
 end_sync = 2021-12-02 08:19:55.616285013+00:00

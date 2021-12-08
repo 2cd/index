@@ -32,13 +32,13 @@ zstd_bytes = 1469715913
 [compatibility]
 compatible_mode = true
 
-last_version = "latest02"
+previous_version = "latest02"
 
 # The value is &str, not int
-last_date = "20211130"
-last_tag = "2021-11-30"
-last_file = "fedora-xfce_arm64_2021-11-30_17-03-rootfs.tar.zst"
-last_sha256 = ""
+previous_date = "20211130"
+previous_tag = "2021-11-30"
+previous_file = "fedora-xfce_arm64_2021-11-30_17-03-rootfs.tar.zst"
+previous_sha256 = ""
 
 current_version = "latest01"
 current_date = "20211207"
@@ -71,21 +71,21 @@ repo = "cake233/fedora-xfce-arm64"
 [server.node1]
 name = "cn"
 current = false
-last = true
+previous = true
 in_sync = false
 split = false
 
 [server.node2]
 name = "tmoe"
 current = true
-last = false
+previous = false
 in_sync = false
 split = false
 
 [server.node3]
 name = "azure"
 current = true
-last = true
+previous = true
 in_sync = false
 start_sync = 2021-12-07 19:13:45.202379578+00:00
 end_sync = 2021-12-07 19:18:54.663404040+00:00

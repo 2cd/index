@@ -52,12 +52,12 @@ zstd_bytes = 141152716
 [compatibility]
 compatible_mode = true
 
-last_version = "latest02"
+previous_version = "latest02"
 
 # The value is &str, not int
-last_date = "20211202"
-last_tag = "2021-12-02"
-last_file = "kali-zsh_armhf_2021-12-02_07-36-rootfs.tar.zst"
+previous_date = "20211202"
+previous_tag = "2021-12-02"
+previous_file = "kali-zsh_armhf_2021-12-02_07-36-rootfs.tar.zst"
 
 current_version = "latest01"
 current_date = "20211202"
@@ -88,21 +88,21 @@ repo = "cake233/kali-zsh-armv7"
 [server.node1]
 name = "cn"
 current = false
-last = true
+previous = true
 in_sync = false
 split = false
 
 [server.node2]
 name = "us"
 current = false
-last = true
+previous = true
 in_sync = false
 split = false
 
 [server.node3]
 name = "global"
 current = false
-last = true
+previous = true
 in_sync = false
 split = false
 

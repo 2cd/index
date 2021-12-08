@@ -63,12 +63,12 @@ zstd_bytes = 237521840
 [compatibility]
 compatible_mode = true
 
-last_version = "latest02"
+previous_version = "latest02"
 
 # The value is &str, not int
-last_date = "20211128"
-last_tag = ""
-last_file = ""
+previous_date = "20211128"
+previous_tag = ""
+previous_file = ""
 
 current_version = "latest01"
 current_date = "20211128"
@@ -98,20 +98,20 @@ repo = "cake233/rust-armv5"
 [server.node1]
 name = "cn"
 current = false
-last = true
+previous = true
 split = false
 
 [server.node2]
 name = "us"
 current = false
-last = true
+previous = true
 split = false
 part = 12
 
 [server.node3]
 name = "global"
 current = false
-last = true
+previous = true
 split = false
 
 [server.node4]

@@ -32,12 +32,12 @@ zstd_bytes = 190325913
 [compatibility]
 compatible_mode = true
 
-last_version = "latest02"
+previous_version = "latest02"
 
 # The value is &str, not int
-last_date = "20211203"
-last_tag = "2021-12-03"
-last_file = "rust-musl_arm64_2021-12-03_00-08-rootfs.tar.zst"
+previous_date = "20211203"
+previous_tag = "2021-12-03"
+previous_file = "rust-musl_arm64_2021-12-03_00-08-rootfs.tar.zst"
 
 current_version = "latest01"
 current_date = "20211206"
@@ -68,7 +68,7 @@ repo = "cake233/rust-alpine-arm64"
 [server.node1]
 name = "cn"
 current = true
-last = true
+previous = true
 in_sync = false
 start_sync = 2021-12-06 14:43:57.200535184+00:00
 end_sync = 2021-12-06 14:51:59.344692233+00:00
@@ -77,14 +77,14 @@ split = false
 [server.node2]
 name = "us"
 current = true
-last = false
+previous = false
 in_sync = false
 split = false
 
 [server.node3]
 name = "global"
 current = true
-last = true
+previous = true
 in_sync = false
 start_sync = 2021-12-06 14:42:46.719260379+00:00
 end_sync = 2021-12-06 14:43:44.088788366+00:00
