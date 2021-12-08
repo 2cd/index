@@ -8,12 +8,12 @@ platform = "linux/arm64"
 x11_or_wayland = false
 
 [file]
-name = "arch-zsh_arm64_2021-12-08_00-19.tar.zst"
+name = "arch-zsh_arm64_2021-12-08_01-24.tar.zst"
 
 version = "0.0.0-alpha.2"
 
 # This value can be used to verify the integrity of the file
-sha256 = "b7ec07a98c7697d856586958ab8b1a8e5164076e7c79838e3e6e2a84c648ad65"
+sha256 = "266a7bc0316f6838d459036463bfe32ed29b34d50b19574e529594ee35deb3c4"
 
 # zstd: [1-22]
 zstd-level = 20
@@ -27,7 +27,7 @@ tar_bytes = 1006202880
 # Space occupied ≈ tar-size + zstd-size
 # You will need to prepare a large enough space before installation.
 zstd = "220M"
-zstd_bytes = 230485213
+zstd_bytes = 230474661
 
 [compatibility]
 compatible_mode = true
@@ -46,24 +46,24 @@ old_file = "arch-zsh_arm64_2021-11-28_23-19-rootfs.tar.zst"
 old_sha256 = ""
 # edition 2021
 # DISTRO_NAME=arch_arm64
-# ROOTFS_FILE=arch-zsh_arm64_2021-12-08_00-19-rootfs.tar.zst
-# SHA256SUM=b7ec07a98c7697d856586958ab8b1a8e5164076e7c79838e3e6e2a84c648ad65
+# ROOTFS_FILE=arch-zsh_arm64_2021-12-08_01-24-rootfs.tar.zst
+# SHA256SUM=266a7bc0316f6838d459036463bfe32ed29b34d50b19574e529594ee35deb3c4
 # BUILD_DATE=20211208
 # BUILD_TAG=2021-12-08
 # STATUS=completed
 # VERSION=latest01
-# END_TIME=00:19
+# END_TIME=01:24
 
 [time]
 format = "rfc-3339"
 zone = "UTC"
 date = 2021-12-08
-begin = 2021-12-08 00:06:08.491433491+00:00
-start-sync_0 = 00:13:22
-start-zstd = 00:15:08
-start-sync_1 = 00:18:45
-end-sync_1 = 00:19:09
-end = 2021-12-08 00:19:09.818424317+00:00
+begin = 2021-12-08 01:10:28.490441139+00:00
+start-sync_0 = 01:18:32
+start-zstd = 01:20:16
+start-sync_1 = 01:24:26
+end-sync_1 = 01:24:47
+end = 2021-12-08 01:24:47.820773241+00:00
 
 [server]
 repo = "cake233/arch-zsh-arm64"
