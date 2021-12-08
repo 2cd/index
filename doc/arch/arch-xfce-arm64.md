@@ -77,7 +77,7 @@ localhost:5903
 ```toml
 [main]
 name = "arch"
-tag = ["xfce", "2021-12-01"]
+tag = ["xfce", "2021-12-08"]
 os = "arch"
 release = "latest"
 arch = "arm64"
@@ -85,12 +85,12 @@ platform = "linux/arm64"
 x11_or_wayland = true
 
 [file]
-name = "arch-xfce_arm64_2021-12-01_00-57.tar.zst"
+name = "arch-xfce_arm64_2021-12-08_02-00.tar.zst"
 
 version = "0.0.0-alpha.2"
 
 # This value can be used to verify the integrity of the file
-sha256 = "850296f26a10c613ee7fe48f8561902691ebc12b712f1a5d611b8111f9f533ff"
+sha256 = "f1fe6e6bcccd9aee8c77bc071d7df31612e650f1b019776ec1281bbd781125ea"
 
 # zstd: [1-22]
 zstd-level = 15
@@ -99,45 +99,48 @@ zstd-level = 15
 # Installed size ≈ tar-size
 # Installed size is approximately equal to the size of the tar file
 tar = "4.1G"
-tar_bytes = 4340898304
+tar_bytes = 4356412928
 
 # Space occupied ≈ tar-size + zstd-size
 # You will need to prepare a large enough space before installation.
 zstd = "1.3G"
-zstd_bytes = 1361295478
+zstd_bytes = 1366012692
 
 [compatibility]
 compatible_mode = true
 
-last_version = "latest01"
+last_version = "latest02"
 
 # The value is &str, not int
-last_date = "20211129"
-last_tag = "2021-11-29"
-last_file = "arch-xfce_arm64_2021-11-29_00-00-rootfs.tar.zst"
+last_date = "20211201"
+last_tag = "2021-12-01"
+last_file = "arch-xfce_arm64_2021-12-01_00-57-rootfs.tar.zst"
+last_sha256 = ""
 
-current_version = "latest02"
-current_date = "20211201"
-old_file = "arch_arm64+xfce-2021_11-03-rootfs.tar.zst"
+current_version = "latest01"
+current_date = "20211208"
+old_file = "arch-xfce_arm64_2021-11-29_00-00-rootfs.tar.zst"
+old_sha256 = ""
 # edition 2021
 # DISTRO_NAME=arch_arm64
-# ROOTFS_FILE=arch-xfce_arm64_2021-12-01_00-57-rootfs.tar.zst
-# BUILD_DATE=20211201
-# BUILD_TAG=2021-12-01
+# ROOTFS_FILE=arch-xfce_arm64_2021-12-08_02-00-rootfs.tar.zst
+# SHA256SUM=f1fe6e6bcccd9aee8c77bc071d7df31612e650f1b019776ec1281bbd781125ea
+# BUILD_DATE=20211208
+# BUILD_TAG=2021-12-08
 # STATUS=completed
-# VERSION=latest02
-# END_TIME=00:57
+# VERSION=latest01
+# END_TIME=02:00
 
 [time]
 format = "rfc-3339"
 zone = "UTC"
-date = 2021-12-01
-begin = 2021-12-01 00:21:32.036996330+00:00
-start-sync_0 = 00:44:36
-start-zstd = 00:49:27
-start-sync_1 = 00:56:11
-end-sync_1 = 00:57:46
-end = 2021-12-01 00:57:46.404831259+00:00
+date = 2021-12-08
+begin = 2021-12-08 01:28:16.644149151+00:00
+start-sync_0 = 01:49:19
+start-zstd = 01:53:00
+start-sync_1 = 01:58:51
+end-sync_1 = 02:00:18
+end = 2021-12-08 02:00:18.645237742+00:00
 
 [server]
 repo = "cake233/arch-xfce-arm64"
@@ -150,14 +153,14 @@ in_sync = false
 split = false
 
 [server.node2]
-name = "us"
+name = "tmoe"
 current = false
 last = true
 in_sync = false
 split = false
 
 [server.node3]
-name = "global"
+name = "azure"
 current = false
 last = true
 in_sync = false
