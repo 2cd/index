@@ -53,7 +53,7 @@ func main() {
 ```toml
 [main]
 name = "go"
-tag = ["alpine", "2021-11-29", "musl-libc", "musl"]
+tag = ["alpine", "2021-12-08", "musl-libc", "musl"]
 os = "alpine"
 release = "stable"
 arch = "amd64"
@@ -61,12 +61,12 @@ platform = "linux/amd64"
 x11_or_wayland = false
 
 [file]
-name = "go-musl_amd64_2021-11-29_19-44.tar.zst"
+name = "go-musl_amd64_2021-12-08_01-08.tar.zst"
 
-version = "0.0.0-alpha.1"
+version = "0.0.0-alpha.2"
 
 # This value can be used to verify the integrity of the file
-sha256 = "3d8026eb04c28d23fd4450213130e4c49605248bd7d259ca0c10503abf3379f6"
+sha256 = "ef204c7b18050fe0189936c0b0daffd5cde0a4d8e3b3b2e14b197e3af376f8ed"
 
 # zstd: [1-22]
 zstd-level = 20
@@ -75,12 +75,12 @@ zstd-level = 20
 # Installed size ≈ tar-size
 # Installed size is approximately equal to the size of the tar file
 tar = "323M"
-tar_bytes = 338341888
+tar_bytes = 338487296
 
 # Space occupied ≈ tar-size + zstd-size
 # You will need to prepare a large enough space before installation.
 zstd = "81M"
-zstd_bytes = 83990891
+zstd_bytes = 84037383
 
 [compatibility]
 compatible_mode = true
@@ -91,28 +91,32 @@ last_version = "latest01"
 last_date = "20211129"
 last_tag = "2021-11-29"
 last_file = "go-musl_amd64_2021-11-29_00-29-rootfs.tar.zst"
+last_sha256 = ""
 
 current_version = "latest02"
-current_date = "20211129"
+current_date = "20211208"
+old_file = ""
+old_sha256 = ""
 # edition 2021
 # DISTRO_NAME=go_amd64
-# ROOTFS_FILE=go-musl_amd64_2021-11-29_19-44-rootfs.tar.zst
-# BUILD_DATE=20211129
-# BUILD_TAG=2021-11-29
+# ROOTFS_FILE=go-musl_amd64_2021-12-08_01-08-rootfs.tar.zst
+# SHA256SUM=ef204c7b18050fe0189936c0b0daffd5cde0a4d8e3b3b2e14b197e3af376f8ed
+# BUILD_DATE=20211208
+# BUILD_TAG=2021-12-08
 # STATUS=completed
 # VERSION=latest02
-# END_TIME=19:44
+# END_TIME=01:08
 
 [time]
 format = "rfc-3339"
 zone = "UTC"
-date = 2021-11-29
-begin = 2021-11-29 19:41:53.540557648+00:00
-start-sync_0 = 19:42:50
-start-zstd = 19:43:02
-start-sync_1 = 19:44:22
-end-sync_1 = 19:44:41
-end = 2021-11-29 19:44:41.075085469+00:00
+date = 2021-12-08
+begin = 2021-12-08 01:06:14.182317675+00:00
+start-sync_0 = 01:06:57
+start-zstd = 01:07:09
+start-sync_1 = 01:08:36
+end-sync_1 = 01:08:49
+end = 2021-12-08 01:08:49.052230798+00:00
 
 [server]
 repo = "cake233/go-alpine-amd64"
@@ -121,19 +125,21 @@ repo = "cake233/go-alpine-amd64"
 name = "cn"
 current = false
 last = true
+in_sync = false
 split = false
 
 [server.node2]
-name = "us"
+name = "tmoe"
 current = false
 last = true
+in_sync = false
 split = false
-part = 12
 
 [server.node3]
-name = "global"
+name = "azure"
 current = false
 last = true
+in_sync = false
 split = false
 
 [server.node4]
@@ -147,8 +153,8 @@ PATH = "/go/bin:/usr/local/go/bin${PATH:+:${PATH}}"
 GOPATH = "/go"
 
 [version]
-go = 'go version go1.17.3 linux/amd64'
-gofmt = '/usr/local/go/bin/gofmt: go1.17.3'
+go = 'go version go1.17.4 linux/amd64'
+gofmt = '/usr/local/go/bin/gofmt: go1.17.4'
 
 [other]
 workdir = "/go"
