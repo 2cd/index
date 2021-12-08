@@ -20,7 +20,7 @@ docker run \
 ```toml
 [main]
 name = "debian"
-tag = ["zsh", "2021-12-01"]
+tag = ["zsh", "2021-12-08"]
 os = "debian"
 release = "sid"
 arch = "arm64"
@@ -28,12 +28,12 @@ platform = "linux/arm64"
 x11_or_wayland = false
 
 [file]
-name = "debian-zsh_arm64_2021-12-01_12-17.tar.zst"
+name = "debian-zsh_arm64_2021-12-08_12-19.tar.zst"
 
 version = "0.0.0-alpha.2"
 
 # This value can be used to verify the integrity of the file
-sha256 = "bc4362fac1b3e199cb1b5da5c1f83a2d997702912e7e11fe467faafa1ff7cc7e"
+sha256 = "0138a45410f92f381f412adb73c5855351b1bd9d33e7a20b9b21739d534cffff"
 
 # zstd: [1-22]
 zstd-level = 20
@@ -42,12 +42,12 @@ zstd-level = 20
 # Installed size ≈ tar-size
 # Installed size is approximately equal to the size of the tar file
 tar = "724M"
-tar_bytes = 758334464
+tar_bytes = 758388736
 
 # Space occupied ≈ tar-size + zstd-size
 # You will need to prepare a large enough space before installation.
 zstd = "140M"
-zstd_bytes = 146038912
+zstd_bytes = 146107590
 
 [compatibility]
 compatible_mode = true
@@ -58,29 +58,32 @@ last_version = "latest01"
 last_date = "20211128"
 last_tag = "2021-11-28"
 last_file = "debian-zsh-arm64_2021-11-28_21-11-rootfs.tar.zst"
+last_sha256 = "a5c0c9b48dc1ac525e82c5e003a9d5100c915c3298e468fa9467fc7779d86620"
 
 current_version = "latest02"
-current_date = "20211201"
+current_date = "20211208"
 old_file = "debian-sid_arm64+zsh-2021_11-03-rootfs.tar.zst"
+old_sha256 = ""
 # edition 2021
 # DISTRO_NAME=debian-sid_arm64
-# ROOTFS_FILE=debian-zsh_arm64_2021-12-01_12-17-rootfs.tar.zst
-# BUILD_DATE=20211201
-# BUILD_TAG=2021-12-01
+# ROOTFS_FILE=debian-zsh_arm64_2021-12-08_12-19-rootfs.tar.zst
+# SHA256SUM=0138a45410f92f381f412adb73c5855351b1bd9d33e7a20b9b21739d534cffff
+# BUILD_DATE=20211208
+# BUILD_TAG=2021-12-08
 # STATUS=completed
 # VERSION=latest02
-# END_TIME=12:17
+# END_TIME=12:19
 
 [time]
 format = "rfc-3339"
 zone = "UTC"
-date = 2021-12-01
-begin = 2021-12-01 12:01:56.386866191+00:00
-start-sync_0 = 12:12:48
-start-zstd = 12:14:34
-start-sync_1 = 12:16:57
-end-sync_1 = 12:17:19
-end = 2021-12-01 12:17:19.656777386+00:00
+date = 2021-12-08
+begin = 2021-12-08 12:02:28.822163503+00:00
+start-sync_0 = 12:14:40
+start-zstd = 12:16:35
+start-sync_1 = 12:19:06
+end-sync_1 = 12:19:25
+end = 2021-12-08 12:19:25.781378769+00:00
 
 [server]
 repo = "cake233/debian-zsh-arm64"
@@ -93,14 +96,14 @@ in_sync = false
 split = false
 
 [server.node2]
-name = "us"
+name = "tmoe"
 current = false
 last = true
 in_sync = false
 split = false
 
 [server.node3]
-name = "global"
+name = "azure"
 current = false
 last = true
 in_sync = false
