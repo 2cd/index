@@ -77,7 +77,7 @@ localhost:5903
 ```toml
 [main]
 name = "arch"
-tag = ["kde", "2021-12-01"]
+tag = ["kde", "2021-12-08"]
 os = "arch"
 release = "latest"
 arch = "arm64"
@@ -85,12 +85,12 @@ platform = "linux/arm64"
 x11_or_wayland = true
 
 [file]
-name = "arch-kde_arm64_2021-12-01_01-03.tar.zst"
+name = "arch-kde_arm64_2021-12-08_02-09.tar.zst"
 
 version = "0.0.0-alpha.2"
 
 # This value can be used to verify the integrity of the file
-sha256 = "e9dccd72d18c4dccc302b2d87eb3b10acc16d7c37f715367322869e5fd892b85"
+sha256 = "5b8d53f5f0e16038499bcc91d48c33372912072882c86b75eccd5e4a6a1168ab"
 
 # zstd: [1-22]
 zstd-level = 15
@@ -98,46 +98,49 @@ zstd-level = 15
 [file.size]
 # Installed size ≈ tar-size
 # Installed size is approximately equal to the size of the tar file
-tar = "4.9G"
-tar_bytes = 5247465984
+tar = "4.3G"
+tar_bytes = 4516386304
 
 # Space occupied ≈ tar-size + zstd-size
 # You will need to prepare a large enough space before installation.
-zstd = "1.6G"
-zstd_bytes = 1662502358
+zstd = "1.4G"
+zstd_bytes = 1490498853
 
 [compatibility]
 compatible_mode = true
 
-last_version = "latest01"
+last_version = "latest02"
 
 # The value is &str, not int
-last_date = "20211129"
-last_tag = "2021-11-29"
-last_file = "arch-kde_arm64_2021-11-29_00-02-rootfs.tar.zst"
+last_date = "20211201"
+last_tag = "2021-12-01"
+last_file = "arch-kde_arm64_2021-12-01_01-03-rootfs.tar.zst"
+last_sha256 = ""
 
-current_version = "latest02"
-current_date = "20211201"
-old_file = "arch_arm64+kde-2021_11-03-rootfs.tar.zst"
+current_version = "latest01"
+current_date = "20211208"
+old_file = "arch-kde_arm64_2021-11-29_00-02-rootfs.tar.zst"
+old_sha256 = ""
 # edition 2021
 # DISTRO_NAME=arch_arm64
-# ROOTFS_FILE=arch-kde_arm64_2021-12-01_01-03-rootfs.tar.zst
-# BUILD_DATE=20211201
-# BUILD_TAG=2021-12-01
+# ROOTFS_FILE=arch-kde_arm64_2021-12-08_02-09-rootfs.tar.zst
+# SHA256SUM=5b8d53f5f0e16038499bcc91d48c33372912072882c86b75eccd5e4a6a1168ab
+# BUILD_DATE=20211208
+# BUILD_TAG=2021-12-08
 # STATUS=completed
-# VERSION=latest02
-# END_TIME=01:03
+# VERSION=latest01
+# END_TIME=02:09
 
 [time]
 format = "rfc-3339"
 zone = "UTC"
-date = 2021-12-01
-begin = 2021-12-01 00:21:31.155791649+00:00
-start-sync_0 = 00:46:51
-start-zstd = 00:53:11
-start-sync_1 = 01:01:07
-end-sync_1 = 01:03:01
-end = 2021-12-01 01:03:01.822184830+00:00
+date = 2021-12-08
+begin = 2021-12-08 01:28:20.759818582+00:00
+start-sync_0 = 01:54:12
+start-zstd = 01:59:50
+start-sync_1 = 02:07:39
+end-sync_1 = 02:09:21
+end = 2021-12-08 02:09:21.049387122+00:00
 
 [server]
 repo = "cake233/arch-kde-arm64"
@@ -150,14 +153,14 @@ in_sync = false
 split = false
 
 [server.node2]
-name = "us"
+name = "tmoe"
 current = false
 last = true
 in_sync = false
 split = false
 
 [server.node3]
-name = "global"
+name = "azure"
 current = false
 last = true
 in_sync = false
