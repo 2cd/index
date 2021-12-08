@@ -1,6 +1,6 @@
 [main]
 name = "debian"
-tag = ["zsh", "2021-12-01"]
+tag = ["zsh", "2021-12-08"]
 os = "debian"
 release = "sid"
 arch = "i386"
@@ -8,12 +8,12 @@ platform = "linux/386"
 x11_or_wayland = false
 
 [file]
-name = "debian-zsh_i386_2021-12-01_12-17.tar.zst"
+name = "debian-zsh_i386_2021-12-08_12-18.tar.zst"
 
 version = "0.0.0-alpha.2"
 
 # This value can be used to verify the integrity of the file
-sha256 = "4d7acf048762d3618a052736c20c5caf44eabc6ab97e035fd0a992d209330e02"
+sha256 = "98184692410cd03ff555990ad91b2f7adecdbf5f05db360ee77c9d6d705954cb"
 
 # zstd: [1-22]
 zstd-level = 20
@@ -21,73 +21,72 @@ zstd-level = 20
 [file.size]
 # Installed size ≈ tar-size
 # Installed size is approximately equal to the size of the tar file
-tar = "735M"
-tar_bytes = 770603520
+tar = "736M"
+tar_bytes = 770707456
 
 # Space occupied ≈ tar-size + zstd-size
 # You will need to prepare a large enough space before installation.
 zstd = "144M"
-zstd_bytes = 150041977
+zstd_bytes = 150116747
 
 [compatibility]
 compatible_mode = true
 
-last_version = "latest01"
+last_version = "latest02"
 
 # The value is &str, not int
-last_date = "20211128"
-last_tag = "2021-11-28"
-last_file = "debian-zsh-386_2021-11-28_21-10-rootfs.tar.zst"
+last_date = "20211201"
+last_tag = "2021-12-01"
+last_file = "debian-zsh_i386_2021-12-01_12-17-rootfs.tar.zst"
+last_sha256 = ""
 
-current_version = "latest02"
-current_date = "20211201"
-old_file = "debian-sid_i386+zsh-2021_11-03-rootfs.tar.zst"
+current_version = "latest01"
+current_date = "20211208"
+old_file = "debian-zsh-386_2021-11-28_21-10-rootfs.tar.zst"
+old_sha256 = ""
 # edition 2021
 # DISTRO_NAME=debian-sid_i386
-# ROOTFS_FILE=debian-zsh_i386_2021-12-01_12-17-rootfs.tar.zst
-# BUILD_DATE=20211201
-# BUILD_TAG=2021-12-01
+# ROOTFS_FILE=debian-zsh_i386_2021-12-08_12-18-rootfs.tar.zst
+# SHA256SUM=98184692410cd03ff555990ad91b2f7adecdbf5f05db360ee77c9d6d705954cb
+# BUILD_DATE=20211208
+# BUILD_TAG=2021-12-08
 # STATUS=completed
-# VERSION=latest02
-# END_TIME=12:17
+# VERSION=latest01
+# END_TIME=12:18
 
 [time]
 format = "rfc-3339"
 zone = "UTC"
-date = 2021-12-01
-begin = 2021-12-01 12:01:53.185527304+00:00
-start-sync_0 = 12:13:13
-start-zstd = 12:15:03
-start-sync_1 = 12:17:27
-end-sync_1 = 12:17:43
-end = 2021-12-01 12:17:43.821580504+00:00
+date = 2021-12-08
+begin = 2021-12-08 12:02:26.129148408+00:00
+start-sync_0 = 12:13:35
+start-zstd = 12:15:20
+start-sync_1 = 12:17:47
+end-sync_1 = 12:18:01
+end = 2021-12-08 12:18:01.317251798+00:00
 
 [server]
 repo = "cake233/debian-zsh-386"
 
 [server.node1]
 name = "cn"
-current = true
+current = false
 last = true
 in_sync = false
-start_sync = 2021-12-01 18:10:45.814769510+00:00
-end_sync = 2021-12-01 18:16:31.280686100+00:00
 split = false
 
 [server.node2]
-name = "us"
-current = true
-last = false
+name = "tmoe"
+current = false
+last = true
 in_sync = false
 split = false
 
 [server.node3]
-name = "global"
-current = true
+name = "azure"
+current = false
 last = true
 in_sync = false
-start_sync = 2021-12-01 18:09:36.948936823+00:00
-end_sync = 2021-12-01 18:10:32.919334959+00:00
 split = false
 
 [server.node4]
