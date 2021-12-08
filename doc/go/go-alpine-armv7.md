@@ -53,7 +53,7 @@ func main() {
 ```toml
 [main]
 name = "go"
-tag = ["alpine", "2021-11-29", "musl-libc", "musl"]
+tag = ["alpine", "2021-12-08", "musl-libc", "musl"]
 os = "alpine"
 release = "stable"
 arch = "armhf"
@@ -61,12 +61,12 @@ platform = "linux/arm/v7"
 x11_or_wayland = false
 
 [file]
-name = "go-musl_armhf_2021-11-29_19-44.tar.zst"
+name = "go-musl_armhf_2021-12-08_01-08.tar.zst"
 
-version = "0.0.0-alpha.1"
+version = "0.0.0-alpha.2"
 
 # This value can be used to verify the integrity of the file
-sha256 = "9196bb83518f1b5db68d5e117ec12a899e8eec5cfe6e6cc298a0b3487c632b08"
+sha256 = "581f4850eccac22a09fa9b7d72f9a93f22d5e6c46cf49238fcfd03adcefc1d5f"
 
 # zstd: [1-22]
 zstd-level = 20
@@ -75,12 +75,12 @@ zstd-level = 20
 # Installed size ≈ tar-size
 # Installed size is approximately equal to the size of the tar file
 tar = "301M"
-tar_bytes = 315339776
+tar_bytes = 315439616
 
 # Space occupied ≈ tar-size + zstd-size
 # You will need to prepare a large enough space before installation.
 zstd = "75M"
-zstd_bytes = 78482623
+zstd_bytes = 78492367
 
 [compatibility]
 compatible_mode = true
@@ -91,28 +91,32 @@ last_version = "latest01"
 last_date = "20211129"
 last_tag = "2021-11-29"
 last_file = "go-musl_armhf_2021-11-29_00-28-rootfs.tar.zst"
+last_sha256 = ""
 
 current_version = "latest02"
-current_date = "20211129"
+current_date = "20211208"
+old_file = ""
+old_sha256 = ""
 # edition 2021
 # DISTRO_NAME=go_armhf
-# ROOTFS_FILE=go-musl_armhf_2021-11-29_19-44-rootfs.tar.zst
-# BUILD_DATE=20211129
-# BUILD_TAG=2021-11-29
+# ROOTFS_FILE=go-musl_armhf_2021-12-08_01-08-rootfs.tar.zst
+# SHA256SUM=581f4850eccac22a09fa9b7d72f9a93f22d5e6c46cf49238fcfd03adcefc1d5f
+# BUILD_DATE=20211208
+# BUILD_TAG=2021-12-08
 # STATUS=completed
 # VERSION=latest02
-# END_TIME=19:44
+# END_TIME=01:08
 
 [time]
 format = "rfc-3339"
 zone = "UTC"
-date = 2021-11-29
-begin = 2021-11-29 19:41:52.668508242+00:00
-start-sync_0 = 19:42:47
-start-zstd = 19:42:56
-start-sync_1 = 19:44:20
-end-sync_1 = 19:44:29
-end = 2021-11-29 19:44:29.982027669+00:00
+date = 2021-12-08
+begin = 2021-12-08 01:06:14.713444984+00:00
+start-sync_0 = 01:07:06
+start-zstd = 01:07:15
+start-sync_1 = 01:08:37
+end-sync_1 = 01:08:47
+end = 2021-12-08 01:08:47.044269261+00:00
 
 [server]
 repo = "cake233/go-alpine-armv7"
@@ -121,19 +125,21 @@ repo = "cake233/go-alpine-armv7"
 name = "cn"
 current = false
 last = true
+in_sync = false
 split = false
 
 [server.node2]
-name = "us"
+name = "tmoe"
 current = false
 last = true
+in_sync = false
 split = false
-part = 12
 
 [server.node3]
-name = "global"
+name = "azure"
 current = false
 last = true
+in_sync = false
 split = false
 
 [server.node4]
@@ -147,8 +153,8 @@ PATH = "/go/bin:/usr/local/go/bin${PATH:+:${PATH}}"
 GOPATH = "/go"
 
 [version]
-go = 'go version go1.17.3 linux/arm'
-gofmt = '/usr/local/go/bin/gofmt: go1.17.3'
+go = 'go version go1.17.4 linux/arm'
+gofmt = '/usr/local/go/bin/gofmt: go1.17.4'
 
 [other]
 workdir = "/go"
