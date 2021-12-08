@@ -20,7 +20,7 @@ docker run \
 ```toml
 [main]
 name = "arch"
-tag = ["zsh", "2021-12-01"]
+tag = ["zsh", "2021-12-08"]
 os = "arch"
 release = "latest"
 arch = "amd64"
@@ -28,12 +28,12 @@ platform = "linux/amd64"
 x11_or_wayland = false
 
 [file]
-name = "arch-zsh_amd64_2021-12-01_00-14.tar.zst"
+name = "arch-zsh_amd64_2021-12-08_01-17.tar.zst"
 
 version = "0.0.0-alpha.2"
 
 # This value can be used to verify the integrity of the file
-sha256 = "20cc22cf9d25d4de1910f877d09e4ab584f853c5ff2db40626a4b53131c37cc1"
+sha256 = "295e86be0d7274dc8b1c628758594a0527f64d1b3ebb58777b2f7680abdccfbd"
 
 # zstd: [1-22]
 zstd-level = 20
@@ -42,45 +42,48 @@ zstd-level = 20
 # Installed size ≈ tar-size
 # Installed size is approximately equal to the size of the tar file
 tar = "975M"
-tar_bytes = 1021983232
+tar_bytes = 1021997056
 
 # Space occupied ≈ tar-size + zstd-size
 # You will need to prepare a large enough space before installation.
 zstd = "235M"
-zstd_bytes = 245945844
+zstd_bytes = 245916426
 
 [compatibility]
 compatible_mode = true
 
-last_version = "latest02"
+last_version = "latest01"
 
 # The value is &str, not int
-last_date = "20211128"
-last_tag = "2021-11-28"
-last_file = "arch-zsh_amd64_2021-11-28_23-14-rootfs.tar.zst"
+last_date = "20211201"
+last_tag = "2021-12-01"
+last_file = "arch-zsh_amd64_2021-12-01_00-14-rootfs.tar.zst"
+last_sha256 = ""
 
-current_version = "latest01"
-current_date = "20211201"
-old_file = "arch_amd64+zsh-2021_11-03-rootfs.tar.zst"
+current_version = "latest02"
+current_date = "20211208"
+old_file = "arch-zsh_amd64_2021-11-28_23-14-rootfs.tar.zst"
+old_sha256 = ""
 # edition 2021
 # DISTRO_NAME=arch_amd64
-# ROOTFS_FILE=arch-zsh_amd64_2021-12-01_00-14-rootfs.tar.zst
-# BUILD_DATE=20211201
-# BUILD_TAG=2021-12-01
+# ROOTFS_FILE=arch-zsh_amd64_2021-12-08_01-17-rootfs.tar.zst
+# SHA256SUM=295e86be0d7274dc8b1c628758594a0527f64d1b3ebb58777b2f7680abdccfbd
+# BUILD_DATE=20211208
+# BUILD_TAG=2021-12-08
 # STATUS=completed
-# VERSION=latest01
-# END_TIME=00:14
+# VERSION=latest02
+# END_TIME=01:17
 
 [time]
 format = "rfc-3339"
 zone = "UTC"
-date = 2021-12-01
-begin = 2021-12-01 00:05:19.769009798+00:00
-start-sync_0 = 00:07:01
-start-zstd = 00:08:54
-start-sync_1 = 00:13:34
-end-sync_1 = 00:14:01
-end = 2021-12-01 00:14:01.046402918+00:00
+date = 2021-12-08
+begin = 2021-12-08 01:10:27.999660451+00:00
+start-sync_0 = 01:11:55
+start-zstd = 01:13:38
+start-sync_1 = 01:17:24
+end-sync_1 = 01:17:45
+end = 2021-12-08 01:17:45.308038959+00:00
 
 [server]
 repo = "cake233/arch-zsh-amd64"
@@ -93,14 +96,14 @@ in_sync = false
 split = false
 
 [server.node2]
-name = "us"
+name = "tmoe"
 current = false
 last = true
 in_sync = false
 split = false
 
 [server.node3]
-name = "global"
+name = "azure"
 current = false
 last = true
 in_sync = false
