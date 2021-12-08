@@ -77,7 +77,7 @@ localhost:5903
 ```toml
 [main]
 name = "debian"
-tag = ["kde", "2021-12-01"]
+tag = ["kde", "2021-12-08"]
 os = "debian"
 release = "sid"
 arch = "arm64"
@@ -85,12 +85,12 @@ platform = "linux/arm64"
 x11_or_wayland = true
 
 [file]
-name = "debian-kde_arm64_2021-12-01_13-39.tar.zst"
+name = "debian-kde_arm64_2021-12-08_13-21.tar.zst"
 
 version = "0.0.0-alpha.2"
 
 # This value can be used to verify the integrity of the file
-sha256 = "5ea508e8ac6eededcdd216cd2dc9f24257d4288de139df3bab436c8861bdd32a"
+sha256 = "c3d14799be8f125259fdb5c08e0647da79803aa5ef623dc66c1834f1ff48dc25"
 
 # zstd: [1-22]
 zstd-level = 18
@@ -99,45 +99,48 @@ zstd-level = 18
 # Installed size ≈ tar-size
 # Installed size is approximately equal to the size of the tar file
 tar = "5.3G"
-tar_bytes = 5621820416
+tar_bytes = 5613425152
 
 # Space occupied ≈ tar-size + zstd-size
 # You will need to prepare a large enough space before installation.
 zstd = "1.6G"
-zstd_bytes = 1640144733
+zstd_bytes = 1641066179
 
 [compatibility]
 compatible_mode = true
 
-last_version = "latest02"
+last_version = "latest01"
 
 # The value is &str, not int
-last_date = "20211128"
-last_tag = "2021-11-28"
-last_file = "debian-kde-arm64_2021-11-28_22-39-rootfs.tar.zst"
+last_date = "20211201"
+last_tag = "2021-12-01"
+last_file = "debian-kde_arm64_2021-12-01_13-39-rootfs.tar.zst"
+last_sha256 = ""
 
-current_version = "latest01"
-current_date = "20211201"
-old_file = "debian-sid_arm64+kde-2021_11-11-rootfs.tar.zst"
+current_version = "latest02"
+current_date = "20211208"
+old_file = "debian-kde-arm64_2021-11-28_22-39-rootfs.tar.zst"
+old_sha256 = ""
 # edition 2021
 # DISTRO_NAME=debian-sid_arm64
-# ROOTFS_FILE=debian-kde_arm64_2021-12-01_13-39-rootfs.tar.zst
-# BUILD_DATE=20211201
-# BUILD_TAG=2021-12-01
+# ROOTFS_FILE=debian-kde_arm64_2021-12-08_13-21-rootfs.tar.zst
+# SHA256SUM=c3d14799be8f125259fdb5c08e0647da79803aa5ef623dc66c1834f1ff48dc25
+# BUILD_DATE=20211208
+# BUILD_TAG=2021-12-08
 # STATUS=completed
-# VERSION=latest01
-# END_TIME=13:39
+# VERSION=latest02
+# END_TIME=13:21
 
 [time]
 format = "rfc-3339"
 zone = "UTC"
-date = 2021-12-01
-begin = 2021-12-01 12:18:06.382311277+00:00
-start-sync_0 = 13:13:57
-start-zstd = 13:20:15
-start-sync_1 = 13:37:29
-end-sync_1 = 13:39:14
-end = 2021-12-01 13:39:14.562003665+00:00
+date = 2021-12-08
+begin = 2021-12-08 12:19:47.870049001+00:00
+start-sync_0 = 13:00:39
+start-zstd = 13:05:35
+start-sync_1 = 13:20:09
+end-sync_1 = 13:21:48
+end = 2021-12-08 13:21:49.469327886+00:00
 
 [server]
 repo = "cake233/debian-kde-arm64"
@@ -150,14 +153,14 @@ in_sync = false
 split = false
 
 [server.node2]
-name = "us"
+name = "tmoe"
 current = false
 last = true
 in_sync = false
 split = false
 
 [server.node3]
-name = "global"
+name = "azure"
 current = false
 last = true
 in_sync = false
