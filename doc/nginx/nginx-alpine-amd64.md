@@ -20,7 +20,7 @@ docker run \
 ```toml
 [main]
 name = "nginx"
-tag = ["alpine", "2021-11-29", "musl-libc", "musl"]
+tag = ["alpine", "2021-12-08", "musl-libc", "musl"]
 os = "alpine"
 release = "stable"
 arch = "amd64"
@@ -28,12 +28,12 @@ platform = "linux/amd64"
 x11_or_wayland = false
 
 [file]
-name = "nginx-musl_amd64_2021-11-29_19-44.tar.zst"
+name = "nginx-musl_amd64_2021-12-08_01-07.tar.zst"
 
-version = "0.0.0-alpha.1"
+version = "0.0.0-alpha.2"
 
 # This value can be used to verify the integrity of the file
-sha256 = "2f4299b8f472e0a9565f38cdff35b12e6306a49bc01169fc62eeecf70fc7b337"
+sha256 = "b862e2aa18d6703294973ec07a25c45609ad0c4eee1017b10250c073fdae49ed"
 
 # zstd: [1-22]
 zstd-level = 20
@@ -47,7 +47,7 @@ tar_bytes = 35259392
 # Space occupied ≈ tar-size + zstd-size
 # You will need to prepare a large enough space before installation.
 zstd = "9.0M"
-zstd_bytes = 9431187
+zstd_bytes = 9430626
 
 [compatibility]
 compatible_mode = true
@@ -58,28 +58,32 @@ last_version = "latest01"
 last_date = "20211128"
 last_tag = "2021-11-28"
 last_file = "nginx-musl_amd64_2021-11-28_23-00-rootfs.tar.zst"
+last_sha256 = ""
 
 current_version = "latest02"
-current_date = "20211129"
+current_date = "20211208"
+old_file = ""
+old_sha256 = ""
 # edition 2021
 # DISTRO_NAME=nginx_amd64
-# ROOTFS_FILE=nginx-musl_amd64_2021-11-29_19-44-rootfs.tar.zst
-# BUILD_DATE=20211129
-# BUILD_TAG=2021-11-29
+# ROOTFS_FILE=nginx-musl_amd64_2021-12-08_01-07-rootfs.tar.zst
+# SHA256SUM=b862e2aa18d6703294973ec07a25c45609ad0c4eee1017b10250c073fdae49ed
+# BUILD_DATE=20211208
+# BUILD_TAG=2021-12-08
 # STATUS=completed
 # VERSION=latest02
-# END_TIME=19:44
+# END_TIME=01:07
 
 [time]
 format = "rfc-3339"
 zone = "UTC"
-date = 2021-11-29
-begin = 2021-11-29 19:43:53.895948948+00:00
-start-sync_0 = 19:44:09
-start-zstd = 19:44:22
-start-sync_1 = 19:44:36
-end-sync_1 = 19:44:45
-end = 2021-11-29 19:44:45.890878682+00:00
+date = 2021-12-08
+begin = 2021-12-08 01:06:14.356302081+00:00
+start-sync_0 = 01:06:47
+start-zstd = 01:06:53
+start-sync_1 = 01:07:06
+end-sync_1 = 01:07:12
+end = 2021-12-08 01:07:12.620594989+00:00
 
 [server]
 repo = "cake233/nginx-alpine-amd64"
@@ -88,19 +92,21 @@ repo = "cake233/nginx-alpine-amd64"
 name = "cn"
 current = false
 last = true
+in_sync = false
 split = false
 
 [server.node2]
-name = "us"
+name = "tmoe"
 current = false
 last = true
+in_sync = false
 split = false
-part = 12
 
 [server.node3]
-name = "global"
+name = "azure"
 current = false
 last = true
+in_sync = false
 split = false
 
 [server.node4]
