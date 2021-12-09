@@ -77,7 +77,7 @@ localhost:5903
 ```toml
 [main]
 name = "alpine"
-tag = ["kde", "2021-12-02"]
+tag = ["kde", "2021-12-09"]
 os = "alpine"
 release = "edge"
 arch = "amd64"
@@ -85,12 +85,12 @@ platform = "linux/amd64"
 x11_or_wayland = true
 
 [file]
-name = "alpine-kde_amd64_2021-12-02_00-17.tar.zst"
+name = "alpine-kde_amd64_2021-12-09_00-17.tar.zst"
 
 version = "0.0.0-alpha.2"
 
 # This value can be used to verify the integrity of the file
-sha256 = "2206e79e1178f6cc321fb711a2df287277c9f06d1d98b5841a1b37a8452f9b91"
+sha256 = "c6c5d8c9f16d6359bfdbb1ee816db21b521d8396d1b0edc0526351d03d8edf34"
 
 # zstd: [1-22]
 zstd-level = 19
@@ -99,45 +99,48 @@ zstd-level = 19
 # Installed size ≈ tar-size
 # Installed size is approximately equal to the size of the tar file
 tar = "1.7G"
-tar_bytes = 1819364352
+tar_bytes = 1799991296
 
 # Space occupied ≈ tar-size + zstd-size
 # You will need to prepare a large enough space before installation.
-zstd = "549M"
-zstd_bytes = 575609816
+zstd = "545M"
+zstd_bytes = 571052598
 
 [compatibility]
 compatible_mode = true
 
-previous_version = "latest01"
+previous_version = "latest02"
 
 # The value is &str, not int
-previous_date = "20211130"
-previous_tag = "2021-11-30"
-previous_file = "alpine-kde_amd64_2021-11-30_15-13-rootfs.tar.zst"
+previous_date = "20211202"
+previous_tag = "2021-12-02"
+previous_file = "alpine-kde_amd64_2021-12-02_00-17-rootfs.tar.zst"
+previous_sha256 = ""
 
-current_version = "latest02"
-current_date = "20211202"
-old_file = "alpine-kde-amd64_2021-11-28_21-09-rootfs.tar.zst"
+current_version = "latest01"
+current_date = "20211209"
+old_file = "alpine-kde_amd64_2021-11-30_15-13-rootfs.tar.zst"
+old_sha256 = ""
 # edition 2021
 # DISTRO_NAME=alpine-edge_amd64
-# ROOTFS_FILE=alpine-kde_amd64_2021-12-02_00-17-rootfs.tar.zst
-# BUILD_DATE=20211202
-# BUILD_TAG=2021-12-02
+# ROOTFS_FILE=alpine-kde_amd64_2021-12-09_00-17-rootfs.tar.zst
+# SHA256SUM=c6c5d8c9f16d6359bfdbb1ee816db21b521d8396d1b0edc0526351d03d8edf34
+# BUILD_DATE=20211209
+# BUILD_TAG=2021-12-09
 # STATUS=completed
-# VERSION=latest02
+# VERSION=latest01
 # END_TIME=00:17
 
 [time]
 format = "rfc-3339"
 zone = "UTC"
-date = 2021-12-02
-begin = 2021-12-02 00:05:45.996381581+00:00
-start-sync_0 = 00:08:25
-start-zstd = 00:10:05
-start-sync_1 = 00:16:25
-end-sync_1 = 00:17:06
-end = 2021-12-02 00:17:06.180205546+00:00
+date = 2021-12-09
+begin = 2021-12-09 00:06:12.999760247+00:00
+start-sync_0 = 00:08:30
+start-zstd = 00:10:24
+start-sync_1 = 00:16:53
+end-sync_1 = 00:17:35
+end = 2021-12-09 00:17:35.356860981+00:00
 
 [server]
 repo = "cake233/alpine-kde-amd64"
@@ -150,14 +153,14 @@ in_sync = false
 split = false
 
 [server.node2]
-name = "us"
+name = "tmoe"
 current = false
 previous = true
 in_sync = false
 split = false
 
 [server.node3]
-name = "global"
+name = "azure"
 current = false
 previous = true
 in_sync = false
