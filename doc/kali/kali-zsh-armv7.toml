@@ -1,6 +1,6 @@
 [main]
 name = "kali"
-tag = ["zsh", "2021-12-02"]
+tag = ["zsh", "2021-12-09"]
 os = "kali"
 release = "rolling"
 arch = "armhf"
@@ -8,12 +8,12 @@ platform = "linux/arm/v7"
 x11_or_wayland = false
 
 [file]
-name = "kali-zsh_armhf_2021-12-02_12-16.tar.zst"
+name = "kali-zsh_armhf_2021-12-09_12-19.tar.zst"
 
 version = "0.0.0-alpha.2"
 
 # This value can be used to verify the integrity of the file
-sha256 = "5f3724f5968288d7581d7acf118b454ec81e025f0def8b15216ae40382f0c7e5"
+sha256 = "d52c19328aa43b1153609597e8dc7e56cf95bb51ccfa49f5d019e311bf7d1aab"
 
 # zstd: [1-22]
 zstd-level = 20
@@ -22,12 +22,12 @@ zstd-level = 20
 # Installed size ≈ tar-size
 # Installed size is approximately equal to the size of the tar file
 tar = "659M"
-tar_bytes = 690935296
+tar_bytes = 690964992
 
 # Space occupied ≈ tar-size + zstd-size
 # You will need to prepare a large enough space before installation.
 zstd = "135M"
-zstd_bytes = 141152716
+zstd_bytes = 141199338
 
 [compatibility]
 compatible_mode = true
@@ -38,29 +38,32 @@ previous_version = "latest02"
 previous_date = "20211202"
 previous_tag = "2021-12-02"
 previous_file = "kali-zsh_armhf_2021-12-02_07-36-rootfs.tar.zst"
+previous_sha256 = ""
 
 current_version = "latest01"
-current_date = "20211202"
+current_date = "20211209"
 old_file = "kali-zsh_armhf_2021-11-30_15-11-rootfs.tar.zst"
+old_sha256 = ""
 # edition 2021
 # DISTRO_NAME=kali-rolling_armhf
-# ROOTFS_FILE=kali-zsh_armhf_2021-12-02_12-16-rootfs.tar.zst
-# BUILD_DATE=20211202
-# BUILD_TAG=2021-12-02
+# ROOTFS_FILE=kali-zsh_armhf_2021-12-09_12-19-rootfs.tar.zst
+# SHA256SUM=d52c19328aa43b1153609597e8dc7e56cf95bb51ccfa49f5d019e311bf7d1aab
+# BUILD_DATE=20211209
+# BUILD_TAG=2021-12-09
 # STATUS=completed
 # VERSION=latest01
-# END_TIME=12:16
+# END_TIME=12:19
 
 [time]
 format = "rfc-3339"
 zone = "UTC"
-date = 2021-12-02
-begin = 2021-12-02 12:01:51.097907809+00:00
-start-sync_0 = 12:12:29
-start-zstd = 12:14:13
-start-sync_1 = 12:16:26
-end-sync_1 = 12:16:43
-end = 2021-12-02 12:16:43.763185931+00:00
+date = 2021-12-09
+begin = 2021-12-09 12:02:25.412998837+00:00
+start-sync_0 = 12:14:50
+start-zstd = 12:16:35
+start-sync_1 = 12:18:57
+end-sync_1 = 12:19:12
+end = 2021-12-09 12:19:12.432414140+00:00
 
 [server]
 repo = "cake233/kali-zsh-armv7"
@@ -73,14 +76,14 @@ in_sync = false
 split = false
 
 [server.node2]
-name = "us"
+name = "tmoe"
 current = false
 previous = true
 in_sync = false
 split = false
 
 [server.node3]
-name = "global"
+name = "azure"
 current = false
 previous = true
 in_sync = false
