@@ -1,6 +1,6 @@
 [main]
 name = "alpine"
-tag = ["kde", "2021-12-02"]
+tag = ["kde", "2021-12-09"]
 os = "alpine"
 release = "edge"
 arch = "arm64"
@@ -8,12 +8,12 @@ platform = "linux/arm64"
 x11_or_wayland = true
 
 [file]
-name = "alpine-kde_arm64_2021-12-02_00-38.tar.zst"
+name = "alpine-kde_arm64_2021-12-09_00-30.tar.zst"
 
 version = "0.0.0-alpha.2"
 
 # This value can be used to verify the integrity of the file
-sha256 = "5f7fbec01b43e7447560e4c29a41fdcac309cc43fc9071d69c1ac027ec39e3b4"
+sha256 = "85628d4f5b5f24c7e3c768ba8900769078c60eb356c46e4d2ae98ba38362dfab"
 
 # zstd: [1-22]
 zstd-level = 19
@@ -22,72 +22,71 @@ zstd-level = 19
 # Installed size ≈ tar-size
 # Installed size is approximately equal to the size of the tar file
 tar = "1.7G"
-tar_bytes = 1776524800
+tar_bytes = 1765242368
 
 # Space occupied ≈ tar-size + zstd-size
 # You will need to prepare a large enough space before installation.
-zstd = "539M"
-zstd_bytes = 564596929
+zstd = "536M"
+zstd_bytes = 561436677
 
 [compatibility]
 compatible_mode = true
 
-previous_version = "latest02"
+previous_version = "latest01"
 
 # The value is &str, not int
-previous_date = "20211130"
-previous_tag = "2021-11-30"
-previous_file = "alpine-kde_arm64_2021-11-30_15-23-rootfs.tar.zst"
+previous_date = "20211202"
+previous_tag = "2021-12-02"
+previous_file = "alpine-kde_arm64_2021-12-02_00-38-rootfs.tar.zst"
+previous_sha256 = ""
 
-current_version = "latest01"
-current_date = "20211202"
-old_file = "alpine-kde-arm64_2021-11-28_21-22-rootfs.tar.zst"
+current_version = "latest02"
+current_date = "20211209"
+old_file = "alpine-kde_arm64_2021-11-30_15-23-rootfs.tar.zst"
+old_sha256 = ""
 # edition 2021
 # DISTRO_NAME=alpine-edge_arm64
-# ROOTFS_FILE=alpine-kde_arm64_2021-12-02_00-38-rootfs.tar.zst
-# BUILD_DATE=20211202
-# BUILD_TAG=2021-12-02
+# ROOTFS_FILE=alpine-kde_arm64_2021-12-09_00-30-rootfs.tar.zst
+# SHA256SUM=85628d4f5b5f24c7e3c768ba8900769078c60eb356c46e4d2ae98ba38362dfab
+# BUILD_DATE=20211209
+# BUILD_TAG=2021-12-09
 # STATUS=completed
-# VERSION=latest01
-# END_TIME=00:38
+# VERSION=latest02
+# END_TIME=00:30
 
 [time]
 format = "rfc-3339"
 zone = "UTC"
-date = 2021-12-02
-begin = 2021-12-02 00:05:45.035516971+00:00
-start-sync_0 = 00:27:41
-start-zstd = 00:29:26
-start-sync_1 = 00:37:21
-end-sync_1 = 00:38:02
-end = 2021-12-02 00:38:02.720138794+00:00
+date = 2021-12-09
+begin = 2021-12-09 00:06:09.100975735+00:00
+start-sync_0 = 00:21:47
+start-zstd = 00:23:17
+start-sync_1 = 00:29:32
+end-sync_1 = 00:30:13
+end = 2021-12-09 00:30:13.529621277+00:00
 
 [server]
 repo = "cake233/alpine-kde-arm64"
 
 [server.node1]
 name = "cn"
-current = true
+current = false
 previous = true
 in_sync = false
-start_sync = 2021-12-02 09:07:32.011598706+00:00
-end_sync = 2021-12-02 09:14:07.395767956+00:00
 split = false
 
 [server.node2]
-name = "us"
-current = true
-previous = false
+name = "tmoe"
+current = false
+previous = true
 in_sync = false
 split = false
 
 [server.node3]
-name = "global"
-current = true
+name = "azure"
+current = false
 previous = true
 in_sync = false
-start_sync = 2021-12-02 09:02:31.867764344+00:00
-end_sync = 2021-12-02 09:07:18.410498316+00:00
 split = false
 
 [server.node4]
