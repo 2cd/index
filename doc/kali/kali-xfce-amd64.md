@@ -77,7 +77,7 @@ localhost:5903
 ```toml
 [main]
 name = "kali"
-tag = ["xfce", "2021-12-02"]
+tag = ["xfce", "2021-12-09"]
 os = "kali"
 release = "rolling"
 arch = "amd64"
@@ -85,12 +85,12 @@ platform = "linux/amd64"
 x11_or_wayland = true
 
 [file]
-name = "kali-xfce_amd64_2021-12-02_12-56.tar.zst"
+name = "kali-xfce_amd64_2021-12-09_13-10.tar.zst"
 
 version = "0.0.0-alpha.2"
 
 # This value can be used to verify the integrity of the file
-sha256 = "bda1b3a5e62a923148d2b2e2cc094e3e660953301565d1298f528f354532e8ef"
+sha256 = "f971d5c095b332fd24bc285dd36f5e3ad2dc00c5069f36d6b24d7acfd39f19da"
 
 # zstd: [1-22]
 zstd-level = 18
@@ -99,12 +99,12 @@ zstd-level = 18
 # Installed size ≈ tar-size
 # Installed size is approximately equal to the size of the tar file
 tar = "5.6G"
-tar_bytes = 5906441216
+tar_bytes = 5930366464
 
 # Space occupied ≈ tar-size + zstd-size
 # You will need to prepare a large enough space before installation.
 zstd = "1.6G"
-zstd_bytes = 1706602523
+zstd_bytes = 1717889597
 
 [compatibility]
 compatible_mode = true
@@ -115,29 +115,32 @@ previous_version = "latest02"
 previous_date = "20211202"
 previous_tag = "2021-12-02"
 previous_file = "kali-xfce_amd64_2021-12-02_08-19-rootfs.tar.zst"
+previous_sha256 = ""
 
 current_version = "latest01"
-current_date = "20211202"
+current_date = "20211209"
 old_file = "kali-xfce_amd64_2021-11-30_16-00-rootfs.tar.zst"
+old_sha256 = ""
 # edition 2021
 # DISTRO_NAME=kali-rolling_amd64
-# ROOTFS_FILE=kali-xfce_amd64_2021-12-02_12-56-rootfs.tar.zst
-# BUILD_DATE=20211202
-# BUILD_TAG=2021-12-02
+# ROOTFS_FILE=kali-xfce_amd64_2021-12-09_13-10-rootfs.tar.zst
+# SHA256SUM=f971d5c095b332fd24bc285dd36f5e3ad2dc00c5069f36d6b24d7acfd39f19da
+# BUILD_DATE=20211209
+# BUILD_TAG=2021-12-09
 # STATUS=completed
 # VERSION=latest01
-# END_TIME=12:56
+# END_TIME=13:10
 
 [time]
 format = "rfc-3339"
 zone = "UTC"
-date = 2021-12-02
-begin = 2021-12-02 12:18:22.985457933+00:00
-start-sync_0 = 12:32:22
-start-zstd = 12:38:49
-start-sync_1 = 12:54:23
-end-sync_1 = 12:56:09
-end = 2021-12-02 12:56:09.603701558+00:00
+date = 2021-12-09
+begin = 2021-12-09 12:19:37.995291253+00:00
+start-sync_0 = 12:39:35
+start-zstd = 12:47:49
+start-sync_1 = 13:08:10
+end-sync_1 = 13:10:13
+end = 2021-12-09 13:10:13.508095660+00:00
 
 [server]
 repo = "cake233/kali-xfce-amd64"
@@ -150,14 +153,14 @@ in_sync = false
 split = false
 
 [server.node2]
-name = "us"
+name = "tmoe"
 current = false
 previous = true
 in_sync = false
 split = false
 
 [server.node3]
-name = "global"
+name = "azure"
 current = false
 previous = true
 in_sync = false
