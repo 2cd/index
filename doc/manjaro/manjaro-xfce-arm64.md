@@ -77,7 +77,7 @@ localhost:5903
 ```toml
 [main]
 name = "manjaro"
-tag = ["xfce", "2021-12-03"]
+tag = ["xfce", "2021-12-10"]
 os = "manjaro"
 release = "stable"
 arch = "arm64"
@@ -85,12 +85,12 @@ platform = "linux/arm64"
 x11_or_wayland = true
 
 [file]
-name = "manjaro-xfce_arm64_2021-12-03_13-05.tar.zst"
+name = "manjaro-xfce_arm64_2021-12-10_12-57.tar.zst"
 
 version = "0.0.0-alpha.2"
 
 # This value can be used to verify the integrity of the file
-sha256 = "7381f05c6ff8d782b9df2d36ac54bbd5e09ab1204134be8422b0a9f2c7b2e8a8"
+sha256 = "186373f20f0e33b140da9fcc5c54afd8c29c72b58d93a7e8a1c0f3e8187f251a"
 
 # zstd: [1-22]
 zstd-level = 18
@@ -99,45 +99,48 @@ zstd-level = 18
 # Installed size ≈ tar-size
 # Installed size is approximately equal to the size of the tar file
 tar = "4.2G"
-tar_bytes = 4508703744
+tar_bytes = 4509315584
 
 # Space occupied ≈ tar-size + zstd-size
 # You will need to prepare a large enough space before installation.
 zstd = "1.3G"
-zstd_bytes = 1299476315
+zstd_bytes = 1299571560
 
 [compatibility]
 compatible_mode = true
 
-previous_version = "latest02"
+previous_version = "latest01"
 
 # The value is &str, not int
-previous_date = "20211128"
-previous_tag = "2021-11-28"
-previous_file = "manjaro-xfce-arm64_2021-11-28_21-57-rootfs.tar.zst"
+previous_date = "20211203"
+previous_tag = "2021-12-03"
+previous_file = "manjaro-xfce_arm64_2021-12-03_13-05-rootfs.tar.zst"
+previous_sha256 = ""
 
-current_version = "latest01"
-current_date = "20211203"
-old_file = "manjaro-stable_arm64+xfce-2021_10-24-rootfs.tar.zst"
+current_version = "latest02"
+current_date = "20211210"
+old_file = "manjaro-xfce-arm64_2021-11-28_21-57-rootfs.tar.zst"
+old_sha256 = ""
 # edition 2021
 # DISTRO_NAME=manjaro-stable_arm64
-# ROOTFS_FILE=manjaro-xfce_arm64_2021-12-03_13-05-rootfs.tar.zst
-# BUILD_DATE=20211203
-# BUILD_TAG=2021-12-03
+# ROOTFS_FILE=manjaro-xfce_arm64_2021-12-10_12-57-rootfs.tar.zst
+# SHA256SUM=186373f20f0e33b140da9fcc5c54afd8c29c72b58d93a7e8a1c0f3e8187f251a
+# BUILD_DATE=20211210
+# BUILD_TAG=2021-12-10
 # STATUS=completed
-# VERSION=latest01
-# END_TIME=13:05
+# VERSION=latest02
+# END_TIME=12:57
 
 [time]
 format = "rfc-3339"
 zone = "UTC"
-date = 2021-12-03
-begin = 2021-12-03 12:17:20.962974911+00:00
-start-sync_0 = 12:46:06
-start-zstd = 12:50:28
-start-sync_1 = 13:04:04
-end-sync_1 = 13:05:26
-end = 2021-12-03 13:05:26.325649353+00:00
+date = 2021-12-10
+begin = 2021-12-10 12:19:32.047930006+00:00
+start-sync_0 = 12:39:54
+start-zstd = 12:43:56
+start-sync_1 = 12:56:16
+end-sync_1 = 12:57:41
+end = 2021-12-10 12:57:41.514572675+00:00
 
 [server]
 repo = "cake233/manjaro-xfce-arm64"
@@ -150,14 +153,14 @@ in_sync = false
 split = false
 
 [server.node2]
-name = "us"
+name = "tmoe"
 current = false
 previous = true
 in_sync = false
 split = false
 
 [server.node3]
-name = "global"
+name = "azure"
 current = false
 previous = true
 in_sync = false
