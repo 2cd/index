@@ -20,7 +20,7 @@ docker run \
 ```toml
 [main]
 name = "manjaro"
-tag = ["zsh", "2021-12-03"]
+tag = ["zsh", "2021-12-10"]
 os = "manjaro"
 release = "stable"
 arch = "arm64"
@@ -28,12 +28,12 @@ platform = "linux/arm64"
 x11_or_wayland = false
 
 [file]
-name = "manjaro-zsh_arm64_2021-12-03_12-17.tar.zst"
+name = "manjaro-zsh_arm64_2021-12-10_12-19.tar.zst"
 
 version = "0.0.0-alpha.2"
 
 # This value can be used to verify the integrity of the file
-sha256 = "7d2338c56398fae37b86427673b3841720f5a8eef46fefaedfe2bf0fea70e802"
+sha256 = "25c886fbd4b906eea64ef77285cc43edf47c94b7807467c3149ed5527500f6e2"
 
 # zstd: [1-22]
 zstd-level = 20
@@ -42,45 +42,48 @@ zstd-level = 20
 # Installed size ≈ tar-size
 # Installed size is approximately equal to the size of the tar file
 tar = "1.1G"
-tar_bytes = 1147892224
+tar_bytes = 1147878912
 
 # Space occupied ≈ tar-size + zstd-size
 # You will need to prepare a large enough space before installation.
 zstd = "241M"
-zstd_bytes = 251950163
+zstd_bytes = 252033181
 
 [compatibility]
 compatible_mode = true
 
-previous_version = "latest01"
+previous_version = "latest02"
 
 # The value is &str, not int
-previous_date = "20211128"
-previous_tag = "2021-11-28"
-previous_file = "manjaro-zsh-arm64_2021-11-28_21-08-rootfs.tar.zst"
+previous_date = "20211203"
+previous_tag = "2021-12-03"
+previous_file = "manjaro-zsh_arm64_2021-12-03_12-17-rootfs.tar.zst"
+previous_sha256 = ""
 
-current_version = "latest02"
-current_date = "20211203"
-old_file = ""
+current_version = "latest01"
+current_date = "20211210"
+old_file = "manjaro-zsh-arm64_2021-11-28_21-08-rootfs.tar.zst"
+old_sha256 = ""
 # edition 2021
 # DISTRO_NAME=manjaro-stable_arm64
-# ROOTFS_FILE=manjaro-zsh_arm64_2021-12-03_12-17-rootfs.tar.zst
-# BUILD_DATE=20211203
-# BUILD_TAG=2021-12-03
+# ROOTFS_FILE=manjaro-zsh_arm64_2021-12-10_12-19-rootfs.tar.zst
+# SHA256SUM=25c886fbd4b906eea64ef77285cc43edf47c94b7807467c3149ed5527500f6e2
+# BUILD_DATE=20211210
+# BUILD_TAG=2021-12-10
 # STATUS=completed
-# VERSION=latest02
-# END_TIME=12:17
+# VERSION=latest01
+# END_TIME=12:19
 
 [time]
 format = "rfc-3339"
 zone = "UTC"
-date = 2021-12-03
-begin = 2021-12-03 12:01:53.212257378+00:00
-start-sync_0 = 12:10:59
-start-zstd = 12:12:41
-start-sync_1 = 12:16:42
-end-sync_1 = 12:17:03
-end = 2021-12-03 12:17:03.150582850+00:00
+date = 2021-12-10
+begin = 2021-12-10 12:02:24.262861711+00:00
+start-sync_0 = 12:10:57
+start-zstd = 12:12:32
+start-sync_1 = 12:18:49
+end-sync_1 = 12:19:12
+end = 2021-12-10 12:19:12.874403442+00:00
 
 [server]
 repo = "cake233/manjaro-zsh-arm64"
@@ -93,14 +96,14 @@ in_sync = false
 split = false
 
 [server.node2]
-name = "us"
+name = "tmoe"
 current = false
 previous = true
 in_sync = false
 split = false
 
 [server.node3]
-name = "global"
+name = "azure"
 current = false
 previous = true
 in_sync = false
