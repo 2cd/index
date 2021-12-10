@@ -31,7 +31,7 @@ docker run \
 ```toml
 [main]
 name = "rust"
-tag = ["latest", "2021-12-06", "nightly", "unstable", "default", "gnu-libc"]
+tag = ["latest", "2021-12-10", "nightly", "unstable", "default", "gnu-libc"]
 os = "debian"
 release = "sid"
 arch = "ppc64el"
@@ -39,12 +39,12 @@ platform = "linux/ppc64le"
 x11_or_wayland = false
 
 [file]
-name = "rust_ppc64el_2021-12-06_10-41.tar.zst"
+name = "rust_ppc64el_2021-12-10_00-14.tar.zst"
 
 version = "0.0.0-alpha.2"
 
 # This value can be used to verify the integrity of the file
-sha256 = "e9a2d85a643358f39cd4a4f68876aad964e67f35c25817632ba6894eaaccedf1"
+sha256 = "7ea60ed65dee1f67c2c7385a91d039b3dcc948cbbc050d57a41cf662b1e7dc7a"
 
 # zstd: [1-22]
 zstd-level = 20
@@ -53,45 +53,48 @@ zstd-level = 20
 # Installed size ≈ tar-size
 # Installed size is approximately equal to the size of the tar file
 tar = "1.1G"
-tar_bytes = 1126882304
+tar_bytes = 1123645440
 
 # Space occupied ≈ tar-size + zstd-size
 # You will need to prepare a large enough space before installation.
 zstd = "224M"
-zstd_bytes = 234567260
+zstd_bytes = 233881096
 
 [compatibility]
 compatible_mode = true
 
-previous_version = "latest02"
+previous_version = "latest01"
 
 # The value is &str, not int
-previous_date = "20211203"
-previous_tag = "2021-12-03"
-previous_file = "rust_ppc64el_2021-12-03_00-13-rootfs.tar.zst"
+previous_date = "20211206"
+previous_tag = "2021-12-06"
+previous_file = "rust_ppc64el_2021-12-06_10-41-rootfs.tar.zst"
+previous_sha256 = ""
 
-current_version = "latest01"
-current_date = "20211206"
-old_file = "rust_ppc64el_2021-11-29_00-38-rootfs.tar.zst"
+current_version = "latest02"
+current_date = "20211210"
+old_file = "rust_ppc64el_2021-12-03_00-13-rootfs.tar.zst"
+old_sha256 = ""
 # edition 2021
 # DISTRO_NAME=rust_ppc64el
-# ROOTFS_FILE=rust_ppc64el_2021-12-06_10-41-rootfs.tar.zst
-# BUILD_DATE=20211206
-# BUILD_TAG=2021-12-06
+# ROOTFS_FILE=rust_ppc64el_2021-12-10_00-14-rootfs.tar.zst
+# SHA256SUM=7ea60ed65dee1f67c2c7385a91d039b3dcc948cbbc050d57a41cf662b1e7dc7a
+# BUILD_DATE=20211210
+# BUILD_TAG=2021-12-10
 # STATUS=completed
-# VERSION=latest01
-# END_TIME=10:41
+# VERSION=latest02
+# END_TIME=00:14
 
 [time]
 format = "rfc-3339"
 zone = "UTC"
-date = 2021-12-06
-begin = 2021-12-06 10:28:30.399778065+00:00
-start-sync_0 = 10:35:26
-start-zstd = 10:36:17
-start-sync_1 = 10:41:10
-end-sync_1 = 10:41:31
-end = 2021-12-06 10:41:31.761061717+00:00
+date = 2021-12-10
+begin = 2021-12-10 00:02:23.302083413+00:00
+start-sync_0 = 00:08:55
+start-zstd = 00:09:42
+start-sync_1 = 00:14:22
+end-sync_1 = 00:14:43
+end = 2021-12-10 00:14:43.071451726+00:00
 
 [server]
 repo = "cake233/rust-ppc64le"
@@ -104,14 +107,14 @@ in_sync = false
 split = false
 
 [server.node2]
-name = "us"
+name = "tmoe"
 current = false
 previous = true
 in_sync = false
 split = false
 
 [server.node3]
-name = "global"
+name = "azure"
 current = false
 previous = true
 in_sync = false
@@ -130,24 +133,24 @@ CARGO_HOME = "/usr/local/cargo"
 
 [version]
 rustup = 'rustup 1.24.3 (ce5817a94 2021-05-31)'
-cargo = 'cargo 1.58.0-nightly (294967c53 2021-11-29)'
-rustc = 'rustc 1.59.0-nightly (e2116acae 2021-12-05)'
+cargo = 'cargo 1.58.0-nightly (40dc28175 2021-12-06)'
+rustc = 'rustc 1.59.0-nightly (e6b883c74 2021-12-08)'
 cc = 'cc (Debian 11.2.0-12) 11.2.0'
 cargo_verbose = '''
-cargo 1.58.0-nightly (294967c53 2021-11-29)
+cargo 1.58.0-nightly (40dc28175 2021-12-06)
 release: 1.58.0
-commit-hash: 294967c53f0c70d598fc54ca189313c86c576ea7
-commit-date: 2021-11-29
+commit-hash: 40dc281755137ee804bc9b3b08e782773b726e44
+commit-date: 2021-12-06
 host: powerpc64le-unknown-linux-gnu
 libgit2: 1.3.0 (sys:0.13.23 vendored)
 libcurl: 7.80.0-DEV (sys:0.4.51+curl-7.80.0 vendored ssl:OpenSSL/1.1.1l)
 os: Linux [64-bit]
 '''
 rustc_verbose = '''
-rustc 1.59.0-nightly (e2116acae 2021-12-05)
+rustc 1.59.0-nightly (e6b883c74 2021-12-08)
 binary: rustc
-commit-hash: e2116acae59654bfab2a9729a024f3e2fd6d4b02
-commit-date: 2021-12-05
+commit-hash: e6b883c74f49f32cb5d1cbad3457f2b8805a4a38
+commit-date: 2021-12-08
 host: powerpc64le-unknown-linux-gnu
 release: 1.59.0-nightly
 LLVM version: 13.0.0
