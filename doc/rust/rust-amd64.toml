@@ -1,6 +1,6 @@
 [main]
 name = "rust"
-tag = ["latest", "2021-12-06", "nightly", "unstable", "default", "gnu-libc"]
+tag = ["latest", "2021-12-10", "nightly", "unstable", "default", "gnu-libc"]
 os = "debian"
 release = "sid"
 arch = "amd64"
@@ -8,12 +8,12 @@ platform = "linux/amd64"
 x11_or_wayland = false
 
 [file]
-name = "rust_amd64_2021-12-06_10-36.tar.zst"
+name = "rust_amd64_2021-12-10_00-09.tar.zst"
 
 version = "0.0.0-alpha.2"
 
 # This value can be used to verify the integrity of the file
-sha256 = "402e6078b4cb7c9058088aa200c82a84918cc1724fdab8d4232b0cc3cc0b8c53"
+sha256 = "6b2ff206dea1b0a86c15cea88884efa22bc1b105c76ada4b873b480636c7a707"
 
 # zstd: [1-22]
 zstd-level = 20
@@ -22,72 +22,71 @@ zstd-level = 20
 # Installed size ≈ tar-size
 # Installed size is approximately equal to the size of the tar file
 tar = "1.5G"
-tar_bytes = 1546973184
+tar_bytes = 1526665728
 
 # Space occupied ≈ tar-size + zstd-size
 # You will need to prepare a large enough space before installation.
-zstd = "229M"
-zstd_bytes = 239369234
+zstd = "228M"
+zstd_bytes = 238496005
 
 [compatibility]
 compatible_mode = true
 
-previous_version = "latest02"
+previous_version = "latest01"
 
 # The value is &str, not int
-previous_date = "20211203"
-previous_tag = "2021-12-03"
-previous_file = "rust_amd64_2021-12-03_00-09-rootfs.tar.zst"
+previous_date = "20211206"
+previous_tag = "2021-12-06"
+previous_file = "rust_amd64_2021-12-06_10-36-rootfs.tar.zst"
+previous_sha256 = ""
 
-current_version = "latest01"
-current_date = "20211206"
-old_file = "rust_amd64_2021-11-29_00-35-rootfs.tar.zst"
+current_version = "latest02"
+current_date = "20211210"
+old_file = "rust_amd64_2021-12-03_00-09-rootfs.tar.zst"
+old_sha256 = ""
 # edition 2021
 # DISTRO_NAME=rust_amd64
-# ROOTFS_FILE=rust_amd64_2021-12-06_10-36-rootfs.tar.zst
-# BUILD_DATE=20211206
-# BUILD_TAG=2021-12-06
+# ROOTFS_FILE=rust_amd64_2021-12-10_00-09-rootfs.tar.zst
+# SHA256SUM=6b2ff206dea1b0a86c15cea88884efa22bc1b105c76ada4b873b480636c7a707
+# BUILD_DATE=20211210
+# BUILD_TAG=2021-12-10
 # STATUS=completed
-# VERSION=latest01
-# END_TIME=10:36
+# VERSION=latest02
+# END_TIME=00:09
 
 [time]
 format = "rfc-3339"
 zone = "UTC"
-date = 2021-12-06
-begin = 2021-12-06 10:28:27.955518021+00:00
-start-sync_0 = 10:29:53
-start-zstd = 10:30:47
-start-sync_1 = 10:35:58
-end-sync_1 = 10:36:17
-end = 2021-12-06 10:36:17.929135430+00:00
+date = 2021-12-10
+begin = 2021-12-10 00:02:25.008458600+00:00
+start-sync_0 = 00:03:56
+start-zstd = 00:04:52
+start-sync_1 = 00:09:34
+end-sync_1 = 00:09:58
+end = 2021-12-10 00:09:58.444519502+00:00
 
 [server]
 repo = "cake233/rust-amd64"
 
 [server.node1]
 name = "cn"
-current = true
+current = false
 previous = true
 in_sync = false
-start_sync = 2021-12-06 14:54:51.470564631+00:00
-end_sync = 2021-12-06 17:29:11.436101008+00:00
 split = false
 
 [server.node2]
-name = "us"
-current = true
-previous = false
+name = "tmoe"
+current = false
+previous = true
 in_sync = false
 split = false
 
 [server.node3]
-name = "global"
-current = true
+name = "azure"
+current = false
 previous = true
 in_sync = false
-start_sync = 2021-12-06 14:52:59.747024328+00:00
-end_sync = 2021-12-06 14:54:37.677049975+00:00
 split = false
 
 [server.node4]
@@ -103,24 +102,24 @@ CARGO_HOME = "/usr/local/cargo"
 
 [version]
 rustup = 'rustup 1.24.3 (ce5817a94 2021-05-31)'
-cargo = 'cargo 1.58.0-nightly (294967c53 2021-11-29)'
-rustc = 'rustc 1.59.0-nightly (e2116acae 2021-12-05)'
+cargo = 'cargo 1.58.0-nightly (40dc28175 2021-12-06)'
+rustc = 'rustc 1.59.0-nightly (e6b883c74 2021-12-08)'
 cc = 'cc (Debian 11.2.0-12) 11.2.0'
 cargo_verbose = '''
-cargo 1.58.0-nightly (294967c53 2021-11-29)
+cargo 1.58.0-nightly (40dc28175 2021-12-06)
 release: 1.58.0
-commit-hash: 294967c53f0c70d598fc54ca189313c86c576ea7
-commit-date: 2021-11-29
+commit-hash: 40dc281755137ee804bc9b3b08e782773b726e44
+commit-date: 2021-12-06
 host: x86_64-unknown-linux-gnu
 libgit2: 1.3.0 (sys:0.13.23 vendored)
 libcurl: 7.80.0-DEV (sys:0.4.51+curl-7.80.0 vendored ssl:OpenSSL/1.1.1l)
 os: OracleLinux [64-bit]
 '''
 rustc_verbose = '''
-rustc 1.59.0-nightly (e2116acae 2021-12-05)
+rustc 1.59.0-nightly (e6b883c74 2021-12-08)
 binary: rustc
-commit-hash: e2116acae59654bfab2a9729a024f3e2fd6d4b02
-commit-date: 2021-12-05
+commit-hash: e6b883c74f49f32cb5d1cbad3457f2b8805a4a38
+commit-date: 2021-12-08
 host: x86_64-unknown-linux-gnu
 release: 1.59.0-nightly
 LLVM version: 13.0.0
