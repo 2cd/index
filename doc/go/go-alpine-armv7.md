@@ -27,7 +27,6 @@ docker run \
 ```
 
 ## readme.go
-
 ```go
 // go run readme.go
 package main
@@ -54,7 +53,7 @@ func main() {
 ```toml
 [main]
 name = "go"
-tag = ["alpine", "2021-12-08", "musl-libc", "musl"]
+tag = ["alpine", "2021-12-13", "musl-libc", "musl"]
 os = "alpine"
 release = "stable"
 arch = "armhf"
@@ -62,12 +61,12 @@ platform = "linux/arm/v7"
 x11_or_wayland = false
 
 [file]
-name = "go-musl_armhf_2021-12-08_01-08.tar.zst"
+name = "go-musl_armhf_2021-12-13_12-05.tar.zst"
 
 version = "0.0.0-alpha.2"
 
 # This value can be used to verify the integrity of the file
-sha256 = "581f4850eccac22a09fa9b7d72f9a93f22d5e6c46cf49238fcfd03adcefc1d5f"
+sha256 = "3347b7108177fce0249d9b3fe264fd821aa19417845a8e1e7fa283e92b624f96"
 
 # zstd: [1-22]
 zstd-level = 20
@@ -76,48 +75,48 @@ zstd-level = 20
 # Installed size ≈ tar-size
 # Installed size is approximately equal to the size of the tar file
 tar = "301M"
-tar_bytes = 315439616
+tar_bytes = 315442176
 
 # Space occupied ≈ tar-size + zstd-size
 # You will need to prepare a large enough space before installation.
 zstd = "75M"
-zstd_bytes = 78492367
+zstd_bytes = 78481615
 
 [compatibility]
 compatible_mode = true
 
-previous_version = "latest01"
+previous_version = "latest02"
 
 # The value is &str, not int
-previous_date = "20211129"
-previous_tag = "2021-11-29"
-previous_file = "go-musl_armhf_2021-11-29_00-28-rootfs.tar.zst"
-previous_sha256 = ""
+previous_date = "20211208"
+previous_tag = "2021-12-08"
+previous_file = "go-musl_armhf_2021-12-08_01-08-rootfs.tar.zst"
+previous_sha256 = "581f4850eccac22a09fa9b7d72f9a93f22d5e6c46cf49238fcfd03adcefc1d5f"
 
-current_version = "latest02"
-current_date = "20211208"
-old_file = ""
+current_version = "latest01"
+current_date = "20211213"
+old_file = "go-musl_armhf_2021-11-29_00-28-rootfs.tar.zst"
 old_sha256 = ""
 # edition 2021
 # DISTRO_NAME=go_armhf
-# ROOTFS_FILE=go-musl_armhf_2021-12-08_01-08-rootfs.tar.zst
-# SHA256SUM=581f4850eccac22a09fa9b7d72f9a93f22d5e6c46cf49238fcfd03adcefc1d5f
-# BUILD_DATE=20211208
-# BUILD_TAG=2021-12-08
+# ROOTFS_FILE=go-musl_armhf_2021-12-13_12-05-rootfs.tar.zst
+# SHA256SUM=3347b7108177fce0249d9b3fe264fd821aa19417845a8e1e7fa283e92b624f96
+# BUILD_DATE=20211213
+# BUILD_TAG=2021-12-13
 # STATUS=completed
-# VERSION=latest02
-# END_TIME=01:08
+# VERSION=latest01
+# END_TIME=12:05
 
 [time]
 format = "rfc-3339"
 zone = "UTC"
-date = 2021-12-08
-begin = 2021-12-08 01:06:14.713444984+00:00
-start-sync_0 = 01:07:06
-start-zstd = 01:07:15
-start-sync_1 = 01:08:37
-end-sync_1 = 01:08:47
-end = 2021-12-08 01:08:47.044269261+00:00
+date = 2021-12-13
+begin = 2021-12-13 12:02:27.969884627+00:00
+start-sync_0 = 12:03:25
+start-zstd = 12:03:37
+start-sync_1 = 12:04:54
+end-sync_1 = 12:05:07
+end = 2021-12-13 12:05:07.276900126+00:00
 
 [server]
 repo = "cake233/go-alpine-armv7"
@@ -125,7 +124,7 @@ repo = "cake233/go-alpine-armv7"
 [server.node1]
 name = "cn"
 current = false
-previous = true
+previous = false
 in_sync = false
 split = false
 
@@ -154,8 +153,9 @@ PATH = "/go/bin:/usr/local/go/bin${PATH:+:${PATH}}"
 GOPATH = "/go"
 
 [version]
-go = 'go version go1.17.4 linux/arm'
-gofmt = '/usr/local/go/bin/gofmt: go1.17.4'
+ldd = ''
+go = 'go version go1.17.5 linux/arm'
+gofmt = '/usr/local/go/bin/gofmt: go1.17.5'
 
 [other]
 workdir = "/go"
