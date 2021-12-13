@@ -20,7 +20,7 @@ docker run \
 ```toml
 [main]
 name = "nginx"
-tag = ["alpine", "2021-12-08", "musl-libc", "musl"]
+tag = ["alpine", "2021-12-13", "musl-libc", "musl"]
 os = "alpine"
 release = "stable"
 arch = "arm64"
@@ -28,12 +28,12 @@ platform = "linux/arm64"
 x11_or_wayland = false
 
 [file]
-name = "nginx-musl_arm64_2021-12-08_01-07.tar.zst"
+name = "nginx-musl_arm64_2021-12-13_12-03.tar.zst"
 
 version = "0.0.0-alpha.2"
 
 # This value can be used to verify the integrity of the file
-sha256 = "3b5a2dec3215ff255d78a8302a49cb656b0016bb79a0110109788888906aee42"
+sha256 = "119c93c9a70e08468443f9c925c52333fba516174fa7ba5c051a12bdc0b44587"
 
 # zstd: [1-22]
 zstd-level = 20
@@ -47,43 +47,43 @@ tar_bytes = 33597952
 # Space occupied ≈ tar-size + zstd-size
 # You will need to prepare a large enough space before installation.
 zstd = "8.8M"
-zstd_bytes = 9177545
+zstd_bytes = 9181556
 
 [compatibility]
 compatible_mode = true
 
-previous_version = "latest01"
+previous_version = "latest02"
 
 # The value is &str, not int
-previous_date = "20211128"
-previous_tag = "2021-11-28"
-previous_file = "nginx-musl_arm64_2021-11-28_23-34-rootfs.tar.zst"
-previous_sha256 = "c6c81eea8740a9fd441890878a91509b0af448cd02c9d51471764d826d55054b"
+previous_date = "20211208"
+previous_tag = "2021-12-08"
+previous_file = "nginx-musl_arm64_2021-12-08_01-07-rootfs.tar.zst"
+previous_sha256 = "3b5a2dec3215ff255d78a8302a49cb656b0016bb79a0110109788888906aee42"
 
-current_version = "latest02"
-current_date = "20211208"
-old_file = "nginx_arm64+alpine-2021_11-01-rootfs.tar.zst"
+current_version = "latest01"
+current_date = "20211213"
+old_file = "nginx-musl_arm64_2021-11-28_23-34-rootfs.tar.zst"
 old_sha256 = ""
 # edition 2021
 # DISTRO_NAME=nginx_arm64
-# ROOTFS_FILE=nginx-musl_arm64_2021-12-08_01-07-rootfs.tar.zst
-# SHA256SUM=3b5a2dec3215ff255d78a8302a49cb656b0016bb79a0110109788888906aee42
-# BUILD_DATE=20211208
-# BUILD_TAG=2021-12-08
+# ROOTFS_FILE=nginx-musl_arm64_2021-12-13_12-03-rootfs.tar.zst
+# SHA256SUM=119c93c9a70e08468443f9c925c52333fba516174fa7ba5c051a12bdc0b44587
+# BUILD_DATE=20211213
+# BUILD_TAG=2021-12-13
 # STATUS=completed
-# VERSION=latest02
-# END_TIME=01:07
+# VERSION=latest01
+# END_TIME=12:03
 
 [time]
 format = "rfc-3339"
 zone = "UTC"
-date = 2021-12-08
-begin = 2021-12-08 01:06:13.616680025+00:00
-start-sync_0 = 01:06:45
-start-zstd = 01:06:51
-start-sync_1 = 01:07:04
-end-sync_1 = 01:07:09
-end = 2021-12-08 01:07:09.502494120+00:00
+date = 2021-12-13
+begin = 2021-12-13 12:02:25.766593269+00:00
+start-sync_0 = 12:03:14
+start-zstd = 12:03:20
+start-sync_1 = 12:03:32
+end-sync_1 = 12:03:37
+end = 2021-12-13 12:03:37.066475795+00:00
 
 [server]
 repo = "cake233/nginx-alpine-arm64"
@@ -91,7 +91,7 @@ repo = "cake233/nginx-alpine-arm64"
 [server.node1]
 name = "cn"
 current = false
-previous = true
+previous = false
 in_sync = false
 split = false
 
@@ -118,6 +118,7 @@ current = true
 LANG = "C.UTF-8"
 
 [version]
+ldd = ''
 nginx = '1.21.4'
 njs = '0.7.0'
 pkg_release = '1'
