@@ -20,7 +20,7 @@ docker run \
 ```toml
 [main]
 name = "nginx"
-tag = ["latest", "2021-12-08"]
+tag = ["latest", "2021-12-13"]
 os = "debian"
 release = "stable"
 arch = "amd64"
@@ -28,12 +28,12 @@ platform = "linux/amd64"
 x11_or_wayland = false
 
 [file]
-name = "nginx_amd64_2021-12-08_01-08.tar.zst"
+name = "nginx_amd64_2021-12-13_12-04.tar.zst"
 
 version = "0.0.0-alpha.2"
 
 # This value can be used to verify the integrity of the file
-sha256 = "a5fb926ab47eb9ac9445180ebfff4e952db6f9e7a62454b03966bb8e809eda97"
+sha256 = "4fd10eeeee23b6bd958adf5ec8bae499c5a3502e13fbcbf0186d78685e686f54"
 
 # zstd: [1-22]
 zstd-level = 20
@@ -47,43 +47,43 @@ tar_bytes = 169999360
 # Space occupied ≈ tar-size + zstd-size
 # You will need to prepare a large enough space before installation.
 zstd = "41M"
-zstd_bytes = 42361267
+zstd_bytes = 42368417
 
 [compatibility]
 compatible_mode = true
 
-previous_version = "latest01"
+previous_version = "latest02"
 
 # The value is &str, not int
-previous_date = "20211128"
-previous_tag = "2021-11-28"
-previous_file = "nginx_amd64_2021-11-28_23-01-rootfs.tar.zst"
-previous_sha256 = ""
+previous_date = "20211208"
+previous_tag = "2021-12-08"
+previous_file = "nginx_amd64_2021-12-08_01-08-rootfs.tar.zst"
+previous_sha256 = "a5fb926ab47eb9ac9445180ebfff4e952db6f9e7a62454b03966bb8e809eda97"
 
-current_version = "latest02"
-current_date = "20211208"
-old_file = ""
+current_version = "latest01"
+current_date = "20211213"
+old_file = "nginx_amd64_2021-11-28_23-01-rootfs.tar.zst"
 old_sha256 = ""
 # edition 2021
 # DISTRO_NAME=nginx_amd64
-# ROOTFS_FILE=nginx_amd64_2021-12-08_01-08-rootfs.tar.zst
-# SHA256SUM=a5fb926ab47eb9ac9445180ebfff4e952db6f9e7a62454b03966bb8e809eda97
-# BUILD_DATE=20211208
-# BUILD_TAG=2021-12-08
+# ROOTFS_FILE=nginx_amd64_2021-12-13_12-04-rootfs.tar.zst
+# SHA256SUM=4fd10eeeee23b6bd958adf5ec8bae499c5a3502e13fbcbf0186d78685e686f54
+# BUILD_DATE=20211213
+# BUILD_TAG=2021-12-13
 # STATUS=completed
-# VERSION=latest02
-# END_TIME=01:08
+# VERSION=latest01
+# END_TIME=12:04
 
 [time]
 format = "rfc-3339"
 zone = "UTC"
-date = 2021-12-08
-begin = 2021-12-08 01:06:13.932635302+00:00
-start-sync_0 = 01:06:57
-start-zstd = 01:07:06
-start-sync_1 = 01:08:00
-end-sync_1 = 01:08:08
-end = 2021-12-08 01:08:08.361110528+00:00
+date = 2021-12-13
+begin = 2021-12-13 12:02:27.386076235+00:00
+start-sync_0 = 12:03:18
+start-zstd = 12:03:30
+start-sync_1 = 12:04:17
+end-sync_1 = 12:04:24
+end = 2021-12-13 12:04:25.012682425+00:00
 
 [server]
 repo = "cake233/nginx-amd64"
@@ -91,7 +91,7 @@ repo = "cake233/nginx-amd64"
 [server.node1]
 name = "cn"
 current = false
-previous = true
+previous = false
 in_sync = false
 split = false
 
@@ -118,6 +118,7 @@ current = true
 LANG = "en_US.UTF-8"
 
 [version]
+ldd = 'ldd (Debian GLIBC 2.31-13+deb11u2) 2.31'
 nginx = '1.21.4'
 njs = '0.7.0'
 pkg_release = '1~bullseye'
