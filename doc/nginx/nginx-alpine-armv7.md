@@ -20,7 +20,7 @@ docker run \
 ```toml
 [main]
 name = "nginx"
-tag = ["alpine", "2021-12-08", "musl-libc", "musl"]
+tag = ["alpine", "2021-12-13", "musl-libc", "musl"]
 os = "alpine"
 release = "stable"
 arch = "armhf"
@@ -28,12 +28,12 @@ platform = "linux/arm/v7"
 x11_or_wayland = false
 
 [file]
-name = "nginx-musl_armhf_2021-12-08_01-07.tar.zst"
+name = "nginx-musl_armhf_2021-12-13_12-03.tar.zst"
 
 version = "0.0.0-alpha.2"
 
 # This value can be used to verify the integrity of the file
-sha256 = "6e1b3706fb35c14d46f435b65933a7e76d5af0fabbb81db29200f717175b3d90"
+sha256 = "dbba6cf616f4b557f5a3ac635b7b8ffddcbb71ad9ad1d7e0bf80ee92f59197ec"
 
 # zstd: [1-22]
 zstd-level = 20
@@ -47,43 +47,43 @@ tar_bytes = 24918016
 # Space occupied ≈ tar-size + zstd-size
 # You will need to prepare a large enough space before installation.
 zstd = "8.2M"
-zstd_bytes = 8537811
+zstd_bytes = 8540336
 
 [compatibility]
 compatible_mode = true
 
-previous_version = "latest01"
+previous_version = "latest02"
 
 # The value is &str, not int
-previous_date = "20211128"
-previous_tag = "2021-11-28"
-previous_file = "nginx-musl_armhf_2021-11-28_23-01-rootfs.tar.zst"
-previous_sha256 = ""
+previous_date = "20211208"
+previous_tag = "2021-12-08"
+previous_file = "nginx-musl_armhf_2021-12-08_01-07-rootfs.tar.zst"
+previous_sha256 = "6e1b3706fb35c14d46f435b65933a7e76d5af0fabbb81db29200f717175b3d90"
 
-current_version = "latest02"
-current_date = "20211208"
-old_file = ""
+current_version = "latest01"
+current_date = "20211213"
+old_file = "nginx-musl_armhf_2021-11-28_23-01-rootfs.tar.zst"
 old_sha256 = ""
 # edition 2021
 # DISTRO_NAME=nginx_armhf
-# ROOTFS_FILE=nginx-musl_armhf_2021-12-08_01-07-rootfs.tar.zst
-# SHA256SUM=6e1b3706fb35c14d46f435b65933a7e76d5af0fabbb81db29200f717175b3d90
-# BUILD_DATE=20211208
-# BUILD_TAG=2021-12-08
+# ROOTFS_FILE=nginx-musl_armhf_2021-12-13_12-03-rootfs.tar.zst
+# SHA256SUM=dbba6cf616f4b557f5a3ac635b7b8ffddcbb71ad9ad1d7e0bf80ee92f59197ec
+# BUILD_DATE=20211213
+# BUILD_TAG=2021-12-13
 # STATUS=completed
-# VERSION=latest02
-# END_TIME=01:07
+# VERSION=latest01
+# END_TIME=12:03
 
 [time]
 format = "rfc-3339"
 zone = "UTC"
-date = 2021-12-08
-begin = 2021-12-08 01:06:15.784579195+00:00
-start-sync_0 = 01:07:05
-start-zstd = 01:07:13
-start-sync_1 = 01:07:21
-end-sync_1 = 01:07:28
-end = 2021-12-08 01:07:28.999378412+00:00
+date = 2021-12-13
+begin = 2021-12-13 12:02:27.316759317+00:00
+start-sync_0 = 12:03:16
+start-zstd = 12:03:22
+start-sync_1 = 12:03:29
+end-sync_1 = 12:03:34
+end = 2021-12-13 12:03:34.179691085+00:00
 
 [server]
 repo = "cake233/nginx-alpine-armv7"
@@ -91,7 +91,7 @@ repo = "cake233/nginx-alpine-armv7"
 [server.node1]
 name = "cn"
 current = false
-previous = true
+previous = false
 in_sync = false
 split = false
 
@@ -118,6 +118,7 @@ current = true
 LANG = "C.UTF-8"
 
 [version]
+ldd = ''
 nginx = '1.21.4'
 njs = '0.7.0'
 pkg_release = '1'
