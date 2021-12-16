@@ -28,12 +28,12 @@ platform = "linux/amd64"
 x11_or_wayland = false
 
 [file]
-name = "code_amd64_2021-12-16_08-23.tar.zst"
+name = "code_amd64_2021-12-16_08-27.tar.zst"
 
 version = "0.0.0-alpha.2"
 
 # This value can be used to verify the integrity of the file
-sha256 = "2e64d00edd980abc03f0deb69fd0125392eaa121607237789ebd3085ac0c9382"
+sha256 = "0c9836896cc719405f97828dcddde61fbe1a15cf5b571f7e32c58e8b5be303ca"
 
 # zstd: [1-22]
 zstd-level = 11
@@ -47,7 +47,7 @@ tar_bytes = 793269248
 # Space occupied ≈ tar-size + zstd-size
 # You will need to prepare a large enough space before installation.
 zstd = "204M"
-zstd_bytes = 213827559
+zstd_bytes = 213827678
 
 [compatibility]
 compatible_mode = true
@@ -66,24 +66,24 @@ old_file = "code_amd64_2021-11-28_23-01-rootfs.tar.zst"
 old_sha256 = ""
 # edition 2021
 # DISTRO_NAME=code_amd64
-# ROOTFS_FILE=code_amd64_2021-12-16_08-23-rootfs.tar.zst
-# SHA256SUM=2e64d00edd980abc03f0deb69fd0125392eaa121607237789ebd3085ac0c9382
+# ROOTFS_FILE=code_amd64_2021-12-16_08-27-rootfs.tar.zst
+# SHA256SUM=0c9836896cc719405f97828dcddde61fbe1a15cf5b571f7e32c58e8b5be303ca
 # BUILD_DATE=20211216
 # BUILD_TAG=2021-12-16
 # STATUS=completed
 # VERSION=latest01
-# END_TIME=08:23
+# END_TIME=08:27
 
 [time]
 format = "rfc-3339"
 zone = "UTC"
 date = 2021-12-16
-begin = 2021-12-16 08:20:40.691637224+00:00
-start-sync_0 = 08:21:39
-start-zstd = 08:22:25
-start-sync_1 = 08:22:37
-end-sync_1 = 08:23:00
-end = 2021-12-16 08:23:00.765645581+00:00
+begin = 2021-12-16 08:25:14.834306314+00:00
+start-sync_0 = 08:26:11
+start-zstd = 08:27:02
+start-sync_1 = 08:27:15
+end-sync_1 = 08:27:35
+end = 2021-12-16 08:27:35.218437185+00:00
 
 [server]
 repo = "cake233/code-amd64"
