@@ -28,12 +28,12 @@ platform = "linux/arm/v7"
 x11_or_wayland = false
 
 [file]
-name = "code_armhf_2021-12-16_08-31.tar.zst"
+name = "code_armhf_2021-12-16_08-49.tar.zst"
 
 version = "0.0.0-alpha.2"
 
 # This value can be used to verify the integrity of the file
-sha256 = "88f03f7b3bfabc478836cfdfee3bcd48661240ff53395a9240573a7ac9271c61"
+sha256 = "d340c2941b846bd5a41f8c672dc618ac6840626f1c78acdbc9581a7a3354ddb4"
 
 # zstd: [1-22]
 zstd-level = 11
@@ -42,12 +42,12 @@ zstd-level = 11
 # Installed size ≈ tar-size
 # Installed size is approximately equal to the size of the tar file
 tar = "618M"
-tar_bytes = 647010816
+tar_bytes = 647050240
 
 # Space occupied ≈ tar-size + zstd-size
 # You will need to prepare a large enough space before installation.
 zstd = "182M"
-zstd_bytes = 190805639
+zstd_bytes = 190804399
 
 [compatibility]
 compatible_mode = true
@@ -66,24 +66,24 @@ old_file = ""
 old_sha256 = ""
 # edition 2021
 # DISTRO_NAME=code_armhf
-# ROOTFS_FILE=code_armhf_2021-12-16_08-31-rootfs.tar.zst
-# SHA256SUM=88f03f7b3bfabc478836cfdfee3bcd48661240ff53395a9240573a7ac9271c61
+# ROOTFS_FILE=code_armhf_2021-12-16_08-49-rootfs.tar.zst
+# SHA256SUM=d340c2941b846bd5a41f8c672dc618ac6840626f1c78acdbc9581a7a3354ddb4
 # BUILD_DATE=20211216
 # BUILD_TAG=2021-12-16
 # STATUS=completed
 # VERSION=latest01
-# END_TIME=08:31
+# END_TIME=08:49
 
 [time]
 format = "rfc-3339"
 zone = "UTC"
 date = 2021-12-16
-begin = 2021-12-16 08:25:14.430092634+00:00
-start-sync_0 = 08:30:24
-start-zstd = 08:31:06
-start-sync_1 = 08:31:16
-end-sync_1 = 08:31:35
-end = 2021-12-16 08:31:35.561366758+00:00
+begin = 2021-12-16 08:42:37.843483636+00:00
+start-sync_0 = 08:48:28
+start-zstd = 08:49:10
+start-sync_1 = 08:49:21
+end-sync_1 = 08:49:40
+end = 2021-12-16 08:49:40.077949382+00:00
 
 [server]
 repo = "cake233/code-armv7"
@@ -119,7 +119,7 @@ LANG = "en_US.UTF-8"
 
 [version]
 ldd = 'ldd (Debian GLIBC 2.33-1) 2.33'
-code = ''
+code = '4.0.0 0f395955515207f9b461ffdd2a595f35311dd05f'
 
 [port]
 tcp = [8080]
