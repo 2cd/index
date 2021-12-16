@@ -20,7 +20,7 @@ docker run \
 ```toml
 [main]
 name = "kali"
-tag = ["zsh", "2021-12-09"]
+tag = ["zsh", "2021-12-16"]
 os = "kali"
 release = "rolling"
 arch = "amd64"
@@ -28,12 +28,12 @@ platform = "linux/amd64"
 x11_or_wayland = false
 
 [file]
-name = "kali-zsh_amd64_2021-12-09_12-09.tar.zst"
+name = "kali-zsh_amd64_2021-12-16_12-08.tar.zst"
 
 version = "0.0.0-alpha.2"
 
 # This value can be used to verify the integrity of the file
-sha256 = "64af1baed09d3aa37a93356318762f13b858d26c82f13af068b15bf9c4c4a526"
+sha256 = "6d26d71612c66731159aeafebda6cae561432382c0f33d29bc37388d0ea9368c"
 
 # zstd: [1-22]
 zstd-level = 20
@@ -42,48 +42,48 @@ zstd-level = 20
 # Installed size ≈ tar-size
 # Installed size is approximately equal to the size of the tar file
 tar = "729M"
-tar_bytes = 764318208
+tar_bytes = 764252672
 
 # Space occupied ≈ tar-size + zstd-size
 # You will need to prepare a large enough space before installation.
 zstd = "141M"
-zstd_bytes = 146965146
+zstd_bytes = 146861165
 
 [compatibility]
 compatible_mode = true
 
-previous_version = "latest01"
+previous_version = "latest02"
 
 # The value is &str, not int
-previous_date = "20211130"
-previous_tag = "2021-11-30"
-previous_file = "kali-zsh_amd64_2021-11-30_15-02-rootfs.tar.zst"
-previous_sha256 = ""
+previous_date = "20211209"
+previous_tag = "2021-12-09"
+previous_file = "kali-zsh_amd64_2021-12-09_12-09-rootfs.tar.zst"
+previous_sha256 = "64af1baed09d3aa37a93356318762f13b858d26c82f13af068b15bf9c4c4a526"
 
-current_version = "latest02"
-current_date = "20211209"
-old_file = "kali-zsh-amd64_2021-11-28_21-00-rootfs.tar.zst"
+current_version = "latest01"
+current_date = "20211216"
+old_file = "kali-zsh_amd64_2021-11-30_15-02-rootfs.tar.zst"
 old_sha256 = ""
 # edition 2021
 # DISTRO_NAME=kali-rolling_amd64
-# ROOTFS_FILE=kali-zsh_amd64_2021-12-09_12-09-rootfs.tar.zst
-# SHA256SUM=64af1baed09d3aa37a93356318762f13b858d26c82f13af068b15bf9c4c4a526
-# BUILD_DATE=20211209
-# BUILD_TAG=2021-12-09
+# ROOTFS_FILE=kali-zsh_amd64_2021-12-16_12-08-rootfs.tar.zst
+# SHA256SUM=6d26d71612c66731159aeafebda6cae561432382c0f33d29bc37388d0ea9368c
+# BUILD_DATE=20211216
+# BUILD_TAG=2021-12-16
 # STATUS=completed
-# VERSION=latest02
-# END_TIME=12:09
+# VERSION=latest01
+# END_TIME=12:08
 
 [time]
 format = "rfc-3339"
 zone = "UTC"
-date = 2021-12-09
-begin = 2021-12-09 12:02:27.963745367+00:00
-start-sync_0 = 12:04:28
-start-zstd = 12:06:14
-start-sync_1 = 12:08:43
-end-sync_1 = 12:09:00
-end = 2021-12-09 12:09:00.842063418+00:00
+date = 2021-12-16
+begin = 2021-12-16 12:02:30.566340531+00:00
+start-sync_0 = 12:04:21
+start-zstd = 12:06:03
+start-sync_1 = 12:08:35
+end-sync_1 = 12:08:49
+end = 2021-12-16 12:08:49.813305682+00:00
 
 [server]
 repo = "cake233/kali-zsh-amd64"
@@ -91,7 +91,7 @@ repo = "cake233/kali-zsh-amd64"
 [server.node1]
 name = "cn"
 current = false
-previous = true
+previous = false
 in_sync = false
 split = false
 
@@ -116,4 +116,8 @@ current = true
 # Environment variables  (●＞ω＜●)
 [env]
 LANG = "en_US.UTF-8"
+
+[version]
+ldd = 'ldd (Debian GLIBC 2.32-4) 2.32'
+zsh = 'zsh 5.8 (x86_64-debian-linux-gnu)'
 ```
