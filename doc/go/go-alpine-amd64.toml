@@ -1,6 +1,6 @@
 [main]
 name = "go"
-tag = ["alpine", "2021-12-13", "musl-libc", "musl"]
+tag = ["alpine", "2021-12-16", "musl-libc", "musl"]
 os = "alpine"
 release = "stable"
 arch = "amd64"
@@ -8,62 +8,62 @@ platform = "linux/amd64"
 x11_or_wayland = false
 
 [file]
-name = "go-musl_amd64_2021-12-13_12-05.tar.zst"
+name = "go-musl_amd64_2021-12-16_08-26.tar.zst"
 
 version = "0.0.0-alpha.2"
 
 # This value can be used to verify the integrity of the file
-sha256 = "5b23e9a2f039515ee72768368cdbbc28c01f4dac134612778874947699c90843"
+sha256 = "9c49dd2f07e0d96be5f41e3de739705f865ca91ff742cf1a5ef10149dae32382"
 
 # zstd: [1-22]
-zstd-level = 20
+zstd-level = 11
 
 [file.size]
 # Installed size ≈ tar-size
 # Installed size is approximately equal to the size of the tar file
-tar = "323M"
-tar_bytes = 338491904
+tar = "336M"
+tar_bytes = 351834624
 
 # Space occupied ≈ tar-size + zstd-size
 # You will need to prepare a large enough space before installation.
-zstd = "81M"
-zstd_bytes = 84031066
+zstd = "103M"
+zstd_bytes = 107445716
 
 [compatibility]
 compatible_mode = true
 
-previous_version = "latest02"
+previous_version = "latest01"
 
 # The value is &str, not int
-previous_date = "20211208"
-previous_tag = "2021-12-08"
-previous_file = "go-musl_amd64_2021-12-08_01-08-rootfs.tar.zst"
-previous_sha256 = "ef204c7b18050fe0189936c0b0daffd5cde0a4d8e3b3b2e14b197e3af376f8ed"
+previous_date = "20211213"
+previous_tag = "2021-12-13"
+previous_file = "go-musl_amd64_2021-12-13_12-05-rootfs.tar.zst"
+previous_sha256 = "5b23e9a2f039515ee72768368cdbbc28c01f4dac134612778874947699c90843"
 
-current_version = "latest01"
-current_date = "20211213"
-old_file = "go-musl_amd64_2021-11-29_00-29-rootfs.tar.zst"
-old_sha256 = ""
+current_version = "latest02"
+current_date = "20211216"
+old_file = "go-musl_amd64_2021-12-08_01-08-rootfs.tar.zst"
+old_sha256 = "ef204c7b18050fe0189936c0b0daffd5cde0a4d8e3b3b2e14b197e3af376f8ed"
 # edition 2021
 # DISTRO_NAME=go_amd64
-# ROOTFS_FILE=go-musl_amd64_2021-12-13_12-05-rootfs.tar.zst
-# SHA256SUM=5b23e9a2f039515ee72768368cdbbc28c01f4dac134612778874947699c90843
-# BUILD_DATE=20211213
-# BUILD_TAG=2021-12-13
+# ROOTFS_FILE=go-musl_amd64_2021-12-16_08-26-rootfs.tar.zst
+# SHA256SUM=9c49dd2f07e0d96be5f41e3de739705f865ca91ff742cf1a5ef10149dae32382
+# BUILD_DATE=20211216
+# BUILD_TAG=2021-12-16
 # STATUS=completed
-# VERSION=latest01
-# END_TIME=12:05
+# VERSION=latest02
+# END_TIME=08:26
 
 [time]
 format = "rfc-3339"
 zone = "UTC"
-date = 2021-12-13
-begin = 2021-12-13 12:02:28.048138044+00:00
-start-sync_0 = 12:03:23
-start-zstd = 12:03:35
-start-sync_1 = 12:05:13
-end-sync_1 = 12:05:27
-end = 2021-12-13 12:05:27.962031449+00:00
+date = 2021-12-16
+begin = 2021-12-16 08:25:21.285921788+00:00
+start-sync_0 = 08:25:42
+start-zstd = 08:25:55
+start-sync_1 = 08:26:01
+end-sync_1 = 08:26:16
+end = 2021-12-16 08:26:16.334953835+00:00
 
 [server]
 repo = "cake233/go-alpine-amd64"
@@ -77,18 +77,16 @@ split = false
 
 [server.node2]
 name = "tmoe"
-current = true
-previous = false
+current = false
+previous = true
 in_sync = false
 split = false
 
 [server.node3]
 name = "azure"
-current = true
+current = false
 previous = true
 in_sync = false
-start_sync = 2021-12-13 18:06:52.541808179+00:00
-end_sync = 2021-12-13 18:07:21.171547677+00:00
 split = false
 
 [server.node4]
@@ -103,8 +101,8 @@ GOPATH = "/go"
 
 [version]
 ldd = ''
-go = 'go version go1.17.5 linux/amd64'
-gofmt = '/usr/local/go/bin/gofmt: go1.17.5'
+go = 'go version go1.18beta1 linux/amd64'
+gofmt = '/usr/local/go/bin/gofmt: go1.18beta1'
 
 [other]
 workdir = "/go"
