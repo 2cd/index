@@ -2,7 +2,7 @@
 
 ## How to run it?
 
-```shell
+```sh
 # install docker
 if [ -z "$(command -v docker)" ]; then
     apt update
@@ -32,7 +32,7 @@ docker run \
 
 ## How to start vnc?
 
-```shell
+```sh
     docker exex -it manjaro-xfce-amd64 zsh
 ```
 
@@ -42,19 +42,19 @@ After entering the container, you can create a new user, and then switch to it.
 
 Finally, run the following commands.
 
-```shell
+```sh
     startvnc
 ```
 
 or
 
-```shell
+```sh
     startx11vnc
 ```
 
 or
 
-```shell
+```sh
     novnc
 ```
 
@@ -63,7 +63,7 @@ Note:
 If you want to use novnc, then open your browser, and type the address:
 
 ```
-localhost:36081
+http://localhost:36081
 ```
 
 If you want to use tiger/x11vnc, then open vnc viewer, then type the address:
@@ -77,7 +77,7 @@ localhost:5903
 ```toml
 [main]
 name = "manjaro"
-tag = ["xfce", "2021-12-10"]
+tag = ["xfce", "2021-12-17"]
 os = "manjaro"
 release = "stable"
 arch = "amd64"
@@ -85,12 +85,12 @@ platform = "linux/amd64"
 x11_or_wayland = true
 
 [file]
-name = "manjaro-xfce_amd64_2021-12-10_12-45.tar.zst"
+name = "manjaro-xfce_amd64_2021-12-17_12-46.tar.zst"
 
 version = "0.0.0-alpha.2"
 
 # This value can be used to verify the integrity of the file
-sha256 = "dbad1b93ef47f23f54b1b88baa2d88ea429735de858a2681181a87e9687bb16f"
+sha256 = "80d60636f129c1be11bccc0503397a04aa9c280d1190c8145de88767775e353b"
 
 # zstd: [1-22]
 zstd-level = 18
@@ -98,49 +98,49 @@ zstd-level = 18
 [file.size]
 # Installed size ≈ tar-size
 # Installed size is approximately equal to the size of the tar file
-tar = "3.5G"
-tar_bytes = 3664054784
+tar = "3.7G"
+tar_bytes = 3913750016
 
 # Space occupied ≈ tar-size + zstd-size
 # You will need to prepare a large enough space before installation.
-zstd = "1.1G"
-zstd_bytes = 1122647270
+zstd = "1.2G"
+zstd_bytes = 1182178750
 
 [compatibility]
 compatible_mode = true
 
-previous_version = "latest02"
+previous_version = "latest01"
 
 # The value is &str, not int
-previous_date = "20211203"
-previous_tag = "2021-12-03"
-previous_file = "manjaro-xfce_amd64_2021-12-03_12-45-rootfs.tar.zst"
-previous_sha256 = ""
+previous_date = "20211210"
+previous_tag = "2021-12-10"
+previous_file = "manjaro-xfce_amd64_2021-12-10_12-45-rootfs.tar.zst"
+previous_sha256 = "dbad1b93ef47f23f54b1b88baa2d88ea429735de858a2681181a87e9687bb16f"
 
-current_version = "latest01"
-current_date = "20211210"
-old_file = "manjaro-xfce-amd64_2021-11-28_21-35-rootfs.tar.zst"
+current_version = "latest02"
+current_date = "20211217"
+old_file = "manjaro-xfce_amd64_2021-12-03_12-45-rootfs.tar.zst"
 old_sha256 = ""
 # edition 2021
 # DISTRO_NAME=manjaro-stable_amd64
-# ROOTFS_FILE=manjaro-xfce_amd64_2021-12-10_12-45-rootfs.tar.zst
-# SHA256SUM=dbad1b93ef47f23f54b1b88baa2d88ea429735de858a2681181a87e9687bb16f
-# BUILD_DATE=20211210
-# BUILD_TAG=2021-12-10
+# ROOTFS_FILE=manjaro-xfce_amd64_2021-12-17_12-46-rootfs.tar.zst
+# SHA256SUM=80d60636f129c1be11bccc0503397a04aa9c280d1190c8145de88767775e353b
+# BUILD_DATE=20211217
+# BUILD_TAG=2021-12-17
 # STATUS=completed
-# VERSION=latest01
-# END_TIME=12:45
+# VERSION=latest02
+# END_TIME=12:46
 
 [time]
 format = "rfc-3339"
 zone = "UTC"
-date = 2021-12-10
-begin = 2021-12-10 12:19:33.693981175+00:00
-start-sync_0 = 12:29:01
-start-zstd = 12:32:14
-start-sync_1 = 12:44:16
-end-sync_1 = 12:45:34
-end = 2021-12-10 12:45:34.037231252+00:00
+date = 2021-12-17
+begin = 2021-12-17 12:19:31.739971807+00:00
+start-sync_0 = 12:29:34
+start-zstd = 12:32:44
+start-sync_1 = 12:44:53
+end-sync_1 = 12:46:08
+end = 2021-12-17 12:46:08.674635817+00:00
 
 [server]
 repo = "cake233/manjaro-xfce-amd64"
@@ -148,7 +148,7 @@ repo = "cake233/manjaro-xfce-amd64"
 [server.node1]
 name = "cn"
 current = false
-previous = true
+previous = false
 in_sync = false
 split = false
 
@@ -175,6 +175,7 @@ current = true
 LANG = "en_US.UTF-8"
 
 [version]
+ldd = 'ldd (GNU libc) 2.33'
 zsh = 'zsh 5.8 (x86_64-pc-linux-gnu)'
 
 [port]
