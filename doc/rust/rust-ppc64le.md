@@ -2,7 +2,7 @@
 
 ## How to run it?
 
-```shell
+```sh
 docker run \
     -it \
     --name rust-ppc64le \
@@ -11,19 +11,57 @@ docker run \
 
 ## How to exec shell?
 
-```shell
-    docker exec -it rust-ppc64le bash
+```sh
+docker exec -it rust-ppc64le bash
+```
+<!-- repo=cake233/rust-ppc64le -->
+
+## Example
+
+### set env
+
+```sh
+UID="$(id -u)" || UID=0
+GID="$(id -g)" || GID=0
 ```
 
-## example
+### create a new project
 
-```shell
+If "tmp/hello" already exists in the current directory, it can be skipped.
+
+```sh
+mkdir -p tmp
+
 docker run \
+    -t \
     --rm \
-    -v "$PWD"/rs-project:/app \
+    -u "$UID":"$GID" \
+    -v "$PWD"/tmp:/app \
+    -w /app \
+    cake233/rust-ppc64le \
+    cargo new hello
+```
+
+### cargo build
+
+```
+docker run \
+    -t \
+    --rm \
+    -u "$UID":"$GID" \
+    -v "$PWD"/tmp/hello:/app \
     -w /app \
     cake233/rust-ppc64le \
     cargo b --release
+```
+
+### check file
+
+```sh
+FILE="tmp/hello/target/release/hello"
+
+file "$FILE"
+ldd "$FILE"
 ```
 
 ## rust-ppc64le.toml
@@ -39,12 +77,12 @@ platform = "linux/ppc64le"
 x11_or_wayland = false
 
 [file]
-name = "rust_ppc64el_2021-12-17_00-13.tar.zst"
+name = "rust_ppc64el_2021-12-17_03-03.tar.zst"
 
 version = "0.0.0-alpha.2"
 
 # This value can be used to verify the integrity of the file
-sha256 = "f7b1fe2b6e27ad54aaed3aba9186b199ffc164e53234fad71e769168c9366433"
+sha256 = "4c6ba48a890b30902e2b91c35b6b36bd00911a3a39aa87fb27a0386f5a61b5a3"
 
 # zstd: [1-22]
 zstd-level = 20
@@ -53,12 +91,12 @@ zstd-level = 20
 # Installed size ≈ tar-size
 # Installed size is approximately equal to the size of the tar file
 tar = "1.1G"
-tar_bytes = 1126462464
+tar_bytes = 1126348800
 
 # Space occupied ≈ tar-size + zstd-size
 # You will need to prepare a large enough space before installation.
 zstd = "224M"
-zstd_bytes = 234331420
+zstd_bytes = 234240567
 
 [compatibility]
 compatible_mode = true
@@ -77,24 +115,24 @@ old_file = "rust_ppc64el_2021-12-10_00-14-rootfs.tar.zst"
 old_sha256 = "7ea60ed65dee1f67c2c7385a91d039b3dcc948cbbc050d57a41cf662b1e7dc7a"
 # edition 2021
 # DISTRO_NAME=rust_ppc64el
-# ROOTFS_FILE=rust_ppc64el_2021-12-17_00-13-rootfs.tar.zst
-# SHA256SUM=f7b1fe2b6e27ad54aaed3aba9186b199ffc164e53234fad71e769168c9366433
+# ROOTFS_FILE=rust_ppc64el_2021-12-17_03-03-rootfs.tar.zst
+# SHA256SUM=4c6ba48a890b30902e2b91c35b6b36bd00911a3a39aa87fb27a0386f5a61b5a3
 # BUILD_DATE=20211217
 # BUILD_TAG=2021-12-17
 # STATUS=completed
 # VERSION=latest02
-# END_TIME=00:13
+# END_TIME=03:03
 
 [time]
 format = "rfc-3339"
 zone = "UTC"
 date = 2021-12-17
-begin = 2021-12-17 00:02:25.742652305+00:00
-start-sync_0 = 00:08:17
-start-zstd = 00:09:00
-start-sync_1 = 00:12:53
-end-sync_1 = 00:13:13
-end = 2021-12-17 00:13:13.617917268+00:00
+begin = 2021-12-17 02:50:37.631075824+00:00
+start-sync_0 = 02:57:07
+start-zstd = 02:57:55
+start-sync_1 = 03:02:48
+end-sync_1 = 03:03:09
+end = 2021-12-17 03:03:09.246575138+00:00
 
 [server]
 repo = "cake233/rust-ppc64le"
@@ -135,7 +173,7 @@ CARGO_HOME = "/usr/local/cargo"
 ldd = 'ldd (Debian GLIBC 2.33-1) 2.33'
 rustup = 'rustup 1.24.3 (ce5817a94 2021-05-31)'
 cargo = 'cargo 1.59.0-nightly (a359ce160 2021-12-14)'
-rustc = 'rustc 1.59.0-nightly (c5ecc1570 2021-12-15)'
+rustc = 'rustc 1.59.0-nightly (5531927e8 2021-12-16)'
 cc = 'cc (Debian 11.2.0-13) 11.2.0'
 cargo_verbose = '''
 cargo 1.59.0-nightly (a359ce160 2021-12-14)
@@ -148,10 +186,10 @@ libcurl: 7.80.0-DEV (sys:0.4.51+curl-7.80.0 vendored ssl:OpenSSL/1.1.1l)
 os: Linux [64-bit]
 '''
 rustc_verbose = '''
-rustc 1.59.0-nightly (c5ecc1570 2021-12-15)
+rustc 1.59.0-nightly (5531927e8 2021-12-16)
 binary: rustc
-commit-hash: c5ecc157043ba413568b09292001a4a74b541a4e
-commit-date: 2021-12-15
+commit-hash: 5531927e8af9b99ad923af4c827c91038bca51ee
+commit-date: 2021-12-16
 host: powerpc64le-unknown-linux-gnu
 release: 1.59.0-nightly
 LLVM version: 13.0.0
