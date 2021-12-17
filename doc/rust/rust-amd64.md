@@ -2,7 +2,7 @@
 
 ## How to run it?
 
-```shell
+```sh
 docker run \
     -it \
     --name rust-amd64 \
@@ -11,19 +11,57 @@ docker run \
 
 ## How to exec shell?
 
-```shell
-    docker exec -it rust-amd64 bash
+```sh
+docker exec -it rust-amd64 bash
+```
+<!-- repo=cake233/rust-amd64 -->
+
+## Example
+
+### set env
+
+```sh
+UID="$(id -u)" || UID=0
+GID="$(id -g)" || GID=0
 ```
 
-## example
+### create a new project
 
-```shell
+If "tmp/hello" already exists in the current directory, it can be skipped.
+
+```sh
+mkdir -p tmp
+
 docker run \
+    -t \
     --rm \
-    -v "$PWD"/rs-project:/app \
+    -u "$UID":"$GID" \
+    -v "$PWD"/tmp:/app \
+    -w /app \
+    cake233/rust-amd64 \
+    cargo new hello
+```
+
+### cargo build
+
+```
+docker run \
+    -t \
+    --rm \
+    -u "$UID":"$GID" \
+    -v "$PWD"/tmp/hello:/app \
     -w /app \
     cake233/rust-amd64 \
     cargo b --release
+```
+
+### check file
+
+```sh
+FILE="tmp/hello/target/release/hello"
+
+file "$FILE"
+ldd "$FILE"
 ```
 
 ## rust-amd64.toml
@@ -39,12 +77,12 @@ platform = "linux/amd64"
 x11_or_wayland = false
 
 [file]
-name = "rust_amd64_2021-12-17_00-11.tar.zst"
+name = "rust_amd64_2021-12-17_02-58.tar.zst"
 
 version = "0.0.0-alpha.2"
 
 # This value can be used to verify the integrity of the file
-sha256 = "3dfaca80a84f1b47fe638f5c4c1cddde8352c0125285a9670d93cc6df58983e0"
+sha256 = "23a0db4ef3aaa6408ac8e7cbb11ffcaf0f8f8770752ace595029cb7aa788b591"
 
 # zstd: [1-22]
 zstd-level = 20
@@ -53,12 +91,12 @@ zstd-level = 20
 # Installed size ≈ tar-size
 # Installed size is approximately equal to the size of the tar file
 tar = "1.5G"
-tar_bytes = 1530889216
+tar_bytes = 1532602880
 
 # Space occupied ≈ tar-size + zstd-size
 # You will need to prepare a large enough space before installation.
 zstd = "228M"
-zstd_bytes = 238811546
+zstd_bytes = 238823721
 
 [compatibility]
 compatible_mode = true
@@ -77,24 +115,24 @@ old_file = "rust_amd64_2021-12-10_00-09-rootfs.tar.zst"
 old_sha256 = "6b2ff206dea1b0a86c15cea88884efa22bc1b105c76ada4b873b480636c7a707"
 # edition 2021
 # DISTRO_NAME=rust_amd64
-# ROOTFS_FILE=rust_amd64_2021-12-17_00-11-rootfs.tar.zst
-# SHA256SUM=3dfaca80a84f1b47fe638f5c4c1cddde8352c0125285a9670d93cc6df58983e0
+# ROOTFS_FILE=rust_amd64_2021-12-17_02-58-rootfs.tar.zst
+# SHA256SUM=23a0db4ef3aaa6408ac8e7cbb11ffcaf0f8f8770752ace595029cb7aa788b591
 # BUILD_DATE=20211217
 # BUILD_TAG=2021-12-17
 # STATUS=completed
 # VERSION=latest02
-# END_TIME=00:11
+# END_TIME=02:58
 
 [time]
 format = "rfc-3339"
 zone = "UTC"
 date = 2021-12-17
-begin = 2021-12-17 00:02:27.975897928+00:00
-start-sync_0 = 00:04:07
-start-zstd = 00:05:14
-start-sync_1 = 00:10:48
-end-sync_1 = 00:11:12
-end = 2021-12-17 00:11:12.691854965+00:00
+begin = 2021-12-17 02:50:38.326547614+00:00
+start-sync_0 = 02:52:00
+start-zstd = 02:53:03
+start-sync_1 = 02:58:12
+end-sync_1 = 02:58:35
+end = 2021-12-17 02:58:35.485243140+00:00
 
 [server]
 repo = "cake233/rust-amd64"
@@ -135,7 +173,7 @@ CARGO_HOME = "/usr/local/cargo"
 ldd = 'ldd (Debian GLIBC 2.33-1) 2.33'
 rustup = 'rustup 1.24.3 (ce5817a94 2021-05-31)'
 cargo = 'cargo 1.59.0-nightly (a359ce160 2021-12-14)'
-rustc = 'rustc 1.59.0-nightly (c5ecc1570 2021-12-15)'
+rustc = 'rustc 1.59.0-nightly (5531927e8 2021-12-16)'
 cc = 'cc (Debian 11.2.0-13) 11.2.0'
 cargo_verbose = '''
 cargo 1.59.0-nightly (a359ce160 2021-12-14)
@@ -148,10 +186,10 @@ libcurl: 7.80.0-DEV (sys:0.4.51+curl-7.80.0 vendored ssl:OpenSSL/1.1.1l)
 os: OracleLinux [64-bit]
 '''
 rustc_verbose = '''
-rustc 1.59.0-nightly (c5ecc1570 2021-12-15)
+rustc 1.59.0-nightly (5531927e8 2021-12-16)
 binary: rustc
-commit-hash: c5ecc157043ba413568b09292001a4a74b541a4e
-commit-date: 2021-12-15
+commit-hash: 5531927e8af9b99ad923af4c827c91038bca51ee
+commit-date: 2021-12-16
 host: x86_64-unknown-linux-gnu
 release: 1.59.0-nightly
 LLVM version: 13.0.0
