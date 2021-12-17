@@ -2,7 +2,7 @@
 
 ## How to run it?
 
-```shell
+```sh
 docker run \
     -it \
     --name rust-mips64le \
@@ -11,19 +11,57 @@ docker run \
 
 ## How to exec shell?
 
-```shell
-    docker exec -it rust-mips64le bash
+```sh
+docker exec -it rust-mips64le bash
+```
+<!-- repo=cake233/rust-mips64le -->
+
+## Example
+
+### set env
+
+```sh
+UID="$(id -u)" || UID=0
+GID="$(id -g)" || GID=0
 ```
 
-## example
+### create a new project
 
-```shell
+If "tmp/hello" already exists in the current directory, it can be skipped.
+
+```sh
+mkdir -p tmp
+
 docker run \
+    -t \
     --rm \
-    -v "$PWD"/rs-project:/app \
+    -u "$UID":"$GID" \
+    -v "$PWD"/tmp:/app \
+    -w /app \
+    cake233/rust-mips64le \
+    cargo new hello
+```
+
+### cargo build
+
+```
+docker run \
+    -t \
+    --rm \
+    -u "$UID":"$GID" \
+    -v "$PWD"/tmp/hello:/app \
     -w /app \
     cake233/rust-mips64le \
     cargo b --release
+```
+
+### check file
+
+```sh
+FILE="tmp/hello/target/release/hello"
+
+file "$FILE"
+ldd "$FILE"
 ```
 
 ## rust-mips64le.toml
@@ -39,12 +77,12 @@ platform = "linux/mips64le"
 x11_or_wayland = false
 
 [file]
-name = "rust_mips64el_2021-12-17_00-15.tar.zst"
+name = "rust_mips64el_2021-12-17_03-01.tar.zst"
 
 version = "0.0.0-alpha.2"
 
 # This value can be used to verify the integrity of the file
-sha256 = "1f04c19d8a6b09d807a9ea31e98e2c190e393c492705b20cb8a752b5e4596821"
+sha256 = "2ecc725b5cad8a7bb4af55e8289310fb3275f2bd03b9eaa47f3e6921eb71ff36"
 
 # zstd: [1-22]
 zstd-level = 20
@@ -53,12 +91,12 @@ zstd-level = 20
 # Installed size ≈ tar-size
 # Installed size is approximately equal to the size of the tar file
 tar = "1017M"
-tar_bytes = 1066115584
+tar_bytes = 1065991168
 
 # Space occupied ≈ tar-size + zstd-size
 # You will need to prepare a large enough space before installation.
 zstd = "202M"
-zstd_bytes = 211039956
+zstd_bytes = 211012339
 
 [compatibility]
 compatible_mode = true
@@ -77,24 +115,24 @@ old_file = "rust_mips64el_2021-12-10_00-15-rootfs.tar.zst"
 old_sha256 = "917ae8a6ab360123c830f41584c598602c8c2b72e610e834b56886bc8bb6c249"
 # edition 2021
 # DISTRO_NAME=rust_mips64el
-# ROOTFS_FILE=rust_mips64el_2021-12-17_00-15-rootfs.tar.zst
-# SHA256SUM=1f04c19d8a6b09d807a9ea31e98e2c190e393c492705b20cb8a752b5e4596821
+# ROOTFS_FILE=rust_mips64el_2021-12-17_03-01-rootfs.tar.zst
+# SHA256SUM=2ecc725b5cad8a7bb4af55e8289310fb3275f2bd03b9eaa47f3e6921eb71ff36
 # BUILD_DATE=20211217
 # BUILD_TAG=2021-12-17
 # STATUS=completed
 # VERSION=latest02
-# END_TIME=00:15
+# END_TIME=03:01
 
 [time]
 format = "rfc-3339"
 zone = "UTC"
 date = 2021-12-17
-begin = 2021-12-17 00:02:26.467334625+00:00
-start-sync_0 = 00:09:14
-start-zstd = 00:10:02
-start-sync_1 = 00:14:42
-end-sync_1 = 00:15:04
-end = 2021-12-17 00:15:04.197846515+00:00
+begin = 2021-12-17 02:50:37.429374908+00:00
+start-sync_0 = 02:56:05
+start-zstd = 02:56:49
+start-sync_1 = 03:00:58
+end-sync_1 = 03:01:16
+end = 2021-12-17 03:01:16.970398178+00:00
 
 [server]
 repo = "cake233/rust-mips64le"
@@ -135,7 +173,7 @@ CARGO_HOME = "/usr/local/cargo"
 ldd = 'ldd (Debian GLIBC 2.33-1) 2.33'
 rustup = 'rustup 1.24.3 (ce5817a94 2021-05-31)'
 cargo = 'cargo 1.59.0-nightly (a359ce160 2021-12-14)'
-rustc = 'rustc 1.59.0-nightly (c5ecc1570 2021-12-15)'
+rustc = 'rustc 1.59.0-nightly (5531927e8 2021-12-16)'
 cc = 'cc (Debian 11.2.0-12) 11.2.0'
 cargo_verbose = '''
 cargo 1.59.0-nightly (a359ce160 2021-12-14)
@@ -148,10 +186,10 @@ libcurl: 7.80.0-DEV (sys:0.4.51+curl-7.80.0 vendored ssl:OpenSSL/1.1.1l)
 os: Linux [64-bit]
 '''
 rustc_verbose = '''
-rustc 1.59.0-nightly (c5ecc1570 2021-12-15)
+rustc 1.59.0-nightly (5531927e8 2021-12-16)
 binary: rustc
-commit-hash: c5ecc157043ba413568b09292001a4a74b541a4e
-commit-date: 2021-12-15
+commit-hash: 5531927e8af9b99ad923af4c827c91038bca51ee
+commit-date: 2021-12-16
 host: mips64el-unknown-linux-gnuabi64
 release: 1.59.0-nightly
 LLVM version: 13.0.0
