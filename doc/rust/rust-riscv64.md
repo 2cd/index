@@ -2,7 +2,7 @@
 
 ## How to run it?
 
-```shell
+```sh
 docker run \
     -it \
     --name rust-riscv64 \
@@ -11,19 +11,57 @@ docker run \
 
 ## How to exec shell?
 
-```shell
-    docker exec -it rust-riscv64 bash
+```sh
+docker exec -it rust-riscv64 bash
+```
+<!-- repo=cake233/rust-riscv64 -->
+
+## Example
+
+### set env
+
+```sh
+UID="$(id -u)" || UID=0
+GID="$(id -g)" || GID=0
 ```
 
-## example
+### create a new project
 
-```shell
+If "tmp/hello" already exists in the current directory, it can be skipped.
+
+```sh
+mkdir -p tmp
+
 docker run \
+    -t \
     --rm \
-    -v "$PWD"/rs-project:/app \
+    -u "$UID":"$GID" \
+    -v "$PWD"/tmp:/app \
+    -w /app \
+    cake233/rust-riscv64 \
+    cargo new hello
+```
+
+### cargo build
+
+```
+docker run \
+    -t \
+    --rm \
+    -u "$UID":"$GID" \
+    -v "$PWD"/tmp/hello:/app \
     -w /app \
     cake233/rust-riscv64 \
     cargo b --release
+```
+
+### check file
+
+```sh
+FILE="tmp/hello/target/release/hello"
+
+file "$FILE"
+ldd "$FILE"
 ```
 
 ## rust-riscv64.toml
@@ -39,12 +77,12 @@ platform = "linux/riscv64"
 x11_or_wayland = false
 
 [file]
-name = "rust_riscv64_2021-12-17_00-13.tar.zst"
+name = "rust_riscv64_2021-12-17_03-00.tar.zst"
 
 version = "0.0.0-alpha.2"
 
 # This value can be used to verify the integrity of the file
-sha256 = "a044dc5bf6de0817293661fa0784c4cd909e599ac862a0091ecd5ce4ed82652c"
+sha256 = "4e3b6ccc5d10ccf7ce936fd6d5d46792d2fa7693ae71e5267942b718a7721e6a"
 
 # zstd: [1-22]
 zstd-level = 20
@@ -52,13 +90,13 @@ zstd-level = 20
 [file.size]
 # Installed size ≈ tar-size
 # Installed size is approximately equal to the size of the tar file
-tar = "1023M"
-tar_bytes = 1072686592
+tar = "1.0G"
+tar_bytes = 1072830976
 
 # Space occupied ≈ tar-size + zstd-size
 # You will need to prepare a large enough space before installation.
 zstd = "213M"
-zstd_bytes = 222757617
+zstd_bytes = 222621238
 
 [compatibility]
 compatible_mode = true
@@ -77,24 +115,24 @@ old_file = "rust_riscv64_2021-12-10_00-11-rootfs.tar.zst"
 old_sha256 = "75bd850959573f9435807277628aed97d62589fc10bdf8bc542fa2de437c565f"
 # edition 2021
 # DISTRO_NAME=rust_riscv64
-# ROOTFS_FILE=rust_riscv64_2021-12-17_00-13-rootfs.tar.zst
-# SHA256SUM=a044dc5bf6de0817293661fa0784c4cd909e599ac862a0091ecd5ce4ed82652c
+# ROOTFS_FILE=rust_riscv64_2021-12-17_03-00-rootfs.tar.zst
+# SHA256SUM=4e3b6ccc5d10ccf7ce936fd6d5d46792d2fa7693ae71e5267942b718a7721e6a
 # BUILD_DATE=20211217
 # BUILD_TAG=2021-12-17
 # STATUS=completed
 # VERSION=latest02
-# END_TIME=00:13
+# END_TIME=03:00
 
 [time]
 format = "rfc-3339"
 zone = "UTC"
 date = 2021-12-17
-begin = 2021-12-17 00:02:29.899542238+00:00
-start-sync_0 = 00:08:23
-start-zstd = 00:09:09
-start-sync_1 = 00:12:45
-end-sync_1 = 00:13:07
-end = 2021-12-17 00:13:07.040674534+00:00
+begin = 2021-12-17 02:50:37.193591123+00:00
+start-sync_0 = 02:55:44
+start-zstd = 02:56:28
+start-sync_1 = 03:00:21
+end-sync_1 = 03:00:44
+end = 2021-12-17 03:00:44.110659001+00:00
 
 [server]
 repo = "cake233/rust-riscv64"
@@ -135,7 +173,7 @@ CARGO_HOME = "/usr/local/cargo"
 ldd = 'ldd (Debian GLIBC 2.33-1) 2.33'
 rustup = 'rustup 1.24.3 (ce5817a94 2021-05-31)'
 cargo = 'cargo 1.59.0-nightly (a359ce160 2021-12-14)'
-rustc = 'rustc 1.59.0-nightly (c5ecc1570 2021-12-15)'
+rustc = 'rustc 1.59.0-nightly (5531927e8 2021-12-16)'
 cc = 'cc (Debian 11.2.0-12) 11.2.0'
 cargo_verbose = '''
 cargo 1.59.0-nightly (a359ce160 2021-12-14)
@@ -148,10 +186,10 @@ libcurl: 7.80.0-DEV (sys:0.4.51+curl-7.80.0 vendored ssl:OpenSSL/1.1.1l)
 os: Linux [64-bit]
 '''
 rustc_verbose = '''
-rustc 1.59.0-nightly (c5ecc1570 2021-12-15)
+rustc 1.59.0-nightly (5531927e8 2021-12-16)
 binary: rustc
-commit-hash: c5ecc157043ba413568b09292001a4a74b541a4e
-commit-date: 2021-12-15
+commit-hash: 5531927e8af9b99ad923af4c827c91038bca51ee
+commit-date: 2021-12-16
 host: riscv64gc-unknown-linux-gnu
 release: 1.59.0-nightly
 LLVM version: 13.0.0
