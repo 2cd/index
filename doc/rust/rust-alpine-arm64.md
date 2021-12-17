@@ -2,7 +2,7 @@
 
 ## How to run it?
 
-```shell
+```sh
 docker run \
     -it \
     --name rust-alpine-arm64 \
@@ -11,19 +11,57 @@ docker run \
 
 ## How to exec shell?
 
-```shell
-    docker exec -it rust-alpine-arm64 bash
+```sh
+docker exec -it rust-alpine-arm64 bash
+```
+<!-- repo=cake233/rust-alpine-arm64 -->
+
+## Example
+
+### set env
+
+```sh
+UID="$(id -u)" || UID=0
+GID="$(id -g)" || GID=0
 ```
 
-## example
+### create a new project
 
-```shell
+If "tmp/hello" already exists in the current directory, it can be skipped.
+
+```sh
+mkdir -p tmp
+
 docker run \
+    -t \
     --rm \
-    -v "$PWD"/rs-project:/app \
+    -u "$UID":"$GID" \
+    -v "$PWD"/tmp:/app \
+    -w /app \
+    cake233/rust-alpine-arm64 \
+    cargo new hello
+```
+
+### cargo build
+
+```
+docker run \
+    -t \
+    --rm \
+    -u "$UID":"$GID" \
+    -v "$PWD"/tmp/hello:/app \
     -w /app \
     cake233/rust-alpine-arm64 \
     cargo b --release
+```
+
+### check file
+
+```sh
+FILE="tmp/hello/target/release/hello"
+
+file "$FILE"
+ldd "$FILE"
 ```
 
 ## rust-alpine-arm64.toml
@@ -39,12 +77,12 @@ platform = "linux/arm64"
 x11_or_wayland = false
 
 [file]
-name = "rust-musl_arm64_2021-12-17_00-07.tar.zst"
+name = "rust-musl_arm64_2021-12-17_02-55.tar.zst"
 
 version = "0.0.0-alpha.2"
 
 # This value can be used to verify the integrity of the file
-sha256 = "4ac41d6bdb98eb28e5e5b1b48b25286a6cad19772740c62e4ba41def838f6540"
+sha256 = "a821de7351a9a1e44f02a6dc21333e8bd32420921da4b3ab4ca5aa8f353fa8d0"
 
 # zstd: [1-22]
 zstd-level = 18
@@ -53,12 +91,12 @@ zstd-level = 18
 # Installed size ≈ tar-size
 # Installed size is approximately equal to the size of the tar file
 tar = "783M"
-tar_bytes = 820221440
+tar_bytes = 820873728
 
 # Space occupied ≈ tar-size + zstd-size
 # You will need to prepare a large enough space before installation.
 zstd = "182M"
-zstd_bytes = 189846456
+zstd_bytes = 190001868
 
 [compatibility]
 compatible_mode = true
@@ -77,24 +115,24 @@ old_file = "rust-musl_arm64_2021-12-10_00-07-rootfs.tar.zst"
 old_sha256 = "d1a175a8a5fae2315c49467820c6ce400769edc1b88272236dbd65c472f13e36"
 # edition 2021
 # DISTRO_NAME=rust_arm64
-# ROOTFS_FILE=rust-musl_arm64_2021-12-17_00-07-rootfs.tar.zst
-# SHA256SUM=4ac41d6bdb98eb28e5e5b1b48b25286a6cad19772740c62e4ba41def838f6540
+# ROOTFS_FILE=rust-musl_arm64_2021-12-17_02-55-rootfs.tar.zst
+# SHA256SUM=a821de7351a9a1e44f02a6dc21333e8bd32420921da4b3ab4ca5aa8f353fa8d0
 # BUILD_DATE=20211217
 # BUILD_TAG=2021-12-17
 # STATUS=completed
 # VERSION=latest02
-# END_TIME=00:07
+# END_TIME=02:55
 
 [time]
 format = "rfc-3339"
 zone = "UTC"
 date = 2021-12-17
-begin = 2021-12-17 00:02:28.637418869+00:00
-start-sync_0 = 00:04:23
-start-zstd = 00:05:07
-start-sync_1 = 00:07:34
-end-sync_1 = 00:07:53
-end = 2021-12-17 00:07:53.121182371+00:00
+begin = 2021-12-17 02:50:37.229084280+00:00
+start-sync_0 = 02:52:28
+start-zstd = 02:53:13
+start-sync_1 = 02:55:42
+end-sync_1 = 02:55:59
+end = 2021-12-17 02:55:59.429185036+00:00
 
 [server]
 repo = "cake233/rust-alpine-arm64"
@@ -135,7 +173,7 @@ CARGO_HOME = "/usr/local/cargo"
 ldd = 'musl libc (aarch64) Version 1.2.2'
 rustup = 'rustup 1.24.3 (ce5817a94 2021-05-31)'
 cargo = 'cargo 1.59.0-nightly (a359ce160 2021-12-14)'
-rustc = 'rustc 1.59.0-nightly (c5ecc1570 2021-12-15)'
+rustc = 'rustc 1.59.0-nightly (5531927e8 2021-12-16)'
 cc = 'cc (Alpine 11.2.1_git20211128) 11.2.1 20211128'
 cargo_verbose = '''
 cargo 1.59.0-nightly (a359ce160 2021-12-14)
@@ -148,10 +186,10 @@ libcurl: 7.80.0-DEV (sys:0.4.51+curl-7.80.0 vendored ssl:OpenSSL/1.1.1l)
 os: Alpine Linux 3.15.0_alpha20210804 [64-bit]
 '''
 rustc_verbose = '''
-rustc 1.59.0-nightly (c5ecc1570 2021-12-15)
+rustc 1.59.0-nightly (5531927e8 2021-12-16)
 binary: rustc
-commit-hash: c5ecc157043ba413568b09292001a4a74b541a4e
-commit-date: 2021-12-15
+commit-hash: 5531927e8af9b99ad923af4c827c91038bca51ee
+commit-date: 2021-12-16
 host: aarch64-unknown-linux-musl
 release: 1.59.0-nightly
 LLVM version: 13.0.0
