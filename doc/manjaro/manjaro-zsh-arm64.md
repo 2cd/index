@@ -2,7 +2,7 @@
 
 ## How to run it?
 
-```shell
+```sh
 docker run \
     -it \
     --name manjaro-zsh-arm64 \
@@ -11,8 +11,8 @@ docker run \
 
 ## How to exec shell?
 
-```shell
-    docker exec -it manjaro-zsh-arm64 zsh
+```sh
+docker exec -it manjaro-zsh-arm64 zsh
 ```
 
 ## manjaro-zsh-arm64.toml
@@ -20,7 +20,7 @@ docker run \
 ```toml
 [main]
 name = "manjaro"
-tag = ["zsh", "2021-12-10"]
+tag = ["zsh", "2021-12-17"]
 os = "manjaro"
 release = "stable"
 arch = "arm64"
@@ -28,12 +28,12 @@ platform = "linux/arm64"
 x11_or_wayland = false
 
 [file]
-name = "manjaro-zsh_arm64_2021-12-10_12-19.tar.zst"
+name = "manjaro-zsh_arm64_2021-12-17_12-19.tar.zst"
 
 version = "0.0.0-alpha.2"
 
 # This value can be used to verify the integrity of the file
-sha256 = "25c886fbd4b906eea64ef77285cc43edf47c94b7807467c3149ed5527500f6e2"
+sha256 = "2777a393ca2c7fae419715c9203b0663e3b2e3e46ff700e8b940c484047d238c"
 
 # zstd: [1-22]
 zstd-level = 20
@@ -42,48 +42,48 @@ zstd-level = 20
 # Installed size ≈ tar-size
 # Installed size is approximately equal to the size of the tar file
 tar = "1.1G"
-tar_bytes = 1147878912
+tar_bytes = 1148815360
 
 # Space occupied ≈ tar-size + zstd-size
 # You will need to prepare a large enough space before installation.
 zstd = "241M"
-zstd_bytes = 252033181
+zstd_bytes = 252175897
 
 [compatibility]
 compatible_mode = true
 
-previous_version = "latest02"
+previous_version = "latest01"
 
 # The value is &str, not int
-previous_date = "20211203"
-previous_tag = "2021-12-03"
-previous_file = "manjaro-zsh_arm64_2021-12-03_12-17-rootfs.tar.zst"
-previous_sha256 = ""
+previous_date = "20211210"
+previous_tag = "2021-12-10"
+previous_file = "manjaro-zsh_arm64_2021-12-10_12-19-rootfs.tar.zst"
+previous_sha256 = "25c886fbd4b906eea64ef77285cc43edf47c94b7807467c3149ed5527500f6e2"
 
-current_version = "latest01"
-current_date = "20211210"
-old_file = "manjaro-zsh-arm64_2021-11-28_21-08-rootfs.tar.zst"
+current_version = "latest02"
+current_date = "20211217"
+old_file = "manjaro-zsh_arm64_2021-12-03_12-17-rootfs.tar.zst"
 old_sha256 = ""
 # edition 2021
 # DISTRO_NAME=manjaro-stable_arm64
-# ROOTFS_FILE=manjaro-zsh_arm64_2021-12-10_12-19-rootfs.tar.zst
-# SHA256SUM=25c886fbd4b906eea64ef77285cc43edf47c94b7807467c3149ed5527500f6e2
-# BUILD_DATE=20211210
-# BUILD_TAG=2021-12-10
+# ROOTFS_FILE=manjaro-zsh_arm64_2021-12-17_12-19-rootfs.tar.zst
+# SHA256SUM=2777a393ca2c7fae419715c9203b0663e3b2e3e46ff700e8b940c484047d238c
+# BUILD_DATE=20211217
+# BUILD_TAG=2021-12-17
 # STATUS=completed
-# VERSION=latest01
+# VERSION=latest02
 # END_TIME=12:19
 
 [time]
 format = "rfc-3339"
 zone = "UTC"
-date = 2021-12-10
-begin = 2021-12-10 12:02:24.262861711+00:00
-start-sync_0 = 12:10:57
-start-zstd = 12:12:32
+date = 2021-12-17
+begin = 2021-12-17 12:02:26.810877585+00:00
+start-sync_0 = 12:12:22
+start-zstd = 12:14:10
 start-sync_1 = 12:18:49
-end-sync_1 = 12:19:12
-end = 2021-12-10 12:19:12.874403442+00:00
+end-sync_1 = 12:19:10
+end = 2021-12-17 12:19:10.303741185+00:00
 
 [server]
 repo = "cake233/manjaro-zsh-arm64"
@@ -91,7 +91,7 @@ repo = "cake233/manjaro-zsh-arm64"
 [server.node1]
 name = "cn"
 current = false
-previous = true
+previous = false
 in_sync = false
 split = false
 
@@ -116,4 +116,8 @@ current = true
 # Environment variables  (●＞ω＜●)
 [env]
 LANG = "en_US.UTF-8"
+
+[version]
+ldd = 'ldd (GNU libc) 2.33'
+zsh = 'zsh 5.8 (aarch64-unknown-linux-gnu)'
 ```
