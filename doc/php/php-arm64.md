@@ -2,7 +2,7 @@
 
 ## How to run it?
 
-```shell
+```sh
 docker run \
     -it \
     --name php-arm64 \
@@ -11,8 +11,8 @@ docker run \
 
 ## How to exec shell?
 
-```shell
-    docker exec -it php-arm64 bash
+```sh
+docker exec -it php-arm64 bash
 ```
 
 ## php-arm64.toml
@@ -20,7 +20,7 @@ docker run \
 ```toml
 [main]
 name = "php"
-tag = ["latest", "2021-12-06"]
+tag = ["latest", "2021-12-20"]
 os = "debian"
 release = "stable"
 arch = "arm64"
@@ -28,12 +28,12 @@ platform = "linux/arm64"
 x11_or_wayland = false
 
 [file]
-name = "php_arm64_2021-12-06_20-08.tar.zst"
+name = "php_arm64_2021-12-20_12-06.tar.zst"
 
 version = "0.0.0-alpha.2"
 
 # This value can be used to verify the integrity of the file
-sha256 = "bec6cf08f2d9d924335cdfe4700af94195462acaf08d2ae0819ec05a099d3e82"
+sha256 = "b364187edfb5470c6ebc88ca40c1874271ee796a0f70f86b44dd403191a3589a"
 
 # zstd: [1-22]
 zstd-level = 18
@@ -42,45 +42,48 @@ zstd-level = 18
 # Installed size ≈ tar-size
 # Installed size is approximately equal to the size of the tar file
 tar = "456M"
-tar_bytes = 478024704
+tar_bytes = 478021632
 
 # Space occupied ≈ tar-size + zstd-size
 # You will need to prepare a large enough space before installation.
 zstd = "122M"
-zstd_bytes = 127339854
+zstd_bytes = 127301464
 
 [compatibility]
 compatible_mode = true
 
-previous_version = "latest02"
+previous_version = "latest01"
 
 # The value is &str, not int
-previous_date = "20211129"
-previous_tag = "2021-11-29"
-previous_file = "php_arm64_2021-11-29_01-05-rootfs.tar.zst"
+previous_date = "20211206"
+previous_tag = "2021-12-06"
+previous_file = "php_arm64_2021-12-06_20-08-rootfs.tar.zst"
+previous_sha256 = ""
 
-current_version = "latest01"
-current_date = "20211206"
-old_file = "php_arm64+latest-2021_11-01-rootfs.tar.zst"
+current_version = "latest02"
+current_date = "20211220"
+old_file = "php_arm64_2021-11-29_01-05-rootfs.tar.zst"
+old_sha256 = ""
 # edition 2021
 # DISTRO_NAME=php_arm64
-# ROOTFS_FILE=php_arm64_2021-12-06_20-08-rootfs.tar.zst
-# BUILD_DATE=20211206
-# BUILD_TAG=2021-12-06
+# ROOTFS_FILE=php_arm64_2021-12-20_12-06-rootfs.tar.zst
+# SHA256SUM=b364187edfb5470c6ebc88ca40c1874271ee796a0f70f86b44dd403191a3589a
+# BUILD_DATE=20211220
+# BUILD_TAG=2021-12-20
 # STATUS=completed
-# VERSION=latest01
-# END_TIME=20:08
+# VERSION=latest02
+# END_TIME=12:06
 
 [time]
 format = "rfc-3339"
 zone = "UTC"
-date = 2021-12-06
-begin = 2021-12-06 20:04:29.140918287+00:00
-start-sync_0 = 20:06:39
-start-zstd = 20:06:54
-start-sync_1 = 20:07:59
-end-sync_1 = 20:08:14
-end = 2021-12-06 20:08:14.828159406+00:00
+date = 2021-12-20
+begin = 2021-12-20 12:02:31.267325987+00:00
+start-sync_0 = 12:04:45
+start-zstd = 12:05:01
+start-sync_1 = 12:06:12
+end-sync_1 = 12:06:27
+end = 2021-12-20 12:06:27.646749335+00:00
 
 [server]
 repo = "cake233/php-arm64"
@@ -88,19 +91,19 @@ repo = "cake233/php-arm64"
 [server.node1]
 name = "cn"
 current = false
-previous = true
+previous = false
 in_sync = false
 split = false
 
 [server.node2]
-name = "us"
+name = "tmoe"
 current = false
 previous = true
 in_sync = false
 split = false
 
 [server.node3]
-name = "global"
+name = "azure"
 current = false
 previous = true
 in_sync = false
@@ -116,10 +119,11 @@ LANG = "en_US.UTF-8"
 PHP_INI_DIR = '/usr/local/etc/php'
 
 [version]
+ldd = 'ldd (Debian GLIBC 2.31-13+deb11u2) 2.31'
 php = '''
-PHP 8.1.0 (cli) (built: Dec  2 2021 12:01:51) (NTS)
+PHP 8.1.1 (cli) (built: Dec 18 2021 01:39:05) (NTS)
 Copyright (c) The PHP Group
-Zend Engine v4.1.0, Copyright (c) Zend Technologies
+Zend Engine v4.1.1, Copyright (c) Zend Technologies
 '''
 
 [other]
@@ -129,6 +133,6 @@ php_cflags = '-fstack-protector-strong -fpic -fpie -O2 -D_LARGEFILE_SOURCE -D_FI
 php_cppflags = '-fstack-protector-strong -fpic -fpie -O2 -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64'
 php_ldflags = '-Wl,-O1 -pie'
 gpg_keys = '528995BFEDFBA7191D46839EF9BA0ADA31CBD89E 39B641343D8C104B2B146DC3F9C39DC0B9698544 F1F692238FBC1666E5A5CCD4199F9DFEF6FFBAFD'
-php_url = 'https://www.php.net/distributions/php-8.1.0.tar.xz'
-php_src_url = 'https://www.php.net/distributions/php-8.1.0.tar.xz.asc'
+php_url = 'https://www.php.net/distributions/php-8.1.1.tar.xz'
+php_src_url = 'https://www.php.net/distributions/php-8.1.1.tar.xz.asc'
 ```
