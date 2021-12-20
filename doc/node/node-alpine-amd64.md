@@ -2,7 +2,7 @@
 
 ## How to run it?
 
-```shell
+```sh
 docker run \
     -it \
     --name node-alpine-amd64 \
@@ -11,8 +11,8 @@ docker run \
 
 ## How to exec shell?
 
-```shell
-    docker exec -it node-alpine-amd64 bash
+```sh
+docker exec -it node-alpine-amd64 bash
 ```
 
 ## node-alpine-amd64.toml
@@ -20,7 +20,7 @@ docker run \
 ```toml
 [main]
 name = "node"
-tag = ["alpine", "2021-12-06", "musl-libc", "musl"]
+tag = ["alpine", "2021-12-20", "musl-libc", "musl"]
 os = "alpine"
 release = "stable"
 arch = "amd64"
@@ -28,12 +28,12 @@ platform = "linux/amd64"
 x11_or_wayland = false
 
 [file]
-name = "node-musl_amd64_2021-12-06_20-05.tar.zst"
+name = "node-musl_amd64_2021-12-20_12-03.tar.zst"
 
 version = "0.0.0-alpha.2"
 
 # This value can be used to verify the integrity of the file
-sha256 = "db03a81be6cc2de4c3bc39cdb083859df27e4adc002f0fc6b69c2981a9c05083"
+sha256 = "c440e3804e56ada9a72b3a475c5409abcabb892236336ef7302a8cefa81cdb87"
 
 # zstd: [1-22]
 zstd-level = 18
@@ -47,40 +47,43 @@ tar_bytes = 190213120
 # Space occupied ≈ tar-size + zstd-size
 # You will need to prepare a large enough space before installation.
 zstd = "34M"
-zstd_bytes = 34792186
+zstd_bytes = 34792857
 
 [compatibility]
 compatible_mode = true
 
-previous_version = "latest01"
+previous_version = "latest02"
 
 # The value is &str, not int
-previous_date = "20211128"
-previous_tag = "2021-11-28"
-previous_file = "node-musl_amd64_2021-11-28_23-01-rootfs.tar.zst"
+previous_date = "20211206"
+previous_tag = "2021-12-06"
+previous_file = "node-musl_amd64_2021-12-06_20-05-rootfs.tar.zst"
+previous_sha256 = ""
 
-current_version = "latest02"
-current_date = "20211206"
-old_file = ""
+current_version = "latest01"
+current_date = "20211220"
+old_file = "node-musl_amd64_2021-11-28_23-01-rootfs.tar.zst"
+old_sha256 = ""
 # edition 2021
 # DISTRO_NAME=node_amd64
-# ROOTFS_FILE=node-musl_amd64_2021-12-06_20-05-rootfs.tar.zst
-# BUILD_DATE=20211206
-# BUILD_TAG=2021-12-06
+# ROOTFS_FILE=node-musl_amd64_2021-12-20_12-03-rootfs.tar.zst
+# SHA256SUM=c440e3804e56ada9a72b3a475c5409abcabb892236336ef7302a8cefa81cdb87
+# BUILD_DATE=20211220
+# BUILD_TAG=2021-12-20
 # STATUS=completed
-# VERSION=latest02
-# END_TIME=20:05
+# VERSION=latest01
+# END_TIME=12:03
 
 [time]
 format = "rfc-3339"
 zone = "UTC"
-date = 2021-12-06
-begin = 2021-12-06 20:04:27.817872849+00:00
-start-sync_0 = 20:05:02
-start-zstd = 20:05:11
-start-sync_1 = 20:05:37
-end-sync_1 = 20:05:44
-end = 2021-12-06 20:05:44.806694533+00:00
+date = 2021-12-20
+begin = 2021-12-20 12:02:26.553030471+00:00
+start-sync_0 = 12:02:48
+start-zstd = 12:02:55
+start-sync_1 = 12:03:20
+end-sync_1 = 12:03:27
+end = 2021-12-20 12:03:27.894723504+00:00
 
 [server]
 repo = "cake233/node-alpine-amd64"
@@ -88,19 +91,19 @@ repo = "cake233/node-alpine-amd64"
 [server.node1]
 name = "cn"
 current = false
-previous = true
+previous = false
 in_sync = false
 split = false
 
 [server.node2]
-name = "us"
+name = "tmoe"
 current = false
 previous = true
 in_sync = false
 split = false
 
 [server.node3]
-name = "global"
+name = "azure"
 current = false
 previous = true
 in_sync = false
@@ -115,6 +118,7 @@ current = true
 LANG = "C.UTF-8"
 
 [version]
+ldd = 'musl libc (x86_64) Version 1.2.2'
 node = 'v17.2.0'
 yarn = '1.22.15'
 npm = '8.1.4'
