@@ -1,6 +1,6 @@
 [main]
 name = "php"
-tag = ["alpine", "2021-12-06", "musl-libc", "musl"]
+tag = ["alpine", "2021-12-20", "musl-libc", "musl"]
 os = "alpine"
 release = "stable"
 arch = "amd64"
@@ -8,12 +8,12 @@ platform = "linux/amd64"
 x11_or_wayland = false
 
 [file]
-name = "php-musl_amd64_2021-12-06_20-05.tar.zst"
+name = "php-musl_amd64_2021-12-20_12-03.tar.zst"
 
 version = "0.0.0-alpha.2"
 
 # This value can be used to verify the integrity of the file
-sha256 = "64639a94e3d5d127a8627c3b0d53169469611d7d7ffee50daf5027e0f2eb75b5"
+sha256 = "f44062a578ab8389d236115fda4007baade86f785ac48ce0708903b3c070cb8f"
 
 # zstd: [1-22]
 zstd-level = 18
@@ -22,74 +22,71 @@ zstd-level = 18
 # Installed size ≈ tar-size
 # Installed size is approximately equal to the size of the tar file
 tar = "100M"
-tar_bytes = 104419840
+tar_bytes = 104414720
 
 # Space occupied ≈ tar-size + zstd-size
 # You will need to prepare a large enough space before installation.
 zstd = "30M"
-zstd_bytes = 30679943
+zstd_bytes = 30627939
 
 [compatibility]
 compatible_mode = true
 
-previous_version = "latest01"
+previous_version = "latest02"
 
 # The value is &str, not int
-previous_date = "20211129"
-previous_tag = "2021-11-29"
-previous_file = "php-musl_amd64_2021-11-29_01-03-rootfs.tar.zst"
+previous_date = "20211206"
+previous_tag = "2021-12-06"
+previous_file = "php-musl_amd64_2021-12-06_20-05-rootfs.tar.zst"
+previous_sha256 = ""
 
-current_version = "latest02"
-current_date = "20211206"
-old_file = ""
+current_version = "latest01"
+current_date = "20211220"
+old_file = "php-musl_amd64_2021-11-29_01-03-rootfs.tar.zst"
+old_sha256 = ""
 # edition 2021
 # DISTRO_NAME=php_amd64
-# ROOTFS_FILE=php-musl_amd64_2021-12-06_20-05-rootfs.tar.zst
-# BUILD_DATE=20211206
-# BUILD_TAG=2021-12-06
+# ROOTFS_FILE=php-musl_amd64_2021-12-20_12-03-rootfs.tar.zst
+# SHA256SUM=f44062a578ab8389d236115fda4007baade86f785ac48ce0708903b3c070cb8f
+# BUILD_DATE=20211220
+# BUILD_TAG=2021-12-20
 # STATUS=completed
-# VERSION=latest02
-# END_TIME=20:05
+# VERSION=latest01
+# END_TIME=12:03
 
 [time]
 format = "rfc-3339"
 zone = "UTC"
-date = 2021-12-06
-begin = 2021-12-06 20:04:28.672240898+00:00
-start-sync_0 = 20:05:01
-start-zstd = 20:05:14
-start-sync_1 = 20:05:28
-end-sync_1 = 20:05:36
-end = 2021-12-06 20:05:36.443965279+00:00
+date = 2021-12-20
+begin = 2021-12-20 12:02:26.918644564+00:00
+start-sync_0 = 12:02:55
+start-zstd = 12:03:02
+start-sync_1 = 12:03:14
+end-sync_1 = 12:03:20
+end = 2021-12-20 12:03:20.284367695+00:00
 
 [server]
 repo = "cake233/php-alpine-amd64"
 
 [server.node1]
 name = "cn"
-current = true
-previous = true
-in_sync = false
-start_sync = 2021-12-06 21:25:19.606342496+00:00
-end_sync = 2021-12-06 21:30:42.531205755+00:00
-split = false
-
-[server.node2]
-name = "us"
-current = true
+current = false
 previous = false
 in_sync = false
 split = false
 
-[server.node3]
-name = "global"
-current = true
+[server.node2]
+name = "tmoe"
+current = false
 previous = true
 in_sync = false
-start_sync = 2021-12-07 18:14:54.815729655+00:00
-end_sync = 2021-12-07 18:15:04.177448353+00:00
-start_sync = 2021-12-06 21:24:47.339654439+00:00
-end_sync = 2021-12-06 21:25:07.007699941+00:00
+split = false
+
+[server.node3]
+name = "azure"
+current = false
+previous = true
+in_sync = false
 split = false
 
 [server.node4]
@@ -102,10 +99,11 @@ LANG = "C.UTF-8"
 PHP_INI_DIR = '/usr/local/etc/php'
 
 [version]
+ldd = 'musl libc (x86_64) Version 1.2.2'
 php = '''
-PHP 8.1.0 (cli) (built: Nov 30 2021 07:15:23) (NTS)
+PHP 8.1.1 (cli) (built: Dec 18 2021 01:28:28) (NTS)
 Copyright (c) The PHP Group
-Zend Engine v4.1.0, Copyright (c) Zend Technologies
+Zend Engine v4.1.1, Copyright (c) Zend Technologies
 '''
 
 [other]
@@ -115,5 +113,5 @@ php_cflags = '-fstack-protector-strong -fpic -fpie -O2 -D_LARGEFILE_SOURCE -D_FI
 php_cppflags = '-fstack-protector-strong -fpic -fpie -O2 -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64'
 php_ldflags = '-Wl,-O1 -pie'
 gpg_keys = '528995BFEDFBA7191D46839EF9BA0ADA31CBD89E 39B641343D8C104B2B146DC3F9C39DC0B9698544 F1F692238FBC1666E5A5CCD4199F9DFEF6FFBAFD'
-php_url = 'https://www.php.net/distributions/php-8.1.0.tar.xz'
-php_src_url = 'https://www.php.net/distributions/php-8.1.0.tar.xz.asc'
+php_url = 'https://www.php.net/distributions/php-8.1.1.tar.xz'
+php_src_url = 'https://www.php.net/distributions/php-8.1.1.tar.xz.asc'
