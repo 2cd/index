@@ -1,6 +1,6 @@
 [main]
 name = "ruby"
-tag = ["latest", "2021-12-06"]
+tag = ["latest", "2021-12-20"]
 os = "debian"
 release = "stable"
 arch = "amd64"
@@ -8,12 +8,12 @@ platform = "linux/amd64"
 x11_or_wayland = false
 
 [file]
-name = "ruby_amd64_2021-12-06_20-08.tar.zst"
+name = "ruby_amd64_2021-12-20_12-08.tar.zst"
 
 version = "0.0.0-alpha.2"
 
 # This value can be used to verify the integrity of the file
-sha256 = "04bfa022a49103a853bf97aa3b93528d8a0f6b3a85da450b582f5f4a07ab435a"
+sha256 = "d647826e0b77751b705d1a0f09753dd829cb52ba35bed56aa025e7ccba28558f"
 
 # zstd: [1-22]
 zstd-level = 18
@@ -22,74 +22,71 @@ zstd-level = 18
 # Installed size ≈ tar-size
 # Installed size is approximately equal to the size of the tar file
 tar = "885M"
-tar_bytes = 927585280
+tar_bytes = 927618560
 
 # Space occupied ≈ tar-size + zstd-size
 # You will need to prepare a large enough space before installation.
 zstd = "233M"
-zstd_bytes = 243356788
+zstd_bytes = 243317330
 
 [compatibility]
 compatible_mode = true
 
-previous_version = "latest01"
+previous_version = "latest02"
 
 # The value is &str, not int
-previous_date = "20211128"
-previous_tag = "2021-11-28"
-previous_file = "ruby_amd64_2021-11-28_23-08-rootfs.tar.zst"
+previous_date = "20211206"
+previous_tag = "2021-12-06"
+previous_file = "ruby_amd64_2021-12-06_20-08-rootfs.tar.zst"
+previous_sha256 = ""
 
-current_version = "latest02"
-current_date = "20211206"
-old_file = ""
+current_version = "latest01"
+current_date = "20211220"
+old_file = "ruby_amd64_2021-11-28_23-08-rootfs.tar.zst"
+old_sha256 = ""
 # edition 2021
 # DISTRO_NAME=ruby_amd64
-# ROOTFS_FILE=ruby_amd64_2021-12-06_20-08-rootfs.tar.zst
-# BUILD_DATE=20211206
-# BUILD_TAG=2021-12-06
+# ROOTFS_FILE=ruby_amd64_2021-12-20_12-08-rootfs.tar.zst
+# SHA256SUM=d647826e0b77751b705d1a0f09753dd829cb52ba35bed56aa025e7ccba28558f
+# BUILD_DATE=20211220
+# BUILD_TAG=2021-12-20
 # STATUS=completed
-# VERSION=latest02
-# END_TIME=20:08
+# VERSION=latest01
+# END_TIME=12:08
 
 [time]
 format = "rfc-3339"
 zone = "UTC"
-date = 2021-12-06
-begin = 2021-12-06 20:04:29.866406624+00:00
-start-sync_0 = 20:05:33
-start-zstd = 20:05:51
-start-sync_1 = 20:08:06
-end-sync_1 = 20:08:30
-end = 2021-12-06 20:08:30.480443797+00:00
+date = 2021-12-20
+begin = 2021-12-20 12:02:30.504382537+00:00
+start-sync_0 = 12:03:40
+start-zstd = 12:05:42
+start-sync_1 = 12:08:13
+end-sync_1 = 12:08:33
+end = 2021-12-20 12:08:33.618913454+00:00
 
 [server]
 repo = "cake233/ruby-amd64"
 
 [server.node1]
 name = "cn"
-current = true
-previous = true
-in_sync = false
-start_sync = 2021-12-06 20:35:07.580222562+00:00
-end_sync = 2021-12-06 20:41:02.032411354+00:00
-split = false
-
-[server.node2]
-name = "us"
-current = true
+current = false
 previous = false
 in_sync = false
 split = false
 
-[server.node3]
-name = "global"
-current = true
+[server.node2]
+name = "tmoe"
+current = false
 previous = true
 in_sync = false
-start_sync = 2021-12-07 18:05:57.350936761+00:00
-end_sync = 2021-12-07 18:08:05.323358408+00:00
-start_sync = 2021-12-06 20:34:09.281503859+00:00
-end_sync = 2021-12-06 20:34:54.747720779+00:00
+split = false
+
+[server.node3]
+name = "azure"
+current = false
+previous = true
+in_sync = false
 split = false
 
 [server.node4]
@@ -105,6 +102,7 @@ BUNDLE_SILENCE_ROOT_WARNING = '1'
 BUNDLE_APP_CONFIG = '/usr/local/bundle'
 
 [version]
+ldd = 'ldd (Debian GLIBC 2.31-13+deb11u2) 2.31'
 ruby = 'ruby 3.0.3p157 (2021-11-24 revision 3fb7d2cadc) [x86_64-linux]'
 gem = '3.2.32'
 bundle = 'Bundler version 2.2.32'
