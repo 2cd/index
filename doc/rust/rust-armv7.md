@@ -21,8 +21,8 @@ docker exec -it rust-armv7 bash
 ### set env
 
 ```sh
-UID="$(id -u)" || UID=0
-GID="$(id -g)" || GID=0
+_UID="$(id -u)" || _UID=0
+_GID="$(id -g)" || _GID=0
 ```
 
 ### create a new project
@@ -35,7 +35,7 @@ mkdir -p tmp
 docker run \
     -t \
     --rm \
-    -u "$UID":"$GID" \
+    -u "$_UID":"$_GID" \
     -v "$PWD"/tmp:/app \
     -w /app \
     cake233/rust-armv7 \
@@ -44,11 +44,11 @@ docker run \
 
 ### cargo build
 
-```
+```sh
 docker run \
     -t \
     --rm \
-    -u "$UID":"$GID" \
+    -u "$_UID":"$_GID" \
     -v "$PWD"/tmp/hello:/app \
     -w /app \
     cake233/rust-armv7 \
@@ -69,7 +69,7 @@ ldd "$FILE"
 ```toml
 [main]
 name = "rust"
-tag = ["latest", "2021-12-17", "nightly", "unstable", "default", "gnu-libc"]
+tag = ["latest", "2021-12-20", "nightly", "unstable", "default", "gnu-libc"]
 os = "debian"
 release = "sid"
 arch = "armhf"
@@ -77,12 +77,12 @@ platform = "linux/arm/v7"
 x11_or_wayland = false
 
 [file]
-name = "rust_armhf_2021-12-17_03-00.tar.zst"
+name = "rust_armhf_2021-12-20_03-05.tar.zst"
 
 version = "0.0.0-alpha.2"
 
 # This value can be used to verify the integrity of the file
-sha256 = "2e3778ffdf16a05a0898a0f04f614bda2206235bc9501556f6c0d21a4fa67e0b"
+sha256 = "75ebe2668650c7220503d12ae7bf1b8af85b198ef8a0098b4949fd76eb4f8e9e"
 
 # zstd: [1-22]
 zstd-level = 20
@@ -90,49 +90,49 @@ zstd-level = 20
 [file.size]
 # Installed size ≈ tar-size
 # Installed size is approximately equal to the size of the tar file
-tar = "926M"
-tar_bytes = 970921984
+tar = "927M"
+tar_bytes = 971274240
 
 # Space occupied ≈ tar-size + zstd-size
 # You will need to prepare a large enough space before installation.
 zstd = "227M"
-zstd_bytes = 237133088
+zstd_bytes = 237897040
 
 [compatibility]
 compatible_mode = true
 
-previous_version = "latest01"
+previous_version = "latest02"
 
 # The value is &str, not int
-previous_date = "20211213"
-previous_tag = "2021-12-13"
-previous_file = "rust_armhf_2021-12-13_00-12-rootfs.tar.zst"
-previous_sha256 = "1d6275e9c43eeeccb03038f59435e37ac8bebda494c404bb454da2023be73396"
+previous_date = "20211217"
+previous_tag = "2021-12-17"
+previous_file = "rust_armhf_2021-12-17_03-00-rootfs.tar.zst"
+previous_sha256 = "2e3778ffdf16a05a0898a0f04f614bda2206235bc9501556f6c0d21a4fa67e0b"
 
-current_version = "latest02"
-current_date = "20211217"
-old_file = "rust_armhf_2021-12-10_00-14-rootfs.tar.zst"
-old_sha256 = "204bc5bcc3f03f3361ef29626a308c4e2827aa8f725f1ebf1f4c608565da8d70"
+current_version = "latest01"
+current_date = "20211220"
+old_file = "rust_armhf_2021-12-13_00-12-rootfs.tar.zst"
+old_sha256 = "1d6275e9c43eeeccb03038f59435e37ac8bebda494c404bb454da2023be73396"
 # edition 2021
 # DISTRO_NAME=rust_armhf
-# ROOTFS_FILE=rust_armhf_2021-12-17_03-00-rootfs.tar.zst
-# SHA256SUM=2e3778ffdf16a05a0898a0f04f614bda2206235bc9501556f6c0d21a4fa67e0b
-# BUILD_DATE=20211217
-# BUILD_TAG=2021-12-17
+# ROOTFS_FILE=rust_armhf_2021-12-20_03-05-rootfs.tar.zst
+# SHA256SUM=75ebe2668650c7220503d12ae7bf1b8af85b198ef8a0098b4949fd76eb4f8e9e
+# BUILD_DATE=20211220
+# BUILD_TAG=2021-12-20
 # STATUS=completed
-# VERSION=latest02
-# END_TIME=03:00
+# VERSION=latest01
+# END_TIME=03:05
 
 [time]
 format = "rfc-3339"
 zone = "UTC"
-date = 2021-12-17
-begin = 2021-12-17 02:50:39.270110124+00:00
-start-sync_0 = 02:56:15
-start-zstd = 02:57:00
-start-sync_1 = 03:00:26
-end-sync_1 = 03:00:50
-end = 2021-12-17 03:00:50.607200154+00:00
+date = 2021-12-20
+begin = 2021-12-20 02:52:22.472753121+00:00
+start-sync_0 = 03:00:02
+start-zstd = 03:00:55
+start-sync_1 = 03:05:06
+end-sync_1 = 03:05:27
+end = 2021-12-20 03:05:27.543462111+00:00
 
 [server]
 repo = "cake233/rust-armv7"
@@ -172,24 +172,24 @@ CARGO_HOME = "/usr/local/cargo"
 [version]
 ldd = 'ldd (Debian GLIBC 2.33-1) 2.33'
 rustup = 'rustup 1.24.3 (ce5817a94 2021-05-31)'
-cargo = 'cargo 1.59.0-nightly (a359ce160 2021-12-14)'
-rustc = 'rustc 1.59.0-nightly (5531927e8 2021-12-16)'
+cargo = 'cargo 1.59.0-nightly (fcef61230 2021-12-17)'
+rustc = 'rustc 1.59.0-nightly (e95e084a1 2021-12-19)'
 cc = 'cc (Debian 11.2.0-13) 11.2.0'
 cargo_verbose = '''
-cargo 1.59.0-nightly (a359ce160 2021-12-14)
+cargo 1.59.0-nightly (fcef61230 2021-12-17)
 release: 1.59.0-nightly
-commit-hash: a359ce16073401f28b84840da85b268aa3d37c88
-commit-date: 2021-12-14
+commit-hash: fcef61230c3b6213b6b0d233a36ba4ebd1649ec3
+commit-date: 2021-12-17
 host: armv7-unknown-linux-gnueabihf
 libgit2: 1.3.0 (sys:0.13.23 vendored)
 libcurl: 7.80.0-DEV (sys:0.4.51+curl-7.80.0 vendored ssl:OpenSSL/1.1.1l)
 os: Linux [32-bit]
 '''
 rustc_verbose = '''
-rustc 1.59.0-nightly (5531927e8 2021-12-16)
+rustc 1.59.0-nightly (e95e084a1 2021-12-19)
 binary: rustc
-commit-hash: 5531927e8af9b99ad923af4c827c91038bca51ee
-commit-date: 2021-12-16
+commit-hash: e95e084a14870a718c712936ab5a8f8cd0159485
+commit-date: 2021-12-19
 host: armv7-unknown-linux-gnueabihf
 release: 1.59.0-nightly
 LLVM version: 13.0.0
