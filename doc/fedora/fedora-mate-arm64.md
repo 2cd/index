@@ -2,7 +2,7 @@
 
 ## How to run it?
 
-```shell
+```sh
 # install docker
 if [ -z "$(command -v docker)" ]; then
     apt update
@@ -32,7 +32,7 @@ docker run \
 
 ## How to start vnc?
 
-```shell
+```sh
     docker exex -it fedora-mate-arm64 zsh
 ```
 
@@ -42,19 +42,19 @@ After entering the container, you can create a new user, and then switch to it.
 
 Finally, run the following commands.
 
-```shell
+```sh
     startvnc
 ```
 
 or
 
-```shell
+```sh
     startx11vnc
 ```
 
 or
 
-```shell
+```sh
     novnc
 ```
 
@@ -63,7 +63,7 @@ Note:
 If you want to use novnc, then open your browser, and type the address:
 
 ```
-localhost:36081
+http://localhost:36081
 ```
 
 If you want to use tiger/x11vnc, then open vnc viewer, then type the address:
@@ -77,7 +77,7 @@ localhost:5903
 ```toml
 [main]
 name = "fedora"
-tag = ["mate", "2021-12-14"]
+tag = ["mate", "2021-12-21"]
 os = "fedora"
 release = "rawhide"
 arch = "arm64"
@@ -85,12 +85,12 @@ platform = "linux/arm64"
 x11_or_wayland = true
 
 [file]
-name = "fedora-mate_arm64_2021-12-14_14-41.tar.zst"
+name = "fedora-mate_arm64_2021-12-21_14-15.tar.zst"
 
 version = "0.0.0-alpha.2"
 
 # This value can be used to verify the integrity of the file
-sha256 = "7a88e568357a25906fcea519f9c7c3c93449c04378c47ad5ea2c7e4fd862c86c"
+sha256 = "d1f74efdfe0a8f8d3ed3b843b9484458744e30a836b9d25122c7508f55a64c54"
 
 # zstd: [1-22]
 zstd-level = 18
@@ -99,48 +99,48 @@ zstd-level = 18
 # Installed size ≈ tar-size
 # Installed size is approximately equal to the size of the tar file
 tar = "5.8G"
-tar_bytes = 6178523648
+tar_bytes = 6192956928
 
 # Space occupied ≈ tar-size + zstd-size
 # You will need to prepare a large enough space before installation.
 zstd = "1.6G"
-zstd_bytes = 1642531805
+zstd_bytes = 1645934279
 
 [compatibility]
 compatible_mode = true
 
-previous_version = "latest02"
+previous_version = "latest01"
 
 # The value is &str, not int
-previous_date = "20211207"
-previous_tag = "2021-12-07"
-previous_file = "fedora-mate_arm64_2021-12-07_14-09-rootfs.tar.zst"
-previous_sha256 = "74d5da89ed12ec9b758a514a4ac2dffc16eed16bf413d66383c7c1d7a80af2fa"
+previous_date = "20211214"
+previous_tag = "2021-12-14"
+previous_file = "fedora-mate_arm64_2021-12-14_14-41-rootfs.tar.zst"
+previous_sha256 = "7a88e568357a25906fcea519f9c7c3c93449c04378c47ad5ea2c7e4fd862c86c"
 
-current_version = "latest01"
-current_date = "20211214"
-old_file = "fedora-mate_arm64_2021-11-30_17-04-rootfs.tar.zst"
-old_sha256 = ""
+current_version = "latest02"
+current_date = "20211221"
+old_file = "fedora-mate_arm64_2021-12-07_14-09-rootfs.tar.zst"
+old_sha256 = "74d5da89ed12ec9b758a514a4ac2dffc16eed16bf413d66383c7c1d7a80af2fa"
 # edition 2021
 # DISTRO_NAME=fedora-rawhide_arm64
-# ROOTFS_FILE=fedora-mate_arm64_2021-12-14_14-41-rootfs.tar.zst
-# SHA256SUM=7a88e568357a25906fcea519f9c7c3c93449c04378c47ad5ea2c7e4fd862c86c
-# BUILD_DATE=20211214
-# BUILD_TAG=2021-12-14
+# ROOTFS_FILE=fedora-mate_arm64_2021-12-21_14-15-rootfs.tar.zst
+# SHA256SUM=d1f74efdfe0a8f8d3ed3b843b9484458744e30a836b9d25122c7508f55a64c54
+# BUILD_DATE=20211221
+# BUILD_TAG=2021-12-21
 # STATUS=completed
-# VERSION=latest01
-# END_TIME=14:41
+# VERSION=latest02
+# END_TIME=14:15
 
 [time]
 format = "rfc-3339"
 zone = "UTC"
-date = 2021-12-14
-begin = 2021-12-14 13:02:37.325958082+00:00
-start-sync_0 = 14:15:29
-start-zstd = 14:21:27
-start-sync_1 = 14:39:33
-end-sync_1 = 14:41:24
-end = 2021-12-14 14:41:24.477549670+00:00
+date = 2021-12-21
+begin = 2021-12-21 12:49:11.246722160+00:00
+start-sync_0 = 13:54:39
+start-zstd = 13:59:56
+start-sync_1 = 14:14:10
+end-sync_1 = 14:15:50
+end = 2021-12-21 14:15:50.379605205+00:00
 
 [server]
 repo = "cake233/fedora-mate-arm64"
