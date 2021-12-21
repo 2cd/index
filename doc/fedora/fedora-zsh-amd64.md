@@ -2,7 +2,7 @@
 
 ## How to run it?
 
-```shell
+```sh
 docker run \
     -it \
     --name fedora-zsh-amd64 \
@@ -11,8 +11,8 @@ docker run \
 
 ## How to exec shell?
 
-```shell
-    docker exec -it fedora-zsh-amd64 zsh
+```sh
+docker exec -it fedora-zsh-amd64 zsh
 ```
 
 ## fedora-zsh-amd64.toml
@@ -20,7 +20,7 @@ docker run \
 ```toml
 [main]
 name = "fedora"
-tag = ["zsh", "2021-12-14"]
+tag = ["zsh", "2021-12-21"]
 os = "fedora"
 release = "rawhide"
 arch = "amd64"
@@ -28,12 +28,12 @@ platform = "linux/amd64"
 x11_or_wayland = false
 
 [file]
-name = "fedora-zsh_amd64_2021-12-14_12-11.tar.zst"
+name = "fedora-zsh_amd64_2021-12-21_12-10.tar.zst"
 
 version = "0.0.0-alpha.2"
 
 # This value can be used to verify the integrity of the file
-sha256 = "acef679771d1c70f0120d40d557c4e07495e5e1255ef6335091b650a4b2ecd77"
+sha256 = "622acdea92a3b7b64cddeba11c66f1ddfccbfc723bcf0af86354f5173d2aac9c"
 
 # zstd: [1-22]
 zstd-level = 20
@@ -41,49 +41,49 @@ zstd-level = 20
 [file.size]
 # Installed size ≈ tar-size
 # Installed size is approximately equal to the size of the tar file
-tar = "1.2G"
-tar_bytes = 1205944832
+tar = "959M"
+tar_bytes = 1005458944
 
 # Space occupied ≈ tar-size + zstd-size
 # You will need to prepare a large enough space before installation.
-zstd = "215M"
-zstd_bytes = 224542773
+zstd = "163M"
+zstd_bytes = 170876918
 
 [compatibility]
 compatible_mode = true
 
-previous_version = "latest02"
+previous_version = "latest01"
 
 # The value is &str, not int
-previous_date = "20211207"
-previous_tag = "2021-12-07"
-previous_file = "fedora-zsh_amd64_2021-12-07_12-10-rootfs.tar.zst"
-previous_sha256 = "b4f72392c28d5dfcfbbaa0050dd1179253500137e856b6d5e22b83d5fd90c3b2"
+previous_date = "20211214"
+previous_tag = "2021-12-14"
+previous_file = "fedora-zsh_amd64_2021-12-14_12-11-rootfs.tar.zst"
+previous_sha256 = "acef679771d1c70f0120d40d557c4e07495e5e1255ef6335091b650a4b2ecd77"
 
-current_version = "latest01"
-current_date = "20211214"
-old_file = "fedora-zsh-amd64_2021-11-28_21-00-rootfs.tar.zst"
-old_sha256 = ""
+current_version = "latest02"
+current_date = "20211221"
+old_file = "fedora-zsh_amd64_2021-12-07_12-10-rootfs.tar.zst"
+old_sha256 = "b4f72392c28d5dfcfbbaa0050dd1179253500137e856b6d5e22b83d5fd90c3b2"
 # edition 2021
 # DISTRO_NAME=fedora-rawhide_amd64
-# ROOTFS_FILE=fedora-zsh_amd64_2021-12-14_12-11-rootfs.tar.zst
-# SHA256SUM=acef679771d1c70f0120d40d557c4e07495e5e1255ef6335091b650a4b2ecd77
-# BUILD_DATE=20211214
-# BUILD_TAG=2021-12-14
+# ROOTFS_FILE=fedora-zsh_amd64_2021-12-21_12-10-rootfs.tar.zst
+# SHA256SUM=622acdea92a3b7b64cddeba11c66f1ddfccbfc723bcf0af86354f5173d2aac9c
+# BUILD_DATE=20211221
+# BUILD_TAG=2021-12-21
 # STATUS=completed
-# VERSION=latest01
-# END_TIME=12:11
+# VERSION=latest02
+# END_TIME=12:10
 
 [time]
 format = "rfc-3339"
 zone = "UTC"
-date = 2021-12-14
-begin = 2021-12-14 12:02:27.137306334+00:00
-start-sync_0 = 12:04:30
-start-zstd = 12:06:36
-start-sync_1 = 12:10:53
-end-sync_1 = 12:11:12
-end = 2021-12-14 12:11:12.898986974+00:00
+date = 2021-12-21
+begin = 2021-12-21 12:02:28.406865509+00:00
+start-sync_0 = 12:04:53
+start-zstd = 12:06:58
+start-sync_1 = 12:10:22
+end-sync_1 = 12:10:43
+end = 2021-12-21 12:10:43.319692429+00:00
 
 [server]
 repo = "cake233/fedora-zsh-amd64"
