@@ -2,7 +2,7 @@
 
 ## How to run it?
 
-```shell
+```sh
 # install docker
 if [ -z "$(command -v docker)" ]; then
     apt update
@@ -32,7 +32,7 @@ docker run \
 
 ## How to start vnc?
 
-```shell
+```sh
     docker exex -it fedora-kde-arm64 zsh
 ```
 
@@ -42,19 +42,19 @@ After entering the container, you can create a new user, and then switch to it.
 
 Finally, run the following commands.
 
-```shell
+```sh
     startvnc
 ```
 
 or
 
-```shell
+```sh
     startx11vnc
 ```
 
 or
 
-```shell
+```sh
     novnc
 ```
 
@@ -63,7 +63,7 @@ Note:
 If you want to use novnc, then open your browser, and type the address:
 
 ```
-localhost:36081
+http://localhost:36081
 ```
 
 If you want to use tiger/x11vnc, then open vnc viewer, then type the address:
@@ -77,7 +77,7 @@ localhost:5903
 ```toml
 [main]
 name = "fedora"
-tag = ["kde", "2021-12-14"]
+tag = ["kde", "2021-12-21"]
 os = "fedora"
 release = "rawhide"
 arch = "arm64"
@@ -85,12 +85,12 @@ platform = "linux/arm64"
 x11_or_wayland = true
 
 [file]
-name = "fedora-kde_arm64_2021-12-14_14-51.tar.zst"
+name = "fedora-kde_arm64_2021-12-21_14-27.tar.zst"
 
 version = "0.0.0-alpha.2"
 
 # This value can be used to verify the integrity of the file
-sha256 = "0324fec303c89e2da17013884538b59050944c68b883a9ae911cbcd4a69342f7"
+sha256 = "e252bbf752bae93f3ecb3c3c4cbad27744bb38c999e39cf36f2daa9f5bf06fcc"
 
 # zstd: [1-22]
 zstd-level = 18
@@ -99,48 +99,48 @@ zstd-level = 18
 # Installed size ≈ tar-size
 # Installed size is approximately equal to the size of the tar file
 tar = "6.0G"
-tar_bytes = 6394992640
+tar_bytes = 6396139008
 
 # Space occupied ≈ tar-size + zstd-size
 # You will need to prepare a large enough space before installation.
 zstd = "1.7G"
-zstd_bytes = 1736056624
+zstd_bytes = 1738453422
 
 [compatibility]
 compatible_mode = true
 
-previous_version = "latest01"
+previous_version = "latest02"
 
 # The value is &str, not int
-previous_date = "20211207"
-previous_tag = "2021-12-07"
-previous_file = "fedora-kde_arm64_2021-12-07_14-06-rootfs.tar.zst"
-previous_sha256 = "d4a303c1bd96085c8ebfed8a2156a60776bfba01f23948955263c8a69ee6d492"
+previous_date = "20211214"
+previous_tag = "2021-12-14"
+previous_file = "fedora-kde_arm64_2021-12-14_14-51-rootfs.tar.zst"
+previous_sha256 = "0324fec303c89e2da17013884538b59050944c68b883a9ae911cbcd4a69342f7"
 
-current_version = "latest02"
-current_date = "20211214"
-old_file = "fedora-kde_arm64_2021-11-30_17-13-rootfs.tar.zst"
-old_sha256 = ""
+current_version = "latest01"
+current_date = "20211221"
+old_file = "fedora-kde_arm64_2021-12-07_14-06-rootfs.tar.zst"
+old_sha256 = "d4a303c1bd96085c8ebfed8a2156a60776bfba01f23948955263c8a69ee6d492"
 # edition 2021
 # DISTRO_NAME=fedora-rawhide_arm64
-# ROOTFS_FILE=fedora-kde_arm64_2021-12-14_14-51-rootfs.tar.zst
-# SHA256SUM=0324fec303c89e2da17013884538b59050944c68b883a9ae911cbcd4a69342f7
-# BUILD_DATE=20211214
-# BUILD_TAG=2021-12-14
+# ROOTFS_FILE=fedora-kde_arm64_2021-12-21_14-27-rootfs.tar.zst
+# SHA256SUM=e252bbf752bae93f3ecb3c3c4cbad27744bb38c999e39cf36f2daa9f5bf06fcc
+# BUILD_DATE=20211221
+# BUILD_TAG=2021-12-21
 # STATUS=completed
-# VERSION=latest02
-# END_TIME=14:51
+# VERSION=latest01
+# END_TIME=14:27
 
 [time]
 format = "rfc-3339"
 zone = "UTC"
-date = 2021-12-14
-begin = 2021-12-14 13:02:35.907198661+00:00
-start-sync_0 = 14:23:19
-start-zstd = 14:29:32
-start-sync_1 = 14:49:01
-end-sync_1 = 14:51:04
-end = 2021-12-14 14:51:04.969557722+00:00
+date = 2021-12-21
+begin = 2021-12-21 12:49:10.617253517+00:00
+start-sync_0 = 14:03:24
+start-zstd = 14:09:08
+start-sync_1 = 14:25:33
+end-sync_1 = 14:27:31
+end = 2021-12-21 14:27:31.789092299+00:00
 
 [server]
 repo = "cake233/fedora-kde-arm64"
