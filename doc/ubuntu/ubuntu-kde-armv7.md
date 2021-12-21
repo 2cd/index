@@ -2,7 +2,7 @@
 
 ## How to run it?
 
-```shell
+```sh
 # install docker
 if [ -z "$(command -v docker)" ]; then
     apt update
@@ -32,7 +32,7 @@ docker run \
 
 ## How to start vnc?
 
-```shell
+```sh
     docker exex -it ubuntu-kde-armv7 zsh
 ```
 
@@ -42,19 +42,19 @@ After entering the container, you can create a new user, and then switch to it.
 
 Finally, run the following commands.
 
-```shell
+```sh
     startvnc
 ```
 
 or
 
-```shell
+```sh
     startx11vnc
 ```
 
 or
 
-```shell
+```sh
     novnc
 ```
 
@@ -63,7 +63,7 @@ Note:
 If you want to use novnc, then open your browser, and type the address:
 
 ```
-localhost:36081
+http://localhost:36081
 ```
 
 If you want to use tiger/x11vnc, then open vnc viewer, then type the address:
@@ -77,7 +77,7 @@ localhost:5903
 ```toml
 [main]
 name = "ubuntu"
-tag = ["kde", "2021-12-14", "devel"]
+tag = ["kde", "2021-12-21", "devel"]
 os = "ubuntu"
 release = "dev"
 arch = "armhf"
@@ -85,12 +85,12 @@ platform = "linux/arm/v7"
 x11_or_wayland = true
 
 [file]
-name = "ubuntu-kde_armhf_2021-12-14_02-14.tar.zst"
+name = "ubuntu-kde_armhf_2021-12-21_01-16.tar.zst"
 
 version = "0.0.0-alpha.2"
 
 # This value can be used to verify the integrity of the file
-sha256 = "d3cd397f6ecbdb924d721253b771daa7d9ca5e3ec97e0cdf6f7c2ae8c677c185"
+sha256 = "7d98580a78ccc57cb59569811ed93869c63ac40f30bc39194aee3f6e3ffc95c8"
 
 # zstd: [1-22]
 zstd-level = 18
@@ -99,48 +99,48 @@ zstd-level = 18
 # Installed size ≈ tar-size
 # Installed size is approximately equal to the size of the tar file
 tar = "3.0G"
-tar_bytes = 3193079296
+tar_bytes = 3193272320
 
 # Space occupied ≈ tar-size + zstd-size
 # You will need to prepare a large enough space before installation.
 zstd = "1016M"
-zstd_bytes = 1065109628
+zstd_bytes = 1065194498
 
 [compatibility]
 compatible_mode = true
 
-previous_version = "latest01"
+previous_version = "latest02"
 
 # The value is &str, not int
-previous_date = "20211207"
-previous_tag = "2021-12-07"
-previous_file = "ubuntu-kde_armhf_2021-12-07_02-17-rootfs.tar.zst"
-previous_sha256 = "9d9bdcfcdc399a2ad4298b3dcc5f25da742006d2f4c4de78db5058322629fbc1"
+previous_date = "20211214"
+previous_tag = "2021-12-14"
+previous_file = "ubuntu-kde_armhf_2021-12-14_02-14-rootfs.tar.zst"
+previous_sha256 = "d3cd397f6ecbdb924d721253b771daa7d9ca5e3ec97e0cdf6f7c2ae8c677c185"
 
-current_version = "latest02"
-current_date = "20211214"
-old_file = "ubuntu-kde_armhf_2021-11-30_15-19-rootfs.tar.zst"
-old_sha256 = ""
+current_version = "latest01"
+current_date = "20211221"
+old_file = "ubuntu-kde_armhf_2021-12-07_02-17-rootfs.tar.zst"
+old_sha256 = "9d9bdcfcdc399a2ad4298b3dcc5f25da742006d2f4c4de78db5058322629fbc1"
 # edition 2021
 # DISTRO_NAME=ubuntu-dev_armhf
-# ROOTFS_FILE=ubuntu-kde_armhf_2021-12-14_02-14-rootfs.tar.zst
-# SHA256SUM=d3cd397f6ecbdb924d721253b771daa7d9ca5e3ec97e0cdf6f7c2ae8c677c185
-# BUILD_DATE=20211214
-# BUILD_TAG=2021-12-14
+# ROOTFS_FILE=ubuntu-kde_armhf_2021-12-21_01-16-rootfs.tar.zst
+# SHA256SUM=7d98580a78ccc57cb59569811ed93869c63ac40f30bc39194aee3f6e3ffc95c8
+# BUILD_DATE=20211221
+# BUILD_TAG=2021-12-21
 # STATUS=completed
-# VERSION=latest02
-# END_TIME=02:14
+# VERSION=latest01
+# END_TIME=01:16
 
 [time]
 format = "rfc-3339"
 zone = "UTC"
-date = 2021-12-14
-begin = 2021-12-14 00:20:35.072249400+00:00
-start-sync_0 = 02:00:17
-start-zstd = 02:03:26
-start-sync_1 = 02:13:01
-end-sync_1 = 02:14:18
-end = 2021-12-14 02:14:18.556300427+00:00
+date = 2021-12-21
+begin = 2021-12-21 00:20:11.437963464+00:00
+start-sync_0 = 01:03:18
+start-zstd = 01:06:18
+start-sync_1 = 01:15:36
+end-sync_1 = 01:16:51
+end = 2021-12-21 01:16:51.598664246+00:00
 
 [server]
 repo = "cake233/ubuntu-kde-armv7"
