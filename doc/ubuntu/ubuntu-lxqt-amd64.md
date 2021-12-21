@@ -2,7 +2,7 @@
 
 ## How to run it?
 
-```shell
+```sh
 # install docker
 if [ -z "$(command -v docker)" ]; then
     apt update
@@ -32,7 +32,7 @@ docker run \
 
 ## How to start vnc?
 
-```shell
+```sh
     docker exex -it ubuntu-lxqt-amd64 zsh
 ```
 
@@ -42,19 +42,19 @@ After entering the container, you can create a new user, and then switch to it.
 
 Finally, run the following commands.
 
-```shell
+```sh
     startvnc
 ```
 
 or
 
-```shell
+```sh
     startx11vnc
 ```
 
 or
 
-```shell
+```sh
     novnc
 ```
 
@@ -63,7 +63,7 @@ Note:
 If you want to use novnc, then open your browser, and type the address:
 
 ```
-localhost:36081
+http://localhost:36081
 ```
 
 If you want to use tiger/x11vnc, then open vnc viewer, then type the address:
@@ -77,7 +77,7 @@ localhost:5903
 ```toml
 [main]
 name = "ubuntu"
-tag = ["lxqt", "2021-12-14", "devel"]
+tag = ["lxqt", "2021-12-21", "devel"]
 os = "ubuntu"
 release = "dev"
 arch = "amd64"
@@ -85,12 +85,12 @@ platform = "linux/amd64"
 x11_or_wayland = true
 
 [file]
-name = "ubuntu-lxqt_amd64_2021-12-14_00-49.tar.zst"
+name = "ubuntu-lxqt_amd64_2021-12-21_00-38.tar.zst"
 
 version = "0.0.0-alpha.2"
 
 # This value can be used to verify the integrity of the file
-sha256 = "f75b3d21d5dfb3cfc1b5a6fd5044f35b41658d11157d3385b8c0780c6d611b1a"
+sha256 = "031928aea29640619266e91e875fb5a3c714dee31749ef3ec1da09fb3e405018"
 
 # zstd: [1-22]
 zstd-level = 18
@@ -99,48 +99,48 @@ zstd-level = 18
 # Installed size ≈ tar-size
 # Installed size is approximately equal to the size of the tar file
 tar = "3.1G"
-tar_bytes = 3292979200
+tar_bytes = 3293028352
 
 # Space occupied ≈ tar-size + zstd-size
 # You will need to prepare a large enough space before installation.
 zstd = "834M"
-zstd_bytes = 873849870
+zstd_bytes = 873832247
 
 [compatibility]
 compatible_mode = true
 
-previous_version = "latest02"
+previous_version = "latest01"
 
 # The value is &str, not int
-previous_date = "20211207"
-previous_tag = "2021-12-07"
-previous_file = "ubuntu-lxqt_amd64_2021-12-07_00-53-rootfs.tar.zst"
-previous_sha256 = "626c5ef28715780d0d770c2db892bd5325a13c12ce22186d31f365914269d7af"
+previous_date = "20211214"
+previous_tag = "2021-12-14"
+previous_file = "ubuntu-lxqt_amd64_2021-12-14_00-49-rootfs.tar.zst"
+previous_sha256 = "f75b3d21d5dfb3cfc1b5a6fd5044f35b41658d11157d3385b8c0780c6d611b1a"
 
-current_version = "latest01"
-current_date = "20211214"
-old_file = "ubuntu-lxqt_amd64_2021-11-30_14-08-rootfs.tar.zst"
-old_sha256 = ""
+current_version = "latest02"
+current_date = "20211221"
+old_file = "ubuntu-lxqt_amd64_2021-12-07_00-53-rootfs.tar.zst"
+old_sha256 = "626c5ef28715780d0d770c2db892bd5325a13c12ce22186d31f365914269d7af"
 # edition 2021
 # DISTRO_NAME=ubuntu-dev_amd64
-# ROOTFS_FILE=ubuntu-lxqt_amd64_2021-12-14_00-49-rootfs.tar.zst
-# SHA256SUM=f75b3d21d5dfb3cfc1b5a6fd5044f35b41658d11157d3385b8c0780c6d611b1a
-# BUILD_DATE=20211214
-# BUILD_TAG=2021-12-14
+# ROOTFS_FILE=ubuntu-lxqt_amd64_2021-12-21_00-38-rootfs.tar.zst
+# SHA256SUM=031928aea29640619266e91e875fb5a3c714dee31749ef3ec1da09fb3e405018
+# BUILD_DATE=20211221
+# BUILD_TAG=2021-12-21
 # STATUS=completed
-# VERSION=latest01
-# END_TIME=00:49
+# VERSION=latest02
+# END_TIME=00:38
 
 [time]
 format = "rfc-3339"
 zone = "UTC"
-date = 2021-12-14
-begin = 2021-12-14 00:20:38.349938643+00:00
-start-sync_0 = 00:36:04
-start-zstd = 00:39:20
-start-sync_1 = 00:48:56
-end-sync_1 = 00:49:58
-end = 2021-12-14 00:49:58.240142349+00:00
+date = 2021-12-21
+begin = 2021-12-21 00:20:13.767702992+00:00
+start-sync_0 = 00:26:10
+start-zstd = 00:28:51
+start-sync_1 = 00:37:16
+end-sync_1 = 00:38:12
+end = 2021-12-21 00:38:12.227426614+00:00
 
 [server]
 repo = "cake233/ubuntu-lxqt-amd64"
