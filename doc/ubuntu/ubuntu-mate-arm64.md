@@ -2,7 +2,7 @@
 
 ## How to run it?
 
-```shell
+```sh
 # install docker
 if [ -z "$(command -v docker)" ]; then
     apt update
@@ -32,7 +32,7 @@ docker run \
 
 ## How to start vnc?
 
-```shell
+```sh
     docker exex -it ubuntu-mate-arm64 zsh
 ```
 
@@ -42,19 +42,19 @@ After entering the container, you can create a new user, and then switch to it.
 
 Finally, run the following commands.
 
-```shell
+```sh
     startvnc
 ```
 
 or
 
-```shell
+```sh
     startx11vnc
 ```
 
 or
 
-```shell
+```sh
     novnc
 ```
 
@@ -63,7 +63,7 @@ Note:
 If you want to use novnc, then open your browser, and type the address:
 
 ```
-localhost:36081
+http://localhost:36081
 ```
 
 If you want to use tiger/x11vnc, then open vnc viewer, then type the address:
@@ -77,7 +77,7 @@ localhost:5903
 ```toml
 [main]
 name = "ubuntu"
-tag = ["mate", "2021-12-14", "devel"]
+tag = ["mate", "2021-12-21", "devel"]
 os = "ubuntu"
 release = "dev"
 arch = "arm64"
@@ -85,12 +85,12 @@ platform = "linux/arm64"
 x11_or_wayland = true
 
 [file]
-name = "ubuntu-mate_arm64_2021-12-14_02-09.tar.zst"
+name = "ubuntu-mate_arm64_2021-12-21_01-03.tar.zst"
 
 version = "0.0.0-alpha.2"
 
 # This value can be used to verify the integrity of the file
-sha256 = "fd99612021af081b33d11a73a2dde4f30ba0bfbfb9efc62d4eb6fd15f2212345"
+sha256 = "1706cf9dc47cded197e0dc4414eb95a6c3b4d9a45c0e5552d62000767f3efb1b"
 
 # zstd: [1-22]
 zstd-level = 18
@@ -99,48 +99,48 @@ zstd-level = 18
 # Installed size ≈ tar-size
 # Installed size is approximately equal to the size of the tar file
 tar = "3.8G"
-tar_bytes = 4032719872
+tar_bytes = 4032679424
 
 # Space occupied ≈ tar-size + zstd-size
 # You will need to prepare a large enough space before installation.
 zstd = "1000M"
-zstd_bytes = 1048069041
+zstd_bytes = 1048031305
 
 [compatibility]
 compatible_mode = true
 
-previous_version = "latest01"
+previous_version = "latest02"
 
 # The value is &str, not int
-previous_date = "20211207"
-previous_tag = "2021-12-07"
-previous_file = "ubuntu-mate_arm64_2021-12-07_01-42-rootfs.tar.zst"
-previous_sha256 = "fa061212603d64a5ce631899f346620f95aa18406955b0b3130ab1a61ce3e591"
+previous_date = "20211214"
+previous_tag = "2021-12-14"
+previous_file = "ubuntu-mate_arm64_2021-12-14_02-09-rootfs.tar.zst"
+previous_sha256 = "fd99612021af081b33d11a73a2dde4f30ba0bfbfb9efc62d4eb6fd15f2212345"
 
-current_version = "latest02"
-current_date = "20211214"
-old_file = "ubuntu-mate_arm64_2021-11-30_15-03-rootfs.tar.zst"
-old_sha256 = ""
+current_version = "latest01"
+current_date = "20211221"
+old_file = "ubuntu-mate_arm64_2021-12-07_01-42-rootfs.tar.zst"
+old_sha256 = "fa061212603d64a5ce631899f346620f95aa18406955b0b3130ab1a61ce3e591"
 # edition 2021
 # DISTRO_NAME=ubuntu-dev_arm64
-# ROOTFS_FILE=ubuntu-mate_arm64_2021-12-14_02-09-rootfs.tar.zst
-# SHA256SUM=fd99612021af081b33d11a73a2dde4f30ba0bfbfb9efc62d4eb6fd15f2212345
-# BUILD_DATE=20211214
-# BUILD_TAG=2021-12-14
+# ROOTFS_FILE=ubuntu-mate_arm64_2021-12-21_01-03-rootfs.tar.zst
+# SHA256SUM=1706cf9dc47cded197e0dc4414eb95a6c3b4d9a45c0e5552d62000767f3efb1b
+# BUILD_DATE=20211221
+# BUILD_TAG=2021-12-21
 # STATUS=completed
-# VERSION=latest02
-# END_TIME=02:09
+# VERSION=latest01
+# END_TIME=01:03
 
 [time]
 format = "rfc-3339"
 zone = "UTC"
-date = 2021-12-14
-begin = 2021-12-14 00:20:40.661189761+00:00
-start-sync_0 = 01:51:09
-start-zstd = 01:55:31
-start-sync_1 = 02:08:26
-end-sync_1 = 02:09:51
-end = 2021-12-14 02:09:51.532908532+00:00
+date = 2021-12-21
+begin = 2021-12-21 00:20:14.193178147+00:00
+start-sync_0 = 00:49:41
+start-zstd = 00:53:00
+start-sync_1 = 01:02:36
+end-sync_1 = 01:03:47
+end = 2021-12-21 01:03:47.802844501+00:00
 
 [server]
 repo = "cake233/ubuntu-mate-arm64"
