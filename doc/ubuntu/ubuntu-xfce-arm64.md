@@ -2,7 +2,7 @@
 
 ## How to run it?
 
-```shell
+```sh
 # install docker
 if [ -z "$(command -v docker)" ]; then
     apt update
@@ -32,7 +32,7 @@ docker run \
 
 ## How to start vnc?
 
-```shell
+```sh
     docker exex -it ubuntu-xfce-arm64 zsh
 ```
 
@@ -42,19 +42,19 @@ After entering the container, you can create a new user, and then switch to it.
 
 Finally, run the following commands.
 
-```shell
+```sh
     startvnc
 ```
 
 or
 
-```shell
+```sh
     startx11vnc
 ```
 
 or
 
-```shell
+```sh
     novnc
 ```
 
@@ -63,7 +63,7 @@ Note:
 If you want to use novnc, then open your browser, and type the address:
 
 ```
-localhost:36081
+http://localhost:36081
 ```
 
 If you want to use tiger/x11vnc, then open vnc viewer, then type the address:
@@ -77,7 +77,7 @@ localhost:5903
 ```toml
 [main]
 name = "ubuntu"
-tag = ["xfce", "2021-12-14", "devel"]
+tag = ["xfce", "2021-12-21", "devel"]
 os = "ubuntu"
 release = "dev"
 arch = "arm64"
@@ -85,12 +85,12 @@ platform = "linux/arm64"
 x11_or_wayland = true
 
 [file]
-name = "ubuntu-xfce_arm64_2021-12-14_01-38.tar.zst"
+name = "ubuntu-xfce_arm64_2021-12-21_01-04.tar.zst"
 
 version = "0.0.0-alpha.2"
 
 # This value can be used to verify the integrity of the file
-sha256 = "8e56e4c699e29a8995981a798aced532831ddd79e259cd3c19d444d6ca83069c"
+sha256 = "62c4704ddd66b27e02cba27c306b9588897003d5d08f65e2cb5c27621fea16b2"
 
 # zstd: [1-22]
 zstd-level = 18
@@ -99,48 +99,48 @@ zstd-level = 18
 # Installed size ≈ tar-size
 # Installed size is approximately equal to the size of the tar file
 tar = "3.4G"
-tar_bytes = 3563587072
+tar_bytes = 3556785664
 
 # Space occupied ≈ tar-size + zstd-size
 # You will need to prepare a large enough space before installation.
-zstd = "885M"
-zstd_bytes = 927111053
+zstd = "894M"
+zstd_bytes = 936987338
 
 [compatibility]
 compatible_mode = true
 
-previous_version = "latest02"
+previous_version = "latest01"
 
 # The value is &str, not int
-previous_date = "20211207"
-previous_tag = "2021-12-07"
-previous_file = "ubuntu-xfce_arm64_2021-12-07_01-53-rootfs.tar.zst"
-previous_sha256 = "a1f524d4cf3fd60a3f6db2b425b72e803224c4e07a9b4373a92341178152e5e5"
+previous_date = "20211214"
+previous_tag = "2021-12-14"
+previous_file = "ubuntu-xfce_arm64_2021-12-14_01-38-rootfs.tar.zst"
+previous_sha256 = "8e56e4c699e29a8995981a798aced532831ddd79e259cd3c19d444d6ca83069c"
 
-current_version = "latest01"
-current_date = "20211214"
-old_file = "ubuntu-xfce_arm64_2021-11-30_15-03-rootfs.tar.zst"
-old_sha256 = ""
+current_version = "latest02"
+current_date = "20211221"
+old_file = "ubuntu-xfce_arm64_2021-12-07_01-53-rootfs.tar.zst"
+old_sha256 = "a1f524d4cf3fd60a3f6db2b425b72e803224c4e07a9b4373a92341178152e5e5"
 # edition 2021
 # DISTRO_NAME=ubuntu-dev_arm64
-# ROOTFS_FILE=ubuntu-xfce_arm64_2021-12-14_01-38-rootfs.tar.zst
-# SHA256SUM=8e56e4c699e29a8995981a798aced532831ddd79e259cd3c19d444d6ca83069c
-# BUILD_DATE=20211214
-# BUILD_TAG=2021-12-14
+# ROOTFS_FILE=ubuntu-xfce_arm64_2021-12-21_01-04-rootfs.tar.zst
+# SHA256SUM=62c4704ddd66b27e02cba27c306b9588897003d5d08f65e2cb5c27621fea16b2
+# BUILD_DATE=20211221
+# BUILD_TAG=2021-12-21
 # STATUS=completed
-# VERSION=latest01
-# END_TIME=01:38
+# VERSION=latest02
+# END_TIME=01:04
 
 [time]
 format = "rfc-3339"
 zone = "UTC"
-date = 2021-12-14
-begin = 2021-12-14 00:20:37.372747260+00:00
-start-sync_0 = 01:26:42
-start-zstd = 01:29:23
-start-sync_1 = 01:37:48
-end-sync_1 = 01:38:45
-end = 2021-12-14 01:38:45.168832606+00:00
+date = 2021-12-21
+begin = 2021-12-21 00:20:11.010584410+00:00
+start-sync_0 = 00:51:39
+start-zstd = 00:54:20
+start-sync_1 = 01:03:48
+end-sync_1 = 01:04:46
+end = 2021-12-21 01:04:46.305143560+00:00
 
 [server]
 repo = "cake233/ubuntu-xfce-arm64"
