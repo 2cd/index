@@ -2,7 +2,7 @@
 
 ## How to run it?
 
-```shell
+```sh
 # install docker
 if [ -z "$(command -v docker)" ]; then
     apt update
@@ -32,7 +32,7 @@ docker run \
 
 ## How to start vnc?
 
-```shell
+```sh
     docker exex -it debian-xfce-amd64 zsh
 ```
 
@@ -42,19 +42,19 @@ After entering the container, you can create a new user, and then switch to it.
 
 Finally, run the following commands.
 
-```shell
+```sh
     startvnc
 ```
 
 or
 
-```shell
+```sh
     startx11vnc
 ```
 
 or
 
-```shell
+```sh
     novnc
 ```
 
@@ -63,7 +63,7 @@ Note:
 If you want to use novnc, then open your browser, and type the address:
 
 ```
-localhost:36081
+http://localhost:36081
 ```
 
 If you want to use tiger/x11vnc, then open vnc viewer, then type the address:
@@ -77,7 +77,7 @@ localhost:5903
 ```toml
 [main]
 name = "debian"
-tag = ["xfce", "2021-12-15"]
+tag = ["xfce", "2021-12-22"]
 os = "debian"
 release = "sid"
 arch = "amd64"
@@ -85,12 +85,12 @@ platform = "linux/amd64"
 x11_or_wayland = true
 
 [file]
-name = "debian-xfce_amd64_2021-12-15_12-40.tar.zst"
+name = "debian-xfce_amd64_2021-12-22_12-45.tar.zst"
 
 version = "0.0.0-alpha.2"
 
 # This value can be used to verify the integrity of the file
-sha256 = "14622a53acd14c968e63d8ea143730ee2c8c75abede78ed7c0eb5ed7e1b6f9f6"
+sha256 = "7331d1e5399d2e345a3e79ebd3377d215a78b2eb452e3947b644ae5bfd8b45e0"
 
 # zstd: [1-22]
 zstd-level = 18
@@ -99,48 +99,48 @@ zstd-level = 18
 # Installed size ≈ tar-size
 # Installed size is approximately equal to the size of the tar file
 tar = "3.5G"
-tar_bytes = 3661053440
+tar_bytes = 3652484096
 
 # Space occupied ≈ tar-size + zstd-size
 # You will need to prepare a large enough space before installation.
-zstd = "1006M"
-zstd_bytes = 1053899423
+zstd = "998M"
+zstd_bytes = 1045714459
 
 [compatibility]
 compatible_mode = true
 
-previous_version = "latest02"
+previous_version = "latest01"
 
 # The value is &str, not int
-previous_date = "20211208"
-previous_tag = "2021-12-08"
-previous_file = "debian-xfce_amd64_2021-12-08_12-41-rootfs.tar.zst"
-previous_sha256 = "91a3bccc9f19ae7d6924f9f57e671badb9a2080721b59075ce43ae18e7fc3ba4"
+previous_date = "20211215"
+previous_tag = "2021-12-15"
+previous_file = "debian-xfce_amd64_2021-12-15_12-40-rootfs.tar.zst"
+previous_sha256 = "14622a53acd14c968e63d8ea143730ee2c8c75abede78ed7c0eb5ed7e1b6f9f6"
 
-current_version = "latest01"
-current_date = "20211215"
-old_file = "debian-xfce_amd64_2021-12-01_12-39-rootfs.tar.zst"
-old_sha256 = ""
+current_version = "latest02"
+current_date = "20211222"
+old_file = "debian-xfce_amd64_2021-12-08_12-41-rootfs.tar.zst"
+old_sha256 = "91a3bccc9f19ae7d6924f9f57e671badb9a2080721b59075ce43ae18e7fc3ba4"
 # edition 2021
 # DISTRO_NAME=debian-sid_amd64
-# ROOTFS_FILE=debian-xfce_amd64_2021-12-15_12-40-rootfs.tar.zst
-# SHA256SUM=14622a53acd14c968e63d8ea143730ee2c8c75abede78ed7c0eb5ed7e1b6f9f6
-# BUILD_DATE=20211215
-# BUILD_TAG=2021-12-15
+# ROOTFS_FILE=debian-xfce_amd64_2021-12-22_12-45-rootfs.tar.zst
+# SHA256SUM=7331d1e5399d2e345a3e79ebd3377d215a78b2eb452e3947b644ae5bfd8b45e0
+# BUILD_DATE=20211222
+# BUILD_TAG=2021-12-22
 # STATUS=completed
-# VERSION=latest01
-# END_TIME=12:40
+# VERSION=latest02
+# END_TIME=12:45
 
 [time]
 format = "rfc-3339"
 zone = "UTC"
-date = 2021-12-15
-begin = 2021-12-15 12:18:22.818565540+00:00
-start-sync_0 = 12:24:59
-start-zstd = 12:28:35
-start-sync_1 = 12:38:58
-end-sync_1 = 12:40:10
-end = 2021-12-15 12:40:10.826544665+00:00
+date = 2021-12-22
+begin = 2021-12-22 12:23:09.727132558+00:00
+start-sync_0 = 12:29:46
+start-zstd = 12:33:27
+start-sync_1 = 12:44:29
+end-sync_1 = 12:45:45
+end = 2021-12-22 12:45:45.158545486+00:00
 
 [server]
 repo = "cake233/debian-xfce-amd64"
