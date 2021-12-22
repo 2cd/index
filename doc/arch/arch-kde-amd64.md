@@ -2,7 +2,7 @@
 
 ## How to run it?
 
-```shell
+```sh
 # install docker
 if [ -z "$(command -v docker)" ]; then
     apt update
@@ -32,7 +32,7 @@ docker run \
 
 ## How to start vnc?
 
-```shell
+```sh
     docker exex -it arch-kde-amd64 zsh
 ```
 
@@ -42,19 +42,19 @@ After entering the container, you can create a new user, and then switch to it.
 
 Finally, run the following commands.
 
-```shell
+```sh
     startvnc
 ```
 
 or
 
-```shell
+```sh
     startx11vnc
 ```
 
 or
 
-```shell
+```sh
     novnc
 ```
 
@@ -63,7 +63,7 @@ Note:
 If you want to use novnc, then open your browser, and type the address:
 
 ```
-localhost:36081
+http://localhost:36081
 ```
 
 If you want to use tiger/x11vnc, then open vnc viewer, then type the address:
@@ -77,7 +77,7 @@ localhost:5903
 ```toml
 [main]
 name = "arch"
-tag = ["kde", "2021-12-15"]
+tag = ["kde", "2021-12-22"]
 os = "arch"
 release = "latest"
 arch = "amd64"
@@ -85,12 +85,12 @@ platform = "linux/amd64"
 x11_or_wayland = true
 
 [file]
-name = "arch-kde_amd64_2021-12-15_00-41.tar.zst"
+name = "arch-kde_amd64_2021-12-22_00-42.tar.zst"
 
 version = "0.0.0-alpha.2"
 
 # This value can be used to verify the integrity of the file
-sha256 = "e54046688f6c5472a46de132a046dedaa519b935b132f0cd5ccf0944703cbfeb"
+sha256 = "e5b89ba9aba9265784c257f5e6ff60a81efeb79c720dc6bdb2fc852415d3cb9e"
 
 # zstd: [1-22]
 zstd-level = 15
@@ -99,48 +99,48 @@ zstd-level = 15
 # Installed size ≈ tar-size
 # Installed size is approximately equal to the size of the tar file
 tar = "4.4G"
-tar_bytes = 4660781568
+tar_bytes = 4666732544
 
 # Space occupied ≈ tar-size + zstd-size
 # You will need to prepare a large enough space before installation.
 zstd = "1.5G"
-zstd_bytes = 1529458042
+zstd_bytes = 1529780263
 
 [compatibility]
 compatible_mode = true
 
-previous_version = "latest02"
+previous_version = "latest01"
 
 # The value is &str, not int
-previous_date = "20211212"
-previous_tag = "2021-12-12"
-previous_file = "arch-kde_amd64_2021-12-12_06-24-rootfs.tar.zst"
-previous_sha256 = "f918b2ab2486bb59f11abc5982957dbfc876e743ff3e61ce9f2f96fcbb0b52d6"
+previous_date = "20211215"
+previous_tag = "2021-12-15"
+previous_file = "arch-kde_amd64_2021-12-15_00-41-rootfs.tar.zst"
+previous_sha256 = "e54046688f6c5472a46de132a046dedaa519b935b132f0cd5ccf0944703cbfeb"
 
-current_version = "latest01"
-current_date = "20211215"
-old_file = "arch-kde_amd64_2021-12-08_01-49-rootfs.tar.zst"
-old_sha256 = "a6cc7d50142631a280c3663b374e5f0c94c1eecddd8ffa8d0f1836361549eaeb"
+current_version = "latest02"
+current_date = "20211222"
+old_file = "arch-kde_amd64_2021-12-12_06-24-rootfs.tar.zst"
+old_sha256 = "f918b2ab2486bb59f11abc5982957dbfc876e743ff3e61ce9f2f96fcbb0b52d6"
 # edition 2021
 # DISTRO_NAME=arch_amd64
-# ROOTFS_FILE=arch-kde_amd64_2021-12-15_00-41-rootfs.tar.zst
-# SHA256SUM=e54046688f6c5472a46de132a046dedaa519b935b132f0cd5ccf0944703cbfeb
-# BUILD_DATE=20211215
-# BUILD_TAG=2021-12-15
+# ROOTFS_FILE=arch-kde_amd64_2021-12-22_00-42-rootfs.tar.zst
+# SHA256SUM=e5b89ba9aba9265784c257f5e6ff60a81efeb79c720dc6bdb2fc852415d3cb9e
+# BUILD_DATE=20211222
+# BUILD_TAG=2021-12-22
 # STATUS=completed
-# VERSION=latest01
-# END_TIME=00:41
+# VERSION=latest02
+# END_TIME=00:42
 
 [time]
 format = "rfc-3339"
 zone = "UTC"
-date = 2021-12-15
-begin = 2021-12-15 00:21:41.160278034+00:00
-start-sync_0 = 00:27:56
-start-zstd = 00:32:44
-start-sync_1 = 00:39:24
-end-sync_1 = 00:41:01
-end = 2021-12-15 00:41:01.752989759+00:00
+date = 2021-12-22
+begin = 2021-12-22 00:21:28.565415775+00:00
+start-sync_0 = 00:26:51
+start-zstd = 00:33:00
+start-sync_1 = 00:40:31
+end-sync_1 = 00:42:11
+end = 2021-12-22 00:42:11.087502448+00:00
 
 [server]
 repo = "cake233/arch-kde-amd64"
