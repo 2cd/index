@@ -2,7 +2,7 @@
 
 ## How to run it?
 
-```shell
+```sh
 # install docker
 if [ -z "$(command -v docker)" ]; then
     apt update
@@ -32,7 +32,7 @@ docker run \
 
 ## How to start vnc?
 
-```shell
+```sh
     docker exex -it arch-mate-amd64 zsh
 ```
 
@@ -42,19 +42,19 @@ After entering the container, you can create a new user, and then switch to it.
 
 Finally, run the following commands.
 
-```shell
+```sh
     startvnc
 ```
 
 or
 
-```shell
+```sh
     startx11vnc
 ```
 
 or
 
-```shell
+```sh
     novnc
 ```
 
@@ -63,7 +63,7 @@ Note:
 If you want to use novnc, then open your browser, and type the address:
 
 ```
-localhost:36081
+http://localhost:36081
 ```
 
 If you want to use tiger/x11vnc, then open vnc viewer, then type the address:
@@ -77,7 +77,7 @@ localhost:5903
 ```toml
 [main]
 name = "arch"
-tag = ["mate", "2021-12-15"]
+tag = ["mate", "2021-12-22"]
 os = "arch"
 release = "latest"
 arch = "amd64"
@@ -85,12 +85,12 @@ platform = "linux/amd64"
 x11_or_wayland = true
 
 [file]
-name = "arch-mate_amd64_2021-12-15_00-42.tar.zst"
+name = "arch-mate_amd64_2021-12-22_00-39.tar.zst"
 
 version = "0.0.0-alpha.2"
 
 # This value can be used to verify the integrity of the file
-sha256 = "0fdf4baeb5ea9a7da50cfc6cc2f81f8bb229e46758bdd4b87a9c51f45d4dfddd"
+sha256 = "a8a01c71dc74bc3899a34db0208c81bbd236bb46fd3ff3ba4cd021c1a824d7ac"
 
 # zstd: [1-22]
 zstd-level = 15
@@ -99,48 +99,48 @@ zstd-level = 15
 # Installed size ≈ tar-size
 # Installed size is approximately equal to the size of the tar file
 tar = "4.5G"
-tar_bytes = 4758845440
+tar_bytes = 4760491008
 
 # Space occupied ≈ tar-size + zstd-size
 # You will need to prepare a large enough space before installation.
 zstd = "1.4G"
-zstd_bytes = 1461388281
+zstd_bytes = 1461202282
 
 [compatibility]
 compatible_mode = true
 
-previous_version = "latest02"
+previous_version = "latest01"
 
 # The value is &str, not int
-previous_date = "20211212"
-previous_tag = "2021-12-12"
-previous_file = "arch-mate_amd64_2021-12-12_06-25-rootfs.tar.zst"
-previous_sha256 = "e04f1fc26f1edb12800611fad14b36e280e0f5f320b28661230dffa7fae65b46"
+previous_date = "20211215"
+previous_tag = "2021-12-15"
+previous_file = "arch-mate_amd64_2021-12-15_00-42-rootfs.tar.zst"
+previous_sha256 = "0fdf4baeb5ea9a7da50cfc6cc2f81f8bb229e46758bdd4b87a9c51f45d4dfddd"
 
-current_version = "latest01"
-current_date = "20211215"
-old_file = "arch-mate_amd64_2021-12-08_01-48-rootfs.tar.zst"
-old_sha256 = "39b92bbdf48c3544f5480b6ff07e83ae763a15562fb3d826f4e6f4bd3b553e35"
+current_version = "latest02"
+current_date = "20211222"
+old_file = "arch-mate_amd64_2021-12-12_06-25-rootfs.tar.zst"
+old_sha256 = "e04f1fc26f1edb12800611fad14b36e280e0f5f320b28661230dffa7fae65b46"
 # edition 2021
 # DISTRO_NAME=arch_amd64
-# ROOTFS_FILE=arch-mate_amd64_2021-12-15_00-42-rootfs.tar.zst
-# SHA256SUM=0fdf4baeb5ea9a7da50cfc6cc2f81f8bb229e46758bdd4b87a9c51f45d4dfddd
-# BUILD_DATE=20211215
-# BUILD_TAG=2021-12-15
+# ROOTFS_FILE=arch-mate_amd64_2021-12-22_00-39-rootfs.tar.zst
+# SHA256SUM=a8a01c71dc74bc3899a34db0208c81bbd236bb46fd3ff3ba4cd021c1a824d7ac
+# BUILD_DATE=20211222
+# BUILD_TAG=2021-12-22
 # STATUS=completed
-# VERSION=latest01
-# END_TIME=00:42
+# VERSION=latest02
+# END_TIME=00:39
 
 [time]
 format = "rfc-3339"
 zone = "UTC"
-date = 2021-12-15
-begin = 2021-12-15 00:21:37.784390899+00:00
-start-sync_0 = 00:27:59
-start-zstd = 00:33:46
-start-sync_1 = 00:40:57
-end-sync_1 = 00:42:36
-end = 2021-12-15 00:42:36.685902202+00:00
+date = 2021-12-22
+begin = 2021-12-22 00:21:27.710717186+00:00
+start-sync_0 = 00:26:08
+start-zstd = 00:31:00
+start-sync_1 = 00:37:58
+end-sync_1 = 00:39:26
+end = 2021-12-22 00:39:26.451569861+00:00
 
 [server]
 repo = "cake233/arch-mate-amd64"
