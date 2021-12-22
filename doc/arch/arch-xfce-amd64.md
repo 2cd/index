@@ -2,7 +2,7 @@
 
 ## How to run it?
 
-```shell
+```sh
 # install docker
 if [ -z "$(command -v docker)" ]; then
     apt update
@@ -32,7 +32,7 @@ docker run \
 
 ## How to start vnc?
 
-```shell
+```sh
     docker exex -it arch-xfce-amd64 zsh
 ```
 
@@ -42,19 +42,19 @@ After entering the container, you can create a new user, and then switch to it.
 
 Finally, run the following commands.
 
-```shell
+```sh
     startvnc
 ```
 
 or
 
-```shell
+```sh
     startx11vnc
 ```
 
 or
 
-```shell
+```sh
     novnc
 ```
 
@@ -63,7 +63,7 @@ Note:
 If you want to use novnc, then open your browser, and type the address:
 
 ```
-localhost:36081
+http://localhost:36081
 ```
 
 If you want to use tiger/x11vnc, then open vnc viewer, then type the address:
@@ -77,7 +77,7 @@ localhost:5903
 ```toml
 [main]
 name = "arch"
-tag = ["xfce", "2021-12-15"]
+tag = ["xfce", "2021-12-22"]
 os = "arch"
 release = "latest"
 arch = "amd64"
@@ -85,12 +85,12 @@ platform = "linux/amd64"
 x11_or_wayland = true
 
 [file]
-name = "arch-xfce_amd64_2021-12-15_00-37.tar.zst"
+name = "arch-xfce_amd64_2021-12-22_00-37.tar.zst"
 
 version = "0.0.0-alpha.2"
 
 # This value can be used to verify the integrity of the file
-sha256 = "5ae81c88cbca2bd5175546c7d519b17f11b33b91e991171bd97f3670a63fb50c"
+sha256 = "8d097033738eef711d96e02a54f351cb2edac21e23e4b73b6903a52d793fd09c"
 
 # zstd: [1-22]
 zstd-level = 15
@@ -99,48 +99,48 @@ zstd-level = 15
 # Installed size ≈ tar-size
 # Installed size is approximately equal to the size of the tar file
 tar = "3.6G"
-tar_bytes = 3840479744
+tar_bytes = 3844147200
 
 # Space occupied ≈ tar-size + zstd-size
 # You will need to prepare a large enough space before installation.
 zstd = "1.2G"
-zstd_bytes = 1266680394
+zstd_bytes = 1264975567
 
 [compatibility]
 compatible_mode = true
 
-previous_version = "latest02"
+previous_version = "latest01"
 
 # The value is &str, not int
-previous_date = "20211212"
-previous_tag = "2021-12-12"
-previous_file = "arch-xfce_amd64_2021-12-12_06-24-rootfs.tar.zst"
-previous_sha256 = "6fcc1112b965cff421962cb1bd3dfafb89c247cf3bad7301a4f0de1a765664dc"
+previous_date = "20211215"
+previous_tag = "2021-12-15"
+previous_file = "arch-xfce_amd64_2021-12-15_00-37-rootfs.tar.zst"
+previous_sha256 = "5ae81c88cbca2bd5175546c7d519b17f11b33b91e991171bd97f3670a63fb50c"
 
-current_version = "latest01"
-current_date = "20211215"
-old_file = "arch-xfce_amd64_2021-12-08_01-45-rootfs.tar.zst"
-old_sha256 = "6c27e4f9cc07339f5f82229d0c9e6b1764e1ad30cc811c8974abc030ebf46c10"
+current_version = "latest02"
+current_date = "20211222"
+old_file = "arch-xfce_amd64_2021-12-12_06-24-rootfs.tar.zst"
+old_sha256 = "6fcc1112b965cff421962cb1bd3dfafb89c247cf3bad7301a4f0de1a765664dc"
 # edition 2021
 # DISTRO_NAME=arch_amd64
-# ROOTFS_FILE=arch-xfce_amd64_2021-12-15_00-37-rootfs.tar.zst
-# SHA256SUM=5ae81c88cbca2bd5175546c7d519b17f11b33b91e991171bd97f3670a63fb50c
-# BUILD_DATE=20211215
-# BUILD_TAG=2021-12-15
+# ROOTFS_FILE=arch-xfce_amd64_2021-12-22_00-37-rootfs.tar.zst
+# SHA256SUM=8d097033738eef711d96e02a54f351cb2edac21e23e4b73b6903a52d793fd09c
+# BUILD_DATE=20211222
+# BUILD_TAG=2021-12-22
 # STATUS=completed
-# VERSION=latest01
+# VERSION=latest02
 # END_TIME=00:37
 
 [time]
 format = "rfc-3339"
 zone = "UTC"
-date = 2021-12-15
-begin = 2021-12-15 00:21:42.506611207+00:00
-start-sync_0 = 00:28:06
-start-zstd = 00:31:33
-start-sync_1 = 00:36:37
-end-sync_1 = 00:37:53
-end = 2021-12-15 00:37:53.590518114+00:00
+date = 2021-12-22
+begin = 2021-12-22 00:21:29.148755155+00:00
+start-sync_0 = 00:26:53
+start-zstd = 00:31:00
+start-sync_1 = 00:36:34
+end-sync_1 = 00:37:59
+end = 2021-12-22 00:37:59.741316893+00:00
 
 [server]
 repo = "cake233/arch-xfce-amd64"
