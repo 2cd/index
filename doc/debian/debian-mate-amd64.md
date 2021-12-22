@@ -2,7 +2,7 @@
 
 ## How to run it?
 
-```shell
+```sh
 # install docker
 if [ -z "$(command -v docker)" ]; then
     apt update
@@ -32,7 +32,7 @@ docker run \
 
 ## How to start vnc?
 
-```shell
+```sh
     docker exex -it debian-mate-amd64 zsh
 ```
 
@@ -42,19 +42,19 @@ After entering the container, you can create a new user, and then switch to it.
 
 Finally, run the following commands.
 
-```shell
+```sh
     startvnc
 ```
 
 or
 
-```shell
+```sh
     startx11vnc
 ```
 
 or
 
-```shell
+```sh
     novnc
 ```
 
@@ -63,7 +63,7 @@ Note:
 If you want to use novnc, then open your browser, and type the address:
 
 ```
-localhost:36081
+http://localhost:36081
 ```
 
 If you want to use tiger/x11vnc, then open vnc viewer, then type the address:
@@ -77,7 +77,7 @@ localhost:5903
 ```toml
 [main]
 name = "debian"
-tag = ["mate", "2021-12-15"]
+tag = ["mate", "2021-12-22"]
 os = "debian"
 release = "sid"
 arch = "amd64"
@@ -85,12 +85,12 @@ platform = "linux/amd64"
 x11_or_wayland = true
 
 [file]
-name = "debian-mate_amd64_2021-12-15_12-39.tar.zst"
+name = "debian-mate_amd64_2021-12-22_12-45.tar.zst"
 
 version = "0.0.0-alpha.2"
 
 # This value can be used to verify the integrity of the file
-sha256 = "b1e384cc4c4e7884d5611b58a603375732e54526f46a69265a12553c16fbeae2"
+sha256 = "8b16f344834415a813b96d4974ede0f5b81f02b7c05fd4fed2b708116e73f036"
 
 # zstd: [1-22]
 zstd-level = 18
@@ -99,48 +99,48 @@ zstd-level = 18
 # Installed size ≈ tar-size
 # Installed size is approximately equal to the size of the tar file
 tar = "3.7G"
-tar_bytes = 3940944896
+tar_bytes = 3941972992
 
 # Space occupied ≈ tar-size + zstd-size
 # You will need to prepare a large enough space before installation.
 zstd = "1.1G"
-zstd_bytes = 1078583164
+zstd_bytes = 1079269392
 
 [compatibility]
 compatible_mode = true
 
-previous_version = "latest01"
+previous_version = "latest02"
 
 # The value is &str, not int
-previous_date = "20211208"
-previous_tag = "2021-12-08"
-previous_file = "debian-mate_amd64_2021-12-08_12-43-rootfs.tar.zst"
-previous_sha256 = "5556c41ff6d8cf2d20d2d2533e1c0e1aeccf2b70cb4aff9e89185947b23ff1a9"
+previous_date = "20211215"
+previous_tag = "2021-12-15"
+previous_file = "debian-mate_amd64_2021-12-15_12-39-rootfs.tar.zst"
+previous_sha256 = "b1e384cc4c4e7884d5611b58a603375732e54526f46a69265a12553c16fbeae2"
 
-current_version = "latest02"
-current_date = "20211215"
-old_file = "debian-mate_amd64_2021-12-01_12-43-rootfs.tar.zst"
-old_sha256 = ""
+current_version = "latest01"
+current_date = "20211222"
+old_file = "debian-mate_amd64_2021-12-08_12-43-rootfs.tar.zst"
+old_sha256 = "5556c41ff6d8cf2d20d2d2533e1c0e1aeccf2b70cb4aff9e89185947b23ff1a9"
 # edition 2021
 # DISTRO_NAME=debian-sid_amd64
-# ROOTFS_FILE=debian-mate_amd64_2021-12-15_12-39-rootfs.tar.zst
-# SHA256SUM=b1e384cc4c4e7884d5611b58a603375732e54526f46a69265a12553c16fbeae2
-# BUILD_DATE=20211215
-# BUILD_TAG=2021-12-15
+# ROOTFS_FILE=debian-mate_amd64_2021-12-22_12-45-rootfs.tar.zst
+# SHA256SUM=8b16f344834415a813b96d4974ede0f5b81f02b7c05fd4fed2b708116e73f036
+# BUILD_DATE=20211222
+# BUILD_TAG=2021-12-22
 # STATUS=completed
-# VERSION=latest02
-# END_TIME=12:39
+# VERSION=latest01
+# END_TIME=12:45
 
 [time]
 format = "rfc-3339"
 zone = "UTC"
-date = 2021-12-15
-begin = 2021-12-15 12:18:24.038617812+00:00
-start-sync_0 = 12:24:20
-start-zstd = 12:27:47
-start-sync_1 = 12:38:09
-end-sync_1 = 12:39:17
-end = 2021-12-15 12:39:17.579157003+00:00
+date = 2021-12-22
+begin = 2021-12-22 12:23:09.146787661+00:00
+start-sync_0 = 12:29:21
+start-zstd = 12:33:23
+start-sync_1 = 12:44:33
+end-sync_1 = 12:45:48
+end = 2021-12-22 12:45:48.089869330+00:00
 
 [server]
 repo = "cake233/debian-mate-amd64"
