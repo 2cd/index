@@ -2,7 +2,7 @@
 
 ## How to run it?
 
-```shell
+```sh
 # install docker
 if [ -z "$(command -v docker)" ]; then
     apt update
@@ -32,7 +32,7 @@ docker run \
 
 ## How to start vnc?
 
-```shell
+```sh
     docker exex -it arch-mate-arm64 zsh
 ```
 
@@ -42,19 +42,19 @@ After entering the container, you can create a new user, and then switch to it.
 
 Finally, run the following commands.
 
-```shell
+```sh
     startvnc
 ```
 
 or
 
-```shell
+```sh
     startx11vnc
 ```
 
 or
 
-```shell
+```sh
     novnc
 ```
 
@@ -63,7 +63,7 @@ Note:
 If you want to use novnc, then open your browser, and type the address:
 
 ```
-localhost:36081
+http://localhost:36081
 ```
 
 If you want to use tiger/x11vnc, then open vnc viewer, then type the address:
@@ -77,7 +77,7 @@ localhost:5903
 ```toml
 [main]
 name = "arch"
-tag = ["mate", "2021-12-15"]
+tag = ["mate", "2021-12-22"]
 os = "arch"
 release = "latest"
 arch = "arm64"
@@ -85,12 +85,12 @@ platform = "linux/arm64"
 x11_or_wayland = true
 
 [file]
-name = "arch-mate_arm64_2021-12-15_00-57.tar.zst"
+name = "arch-mate_arm64_2021-12-22_01-03.tar.zst"
 
 version = "0.0.0-alpha.2"
 
 # This value can be used to verify the integrity of the file
-sha256 = "70ee6347704643f04377d6daf5873f61b5f0889d5612660ba65b36111fc95768"
+sha256 = "97c77529f6a510d11438fbd988695043ff44122f4a0af63e38474caca1177277"
 
 # zstd: [1-22]
 zstd-level = 15
@@ -99,48 +99,48 @@ zstd-level = 15
 # Installed size ≈ tar-size
 # Installed size is approximately equal to the size of the tar file
 tar = "4.9G"
-tar_bytes = 5260467712
+tar_bytes = 5260235264
 
 # Space occupied ≈ tar-size + zstd-size
 # You will need to prepare a large enough space before installation.
 zstd = "1.5G"
-zstd_bytes = 1574131364
+zstd_bytes = 1574071121
 
 [compatibility]
 compatible_mode = true
 
-previous_version = "latest02"
+previous_version = "latest01"
 
 # The value is &str, not int
-previous_date = "20211212"
-previous_tag = "2021-12-12"
-previous_file = "arch-mate_arm64_2021-12-12_06-40-rootfs.tar.zst"
-previous_sha256 = "b9637d5677c2d8637b7b3332716171ba202b4508dd080af4bbe78e564c4f8970"
+previous_date = "20211215"
+previous_tag = "2021-12-15"
+previous_file = "arch-mate_arm64_2021-12-15_00-57-rootfs.tar.zst"
+previous_sha256 = "70ee6347704643f04377d6daf5873f61b5f0889d5612660ba65b36111fc95768"
 
-current_version = "latest01"
-current_date = "20211215"
-old_file = "arch-mate_arm64_2021-12-08_02-03-rootfs.tar.zst"
-old_sha256 = "0f668ce6f5c3fa8dbc485004c8109ed4ff1202a91e1261eeafe20cd4555502f7"
+current_version = "latest02"
+current_date = "20211222"
+old_file = "arch-mate_arm64_2021-12-12_06-40-rootfs.tar.zst"
+old_sha256 = "b9637d5677c2d8637b7b3332716171ba202b4508dd080af4bbe78e564c4f8970"
 # edition 2021
 # DISTRO_NAME=arch_arm64
-# ROOTFS_FILE=arch-mate_arm64_2021-12-15_00-57-rootfs.tar.zst
-# SHA256SUM=70ee6347704643f04377d6daf5873f61b5f0889d5612660ba65b36111fc95768
-# BUILD_DATE=20211215
-# BUILD_TAG=2021-12-15
+# ROOTFS_FILE=arch-mate_arm64_2021-12-22_01-03-rootfs.tar.zst
+# SHA256SUM=97c77529f6a510d11438fbd988695043ff44122f4a0af63e38474caca1177277
+# BUILD_DATE=20211222
+# BUILD_TAG=2021-12-22
 # STATUS=completed
-# VERSION=latest01
-# END_TIME=00:57
+# VERSION=latest02
+# END_TIME=01:03
 
 [time]
 format = "rfc-3339"
 zone = "UTC"
-date = 2021-12-15
-begin = 2021-12-15 00:21:40.041799980+00:00
-start-sync_0 = 00:41:52
-start-zstd = 00:48:12
-start-sync_1 = 00:55:33
-end-sync_1 = 00:57:20
-end = 2021-12-15 00:57:20.390949063+00:00
+date = 2021-12-22
+begin = 2021-12-22 00:21:31.073785142+00:00
+start-sync_0 = 00:46:03
+start-zstd = 00:52:44
+start-sync_1 = 01:01:39
+end-sync_1 = 01:03:33
+end = 2021-12-22 01:03:33.910700828+00:00
 
 [server]
 repo = "cake233/arch-mate-arm64"
