@@ -2,7 +2,7 @@
 
 ## How to run it?
 
-```shell
+```sh
 # install docker
 if [ -z "$(command -v docker)" ]; then
     apt update
@@ -32,7 +32,7 @@ docker run \
 
 ## How to start vnc?
 
-```shell
+```sh
     docker exex -it debian-lxde-armv7 zsh
 ```
 
@@ -42,19 +42,19 @@ After entering the container, you can create a new user, and then switch to it.
 
 Finally, run the following commands.
 
-```shell
+```sh
     startvnc
 ```
 
 or
 
-```shell
+```sh
     startx11vnc
 ```
 
 or
 
-```shell
+```sh
     novnc
 ```
 
@@ -63,7 +63,7 @@ Note:
 If you want to use novnc, then open your browser, and type the address:
 
 ```
-localhost:36081
+http://localhost:36081
 ```
 
 If you want to use tiger/x11vnc, then open vnc viewer, then type the address:
@@ -77,7 +77,7 @@ localhost:5903
 ```toml
 [main]
 name = "debian"
-tag = ["lxde", "2021-12-15"]
+tag = ["lxde", "2021-12-22"]
 os = "debian"
 release = "sid"
 arch = "armhf"
@@ -85,12 +85,12 @@ platform = "linux/arm/v7"
 x11_or_wayland = true
 
 [file]
-name = "debian-lxde_armhf_2021-12-15_12-59.tar.zst"
+name = "debian-lxde_armhf_2021-12-22_13-01.tar.zst"
 
 version = "0.0.0-alpha.2"
 
 # This value can be used to verify the integrity of the file
-sha256 = "a6d81780a4a1d444e2e8ec7706476deae1c191a55e971a401aca0d6113001ae3"
+sha256 = "6008556433f14ac2028f24eb26dcad3b6fcd8285fa5da8c6790664f6629f95f1"
 
 # zstd: [1-22]
 zstd-level = 18
@@ -99,48 +99,48 @@ zstd-level = 18
 # Installed size ≈ tar-size
 # Installed size is approximately equal to the size of the tar file
 tar = "2.6G"
-tar_bytes = 2748892672
+tar_bytes = 2749799424
 
 # Space occupied ≈ tar-size + zstd-size
 # You will need to prepare a large enough space before installation.
-zstd = "876M"
-zstd_bytes = 918284587
+zstd = "877M"
+zstd_bytes = 918716687
 
 [compatibility]
 compatible_mode = true
 
-previous_version = "latest02"
+previous_version = "latest01"
 
 # The value is &str, not int
-previous_date = "20211208"
-previous_tag = "2021-12-08"
-previous_file = "debian-lxde_armhf_2021-12-08_12-57-rootfs.tar.zst"
-previous_sha256 = "f0c8058a93d48bbbc607fef98407df9ed97ce50303fbe3006710ba16e6316b6f"
+previous_date = "20211215"
+previous_tag = "2021-12-15"
+previous_file = "debian-lxde_armhf_2021-12-15_12-59-rootfs.tar.zst"
+previous_sha256 = "a6d81780a4a1d444e2e8ec7706476deae1c191a55e971a401aca0d6113001ae3"
 
-current_version = "latest01"
-current_date = "20211215"
-old_file = "debian-lxde_armhf_2021-12-01_12-57-rootfs.tar.zst"
-old_sha256 = ""
+current_version = "latest02"
+current_date = "20211222"
+old_file = "debian-lxde_armhf_2021-12-08_12-57-rootfs.tar.zst"
+old_sha256 = "f0c8058a93d48bbbc607fef98407df9ed97ce50303fbe3006710ba16e6316b6f"
 # edition 2021
 # DISTRO_NAME=debian-sid_armhf
-# ROOTFS_FILE=debian-lxde_armhf_2021-12-15_12-59-rootfs.tar.zst
-# SHA256SUM=a6d81780a4a1d444e2e8ec7706476deae1c191a55e971a401aca0d6113001ae3
-# BUILD_DATE=20211215
-# BUILD_TAG=2021-12-15
+# ROOTFS_FILE=debian-lxde_armhf_2021-12-22_13-01-rootfs.tar.zst
+# SHA256SUM=6008556433f14ac2028f24eb26dcad3b6fcd8285fa5da8c6790664f6629f95f1
+# BUILD_DATE=20211222
+# BUILD_TAG=2021-12-22
 # STATUS=completed
-# VERSION=latest01
-# END_TIME=12:59
+# VERSION=latest02
+# END_TIME=13:01
 
 [time]
 format = "rfc-3339"
 zone = "UTC"
-date = 2021-12-15
-begin = 2021-12-15 12:18:23.699034640+00:00
-start-sync_0 = 12:49:02
-start-zstd = 12:51:11
-start-sync_1 = 12:58:26
-end-sync_1 = 12:59:28
-end = 2021-12-15 12:59:28.435658285+00:00
+date = 2021-12-22
+begin = 2021-12-22 12:23:11.208166991+00:00
+start-sync_0 = 12:51:51
+start-zstd = 12:53:47
+start-sync_1 = 13:00:05
+end-sync_1 = 13:01:01
+end = 2021-12-22 13:01:01.506534449+00:00
 
 [server]
 repo = "cake233/debian-lxde-armv7"
