@@ -2,7 +2,7 @@
 
 ## How to run it?
 
-```shell
+```sh
 docker run \
     -it \
     --name alpine-zsh-amd64 \
@@ -11,8 +11,8 @@ docker run \
 
 ## How to exec shell?
 
-```shell
-    docker exec -it alpine-zsh-amd64 zsh
+```sh
+docker exec -it alpine-zsh-amd64 zsh
 ```
 
 ## alpine-zsh-amd64.toml
@@ -20,7 +20,7 @@ docker run \
 ```toml
 [main]
 name = "alpine"
-tag = ["zsh", "2021-12-16"]
+tag = ["zsh", "2021-12-23"]
 os = "alpine"
 release = "edge"
 arch = "amd64"
@@ -28,12 +28,12 @@ platform = "linux/amd64"
 x11_or_wayland = false
 
 [file]
-name = "alpine-zsh_amd64_2021-12-16_00-05.tar.zst"
+name = "alpine-zsh_amd64_2021-12-23_00-05.tar.zst"
 
 version = "0.0.0-alpha.2"
 
 # This value can be used to verify the integrity of the file
-sha256 = "eb85c7e8cb8ae7fd8de7d004e650a71437328ae9962f3dba968ec7b8ab337cde"
+sha256 = "854e62cdc4bf728d180933c77f870eecc1fce5aad48d2b6004d9f621e6172fa0"
 
 # zstd: [1-22]
 zstd-level = 20
@@ -41,49 +41,49 @@ zstd-level = 20
 [file.size]
 # Installed size ≈ tar-size
 # Installed size is approximately equal to the size of the tar file
-tar = "92M"
-tar_bytes = 95661568
+tar = "91M"
+tar_bytes = 95333376
 
 # Space occupied ≈ tar-size + zstd-size
 # You will need to prepare a large enough space before installation.
 zstd = "27M"
-zstd_bytes = 27343812
+zstd_bytes = 27294063
 
 [compatibility]
 compatible_mode = true
 
-previous_version = "latest01"
+previous_version = "latest02"
 
 # The value is &str, not int
-previous_date = "20211209"
-previous_tag = "2021-12-09"
-previous_file = "alpine-zsh_amd64_2021-12-09_00-04-rootfs.tar.zst"
-previous_sha256 = "d7ea180f6b1f84469bde60ed0b88c8f10048c711c4159d2525827fffc14063db"
+previous_date = "20211216"
+previous_tag = "2021-12-16"
+previous_file = "alpine-zsh_amd64_2021-12-16_00-05-rootfs.tar.zst"
+previous_sha256 = "eb85c7e8cb8ae7fd8de7d004e650a71437328ae9962f3dba968ec7b8ab337cde"
 
-current_version = "latest02"
-current_date = "20211216"
-old_file = "alpine-zsh_amd64_2021-12-02_00-04-rootfs.tar.zst"
-old_sha256 = ""
+current_version = "latest01"
+current_date = "20211223"
+old_file = "alpine-zsh_amd64_2021-12-09_00-04-rootfs.tar.zst"
+old_sha256 = "d7ea180f6b1f84469bde60ed0b88c8f10048c711c4159d2525827fffc14063db"
 # edition 2021
 # DISTRO_NAME=alpine-edge_amd64
-# ROOTFS_FILE=alpine-zsh_amd64_2021-12-16_00-05-rootfs.tar.zst
-# SHA256SUM=eb85c7e8cb8ae7fd8de7d004e650a71437328ae9962f3dba968ec7b8ab337cde
-# BUILD_DATE=20211216
-# BUILD_TAG=2021-12-16
+# ROOTFS_FILE=alpine-zsh_amd64_2021-12-23_00-05-rootfs.tar.zst
+# SHA256SUM=854e62cdc4bf728d180933c77f870eecc1fce5aad48d2b6004d9f621e6172fa0
+# BUILD_DATE=20211223
+# BUILD_TAG=2021-12-23
 # STATUS=completed
-# VERSION=latest02
+# VERSION=latest01
 # END_TIME=00:05
 
 [time]
 format = "rfc-3339"
 zone = "UTC"
-date = 2021-12-16
-begin = 2021-12-16 00:02:26.938449742+00:00
+date = 2021-12-23
+begin = 2021-12-23 00:02:27.404460251+00:00
 start-sync_0 = 00:03:01
-start-zstd = 00:04:26
-start-sync_1 = 00:05:00
-end-sync_1 = 00:05:10
-end = 2021-12-16 00:05:10.332450456+00:00
+start-zstd = 00:04:22
+start-sync_1 = 00:04:57
+end-sync_1 = 00:05:05
+end = 2021-12-23 00:05:05.094742045+00:00
 
 [server]
 repo = "cake233/alpine-zsh-amd64"
@@ -118,6 +118,6 @@ current = true
 LANG = "C.UTF-8"
 
 [version]
-ldd = ''
+ldd = 'musl libc (x86_64) Version 1.2.2'
 zsh = 'zsh 5.8 (x86_64-alpine-linux-musl)'
 ```
