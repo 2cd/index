@@ -2,7 +2,7 @@
 
 ## How to run it?
 
-```shell
+```sh
 docker run \
     -it \
     --name alpine-zsh-386 \
@@ -11,8 +11,8 @@ docker run \
 
 ## How to exec shell?
 
-```shell
-    docker exec -it alpine-zsh-386 zsh
+```sh
+docker exec -it alpine-zsh-386 zsh
 ```
 
 ## alpine-zsh-386.toml
@@ -20,7 +20,7 @@ docker run \
 ```toml
 [main]
 name = "alpine"
-tag = ["zsh", "2021-12-16"]
+tag = ["zsh", "2021-12-23"]
 os = "alpine"
 release = "edge"
 arch = "i386"
@@ -28,12 +28,12 @@ platform = "linux/386"
 x11_or_wayland = false
 
 [file]
-name = "alpine-zsh_i386_2021-12-16_00-05.tar.zst"
+name = "alpine-zsh_i386_2021-12-23_00-05.tar.zst"
 
 version = "0.0.0-alpha.2"
 
 # This value can be used to verify the integrity of the file
-sha256 = "f4187015aeb3fcebb7b1973bffffa712fd7876dba38d42f06d0cf6f6fba4231f"
+sha256 = "5bdb5ebaf2d68a6e5678ae4705cb127e0b454fd1bb763c679ab0014c813229da"
 
 # zstd: [1-22]
 zstd-level = 20
@@ -42,48 +42,48 @@ zstd-level = 20
 # Installed size ≈ tar-size
 # Installed size is approximately equal to the size of the tar file
 tar = "93M"
-tar_bytes = 97113600
+tar_bytes = 96803328
 
 # Space occupied ≈ tar-size + zstd-size
 # You will need to prepare a large enough space before installation.
 zstd = "27M"
-zstd_bytes = 28234043
+zstd_bytes = 28204490
 
 [compatibility]
 compatible_mode = true
 
-previous_version = "latest02"
+previous_version = "latest01"
 
 # The value is &str, not int
-previous_date = "20211209"
-previous_tag = "2021-12-09"
-previous_file = "alpine-zsh_i386_2021-12-09_00-05-rootfs.tar.zst"
-previous_sha256 = "cf741eb1de339a464bee94f3c00900e3dada76ba0f2fe7d15031891992f68f7b"
+previous_date = "20211216"
+previous_tag = "2021-12-16"
+previous_file = "alpine-zsh_i386_2021-12-16_00-05-rootfs.tar.zst"
+previous_sha256 = "f4187015aeb3fcebb7b1973bffffa712fd7876dba38d42f06d0cf6f6fba4231f"
 
-current_version = "latest01"
-current_date = "20211216"
-old_file = "alpine-zsh_i386_2021-12-02_00-05-rootfs.tar.zst"
-old_sha256 = ""
+current_version = "latest02"
+current_date = "20211223"
+old_file = "alpine-zsh_i386_2021-12-09_00-05-rootfs.tar.zst"
+old_sha256 = "cf741eb1de339a464bee94f3c00900e3dada76ba0f2fe7d15031891992f68f7b"
 # edition 2021
 # DISTRO_NAME=alpine-edge_i386
-# ROOTFS_FILE=alpine-zsh_i386_2021-12-16_00-05-rootfs.tar.zst
-# SHA256SUM=f4187015aeb3fcebb7b1973bffffa712fd7876dba38d42f06d0cf6f6fba4231f
-# BUILD_DATE=20211216
-# BUILD_TAG=2021-12-16
+# ROOTFS_FILE=alpine-zsh_i386_2021-12-23_00-05-rootfs.tar.zst
+# SHA256SUM=5bdb5ebaf2d68a6e5678ae4705cb127e0b454fd1bb763c679ab0014c813229da
+# BUILD_DATE=20211223
+# BUILD_TAG=2021-12-23
 # STATUS=completed
-# VERSION=latest01
+# VERSION=latest02
 # END_TIME=00:05
 
 [time]
 format = "rfc-3339"
 zone = "UTC"
-date = 2021-12-16
-begin = 2021-12-16 00:02:23.552137373+00:00
-start-sync_0 = 00:03:43
-start-zstd = 00:05:04
-start-sync_1 = 00:05:32
-end-sync_1 = 00:05:39
-end = 2021-12-16 00:05:39.849288808+00:00
+date = 2021-12-23
+begin = 2021-12-23 00:02:26.513698596+00:00
+start-sync_0 = 00:03:50
+start-zstd = 00:05:11
+start-sync_1 = 00:05:42
+end-sync_1 = 00:05:48
+end = 2021-12-23 00:05:48.260827895+00:00
 
 [server]
 repo = "cake233/alpine-zsh-386"
@@ -118,6 +118,6 @@ current = true
 LANG = "C.UTF-8"
 
 [version]
-ldd = ''
+ldd = 'musl libc (i386) Version 1.2.2'
 zsh = 'zsh 5.8 (i586-alpine-linux-musl)'
 ```
