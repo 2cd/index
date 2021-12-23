@@ -2,7 +2,7 @@
 
 ## How to run it?
 
-```shell
+```sh
 # install docker
 if [ -z "$(command -v docker)" ]; then
     apt update
@@ -32,7 +32,7 @@ docker run \
 
 ## How to start vnc?
 
-```shell
+```sh
     docker exex -it alpine-mate-arm64 zsh
 ```
 
@@ -42,19 +42,19 @@ After entering the container, you can create a new user, and then switch to it.
 
 Finally, run the following commands.
 
-```shell
+```sh
     startvnc
 ```
 
 or
 
-```shell
+```sh
     startx11vnc
 ```
 
 or
 
-```shell
+```sh
     novnc
 ```
 
@@ -63,7 +63,7 @@ Note:
 If you want to use novnc, then open your browser, and type the address:
 
 ```
-localhost:36081
+http://localhost:36081
 ```
 
 If you want to use tiger/x11vnc, then open vnc viewer, then type the address:
@@ -77,7 +77,7 @@ localhost:5903
 ```toml
 [main]
 name = "alpine"
-tag = ["mate", "2021-12-16"]
+tag = ["mate", "2021-12-23"]
 os = "alpine"
 release = "edge"
 arch = "arm64"
@@ -85,12 +85,12 @@ platform = "linux/arm64"
 x11_or_wayland = true
 
 [file]
-name = "alpine-mate_arm64_2021-12-16_00-30.tar.zst"
+name = "alpine-mate_arm64_2021-12-23_00-33.tar.zst"
 
 version = "0.0.0-alpha.2"
 
 # This value can be used to verify the integrity of the file
-sha256 = "1c053e1eda7cbbf1e8baa5e04823026c322749059c7022707eab98bfde71ac78"
+sha256 = "e087c5a987331107d2372f9a42d154806783d3d589a0c10a4e78a971a6d0feaa"
 
 # zstd: [1-22]
 zstd-level = 19
@@ -99,48 +99,48 @@ zstd-level = 19
 # Installed size ≈ tar-size
 # Installed size is approximately equal to the size of the tar file
 tar = "987M"
-tar_bytes = 1034697216
+tar_bytes = 1034292224
 
 # Space occupied ≈ tar-size + zstd-size
 # You will need to prepare a large enough space before installation.
-zstd = "315M"
-zstd_bytes = 329336535
+zstd = "314M"
+zstd_bytes = 329219061
 
 [compatibility]
 compatible_mode = true
 
-previous_version = "latest02"
+previous_version = "latest01"
 
 # The value is &str, not int
-previous_date = "20211209"
-previous_tag = "2021-12-09"
-previous_file = "alpine-mate_arm64_2021-12-09_00-31-rootfs.tar.zst"
-previous_sha256 = "aadb9e1a74a86a621db7483559868c8b484e4d43c96801233b2d945deddd1604"
+previous_date = "20211216"
+previous_tag = "2021-12-16"
+previous_file = "alpine-mate_arm64_2021-12-16_00-30-rootfs.tar.zst"
+previous_sha256 = "1c053e1eda7cbbf1e8baa5e04823026c322749059c7022707eab98bfde71ac78"
 
-current_version = "latest01"
-current_date = "20211216"
-old_file = "alpine-mate_arm64_2021-12-02_00-25-rootfs.tar.zst"
-old_sha256 = ""
+current_version = "latest02"
+current_date = "20211223"
+old_file = "alpine-mate_arm64_2021-12-09_00-31-rootfs.tar.zst"
+old_sha256 = "aadb9e1a74a86a621db7483559868c8b484e4d43c96801233b2d945deddd1604"
 # edition 2021
 # DISTRO_NAME=alpine-edge_arm64
-# ROOTFS_FILE=alpine-mate_arm64_2021-12-16_00-30-rootfs.tar.zst
-# SHA256SUM=1c053e1eda7cbbf1e8baa5e04823026c322749059c7022707eab98bfde71ac78
-# BUILD_DATE=20211216
-# BUILD_TAG=2021-12-16
+# ROOTFS_FILE=alpine-mate_arm64_2021-12-23_00-33-rootfs.tar.zst
+# SHA256SUM=e087c5a987331107d2372f9a42d154806783d3d589a0c10a4e78a971a6d0feaa
+# BUILD_DATE=20211223
+# BUILD_TAG=2021-12-23
 # STATUS=completed
-# VERSION=latest01
-# END_TIME=00:30
+# VERSION=latest02
+# END_TIME=00:33
 
 [time]
 format = "rfc-3339"
 zone = "UTC"
-date = 2021-12-16
-begin = 2021-12-16 00:06:30.439933976+00:00
-start-sync_0 = 00:25:03
-start-zstd = 00:26:07
-start-sync_1 = 00:29:41
-end-sync_1 = 00:30:10
-end = 2021-12-16 00:30:10.823231535+00:00
+date = 2021-12-23
+begin = 2021-12-23 00:06:29.214206054+00:00
+start-sync_0 = 00:28:50
+start-zstd = 00:29:49
+start-sync_1 = 00:33:29
+end-sync_1 = 00:33:55
+end = 2021-12-23 00:33:55.947902330+00:00
 
 [server]
 repo = "cake233/alpine-mate-arm64"
@@ -175,7 +175,7 @@ current = true
 LANG = "C.UTF-8"
 
 [version]
-ldd = ''
+ldd = 'musl libc (aarch64) Version 1.2.2'
 zsh = 'zsh 5.8 (aarch64-alpine-linux-musl)'
 
 [port]
