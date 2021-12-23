@@ -2,7 +2,7 @@
 
 ## How to run it?
 
-```shell
+```sh
 # install docker
 if [ -z "$(command -v docker)" ]; then
     apt update
@@ -32,7 +32,7 @@ docker run \
 
 ## How to start vnc?
 
-```shell
+```sh
     docker exex -it alpine-kde-arm64 zsh
 ```
 
@@ -42,19 +42,19 @@ After entering the container, you can create a new user, and then switch to it.
 
 Finally, run the following commands.
 
-```shell
+```sh
     startvnc
 ```
 
 or
 
-```shell
+```sh
     startx11vnc
 ```
 
 or
 
-```shell
+```sh
     novnc
 ```
 
@@ -63,7 +63,7 @@ Note:
 If you want to use novnc, then open your browser, and type the address:
 
 ```
-localhost:36081
+http://localhost:36081
 ```
 
 If you want to use tiger/x11vnc, then open vnc viewer, then type the address:
@@ -77,7 +77,7 @@ localhost:5903
 ```toml
 [main]
 name = "alpine"
-tag = ["kde", "2021-12-16"]
+tag = ["kde", "2021-12-23"]
 os = "alpine"
 release = "edge"
 arch = "arm64"
@@ -85,12 +85,12 @@ platform = "linux/arm64"
 x11_or_wayland = true
 
 [file]
-name = "alpine-kde_arm64_2021-12-16_00-33.tar.zst"
+name = "alpine-kde_arm64_2021-12-23_00-29.tar.zst"
 
 version = "0.0.0-alpha.2"
 
 # This value can be used to verify the integrity of the file
-sha256 = "1340cb05f38a2855fcfd915f31a3ef368449f8616cc9fb9e8ae5c70d2d0bbfff"
+sha256 = "4ab2a567875cbaed3e4dee9632cf93ee3d686a7c3b7ae366e0ef2f2978cb3443"
 
 # zstd: [1-22]
 zstd-level = 19
@@ -99,48 +99,48 @@ zstd-level = 19
 # Installed size ≈ tar-size
 # Installed size is approximately equal to the size of the tar file
 tar = "1.7G"
-tar_bytes = 1766288896
+tar_bytes = 1765938176
 
 # Space occupied ≈ tar-size + zstd-size
 # You will need to prepare a large enough space before installation.
 zstd = "536M"
-zstd_bytes = 561760768
+zstd_bytes = 561661147
 
 [compatibility]
 compatible_mode = true
 
-previous_version = "latest02"
+previous_version = "latest01"
 
 # The value is &str, not int
-previous_date = "20211209"
-previous_tag = "2021-12-09"
-previous_file = "alpine-kde_arm64_2021-12-09_00-30-rootfs.tar.zst"
-previous_sha256 = "85628d4f5b5f24c7e3c768ba8900769078c60eb356c46e4d2ae98ba38362dfab"
+previous_date = "20211216"
+previous_tag = "2021-12-16"
+previous_file = "alpine-kde_arm64_2021-12-16_00-33-rootfs.tar.zst"
+previous_sha256 = "1340cb05f38a2855fcfd915f31a3ef368449f8616cc9fb9e8ae5c70d2d0bbfff"
 
-current_version = "latest01"
-current_date = "20211216"
-old_file = "alpine-kde_arm64_2021-12-02_00-38-rootfs.tar.zst"
-old_sha256 = ""
+current_version = "latest02"
+current_date = "20211223"
+old_file = "alpine-kde_arm64_2021-12-09_00-30-rootfs.tar.zst"
+old_sha256 = "85628d4f5b5f24c7e3c768ba8900769078c60eb356c46e4d2ae98ba38362dfab"
 # edition 2021
 # DISTRO_NAME=alpine-edge_arm64
-# ROOTFS_FILE=alpine-kde_arm64_2021-12-16_00-33-rootfs.tar.zst
-# SHA256SUM=1340cb05f38a2855fcfd915f31a3ef368449f8616cc9fb9e8ae5c70d2d0bbfff
-# BUILD_DATE=20211216
-# BUILD_TAG=2021-12-16
+# ROOTFS_FILE=alpine-kde_arm64_2021-12-23_00-29-rootfs.tar.zst
+# SHA256SUM=4ab2a567875cbaed3e4dee9632cf93ee3d686a7c3b7ae366e0ef2f2978cb3443
+# BUILD_DATE=20211223
+# BUILD_TAG=2021-12-23
 # STATUS=completed
-# VERSION=latest01
-# END_TIME=00:33
+# VERSION=latest02
+# END_TIME=00:29
 
 [time]
 format = "rfc-3339"
 zone = "UTC"
-date = 2021-12-16
-begin = 2021-12-16 00:06:28.009586658+00:00
-start-sync_0 = 00:24:47
-start-zstd = 00:26:28
-start-sync_1 = 00:32:28
-end-sync_1 = 00:33:11
-end = 2021-12-16 00:33:11.432388602+00:00
+date = 2021-12-23
+begin = 2021-12-23 00:06:31.334477586+00:00
+start-sync_0 = 00:22:02
+start-zstd = 00:23:32
+start-sync_1 = 00:29:09
+end-sync_1 = 00:29:51
+end = 2021-12-23 00:29:51.434833655+00:00
 
 [server]
 repo = "cake233/alpine-kde-arm64"
@@ -175,7 +175,7 @@ current = true
 LANG = "C.UTF-8"
 
 [version]
-ldd = ''
+ldd = 'musl libc (aarch64) Version 1.2.2'
 zsh = 'zsh 5.8 (aarch64-alpine-linux-musl)'
 
 [port]
