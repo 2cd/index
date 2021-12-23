@@ -2,7 +2,7 @@
 
 ## How to run it?
 
-```shell
+```sh
 # install docker
 if [ -z "$(command -v docker)" ]; then
     apt update
@@ -32,7 +32,7 @@ docker run \
 
 ## How to start vnc?
 
-```shell
+```sh
     docker exex -it alpine-xfce-amd64 zsh
 ```
 
@@ -42,19 +42,19 @@ After entering the container, you can create a new user, and then switch to it.
 
 Finally, run the following commands.
 
-```shell
+```sh
     startvnc
 ```
 
 or
 
-```shell
+```sh
     startx11vnc
 ```
 
 or
 
-```shell
+```sh
     novnc
 ```
 
@@ -63,7 +63,7 @@ Note:
 If you want to use novnc, then open your browser, and type the address:
 
 ```
-localhost:36081
+http://localhost:36081
 ```
 
 If you want to use tiger/x11vnc, then open vnc viewer, then type the address:
@@ -77,7 +77,7 @@ localhost:5903
 ```toml
 [main]
 name = "alpine"
-tag = ["xfce", "2021-12-16"]
+tag = ["xfce", "2021-12-23"]
 os = "alpine"
 release = "edge"
 arch = "amd64"
@@ -85,12 +85,12 @@ platform = "linux/amd64"
 x11_or_wayland = true
 
 [file]
-name = "alpine-xfce_amd64_2021-12-16_00-14.tar.zst"
+name = "alpine-xfce_amd64_2021-12-23_00-13.tar.zst"
 
 version = "0.0.0-alpha.2"
 
 # This value can be used to verify the integrity of the file
-sha256 = "46228dba34408fcad0bd433438599c5c6cdd31c069d3ed65c5ec368614074e71"
+sha256 = "4792f3bc4b970ecf20ba985f3c8e859ccac2c9ceb1ed97c4cc069454e8db9225"
 
 # zstd: [1-22]
 zstd-level = 19
@@ -99,48 +99,48 @@ zstd-level = 19
 # Installed size ≈ tar-size
 # Installed size is approximately equal to the size of the tar file
 tar = "862M"
-tar_bytes = 903781376
+tar_bytes = 903389184
 
 # Space occupied ≈ tar-size + zstd-size
 # You will need to prepare a large enough space before installation.
 zstd = "306M"
-zstd_bytes = 320690723
+zstd_bytes = 320679876
 
 [compatibility]
 compatible_mode = true
 
-previous_version = "latest02"
+previous_version = "latest01"
 
 # The value is &str, not int
-previous_date = "20211209"
-previous_tag = "2021-12-09"
-previous_file = "alpine-xfce_amd64_2021-12-09_00-14-rootfs.tar.zst"
-previous_sha256 = "ef8c28d0d78b0083952b2009ad6ff24c5ba9a8fb979d2fea3051f90eb67b7332"
+previous_date = "20211216"
+previous_tag = "2021-12-16"
+previous_file = "alpine-xfce_amd64_2021-12-16_00-14-rootfs.tar.zst"
+previous_sha256 = "46228dba34408fcad0bd433438599c5c6cdd31c069d3ed65c5ec368614074e71"
 
-current_version = "latest01"
-current_date = "20211216"
-old_file = "alpine-xfce_amd64_2021-12-02_00-13-rootfs.tar.zst"
-old_sha256 = ""
+current_version = "latest02"
+current_date = "20211223"
+old_file = "alpine-xfce_amd64_2021-12-09_00-14-rootfs.tar.zst"
+old_sha256 = "ef8c28d0d78b0083952b2009ad6ff24c5ba9a8fb979d2fea3051f90eb67b7332"
 # edition 2021
 # DISTRO_NAME=alpine-edge_amd64
-# ROOTFS_FILE=alpine-xfce_amd64_2021-12-16_00-14-rootfs.tar.zst
-# SHA256SUM=46228dba34408fcad0bd433438599c5c6cdd31c069d3ed65c5ec368614074e71
-# BUILD_DATE=20211216
-# BUILD_TAG=2021-12-16
+# ROOTFS_FILE=alpine-xfce_amd64_2021-12-23_00-13-rootfs.tar.zst
+# SHA256SUM=4792f3bc4b970ecf20ba985f3c8e859ccac2c9ceb1ed97c4cc069454e8db9225
+# BUILD_DATE=20211223
+# BUILD_TAG=2021-12-23
 # STATUS=completed
-# VERSION=latest01
-# END_TIME=00:14
+# VERSION=latest02
+# END_TIME=00:13
 
 [time]
 format = "rfc-3339"
 zone = "UTC"
-date = 2021-12-16
-begin = 2021-12-16 00:06:30.020214322+00:00
-start-sync_0 = 00:10:06
-start-zstd = 00:11:10
-start-sync_1 = 00:14:22
-end-sync_1 = 00:14:53
-end = 2021-12-16 00:14:53.438916750+00:00
+date = 2021-12-23
+begin = 2021-12-23 00:06:33.206376138+00:00
+start-sync_0 = 00:09:29
+start-zstd = 00:10:19
+start-sync_1 = 00:13:16
+end-sync_1 = 00:13:39
+end = 2021-12-23 00:13:39.805433873+00:00
 
 [server]
 repo = "cake233/alpine-xfce-amd64"
@@ -175,7 +175,7 @@ current = true
 LANG = "C.UTF-8"
 
 [version]
-ldd = ''
+ldd = 'musl libc (x86_64) Version 1.2.2'
 zsh = 'zsh 5.8 (x86_64-alpine-linux-musl)'
 
 [port]
