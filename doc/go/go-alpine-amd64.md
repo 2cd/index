@@ -2,7 +2,7 @@
 
 ## How to run it?
 
-```shell
+```sh
 docker run \
     -it \
     --name go-alpine-amd64 \
@@ -11,19 +11,22 @@ docker run \
 
 ## How to exec shell?
 
-```shell
-    docker exec -it go-alpine-amd64 bash
+```sh
+docker exec -it go-alpine-amd64 bash
 ```
 
 ## example
 
-```shell
+```sh
 docker run \
+    -t \
     --rm \
     -v "$PWD"/go-project:/app \
     -w /app \
+    -e GOOS=linux \
+    -e CGO_ENABLED=0 \
     cake233/go-alpine-amd64 \
-    go build -v
+    go build -trimpath --ldflags "-s -w -buildid=" -v -o main.bin
 ```
 
 ## readme.go
@@ -53,7 +56,7 @@ func main() {
 ```toml
 [main]
 name = "go"
-tag = ["alpine", "2021-12-16", "musl-libc", "musl"]
+tag = ["alpine", "2021-12-27", "musl-libc", "musl"]
 os = "alpine"
 release = "stable"
 arch = "amd64"
@@ -61,15 +64,15 @@ platform = "linux/amd64"
 x11_or_wayland = false
 
 [file]
-name = "go-musl_amd64_2021-12-16_08-26.tar.zst"
+name = "go-musl_amd64_2021-12-27_12-06.tar.zst"
 
 version = "0.0.0-alpha.2"
 
 # This value can be used to verify the integrity of the file
-sha256 = "9c49dd2f07e0d96be5f41e3de739705f865ca91ff742cf1a5ef10149dae32382"
+sha256 = "d3eb254a92d3a7d286fe5e17ffd002b9103b31dacb48f1b3a06494b3e432d170"
 
 # zstd: [1-22]
-zstd-level = 11
+zstd-level = 20
 
 [file.size]
 # Installed size ≈ tar-size
@@ -79,44 +82,44 @@ tar_bytes = 351834624
 
 # Space occupied ≈ tar-size + zstd-size
 # You will need to prepare a large enough space before installation.
-zstd = "103M"
-zstd_bytes = 107445716
+zstd = "85M"
+zstd_bytes = 88484717
 
 [compatibility]
 compatible_mode = true
 
-previous_version = "latest01"
+previous_version = "latest02"
 
 # The value is &str, not int
-previous_date = "20211213"
-previous_tag = "2021-12-13"
-previous_file = "go-musl_amd64_2021-12-13_12-05-rootfs.tar.zst"
-previous_sha256 = "5b23e9a2f039515ee72768368cdbbc28c01f4dac134612778874947699c90843"
+previous_date = "20211216"
+previous_tag = "2021-12-16"
+previous_file = "go-musl_amd64_2021-12-16_08-26-rootfs.tar.zst"
+previous_sha256 = "9c49dd2f07e0d96be5f41e3de739705f865ca91ff742cf1a5ef10149dae32382"
 
-current_version = "latest02"
-current_date = "20211216"
-old_file = "go-musl_amd64_2021-12-08_01-08-rootfs.tar.zst"
-old_sha256 = "ef204c7b18050fe0189936c0b0daffd5cde0a4d8e3b3b2e14b197e3af376f8ed"
+current_version = "latest01"
+current_date = "20211227"
+old_file = "go-musl_amd64_2021-12-13_12-05-rootfs.tar.zst"
+old_sha256 = "5b23e9a2f039515ee72768368cdbbc28c01f4dac134612778874947699c90843"
 # edition 2021
 # DISTRO_NAME=go_amd64
-# ROOTFS_FILE=go-musl_amd64_2021-12-16_08-26-rootfs.tar.zst
-# SHA256SUM=9c49dd2f07e0d96be5f41e3de739705f865ca91ff742cf1a5ef10149dae32382
-# BUILD_DATE=20211216
-# BUILD_TAG=2021-12-16
+# ROOTFS_FILE=go-musl_amd64_2021-12-27_12-06-rootfs.tar.zst
+# SHA256SUM=d3eb254a92d3a7d286fe5e17ffd002b9103b31dacb48f1b3a06494b3e432d170
+# BUILD_DATE=20211227
+# BUILD_TAG=2021-12-27
 # STATUS=completed
-# VERSION=latest02
-# END_TIME=08:26
+# VERSION=latest01
+# END_TIME=12:06
 
 [time]
 format = "rfc-3339"
 zone = "UTC"
-date = 2021-12-16
-begin = 2021-12-16 08:25:21.285921788+00:00
-start-sync_0 = 08:25:42
-start-zstd = 08:25:55
-start-sync_1 = 08:26:01
-end-sync_1 = 08:26:16
-end = 2021-12-16 08:26:16.334953835+00:00
+date = 2021-12-27
+begin = 2021-12-27 12:04:22.241873053+00:00
+start-sync_0 = 12:04:45
+start-zstd = 12:04:55
+start-sync_1 = 12:06:42
+end-sync_1 = 12:06:53
+end = 2021-12-27 12:06:53.134243828+00:00
 
 [server]
 repo = "cake233/go-alpine-amd64"
@@ -153,7 +156,7 @@ PATH = "/go/bin:/usr/local/go/bin${PATH:+:${PATH}}"
 GOPATH = "/go"
 
 [version]
-ldd = ''
+ldd = 'musl libc (x86_64) Version 1.2.2'
 go = 'go version go1.18beta1 linux/amd64'
 gofmt = '/usr/local/go/bin/gofmt: go1.18beta1'
 
