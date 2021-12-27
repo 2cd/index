@@ -2,7 +2,7 @@
 
 ## How to run it?
 
-```shell
+```sh
 docker run \
     -it \
     --name code-amd64 \
@@ -11,8 +11,8 @@ docker run \
 
 ## How to exec shell?
 
-```shell
-    docker exec -it code-amd64 bash
+```sh
+docker exec -it code-amd64 bash
 ```
 
 ## code-amd64.toml
@@ -20,7 +20,7 @@ docker run \
 ```toml
 [main]
 name = "code"
-tag = ["latest", "2021-12-16", "vsc", "vscode", "web"]
+tag = ["latest", "2021-12-27", "vsc", "vscode", "web"]
 os = "debian"
 release = "sid"
 arch = "amd64"
@@ -28,62 +28,62 @@ platform = "linux/amd64"
 x11_or_wayland = false
 
 [file]
-name = "code_amd64_2021-12-16_08-27.tar.zst"
+name = "code_amd64_2021-12-27_12-07.tar.zst"
 
 version = "0.0.0-alpha.2"
 
 # This value can be used to verify the integrity of the file
-sha256 = "0c9836896cc719405f97828dcddde61fbe1a15cf5b571f7e32c58e8b5be303ca"
+sha256 = "181468fbbec44beadc2fe447c89b3dc3c2c45a2f64f8c9670abc42e8cc6867f5"
 
 # zstd: [1-22]
-zstd-level = 11
+zstd-level = 20
 
 [file.size]
 # Installed size ≈ tar-size
 # Installed size is approximately equal to the size of the tar file
 tar = "757M"
-tar_bytes = 793269248
+tar_bytes = 793552384
 
 # Space occupied ≈ tar-size + zstd-size
 # You will need to prepare a large enough space before installation.
-zstd = "204M"
-zstd_bytes = 213827678
+zstd = "172M"
+zstd_bytes = 180051203
 
 [compatibility]
 compatible_mode = true
 
-previous_version = "latest02"
+previous_version = "latest01"
 
 # The value is &str, not int
-previous_date = "20211208"
-previous_tag = "2021-12-08"
-previous_file = "code_amd64_2021-12-08_01-10-rootfs.tar.zst"
-previous_sha256 = "2232ddbfec5d2d40648e2f8b03eb385dba5643b0b986755b02f591df0874661a"
+previous_date = "20211216"
+previous_tag = "2021-12-16"
+previous_file = "code_amd64_2021-12-16_08-27-rootfs.tar.zst"
+previous_sha256 = "0c9836896cc719405f97828dcddde61fbe1a15cf5b571f7e32c58e8b5be303ca"
 
-current_version = "latest01"
-current_date = "20211216"
-old_file = "code_amd64_2021-11-28_23-01-rootfs.tar.zst"
-old_sha256 = ""
+current_version = "latest02"
+current_date = "20211227"
+old_file = "code_amd64_2021-12-08_01-10-rootfs.tar.zst"
+old_sha256 = "2232ddbfec5d2d40648e2f8b03eb385dba5643b0b986755b02f591df0874661a"
 # edition 2021
 # DISTRO_NAME=code_amd64
-# ROOTFS_FILE=code_amd64_2021-12-16_08-27-rootfs.tar.zst
-# SHA256SUM=0c9836896cc719405f97828dcddde61fbe1a15cf5b571f7e32c58e8b5be303ca
-# BUILD_DATE=20211216
-# BUILD_TAG=2021-12-16
+# ROOTFS_FILE=code_amd64_2021-12-27_12-07-rootfs.tar.zst
+# SHA256SUM=181468fbbec44beadc2fe447c89b3dc3c2c45a2f64f8c9670abc42e8cc6867f5
+# BUILD_DATE=20211227
+# BUILD_TAG=2021-12-27
 # STATUS=completed
-# VERSION=latest01
-# END_TIME=08:27
+# VERSION=latest02
+# END_TIME=12:07
 
 [time]
 format = "rfc-3339"
 zone = "UTC"
-date = 2021-12-16
-begin = 2021-12-16 08:25:14.834306314+00:00
-start-sync_0 = 08:26:11
-start-zstd = 08:27:02
-start-sync_1 = 08:27:15
-end-sync_1 = 08:27:35
-end = 2021-12-16 08:27:35.218437185+00:00
+date = 2021-12-27
+begin = 2021-12-27 12:02:28.064342972+00:00
+start-sync_0 = 12:03:43
+start-zstd = 12:04:33
+start-sync_1 = 12:07:15
+end-sync_1 = 12:07:35
+end = 2021-12-27 12:07:35.657177068+00:00
 
 [server]
 repo = "cake233/code-amd64"
