@@ -2,7 +2,7 @@
 
 ## How to run it?
 
-```shell
+```sh
 docker run \
     -it \
     --name go-arm64 \
@@ -11,19 +11,22 @@ docker run \
 
 ## How to exec shell?
 
-```shell
-    docker exec -it go-arm64 bash
+```sh
+docker exec -it go-arm64 bash
 ```
 
 ## example
 
-```shell
+```sh
 docker run \
+    -t \
     --rm \
     -v "$PWD"/go-project:/app \
     -w /app \
+    -e GOOS=linux \
+    -e CGO_ENABLED=0 \
     cake233/go-arm64 \
-    go build -v
+    go build -trimpath --ldflags "-s -w -buildid=" -v -o main.bin
 ```
 
 ## readme.go
@@ -53,7 +56,7 @@ func main() {
 ```toml
 [main]
 name = "go"
-tag = ["latest", "2021-12-16"]
+tag = ["latest", "2021-12-27"]
 os = "debian"
 release = "stable"
 arch = "arm64"
@@ -61,62 +64,62 @@ platform = "linux/arm64"
 x11_or_wayland = false
 
 [file]
-name = "go_arm64_2021-12-16_08-28.tar.zst"
+name = "go_arm64_2021-12-27_12-09.tar.zst"
 
 version = "0.0.0-alpha.2"
 
 # This value can be used to verify the integrity of the file
-sha256 = "ccd58a347232459eb39f2f28d76742b33d89e43da7d30f96607e40dc001fa560"
+sha256 = "610994ac31e4c92229cc40c1c2a7ec257abe4e6381c6ae5af3ea5b656bca9560"
 
 # zstd: [1-22]
-zstd-level = 11
+zstd-level = 20
 
 [file.size]
 # Installed size ≈ tar-size
 # Installed size is approximately equal to the size of the tar file
 tar = "829M"
-tar_bytes = 868461056
+tar_bytes = 868479488
 
 # Space occupied ≈ tar-size + zstd-size
 # You will need to prepare a large enough space before installation.
-zstd = "250M"
-zstd_bytes = 261758412
+zstd = "202M"
+zstd_bytes = 210929091
 
 [compatibility]
 compatible_mode = true
 
-previous_version = "latest01"
+previous_version = "latest02"
 
 # The value is &str, not int
-previous_date = "20211208"
-previous_tag = "2021-12-08"
-previous_file = "go_arm64_2021-12-08_01-12-rootfs.tar.zst"
-previous_sha256 = "63c3249a49367cafa902b5ff8d4019cf8159e7d03c00fa513ab6366dfe7a7b11"
+previous_date = "20211216"
+previous_tag = "2021-12-16"
+previous_file = "go_arm64_2021-12-16_08-28-rootfs.tar.zst"
+previous_sha256 = "ccd58a347232459eb39f2f28d76742b33d89e43da7d30f96607e40dc001fa560"
 
-current_version = "latest02"
-current_date = "20211216"
-old_file = "go_arm64_2021-11-29_00-31-rootfs.tar.zst"
-old_sha256 = ""
+current_version = "latest01"
+current_date = "20211227"
+old_file = "go_arm64_2021-12-08_01-12-rootfs.tar.zst"
+old_sha256 = "63c3249a49367cafa902b5ff8d4019cf8159e7d03c00fa513ab6366dfe7a7b11"
 # edition 2021
 # DISTRO_NAME=go_arm64
-# ROOTFS_FILE=go_arm64_2021-12-16_08-28-rootfs.tar.zst
-# SHA256SUM=ccd58a347232459eb39f2f28d76742b33d89e43da7d30f96607e40dc001fa560
-# BUILD_DATE=20211216
-# BUILD_TAG=2021-12-16
+# ROOTFS_FILE=go_arm64_2021-12-27_12-09-rootfs.tar.zst
+# SHA256SUM=610994ac31e4c92229cc40c1c2a7ec257abe4e6381c6ae5af3ea5b656bca9560
+# BUILD_DATE=20211227
+# BUILD_TAG=2021-12-27
 # STATUS=completed
-# VERSION=latest02
-# END_TIME=08:28
+# VERSION=latest01
+# END_TIME=12:09
 
 [time]
 format = "rfc-3339"
 zone = "UTC"
-date = 2021-12-16
-begin = 2021-12-16 08:25:28.693505925+00:00
-start-sync_0 = 08:28:01
-start-zstd = 08:28:16
-start-sync_1 = 08:28:30
-end-sync_1 = 08:28:54
-end = 2021-12-16 08:28:54.922712082+00:00
+date = 2021-12-27
+begin = 2021-12-27 12:02:27.219736334+00:00
+start-sync_0 = 12:05:07
+start-zstd = 12:05:31
+start-sync_1 = 12:09:01
+end-sync_1 = 12:09:23
+end = 2021-12-27 12:09:23.795360028+00:00
 
 [server]
 repo = "cake233/go-arm64"
