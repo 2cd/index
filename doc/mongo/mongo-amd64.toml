@@ -1,6 +1,6 @@
 [main]
 name = "mongo"
-tag = ["latest", "2021-12-08"]
+tag = ["latest", "2021-12-27"]
 os = "ubuntu"
 release = "lts"
 arch = "amd64"
@@ -8,12 +8,12 @@ platform = "linux/amd64"
 x11_or_wayland = false
 
 [file]
-name = "mongo_amd64_2021-12-08_01-12.tar.zst"
+name = "mongo_amd64_2021-12-27_12-08.tar.zst"
 
 version = "0.0.0-alpha.2"
 
 # This value can be used to verify the integrity of the file
-sha256 = "5663f69411104dd0a6bb7f2d0c72a2541cd5491840cd1349bd2942e279bec3c6"
+sha256 = "d50865de0463414725496bc21e00e95ca76e7017f1659dd89b1e04eb73ea91e3"
 
 # zstd: [1-22]
 zstd-level = 20
@@ -21,49 +21,49 @@ zstd-level = 20
 [file.size]
 # Installed size ≈ tar-size
 # Installed size is approximately equal to the size of the tar file
-tar = "900M"
-tar_bytes = 943188992
+tar = "903M"
+tar_bytes = 946689024
 
 # Space occupied ≈ tar-size + zstd-size
 # You will need to prepare a large enough space before installation.
 zstd = "179M"
-zstd_bytes = 186798893
+zstd_bytes = 186831202
 
 [compatibility]
 compatible_mode = true
 
-previous_version = "latest01"
+previous_version = "latest02"
 
 # The value is &str, not int
-previous_date = "20211128"
-previous_tag = "2021-11-28"
-previous_file = "mongo_amd64_2021-11-28_23-04-rootfs.tar.zst"
-previous_sha256 = ""
+previous_date = "20211208"
+previous_tag = "2021-12-08"
+previous_file = "mongo_amd64_2021-12-08_01-12-rootfs.tar.zst"
+previous_sha256 = "5663f69411104dd0a6bb7f2d0c72a2541cd5491840cd1349bd2942e279bec3c6"
 
-current_version = "latest02"
-current_date = "20211208"
-old_file = ""
+current_version = "latest01"
+current_date = "20211227"
+old_file = "mongo_amd64_2021-11-28_23-04-rootfs.tar.zst"
 old_sha256 = ""
 # edition 2021
 # DISTRO_NAME=mongo_amd64
-# ROOTFS_FILE=mongo_amd64_2021-12-08_01-12-rootfs.tar.zst
-# SHA256SUM=5663f69411104dd0a6bb7f2d0c72a2541cd5491840cd1349bd2942e279bec3c6
-# BUILD_DATE=20211208
-# BUILD_TAG=2021-12-08
+# ROOTFS_FILE=mongo_amd64_2021-12-27_12-08-rootfs.tar.zst
+# SHA256SUM=d50865de0463414725496bc21e00e95ca76e7017f1659dd89b1e04eb73ea91e3
+# BUILD_DATE=20211227
+# BUILD_TAG=2021-12-27
 # STATUS=completed
-# VERSION=latest02
-# END_TIME=01:12
+# VERSION=latest01
+# END_TIME=12:08
 
 [time]
 format = "rfc-3339"
 zone = "UTC"
-date = 2021-12-08
-begin = 2021-12-08 01:06:13.887440218+00:00
-start-sync_0 = 01:07:21
-start-zstd = 01:07:51
-start-sync_1 = 01:11:50
-end-sync_1 = 01:12:08
-end = 2021-12-08 01:12:08.223923972+00:00
+date = 2021-12-27
+begin = 2021-12-27 12:02:29.128426016+00:00
+start-sync_0 = 12:03:52
+start-zstd = 12:04:35
+start-sync_1 = 12:08:28
+end-sync_1 = 12:08:49
+end = 2021-12-27 12:08:49.652730647+00:00
 
 [server]
 repo = "cake233/mongo-amd64"
@@ -71,26 +71,22 @@ repo = "cake233/mongo-amd64"
 [server.node1]
 name = "cn"
 current = false
-previous = true
+previous = false
 in_sync = false
 split = false
 
 [server.node2]
 name = "tmoe"
-current = true
-previous = false
+current = false
+previous = true
 in_sync = false
 split = false
 
 [server.node3]
 name = "azure"
-current = true
+current = false
 previous = true
 in_sync = false
-start_sync = 2021-12-13 18:19:33.946875875+00:00
-end_sync = 2021-12-13 18:20:19.613599022+00:00
-start_sync = 2021-12-08 01:34:34.265991259+00:00
-end_sync = 2021-12-08 01:36:29.915046263+00:00
 split = false
 
 [server.node4]
@@ -104,6 +100,7 @@ MONGO_PACKAGE = 'mongodb-org'
 MONGO_REPO = 'repo.mongodb.org'
 
 [version]
+ldd = 'ldd (Ubuntu GLIBC 2.31-0ubuntu9.2) 2.31'
 gosu = '1.12 (go1.13.10 on linux/amd64; gc)'
 jsyaml = '3.13.1'
 mongo_major = '5.0'
