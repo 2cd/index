@@ -77,7 +77,7 @@ localhost:5903
 ```toml
 [main]
 name = "fedora"
-tag = ["mate", "2021-12-21"]
+tag = ["mate", "2021-12-28"]
 os = "fedora"
 release = "rawhide"
 arch = "armhf"
@@ -85,12 +85,12 @@ platform = "linux/arm/v7"
 x11_or_wayland = true
 
 [file]
-name = "fedora-mate_armhf_2021-12-21_13-28.tar.zst"
+name = "fedora-mate_armhf_2021-12-28_13-21.tar.zst"
 
 version = "0.0.0-alpha.2"
 
 # This value can be used to verify the integrity of the file
-sha256 = "beba051348424896225ce0f0e6940bd8abe4798d18e6542fdaaafb38e69bc745"
+sha256 = "d6db1d98ba1d0f65745073a364717b825f3d8efa4a5e257b479bea6bd38e7bee"
 
 # zstd: [1-22]
 zstd-level = 18
@@ -99,48 +99,48 @@ zstd-level = 18
 # Installed size ≈ tar-size
 # Installed size is approximately equal to the size of the tar file
 tar = "3.2G"
-tar_bytes = 3396737024
+tar_bytes = 3396981760
 
 # Space occupied ≈ tar-size + zstd-size
 # You will need to prepare a large enough space before installation.
 zstd = "1.1G"
-zstd_bytes = 1120391819
+zstd_bytes = 1120442995
 
 [compatibility]
 compatible_mode = true
 
-previous_version = "latest02"
+previous_version = "latest01"
 
 # The value is &str, not int
-previous_date = "20211214"
-previous_tag = "2021-12-14"
-previous_file = "fedora-mate_armhf_2021-12-14_13-34-rootfs.tar.zst"
-previous_sha256 = "dc5bab2ee231a64f0ab1db35d9ee1baca498e2ff3212503806d57d53f549b6fb"
+previous_date = "20211221"
+previous_tag = "2021-12-21"
+previous_file = "fedora-mate_armhf_2021-12-21_13-28-rootfs.tar.zst"
+previous_sha256 = "beba051348424896225ce0f0e6940bd8abe4798d18e6542fdaaafb38e69bc745"
 
-current_version = "latest01"
-current_date = "20211221"
-old_file = "fedora-mate_armhf_2021-12-07_13-18-rootfs.tar.zst"
-old_sha256 = "2e006dbb873d6c6897fc54f6bfec426deb00d1dc91a683901f9e378965476247"
+current_version = "latest02"
+current_date = "20211228"
+old_file = "fedora-mate_armhf_2021-12-14_13-34-rootfs.tar.zst"
+old_sha256 = "dc5bab2ee231a64f0ab1db35d9ee1baca498e2ff3212503806d57d53f549b6fb"
 # edition 2021
 # DISTRO_NAME=fedora-rawhide_armhf
-# ROOTFS_FILE=fedora-mate_armhf_2021-12-21_13-28-rootfs.tar.zst
-# SHA256SUM=beba051348424896225ce0f0e6940bd8abe4798d18e6542fdaaafb38e69bc745
-# BUILD_DATE=20211221
-# BUILD_TAG=2021-12-21
+# ROOTFS_FILE=fedora-mate_armhf_2021-12-28_13-21-rootfs.tar.zst
+# SHA256SUM=d6db1d98ba1d0f65745073a364717b825f3d8efa4a5e257b479bea6bd38e7bee
+# BUILD_DATE=20211228
+# BUILD_TAG=2021-12-28
 # STATUS=completed
-# VERSION=latest01
-# END_TIME=13:28
+# VERSION=latest02
+# END_TIME=13:21
 
 [time]
 format = "rfc-3339"
 zone = "UTC"
-date = 2021-12-21
-begin = 2021-12-21 12:49:11.932626481+00:00
-start-sync_0 = 13:14:37
-start-zstd = 13:17:39
-start-sync_1 = 13:26:53
-end-sync_1 = 13:28:09
-end = 2021-12-21 13:28:09.043073810+00:00
+date = 2021-12-28
+begin = 2021-12-28 12:40:48.323675339+00:00
+start-sync_0 = 13:07:46
+start-zstd = 13:11:01
+start-sync_1 = 13:20:26
+end-sync_1 = 13:21:46
+end = 2021-12-28 13:21:46.200885526+00:00
 
 [server]
 repo = "cake233/fedora-mate-armv7"
