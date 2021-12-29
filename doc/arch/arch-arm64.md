@@ -20,7 +20,7 @@ docker exec -it arch-arm64 sh
 ```toml
 [main]
 name = "arch"
-tag = ["base", "2021-12-22"]
+tag = ["base", "2021-12-29"]
 os = "arch"
 release = "latest"
 arch = "arm64"
@@ -28,12 +28,12 @@ platform = "linux/arm64"
 x11_or_wayland = false
 
 [file]
-name = "arch_arm64_2021-12-22_00-05.tar.zst"
+name = "arch_arm64_2021-12-29_00-05.tar.zst"
 
 version = "0.0.0-alpha.2"
 
 # This value can be used to verify the integrity of the file
-sha256 = "acbf698c34c8e2a71ebab6a169af5b0fda7226da3ceb7704647766553f26a782"
+sha256 = "a870291607c3530b58f044d1e57b8611be39622ce440443c6cde6514d173a42d"
 
 # zstd: [1-22]
 zstd-level = 12
@@ -47,7 +47,7 @@ tar_bytes = 671778304
 # Space occupied ≈ tar-size + zstd-size
 # You will need to prepare a large enough space before installation.
 zstd = "177M"
-zstd_bytes = 184926205
+zstd_bytes = 184926342
 
 [compatibility]
 compatible_mode = true
@@ -61,15 +61,15 @@ previous_file = ""
 previous_sha256 = ""
 
 current_version = "latest01"
-current_date = "20211222"
+current_date = "20211229"
 old_file = ""
 old_sha256 = ""
 # edition 2021
 # DISTRO_NAME=arch_arm64
-# ROOTFS_FILE=arch_arm64_2021-12-22_00-05-rootfs.tar.zst
-# SHA256SUM=acbf698c34c8e2a71ebab6a169af5b0fda7226da3ceb7704647766553f26a782
-# BUILD_DATE=20211222
-# BUILD_TAG=2021-12-22
+# ROOTFS_FILE=arch_arm64_2021-12-29_00-05-rootfs.tar.zst
+# SHA256SUM=a870291607c3530b58f044d1e57b8611be39622ce440443c6cde6514d173a42d
+# BUILD_DATE=20211229
+# BUILD_TAG=2021-12-29
 # STATUS=completed
 # VERSION=latest01
 # END_TIME=00:05
@@ -77,13 +77,13 @@ old_sha256 = ""
 [time]
 format = "rfc-3339"
 zone = "UTC"
-date = 2021-12-22
-begin = 2021-12-22 00:02:24.267161700+00:00
-start-sync_0 = 00:03:50
-start-zstd = 00:04:32
-start-sync_1 = 00:04:44
-end-sync_1 = 00:05:00
-end = 2021-12-22 00:05:00.999599084+00:00
+date = 2021-12-29
+begin = 2021-12-29 00:02:26.530583592+00:00
+start-sync_0 = 00:03:58
+start-zstd = 00:04:50
+start-sync_1 = 00:05:02
+end-sync_1 = 00:05:22
+end = 2021-12-29 00:05:22.423740543+00:00
 
 [server]
 repo = "cake233/arch-arm64"
