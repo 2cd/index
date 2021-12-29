@@ -2,7 +2,7 @@
 
 ## How to run it?
 
-```shell
+```sh
 docker run \
     -it \
     --name debian-zsh-armv7 \
@@ -11,8 +11,8 @@ docker run \
 
 ## How to exec shell?
 
-```shell
-    docker exec -it debian-zsh-armv7 zsh
+```sh
+docker exec -it debian-zsh-armv7 zsh
 ```
 
 ## debian-zsh-armv7.toml
@@ -20,7 +20,7 @@ docker run \
 ```toml
 [main]
 name = "debian"
-tag = ["zsh", "2021-12-15"]
+tag = ["zsh", "2021-12-29"]
 os = "debian"
 release = "sid"
 arch = "armhf"
@@ -28,12 +28,12 @@ platform = "linux/arm/v7"
 x11_or_wayland = false
 
 [file]
-name = "debian-zsh_armhf_2021-12-15_12-16.tar.zst"
+name = "debian-zsh_armhf_2021-12-29_12-18.tar.zst"
 
 version = "0.0.0-alpha.2"
 
 # This value can be used to verify the integrity of the file
-sha256 = "b9f005a3b01b255af2484e822f3c5cab29bb1d5a9e992625a8e276933e3e8b0d"
+sha256 = "ac9ab81b93d91148dfd6d0dbeb9a4667d4128f6673288fda9995f3062d71e075"
 
 # zstd: [1-22]
 zstd-level = 20
@@ -41,49 +41,49 @@ zstd-level = 20
 [file.size]
 # Installed size ≈ tar-size
 # Installed size is approximately equal to the size of the tar file
-tar = "660M"
-tar_bytes = 691389440
+tar = "662M"
+tar_bytes = 693597184
 
 # Space occupied ≈ tar-size + zstd-size
 # You will need to prepare a large enough space before installation.
-zstd = "135M"
-zstd_bytes = 140837040
+zstd = "136M"
+zstd_bytes = 141808700
 
 [compatibility]
 compatible_mode = true
 
-previous_version = "latest02"
+previous_version = "latest01"
 
 # The value is &str, not int
-previous_date = "20211208"
-previous_tag = "2021-12-08"
-previous_file = "debian-zsh_armhf_2021-12-08_12-16-rootfs.tar.zst"
-previous_sha256 = "3b8f2787e3458c83f8be24a72f0b2fe2993f5c03b1e22eef9480015e34d80901"
+previous_date = "20211215"
+previous_tag = "2021-12-15"
+previous_file = "debian-zsh_armhf_2021-12-15_12-16-rootfs.tar.zst"
+previous_sha256 = "b9f005a3b01b255af2484e822f3c5cab29bb1d5a9e992625a8e276933e3e8b0d"
 
-current_version = "latest01"
-current_date = "20211215"
-old_file = "debian-zsh-armv7_2021-11-28_21-09-rootfs.tar.zst"
-old_sha256 = ""
+current_version = "latest02"
+current_date = "20211229"
+old_file = "debian-zsh_armhf_2021-12-08_12-16-rootfs.tar.zst"
+old_sha256 = "3b8f2787e3458c83f8be24a72f0b2fe2993f5c03b1e22eef9480015e34d80901"
 # edition 2021
 # DISTRO_NAME=debian-sid_armhf
-# ROOTFS_FILE=debian-zsh_armhf_2021-12-15_12-16-rootfs.tar.zst
-# SHA256SUM=b9f005a3b01b255af2484e822f3c5cab29bb1d5a9e992625a8e276933e3e8b0d
-# BUILD_DATE=20211215
-# BUILD_TAG=2021-12-15
+# ROOTFS_FILE=debian-zsh_armhf_2021-12-29_12-18-rootfs.tar.zst
+# SHA256SUM=ac9ab81b93d91148dfd6d0dbeb9a4667d4128f6673288fda9995f3062d71e075
+# BUILD_DATE=20211229
+# BUILD_TAG=2021-12-29
 # STATUS=completed
-# VERSION=latest01
-# END_TIME=12:16
+# VERSION=latest02
+# END_TIME=12:18
 
 [time]
 format = "rfc-3339"
 zone = "UTC"
-date = 2021-12-15
-begin = 2021-12-15 12:02:28.919988897+00:00
-start-sync_0 = 12:12:30
-start-zstd = 12:14:15
-start-sync_1 = 12:16:14
-end-sync_1 = 12:16:30
-end = 2021-12-15 12:16:30.219841316+00:00
+date = 2021-12-29
+begin = 2021-12-29 12:02:27.857424253+00:00
+start-sync_0 = 12:14:15
+start-zstd = 12:16:02
+start-sync_1 = 12:18:17
+end-sync_1 = 12:18:32
+end = 2021-12-29 12:18:32.619039161+00:00
 
 [server]
 repo = "cake233/debian-zsh-armv7"
