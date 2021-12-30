@@ -20,7 +20,7 @@ docker exec -it kali-zsh-armv7 zsh
 ```toml
 [main]
 name = "kali"
-tag = ["zsh", "2021-12-23"]
+tag = ["zsh", "2021-12-30"]
 os = "kali"
 release = "rolling"
 arch = "armhf"
@@ -28,12 +28,12 @@ platform = "linux/arm/v7"
 x11_or_wayland = false
 
 [file]
-name = "kali-zsh_armhf_2021-12-23_12-19.tar.zst"
+name = "kali-zsh_armhf_2021-12-30_12-17.tar.zst"
 
 version = "0.0.0-alpha.2"
 
 # This value can be used to verify the integrity of the file
-sha256 = "4299a7f82e2084685b10efdd20febd3dd4447a13ce4984b1e01aad11cc7e6221"
+sha256 = "5161bfe025ec2bfb4d8640da3f1b6ecc647a18411ed4a837a335c89e54267405"
 
 # zstd: [1-22]
 zstd-level = 20
@@ -41,49 +41,49 @@ zstd-level = 20
 [file.size]
 # Installed size ≈ tar-size
 # Installed size is approximately equal to the size of the tar file
-tar = "660M"
-tar_bytes = 691562496
+tar = "662M"
+tar_bytes = 693577216
 
 # Space occupied ≈ tar-size + zstd-size
 # You will need to prepare a large enough space before installation.
 zstd = "136M"
-zstd_bytes = 141677316
+zstd_bytes = 142146798
 
 [compatibility]
 compatible_mode = true
 
-previous_version = "latest02"
+previous_version = "latest01"
 
 # The value is &str, not int
-previous_date = "20211216"
-previous_tag = "2021-12-16"
-previous_file = "kali-zsh_armhf_2021-12-16_12-20-rootfs.tar.zst"
-previous_sha256 = "b1d45e76a85d2724b4356655691a535427cba314178e3c7cd3e21c900ee98605"
+previous_date = "20211223"
+previous_tag = "2021-12-23"
+previous_file = "kali-zsh_armhf_2021-12-23_12-19-rootfs.tar.zst"
+previous_sha256 = "4299a7f82e2084685b10efdd20febd3dd4447a13ce4984b1e01aad11cc7e6221"
 
-current_version = "latest01"
-current_date = "20211223"
-old_file = "kali-zsh_armhf_2021-12-09_12-19-rootfs.tar.zst"
-old_sha256 = "d52c19328aa43b1153609597e8dc7e56cf95bb51ccfa49f5d019e311bf7d1aab"
+current_version = "latest02"
+current_date = "20211230"
+old_file = "kali-zsh_armhf_2021-12-16_12-20-rootfs.tar.zst"
+old_sha256 = "b1d45e76a85d2724b4356655691a535427cba314178e3c7cd3e21c900ee98605"
 # edition 2021
 # DISTRO_NAME=kali-rolling_armhf
-# ROOTFS_FILE=kali-zsh_armhf_2021-12-23_12-19-rootfs.tar.zst
-# SHA256SUM=4299a7f82e2084685b10efdd20febd3dd4447a13ce4984b1e01aad11cc7e6221
-# BUILD_DATE=20211223
-# BUILD_TAG=2021-12-23
+# ROOTFS_FILE=kali-zsh_armhf_2021-12-30_12-17-rootfs.tar.zst
+# SHA256SUM=5161bfe025ec2bfb4d8640da3f1b6ecc647a18411ed4a837a335c89e54267405
+# BUILD_DATE=20211230
+# BUILD_TAG=2021-12-30
 # STATUS=completed
-# VERSION=latest01
-# END_TIME=12:19
+# VERSION=latest02
+# END_TIME=12:17
 
 [time]
 format = "rfc-3339"
 zone = "UTC"
-date = 2021-12-23
-begin = 2021-12-23 12:02:25.232432008+00:00
-start-sync_0 = 12:15:07
-start-zstd = 12:16:49
-start-sync_1 = 12:18:55
-end-sync_1 = 12:19:13
-end = 2021-12-23 12:19:13.370882133+00:00
+date = 2021-12-30
+begin = 2021-12-30 12:02:21.334175792+00:00
+start-sync_0 = 12:13:24
+start-zstd = 12:15:09
+start-sync_1 = 12:17:20
+end-sync_1 = 12:17:33
+end = 2021-12-30 12:17:33.932907771+00:00
 
 [server]
 repo = "cake233/kali-zsh-armv7"
