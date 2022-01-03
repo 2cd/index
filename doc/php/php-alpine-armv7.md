@@ -20,7 +20,7 @@ docker exec -it php-alpine-armv7 bash
 ```toml
 [main]
 name = "php"
-tag = ["alpine", "2021-12-20", "musl-libc", "musl"]
+tag = ["alpine", "2022-01-03", "musl-libc", "musl"]
 os = "alpine"
 release = "stable"
 arch = "armhf"
@@ -28,12 +28,12 @@ platform = "linux/arm/v7"
 x11_or_wayland = false
 
 [file]
-name = "php-musl_armhf_2021-12-20_12-03.tar.zst"
+name = "php-musl_armhf_2022-01-03_12-03.tar.zst"
 
 version = "0.0.0-alpha.2"
 
 # This value can be used to verify the integrity of the file
-sha256 = "c358696afcf34b3e7d22968d9b61d9e2911a040e175225c6ca8cd282142d789b"
+sha256 = "d34274a02c9dc9b8b969c7387d443a56761b879f1ba276682a3e1a96f04ffe7c"
 
 # zstd: [1-22]
 zstd-level = 18
@@ -47,43 +47,43 @@ tar_bytes = 77390848
 # Space occupied ≈ tar-size + zstd-size
 # You will need to prepare a large enough space before installation.
 zstd = "28M"
-zstd_bytes = 28527890
+zstd_bytes = 28527459
 
 [compatibility]
 compatible_mode = true
 
-previous_version = "latest02"
+previous_version = "latest01"
 
 # The value is &str, not int
-previous_date = "20211206"
-previous_tag = "2021-12-06"
-previous_file = "php-musl_armhf_2021-12-06_20-06-rootfs.tar.zst"
-previous_sha256 = ""
+previous_date = "20211220"
+previous_tag = "2021-12-20"
+previous_file = "php-musl_armhf_2021-12-20_12-03-rootfs.tar.zst"
+previous_sha256 = "c358696afcf34b3e7d22968d9b61d9e2911a040e175225c6ca8cd282142d789b"
 
-current_version = "latest01"
-current_date = "20211220"
-old_file = "php-musl_armhf_2021-11-29_01-07-rootfs.tar.zst"
+current_version = "latest02"
+current_date = "20220103"
+old_file = "php-musl_armhf_2021-12-06_20-06-rootfs.tar.zst"
 old_sha256 = ""
 # edition 2021
 # DISTRO_NAME=php_armhf
-# ROOTFS_FILE=php-musl_armhf_2021-12-20_12-03-rootfs.tar.zst
-# SHA256SUM=c358696afcf34b3e7d22968d9b61d9e2911a040e175225c6ca8cd282142d789b
-# BUILD_DATE=20211220
-# BUILD_TAG=2021-12-20
+# ROOTFS_FILE=php-musl_armhf_2022-01-03_12-03-rootfs.tar.zst
+# SHA256SUM=d34274a02c9dc9b8b969c7387d443a56761b879f1ba276682a3e1a96f04ffe7c
+# BUILD_DATE=20220103
+# BUILD_TAG=2022-01-03
 # STATUS=completed
-# VERSION=latest01
+# VERSION=latest02
 # END_TIME=12:03
 
 [time]
 format = "rfc-3339"
 zone = "UTC"
-date = 2021-12-20
-begin = 2021-12-20 12:02:26.782969191+00:00
-start-sync_0 = 12:02:53
-start-zstd = 12:02:59
-start-sync_1 = 12:03:06
-end-sync_1 = 12:03:16
-end = 2021-12-20 12:03:16.241789512+00:00
+date = 2022-01-03
+begin = 2022-01-03 12:02:29.074345171+00:00
+start-sync_0 = 12:03:20
+start-zstd = 12:03:32
+start-sync_1 = 12:03:41
+end-sync_1 = 12:03:52
+end = 2022-01-03 12:03:52.870233007+00:00
 
 [server]
 repo = "cake233/php-alpine-armv7"
