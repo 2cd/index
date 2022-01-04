@@ -20,7 +20,7 @@ docker exec -it ubuntu-zsh-arm64 zsh
 ```toml
 [main]
 name = "ubuntu"
-tag = ["zsh", "2021-12-28", "devel"]
+tag = ["zsh", "2022-01-04", "devel"]
 os = "ubuntu"
 release = "dev"
 arch = "arm64"
@@ -28,12 +28,12 @@ platform = "linux/arm64"
 x11_or_wayland = false
 
 [file]
-name = "ubuntu-zsh_arm64_2021-12-28_00-21.tar.zst"
+name = "ubuntu-zsh_arm64_2022-01-04_00-17.tar.zst"
 
 version = "0.0.0-alpha.2"
 
 # This value can be used to verify the integrity of the file
-sha256 = "7341ea061051c700d76cc13c50a3cf1efddefe304340eceaea7d7fe03bdb34fd"
+sha256 = "5f205e077e626f4672a86a3fd42d62668bf758499097ea8feff90aa37d60a9f7"
 
 # zstd: [1-22]
 zstd-level = 20
@@ -41,49 +41,49 @@ zstd-level = 20
 [file.size]
 # Installed size ≈ tar-size
 # Installed size is approximately equal to the size of the tar file
-tar = "622M"
-tar_bytes = 651335680
+tar = "623M"
+tar_bytes = 652531712
 
 # Space occupied ≈ tar-size + zstd-size
 # You will need to prepare a large enough space before installation.
 zstd = "111M"
-zstd_bytes = 116040481
+zstd_bytes = 116315772
 
 [compatibility]
 compatible_mode = true
 
-previous_version = "latest02"
+previous_version = "latest01"
 
 # The value is &str, not int
-previous_date = "20211221"
-previous_tag = "2021-12-21"
-previous_file = "ubuntu-zsh_arm64_2021-12-21_00-18-rootfs.tar.zst"
-previous_sha256 = "948ac48fa91312b862f3ef7ae82ff817d2947f5c62173c16ed13e749727e9373"
+previous_date = "20211228"
+previous_tag = "2021-12-28"
+previous_file = "ubuntu-zsh_arm64_2021-12-28_00-21-rootfs.tar.zst"
+previous_sha256 = "7341ea061051c700d76cc13c50a3cf1efddefe304340eceaea7d7fe03bdb34fd"
 
-current_version = "latest01"
-current_date = "20211228"
-old_file = "ubuntu-zsh_arm64_2021-12-14_00-20-rootfs.tar.zst"
-old_sha256 = "ef3099c38c9161e9378f4315f68842911efd6a348e2f303414d8c7081011563c"
+current_version = "latest02"
+current_date = "20220104"
+old_file = "ubuntu-zsh_arm64_2021-12-21_00-18-rootfs.tar.zst"
+old_sha256 = "948ac48fa91312b862f3ef7ae82ff817d2947f5c62173c16ed13e749727e9373"
 # edition 2021
 # DISTRO_NAME=ubuntu-dev_arm64
-# ROOTFS_FILE=ubuntu-zsh_arm64_2021-12-28_00-21-rootfs.tar.zst
-# SHA256SUM=7341ea061051c700d76cc13c50a3cf1efddefe304340eceaea7d7fe03bdb34fd
-# BUILD_DATE=20211228
-# BUILD_TAG=2021-12-28
+# ROOTFS_FILE=ubuntu-zsh_arm64_2022-01-04_00-17-rootfs.tar.zst
+# SHA256SUM=5f205e077e626f4672a86a3fd42d62668bf758499097ea8feff90aa37d60a9f7
+# BUILD_DATE=20220104
+# BUILD_TAG=2022-01-04
 # STATUS=completed
-# VERSION=latest01
-# END_TIME=00:21
+# VERSION=latest02
+# END_TIME=00:17
 
 [time]
 format = "rfc-3339"
 zone = "UTC"
-date = 2021-12-28
-begin = 2021-12-28 00:02:27.729501396+00:00
-start-sync_0 = 00:17:12
-start-zstd = 00:19:01
-start-sync_1 = 00:21:38
-end-sync_1 = 00:21:50
-end = 2021-12-28 00:21:50.500132784+00:00
+date = 2022-01-04
+begin = 2022-01-04 00:02:24.139508368+00:00
+start-sync_0 = 00:13:24
+start-zstd = 00:15:06
+start-sync_1 = 00:17:29
+end-sync_1 = 00:17:41
+end = 2022-01-04 00:17:41.077818189+00:00
 
 [server]
 repo = "cake233/ubuntu-zsh-arm64"
