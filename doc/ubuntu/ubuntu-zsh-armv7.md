@@ -20,7 +20,7 @@ docker exec -it ubuntu-zsh-armv7 zsh
 ```toml
 [main]
 name = "ubuntu"
-tag = ["zsh", "2021-12-28", "devel"]
+tag = ["zsh", "2022-01-04", "devel"]
 os = "ubuntu"
 release = "dev"
 arch = "armhf"
@@ -28,12 +28,12 @@ platform = "linux/arm/v7"
 x11_or_wayland = false
 
 [file]
-name = "ubuntu-zsh_armhf_2021-12-28_00-20.tar.zst"
+name = "ubuntu-zsh_armhf_2022-01-04_00-22.tar.zst"
 
 version = "0.0.0-alpha.2"
 
 # This value can be used to verify the integrity of the file
-sha256 = "09acdd6369aed9024f4e5b2cce54f19010fa4a4f5d1451f22939fa490a67044e"
+sha256 = "5982d1c39674088025c494ee9e398da689c206747b910b755f383daa70d7a521"
 
 # zstd: [1-22]
 zstd-level = 20
@@ -41,49 +41,49 @@ zstd-level = 20
 [file.size]
 # Installed size ≈ tar-size
 # Installed size is approximately equal to the size of the tar file
-tar = "572M"
-tar_bytes = 599187456
+tar = "573M"
+tar_bytes = 600357888
 
 # Space occupied ≈ tar-size + zstd-size
 # You will need to prepare a large enough space before installation.
 zstd = "107M"
-zstd_bytes = 112031604
+zstd_bytes = 112095505
 
 [compatibility]
 compatible_mode = true
 
-previous_version = "latest01"
+previous_version = "latest02"
 
 # The value is &str, not int
-previous_date = "20211221"
-previous_tag = "2021-12-21"
-previous_file = "ubuntu-zsh_armhf_2021-12-21_00-19-rootfs.tar.zst"
-previous_sha256 = "60f26ddbded0a77b55decfa45d920050127e1ffabc284928cba3e49da68a3f05"
+previous_date = "20211228"
+previous_tag = "2021-12-28"
+previous_file = "ubuntu-zsh_armhf_2021-12-28_00-20-rootfs.tar.zst"
+previous_sha256 = "09acdd6369aed9024f4e5b2cce54f19010fa4a4f5d1451f22939fa490a67044e"
 
-current_version = "latest02"
-current_date = "20211228"
-old_file = "ubuntu-zsh_armhf_2021-12-14_00-17-rootfs.tar.zst"
-old_sha256 = "8db791d239f095e9bdc4ad9d02aea86071af60814e0f8b57cc5c63d9fc73b6f2"
+current_version = "latest01"
+current_date = "20220104"
+old_file = "ubuntu-zsh_armhf_2021-12-21_00-19-rootfs.tar.zst"
+old_sha256 = "60f26ddbded0a77b55decfa45d920050127e1ffabc284928cba3e49da68a3f05"
 # edition 2021
 # DISTRO_NAME=ubuntu-dev_armhf
-# ROOTFS_FILE=ubuntu-zsh_armhf_2021-12-28_00-20-rootfs.tar.zst
-# SHA256SUM=09acdd6369aed9024f4e5b2cce54f19010fa4a4f5d1451f22939fa490a67044e
-# BUILD_DATE=20211228
-# BUILD_TAG=2021-12-28
+# ROOTFS_FILE=ubuntu-zsh_armhf_2022-01-04_00-22-rootfs.tar.zst
+# SHA256SUM=5982d1c39674088025c494ee9e398da689c206747b910b755f383daa70d7a521
+# BUILD_DATE=20220104
+# BUILD_TAG=2022-01-04
 # STATUS=completed
-# VERSION=latest02
-# END_TIME=00:20
+# VERSION=latest01
+# END_TIME=00:22
 
 [time]
 format = "rfc-3339"
 zone = "UTC"
-date = 2021-12-28
-begin = 2021-12-28 00:02:23.612243659+00:00
-start-sync_0 = 00:16:13
-start-zstd = 00:17:55
-start-sync_1 = 00:19:54
-end-sync_1 = 00:20:06
-end = 2021-12-28 00:20:06.434726789+00:00
+date = 2022-01-04
+begin = 2022-01-04 00:02:29.699025048+00:00
+start-sync_0 = 00:17:42
+start-zstd = 00:19:34
+start-sync_1 = 00:22:01
+end-sync_1 = 00:22:19
+end = 2022-01-04 00:22:19.038188539+00:00
 
 [server]
 repo = "cake233/ubuntu-zsh-armv7"
