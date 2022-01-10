@@ -1,6 +1,6 @@
 [main]
 name = "code"
-tag = ["latest", "2021-12-27", "vsc", "vscode", "web"]
+tag = ["latest", "2022-01-10", "vsc", "vscode", "web"]
 os = "debian"
 release = "sid"
 arch = "arm64"
@@ -8,12 +8,12 @@ platform = "linux/arm64"
 x11_or_wayland = false
 
 [file]
-name = "code_arm64_2021-12-27_12-11.tar.zst"
+name = "code_arm64_2022-01-10_12-12.tar.zst"
 
 version = "0.0.0-alpha.2"
 
 # This value can be used to verify the integrity of the file
-sha256 = "05a2f71b76f17f47906c8b04330b3a047cb3c56da6d9fafa5bc51385ea27619a"
+sha256 = "b114e691b6aa669fc2f4cb52f8126c11ac745319787bdb59a07c3b5fa048548d"
 
 # zstd: [1-22]
 zstd-level = 20
@@ -22,48 +22,48 @@ zstd-level = 20
 # Installed size ≈ tar-size
 # Installed size is approximately equal to the size of the tar file
 tar = "730M"
-tar_bytes = 764881920
+tar_bytes = 765022208
 
 # Space occupied ≈ tar-size + zstd-size
 # You will need to prepare a large enough space before installation.
 zstd = "166M"
-zstd_bytes = 173639166
+zstd_bytes = 173674873
 
 [compatibility]
 compatible_mode = true
 
-previous_version = "latest02"
+previous_version = "latest01"
 
 # The value is &str, not int
-previous_date = "20211213"
-previous_tag = "2021-12-13"
-previous_file = "code_arm64_2021-12-13_12-11-rootfs.tar.zst"
-previous_sha256 = "46bac39a42fa6627ec917f8da2ed6d320188f997c34d1adfafe4b0451d69be79"
+previous_date = "20211227"
+previous_tag = "2021-12-27"
+previous_file = "code_arm64_2021-12-27_12-11-rootfs.tar.zst"
+previous_sha256 = "05a2f71b76f17f47906c8b04330b3a047cb3c56da6d9fafa5bc51385ea27619a"
 
-current_version = "latest01"
-current_date = "20211227"
-old_file = "code_arm64_2021-12-08_01-13-rootfs.tar.zst"
-old_sha256 = "b1728ebac68eb2fcfd1b7f6ef9c44ac02c81507f126eb1cab98d1037aafd5e61"
+current_version = "latest02"
+current_date = "20220110"
+old_file = "code_arm64_2021-12-13_12-11-rootfs.tar.zst"
+old_sha256 = "46bac39a42fa6627ec917f8da2ed6d320188f997c34d1adfafe4b0451d69be79"
 # edition 2021
 # DISTRO_NAME=code_arm64
-# ROOTFS_FILE=code_arm64_2021-12-27_12-11-rootfs.tar.zst
-# SHA256SUM=05a2f71b76f17f47906c8b04330b3a047cb3c56da6d9fafa5bc51385ea27619a
-# BUILD_DATE=20211227
-# BUILD_TAG=2021-12-27
+# ROOTFS_FILE=code_arm64_2022-01-10_12-12-rootfs.tar.zst
+# SHA256SUM=b114e691b6aa669fc2f4cb52f8126c11ac745319787bdb59a07c3b5fa048548d
+# BUILD_DATE=20220110
+# BUILD_TAG=2022-01-10
 # STATUS=completed
-# VERSION=latest01
-# END_TIME=12:11
+# VERSION=latest02
+# END_TIME=12:12
 
 [time]
 format = "rfc-3339"
 zone = "UTC"
-date = 2021-12-27
-begin = 2021-12-27 12:02:24.488379371+00:00
-start-sync_0 = 12:07:05
-start-zstd = 12:07:45
-start-sync_1 = 12:10:52
-end-sync_1 = 12:11:07
-end = 2021-12-27 12:11:07.895836428+00:00
+date = 2022-01-10
+begin = 2022-01-10 12:02:30.701259778+00:00
+start-sync_0 = 12:08:40
+start-zstd = 12:09:33
+start-sync_1 = 12:12:15
+end-sync_1 = 12:12:34
+end = 2022-01-10 12:12:34.233561681+00:00
 
 [server]
 repo = "cake233/code-arm64"
@@ -77,18 +77,16 @@ split = false
 
 [server.node2]
 name = "tmoe"
-current = true
-previous = false
+current = false
+previous = true
 in_sync = false
 split = false
 
 [server.node3]
 name = "azure"
-current = true
+current = false
 previous = true
 in_sync = false
-start_sync = 2021-12-27 18:14:00.745599607+00:00
-end_sync = 2021-12-27 18:14:45.235988560+00:00
 split = false
 
 [server.node4]
@@ -100,8 +98,8 @@ current = true
 LANG = "en_US.UTF-8"
 
 [version]
-ldd = 'ldd (Debian GLIBC 2.33-1) 2.33'
-code = '4.0.0 0f395955515207f9b461ffdd2a595f35311dd05f'
+ldd = 'ldd (Debian GLIBC 2.33-2) 2.33'
+code = '4.0.1 735c6da829535969ff7193c79379299e4a1cb9bc'
 
 [port]
 tcp = [8080]
