@@ -69,7 +69,7 @@ ldd "$FILE"
 ```toml
 [main]
 name = "rust"
-tag = ["latest", "2022-01-14", "nightly", "unstable", "default", "gnu-libc"]
+tag = ["latest", "2022-01-17", "nightly", "unstable", "default", "gnu-libc"]
 os = "debian"
 release = "sid"
 arch = "ppc64el"
@@ -77,12 +77,12 @@ platform = "linux/ppc64le"
 x11_or_wayland = false
 
 [file]
-name = "rust_ppc64el_2022-01-14_03-04.tar.zst"
+name = "rust_ppc64el_2022-01-17_03-05.tar.zst"
 
 version = "0.0.0-alpha.2"
 
 # This value can be used to verify the integrity of the file
-sha256 = "f0a3ec129244e2fe0a61ea609fe0e5cd2da4658f034cc755a8eeae4675509df9"
+sha256 = "4b20b38162a865f0087837eab673c6be9e6dcf1b4ff91a63309cea3a12bfe8d5"
 
 # zstd: [1-22]
 zstd-level = 20
@@ -90,49 +90,49 @@ zstd-level = 20
 [file.size]
 # Installed size ≈ tar-size
 # Installed size is approximately equal to the size of the tar file
-tar = "1005M"
-tar_bytes = 1053241344
+tar = "1006M"
+tar_bytes = 1054456320
 
 # Space occupied ≈ tar-size + zstd-size
 # You will need to prepare a large enough space before installation.
 zstd = "209M"
-zstd_bytes = 218264222
+zstd_bytes = 218883296
 
 [compatibility]
 compatible_mode = true
 
-previous_version = "latest02"
+previous_version = "latest01"
 
 # The value is &str, not int
-previous_date = "20220110"
-previous_tag = "2022-01-10"
-previous_file = "rust_ppc64el_2022-01-10_03-05-rootfs.tar.zst"
-previous_sha256 = "e4f0eb81f0f3f54e5ebd683e9499707135c0a86a9609694b2118f1bd6f9e18e7"
+previous_date = "20220114"
+previous_tag = "2022-01-14"
+previous_file = "rust_ppc64el_2022-01-14_03-04-rootfs.tar.zst"
+previous_sha256 = "f0a3ec129244e2fe0a61ea609fe0e5cd2da4658f034cc755a8eeae4675509df9"
 
-current_version = "latest01"
-current_date = "20220114"
-old_file = "rust_ppc64el_2022-01-07_03-04-rootfs.tar.zst"
-old_sha256 = "26226e69f99c9ba683b433d48c42190408ea45bf11473fbc35e733caa1a7a8cb"
+current_version = "latest02"
+current_date = "20220117"
+old_file = "rust_ppc64el_2022-01-10_03-05-rootfs.tar.zst"
+old_sha256 = "e4f0eb81f0f3f54e5ebd683e9499707135c0a86a9609694b2118f1bd6f9e18e7"
 # edition 2021
 # DISTRO_NAME=rust_ppc64el
-# ROOTFS_FILE=rust_ppc64el_2022-01-14_03-04-rootfs.tar.zst
-# SHA256SUM=f0a3ec129244e2fe0a61ea609fe0e5cd2da4658f034cc755a8eeae4675509df9
-# BUILD_DATE=20220114
-# BUILD_TAG=2022-01-14
+# ROOTFS_FILE=rust_ppc64el_2022-01-17_03-05-rootfs.tar.zst
+# SHA256SUM=4b20b38162a865f0087837eab673c6be9e6dcf1b4ff91a63309cea3a12bfe8d5
+# BUILD_DATE=20220117
+# BUILD_TAG=2022-01-17
 # STATUS=completed
-# VERSION=latest01
-# END_TIME=03:04
+# VERSION=latest02
+# END_TIME=03:05
 
 [time]
 format = "rfc-3339"
 zone = "UTC"
-date = 2022-01-14
-begin = 2022-01-14 02:52:25.216942040+00:00
-start-sync_0 = 02:59:25
-start-zstd = 03:00:15
-start-sync_1 = 03:04:39
-end-sync_1 = 03:04:59
-end = 2022-01-14 03:04:59.818006160+00:00
+date = 2022-01-17
+begin = 2022-01-17 02:52:27.551400839+00:00
+start-sync_0 = 02:59:28
+start-zstd = 03:00:17
+start-sync_1 = 03:04:41
+end-sync_1 = 03:05:04
+end = 2022-01-17 03:05:04.055470727+00:00
 
 [server]
 repo = "cake233/rust-ppc64le"
@@ -172,24 +172,24 @@ CARGO_HOME = "/usr/local/cargo"
 [version]
 ldd = 'ldd (Debian GLIBC 2.33-2) 2.33'
 rustup = 'rustup 1.24.3 (ce5817a94 2021-05-31)'
-cargo = 'cargo 1.60.0-nightly (358e79fe5 2022-01-04)'
-rustc = 'rustc 1.60.0-nightly (22e491ac7 2022-01-13)'
+cargo = 'cargo 1.60.0-nightly (06b9d3174 2022-01-11)'
+rustc = 'rustc 1.60.0-nightly (bd3cb5256 2022-01-16)'
 cc = 'cc (Debian 11.2.0-14) 11.2.0'
 cargo_verbose = '''
-cargo 1.60.0-nightly (358e79fe5 2022-01-04)
+cargo 1.60.0-nightly (06b9d3174 2022-01-11)
 release: 1.60.0-nightly
-commit-hash: 358e79fe56fe374649275ca7aebaafd57ade0e8d
-commit-date: 2022-01-04
+commit-hash: 06b9d31743210b788b130c8a484c2838afa6fc27
+commit-date: 2022-01-11
 host: powerpc64le-unknown-linux-gnu
 libgit2: 1.3.0 (sys:0.13.23 vendored)
 libcurl: 7.80.0-DEV (sys:0.4.51+curl-7.80.0 vendored ssl:OpenSSL/1.1.1l)
 os: Linux [64-bit]
 '''
 rustc_verbose = '''
-rustc 1.60.0-nightly (22e491ac7 2022-01-13)
+rustc 1.60.0-nightly (bd3cb5256 2022-01-16)
 binary: rustc
-commit-hash: 22e491ac7ed454d34669151a8b6464cb643c9b41
-commit-date: 2022-01-13
+commit-hash: bd3cb52565faab2755ff1bdb54d88bc91f47b4b9
+commit-date: 2022-01-16
 host: powerpc64le-unknown-linux-gnu
 release: 1.60.0-nightly
 LLVM version: 13.0.0
