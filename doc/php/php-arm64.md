@@ -20,7 +20,7 @@ docker exec -it php-arm64 bash
 ```toml
 [main]
 name = "php"
-tag = ["latest", "2022-01-03"]
+tag = ["latest", "2022-01-17"]
 os = "debian"
 release = "stable"
 arch = "arm64"
@@ -28,12 +28,12 @@ platform = "linux/arm64"
 x11_or_wayland = false
 
 [file]
-name = "php_arm64_2022-01-03_12-07.tar.zst"
+name = "php_arm64_2022-01-17_12-06.tar.zst"
 
 version = "0.0.0-alpha.2"
 
 # This value can be used to verify the integrity of the file
-sha256 = "67bff543dd491e34f34e9306eb8c97d7be65e102c1577688c382939d35d92924"
+sha256 = "22d637c558d4c45fa415772acc18a19dafa1867153ac2d63c0bfd6560b6fafe4"
 
 # zstd: [1-22]
 zstd-level = 18
@@ -47,43 +47,43 @@ tar_bytes = 478010880
 # Space occupied ≈ tar-size + zstd-size
 # You will need to prepare a large enough space before installation.
 zstd = "122M"
-zstd_bytes = 127305120
+zstd_bytes = 127328275
 
 [compatibility]
 compatible_mode = true
 
-previous_version = "latest02"
+previous_version = "latest01"
 
 # The value is &str, not int
-previous_date = "20211220"
-previous_tag = "2021-12-20"
-previous_file = "php_arm64_2021-12-20_12-06-rootfs.tar.zst"
-previous_sha256 = "b364187edfb5470c6ebc88ca40c1874271ee796a0f70f86b44dd403191a3589a"
+previous_date = "20220103"
+previous_tag = "2022-01-03"
+previous_file = "php_arm64_2022-01-03_12-07-rootfs.tar.zst"
+previous_sha256 = "67bff543dd491e34f34e9306eb8c97d7be65e102c1577688c382939d35d92924"
 
-current_version = "latest01"
-current_date = "20220103"
-old_file = "php_arm64_2021-12-06_20-08-rootfs.tar.zst"
-old_sha256 = ""
+current_version = "latest02"
+current_date = "20220117"
+old_file = "php_arm64_2021-12-20_12-06-rootfs.tar.zst"
+old_sha256 = "b364187edfb5470c6ebc88ca40c1874271ee796a0f70f86b44dd403191a3589a"
 # edition 2021
 # DISTRO_NAME=php_arm64
-# ROOTFS_FILE=php_arm64_2022-01-03_12-07-rootfs.tar.zst
-# SHA256SUM=67bff543dd491e34f34e9306eb8c97d7be65e102c1577688c382939d35d92924
-# BUILD_DATE=20220103
-# BUILD_TAG=2022-01-03
+# ROOTFS_FILE=php_arm64_2022-01-17_12-06-rootfs.tar.zst
+# SHA256SUM=22d637c558d4c45fa415772acc18a19dafa1867153ac2d63c0bfd6560b6fafe4
+# BUILD_DATE=20220117
+# BUILD_TAG=2022-01-17
 # STATUS=completed
-# VERSION=latest01
-# END_TIME=12:07
+# VERSION=latest02
+# END_TIME=12:06
 
 [time]
 format = "rfc-3339"
 zone = "UTC"
-date = 2022-01-03
-begin = 2022-01-03 12:02:29.636846245+00:00
-start-sync_0 = 12:05:13
-start-zstd = 12:05:33
-start-sync_1 = 12:06:50
-end-sync_1 = 12:07:08
-end = 2022-01-03 12:07:08.856854897+00:00
+date = 2022-01-17
+begin = 2022-01-17 12:02:28.230463249+00:00
+start-sync_0 = 12:04:40
+start-zstd = 12:04:52
+start-sync_1 = 12:06:04
+end-sync_1 = 12:06:23
+end = 2022-01-17 12:06:23.950026180+00:00
 
 [server]
 repo = "cake233/php-arm64"
