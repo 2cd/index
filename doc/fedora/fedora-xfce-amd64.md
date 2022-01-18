@@ -77,7 +77,7 @@ localhost:5903
 ```toml
 [main]
 name = "fedora"
-tag = ["xfce", "2022-01-11"]
+tag = ["xfce", "2022-01-18"]
 os = "fedora"
 release = "rawhide"
 arch = "amd64"
@@ -85,12 +85,12 @@ platform = "linux/amd64"
 x11_or_wayland = true
 
 [file]
-name = "fedora-xfce_amd64_2022-01-11_13-08.tar.zst"
+name = "fedora-xfce_amd64_2022-01-18_13-06.tar.zst"
 
 version = "0.0.0-alpha.2"
 
 # This value can be used to verify the integrity of the file
-sha256 = "b263a1c846d7ea018a5754e35730b6b82d858b9fe8317ccf8a336dd1216ee450"
+sha256 = "dd65a18ef9da6c1d5660d29d6ccfbbba6eb3e75b80ce81b5837ce0af34c2573d"
 
 # zstd: [1-22]
 zstd-level = 18
@@ -99,12 +99,12 @@ zstd-level = 18
 # Installed size ≈ tar-size
 # Installed size is approximately equal to the size of the tar file
 tar = "3.8G"
-tar_bytes = 4024358912
+tar_bytes = 4024556544
 
 # Space occupied ≈ tar-size + zstd-size
 # You will need to prepare a large enough space before installation.
 zstd = "1.3G"
-zstd_bytes = 1324042863
+zstd_bytes = 1295635945
 
 [compatibility]
 compatible_mode = true
@@ -112,35 +112,35 @@ compatible_mode = true
 previous_version = "latest02"
 
 # The value is &str, not int
-previous_date = "20220104"
-previous_tag = "2022-01-04"
-previous_file = "fedora-xfce_amd64_2022-01-04_13-16-rootfs.tar.zst"
-previous_sha256 = "09c8e72bd54a75d30db5b39a8828793b7425346783184d30071be6601a303193"
+previous_date = "20211128"
+previous_tag = ""
+previous_file = ""
+previous_sha256 = ""
 
 current_version = "latest01"
-current_date = "20220111"
-old_file = "fedora-xfce_amd64_2021-12-28_13-03-rootfs.tar.zst"
-old_sha256 = "082213e12acb063a055559226431bb752eb22348d28044034a2ca63ced4f89e8"
+current_date = "20220118"
+old_file = ""
+old_sha256 = ""
 # edition 2021
 # DISTRO_NAME=fedora-rawhide_amd64
-# ROOTFS_FILE=fedora-xfce_amd64_2022-01-11_13-08-rootfs.tar.zst
-# SHA256SUM=b263a1c846d7ea018a5754e35730b6b82d858b9fe8317ccf8a336dd1216ee450
-# BUILD_DATE=20220111
-# BUILD_TAG=2022-01-11
+# ROOTFS_FILE=fedora-xfce_amd64_2022-01-18_13-06-rootfs.tar.zst
+# SHA256SUM=dd65a18ef9da6c1d5660d29d6ccfbbba6eb3e75b80ce81b5837ce0af34c2573d
+# BUILD_DATE=20220118
+# BUILD_TAG=2022-01-18
 # STATUS=completed
 # VERSION=latest01
-# END_TIME=13:08
+# END_TIME=13:06
 
 [time]
 format = "rfc-3339"
 zone = "UTC"
-date = 2022-01-11
-begin = 2022-01-11 12:45:32.068341983+00:00
-start-sync_0 = 12:51:58
-start-zstd = 12:55:41
-start-sync_1 = 13:06:46
-end-sync_1 = 13:08:32
-end = 2022-01-11 13:08:33.011543215+00:00
+date = 2022-01-18
+begin = 2022-01-18 12:45:13.608952106+00:00
+start-sync_0 = 12:51:40
+start-zstd = 12:55:14
+start-sync_1 = 13:05:28
+end-sync_1 = 13:06:51
+end = 2022-01-18 13:06:51.244134173+00:00
 
 [server]
 repo = "cake233/fedora-xfce-amd64"
