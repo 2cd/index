@@ -77,7 +77,7 @@ localhost:5903
 ```toml
 [main]
 name = "arch"
-tag = ["xfce", "2022-01-12"]
+tag = ["xfce", "2022-01-19"]
 os = "arch"
 release = "latest"
 arch = "amd64"
@@ -85,12 +85,12 @@ platform = "linux/amd64"
 x11_or_wayland = true
 
 [file]
-name = "arch-xfce_amd64_2022-01-12_00-42.tar.zst"
+name = "arch-xfce_amd64_2022-01-19_00-50.tar.zst"
 
 version = "0.0.0-alpha.2"
 
 # This value can be used to verify the integrity of the file
-sha256 = "acdd07508e5ac2968f9889ea3e1863af87862048d584d315492e4ef46ceaad8c"
+sha256 = "549e94cfd5f499a628b094415d8f210eaf4eee73d6124e289db92c2d19674bf6"
 
 # zstd: [1-22]
 zstd-level = 15
@@ -99,12 +99,12 @@ zstd-level = 15
 # Installed size ≈ tar-size
 # Installed size is approximately equal to the size of the tar file
 tar = "3.6G"
-tar_bytes = 3825349632
+tar_bytes = 3841040896
 
 # Space occupied ≈ tar-size + zstd-size
 # You will need to prepare a large enough space before installation.
 zstd = "1.2G"
-zstd_bytes = 1251218020
+zstd_bytes = 1268335988
 
 [compatibility]
 compatible_mode = true
@@ -112,35 +112,35 @@ compatible_mode = true
 previous_version = "latest02"
 
 # The value is &str, not int
-previous_date = "20220105"
-previous_tag = "2022-01-05"
-previous_file = "arch-xfce_amd64_2022-01-05_00-40-rootfs.tar.zst"
-previous_sha256 = "14a4f6d37f141df7cd1b58f6452e713a5884fd0aff47f94d98c34726e94a1a02"
+previous_date = "20211128"
+previous_tag = ""
+previous_file = ""
+previous_sha256 = ""
 
 current_version = "latest01"
-current_date = "20220112"
-old_file = "arch-xfce_amd64_2021-12-29_00-41-rootfs.tar.zst"
-old_sha256 = "9c32e44f2d1427e1b047e5160ee59e60ddb54ba2fee874866e81ef1311a8883a"
+current_date = "20220119"
+old_file = ""
+old_sha256 = ""
 # edition 2021
 # DISTRO_NAME=arch_amd64
-# ROOTFS_FILE=arch-xfce_amd64_2022-01-12_00-42-rootfs.tar.zst
-# SHA256SUM=acdd07508e5ac2968f9889ea3e1863af87862048d584d315492e4ef46ceaad8c
-# BUILD_DATE=20220112
-# BUILD_TAG=2022-01-12
+# ROOTFS_FILE=arch-xfce_amd64_2022-01-19_00-50-rootfs.tar.zst
+# SHA256SUM=549e94cfd5f499a628b094415d8f210eaf4eee73d6124e289db92c2d19674bf6
+# BUILD_DATE=20220119
+# BUILD_TAG=2022-01-19
 # STATUS=completed
 # VERSION=latest01
-# END_TIME=00:42
+# END_TIME=00:50
 
 [time]
 format = "rfc-3339"
 zone = "UTC"
-date = 2022-01-12
-begin = 2022-01-12 00:24:48.463813221+00:00
-start-sync_0 = 00:31:53
-start-zstd = 00:35:23
-start-sync_1 = 00:40:49
-end-sync_1 = 00:42:08
-end = 2022-01-12 00:42:08.679913421+00:00
+date = 2022-01-19
+begin = 2022-01-19 00:30:14.770003127+00:00
+start-sync_0 = 00:39:24
+start-zstd = 00:43:41
+start-sync_1 = 00:49:17
+end-sync_1 = 00:50:44
+end = 2022-01-19 00:50:44.972207134+00:00
 
 [server]
 repo = "cake233/arch-xfce-amd64"
