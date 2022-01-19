@@ -20,7 +20,7 @@ docker exec -it arch-zsh-amd64 zsh
 ```toml
 [main]
 name = "arch"
-tag = ["zsh", "2022-01-12"]
+tag = ["zsh", "2022-01-19"]
 os = "arch"
 release = "latest"
 arch = "amd64"
@@ -28,12 +28,12 @@ platform = "linux/amd64"
 x11_or_wayland = false
 
 [file]
-name = "arch-zsh_amd64_2022-01-12_00-13.tar.zst"
+name = "arch-zsh_amd64_2022-01-19_00-14.tar.zst"
 
 version = "0.0.0-alpha.2"
 
 # This value can be used to verify the integrity of the file
-sha256 = "5360ae51c9e4b20db4c9b315cf4759e3cbe0c8d07c2776864d3add0e91f8b522"
+sha256 = "b87893e3b3fb15d801d88ba0afc6bb141e7ea661e04ab836267db9bede53c07a"
 
 # zstd: [1-22]
 zstd-level = 20
@@ -42,48 +42,48 @@ zstd-level = 20
 # Installed size ≈ tar-size
 # Installed size is approximately equal to the size of the tar file
 tar = "975M"
-tar_bytes = 1021593600
+tar_bytes = 1021708800
 
 # Space occupied ≈ tar-size + zstd-size
 # You will need to prepare a large enough space before installation.
 zstd = "236M"
-zstd_bytes = 247108231
+zstd_bytes = 246861466
 
 [compatibility]
 compatible_mode = true
 
-previous_version = "latest01"
+previous_version = "latest02"
 
 # The value is &str, not int
-previous_date = "20220105"
-previous_tag = "2022-01-05"
-previous_file = "arch-zsh_amd64_2022-01-05_00-12-rootfs.tar.zst"
-previous_sha256 = "4a784c5890b8260da3c93e55d09dcdb872e6edf8f5ccad41c9f073b742ce87ac"
+previous_date = "20211128"
+previous_tag = ""
+previous_file = ""
+previous_sha256 = ""
 
-current_version = "latest02"
-current_date = "20220112"
-old_file = "arch-zsh_amd64_2021-12-29_00-12-rootfs.tar.zst"
-old_sha256 = "379082a824b8c61f7fcefdcfaf7c367153fba08dd921f40855e1707cd8694f2d"
+current_version = "latest01"
+current_date = "20220119"
+old_file = ""
+old_sha256 = ""
 # edition 2021
 # DISTRO_NAME=arch_amd64
-# ROOTFS_FILE=arch-zsh_amd64_2022-01-12_00-13-rootfs.tar.zst
-# SHA256SUM=5360ae51c9e4b20db4c9b315cf4759e3cbe0c8d07c2776864d3add0e91f8b522
-# BUILD_DATE=20220112
-# BUILD_TAG=2022-01-12
+# ROOTFS_FILE=arch-zsh_amd64_2022-01-19_00-14-rootfs.tar.zst
+# SHA256SUM=b87893e3b3fb15d801d88ba0afc6bb141e7ea661e04ab836267db9bede53c07a
+# BUILD_DATE=20220119
+# BUILD_TAG=2022-01-19
 # STATUS=completed
-# VERSION=latest02
-# END_TIME=00:13
+# VERSION=latest01
+# END_TIME=00:14
 
 [time]
 format = "rfc-3339"
 zone = "UTC"
-date = 2022-01-12
-begin = 2022-01-12 00:06:33.282893286+00:00
-start-sync_0 = 00:08:04
-start-zstd = 00:09:55
-start-sync_1 = 00:13:31
-end-sync_1 = 00:13:52
-end = 2022-01-12 00:13:52.779617596+00:00
+date = 2022-01-19
+begin = 2022-01-19 00:06:17.488189424+00:00
+start-sync_0 = 00:07:58
+start-zstd = 00:09:42
+start-sync_1 = 00:13:38
+end-sync_1 = 00:14:01
+end = 2022-01-19 00:14:01.941391970+00:00
 
 [server]
 repo = "cake233/arch-zsh-amd64"
