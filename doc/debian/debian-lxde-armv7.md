@@ -77,7 +77,7 @@ localhost:5903
 ```toml
 [main]
 name = "debian"
-tag = ["lxde", "2022-01-12"]
+tag = ["lxde", "2022-01-19"]
 os = "debian"
 release = "sid"
 arch = "armhf"
@@ -85,12 +85,12 @@ platform = "linux/arm/v7"
 x11_or_wayland = true
 
 [file]
-name = "debian-lxde_armhf_2022-01-12_13-02.tar.zst"
+name = "debian-lxde_armhf_2022-01-19_13-01.tar.zst"
 
 version = "0.0.0-alpha.2"
 
 # This value can be used to verify the integrity of the file
-sha256 = "a7a2212558414bcf39aefba5fa8e77aa9d93e7e888f90179904ff87e2760f674"
+sha256 = "b9fd5c6f0376dbdd67ff8138123ef60c44d5fccc7d0edcc0b17d39bae587eb8c"
 
 # zstd: [1-22]
 zstd-level = 18
@@ -99,12 +99,12 @@ zstd-level = 18
 # Installed size ≈ tar-size
 # Installed size is approximately equal to the size of the tar file
 tar = "2.6G"
-tar_bytes = 2757084672
+tar_bytes = 2761325568
 
 # Space occupied ≈ tar-size + zstd-size
 # You will need to prepare a large enough space before installation.
-zstd = "879M"
-zstd_bytes = 921328736
+zstd = "881M"
+zstd_bytes = 923307927
 
 [compatibility]
 compatible_mode = true
@@ -112,35 +112,35 @@ compatible_mode = true
 previous_version = "latest02"
 
 # The value is &str, not int
-previous_date = "20220105"
-previous_tag = "2022-01-05"
-previous_file = "debian-lxde_armhf_2022-01-05_13-00-rootfs.tar.zst"
-previous_sha256 = "9d8f1cc4f8ce22e091ef0029d1577523f894a3583304cf8086685ca232e12e20"
+previous_date = "20211128"
+previous_tag = ""
+previous_file = ""
+previous_sha256 = ""
 
 current_version = "latest01"
-current_date = "20220112"
-old_file = "debian-lxde_armhf_2021-12-29_13-06-rootfs.tar.zst"
-old_sha256 = "7cb16ca85d75d4347cac8c7c707914edefad1cbf76cc32a59b9d16e8e86652b6"
+current_date = "20220119"
+old_file = ""
+old_sha256 = ""
 # edition 2021
 # DISTRO_NAME=debian-sid_armhf
-# ROOTFS_FILE=debian-lxde_armhf_2022-01-12_13-02-rootfs.tar.zst
-# SHA256SUM=a7a2212558414bcf39aefba5fa8e77aa9d93e7e888f90179904ff87e2760f674
-# BUILD_DATE=20220112
-# BUILD_TAG=2022-01-12
+# ROOTFS_FILE=debian-lxde_armhf_2022-01-19_13-01-rootfs.tar.zst
+# SHA256SUM=b9fd5c6f0376dbdd67ff8138123ef60c44d5fccc7d0edcc0b17d39bae587eb8c
+# BUILD_DATE=20220119
+# BUILD_TAG=2022-01-19
 # STATUS=completed
 # VERSION=latest01
-# END_TIME=13:02
+# END_TIME=13:01
 
 [time]
 format = "rfc-3339"
 zone = "UTC"
-date = 2022-01-12
-begin = 2022-01-12 12:22:30.784509345+00:00
-start-sync_0 = 12:52:21
-start-zstd = 12:54:26
-start-sync_1 = 13:01:28
-end-sync_1 = 13:02:26
-end = 2022-01-12 13:02:26.041176501+00:00
+date = 2022-01-19
+begin = 2022-01-19 12:23:10.266942921+00:00
+start-sync_0 = 12:51:59
+start-zstd = 12:54:05
+start-sync_1 = 13:00:57
+end-sync_1 = 13:01:56
+end = 2022-01-19 13:01:56.725061854+00:00
 
 [server]
 repo = "cake233/debian-lxde-armv7"
@@ -175,7 +175,7 @@ current = true
 LANG = "en_US.UTF-8"
 
 [version]
-ldd = 'ldd (Debian GLIBC 2.33-2) 2.33'
+ldd = 'ldd (Debian GLIBC 2.33-3) 2.33'
 zsh = 'zsh 5.8 (arm-unknown-linux-gnueabihf)'
 
 [port]
