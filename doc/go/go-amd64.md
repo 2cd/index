@@ -56,7 +56,7 @@ func main() {
 ```toml
 [main]
 name = "go"
-tag = ["latest", "2022-01-10"]
+tag = ["latest", "2022-01-24"]
 os = "debian"
 release = "stable"
 arch = "amd64"
@@ -64,12 +64,12 @@ platform = "linux/amd64"
 x11_or_wayland = false
 
 [file]
-name = "go_amd64_2022-01-10_12-08.tar.zst"
+name = "go_amd64_2022-01-24_12-09.tar.zst"
 
 version = "0.0.0-alpha.2"
 
 # This value can be used to verify the integrity of the file
-sha256 = "d6ca407ecaea67b43807154fffedd3fd640538e194287899980846c40012257e"
+sha256 = "b85297f5ec7baee84c5bd40015734232472814628edeb46454651e37514d4b40"
 
 # zstd: [1-22]
 zstd-level = 20
@@ -78,12 +78,12 @@ zstd-level = 20
 # Installed size ≈ tar-size
 # Installed size is approximately equal to the size of the tar file
 tar = "965M"
-tar_bytes = 1011769856
+tar_bytes = 1011806720
 
 # Space occupied ≈ tar-size + zstd-size
 # You will need to prepare a large enough space before installation.
 zstd = "228M"
-zstd_bytes = 238491821
+zstd_bytes = 238354618
 
 [compatibility]
 compatible_mode = true
@@ -91,35 +91,35 @@ compatible_mode = true
 previous_version = "latest02"
 
 # The value is &str, not int
-previous_date = "20211227"
-previous_tag = "2021-12-27"
-previous_file = "go_amd64_2021-12-27_12-09-rootfs.tar.zst"
-previous_sha256 = "f65561de778fd185675664568a9018a9a3a2b1982e6ac6c5a5a9b9b0a94cfb6c"
+previous_date = "20211128"
+previous_tag = ""
+previous_file = ""
+previous_sha256 = ""
 
 current_version = "latest01"
-current_date = "20220110"
-old_file = "go_amd64_2021-12-16_08-30-rootfs.tar.zst"
-old_sha256 = "4d8b831a03f5f39f1c6a7443d38411f0b6033f6785b1df9b43df0ac3daaf9424"
+current_date = "20220124"
+old_file = ""
+old_sha256 = ""
 # edition 2021
 # DISTRO_NAME=go_amd64
-# ROOTFS_FILE=go_amd64_2022-01-10_12-08-rootfs.tar.zst
-# SHA256SUM=d6ca407ecaea67b43807154fffedd3fd640538e194287899980846c40012257e
-# BUILD_DATE=20220110
-# BUILD_TAG=2022-01-10
+# ROOTFS_FILE=go_amd64_2022-01-24_12-09-rootfs.tar.zst
+# SHA256SUM=b85297f5ec7baee84c5bd40015734232472814628edeb46454651e37514d4b40
+# BUILD_DATE=20220124
+# BUILD_TAG=2022-01-24
 # STATUS=completed
 # VERSION=latest01
-# END_TIME=12:08
+# END_TIME=12:09
 
 [time]
 format = "rfc-3339"
 zone = "UTC"
-date = 2022-01-10
-begin = 2022-01-10 12:02:26.643056821+00:00
-start-sync_0 = 12:03:30
-start-zstd = 12:03:45
-start-sync_1 = 12:07:48
-end-sync_1 = 12:08:08
-end = 2022-01-10 12:08:08.490863445+00:00
+date = 2022-01-24
+begin = 2022-01-24 12:02:26.703131160+00:00
+start-sync_0 = 12:03:46
+start-zstd = 12:04:48
+start-sync_1 = 12:09:20
+end-sync_1 = 12:09:41
+end = 2022-01-24 12:09:41.642709203+00:00
 
 [server]
 repo = "cake233/go-amd64"
