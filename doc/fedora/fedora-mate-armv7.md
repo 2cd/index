@@ -77,7 +77,7 @@ localhost:5903
 ```toml
 [main]
 name = "fedora"
-tag = ["mate", "2022-01-18"]
+tag = ["mate", "2022-01-25"]
 os = "fedora"
 release = "rawhide"
 arch = "armhf"
@@ -85,12 +85,12 @@ platform = "linux/arm/v7"
 x11_or_wayland = true
 
 [file]
-name = "fedora-mate_armhf_2022-01-18_13-24.tar.zst"
+name = "fedora-mate_armhf_2022-01-25_13-21.tar.zst"
 
 version = "0.0.0-alpha.2"
 
 # This value can be used to verify the integrity of the file
-sha256 = "988334e3382f960b391693280edaff9cc98a2fbbffaf869a2bcdacaeda6f6b2d"
+sha256 = "702c12d7572c5c4fba512e4f77491cfe99e0bfc6db516a7d4faac2a50eb7c886"
 
 # zstd: [1-22]
 zstd-level = 18
@@ -99,48 +99,48 @@ zstd-level = 18
 # Installed size ≈ tar-size
 # Installed size is approximately equal to the size of the tar file
 tar = "3.2G"
-tar_bytes = 3370053632
+tar_bytes = 3364871680
 
 # Space occupied ≈ tar-size + zstd-size
 # You will need to prepare a large enough space before installation.
 zstd = "1.1G"
-zstd_bytes = 1095203461
+zstd_bytes = 1092959375
 
 [compatibility]
 compatible_mode = true
 
-previous_version = "latest02"
+previous_version = "latest01"
 
 # The value is &str, not int
-previous_date = "20211128"
-previous_tag = ""
-previous_file = ""
-previous_sha256 = ""
+previous_date = "20220118"
+previous_tag = "2022-01-18"
+previous_file = "fedora-mate_armhf_2022-01-18_13-24-rootfs.tar.zst"
+previous_sha256 = "988334e3382f960b391693280edaff9cc98a2fbbffaf869a2bcdacaeda6f6b2d"
 
-current_version = "latest01"
-current_date = "20220118"
-old_file = ""
-old_sha256 = ""
+current_version = "latest02"
+current_date = "20220125"
+old_file = "fedora-mate_armhf_2022-01-11_13-22-rootfs.tar.zst"
+old_sha256 = "288bbf80d393b64dec678161691a581b40b7e98187146e916bf4cfa3dce6a347"
 # edition 2021
 # DISTRO_NAME=fedora-rawhide_armhf
-# ROOTFS_FILE=fedora-mate_armhf_2022-01-18_13-24-rootfs.tar.zst
-# SHA256SUM=988334e3382f960b391693280edaff9cc98a2fbbffaf869a2bcdacaeda6f6b2d
-# BUILD_DATE=20220118
-# BUILD_TAG=2022-01-18
+# ROOTFS_FILE=fedora-mate_armhf_2022-01-25_13-21-rootfs.tar.zst
+# SHA256SUM=702c12d7572c5c4fba512e4f77491cfe99e0bfc6db516a7d4faac2a50eb7c886
+# BUILD_DATE=20220125
+# BUILD_TAG=2022-01-25
 # STATUS=completed
-# VERSION=latest01
-# END_TIME=13:24
+# VERSION=latest02
+# END_TIME=13:21
 
 [time]
 format = "rfc-3339"
 zone = "UTC"
-date = 2022-01-18
-begin = 2022-01-18 12:45:13.506483927+00:00
-start-sync_0 = 13:10:45
-start-zstd = 13:13:56
-start-sync_1 = 13:23:18
-end-sync_1 = 13:24:38
-end = 2022-01-18 13:24:38.866651544+00:00
+date = 2022-01-25
+begin = 2022-01-25 12:46:53.504937490+00:00
+start-sync_0 = 13:08:57
+start-zstd = 13:11:29
+start-sync_1 = 13:20:01
+end-sync_1 = 13:21:07
+end = 2022-01-25 13:21:07.490380854+00:00
 
 [server]
 repo = "cake233/fedora-mate-armv7"
