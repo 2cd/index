@@ -20,7 +20,7 @@ docker exec -it ubuntu-zsh-armv7 zsh
 ```toml
 [main]
 name = "ubuntu"
-tag = ["zsh", "2022-01-18", "devel"]
+tag = ["zsh", "2022-01-25", "devel"]
 os = "ubuntu"
 release = "dev"
 arch = "armhf"
@@ -28,12 +28,12 @@ platform = "linux/arm/v7"
 x11_or_wayland = false
 
 [file]
-name = "ubuntu-zsh_armhf_2022-01-18_00-16.tar.zst"
+name = "ubuntu-zsh_armhf_2022-01-25_00-20.tar.zst"
 
 version = "0.0.0-alpha.2"
 
 # This value can be used to verify the integrity of the file
-sha256 = "294c2805b89a588cd1504de98b2bce6cb68bb08eba8509aa5aff23cb2cabd276"
+sha256 = "79e71b268d346daa5ac6dfd866bfad6c275d96827e5e2a98dd3a87885648119e"
 
 # zstd: [1-22]
 zstd-level = 20
@@ -42,12 +42,12 @@ zstd-level = 20
 # Installed size ≈ tar-size
 # Installed size is approximately equal to the size of the tar file
 tar = "573M"
-tar_bytes = 599845888
+tar_bytes = 600154624
 
 # Space occupied ≈ tar-size + zstd-size
 # You will need to prepare a large enough space before installation.
 zstd = "107M"
-zstd_bytes = 111981732
+zstd_bytes = 112094768
 
 [compatibility]
 compatible_mode = true
@@ -55,35 +55,35 @@ compatible_mode = true
 previous_version = "latest02"
 
 # The value is &str, not int
-previous_date = "20220111"
-previous_tag = "2022-01-11"
-previous_file = "ubuntu-zsh_armhf_2022-01-11_00-19-rootfs.tar.zst"
-previous_sha256 = "c7ba204f77eb4fc13d0af4a4d84fc0de833ef0b853a7894488b261506ef02a7c"
+previous_date = "20211128"
+previous_tag = ""
+previous_file = ""
+previous_sha256 = ""
 
 current_version = "latest01"
-current_date = "20220118"
-old_file = "ubuntu-zsh_armhf_2022-01-04_00-22-rootfs.tar.zst"
-old_sha256 = "5982d1c39674088025c494ee9e398da689c206747b910b755f383daa70d7a521"
+current_date = "20220125"
+old_file = ""
+old_sha256 = ""
 # edition 2021
 # DISTRO_NAME=ubuntu-dev_armhf
-# ROOTFS_FILE=ubuntu-zsh_armhf_2022-01-18_00-16-rootfs.tar.zst
-# SHA256SUM=294c2805b89a588cd1504de98b2bce6cb68bb08eba8509aa5aff23cb2cabd276
-# BUILD_DATE=20220118
-# BUILD_TAG=2022-01-18
+# ROOTFS_FILE=ubuntu-zsh_armhf_2022-01-25_00-20-rootfs.tar.zst
+# SHA256SUM=79e71b268d346daa5ac6dfd866bfad6c275d96827e5e2a98dd3a87885648119e
+# BUILD_DATE=20220125
+# BUILD_TAG=2022-01-25
 # STATUS=completed
 # VERSION=latest01
-# END_TIME=00:16
+# END_TIME=00:20
 
 [time]
 format = "rfc-3339"
 zone = "UTC"
-date = 2022-01-18
-begin = 2022-01-18 00:02:22.080962450+00:00
-start-sync_0 = 00:13:08
-start-zstd = 00:14:48
-start-sync_1 = 00:16:36
-end-sync_1 = 00:16:48
-end = 2022-01-18 00:16:48.428721348+00:00
+date = 2022-01-25
+begin = 2022-01-25 00:02:26.458935207+00:00
+start-sync_0 = 00:16:38
+start-zstd = 00:18:25
+start-sync_1 = 00:20:23
+end-sync_1 = 00:20:37
+end = 2022-01-25 00:20:37.067906473+00:00
 
 [server]
 repo = "cake233/ubuntu-zsh-armv7"
