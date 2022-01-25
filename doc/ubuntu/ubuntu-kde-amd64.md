@@ -77,7 +77,7 @@ localhost:5903
 ```toml
 [main]
 name = "ubuntu"
-tag = ["kde", "2022-01-18", "devel"]
+tag = ["kde", "2022-01-25", "devel"]
 os = "ubuntu"
 release = "dev"
 arch = "amd64"
@@ -85,12 +85,12 @@ platform = "linux/amd64"
 x11_or_wayland = true
 
 [file]
-name = "ubuntu-kde_amd64_2022-01-18_00-44.tar.zst"
+name = "ubuntu-kde_amd64_2022-01-25_00-45.tar.zst"
 
 version = "0.0.0-alpha.2"
 
 # This value can be used to verify the integrity of the file
-sha256 = "187664a2e27bd4fcee6c8d77f3a81f239cdc1bc6ef4f6f72efdca668c7af3ea6"
+sha256 = "2cc65f170bfa172bef979fb9d0724b08db12f74bd387212aba5e5faa65759338"
 
 # zstd: [1-22]
 zstd-level = 18
@@ -99,48 +99,48 @@ zstd-level = 18
 # Installed size ≈ tar-size
 # Installed size is approximately equal to the size of the tar file
 tar = "3.6G"
-tar_bytes = 3862802944
+tar_bytes = 3862243328
 
 # Space occupied ≈ tar-size + zstd-size
 # You will need to prepare a large enough space before installation.
 zstd = "1.1G"
-zstd_bytes = 1087276012
+zstd_bytes = 1088046022
 
 [compatibility]
 compatible_mode = true
 
-previous_version = "latest01"
+previous_version = "latest02"
 
 # The value is &str, not int
-previous_date = "20220111"
-previous_tag = "2022-01-11"
-previous_file = "ubuntu-kde_amd64_2022-01-11_00-44-rootfs.tar.zst"
-previous_sha256 = "43ce2d821f72a0eda1e20f6eb0c15671fa2ff7d5791f7eea678757087dae1110"
+previous_date = "20211128"
+previous_tag = ""
+previous_file = ""
+previous_sha256 = ""
 
-current_version = "latest02"
-current_date = "20220118"
-old_file = "ubuntu-kde_amd64_2022-01-04_00-50-rootfs.tar.zst"
-old_sha256 = "392171dad61e09291bf6c4228ef371ce94dd5fc86209884f2ae117ac4fb5cebf"
+current_version = "latest01"
+current_date = "20220125"
+old_file = ""
+old_sha256 = ""
 # edition 2021
 # DISTRO_NAME=ubuntu-dev_amd64
-# ROOTFS_FILE=ubuntu-kde_amd64_2022-01-18_00-44-rootfs.tar.zst
-# SHA256SUM=187664a2e27bd4fcee6c8d77f3a81f239cdc1bc6ef4f6f72efdca668c7af3ea6
-# BUILD_DATE=20220118
-# BUILD_TAG=2022-01-18
+# ROOTFS_FILE=ubuntu-kde_amd64_2022-01-25_00-45-rootfs.tar.zst
+# SHA256SUM=2cc65f170bfa172bef979fb9d0724b08db12f74bd387212aba5e5faa65759338
+# BUILD_DATE=20220125
+# BUILD_TAG=2022-01-25
 # STATUS=completed
-# VERSION=latest02
-# END_TIME=00:44
+# VERSION=latest01
+# END_TIME=00:45
 
 [time]
 format = "rfc-3339"
 zone = "UTC"
-date = 2022-01-18
-begin = 2022-01-18 00:19:12.571167406+00:00
-start-sync_0 = 00:26:14
-start-zstd = 00:30:33
-start-sync_1 = 00:42:57
-end-sync_1 = 00:44:12
-end = 2022-01-18 00:44:12.103969768+00:00
+date = 2022-01-25
+begin = 2022-01-25 00:21:02.475319484+00:00
+start-sync_0 = 00:28:03
+start-zstd = 00:32:09
+start-sync_1 = 00:44:30
+end-sync_1 = 00:45:51
+end = 2022-01-25 00:45:51.827834943+00:00
 
 [server]
 repo = "cake233/ubuntu-kde-amd64"
