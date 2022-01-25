@@ -77,7 +77,7 @@ localhost:5903
 ```toml
 [main]
 name = "ubuntu"
-tag = ["kde", "2022-01-18", "devel"]
+tag = ["kde", "2022-01-25", "devel"]
 os = "ubuntu"
 release = "dev"
 arch = "armhf"
@@ -85,12 +85,12 @@ platform = "linux/arm/v7"
 x11_or_wayland = true
 
 [file]
-name = "ubuntu-kde_armhf_2022-01-18_01-15.tar.zst"
+name = "ubuntu-kde_armhf_2022-01-25_01-08.tar.zst"
 
 version = "0.0.0-alpha.2"
 
 # This value can be used to verify the integrity of the file
-sha256 = "8a8cb5026d8c256247b6eff80d3bc75f153a496a2c04d053047d324a06184638"
+sha256 = "fe0115bab95cd4867c9703d8167e0aed1f28e37588557c1615d1c5ba479d8f4c"
 
 # zstd: [1-22]
 zstd-level = 18
@@ -99,12 +99,12 @@ zstd-level = 18
 # Installed size ≈ tar-size
 # Installed size is approximately equal to the size of the tar file
 tar = "3.0G"
-tar_bytes = 3163461632
+tar_bytes = 3162872832
 
 # Space occupied ≈ tar-size + zstd-size
 # You will need to prepare a large enough space before installation.
 zstd = "991M"
-zstd_bytes = 1038619075
+zstd_bytes = 1039083422
 
 [compatibility]
 compatible_mode = true
@@ -112,35 +112,35 @@ compatible_mode = true
 previous_version = "latest02"
 
 # The value is &str, not int
-previous_date = "20220111"
-previous_tag = "2022-01-11"
-previous_file = "ubuntu-kde_armhf_2022-01-11_01-25-rootfs.tar.zst"
-previous_sha256 = "f3982d7b376e857b2ef7b9aea08a2e5b42da6d39bad03789cdec3fb1d432cf85"
+previous_date = "20211128"
+previous_tag = ""
+previous_file = ""
+previous_sha256 = ""
 
 current_version = "latest01"
-current_date = "20220118"
-old_file = "ubuntu-kde_armhf_2022-01-04_01-14-rootfs.tar.zst"
-old_sha256 = "b2dfc54bfafe1f6ccec5fa70b182182464650a150450964dfacaf42b8dc90b6b"
+current_date = "20220125"
+old_file = ""
+old_sha256 = ""
 # edition 2021
 # DISTRO_NAME=ubuntu-dev_armhf
-# ROOTFS_FILE=ubuntu-kde_armhf_2022-01-18_01-15-rootfs.tar.zst
-# SHA256SUM=8a8cb5026d8c256247b6eff80d3bc75f153a496a2c04d053047d324a06184638
-# BUILD_DATE=20220118
-# BUILD_TAG=2022-01-18
+# ROOTFS_FILE=ubuntu-kde_armhf_2022-01-25_01-08-rootfs.tar.zst
+# SHA256SUM=fe0115bab95cd4867c9703d8167e0aed1f28e37588557c1615d1c5ba479d8f4c
+# BUILD_DATE=20220125
+# BUILD_TAG=2022-01-25
 # STATUS=completed
 # VERSION=latest01
-# END_TIME=01:15
+# END_TIME=01:08
 
 [time]
 format = "rfc-3339"
 zone = "UTC"
-date = 2022-01-18
-begin = 2022-01-18 00:19:15.889767788+00:00
-start-sync_0 = 01:02:25
-start-zstd = 01:05:25
-start-sync_1 = 01:14:29
-end-sync_1 = 01:15:53
-end = 2022-01-18 01:15:53.884845978+00:00
+date = 2022-01-25
+begin = 2022-01-25 00:21:04.512334730+00:00
+start-sync_0 = 00:57:02
+start-zstd = 00:59:42
+start-sync_1 = 01:07:35
+end-sync_1 = 01:08:46
+end = 2022-01-25 01:08:46.695515816+00:00
 
 [server]
 repo = "cake233/ubuntu-kde-armv7"
