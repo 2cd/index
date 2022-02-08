@@ -20,7 +20,7 @@ docker exec -it fedora-zsh-arm64 zsh
 ```toml
 [main]
 name = "fedora"
-tag = ["zsh", "2022-02-01"]
+tag = ["zsh", "2022-02-08"]
 os = "fedora"
 release = "rawhide"
 arch = "arm64"
@@ -28,12 +28,12 @@ platform = "linux/arm64"
 x11_or_wayland = false
 
 [file]
-name = "fedora-zsh_arm64_2022-02-01_12-41.tar.zst"
+name = "fedora-zsh_arm64_2022-02-08_13-02.tar.zst"
 
 version = "0.0.0-alpha.2"
 
 # This value can be used to verify the integrity of the file
-sha256 = "d5ed1dd5adaaf20e17cdb49e6d73b2bae13bd479b63bc7d50f6ff6728d25bffc"
+sha256 = "5d6fe2cf8e48f33397d525afcd5332e2aa87ed92acc39e845f598eb4cf26fd6e"
 
 # zstd: [1-22]
 zstd-level = 20
@@ -41,49 +41,49 @@ zstd-level = 20
 [file.size]
 # Installed size ≈ tar-size
 # Installed size is approximately equal to the size of the tar file
-tar = "982M"
-tar_bytes = 1029182464
+tar = "1.1G"
+tar_bytes = 1127215104
 
 # Space occupied ≈ tar-size + zstd-size
 # You will need to prepare a large enough space before installation.
-zstd = "157M"
-zstd_bytes = 163688700
+zstd = "175M"
+zstd_bytes = 182541737
 
 [compatibility]
 compatible_mode = true
 
-previous_version = "latest02"
+previous_version = "latest01"
 
 # The value is &str, not int
-previous_date = "20220125"
-previous_tag = "2022-01-25"
-previous_file = "fedora-zsh_arm64_2022-01-25_12-46-rootfs.tar.zst"
-previous_sha256 = "03fc32a0341c9be8e11beb3e6b59d8efcdcafae0f95418267301e33ac27b2a88"
+previous_date = "20220201"
+previous_tag = "2022-02-01"
+previous_file = "fedora-zsh_arm64_2022-02-01_12-41-rootfs.tar.zst"
+previous_sha256 = "d5ed1dd5adaaf20e17cdb49e6d73b2bae13bd479b63bc7d50f6ff6728d25bffc"
 
-current_version = "latest01"
-current_date = "20220201"
-old_file = "fedora-zsh_arm64_2022-01-18_12-44-rootfs.tar.zst"
-old_sha256 = "7469896a675d868c3c8dcb9b696a19c204a5831a4cdc08f9af9a987d644c6640"
+current_version = "latest02"
+current_date = "20220208"
+old_file = "fedora-zsh_arm64_2022-01-25_12-46-rootfs.tar.zst"
+old_sha256 = "03fc32a0341c9be8e11beb3e6b59d8efcdcafae0f95418267301e33ac27b2a88"
 # edition 2021
 # DISTRO_NAME=fedora-rawhide_arm64
-# ROOTFS_FILE=fedora-zsh_arm64_2022-02-01_12-41-rootfs.tar.zst
-# SHA256SUM=d5ed1dd5adaaf20e17cdb49e6d73b2bae13bd479b63bc7d50f6ff6728d25bffc
-# BUILD_DATE=20220201
-# BUILD_TAG=2022-02-01
+# ROOTFS_FILE=fedora-zsh_arm64_2022-02-08_13-02-rootfs.tar.zst
+# SHA256SUM=5d6fe2cf8e48f33397d525afcd5332e2aa87ed92acc39e845f598eb4cf26fd6e
+# BUILD_DATE=20220208
+# BUILD_TAG=2022-02-08
 # STATUS=completed
-# VERSION=latest01
-# END_TIME=12:41
+# VERSION=latest02
+# END_TIME=13:02
 
 [time]
 format = "rfc-3339"
 zone = "UTC"
-date = 2022-02-01
-begin = 2022-02-01 12:02:22.317573663+00:00
-start-sync_0 = 12:36:16
-start-zstd = 12:38:11
-start-sync_1 = 12:41:00
-end-sync_1 = 12:41:14
-end = 2022-02-01 12:41:14.751740564+00:00
+date = 2022-02-08
+begin = 2022-02-08 12:02:37.748871824+00:00
+start-sync_0 = 12:56:13
+start-zstd = 12:58:21
+start-sync_1 = 13:02:02
+end-sync_1 = 13:02:18
+end = 2022-02-08 13:02:18.597768847+00:00
 
 [server]
 repo = "cake233/fedora-zsh-arm64"
