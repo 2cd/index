@@ -20,7 +20,7 @@ docker exec -it debian-zsh-armv7 zsh
 ```toml
 [main]
 name = "debian"
-tag = ["zsh", "2022-02-02"]
+tag = ["zsh", "2022-02-09"]
 os = "debian"
 release = "sid"
 arch = "armhf"
@@ -28,12 +28,12 @@ platform = "linux/arm/v7"
 x11_or_wayland = false
 
 [file]
-name = "debian-zsh_armhf_2022-02-02_12-21.tar.zst"
+name = "debian-zsh_armhf_2022-02-09_12-17.tar.zst"
 
 version = "0.0.0-alpha.2"
 
 # This value can be used to verify the integrity of the file
-sha256 = "d552a1900efce3bef4d9938f13e92a9a4a789e8aad360e45dc7bd1c52f48ff3f"
+sha256 = "8d04f7b94f32355d0474fb9dec9d58186dfb88ee0685deda1680f8d68726fbbd"
 
 # zstd: [1-22]
 zstd-level = 20
@@ -41,49 +41,49 @@ zstd-level = 20
 [file.size]
 # Installed size ≈ tar-size
 # Installed size is approximately equal to the size of the tar file
-tar = "664M"
-tar_bytes = 695925248
+tar = "665M"
+tar_bytes = 696858624
 
 # Space occupied ≈ tar-size + zstd-size
 # You will need to prepare a large enough space before installation.
 zstd = "137M"
-zstd_bytes = 142795113
+zstd_bytes = 142981575
 
 [compatibility]
 compatible_mode = true
 
-previous_version = "latest02"
+previous_version = "latest01"
 
 # The value is &str, not int
-previous_date = "20220126"
-previous_tag = "2022-01-26"
-previous_file = "debian-zsh_armhf_2022-01-26_12-20-rootfs.tar.zst"
-previous_sha256 = "2a51ddbb502d694924570f7f9d0681cc995cd2f1d67c6a969a49feddc3beab2b"
+previous_date = "20220202"
+previous_tag = "2022-02-02"
+previous_file = "debian-zsh_armhf_2022-02-02_12-21-rootfs.tar.zst"
+previous_sha256 = "d552a1900efce3bef4d9938f13e92a9a4a789e8aad360e45dc7bd1c52f48ff3f"
 
-current_version = "latest01"
-current_date = "20220202"
-old_file = "debian-zsh_armhf_2022-01-19_12-20-rootfs.tar.zst"
-old_sha256 = "620613203379b9793bdc64277e8d3a58feeb8133b37c9426663437b850ef46b3"
+current_version = "latest02"
+current_date = "20220209"
+old_file = "debian-zsh_armhf_2022-01-26_12-20-rootfs.tar.zst"
+old_sha256 = "2a51ddbb502d694924570f7f9d0681cc995cd2f1d67c6a969a49feddc3beab2b"
 # edition 2021
 # DISTRO_NAME=debian-sid_armhf
-# ROOTFS_FILE=debian-zsh_armhf_2022-02-02_12-21-rootfs.tar.zst
-# SHA256SUM=d552a1900efce3bef4d9938f13e92a9a4a789e8aad360e45dc7bd1c52f48ff3f
-# BUILD_DATE=20220202
-# BUILD_TAG=2022-02-02
+# ROOTFS_FILE=debian-zsh_armhf_2022-02-09_12-17-rootfs.tar.zst
+# SHA256SUM=8d04f7b94f32355d0474fb9dec9d58186dfb88ee0685deda1680f8d68726fbbd
+# BUILD_DATE=20220209
+# BUILD_TAG=2022-02-09
 # STATUS=completed
-# VERSION=latest01
-# END_TIME=12:21
+# VERSION=latest02
+# END_TIME=12:17
 
 [time]
 format = "rfc-3339"
 zone = "UTC"
-date = 2022-02-02
-begin = 2022-02-02 12:02:27.338685665+00:00
-start-sync_0 = 12:16:41
-start-zstd = 12:18:32
-start-sync_1 = 12:21:00
-end-sync_1 = 12:21:15
-end = 2022-02-02 12:21:15.660963563+00:00
+date = 2022-02-09
+begin = 2022-02-09 12:02:34.866604473+00:00
+start-sync_0 = 12:13:03
+start-zstd = 12:14:48
+start-sync_1 = 12:16:53
+end-sync_1 = 12:17:09
+end = 2022-02-09 12:17:09.219711135+00:00
 
 [server]
 repo = "cake233/debian-zsh-armv7"
