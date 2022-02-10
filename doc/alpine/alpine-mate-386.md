@@ -77,7 +77,7 @@ localhost:5903
 ```toml
 [main]
 name = "alpine"
-tag = ["mate", "2022-02-03"]
+tag = ["mate", "2022-02-10"]
 os = "alpine"
 release = "edge"
 arch = "i386"
@@ -85,12 +85,12 @@ platform = "linux/386"
 x11_or_wayland = true
 
 [file]
-name = "alpine-mate_i386_2022-02-03_00-28.tar.zst"
+name = "alpine-mate_i386_2022-02-10_00-34.tar.zst"
 
 version = "0.0.0-alpha.2"
 
 # This value can be used to verify the integrity of the file
-sha256 = "13799461bdf3b0606b0889c7c62c725201239b5e72d197f2a62203b492d07e7c"
+sha256 = "5821dc52442a46d3ad8fa2e9edeabaa0387cb540b7e8b3d0e7188d6d4a26caec"
 
 # zstd: [1-22]
 zstd-level = 19
@@ -98,49 +98,49 @@ zstd-level = 19
 [file.size]
 # Installed size ≈ tar-size
 # Installed size is approximately equal to the size of the tar file
-tar = "789M"
-tar_bytes = 827155968
+tar = "790M"
+tar_bytes = 827572224
 
 # Space occupied ≈ tar-size + zstd-size
 # You will need to prepare a large enough space before installation.
 zstd = "248M"
-zstd_bytes = 259815815
+zstd_bytes = 259972519
 
 [compatibility]
 compatible_mode = true
 
-previous_version = "latest01"
+previous_version = "latest02"
 
 # The value is &str, not int
-previous_date = "20220127"
-previous_tag = "2022-01-27"
-previous_file = "alpine-mate_i386_2022-01-27_00-30-rootfs.tar.zst"
-previous_sha256 = "4b69d7837ddc0a30c7834fd18b8191e39e321fd505e3b35e6218907f2b8924b7"
+previous_date = "20220203"
+previous_tag = "2022-02-03"
+previous_file = "alpine-mate_i386_2022-02-03_00-28-rootfs.tar.zst"
+previous_sha256 = "13799461bdf3b0606b0889c7c62c725201239b5e72d197f2a62203b492d07e7c"
 
-current_version = "latest02"
-current_date = "20220203"
-old_file = "alpine-mate_i386_2022-01-13_00-33-rootfs.tar.zst"
-old_sha256 = "528f859087748453b6bd67b1a3b71b0c4ad0f0f77e4e8b798a06af27faa9738b"
+current_version = "latest01"
+current_date = "20220210"
+old_file = "alpine-mate_i386_2022-01-27_00-30-rootfs.tar.zst"
+old_sha256 = "4b69d7837ddc0a30c7834fd18b8191e39e321fd505e3b35e6218907f2b8924b7"
 # edition 2021
 # DISTRO_NAME=alpine-edge_i386
-# ROOTFS_FILE=alpine-mate_i386_2022-02-03_00-28-rootfs.tar.zst
-# SHA256SUM=13799461bdf3b0606b0889c7c62c725201239b5e72d197f2a62203b492d07e7c
-# BUILD_DATE=20220203
-# BUILD_TAG=2022-02-03
+# ROOTFS_FILE=alpine-mate_i386_2022-02-10_00-34-rootfs.tar.zst
+# SHA256SUM=5821dc52442a46d3ad8fa2e9edeabaa0387cb540b7e8b3d0e7188d6d4a26caec
+# BUILD_DATE=20220210
+# BUILD_TAG=2022-02-10
 # STATUS=completed
-# VERSION=latest02
-# END_TIME=00:28
+# VERSION=latest01
+# END_TIME=00:34
 
 [time]
 format = "rfc-3339"
 zone = "UTC"
-date = 2022-02-03
-begin = 2022-02-03 00:06:30.051251191+00:00
-start-sync_0 = 00:24:58
-start-zstd = 00:25:44
-start-sync_1 = 00:28:03
-end-sync_1 = 00:28:29
-end = 2022-02-03 00:28:29.264540120+00:00
+date = 2022-02-10
+begin = 2022-02-10 00:06:23.383767900+00:00
+start-sync_0 = 00:30:19
+start-zstd = 00:31:12
+start-sync_1 = 00:33:48
+end-sync_1 = 00:34:16
+end = 2022-02-10 00:34:16.180866167+00:00
 
 [server]
 repo = "cake233/alpine-mate-386"
