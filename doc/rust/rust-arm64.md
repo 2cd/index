@@ -69,7 +69,7 @@ ldd "$FILE"
 ```toml
 [main]
 name = "rust"
-tag = ["latest", "2022-02-11", "nightly", "unstable", "default", "gnu-libc"]
+tag = ["latest", "2022-02-14", "nightly", "unstable", "default", "gnu-libc"]
 os = "debian"
 release = "sid"
 arch = "arm64"
@@ -77,12 +77,12 @@ platform = "linux/arm64"
 x11_or_wayland = false
 
 [file]
-name = "rust_arm64_2022-02-11_03-05.tar.zst"
+name = "rust_arm64_2022-02-14_03-09.tar.zst"
 
 version = "0.0.0-alpha.2"
 
 # This value can be used to verify the integrity of the file
-sha256 = "2cfd8902dc2a9ef0f0111976047b68692f04cb97ec82bc1b3213ecbbb7b02342"
+sha256 = "e3f8f7b1034d4771e040f04f4366562547866db6fa9b1615ba40bbbf37a65671"
 
 # zstd: [1-22]
 zstd-level = 20
@@ -91,48 +91,48 @@ zstd-level = 20
 # Installed size ≈ tar-size
 # Installed size is approximately equal to the size of the tar file
 tar = "1.7G"
-tar_bytes = 1726041088
+tar_bytes = 1727371264
 
 # Space occupied ≈ tar-size + zstd-size
 # You will need to prepare a large enough space before installation.
 zstd = "249M"
-zstd_bytes = 260966581
+zstd_bytes = 260733585
 
 [compatibility]
 compatible_mode = true
 
-previous_version = "latest01"
+previous_version = "latest02"
 
 # The value is &str, not int
-previous_date = "20220207"
-previous_tag = "2022-02-07"
-previous_file = "rust_arm64_2022-02-07_03-08-rootfs.tar.zst"
-previous_sha256 = "e3b723cd54d088b13fdf2b494c77fdfbe056153f8a616d775f2d7706370dcb96"
+previous_date = "20220211"
+previous_tag = "2022-02-11"
+previous_file = "rust_arm64_2022-02-11_03-05-rootfs.tar.zst"
+previous_sha256 = "2cfd8902dc2a9ef0f0111976047b68692f04cb97ec82bc1b3213ecbbb7b02342"
 
-current_version = "latest02"
-current_date = "20220211"
-old_file = "rust_arm64_2022-02-04_03-09-rootfs.tar.zst"
-old_sha256 = "fffd23f3946280c9ef922f4feb5aa91de336df1ded595a16ff649107c073899b"
+current_version = "latest01"
+current_date = "20220214"
+old_file = "rust_arm64_2022-02-07_03-08-rootfs.tar.zst"
+old_sha256 = "e3b723cd54d088b13fdf2b494c77fdfbe056153f8a616d775f2d7706370dcb96"
 # edition 2021
 # DISTRO_NAME=rust_arm64
-# ROOTFS_FILE=rust_arm64_2022-02-11_03-05-rootfs.tar.zst
-# SHA256SUM=2cfd8902dc2a9ef0f0111976047b68692f04cb97ec82bc1b3213ecbbb7b02342
-# BUILD_DATE=20220211
-# BUILD_TAG=2022-02-11
+# ROOTFS_FILE=rust_arm64_2022-02-14_03-09-rootfs.tar.zst
+# SHA256SUM=e3f8f7b1034d4771e040f04f4366562547866db6fa9b1615ba40bbbf37a65671
+# BUILD_DATE=20220214
+# BUILD_TAG=2022-02-14
 # STATUS=completed
-# VERSION=latest02
-# END_TIME=03:05
+# VERSION=latest01
+# END_TIME=03:09
 
 [time]
 format = "rfc-3339"
 zone = "UTC"
-date = 2022-02-11
-begin = 2022-02-11 02:52:26.404502950+00:00
-start-sync_0 = 02:58:36
-start-zstd = 02:59:36
-start-sync_1 = 03:05:05
-end-sync_1 = 03:05:24
-end = 2022-02-11 03:05:25.014987618+00:00
+date = 2022-02-14
+begin = 2022-02-14 02:52:23.336382101+00:00
+start-sync_0 = 03:00:38
+start-zstd = 03:01:52
+start-sync_1 = 03:08:38
+end-sync_1 = 03:09:00
+end = 2022-02-14 03:09:00.385215591+00:00
 
 [server]
 repo = "cake233/rust-arm64"
@@ -173,7 +173,7 @@ CARGO_HOME = "/usr/local/cargo"
 ldd = 'ldd (Debian GLIBC 2.33-5) 2.33'
 rustup = 'rustup 1.24.3 (ce5817a94 2021-05-31)'
 cargo = 'cargo 1.60.0-nightly (c082648 2022-02-08)'
-rustc = 'rustc 1.60.0-nightly (e646f3d2a 2022-02-10)'
+rustc = 'rustc 1.60.0-nightly (1e12aef3f 2022-02-13)'
 cc = 'cc (Debian 11.2.0-16) 11.2.0'
 cargo_verbose = '''
 cargo 1.60.0-nightly (c082648 2022-02-08)
@@ -182,14 +182,14 @@ commit-hash: c082648646cbb2be266df9ecbcdc253058158d68
 commit-date: 2022-02-08
 host: aarch64-unknown-linux-gnu
 libgit2: 1.3.0 (sys:0.13.23 vendored)
-libcurl: 7.80.0-DEV (sys:0.4.51+curl-7.80.0 vendored ssl:OpenSSL/1.1.1l)
+libcurl: 7.80.0-DEV (sys:0.4.51+curl-7.80.0 vendored ssl:OpenSSL/1.1.1m)
 os: Linux [64-bit]
 '''
 rustc_verbose = '''
-rustc 1.60.0-nightly (e646f3d2a 2022-02-10)
+rustc 1.60.0-nightly (1e12aef3f 2022-02-13)
 binary: rustc
-commit-hash: e646f3d2a9541952310778288854943678738ea9
-commit-date: 2022-02-10
+commit-hash: 1e12aef3fab243407f9d71ba9956cb2a1bf105d5
+commit-date: 2022-02-13
 host: aarch64-unknown-linux-gnu
 release: 1.60.0-nightly
 LLVM version: 13.0.0
