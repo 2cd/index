@@ -1,6 +1,6 @@
 [main]
 name = "rust"
-tag = ["latest", "2022-02-11", "nightly", "unstable", "default", "gnu-libc"]
+tag = ["latest", "2022-02-14", "nightly", "unstable", "default", "gnu-libc"]
 os = "debian"
 release = "sid"
 arch = "riscv64"
@@ -8,12 +8,12 @@ platform = "linux/riscv64"
 x11_or_wayland = false
 
 [file]
-name = "rust_riscv64_2022-02-11_03-05.tar.zst"
+name = "rust_riscv64_2022-02-14_03-07.tar.zst"
 
 version = "0.0.0-alpha.2"
 
 # This value can be used to verify the integrity of the file
-sha256 = "7387aa60411e708c9e4a61df1908d6dda392a4a44dc2f2768b3a09d3d22e0e0e"
+sha256 = "1d35800c47200391d871881fe0436aa22a708da85df8c0b788c057d348bd94dc"
 
 # zstd: [1-22]
 zstd-level = 20
@@ -22,48 +22,48 @@ zstd-level = 20
 # Installed size ≈ tar-size
 # Installed size is approximately equal to the size of the tar file
 tar = "1.5G"
-tar_bytes = 1588028416
+tar_bytes = 1589214720
 
 # Space occupied ≈ tar-size + zstd-size
 # You will need to prepare a large enough space before installation.
 zstd = "215M"
-zstd_bytes = 224801105
+zstd_bytes = 224832232
 
 [compatibility]
 compatible_mode = true
 
-previous_version = "latest01"
+previous_version = "latest02"
 
 # The value is &str, not int
-previous_date = "20220207"
-previous_tag = "2022-02-07"
-previous_file = "rust_riscv64_2022-02-07_03-08-rootfs.tar.zst"
-previous_sha256 = "b0548fae4fe15f10ec596f7dc1894046c9a9994779ccc8081dc4b05a150d6dc6"
+previous_date = "20220211"
+previous_tag = "2022-02-11"
+previous_file = "rust_riscv64_2022-02-11_03-05-rootfs.tar.zst"
+previous_sha256 = "7387aa60411e708c9e4a61df1908d6dda392a4a44dc2f2768b3a09d3d22e0e0e"
 
-current_version = "latest02"
-current_date = "20220211"
-old_file = "rust_riscv64_2022-02-04_03-04-rootfs.tar.zst"
-old_sha256 = "2b33283c1e9d7bb972e0ba1d933cf2edd8aa3412b4712e672b0b6130e431bc8e"
+current_version = "latest01"
+current_date = "20220214"
+old_file = "rust_riscv64_2022-02-07_03-08-rootfs.tar.zst"
+old_sha256 = "b0548fae4fe15f10ec596f7dc1894046c9a9994779ccc8081dc4b05a150d6dc6"
 # edition 2021
 # DISTRO_NAME=rust_riscv64
-# ROOTFS_FILE=rust_riscv64_2022-02-11_03-05-rootfs.tar.zst
-# SHA256SUM=7387aa60411e708c9e4a61df1908d6dda392a4a44dc2f2768b3a09d3d22e0e0e
-# BUILD_DATE=20220211
-# BUILD_TAG=2022-02-11
+# ROOTFS_FILE=rust_riscv64_2022-02-14_03-07-rootfs.tar.zst
+# SHA256SUM=1d35800c47200391d871881fe0436aa22a708da85df8c0b788c057d348bd94dc
+# BUILD_DATE=20220214
+# BUILD_TAG=2022-02-14
 # STATUS=completed
-# VERSION=latest02
-# END_TIME=03:05
+# VERSION=latest01
+# END_TIME=03:07
 
 [time]
 format = "rfc-3339"
 zone = "UTC"
-date = 2022-02-11
-begin = 2022-02-11 02:52:26.314683537+00:00
-start-sync_0 = 02:58:58
-start-zstd = 02:59:55
-start-sync_1 = 03:05:30
-end-sync_1 = 03:05:50
-end = 2022-02-11 03:05:50.412895593+00:00
+date = 2022-02-14
+begin = 2022-02-14 02:52:25.382540029+00:00
+start-sync_0 = 02:59:54
+start-zstd = 03:00:59
+start-sync_1 = 03:06:47
+end-sync_1 = 03:07:06
+end = 2022-02-14 03:07:06.134457513+00:00
 
 [server]
 repo = "cake233/rust-riscv64"
@@ -77,18 +77,16 @@ split = false
 
 [server.node2]
 name = "tmoe"
-current = true
-previous = false
+current = false
+previous = true
 in_sync = false
 split = false
 
 [server.node3]
 name = "azure"
-current = true
+current = false
 previous = true
 in_sync = false
-start_sync = 2022-02-11 06:09:54.768850789+00:00
-end_sync = 2022-02-11 06:10:34.672411361+00:00
 split = false
 
 [server.node4]
@@ -106,7 +104,7 @@ CARGO_HOME = "/usr/local/cargo"
 ldd = 'ldd (Debian GLIBC 2.33-5+b1) 2.33'
 rustup = 'rustup 1.24.3 (ce5817a94 2021-05-31)'
 cargo = 'cargo 1.60.0-nightly (c08264864 2022-02-08)'
-rustc = 'rustc 1.60.0-nightly (e646f3d2a 2022-02-10)'
+rustc = 'rustc 1.60.0-nightly (1e12aef3f 2022-02-13)'
 cc = 'cc (Debian 11.2.0-16) 11.2.0'
 cargo_verbose = '''
 cargo 1.60.0-nightly (c08264864 2022-02-08)
@@ -115,14 +113,14 @@ commit-hash: c082648646cbb2be266df9ecbcdc253058158d68
 commit-date: 2022-02-08
 host: riscv64gc-unknown-linux-gnu
 libgit2: 1.3.0 (sys:0.13.23 vendored)
-libcurl: 7.80.0-DEV (sys:0.4.51+curl-7.80.0 vendored ssl:OpenSSL/1.1.1l)
+libcurl: 7.80.0-DEV (sys:0.4.51+curl-7.80.0 vendored ssl:OpenSSL/1.1.1m)
 os: Linux [64-bit]
 '''
 rustc_verbose = '''
-rustc 1.60.0-nightly (e646f3d2a 2022-02-10)
+rustc 1.60.0-nightly (1e12aef3f 2022-02-13)
 binary: rustc
-commit-hash: e646f3d2a9541952310778288854943678738ea9
-commit-date: 2022-02-10
+commit-hash: 1e12aef3fab243407f9d71ba9956cb2a1bf105d5
+commit-date: 2022-02-13
 host: riscv64gc-unknown-linux-gnu
 release: 1.60.0-nightly
 LLVM version: 13.0.0
