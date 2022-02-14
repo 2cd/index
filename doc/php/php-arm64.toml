@@ -1,6 +1,6 @@
 [main]
 name = "php"
-tag = ["latest", "2022-01-31"]
+tag = ["latest", "2022-02-14"]
 os = "debian"
 release = "stable"
 arch = "arm64"
@@ -8,12 +8,12 @@ platform = "linux/arm64"
 x11_or_wayland = false
 
 [file]
-name = "php_arm64_2022-01-31_12-06.tar.zst"
+name = "php_arm64_2022-02-14_12-07.tar.zst"
 
 version = "0.0.0-alpha.2"
 
 # This value can be used to verify the integrity of the file
-sha256 = "d0f2c7b0e38e79595ddde67483079e35f23016863a5946bb8fed81a3bce6165b"
+sha256 = "a42675fac7a873699b0931547be8201c865b1057bd9b70c5a3b669cf7a1094ba"
 
 # zstd: [1-22]
 zstd-level = 18
@@ -27,43 +27,43 @@ tar_bytes = 478061568
 # Space occupied ≈ tar-size + zstd-size
 # You will need to prepare a large enough space before installation.
 zstd = "122M"
-zstd_bytes = 127390079
+zstd_bytes = 127389332
 
 [compatibility]
 compatible_mode = true
 
-previous_version = "latest02"
+previous_version = "latest01"
 
 # The value is &str, not int
-previous_date = "20220117"
-previous_tag = "2022-01-17"
-previous_file = "php_arm64_2022-01-17_12-06-rootfs.tar.zst"
-previous_sha256 = "22d637c558d4c45fa415772acc18a19dafa1867153ac2d63c0bfd6560b6fafe4"
+previous_date = "20220131"
+previous_tag = "2022-01-31"
+previous_file = "php_arm64_2022-01-31_12-06-rootfs.tar.zst"
+previous_sha256 = "d0f2c7b0e38e79595ddde67483079e35f23016863a5946bb8fed81a3bce6165b"
 
-current_version = "latest01"
-current_date = "20220131"
-old_file = "php_arm64_2022-01-03_12-07-rootfs.tar.zst"
-old_sha256 = "67bff543dd491e34f34e9306eb8c97d7be65e102c1577688c382939d35d92924"
+current_version = "latest02"
+current_date = "20220214"
+old_file = "php_arm64_2022-01-17_12-06-rootfs.tar.zst"
+old_sha256 = "22d637c558d4c45fa415772acc18a19dafa1867153ac2d63c0bfd6560b6fafe4"
 # edition 2021
 # DISTRO_NAME=php_arm64
-# ROOTFS_FILE=php_arm64_2022-01-31_12-06-rootfs.tar.zst
-# SHA256SUM=d0f2c7b0e38e79595ddde67483079e35f23016863a5946bb8fed81a3bce6165b
-# BUILD_DATE=20220131
-# BUILD_TAG=2022-01-31
+# ROOTFS_FILE=php_arm64_2022-02-14_12-07-rootfs.tar.zst
+# SHA256SUM=a42675fac7a873699b0931547be8201c865b1057bd9b70c5a3b669cf7a1094ba
+# BUILD_DATE=20220214
+# BUILD_TAG=2022-02-14
 # STATUS=completed
-# VERSION=latest01
-# END_TIME=12:06
+# VERSION=latest02
+# END_TIME=12:07
 
 [time]
 format = "rfc-3339"
 zone = "UTC"
-date = 2022-01-31
-begin = 2022-01-31 12:02:27.902391695+00:00
-start-sync_0 = 12:04:34
-start-zstd = 12:04:46
-start-sync_1 = 12:05:50
-end-sync_1 = 12:06:03
-end = 2022-01-31 12:06:03.584926571+00:00
+date = 2022-02-14
+begin = 2022-02-14 12:02:32.497491104+00:00
+start-sync_0 = 12:05:16
+start-zstd = 12:05:35
+start-sync_1 = 12:06:58
+end-sync_1 = 12:07:17
+end = 2022-02-14 12:07:17.732739396+00:00
 
 [server]
 repo = "cake233/php-arm64"
@@ -77,18 +77,16 @@ split = false
 
 [server.node2]
 name = "tmoe"
-current = true
-previous = false
+current = false
+previous = true
 in_sync = false
 split = false
 
 [server.node3]
 name = "azure"
-current = true
+current = false
 previous = true
 in_sync = false
-start_sync = 2022-01-31 18:15:46.712458397+00:00
-end_sync = 2022-01-31 18:16:14.504051012+00:00
 split = false
 
 [server.node4]
