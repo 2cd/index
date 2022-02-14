@@ -20,7 +20,7 @@ docker exec -it ruby-alpine-armv7 bash
 ```toml
 [main]
 name = "ruby"
-tag = ["alpine", "2022-01-31", "musl-libc", "musl"]
+tag = ["alpine", "2022-02-14", "musl-libc", "musl"]
 os = "alpine"
 release = "stable"
 arch = "armhf"
@@ -28,12 +28,12 @@ platform = "linux/arm/v7"
 x11_or_wayland = false
 
 [file]
-name = "ruby-musl_armhf_2022-01-31_12-04.tar.zst"
+name = "ruby-musl_armhf_2022-02-14_12-03.tar.zst"
 
 version = "0.0.0-alpha.2"
 
 # This value can be used to verify the integrity of the file
-sha256 = "3476505d674445c9f52b05a8d9154326a1c5dcde73198c90c761902d76649086"
+sha256 = "3eb971200b0d7d2c93419dad764c43aeee1e87eb0cfd795c07a1f01c80ac6245"
 
 # zstd: [1-22]
 zstd-level = 18
@@ -47,43 +47,43 @@ tar_bytes = 73775104
 # Space occupied ≈ tar-size + zstd-size
 # You will need to prepare a large enough space before installation.
 zstd = "31M"
-zstd_bytes = 31936123
+zstd_bytes = 31939849
 
 [compatibility]
 compatible_mode = true
 
-previous_version = "latest02"
+previous_version = "latest01"
 
 # The value is &str, not int
-previous_date = "20220117"
-previous_tag = "2022-01-17"
-previous_file = "ruby-musl_armhf_2022-01-17_12-04-rootfs.tar.zst"
-previous_sha256 = "e1c6f0859b0bbbb935466f0bc8cc63127bdd4f67851e5060c83df27ac71cf828"
+previous_date = "20220131"
+previous_tag = "2022-01-31"
+previous_file = "ruby-musl_armhf_2022-01-31_12-04-rootfs.tar.zst"
+previous_sha256 = "3476505d674445c9f52b05a8d9154326a1c5dcde73198c90c761902d76649086"
 
-current_version = "latest01"
-current_date = "20220131"
-old_file = "ruby-musl_armhf_2021-12-20_12-03-rootfs.tar.zst"
-old_sha256 = "1d70d65131d6f35ff88854a5d2c6072114d78566157c38129406775acc159909"
+current_version = "latest02"
+current_date = "20220214"
+old_file = "ruby-musl_armhf_2022-01-17_12-04-rootfs.tar.zst"
+old_sha256 = "e1c6f0859b0bbbb935466f0bc8cc63127bdd4f67851e5060c83df27ac71cf828"
 # edition 2021
 # DISTRO_NAME=ruby_armhf
-# ROOTFS_FILE=ruby-musl_armhf_2022-01-31_12-04-rootfs.tar.zst
-# SHA256SUM=3476505d674445c9f52b05a8d9154326a1c5dcde73198c90c761902d76649086
-# BUILD_DATE=20220131
-# BUILD_TAG=2022-01-31
+# ROOTFS_FILE=ruby-musl_armhf_2022-02-14_12-03-rootfs.tar.zst
+# SHA256SUM=3eb971200b0d7d2c93419dad764c43aeee1e87eb0cfd795c07a1f01c80ac6245
+# BUILD_DATE=20220214
+# BUILD_TAG=2022-02-14
 # STATUS=completed
-# VERSION=latest01
-# END_TIME=12:04
+# VERSION=latest02
+# END_TIME=12:03
 
 [time]
 format = "rfc-3339"
 zone = "UTC"
-date = 2022-01-31
-begin = 2022-01-31 12:02:31.546989817+00:00
-start-sync_0 = 12:03:38
-start-zstd = 12:03:48
-start-sync_1 = 12:04:02
-end-sync_1 = 12:04:11
-end = 2022-01-31 12:04:11.412587302+00:00
+date = 2022-02-14
+begin = 2022-02-14 12:02:30.368590381+00:00
+start-sync_0 = 12:03:23
+start-zstd = 12:03:32
+start-sync_1 = 12:03:42
+end-sync_1 = 12:03:52
+end = 2022-02-14 12:03:52.113267512+00:00
 
 [server]
 repo = "cake233/ruby-alpine-armv7"
