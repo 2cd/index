@@ -20,7 +20,7 @@ docker exec -it ubuntu-zsh-armv7 zsh
 ```toml
 [main]
 name = "ubuntu"
-tag = ["zsh", "2022-02-08", "devel"]
+tag = ["zsh", "2022-02-15", "devel"]
 os = "ubuntu"
 release = "dev"
 arch = "armhf"
@@ -28,12 +28,12 @@ platform = "linux/arm/v7"
 x11_or_wayland = false
 
 [file]
-name = "ubuntu-zsh_armhf_2022-02-08_00-20.tar.zst"
+name = "ubuntu-zsh_armhf_2022-02-15_00-21.tar.zst"
 
 version = "0.0.0-alpha.2"
 
 # This value can be used to verify the integrity of the file
-sha256 = "c5e5f188bd67f278fa2a64a92730bdea5d5e6d2698b056d0adf75ac2c11bd72a"
+sha256 = "ca56f355e97f5764656b6a053b73f215792433c5d4e91281ce755bd9914d6b8e"
 
 # zstd: [1-22]
 zstd-level = 20
@@ -42,48 +42,48 @@ zstd-level = 20
 # Installed size ≈ tar-size
 # Installed size is approximately equal to the size of the tar file
 tar = "574M"
-tar_bytes = 600989696
+tar_bytes = 601121280
 
 # Space occupied ≈ tar-size + zstd-size
 # You will need to prepare a large enough space before installation.
 zstd = "108M"
-zstd_bytes = 112444437
+zstd_bytes = 112462683
 
 [compatibility]
 compatible_mode = true
 
-previous_version = "latest02"
+previous_version = "latest01"
 
 # The value is &str, not int
-previous_date = "20220201"
-previous_tag = "2022-02-01"
-previous_file = "ubuntu-zsh_armhf_2022-02-01_00-20-rootfs.tar.zst"
-previous_sha256 = "0fd5200194189921758c80a8ad66f71fb398ecc6e32763448d20edb34aa77ee8"
+previous_date = "20220208"
+previous_tag = "2022-02-08"
+previous_file = "ubuntu-zsh_armhf_2022-02-08_00-20-rootfs.tar.zst"
+previous_sha256 = "c5e5f188bd67f278fa2a64a92730bdea5d5e6d2698b056d0adf75ac2c11bd72a"
 
-current_version = "latest01"
-current_date = "20220208"
-old_file = "ubuntu-zsh_armhf_2022-01-25_00-20-rootfs.tar.zst"
-old_sha256 = "79e71b268d346daa5ac6dfd866bfad6c275d96827e5e2a98dd3a87885648119e"
+current_version = "latest02"
+current_date = "20220215"
+old_file = "ubuntu-zsh_armhf_2022-02-01_00-20-rootfs.tar.zst"
+old_sha256 = "0fd5200194189921758c80a8ad66f71fb398ecc6e32763448d20edb34aa77ee8"
 # edition 2021
 # DISTRO_NAME=ubuntu-dev_armhf
-# ROOTFS_FILE=ubuntu-zsh_armhf_2022-02-08_00-20-rootfs.tar.zst
-# SHA256SUM=c5e5f188bd67f278fa2a64a92730bdea5d5e6d2698b056d0adf75ac2c11bd72a
-# BUILD_DATE=20220208
-# BUILD_TAG=2022-02-08
+# ROOTFS_FILE=ubuntu-zsh_armhf_2022-02-15_00-21-rootfs.tar.zst
+# SHA256SUM=ca56f355e97f5764656b6a053b73f215792433c5d4e91281ce755bd9914d6b8e
+# BUILD_DATE=20220215
+# BUILD_TAG=2022-02-15
 # STATUS=completed
-# VERSION=latest01
-# END_TIME=00:20
+# VERSION=latest02
+# END_TIME=00:21
 
 [time]
 format = "rfc-3339"
 zone = "UTC"
-date = 2022-02-08
-begin = 2022-02-08 00:02:26.658044781+00:00
-start-sync_0 = 00:16:05
-start-zstd = 00:17:48
-start-sync_1 = 00:19:56
-end-sync_1 = 00:20:09
-end = 2022-02-08 00:20:09.488159855+00:00
+date = 2022-02-15
+begin = 2022-02-15 00:02:26.356182581+00:00
+start-sync_0 = 00:17:02
+start-zstd = 00:18:48
+start-sync_1 = 00:20:56
+end-sync_1 = 00:21:08
+end = 2022-02-15 00:21:08.298218518+00:00
 
 [server]
 repo = "cake233/ubuntu-zsh-armv7"
@@ -119,5 +119,5 @@ LANG = "en_US.UTF-8"
 
 [version]
 ldd = 'ldd (Ubuntu GLIBC 2.34-0ubuntu3) 2.34'
-zsh = 'zsh 5.8 (arm-unknown-linux-gnueabihf)'
+zsh = 'zsh 5.8.1 (arm-unknown-linux-gnueabihf)'
 ```
