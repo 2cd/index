@@ -20,7 +20,7 @@ docker exec -it arch-zsh-amd64 zsh
 ```toml
 [main]
 name = "arch"
-tag = ["zsh", "2022-02-09"]
+tag = ["zsh", "2022-02-16"]
 os = "arch"
 release = "latest"
 arch = "amd64"
@@ -28,12 +28,12 @@ platform = "linux/amd64"
 x11_or_wayland = false
 
 [file]
-name = "arch-zsh_amd64_2022-02-09_00-16.tar.zst"
+name = "arch-zsh_amd64_2022-02-16_00-16.tar.zst"
 
 version = "0.0.0-alpha.2"
 
 # This value can be used to verify the integrity of the file
-sha256 = "b38e64399c2e6d9b9c744833c73313e643f4447922c84331c765c82059f6b096"
+sha256 = "b88a3314d70a896860d236b89407c25a707368b6a5ba137d2c82ae7e8a11a02f"
 
 # zstd: [1-22]
 zstd-level = 20
@@ -41,49 +41,49 @@ zstd-level = 20
 [file.size]
 # Installed size ≈ tar-size
 # Installed size is approximately equal to the size of the tar file
-tar = "974M"
-tar_bytes = 1020814848
+tar = "966M"
+tar_bytes = 1012106752
 
 # Space occupied ≈ tar-size + zstd-size
 # You will need to prepare a large enough space before installation.
-zstd = "236M"
-zstd_bytes = 246815083
+zstd = "243M"
+zstd_bytes = 254626519
 
 [compatibility]
 compatible_mode = true
 
-previous_version = "latest01"
+previous_version = "latest02"
 
 # The value is &str, not int
-previous_date = "20220202"
-previous_tag = "2022-02-02"
-previous_file = "arch-zsh_amd64_2022-02-02_00-14-rootfs.tar.zst"
-previous_sha256 = "32172d59aff93464756411d5b8e16977f2ce9192a3609d03ae5c51e8dd778c9a"
+previous_date = "20220209"
+previous_tag = "2022-02-09"
+previous_file = "arch-zsh_amd64_2022-02-09_00-16-rootfs.tar.zst"
+previous_sha256 = "b38e64399c2e6d9b9c744833c73313e643f4447922c84331c765c82059f6b096"
 
-current_version = "latest02"
-current_date = "20220209"
-old_file = "arch-zsh_amd64_2022-01-26_00-15-rootfs.tar.zst"
-old_sha256 = "f167b7fb96f770863aa63032ef2a2ff40464424bc197381b30d368ea7e404733"
+current_version = "latest01"
+current_date = "20220216"
+old_file = "arch-zsh_amd64_2022-02-02_00-14-rootfs.tar.zst"
+old_sha256 = "32172d59aff93464756411d5b8e16977f2ce9192a3609d03ae5c51e8dd778c9a"
 # edition 2021
 # DISTRO_NAME=arch_amd64
-# ROOTFS_FILE=arch-zsh_amd64_2022-02-09_00-16-rootfs.tar.zst
-# SHA256SUM=b38e64399c2e6d9b9c744833c73313e643f4447922c84331c765c82059f6b096
-# BUILD_DATE=20220209
-# BUILD_TAG=2022-02-09
+# ROOTFS_FILE=arch-zsh_amd64_2022-02-16_00-16-rootfs.tar.zst
+# SHA256SUM=b88a3314d70a896860d236b89407c25a707368b6a5ba137d2c82ae7e8a11a02f
+# BUILD_DATE=20220216
+# BUILD_TAG=2022-02-16
 # STATUS=completed
-# VERSION=latest02
+# VERSION=latest01
 # END_TIME=00:16
 
 [time]
 format = "rfc-3339"
 zone = "UTC"
-date = 2022-02-09
-begin = 2022-02-09 00:08:32.493895205+00:00
-start-sync_0 = 00:10:46
-start-zstd = 00:12:37
-start-sync_1 = 00:16:27
-end-sync_1 = 00:16:56
-end = 2022-02-09 00:16:56.142345952+00:00
+date = 2022-02-16
+begin = 2022-02-16 00:08:47.387211087+00:00
+start-sync_0 = 00:10:49
+start-zstd = 00:12:35
+start-sync_1 = 00:16:32
+end-sync_1 = 00:16:54
+end = 2022-02-16 00:16:54.142913357+00:00
 
 [server]
 repo = "cake233/arch-zsh-amd64"
@@ -118,6 +118,6 @@ current = true
 LANG = "en_US.UTF-8"
 
 [version]
-ldd = 'ldd (GNU libc) 2.33'
-zsh = 'zsh 5.8 (x86_64-pc-linux-gnu)'
+ldd = 'ldd (GNU libc) 2.35'
+zsh = 'zsh 5.8.1 (x86_64-pc-linux-gnu)'
 ```
