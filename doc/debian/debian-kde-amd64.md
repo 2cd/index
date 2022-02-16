@@ -77,7 +77,7 @@ localhost:5903
 ```toml
 [main]
 name = "debian"
-tag = ["kde", "2022-02-09"]
+tag = ["kde", "2022-02-16"]
 os = "debian"
 release = "sid"
 arch = "amd64"
@@ -85,12 +85,12 @@ platform = "linux/amd64"
 x11_or_wayland = true
 
 [file]
-name = "debian-kde_amd64_2022-02-09_12-50.tar.zst"
+name = "debian-kde_amd64_2022-02-16_12-51.tar.zst"
 
 version = "0.0.0-alpha.2"
 
 # This value can be used to verify the integrity of the file
-sha256 = "f0e9f274e1ade127f736972b806a2bce8dd55fac454d409bf24c482ad797c6b8"
+sha256 = "feae97cd8fc93d0bc24fe0f8625e7375ea9f0b118bfdb0d855b53f810f0ed26f"
 
 # zstd: [1-22]
 zstd-level = 18
@@ -99,48 +99,48 @@ zstd-level = 18
 # Installed size ≈ tar-size
 # Installed size is approximately equal to the size of the tar file
 tar = "4.8G"
-tar_bytes = 5099193344
+tar_bytes = 5104160768
 
 # Space occupied ≈ tar-size + zstd-size
 # You will need to prepare a large enough space before installation.
 zstd = "1.5G"
-zstd_bytes = 1531289203
+zstd_bytes = 1532913006
 
 [compatibility]
 compatible_mode = true
 
-previous_version = "latest01"
+previous_version = "latest02"
 
 # The value is &str, not int
-previous_date = "20220202"
-previous_tag = "2022-02-02"
-previous_file = "debian-kde_amd64_2022-02-02_12-47-rootfs.tar.zst"
-previous_sha256 = "fba9ca96fb804bc93dd335f56892b372b5418ff282cabe40048db85b336a8c0d"
+previous_date = "20220209"
+previous_tag = "2022-02-09"
+previous_file = "debian-kde_amd64_2022-02-09_12-50-rootfs.tar.zst"
+previous_sha256 = "f0e9f274e1ade127f736972b806a2bce8dd55fac454d409bf24c482ad797c6b8"
 
-current_version = "latest02"
-current_date = "20220209"
-old_file = "debian-kde_amd64_2022-01-26_12-47-rootfs.tar.zst"
-old_sha256 = "87e0b8881192c5dcfe45a36a9f4617b38818f9cac0e20bcc29a93df4b9db04c2"
+current_version = "latest01"
+current_date = "20220216"
+old_file = "debian-kde_amd64_2022-02-02_12-47-rootfs.tar.zst"
+old_sha256 = "fba9ca96fb804bc93dd335f56892b372b5418ff282cabe40048db85b336a8c0d"
 # edition 2021
 # DISTRO_NAME=debian-sid_amd64
-# ROOTFS_FILE=debian-kde_amd64_2022-02-09_12-50-rootfs.tar.zst
-# SHA256SUM=f0e9f274e1ade127f736972b806a2bce8dd55fac454d409bf24c482ad797c6b8
-# BUILD_DATE=20220209
-# BUILD_TAG=2022-02-09
+# ROOTFS_FILE=debian-kde_amd64_2022-02-16_12-51-rootfs.tar.zst
+# SHA256SUM=feae97cd8fc93d0bc24fe0f8625e7375ea9f0b118bfdb0d855b53f810f0ed26f
+# BUILD_DATE=20220216
+# BUILD_TAG=2022-02-16
 # STATUS=completed
-# VERSION=latest02
-# END_TIME=12:50
+# VERSION=latest01
+# END_TIME=12:51
 
 [time]
 format = "rfc-3339"
 zone = "UTC"
-date = 2022-02-09
-begin = 2022-02-09 12:22:10.525765438+00:00
-start-sync_0 = 12:29:00
-start-zstd = 12:34:00
-start-sync_1 = 12:48:49
-end-sync_1 = 12:50:22
-end = 2022-02-09 12:50:22.270214485+00:00
+date = 2022-02-16
+begin = 2022-02-16 12:23:38.585967391+00:00
+start-sync_0 = 12:30:39
+start-zstd = 12:35:35
+start-sync_1 = 12:49:42
+end-sync_1 = 12:51:14
+end = 2022-02-16 12:51:14.959518989+00:00
 
 [server]
 repo = "cake233/debian-kde-amd64"
@@ -175,8 +175,8 @@ current = true
 LANG = "en_US.UTF-8"
 
 [version]
-ldd = 'ldd (Debian GLIBC 2.33-5) 2.33'
-zsh = 'zsh 5.8 (x86_64-debian-linux-gnu)'
+ldd = 'ldd (Debian GLIBC 2.33-6) 2.33'
+zsh = 'zsh 5.8.1 (x86_64-debian-linux-gnu)'
 
 [port]
 tcp = [5902, 36080]
