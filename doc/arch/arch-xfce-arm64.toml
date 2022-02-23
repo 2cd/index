@@ -1,6 +1,6 @@
 [main]
 name = "arch"
-tag = ["xfce", "2022-02-16"]
+tag = ["xfce", "2022-02-23"]
 os = "arch"
 release = "latest"
 arch = "arm64"
@@ -8,12 +8,12 @@ platform = "linux/arm64"
 x11_or_wayland = true
 
 [file]
-name = "arch-xfce_arm64_2022-02-16_01-04.tar.zst"
+name = "arch-xfce_arm64_2022-02-23_00-55.tar.zst"
 
 version = "0.0.0-alpha.2"
 
 # This value can be used to verify the integrity of the file
-sha256 = "738d834a873846dfc0fd59e3a3a87e6d3be598045afe96aec8916721216eb0f4"
+sha256 = "2a452739765986fcab01461fa5307e86a0712a6e1a1109b7b9b7214da893d7e5"
 
 # zstd: [1-22]
 zstd-level = 15
@@ -22,12 +22,12 @@ zstd-level = 15
 # Installed size ≈ tar-size
 # Installed size is approximately equal to the size of the tar file
 tar = "4.1G"
-tar_bytes = 4324227072
+tar_bytes = 4313104384
 
 # Space occupied ≈ tar-size + zstd-size
 # You will need to prepare a large enough space before installation.
 zstd = "1.3G"
-zstd_bytes = 1365372916
+zstd_bytes = 1362529416
 
 [compatibility]
 compatible_mode = true
@@ -41,29 +41,29 @@ previous_file = "arch-xfce_arm64_2022-02-09_01-09-rootfs.tar.zst"
 previous_sha256 = "33e94332b1e5c3cbe9710b211b2d96e832e4ccefca4efbf1f93ac0a9e779b1d5"
 
 current_version = "latest01"
-current_date = "20220216"
+current_date = "20220223"
 old_file = "arch-xfce_arm64_2022-02-02_01-01-rootfs.tar.zst"
 old_sha256 = "642f9a870c431707a2dc8ce920a4c46936de78630150ea753cd6c9b53b4bd1be"
 # edition 2021
 # DISTRO_NAME=arch_arm64
-# ROOTFS_FILE=arch-xfce_arm64_2022-02-16_01-04-rootfs.tar.zst
-# SHA256SUM=738d834a873846dfc0fd59e3a3a87e6d3be598045afe96aec8916721216eb0f4
-# BUILD_DATE=20220216
-# BUILD_TAG=2022-02-16
+# ROOTFS_FILE=arch-xfce_arm64_2022-02-23_00-55-rootfs.tar.zst
+# SHA256SUM=2a452739765986fcab01461fa5307e86a0712a6e1a1109b7b9b7214da893d7e5
+# BUILD_DATE=20220223
+# BUILD_TAG=2022-02-23
 # STATUS=completed
 # VERSION=latest01
-# END_TIME=01:04
+# END_TIME=00:55
 
 [time]
 format = "rfc-3339"
 zone = "UTC"
-date = 2022-02-16
-begin = 2022-02-16 00:31:17.693514613+00:00
-start-sync_0 = 00:53:26
-start-zstd = 00:57:13
-start-sync_1 = 01:02:55
-end-sync_1 = 01:04:22
-end = 2022-02-16 01:04:22.823671750+00:00
+date = 2022-02-23
+begin = 2022-02-23 00:28:13.258439073+00:00
+start-sync_0 = 00:44:51
+start-zstd = 00:48:35
+start-sync_1 = 00:54:01
+end-sync_1 = 00:55:26
+end = 2022-02-23 00:55:26.263242725+00:00
 
 [server]
 repo = "cake233/arch-xfce-arm64"
@@ -98,7 +98,7 @@ current = true
 LANG = "en_US.UTF-8"
 
 [version]
-ldd = 'ldd (GNU libc) 2.33'
+ldd = 'ldd (GNU libc) 2.35'
 zsh = 'zsh 5.8.1 (aarch64-unknown-linux-gnu)'
 
 [port]
