@@ -77,7 +77,7 @@ localhost:5903
 ```toml
 [main]
 name = "alpine"
-tag = ["xfce", "2022-02-17"]
+tag = ["xfce", "2022-02-24"]
 os = "alpine"
 release = "edge"
 arch = "amd64"
@@ -85,12 +85,12 @@ platform = "linux/amd64"
 x11_or_wayland = true
 
 [file]
-name = "alpine-xfce_amd64_2022-02-17_00-12.tar.zst"
+name = "alpine-xfce_amd64_2022-02-24_00-14.tar.zst"
 
 version = "0.0.0-alpha.2"
 
 # This value can be used to verify the integrity of the file
-sha256 = "31ba167971f08408cbb5be86a18353676db49559eaae8f08a234f63872ce2d32"
+sha256 = "51c5bbefd0b7001e2cca702e468be8bc06ae8630071d28987e641248498fe9ae"
 
 # zstd: [1-22]
 zstd-level = 19
@@ -98,49 +98,49 @@ zstd-level = 19
 [file.size]
 # Installed size ≈ tar-size
 # Installed size is approximately equal to the size of the tar file
-tar = "870M"
-tar_bytes = 911428096
+tar = "871M"
+tar_bytes = 913146880
 
 # Space occupied ≈ tar-size + zstd-size
 # You will need to prepare a large enough space before installation.
 zstd = "309M"
-zstd_bytes = 323290816
+zstd_bytes = 323444104
 
 [compatibility]
 compatible_mode = true
 
-previous_version = "latest02"
+previous_version = "latest01"
 
 # The value is &str, not int
-previous_date = "20220210"
-previous_tag = "2022-02-10"
-previous_file = "alpine-xfce_amd64_2022-02-10_00-13-rootfs.tar.zst"
-previous_sha256 = "da06b031afbfff098e963dd2430f4a1b1e541ac0592d9a6d37c30bbd3c79ddc5"
+previous_date = "20220217"
+previous_tag = "2022-02-17"
+previous_file = "alpine-xfce_amd64_2022-02-17_00-12-rootfs.tar.zst"
+previous_sha256 = "31ba167971f08408cbb5be86a18353676db49559eaae8f08a234f63872ce2d32"
 
-current_version = "latest01"
-current_date = "20220217"
-old_file = "alpine-xfce_amd64_2022-02-03_00-13-rootfs.tar.zst"
-old_sha256 = "5addb01df53ae64fe96f403c0d6d3be364ab2dacd3226c89b99033c303b305e3"
+current_version = "latest02"
+current_date = "20220224"
+old_file = "alpine-xfce_amd64_2022-02-10_00-13-rootfs.tar.zst"
+old_sha256 = "da06b031afbfff098e963dd2430f4a1b1e541ac0592d9a6d37c30bbd3c79ddc5"
 # edition 2021
 # DISTRO_NAME=alpine-edge_amd64
-# ROOTFS_FILE=alpine-xfce_amd64_2022-02-17_00-12-rootfs.tar.zst
-# SHA256SUM=31ba167971f08408cbb5be86a18353676db49559eaae8f08a234f63872ce2d32
-# BUILD_DATE=20220217
-# BUILD_TAG=2022-02-17
+# ROOTFS_FILE=alpine-xfce_amd64_2022-02-24_00-14-rootfs.tar.zst
+# SHA256SUM=51c5bbefd0b7001e2cca702e468be8bc06ae8630071d28987e641248498fe9ae
+# BUILD_DATE=20220224
+# BUILD_TAG=2022-02-24
 # STATUS=completed
-# VERSION=latest01
-# END_TIME=00:12
+# VERSION=latest02
+# END_TIME=00:14
 
 [time]
 format = "rfc-3339"
 zone = "UTC"
-date = 2022-02-17
-begin = 2022-02-17 00:06:22.161105707+00:00
-start-sync_0 = 00:08:31
-start-zstd = 00:09:22
-start-sync_1 = 00:12:20
-end-sync_1 = 00:12:43
-end = 2022-02-17 00:12:43.578359669+00:00
+date = 2022-02-24
+begin = 2022-02-24 00:06:50.334288289+00:00
+start-sync_0 = 00:09:26
+start-zstd = 00:10:29
+start-sync_1 = 00:13:59
+end-sync_1 = 00:14:26
+end = 2022-02-24 00:14:26.443181423+00:00
 
 [server]
 repo = "cake233/alpine-xfce-amd64"
