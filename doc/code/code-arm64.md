@@ -28,62 +28,62 @@ platform = "linux/arm64"
 x11_or_wayland = false
 
 [file]
-name = "code_arm64_2022-03-01_19-02.tar.zst"
+name = "code_arm64_2022-03-01_22-27.tar.zst"
 
 version = "0.0.0-alpha.2"
 
 # This value can be used to verify the integrity of the file
-sha256 = "d5e20b2dba3d2cf4a7c0b133432e9aeb18b4bf23f0a3633de965ecd6498ab1ca"
+sha256 = "43f9cc2066f100ab6b09f94eb0e34254e0c8bc184161ad10956faa0a44146c31"
 
 # zstd: [1-22]
-zstd-level = 20
+zstd-level = 11
 
 [file.size]
 # Installed size ≈ tar-size
 # Installed size is approximately equal to the size of the tar file
-tar = "757M"
-tar_bytes = 793171456
+tar = "731M"
+tar_bytes = 765645312
 
 # Space occupied ≈ tar-size + zstd-size
 # You will need to prepare a large enough space before installation.
-zstd = "167M"
-zstd_bytes = 174377407
+zstd = "201M"
+zstd_bytes = 210371990
 
 [compatibility]
 compatible_mode = true
 
-previous_version = "latest02"
+previous_version = "latest01"
 
 # The value is &str, not int
-previous_date = "20220207"
-previous_tag = "2022-02-07"
-previous_file = "code_arm64_2022-02-07_12-12-rootfs.tar.zst"
-previous_sha256 = "060bb7e68000937f7aebd6fba81b72c3feb8e11a92a03e4da381f89943f3daea"
+previous_date = "20220301"
+previous_tag = "2022-03-01"
+previous_file = "code_arm64_2022-03-01_19-02-rootfs.tar.zst"
+previous_sha256 = "d5e20b2dba3d2cf4a7c0b133432e9aeb18b4bf23f0a3633de965ecd6498ab1ca"
 
-current_version = "latest01"
+current_version = "latest02"
 current_date = "20220301"
-old_file = "code_arm64_2022-01-24_12-11-rootfs.tar.zst"
-old_sha256 = "f3df22e857eab3c3bfef8100fe8af42d22826eb23a22fbf22656ada01a9b00bb"
+old_file = "code_arm64_2022-02-07_12-12-rootfs.tar.zst"
+old_sha256 = "060bb7e68000937f7aebd6fba81b72c3feb8e11a92a03e4da381f89943f3daea"
 # edition 2021
 # DISTRO_NAME=code_arm64
-# ROOTFS_FILE=code_arm64_2022-03-01_19-02-rootfs.tar.zst
-# SHA256SUM=d5e20b2dba3d2cf4a7c0b133432e9aeb18b4bf23f0a3633de965ecd6498ab1ca
+# ROOTFS_FILE=code_arm64_2022-03-01_22-27-rootfs.tar.zst
+# SHA256SUM=43f9cc2066f100ab6b09f94eb0e34254e0c8bc184161ad10956faa0a44146c31
 # BUILD_DATE=20220301
 # BUILD_TAG=2022-03-01
 # STATUS=completed
-# VERSION=latest01
-# END_TIME=19:02
+# VERSION=latest02
+# END_TIME=22:27
 
 [time]
 format = "rfc-3339"
 zone = "UTC"
 date = 2022-03-01
-begin = 2022-03-01 18:54:24.031607702+00:00
-start-sync_0 = 18:58:41
-start-zstd = 18:59:23
-start-sync_1 = 19:02:14
-end-sync_1 = 19:02:29
-end = 2022-03-01 19:02:29.469034121+00:00
+begin = 2022-03-01 22:20:57.117549823+00:00
+start-sync_0 = 22:26:12
+start-zstd = 22:26:59
+start-sync_1 = 22:27:20
+end-sync_1 = 22:27:39
+end = 2022-03-01 22:27:39.945619936+00:00
 
 [server]
 repo = "cake233/code-arm64"
@@ -119,7 +119,7 @@ LANG = "en_US.UTF-8"
 
 [version]
 ldd = 'ldd (Debian GLIBC 2.33-7) 2.33'
-code = ''
+code = '4.0.1 735c6da829535969ff7193c79379299e4a1cb9bc'
 
 [port]
 tcp = [8080]
