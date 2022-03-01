@@ -20,7 +20,7 @@ docker exec -it ruby-alpine-amd64 bash
 ```toml
 [main]
 name = "ruby"
-tag = ["alpine", "2022-02-14", "musl-libc", "musl"]
+tag = ["alpine", "2022-03-01", "musl-libc", "musl"]
 os = "alpine"
 release = "stable"
 arch = "amd64"
@@ -28,12 +28,12 @@ platform = "linux/amd64"
 x11_or_wayland = false
 
 [file]
-name = "ruby-musl_amd64_2022-02-14_12-03.tar.zst"
+name = "ruby-musl_amd64_2022-03-01_18-54.tar.zst"
 
 version = "0.0.0-alpha.2"
 
 # This value can be used to verify the integrity of the file
-sha256 = "304d3cf2dd0c03fb4ec372eda8f9d01bc56fdec51d6c7b9519d02891836a870a"
+sha256 = "8b374db8c44ac849dcd06faa171788bfd8f6b3321bea8afdd243c2cd52b89989"
 
 # zstd: [1-22]
 zstd-level = 18
@@ -41,49 +41,49 @@ zstd-level = 18
 [file.size]
 # Installed size ≈ tar-size
 # Installed size is approximately equal to the size of the tar file
-tar = "81M"
-tar_bytes = 84875264
+tar = "83M"
+tar_bytes = 86387712
 
 # Space occupied ≈ tar-size + zstd-size
 # You will need to prepare a large enough space before installation.
-zstd = "33M"
-zstd_bytes = 34289371
+zstd = "34M"
+zstd_bytes = 34698897
 
 [compatibility]
 compatible_mode = true
 
-previous_version = "latest01"
+previous_version = "latest02"
 
 # The value is &str, not int
-previous_date = "20220117"
-previous_tag = "2022-01-17"
-previous_file = "ruby-musl_amd64_2022-01-17_12-03-rootfs.tar.zst"
-previous_sha256 = "678f41647e806395dd223ac69891a4173d0df18aa81544b5e1fc588167946a06"
+previous_date = "20220214"
+previous_tag = "2022-02-14"
+previous_file = "ruby-musl_amd64_2022-02-14_12-03-rootfs.tar.zst"
+previous_sha256 = "304d3cf2dd0c03fb4ec372eda8f9d01bc56fdec51d6c7b9519d02891836a870a"
 
-current_version = "latest02"
-current_date = "20220214"
-old_file = "ruby-musl_amd64_2022-01-03_12-03-rootfs.tar.zst"
-old_sha256 = "7f161035494db7e62b0579a7aa059c5e333d19f0e0c579b6b60a01cfaf053a81"
+current_version = "latest01"
+current_date = "20220301"
+old_file = "ruby-musl_amd64_2022-01-17_12-03-rootfs.tar.zst"
+old_sha256 = "678f41647e806395dd223ac69891a4173d0df18aa81544b5e1fc588167946a06"
 # edition 2021
 # DISTRO_NAME=ruby_amd64
-# ROOTFS_FILE=ruby-musl_amd64_2022-02-14_12-03-rootfs.tar.zst
-# SHA256SUM=304d3cf2dd0c03fb4ec372eda8f9d01bc56fdec51d6c7b9519d02891836a870a
-# BUILD_DATE=20220214
-# BUILD_TAG=2022-02-14
+# ROOTFS_FILE=ruby-musl_amd64_2022-03-01_18-54-rootfs.tar.zst
+# SHA256SUM=8b374db8c44ac849dcd06faa171788bfd8f6b3321bea8afdd243c2cd52b89989
+# BUILD_DATE=20220301
+# BUILD_TAG=2022-03-01
 # STATUS=completed
-# VERSION=latest02
-# END_TIME=12:03
+# VERSION=latest01
+# END_TIME=18:54
 
 [time]
 format = "rfc-3339"
 zone = "UTC"
-date = 2022-02-14
-begin = 2022-02-14 12:02:29.109948963+00:00
-start-sync_0 = 12:03:04
-start-zstd = 12:03:11
-start-sync_1 = 12:03:25
-end-sync_1 = 12:03:31
-end = 2022-02-14 12:03:31.545349707+00:00
+date = 2022-03-01
+begin = 2022-03-01 18:53:55.970704679+00:00
+start-sync_0 = 18:54:28
+start-zstd = 18:54:35
+start-sync_1 = 18:54:50
+end-sync_1 = 18:54:56
+end = 2022-03-01 18:54:56.796732303+00:00
 
 [server]
 repo = "cake233/ruby-alpine-amd64"
@@ -123,7 +123,7 @@ BUNDLE_APP_CONFIG = '/usr/local/bundle'
 
 [version]
 ldd = 'musl libc (x86_64) Version 1.2.2'
-ruby = 'ruby 3.1.0p0 (2021-12-25 revision fb4df44d16) [x86_64-linux-musl]'
-gem = '3.3.3'
-bundle = 'Bundler version 2.3.3'
+ruby = 'ruby 3.1.1p18 (2022-02-18 revision 53f5fc4236) [x86_64-linux-musl]'
+gem = '3.3.7'
+bundle = 'Bundler version 2.3.7'
 ```
