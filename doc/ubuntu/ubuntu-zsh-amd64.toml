@@ -1,6 +1,6 @@
 [main]
 name = "ubuntu"
-tag = ["zsh", "2022-02-22", "devel"]
+tag = ["zsh", "2022-03-01", "devel"]
 os = "ubuntu"
 release = "dev"
 arch = "amd64"
@@ -8,12 +8,12 @@ platform = "linux/amd64"
 x11_or_wayland = false
 
 [file]
-name = "ubuntu-zsh_amd64_2022-02-22_00-09.tar.zst"
+name = "ubuntu-zsh_amd64_2022-03-01_00-07.tar.zst"
 
 version = "0.0.0-alpha.2"
 
 # This value can be used to verify the integrity of the file
-sha256 = "11aa44d7fb1c8bc067bb148deefd47ef2505ae1df45bac5a29c7bf25f4d60db5"
+sha256 = "074e193fca47a3862ef003e8329dc97e2cfa7daff12c8051069b7c57fbe4d376"
 
 # zstd: [1-22]
 zstd-level = 20
@@ -21,49 +21,49 @@ zstd-level = 20
 [file.size]
 # Installed size ≈ tar-size
 # Installed size is approximately equal to the size of the tar file
-tar = "636M"
-tar_bytes = 666273280
+tar = "637M"
+tar_bytes = 667787776
 
 # Space occupied ≈ tar-size + zstd-size
 # You will need to prepare a large enough space before installation.
 zstd = "113M"
-zstd_bytes = 117665559
+zstd_bytes = 118108946
 
 [compatibility]
 compatible_mode = true
 
-previous_version = "latest02"
+previous_version = "latest01"
 
 # The value is &str, not int
-previous_date = "20220215"
-previous_tag = "2022-02-15"
-previous_file = "ubuntu-zsh_amd64_2022-02-15_00-08-rootfs.tar.zst"
-previous_sha256 = "9304eec9333e6ff04cfa253a5398e9c8884f60b7630a211d21a68c4100fc31cb"
+previous_date = "20220222"
+previous_tag = "2022-02-22"
+previous_file = "ubuntu-zsh_amd64_2022-02-22_00-09-rootfs.tar.zst"
+previous_sha256 = "11aa44d7fb1c8bc067bb148deefd47ef2505ae1df45bac5a29c7bf25f4d60db5"
 
-current_version = "latest01"
-current_date = "20220222"
-old_file = "ubuntu-zsh_amd64_2022-02-08_00-08-rootfs.tar.zst"
-old_sha256 = "9694a99729f564817dd9efb139b1e4e76826124ea5a2329a55d301a65167531b"
+current_version = "latest02"
+current_date = "20220301"
+old_file = "ubuntu-zsh_amd64_2022-02-15_00-08-rootfs.tar.zst"
+old_sha256 = "9304eec9333e6ff04cfa253a5398e9c8884f60b7630a211d21a68c4100fc31cb"
 # edition 2021
 # DISTRO_NAME=ubuntu-dev_amd64
-# ROOTFS_FILE=ubuntu-zsh_amd64_2022-02-22_00-09-rootfs.tar.zst
-# SHA256SUM=11aa44d7fb1c8bc067bb148deefd47ef2505ae1df45bac5a29c7bf25f4d60db5
-# BUILD_DATE=20220222
-# BUILD_TAG=2022-02-22
+# ROOTFS_FILE=ubuntu-zsh_amd64_2022-03-01_00-07-rootfs.tar.zst
+# SHA256SUM=074e193fca47a3862ef003e8329dc97e2cfa7daff12c8051069b7c57fbe4d376
+# BUILD_DATE=20220301
+# BUILD_TAG=2022-03-01
 # STATUS=completed
-# VERSION=latest01
-# END_TIME=00:09
+# VERSION=latest02
+# END_TIME=00:07
 
 [time]
 format = "rfc-3339"
 zone = "UTC"
-date = 2022-02-22
-begin = 2022-02-22 00:02:25.382753941+00:00
-start-sync_0 = 00:04:29
-start-zstd = 00:06:17
-start-sync_1 = 00:08:51
-end-sync_1 = 00:09:04
-end = 2022-02-22 00:09:04.111162028+00:00
+date = 2022-03-01
+begin = 2022-03-01 00:02:20.961264891+00:00
+start-sync_0 = 00:04:00
+start-zstd = 00:05:39
+start-sync_1 = 00:07:45
+end-sync_1 = 00:07:56
+end = 2022-03-01 00:07:57.009513549+00:00
 
 [server]
 repo = "cake233/ubuntu-zsh-amd64"
@@ -77,18 +77,16 @@ split = false
 
 [server.node2]
 name = "tmoe"
-current = true
-previous = false
+current = false
+previous = true
 in_sync = false
 split = false
 
 [server.node3]
 name = "azure"
-current = true
+current = false
 previous = true
 in_sync = false
-start_sync = 2022-02-22 06:02:43.625069818+00:00
-end_sync = 2022-02-22 06:03:18.580482539+00:00
 split = false
 
 [server.node4]
