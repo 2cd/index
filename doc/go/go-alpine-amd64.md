@@ -56,7 +56,7 @@ func main() {
 ```toml
 [main]
 name = "go"
-tag = ["alpine", "2022-02-07", "musl-libc", "musl"]
+tag = ["alpine", "2022-03-01", "musl-libc", "musl"]
 os = "alpine"
 release = "stable"
 arch = "amd64"
@@ -64,12 +64,12 @@ platform = "linux/amd64"
 x11_or_wayland = false
 
 [file]
-name = "go-musl_amd64_2022-02-07_12-04.tar.zst"
+name = "go-musl_amd64_2022-03-01_18-56.tar.zst"
 
 version = "0.0.0-alpha.2"
 
 # This value can be used to verify the integrity of the file
-sha256 = "bbd096976e87397fc3da5bb6273c9951ae710cc89fbbfe3aafcde753c668986a"
+sha256 = "ec94406973ff607996c6a08630a8dc728d93c36a98254ace16cb532f22452322"
 
 # zstd: [1-22]
 zstd-level = 20
@@ -77,49 +77,49 @@ zstd-level = 20
 [file.size]
 # Installed size ≈ tar-size
 # Installed size is approximately equal to the size of the tar file
-tar = "323M"
-tar_bytes = 338482176
+tar = "337M"
+tar_bytes = 352946688
 
 # Space occupied ≈ tar-size + zstd-size
 # You will need to prepare a large enough space before installation.
-zstd = "81M"
-zstd_bytes = 84029964
+zstd = "85M"
+zstd_bytes = 88857529
 
 [compatibility]
 compatible_mode = true
 
-previous_version = "latest01"
+previous_version = "latest02"
 
 # The value is &str, not int
-previous_date = "20220124"
-previous_tag = "2022-01-24"
-previous_file = "go-musl_amd64_2022-01-24_12-05-rootfs.tar.zst"
-previous_sha256 = "17853d317e950134c4b7742622126807ece42ef90e661c8b4b29e7878c8a6fd5"
+previous_date = "20220207"
+previous_tag = "2022-02-07"
+previous_file = "go-musl_amd64_2022-02-07_12-04-rootfs.tar.zst"
+previous_sha256 = "bbd096976e87397fc3da5bb6273c9951ae710cc89fbbfe3aafcde753c668986a"
 
-current_version = "latest02"
-current_date = "20220207"
-old_file = "go-musl_amd64_2022-01-10_12-06-rootfs.tar.zst"
-old_sha256 = "33ae0792584b3db71a4574395415ef85b1daa573c1c83e77be35a67b07b81235"
+current_version = "latest01"
+current_date = "20220301"
+old_file = "go-musl_amd64_2022-01-24_12-05-rootfs.tar.zst"
+old_sha256 = "17853d317e950134c4b7742622126807ece42ef90e661c8b4b29e7878c8a6fd5"
 # edition 2021
 # DISTRO_NAME=go_amd64
-# ROOTFS_FILE=go-musl_amd64_2022-02-07_12-04-rootfs.tar.zst
-# SHA256SUM=bbd096976e87397fc3da5bb6273c9951ae710cc89fbbfe3aafcde753c668986a
-# BUILD_DATE=20220207
-# BUILD_TAG=2022-02-07
+# ROOTFS_FILE=go-musl_amd64_2022-03-01_18-56-rootfs.tar.zst
+# SHA256SUM=ec94406973ff607996c6a08630a8dc728d93c36a98254ace16cb532f22452322
+# BUILD_DATE=20220301
+# BUILD_TAG=2022-03-01
 # STATUS=completed
-# VERSION=latest02
-# END_TIME=12:04
+# VERSION=latest01
+# END_TIME=18:56
 
 [time]
 format = "rfc-3339"
 zone = "UTC"
-date = 2022-02-07
-begin = 2022-02-07 12:02:30.869705517+00:00
-start-sync_0 = 12:03:00
-start-zstd = 12:03:09
-start-sync_1 = 12:04:32
-end-sync_1 = 12:04:42
-end = 2022-02-07 12:04:42.734133053+00:00
+date = 2022-03-01
+begin = 2022-03-01 18:54:25.838931064+00:00
+start-sync_0 = 18:54:45
+start-zstd = 18:54:57
+start-sync_1 = 18:56:24
+end-sync_1 = 18:56:36
+end = 2022-03-01 18:56:36.926505669+00:00
 
 [server]
 repo = "cake233/go-alpine-amd64"
@@ -157,8 +157,8 @@ GOPATH = "/go"
 
 [version]
 ldd = 'musl libc (x86_64) Version 1.2.2'
-go = 'go version go1.17.6 linux/amd64'
-gofmt = '/usr/local/go/bin/gofmt: go1.17.6'
+go = 'go version go1.18rc1 linux/amd64'
+gofmt = '/usr/local/go/bin/gofmt: go1.18rc1'
 
 [other]
 workdir = "/go"
