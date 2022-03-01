@@ -1,6 +1,6 @@
 [main]
 name = "nginx"
-tag = ["latest", "2022-02-07"]
+tag = ["latest", "2022-03-01"]
 os = "debian"
 release = "stable"
 arch = "amd64"
@@ -8,12 +8,12 @@ platform = "linux/amd64"
 x11_or_wayland = false
 
 [file]
-name = "nginx_amd64_2022-02-07_12-04.tar.zst"
+name = "nginx_amd64_2022-03-01_18-58.tar.zst"
 
 version = "0.0.0-alpha.2"
 
 # This value can be used to verify the integrity of the file
-sha256 = "b3f4042ca2d1707071f1b8cfd5c756dc16a7615b5931a5c2a2c0ced4c19691f7"
+sha256 = "a42e29486e52a066431a1b699fe54b7500972a50960e056e168e6c73e6b99d70"
 
 # zstd: [1-22]
 zstd-level = 20
@@ -27,43 +27,43 @@ tar_bytes = 170030592
 # Space occupied ≈ tar-size + zstd-size
 # You will need to prepare a large enough space before installation.
 zstd = "41M"
-zstd_bytes = 42303721
+zstd_bytes = 42304532
 
 [compatibility]
 compatible_mode = true
 
-previous_version = "latest01"
+previous_version = "latest02"
 
 # The value is &str, not int
-previous_date = "20220124"
-previous_tag = "2022-01-24"
-previous_file = "nginx_amd64_2022-01-24_12-04-rootfs.tar.zst"
-previous_sha256 = "05d61b9d6d73025d7094290bcfe23e5d930a97391b4adfe1957c7dd247d9cf9e"
+previous_date = "20220207"
+previous_tag = "2022-02-07"
+previous_file = "nginx_amd64_2022-02-07_12-04-rootfs.tar.zst"
+previous_sha256 = "b3f4042ca2d1707071f1b8cfd5c756dc16a7615b5931a5c2a2c0ced4c19691f7"
 
-current_version = "latest02"
-current_date = "20220207"
-old_file = "nginx_amd64_2021-12-27_12-04-rootfs.tar.zst"
-old_sha256 = "20f12889bc727f2db7b8e361f674143259c856c03b61cb578cd618a36fe2bdce"
+current_version = "latest01"
+current_date = "20220301"
+old_file = "nginx_amd64_2022-01-24_12-04-rootfs.tar.zst"
+old_sha256 = "05d61b9d6d73025d7094290bcfe23e5d930a97391b4adfe1957c7dd247d9cf9e"
 # edition 2021
 # DISTRO_NAME=nginx_amd64
-# ROOTFS_FILE=nginx_amd64_2022-02-07_12-04-rootfs.tar.zst
-# SHA256SUM=b3f4042ca2d1707071f1b8cfd5c756dc16a7615b5931a5c2a2c0ced4c19691f7
-# BUILD_DATE=20220207
-# BUILD_TAG=2022-02-07
+# ROOTFS_FILE=nginx_amd64_2022-03-01_18-58-rootfs.tar.zst
+# SHA256SUM=a42e29486e52a066431a1b699fe54b7500972a50960e056e168e6c73e6b99d70
+# BUILD_DATE=20220301
+# BUILD_TAG=2022-03-01
 # STATUS=completed
-# VERSION=latest02
-# END_TIME=12:04
+# VERSION=latest01
+# END_TIME=18:58
 
 [time]
 format = "rfc-3339"
 zone = "UTC"
-date = 2022-02-07
-begin = 2022-02-07 12:02:36.316601449+00:00
-start-sync_0 = 12:03:27
-start-zstd = 12:03:43
-start-sync_1 = 12:04:39
-end-sync_1 = 12:04:47
-end = 2022-02-07 12:04:47.296651973+00:00
+date = 2022-03-01
+begin = 2022-03-01 18:56:56.800994759+00:00
+start-sync_0 = 18:57:23
+start-zstd = 18:57:32
+start-sync_1 = 18:58:30
+end-sync_1 = 18:58:38
+end = 2022-03-01 18:58:38.294353846+00:00
 
 [server]
 repo = "cake233/nginx-amd64"
@@ -77,18 +77,16 @@ split = false
 
 [server.node2]
 name = "tmoe"
-current = true
-previous = false
+current = false
+previous = true
 in_sync = false
 split = false
 
 [server.node3]
 name = "azure"
-current = true
+current = false
 previous = true
 in_sync = false
-start_sync = 2022-02-07 18:04:29.976344319+00:00
-end_sync = 2022-02-07 18:04:43.457189106+00:00
 split = false
 
 [server.node4]
