@@ -178,8 +178,7 @@ No! Although the steps are similar to those above, they are much simpler.
 ```sh
 TMP=$TMPDIR/tmp/code-docker
 mkdir -pv $TMP
-docker run -t --rm cake233/code-armv7 sh -c "cp -rfv /root/init $TMP"
-cd init
+docker run -t --rm -v $TMP:/tmp/init cake233/code-armv7 sh -c "cp -vf /root/* /tmp/init"
 ```
 
 #### set env
@@ -216,15 +215,15 @@ platform = "linux/arm/v7"
 x11_or_wayland = false
 
 [file]
-name = "code_armhf_2022-03-02_17-05.tar.zst"
+name = "code_armhf_2022-03-02_17-29.tar.zst"
 
 version = "0.0.0-alpha.2"
 
 # This value can be used to verify the integrity of the file
-sha256 = "7929c9d618ce1c8176b6ef1f386f34a732fb2053312b599d68f2ce3df87d7170"
+sha256 = "47e575ec8a51d9cba18729c973bc3e445f8b13da22603af4c8e94bb53dc5440d"
 
 # zstd: [1-22]
-zstd-level = 11
+zstd-level = 18
 
 [file.size]
 # Installed size ≈ tar-size
@@ -234,8 +233,8 @@ tar_bytes = 647886336
 
 # Space occupied ≈ tar-size + zstd-size
 # You will need to prepare a large enough space before installation.
-zstd = "182M"
-zstd_bytes = 190386526
+zstd = "161M"
+zstd_bytes = 168635233
 
 [compatibility]
 compatible_mode = true
@@ -254,24 +253,24 @@ old_file = "code_armhf_2022-03-01_22-34-rootfs.tar.zst"
 old_sha256 = "e857c1516b2b61f6c1d813cff4346d8ff3faac0ef4544f75dba2576296a4f5e5"
 # edition 2021
 # DISTRO_NAME=code_armhf
-# ROOTFS_FILE=code_armhf_2022-03-02_17-05-rootfs.tar.zst
-# SHA256SUM=7929c9d618ce1c8176b6ef1f386f34a732fb2053312b599d68f2ce3df87d7170
+# ROOTFS_FILE=code_armhf_2022-03-02_17-29-rootfs.tar.zst
+# SHA256SUM=47e575ec8a51d9cba18729c973bc3e445f8b13da22603af4c8e94bb53dc5440d
 # BUILD_DATE=20220302
 # BUILD_TAG=2022-03-02
 # STATUS=completed
 # VERSION=latest02
-# END_TIME=17:05
+# END_TIME=17:29
 
 [time]
 format = "rfc-3339"
 zone = "UTC"
 date = 2022-03-02
-begin = 2022-03-02 17:00:09.891191524+00:00
-start-sync_0 = 17:04:31
-start-zstd = 17:05:07
-start-sync_1 = 17:05:22
-end-sync_1 = 17:05:39
-end = 2022-03-02 17:05:39.415429485+00:00
+begin = 2022-03-02 17:20:29.156402917+00:00
+start-sync_0 = 17:26:15
+start-zstd = 17:26:58
+start-sync_1 = 17:28:57
+end-sync_1 = 17:29:15
+end = 2022-03-02 17:29:15.331648802+00:00
 
 [server]
 repo = "cake233/code-armv7"
