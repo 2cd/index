@@ -14,7 +14,7 @@ cd $_TMP
 
 
 ```Dockerfile
-cat >>init.dockerfile<<-'EndOfDockerfile'
+cat >init.dockerfile<<-'EndOfDockerfile'
 FROM cake233/code-amd64:latest
 
 ARG _LC
@@ -61,16 +61,16 @@ ARG CODE_DIR=".config/code-server"
 ARG CODE_CONF="$CODE_DIR/config.yaml"
 ARG _CODE_PASSWD
 
-RUN code-server --version &&
-    cat "$HOME/$CODE_CONF" &&
-    sed -E \
-        -e "s@(bind-addr:).*@\1 0.0.0.0:8080@" \
-        -e "s@(password:).*@\1 $_CODE_PASSWD@" \
-        -i "$HOME/$CODE_CONF" &&
-    mkdir -pv "$MY_HOME/$CODE_DIR" &&
-    cp -v "$HOME/$CODE_CONF" "$MY_HOME/$CODE_CONF" &&
-    chown -Rv "$_UID":"$_GID" "$MY_HOME/.config" &&
-    cat "$HOME/$CODE_CONF"
+RUN code-server --version \
+    && cat "$HOME/$CODE_CONF" \
+    && sed -E \
+    -e "s@(bind-addr:).*@\1 0.0.0.0:8080@" \
+    -e "s@(password:).*@\1 $_CODE_PASSWD@" \
+    -i "$HOME/$CODE_CONF" \
+    && mkdir -pv "$MY_HOME/$CODE_DIR" \
+    && cp -v "$HOME/$CODE_CONF" "$MY_HOME/$CODE_CONF" \
+    && chown -Rv "$_UID":"$_GID" "$MY_HOME/.config" \
+    && cat "$HOME/$CODE_CONF"
 
 USER "$_UID":"$_GID"
 
@@ -157,8 +157,9 @@ docker run \
     -p "$_Host_tcp_port":8080 \
     "$_Code_image_tag" &
 
-docker restart code
-docker exec -t code sh -c 'bat ~/.config/code-server/config.yaml'
+sleep 3
+
+docker exec -t code sh -c 'bat -pp ~/.config/code-server/config.yaml'
 # Get ip(v4) address
 # ip -4 a
 # Open your browser, and type the address
@@ -172,12 +173,12 @@ Do we really have to use such tedious steps as above?
 
 No! Although the steps are similar to those above, they are much simpler.
 
-#### copy the necessary folders to the temporary directory
+#### copy the necessary folder to the temporary directory
 
 ```sh
 TMP=$TMPDIR/tmp/code-docker
 mkdir -pv $TMP
-docker run -t --rm cake233/code-amd64 sh -c "cp -rfv /root/init $_TMP"
+docker run -t --rm cake233/code-amd64 sh -c "cp -rfv /root/init $TMP"
 cd init
 ```
 
@@ -215,12 +216,12 @@ platform = "linux/amd64"
 x11_or_wayland = false
 
 [file]
-name = "code_amd64_2022-03-02_16-41.tar.zst"
+name = "code_amd64_2022-03-02_17-02.tar.zst"
 
 version = "0.0.0-alpha.2"
 
 # This value can be used to verify the integrity of the file
-sha256 = "e5bed7751a3157ad5fe767ddee5bcfc12b119a46dfa5042ca12cd9c8ea02ee09"
+sha256 = "648124df970fa6cf137d483eb39a6092a539926b15a66dec9aa6e3aec1ed6128"
 
 # zstd: [1-22]
 zstd-level = 11
@@ -234,7 +235,7 @@ tar_bytes = 794641920
 # Space occupied ≈ tar-size + zstd-size
 # You will need to prepare a large enough space before installation.
 zstd = "203M"
-zstd_bytes = 212794010
+zstd_bytes = 212793962
 
 [compatibility]
 compatible_mode = true
@@ -253,24 +254,24 @@ old_file = "code_amd64_2022-03-01_22-23-rootfs.tar.zst"
 old_sha256 = "7ff40616f6e90179f8a008edfe654cf7ec7bba73768d6a1aec4c91b003a4db54"
 # edition 2021
 # DISTRO_NAME=code_amd64
-# ROOTFS_FILE=code_amd64_2022-03-02_16-41-rootfs.tar.zst
-# SHA256SUM=e5bed7751a3157ad5fe767ddee5bcfc12b119a46dfa5042ca12cd9c8ea02ee09
+# ROOTFS_FILE=code_amd64_2022-03-02_17-02-rootfs.tar.zst
+# SHA256SUM=648124df970fa6cf137d483eb39a6092a539926b15a66dec9aa6e3aec1ed6128
 # BUILD_DATE=20220302
 # BUILD_TAG=2022-03-02
 # STATUS=completed
 # VERSION=latest02
-# END_TIME=16:41
+# END_TIME=17:02
 
 [time]
 format = "rfc-3339"
 zone = "UTC"
 date = 2022-03-02
-begin = 2022-03-02 16:37:42.813181766+00:00
-start-sync_0 = 16:39:01
-start-zstd = 16:40:11
-start-sync_1 = 16:40:48
-end-sync_1 = 16:41:15
-end = 2022-03-02 16:41:15.240273196+00:00
+begin = 2022-03-02 17:00:13.654479549+00:00
+start-sync_0 = 17:01:17
+start-zstd = 17:02:04
+start-sync_1 = 17:02:26
+end-sync_1 = 17:02:48
+end = 2022-03-02 17:02:48.288839128+00:00
 
 [server]
 repo = "cake233/code-amd64"
