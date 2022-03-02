@@ -1,6 +1,6 @@
 [main]
 name = "code"
-tag = ["latest", "2022-03-01", "vsc", "vscode", "web"]
+tag = ["latest", "2022-03-02", "vsc", "vscode", "web"]
 os = "debian"
 release = "sid"
 arch = "amd64"
@@ -8,12 +8,12 @@ platform = "linux/amd64"
 x11_or_wayland = false
 
 [file]
-name = "code_amd64_2022-03-01_22-23.tar.zst"
+name = "code_amd64_2022-03-02_16-41.tar.zst"
 
 version = "0.0.0-alpha.2"
 
 # This value can be used to verify the integrity of the file
-sha256 = "7ff40616f6e90179f8a008edfe654cf7ec7bba73768d6a1aec4c91b003a4db54"
+sha256 = "e5bed7751a3157ad5fe767ddee5bcfc12b119a46dfa5042ca12cd9c8ea02ee09"
 
 # zstd: [1-22]
 zstd-level = 11
@@ -22,12 +22,12 @@ zstd-level = 11
 # Installed size ≈ tar-size
 # Installed size is approximately equal to the size of the tar file
 tar = "758M"
-tar_bytes = 794635264
+tar_bytes = 794641920
 
 # Space occupied ≈ tar-size + zstd-size
 # You will need to prepare a large enough space before installation.
 zstd = "203M"
-zstd_bytes = 212803823
+zstd_bytes = 212794010
 
 [compatibility]
 compatible_mode = true
@@ -41,29 +41,29 @@ previous_file = "code_amd64_2022-03-01_18-59-rootfs.tar.zst"
 previous_sha256 = "8678c911e11d8faf9180681fa23a020a1cda729e68f7a6b5d6adc6da55839529"
 
 current_version = "latest02"
-current_date = "20220301"
-old_file = "code_amd64_2022-02-07_12-08-rootfs.tar.zst"
-old_sha256 = "4c4c4abdf724ad9ca8a4894c8e8c3e3954a3134fe716ddeaadc3bcb65f2c3661"
+current_date = "20220302"
+old_file = "code_amd64_2022-03-01_22-23-rootfs.tar.zst"
+old_sha256 = "7ff40616f6e90179f8a008edfe654cf7ec7bba73768d6a1aec4c91b003a4db54"
 # edition 2021
 # DISTRO_NAME=code_amd64
-# ROOTFS_FILE=code_amd64_2022-03-01_22-23-rootfs.tar.zst
-# SHA256SUM=7ff40616f6e90179f8a008edfe654cf7ec7bba73768d6a1aec4c91b003a4db54
-# BUILD_DATE=20220301
-# BUILD_TAG=2022-03-01
+# ROOTFS_FILE=code_amd64_2022-03-02_16-41-rootfs.tar.zst
+# SHA256SUM=e5bed7751a3157ad5fe767ddee5bcfc12b119a46dfa5042ca12cd9c8ea02ee09
+# BUILD_DATE=20220302
+# BUILD_TAG=2022-03-02
 # STATUS=completed
 # VERSION=latest02
-# END_TIME=22:23
+# END_TIME=16:41
 
 [time]
 format = "rfc-3339"
 zone = "UTC"
-date = 2022-03-01
-begin = 2022-03-01 22:21:00.102079699+00:00
-start-sync_0 = 22:21:58
-start-zstd = 22:22:51
-start-sync_1 = 22:23:11
-end-sync_1 = 22:23:36
-end = 2022-03-01 22:23:36.548975414+00:00
+date = 2022-03-02
+begin = 2022-03-02 16:37:42.813181766+00:00
+start-sync_0 = 16:39:01
+start-zstd = 16:40:11
+start-sync_1 = 16:40:48
+end-sync_1 = 16:41:15
+end = 2022-03-02 16:41:15.240273196+00:00
 
 [server]
 repo = "cake233/code-amd64"
@@ -77,18 +77,16 @@ split = false
 
 [server.node2]
 name = "tmoe"
-current = true
-previous = false
+current = false
+previous = true
 in_sync = false
 split = false
 
 [server.node3]
 name = "azure"
-current = true
+current = false
 previous = true
 in_sync = false
-start_sync = 2022-03-01 22:39:23.946010275+00:00
-end_sync = 2022-03-01 22:40:20.108743291+00:00
 split = false
 
 [server.node4]
