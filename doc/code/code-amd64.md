@@ -178,6 +178,7 @@ No! Although the steps are similar to those above, they are much simpler.
 ```sh
 TMP=$TMPDIR/tmp/code-docker
 mkdir -pv $TMP
+cd $TMP
 docker run -t --rm -v $TMP:/tmp/init cake233/code-amd64 sh -c "cp -vf /root/* /tmp/init"
 ```
 
@@ -215,12 +216,12 @@ platform = "linux/amd64"
 x11_or_wayland = false
 
 [file]
-name = "code_amd64_2022-03-02_17-25.tar.zst"
+name = "code_amd64_2022-03-02_17-53.tar.zst"
 
 version = "0.0.0-alpha.2"
 
 # This value can be used to verify the integrity of the file
-sha256 = "6e7e89390a8f9905bd9d68762a12eceb3e99e1ed45adbca1470877ac24e0285a"
+sha256 = "7747c9162fbd46ccc61f428b222df1e6cad1412fd0c2f3bd26443dff88fe103a"
 
 # zstd: [1-22]
 zstd-level = 18
@@ -234,43 +235,43 @@ tar_bytes = 794641920
 # Space occupied ≈ tar-size + zstd-size
 # You will need to prepare a large enough space before installation.
 zstd = "181M"
-zstd_bytes = 188940916
+zstd_bytes = 188896999
 
 [compatibility]
 compatible_mode = true
 
-previous_version = "latest01"
+previous_version = "latest02"
 
 # The value is &str, not int
-previous_date = "20220301"
-previous_tag = "2022-03-01"
-previous_file = "code_amd64_2022-03-01_18-59-rootfs.tar.zst"
-previous_sha256 = "8678c911e11d8faf9180681fa23a020a1cda729e68f7a6b5d6adc6da55839529"
+previous_date = "20220302"
+previous_tag = "2022-03-02"
+previous_file = "code_amd64_2022-03-02_17-25-rootfs.tar.zst"
+previous_sha256 = "6e7e89390a8f9905bd9d68762a12eceb3e99e1ed45adbca1470877ac24e0285a"
 
-current_version = "latest02"
+current_version = "latest01"
 current_date = "20220302"
-old_file = "code_amd64_2022-03-01_22-23-rootfs.tar.zst"
-old_sha256 = "7ff40616f6e90179f8a008edfe654cf7ec7bba73768d6a1aec4c91b003a4db54"
+old_file = "code_amd64_2022-03-01_18-59-rootfs.tar.zst"
+old_sha256 = "8678c911e11d8faf9180681fa23a020a1cda729e68f7a6b5d6adc6da55839529"
 # edition 2021
 # DISTRO_NAME=code_amd64
-# ROOTFS_FILE=code_amd64_2022-03-02_17-25-rootfs.tar.zst
-# SHA256SUM=6e7e89390a8f9905bd9d68762a12eceb3e99e1ed45adbca1470877ac24e0285a
+# ROOTFS_FILE=code_amd64_2022-03-02_17-53-rootfs.tar.zst
+# SHA256SUM=7747c9162fbd46ccc61f428b222df1e6cad1412fd0c2f3bd26443dff88fe103a
 # BUILD_DATE=20220302
 # BUILD_TAG=2022-03-02
 # STATUS=completed
-# VERSION=latest02
-# END_TIME=17:25
+# VERSION=latest01
+# END_TIME=17:53
 
 [time]
 format = "rfc-3339"
 zone = "UTC"
 date = 2022-03-02
-begin = 2022-03-02 17:20:29.844339600+00:00
-start-sync_0 = 17:21:44
-start-zstd = 17:22:35
-start-sync_1 = 17:24:50
-end-sync_1 = 17:25:07
-end = 2022-03-02 17:25:07.437466516+00:00
+begin = 2022-03-02 17:49:15.534268034+00:00
+start-sync_0 = 17:50:16
+start-zstd = 17:51:13
+start-sync_1 = 17:53:30
+end-sync_1 = 17:53:50
+end = 2022-03-02 17:53:50.914844618+00:00
 
 [server]
 repo = "cake233/code-amd64"
