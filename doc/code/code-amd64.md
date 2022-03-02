@@ -178,8 +178,7 @@ No! Although the steps are similar to those above, they are much simpler.
 ```sh
 TMP=$TMPDIR/tmp/code-docker
 mkdir -pv $TMP
-docker run -t --rm cake233/code-amd64 sh -c "cp -rfv /root/init $TMP"
-cd init
+docker run -t --rm -v $TMP:/tmp/init cake233/code-amd64 sh -c "cp -vf /root/* /tmp/init"
 ```
 
 #### set env
@@ -216,15 +215,15 @@ platform = "linux/amd64"
 x11_or_wayland = false
 
 [file]
-name = "code_amd64_2022-03-02_17-02.tar.zst"
+name = "code_amd64_2022-03-02_17-25.tar.zst"
 
 version = "0.0.0-alpha.2"
 
 # This value can be used to verify the integrity of the file
-sha256 = "648124df970fa6cf137d483eb39a6092a539926b15a66dec9aa6e3aec1ed6128"
+sha256 = "6e7e89390a8f9905bd9d68762a12eceb3e99e1ed45adbca1470877ac24e0285a"
 
 # zstd: [1-22]
-zstd-level = 11
+zstd-level = 18
 
 [file.size]
 # Installed size ≈ tar-size
@@ -234,8 +233,8 @@ tar_bytes = 794641920
 
 # Space occupied ≈ tar-size + zstd-size
 # You will need to prepare a large enough space before installation.
-zstd = "203M"
-zstd_bytes = 212793962
+zstd = "181M"
+zstd_bytes = 188940916
 
 [compatibility]
 compatible_mode = true
@@ -254,24 +253,24 @@ old_file = "code_amd64_2022-03-01_22-23-rootfs.tar.zst"
 old_sha256 = "7ff40616f6e90179f8a008edfe654cf7ec7bba73768d6a1aec4c91b003a4db54"
 # edition 2021
 # DISTRO_NAME=code_amd64
-# ROOTFS_FILE=code_amd64_2022-03-02_17-02-rootfs.tar.zst
-# SHA256SUM=648124df970fa6cf137d483eb39a6092a539926b15a66dec9aa6e3aec1ed6128
+# ROOTFS_FILE=code_amd64_2022-03-02_17-25-rootfs.tar.zst
+# SHA256SUM=6e7e89390a8f9905bd9d68762a12eceb3e99e1ed45adbca1470877ac24e0285a
 # BUILD_DATE=20220302
 # BUILD_TAG=2022-03-02
 # STATUS=completed
 # VERSION=latest02
-# END_TIME=17:02
+# END_TIME=17:25
 
 [time]
 format = "rfc-3339"
 zone = "UTC"
 date = 2022-03-02
-begin = 2022-03-02 17:00:13.654479549+00:00
-start-sync_0 = 17:01:17
-start-zstd = 17:02:04
-start-sync_1 = 17:02:26
-end-sync_1 = 17:02:48
-end = 2022-03-02 17:02:48.288839128+00:00
+begin = 2022-03-02 17:20:29.844339600+00:00
+start-sync_0 = 17:21:44
+start-zstd = 17:22:35
+start-sync_1 = 17:24:50
+end-sync_1 = 17:25:07
+end = 2022-03-02 17:25:07.437466516+00:00
 
 [server]
 repo = "cake233/code-amd64"
