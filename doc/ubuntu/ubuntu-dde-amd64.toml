@@ -1,0 +1,105 @@
+[main]
+name = "ubuntu"
+tag = ["dde", "2022-03-03", "devel"]
+os = "ubuntu"
+release = "dev"
+arch = "amd64"
+platform = "linux/amd64"
+x11_or_wayland = true
+
+[file]
+name = "ubuntu-dde_amd64_2022-03-03_16-39.tar.zst"
+
+version = "0.0.0-alpha.2"
+
+# This value can be used to verify the integrity of the file
+sha256 = "5fc0be505e127d07bd384cf7ba660b19998c7d5d3435ac0e96e96b6ad69135ce"
+
+# zstd: [1-22]
+zstd-level = 18
+
+[file.size]
+# Installed size ≈ tar-size
+# Installed size is approximately equal to the size of the tar file
+tar = "2.8G"
+tar_bytes = 2924681216
+
+# Space occupied ≈ tar-size + zstd-size
+# You will need to prepare a large enough space before installation.
+zstd = "725M"
+zstd_bytes = 759505001
+
+[compatibility]
+compatible_mode = true
+
+previous_version = "latest02"
+
+# The value is &str, not int
+previous_date = "20211128"
+previous_tag = ""
+previous_file = ""
+previous_sha256 = ""
+
+current_version = "latest01"
+current_date = "20220303"
+old_file = ""
+old_sha256 = ""
+# edition 2021
+# DISTRO_NAME=ubuntu-dev_amd64
+# ROOTFS_FILE=ubuntu-dde_amd64_2022-03-03_16-39-rootfs.tar.zst
+# SHA256SUM=5fc0be505e127d07bd384cf7ba660b19998c7d5d3435ac0e96e96b6ad69135ce
+# BUILD_DATE=20220303
+# BUILD_TAG=2022-03-03
+# STATUS=completed
+# VERSION=latest01
+# END_TIME=16:39
+
+[time]
+format = "rfc-3339"
+zone = "UTC"
+date = 2022-03-03
+begin = 2022-03-03 16:23:34.621286000+00:00
+start-sync_0 = 16:28:15
+start-zstd = 16:30:30
+start-sync_1 = 16:38:43
+end-sync_1 = 16:39:29
+end = 2022-03-03 16:39:29.606645604+00:00
+
+[server]
+repo = "cake233/ubuntu-dde-amd64"
+
+[server.node1]
+name = "cn"
+current = false
+previous = false
+in_sync = false
+split = false
+
+[server.node2]
+name = "tmoe"
+current = false
+previous = true
+in_sync = false
+split = false
+
+[server.node3]
+name = "azure"
+current = false
+previous = true
+in_sync = false
+split = false
+
+[server.node4]
+name = "docker"
+current = true
+
+# Environment variables  (●＞ω＜●)
+[env]
+LANG = "en_US.UTF-8"
+
+[version]
+ldd = 'ldd (Ubuntu GLIBC 2.35-0ubuntu1) 2.35'
+zsh = 'zsh 5.8.1 (x86_64-ubuntu-linux-gnu)'
+
+[port]
+tcp = [5902, 36080]
