@@ -85,12 +85,12 @@ platform = "linux/arm64"
 x11_or_wayland = true
 
 [file]
-name = "ubuntu-dde_arm64_2022-03-03_17-17.tar.zst"
+name = "ubuntu-dde_arm64_2022-03-03_18-52.tar.zst"
 
 version = "0.0.0-alpha.2"
 
 # This value can be used to verify the integrity of the file
-sha256 = "ccbb3cdcf8165b45c48d65d0f42ac29f1e96314bcc80b4f51efa581a399a71ac"
+sha256 = "c177e8f23387cb84a63d0a1108c81f6ae75eb94325c0d151ea11597f5a3e5cb4"
 
 # zstd: [1-22]
 zstd-level = 18
@@ -98,13 +98,13 @@ zstd-level = 18
 [file.size]
 # Installed size ≈ tar-size
 # Installed size is approximately equal to the size of the tar file
-tar = "3.3G"
-tar_bytes = 3522546176
+tar = "6.1G"
+tar_bytes = 6450073600
 
 # Space occupied ≈ tar-size + zstd-size
 # You will need to prepare a large enough space before installation.
-zstd = "849M"
-zstd_bytes = 889450852
+zstd = "1.8G"
+zstd_bytes = 1845404633
 
 [compatibility]
 compatible_mode = true
@@ -123,24 +123,24 @@ old_file = ""
 old_sha256 = ""
 # edition 2021
 # DISTRO_NAME=ubuntu-dev_arm64
-# ROOTFS_FILE=ubuntu-dde_arm64_2022-03-03_17-17-rootfs.tar.zst
-# SHA256SUM=ccbb3cdcf8165b45c48d65d0f42ac29f1e96314bcc80b4f51efa581a399a71ac
+# ROOTFS_FILE=ubuntu-dde_arm64_2022-03-03_18-52-rootfs.tar.zst
+# SHA256SUM=c177e8f23387cb84a63d0a1108c81f6ae75eb94325c0d151ea11597f5a3e5cb4
 # BUILD_DATE=20220303
 # BUILD_TAG=2022-03-03
 # STATUS=completed
 # VERSION=latest01
-# END_TIME=17:17
+# END_TIME=18:52
 
 [time]
 format = "rfc-3339"
 zone = "UTC"
 date = 2022-03-03
-begin = 2022-03-03 16:23:36.201256191+00:00
-start-sync_0 = 17:03:13
-start-zstd = 17:06:10
-start-sync_1 = 17:16:42
-end-sync_1 = 17:17:44
-end = 2022-03-03 17:17:44.115191304+00:00
+begin = 2022-03-03 16:45:41.591736364+00:00
+start-sync_0 = 18:24:19
+start-zstd = 18:31:33
+start-sync_1 = 18:50:24
+end-sync_1 = 18:52:40
+end = 2022-03-03 18:52:40.210272562+00:00
 
 [server]
 repo = "cake233/ubuntu-dde-arm64"
@@ -175,8 +175,8 @@ current = true
 LANG = "en_US.UTF-8"
 
 [version]
-ldd = 'ldd (Ubuntu GLIBC 2.35-0ubuntu1) 2.35'
-zsh = 'zsh 5.8.1 (aarch64-unknown-linux-gnu)'
+ldd = 'ldd (Ubuntu GLIBC 2.34-0ubuntu3.2) 2.34'
+zsh = 'zsh 5.8 (aarch64-unknown-linux-gnu)'
 
 [port]
 tcp = [5902, 36080]
