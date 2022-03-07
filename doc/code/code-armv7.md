@@ -160,6 +160,7 @@ docker run \
 sleep 3
 
 docker exec -t code sh -c 'bat -pp ~/.config/code-server/config.yaml'
+
 # Get ip(v4) address
 # ip -4 a
 # Open your browser, and type the address
@@ -178,13 +179,15 @@ No! Although the steps are similar to those above, they are much simpler.
 ```sh
 TMP=$TMPDIR/tmp/code-docker
 mkdir -pv $TMP
-docker run -t --rm -v $TMP:/tmp/init cake233/code-armv7 sh -c "cp -vf /root/* /tmp/init"
+cd $TMP
+docker pull cake233/code-armv7
+docker run -t --rm -v $TMP:/tmp/init cake233/code-armv7 sh -c "cp -fpv /root/* /tmp/init"
 ```
 
 #### set env
 
 ```sh
-editor 0.set
+editor 0.set || nano 0.set
 
 . 0.set
 ```
@@ -207,7 +210,7 @@ editor 0.set
 ```toml
 [main]
 name = "code"
-tag = ["latest", "2022-03-02", "vsc", "vscode", "web"]
+tag = ["latest", "2022-03-07", "vsc", "vscode", "web"]
 os = "debian"
 release = "sid"
 arch = "armhf"
@@ -215,62 +218,62 @@ platform = "linux/arm/v7"
 x11_or_wayland = false
 
 [file]
-name = "code_armhf_2022-03-02_17-29.tar.zst"
+name = "code_armhf_2022-03-07_12-11.tar.zst"
 
 version = "0.0.0-alpha.2"
 
 # This value can be used to verify the integrity of the file
-sha256 = "47e575ec8a51d9cba18729c973bc3e445f8b13da22603af4c8e94bb53dc5440d"
+sha256 = "2e2e84f14259af2778e33a233bc19a630e640096a5ee54026db2216ef3beccab"
 
 # zstd: [1-22]
-zstd-level = 18
+zstd-level = 22
 
 [file.size]
 # Installed size ≈ tar-size
 # Installed size is approximately equal to the size of the tar file
-tar = "618M"
-tar_bytes = 647886336
+tar = "619M"
+tar_bytes = 648947712
 
 # Space occupied ≈ tar-size + zstd-size
 # You will need to prepare a large enough space before installation.
-zstd = "161M"
-zstd_bytes = 168635233
+zstd = "133M"
+zstd_bytes = 139291836
 
 [compatibility]
 compatible_mode = true
 
-previous_version = "latest01"
+previous_version = "latest02"
 
 # The value is &str, not int
-previous_date = "20220301"
-previous_tag = "2022-03-01"
-previous_file = "code_armhf_2022-03-01_19-03-rootfs.tar.zst"
-previous_sha256 = "461d79f861ac6092142ae56db8f5f4a7e3f4135cec0e48f857cea986298a7cd6"
+previous_date = "20220302"
+previous_tag = "2022-03-02"
+previous_file = "code_armhf_2022-03-02_17-29-rootfs.tar.zst"
+previous_sha256 = "47e575ec8a51d9cba18729c973bc3e445f8b13da22603af4c8e94bb53dc5440d"
 
-current_version = "latest02"
-current_date = "20220302"
-old_file = "code_armhf_2022-03-01_22-34-rootfs.tar.zst"
-old_sha256 = "e857c1516b2b61f6c1d813cff4346d8ff3faac0ef4544f75dba2576296a4f5e5"
+current_version = "latest01"
+current_date = "20220307"
+old_file = "code_armhf_2022-03-01_19-03-rootfs.tar.zst"
+old_sha256 = "461d79f861ac6092142ae56db8f5f4a7e3f4135cec0e48f857cea986298a7cd6"
 # edition 2021
 # DISTRO_NAME=code_armhf
-# ROOTFS_FILE=code_armhf_2022-03-02_17-29-rootfs.tar.zst
-# SHA256SUM=47e575ec8a51d9cba18729c973bc3e445f8b13da22603af4c8e94bb53dc5440d
-# BUILD_DATE=20220302
-# BUILD_TAG=2022-03-02
+# ROOTFS_FILE=code_armhf_2022-03-07_12-11-rootfs.tar.zst
+# SHA256SUM=2e2e84f14259af2778e33a233bc19a630e640096a5ee54026db2216ef3beccab
+# BUILD_DATE=20220307
+# BUILD_TAG=2022-03-07
 # STATUS=completed
-# VERSION=latest02
-# END_TIME=17:29
+# VERSION=latest01
+# END_TIME=12:11
 
 [time]
 format = "rfc-3339"
 zone = "UTC"
-date = 2022-03-02
-begin = 2022-03-02 17:20:29.156402917+00:00
-start-sync_0 = 17:26:15
-start-zstd = 17:26:58
-start-sync_1 = 17:28:57
-end-sync_1 = 17:29:15
-end = 2022-03-02 17:29:15.331648802+00:00
+date = 2022-03-07
+begin = 2022-03-07 12:02:31.390109798+00:00
+start-sync_0 = 12:07:15
+start-zstd = 12:07:52
+start-sync_1 = 12:11:13
+end-sync_1 = 12:11:26
+end = 2022-03-07 12:11:26.459651102+00:00
 
 [server]
 repo = "cake233/code-armv7"
@@ -306,7 +309,7 @@ LANG = "en_US.UTF-8"
 
 [version]
 ldd = 'ldd (Debian GLIBC 2.33-7) 2.33'
-code = '4.0.1 735c6da829535969ff7193c79379299e4a1cb9bc'
+code = '4.1.0 9e620e90f53fb91338a2ba1aaa2e556d42ae52d5 with Code 1.63.0'
 
 [port]
 tcp = [8080]
