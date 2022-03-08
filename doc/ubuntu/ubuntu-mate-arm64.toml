@@ -1,6 +1,6 @@
 [main]
 name = "ubuntu"
-tag = ["mate", "2022-03-01", "devel"]
+tag = ["mate", "2022-03-08", "devel"]
 os = "ubuntu"
 release = "dev"
 arch = "arm64"
@@ -8,12 +8,12 @@ platform = "linux/arm64"
 x11_or_wayland = true
 
 [file]
-name = "ubuntu-mate_arm64_2022-03-01_01-12.tar.zst"
+name = "ubuntu-mate_arm64_2022-03-08_01-17.tar.zst"
 
 version = "0.0.0-alpha.2"
 
 # This value can be used to verify the integrity of the file
-sha256 = "8965b58d54b364db9ccfbc2e7e044796baf2643ebdab55e29af368e5c4109ffa"
+sha256 = "f7737ae8e99a79eb15d82e0c58b261d6afa980c09bd4ff7447d021cdc1ba4508"
 
 # zstd: [1-22]
 zstd-level = 18
@@ -21,49 +21,49 @@ zstd-level = 18
 [file.size]
 # Installed size ≈ tar-size
 # Installed size is approximately equal to the size of the tar file
-tar = "3.9G"
-tar_bytes = 4088651264
+tar = "4.2G"
+tar_bytes = 4496663040
 
 # Space occupied ≈ tar-size + zstd-size
 # You will need to prepare a large enough space before installation.
-zstd = "1013M"
-zstd_bytes = 1061629005
+zstd = "1.1G"
+zstd_bytes = 1152349877
 
 [compatibility]
 compatible_mode = true
 
-previous_version = "latest01"
+previous_version = "latest02"
 
 # The value is &str, not int
-previous_date = "20220222"
-previous_tag = "2022-02-22"
-previous_file = "ubuntu-mate_arm64_2022-02-22_01-06-rootfs.tar.zst"
-previous_sha256 = "8c91011cb1f7aeb46608ca1eaa593c4a14d943c1a6afe6ea02dc2d6cd72192f4"
+previous_date = "20220301"
+previous_tag = "2022-03-01"
+previous_file = "ubuntu-mate_arm64_2022-03-01_01-12-rootfs.tar.zst"
+previous_sha256 = "8965b58d54b364db9ccfbc2e7e044796baf2643ebdab55e29af368e5c4109ffa"
 
-current_version = "latest02"
-current_date = "20220301"
-old_file = "ubuntu-mate_arm64_2022-02-15_01-06-rootfs.tar.zst"
-old_sha256 = "ce2ff0829aa5d8ee1e3a896cb6b56a13ac82f67b9ab707e1f6b81b48bbb83b34"
+current_version = "latest01"
+current_date = "20220308"
+old_file = "ubuntu-mate_arm64_2022-02-22_01-06-rootfs.tar.zst"
+old_sha256 = "8c91011cb1f7aeb46608ca1eaa593c4a14d943c1a6afe6ea02dc2d6cd72192f4"
 # edition 2021
 # DISTRO_NAME=ubuntu-dev_arm64
-# ROOTFS_FILE=ubuntu-mate_arm64_2022-03-01_01-12-rootfs.tar.zst
-# SHA256SUM=8965b58d54b364db9ccfbc2e7e044796baf2643ebdab55e29af368e5c4109ffa
-# BUILD_DATE=20220301
-# BUILD_TAG=2022-03-01
+# ROOTFS_FILE=ubuntu-mate_arm64_2022-03-08_01-17-rootfs.tar.zst
+# SHA256SUM=f7737ae8e99a79eb15d82e0c58b261d6afa980c09bd4ff7447d021cdc1ba4508
+# BUILD_DATE=20220308
+# BUILD_TAG=2022-03-08
 # STATUS=completed
-# VERSION=latest02
-# END_TIME=01:12
+# VERSION=latest01
+# END_TIME=01:17
 
 [time]
 format = "rfc-3339"
 zone = "UTC"
-date = 2022-03-01
-begin = 2022-03-01 00:24:22.156056801+00:00
-start-sync_0 = 00:56:18
-start-zstd = 00:59:40
-start-sync_1 = 01:11:02
-end-sync_1 = 01:12:09
-end = 2022-03-01 01:12:09.409087928+00:00
+date = 2022-03-08
+begin = 2022-03-08 00:20:47.020288960+00:00
+start-sync_0 = 00:59:51
+start-zstd = 01:04:11
+start-sync_1 = 01:16:23
+end-sync_1 = 01:17:40
+end = 2022-03-08 01:17:40.559772516+00:00
 
 [server]
 repo = "cake233/ubuntu-mate-arm64"
@@ -77,18 +77,16 @@ split = false
 
 [server.node2]
 name = "tmoe"
-current = true
-previous = false
+current = false
+previous = true
 in_sync = false
 split = false
 
 [server.node3]
 name = "azure"
-current = true
+current = false
 previous = true
 in_sync = false
-start_sync = 2022-03-01 06:24:41.791188601+00:00
-end_sync = 2022-03-01 06:28:19.860646219+00:00
 split = false
 
 [server.node4]
