@@ -77,7 +77,7 @@ localhost:5903
 ```toml
 [main]
 name = "arch"
-tag = ["cutefish", "2022-03-03"]
+tag = ["cutefish", "2022-03-09"]
 os = "arch"
 release = "latest"
 arch = "amd64"
@@ -85,62 +85,62 @@ platform = "linux/amd64"
 x11_or_wayland = true
 
 [file]
-name = "arch-cutefish_amd64_2022-03-03_16-47.tar.zst"
+name = "arch-cutefish_amd64_2022-03-09_00-56.tar.zst"
 
 version = "0.0.0-alpha.2"
 
 # This value can be used to verify the integrity of the file
-sha256 = "387e3c16de1496a7810efdfb569d5b8f224b1e0a92e4176144896a22beaf4b2d"
+sha256 = "893f83b56996ae5f5980044fb262c91e85344bb7babdb79bc37b1bc6d23e304a"
 
 # zstd: [1-22]
-zstd-level = 18
+zstd-level = 15
 
 [file.size]
 # Installed size ≈ tar-size
 # Installed size is approximately equal to the size of the tar file
 tar = "3.9G"
-tar_bytes = 4093380608
+tar_bytes = 4082399232
 
 # Space occupied ≈ tar-size + zstd-size
 # You will need to prepare a large enough space before installation.
-zstd = "1.1G"
-zstd_bytes = 1155046240
+zstd = "1.2G"
+zstd_bytes = 1262937697
 
 [compatibility]
 compatible_mode = true
 
-previous_version = "latest02"
+previous_version = "latest01"
 
 # The value is &str, not int
-previous_date = "20211128"
-previous_tag = ""
-previous_file = ""
-previous_sha256 = ""
+previous_date = "20220303"
+previous_tag = "2022-03-03"
+previous_file = "arch-cutefish_amd64_2022-03-03_16-47-rootfs.tar.zst"
+previous_sha256 = "387e3c16de1496a7810efdfb569d5b8f224b1e0a92e4176144896a22beaf4b2d"
 
-current_version = "latest01"
-current_date = "20220303"
+current_version = "latest02"
+current_date = "20220309"
 old_file = ""
 old_sha256 = ""
 # edition 2021
 # DISTRO_NAME=arch_amd64
-# ROOTFS_FILE=arch-cutefish_amd64_2022-03-03_16-47-rootfs.tar.zst
-# SHA256SUM=387e3c16de1496a7810efdfb569d5b8f224b1e0a92e4176144896a22beaf4b2d
-# BUILD_DATE=20220303
-# BUILD_TAG=2022-03-03
+# ROOTFS_FILE=arch-cutefish_amd64_2022-03-09_00-56-rootfs.tar.zst
+# SHA256SUM=893f83b56996ae5f5980044fb262c91e85344bb7babdb79bc37b1bc6d23e304a
+# BUILD_DATE=20220309
+# BUILD_TAG=2022-03-09
 # STATUS=completed
-# VERSION=latest01
-# END_TIME=16:47
+# VERSION=latest02
+# END_TIME=00:56
 
 [time]
 format = "rfc-3339"
 zone = "UTC"
-date = 2022-03-03
-begin = 2022-03-03 16:23:36.349541804+00:00
-start-sync_0 = 16:30:03
-start-zstd = 16:34:22
-start-sync_1 = 16:45:53
-end-sync_1 = 16:47:06
-end = 2022-03-03 16:47:06.811018752+00:00
+date = 2022-03-09
+begin = 2022-03-09 00:34:42.657367533+00:00
+start-sync_0 = 00:41:03
+start-zstd = 00:46:43
+start-sync_1 = 00:54:26
+end-sync_1 = 00:56:09
+end = 2022-03-09 00:56:09.294053448+00:00
 
 [server]
 repo = "cake233/arch-cutefish-amd64"
