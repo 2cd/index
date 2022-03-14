@@ -20,7 +20,7 @@ docker exec -it php-alpine-armv7 bash
 ```toml
 [main]
 name = "php"
-tag = ["alpine", "2022-03-01", "musl-libc", "musl"]
+tag = ["alpine", "2022-03-14", "musl-libc", "musl"]
 os = "alpine"
 release = "stable"
 arch = "armhf"
@@ -28,62 +28,62 @@ platform = "linux/arm/v7"
 x11_or_wayland = false
 
 [file]
-name = "php-musl_armhf_2022-03-01_18-54.tar.zst"
+name = "php-musl_armhf_2022-03-14_12-04.tar.zst"
 
 version = "0.0.0-alpha.2"
 
 # This value can be used to verify the integrity of the file
-sha256 = "f553a74395f319df9220c75803c88d4a4e33d02c4d83425e1dfbcc4feabdce4d"
+sha256 = "8abc9db060bd19f40f626e6a9d64159ee542ff661d0d95967295d7b8987281c0"
 
 # zstd: [1-22]
-zstd-level = 18
+zstd-level = 22
 
 [file.size]
 # Installed size ≈ tar-size
 # Installed size is approximately equal to the size of the tar file
-tar = "74M"
-tar_bytes = 77411840
+tar = "75M"
+tar_bytes = 78410752
 
 # Space occupied ≈ tar-size + zstd-size
 # You will need to prepare a large enough space before installation.
-zstd = "28M"
-zstd_bytes = 28600920
+zstd = "23M"
+zstd_bytes = 23671599
 
 [compatibility]
 compatible_mode = true
 
-previous_version = "latest02"
+previous_version = "latest01"
 
 # The value is &str, not int
-previous_date = "20220214"
-previous_tag = "2022-02-14"
-previous_file = "php-musl_armhf_2022-02-14_12-03-rootfs.tar.zst"
-previous_sha256 = "ccc8ddaf77a4a1416cd92c996fc12fcde69b316027badcc2d1a19ae1e457f7ff"
+previous_date = "20220301"
+previous_tag = "2022-03-01"
+previous_file = "php-musl_armhf_2022-03-01_18-54-rootfs.tar.zst"
+previous_sha256 = "f553a74395f319df9220c75803c88d4a4e33d02c4d83425e1dfbcc4feabdce4d"
 
-current_version = "latest01"
-current_date = "20220301"
-old_file = "php-musl_armhf_2022-01-31_12-03-rootfs.tar.zst"
-old_sha256 = "ffd7e8d55481376d0258f3f55e8c27df2fe7c9d6b3258621f1483d7b7fe9664e"
+current_version = "latest02"
+current_date = "20220314"
+old_file = "php-musl_armhf_2022-02-14_12-03-rootfs.tar.zst"
+old_sha256 = "ccc8ddaf77a4a1416cd92c996fc12fcde69b316027badcc2d1a19ae1e457f7ff"
 # edition 2021
 # DISTRO_NAME=php_armhf
-# ROOTFS_FILE=php-musl_armhf_2022-03-01_18-54-rootfs.tar.zst
-# SHA256SUM=f553a74395f319df9220c75803c88d4a4e33d02c4d83425e1dfbcc4feabdce4d
-# BUILD_DATE=20220301
-# BUILD_TAG=2022-03-01
+# ROOTFS_FILE=php-musl_armhf_2022-03-14_12-04-rootfs.tar.zst
+# SHA256SUM=8abc9db060bd19f40f626e6a9d64159ee542ff661d0d95967295d7b8987281c0
+# BUILD_DATE=20220314
+# BUILD_TAG=2022-03-14
 # STATUS=completed
-# VERSION=latest01
-# END_TIME=18:54
+# VERSION=latest02
+# END_TIME=12:04
 
 [time]
 format = "rfc-3339"
 zone = "UTC"
-date = 2022-03-01
-begin = 2022-03-01 18:53:54.612377949+00:00
-start-sync_0 = 18:54:33
-start-zstd = 18:54:38
-start-sync_1 = 18:54:46
-end-sync_1 = 18:54:51
-end = 2022-03-01 18:54:51.810790916+00:00
+date = 2022-03-14
+begin = 2022-03-14 12:02:32.403504494+00:00
+start-sync_0 = 12:03:20
+start-zstd = 12:03:29
+start-sync_1 = 12:03:57
+end-sync_1 = 12:04:06
+end = 2022-03-14 12:04:06.111101057+00:00
 
 [server]
 repo = "cake233/php-alpine-armv7"
@@ -121,7 +121,7 @@ PHP_INI_DIR = '/usr/local/etc/php'
 [version]
 ldd = 'musl libc (armhf) Version 1.2.2'
 php = '''
-PHP 8.1.3 (cli) (built: Feb 18 2022 20:45:43) (NTS)
+PHP 8.1.3 (cli) (built: Mar 11 2022 02:40:51) (NTS)
 Copyright (c) The PHP Group
 Zend Engine v4.1.3, Copyright (c) Zend Technologies
 '''
