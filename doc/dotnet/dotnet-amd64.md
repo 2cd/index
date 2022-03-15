@@ -52,15 +52,15 @@ platform = "linux/amd64"
 x11_or_wayland = false
 
 [file]
-name = "dotnet_amd64_2022-03-15_06-35.tar.zst"
+name = "dotnet_amd64_2022-03-15_07-19.tar.zst"
 
 version = "0.0.0-alpha.2"
 
 # This value can be used to verify the integrity of the file
-sha256 = "882f6e37eeec0cfec6eeca1827821cd6e6bc813071fbdd608845e1368ddf4698"
+sha256 = "16eb8129863a49207995cb849778472209d7ea3b4fbf3baa1547d8edf01d9c73"
 
 # zstd: [1-22]
-zstd-level = 10
+zstd-level = 19
 
 [file.size]
 # Installed size ≈ tar-size
@@ -70,8 +70,8 @@ tar_bytes = 1676839424
 
 # Space occupied ≈ tar-size + zstd-size
 # You will need to prepare a large enough space before installation.
-zstd = "500M"
-zstd_bytes = 524123504
+zstd = "445M"
+zstd_bytes = 465838760
 
 [compatibility]
 compatible_mode = true
@@ -90,24 +90,24 @@ old_file = ""
 old_sha256 = ""
 # edition 2021
 # DISTRO_NAME=dotnet_amd64
-# ROOTFS_FILE=dotnet_amd64_2022-03-15_06-35-rootfs.tar.zst
-# SHA256SUM=882f6e37eeec0cfec6eeca1827821cd6e6bc813071fbdd608845e1368ddf4698
+# ROOTFS_FILE=dotnet_amd64_2022-03-15_07-19-rootfs.tar.zst
+# SHA256SUM=16eb8129863a49207995cb849778472209d7ea3b4fbf3baa1547d8edf01d9c73
 # BUILD_DATE=20220315
 # BUILD_TAG=2022-03-15
 # STATUS=completed
 # VERSION=latest01
-# END_TIME=06:35
+# END_TIME=07:19
 
 [time]
 format = "rfc-3339"
 zone = "UTC"
 date = 2022-03-15
-begin = 2022-03-15 06:30:58.908896152+00:00
-start-sync_0 = 06:33:22
-start-zstd = 06:34:15
-start-sync_1 = 06:34:48
-end-sync_1 = 06:35:28
-end = 2022-03-15 06:35:28.558572512+00:00
+begin = 2022-03-15 07:10:15.460256068+00:00
+start-sync_0 = 07:12:41
+start-zstd = 07:13:29
+start-sync_1 = 07:19:04
+end-sync_1 = 07:19:37
+end = 2022-03-15 07:19:37.790734901+00:00
 
 [server]
 repo = "cake233/dotnet-amd64"
@@ -142,15 +142,16 @@ current = true
 LANG = "en_US.UTF-8"
 PATH = "/usr/local/powershell:/usr/local/dotnet/bin${PATH:+:${PATH}}"
 DOTNET_ROOT = "/usr/local/dotnet"
- DOTNET_RUNNING_IN_CONTAINER=true
+DOTNET_RUNNING_IN_CONTAINER = true
 ASPNETCORE_URLS = ""
- DOTNET_GENERATE_ASPNET_CERTIFICATE=false
- DOTNET_USE_POLLING_FILE_WATCHER=true
+DOTNET_GENERATE_ASPNET_CERTIFICATE = false
+DOTNET_USE_POLLING_FILE_WATCHER = true
 Logging__Console__FormatterName = ""
 NUGET_XMLDOC_MODE = "skip"
 
 [version]
 ldd = 'ldd (GNU libc) 2.35'
+git = 'git version 2.35.1'
 dotnet = '6.0.201'
 powershell = 'PowerShell 7.2.1'
 dotnet_info = '''
@@ -181,5 +182,5 @@ To install additional .NET runtimes or SDKs:
 '''
 
 [other]
-shell = "/usr/local/powershell/pwsh"
+cmd = "/usr/local/powershell/pwsh"
 ```
