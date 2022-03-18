@@ -1,6 +1,6 @@
 [main]
 name = "rust"
-tag = ["alpine", "2022-03-14", "nightly", "unstable", "minimal", "musl-libc", "musl"]
+tag = ["alpine", "2022-03-18", "nightly", "unstable", "minimal", "musl-libc", "musl"]
 os = "alpine"
 release = "edge"
 arch = "arm64"
@@ -8,12 +8,12 @@ platform = "linux/arm64"
 x11_or_wayland = false
 
 [file]
-name = "rust-musl_arm64_2022-03-14_02-58.tar.zst"
+name = "rust-musl_arm64_2022-03-18_02-56.tar.zst"
 
 version = "0.0.0-alpha.2"
 
 # This value can be used to verify the integrity of the file
-sha256 = "b0a59f1ed65d3419df3aa816517e2b2617fb090ec517f2316e85131785ebb74c"
+sha256 = "89459c0b9c6ec6623ac2c4d261fbe5c37d56b455e574d87c18772a1c0e5b25da"
 
 # zstd: [1-22]
 zstd-level = 18
@@ -22,48 +22,48 @@ zstd-level = 18
 # Installed size ≈ tar-size
 # Installed size is approximately equal to the size of the tar file
 tar = "731M"
-tar_bytes = 766226944
+tar_bytes = 766309888
 
 # Space occupied ≈ tar-size + zstd-size
 # You will need to prepare a large enough space before installation.
 zstd = "169M"
-zstd_bytes = 176923010
+zstd_bytes = 176915614
 
 [compatibility]
 compatible_mode = true
 
-previous_version = "latest02"
+previous_version = "latest01"
 
 # The value is &str, not int
-previous_date = "20220311"
-previous_tag = "2022-03-11"
-previous_file = "rust-musl_arm64_2022-03-11_02-57-rootfs.tar.zst"
-previous_sha256 = "c642ea0134f934c9c0c53281297985fd8fd48e490583e988f092e809027a3049"
+previous_date = "20220314"
+previous_tag = "2022-03-14"
+previous_file = "rust-musl_arm64_2022-03-14_02-58-rootfs.tar.zst"
+previous_sha256 = "b0a59f1ed65d3419df3aa816517e2b2617fb090ec517f2316e85131785ebb74c"
 
-current_version = "latest01"
-current_date = "20220314"
-old_file = "rust-musl_arm64_2022-03-07_02-58-rootfs.tar.zst"
-old_sha256 = "ee8ed5c1d13c3753cc8bc9cadcfd074cff774cd96181fb8f3fceb681b785e87a"
+current_version = "latest02"
+current_date = "20220318"
+old_file = "rust-musl_arm64_2022-03-11_02-57-rootfs.tar.zst"
+old_sha256 = "c642ea0134f934c9c0c53281297985fd8fd48e490583e988f092e809027a3049"
 # edition 2021
 # DISTRO_NAME=rust_arm64
-# ROOTFS_FILE=rust-musl_arm64_2022-03-14_02-58-rootfs.tar.zst
-# SHA256SUM=b0a59f1ed65d3419df3aa816517e2b2617fb090ec517f2316e85131785ebb74c
-# BUILD_DATE=20220314
-# BUILD_TAG=2022-03-14
+# ROOTFS_FILE=rust-musl_arm64_2022-03-18_02-56-rootfs.tar.zst
+# SHA256SUM=89459c0b9c6ec6623ac2c4d261fbe5c37d56b455e574d87c18772a1c0e5b25da
+# BUILD_DATE=20220318
+# BUILD_TAG=2022-03-18
 # STATUS=completed
-# VERSION=latest01
-# END_TIME=02:58
+# VERSION=latest02
+# END_TIME=02:56
 
 [time]
 format = "rfc-3339"
 zone = "UTC"
-date = 2022-03-14
-begin = 2022-03-14 02:52:25.244831681+00:00
-start-sync_0 = 02:54:56
-start-zstd = 02:55:40
-start-sync_1 = 02:58:20
-end-sync_1 = 02:58:36
-end = 2022-03-14 02:58:36.659445830+00:00
+date = 2022-03-18
+begin = 2022-03-18 02:52:23.521046905+00:00
+start-sync_0 = 02:54:05
+start-zstd = 02:54:42
+start-sync_1 = 02:56:38
+end-sync_1 = 02:56:55
+end = 2022-03-18 02:56:55.125406403+00:00
 
 [server]
 repo = "cake233/rust-alpine-arm64"
@@ -77,18 +77,16 @@ split = false
 
 [server.node2]
 name = "tmoe"
-current = true
-previous = false
+current = false
+previous = true
 in_sync = false
 split = false
 
 [server.node3]
 name = "azure"
-current = true
+current = false
 previous = true
 in_sync = false
-start_sync = 2022-03-14 06:03:58.775594712+00:00
-end_sync = 2022-03-14 06:04:34.816523231+00:00
 split = false
 
 [server.node4]
@@ -106,7 +104,7 @@ CARGO_HOME = "/usr/local/cargo"
 ldd = 'musl libc (aarch64) Version 1.2.2'
 rustup = 'rustup 1.24.3 (ce5817a94 2021-05-31)'
 cargo = 'cargo 1.61.0-nightly (65c826642 2022-03-09)'
-rustc = 'rustc 1.61.0-nightly (e95b10ba4 2022-03-13)'
+rustc = 'rustc 1.61.0-nightly (58f11791a 2022-03-17)'
 cc = 'cc (Alpine 11.2.1_git20220219) 11.2.1 20220219'
 cargo_verbose = '''
 cargo 1.61.0-nightly (65c826642 2022-03-09)
@@ -116,13 +114,13 @@ commit-date: 2022-03-09
 host: aarch64-unknown-linux-musl
 libgit2: 1.4.1 (sys:0.14.1 vendored)
 libcurl: 7.80.0-DEV (sys:0.4.51+curl-7.80.0 vendored ssl:OpenSSL/1.1.1m)
-os: Alpine Linux 3.15.0_alpha20210804 [64-bit]
+os: Alpine Linux 3.16.0_alpha20220316 [64-bit]
 '''
 rustc_verbose = '''
-rustc 1.61.0-nightly (e95b10ba4 2022-03-13)
+rustc 1.61.0-nightly (58f11791a 2022-03-17)
 binary: rustc
-commit-hash: e95b10ba4ac4564ed25f7eef143e3182c33b3902
-commit-date: 2022-03-13
+commit-hash: 58f11791af4f97572e7afd83f11cffe04bbbd12f
+commit-date: 2022-03-17
 host: aarch64-unknown-linux-musl
 release: 1.61.0-nightly
 LLVM version: 14.0.0
