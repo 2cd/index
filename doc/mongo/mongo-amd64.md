@@ -20,7 +20,7 @@ docker exec -it mongo-amd64 bash
 ```toml
 [main]
 name = "mongo"
-tag = ["latest", "2022-03-07"]
+tag = ["latest", "2022-03-21"]
 os = "ubuntu"
 release = "lts"
 arch = "amd64"
@@ -28,12 +28,12 @@ platform = "linux/amd64"
 x11_or_wayland = false
 
 [file]
-name = "mongo_amd64_2022-03-07_12-10.tar.zst"
+name = "mongo_amd64_2022-03-21_12-08.tar.zst"
 
 version = "0.0.0-alpha.2"
 
 # This value can be used to verify the integrity of the file
-sha256 = "1948743b4e34dddfbe0281eec210b7fc49b7a7939f50c0f9cadbcb1cf7342348"
+sha256 = "43d32b098a547ef9d022324f84c398a23d69b88f66c1afc51cfba51b7dce5727"
 
 # zstd: [1-22]
 zstd-level = 22
@@ -42,48 +42,48 @@ zstd-level = 22
 # Installed size ≈ tar-size
 # Installed size is approximately equal to the size of the tar file
 tar = "905M"
-tar_bytes = 948151808
+tar_bytes = 948161024
 
 # Space occupied ≈ tar-size + zstd-size
 # You will need to prepare a large enough space before installation.
 zstd = "162M"
-zstd_bytes = 169430927
+zstd_bytes = 169403711
 
 [compatibility]
 compatible_mode = true
 
-previous_version = "latest01"
+previous_version = "latest02"
 
 # The value is &str, not int
-previous_date = "20220301"
-previous_tag = "2022-03-01"
-previous_file = "mongo_amd64_2022-03-01_19-00-rootfs.tar.zst"
-previous_sha256 = "3ba47934a8fdb9cc27798be533bb48a07c21eb8973189a19d7f45390ab48efed"
+previous_date = "20220307"
+previous_tag = "2022-03-07"
+previous_file = "mongo_amd64_2022-03-07_12-10-rootfs.tar.zst"
+previous_sha256 = "1948743b4e34dddfbe0281eec210b7fc49b7a7939f50c0f9cadbcb1cf7342348"
 
-current_version = "latest02"
-current_date = "20220307"
-old_file = "mongo_amd64_2022-02-07_12-08-rootfs.tar.zst"
-old_sha256 = "0db0b9e802dd2de810b17221679147f1fa983251513c9307fe1c3f4c19dd7ce6"
+current_version = "latest01"
+current_date = "20220321"
+old_file = "mongo_amd64_2022-03-01_19-00-rootfs.tar.zst"
+old_sha256 = "3ba47934a8fdb9cc27798be533bb48a07c21eb8973189a19d7f45390ab48efed"
 # edition 2021
 # DISTRO_NAME=mongo_amd64
-# ROOTFS_FILE=mongo_amd64_2022-03-07_12-10-rootfs.tar.zst
-# SHA256SUM=1948743b4e34dddfbe0281eec210b7fc49b7a7939f50c0f9cadbcb1cf7342348
-# BUILD_DATE=20220307
-# BUILD_TAG=2022-03-07
+# ROOTFS_FILE=mongo_amd64_2022-03-21_12-08-rootfs.tar.zst
+# SHA256SUM=43d32b098a547ef9d022324f84c398a23d69b88f66c1afc51cfba51b7dce5727
+# BUILD_DATE=20220321
+# BUILD_TAG=2022-03-21
 # STATUS=completed
-# VERSION=latest02
-# END_TIME=12:10
+# VERSION=latest01
+# END_TIME=12:08
 
 [time]
 format = "rfc-3339"
 zone = "UTC"
-date = 2022-03-07
-begin = 2022-03-07 12:02:39.684101400+00:00
-start-sync_0 = 12:04:05
-start-zstd = 12:04:36
-start-sync_1 = 12:09:53
-end-sync_1 = 12:10:14
-end = 2022-03-07 12:10:14.395618412+00:00
+date = 2022-03-21
+begin = 2022-03-21 12:02:31.848780045+00:00
+start-sync_0 = 12:03:55
+start-zstd = 12:04:20
+start-sync_1 = 12:08:20
+end-sync_1 = 12:08:37
+end = 2022-03-21 12:08:37.095092718+00:00
 
 [server]
 repo = "cake233/mongo-amd64"
