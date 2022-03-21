@@ -69,7 +69,7 @@ name = "go-musl_amd64_2022-03-21_12-06.tar.zst"
 version = "0.0.0-alpha.2"
 
 # This value can be used to verify the integrity of the file
-sha256 = "f4932856fbfe94d54aa8b5dce2b74b4d426fba3b8273fabb0a0381eeba0fb5d2"
+sha256 = "c1fb61c4b10ba9d82a72fa7aa8f84675d43ed75eb35d5cc0898dbdf454c33f4a"
 
 # zstd: [1-22]
 zstd-level = 22
@@ -83,7 +83,7 @@ tar_bytes = 353178624
 # Space occupied ≈ tar-size + zstd-size
 # You will need to prepare a large enough space before installation.
 zstd = "81M"
-zstd_bytes = 84556134
+zstd_bytes = 84557279
 
 [compatibility]
 compatible_mode = true
@@ -103,7 +103,7 @@ old_sha256 = "f698a91299a199c9433d32609ec1a4dd0d50712df2e6e1dcf8735eb3afd39557"
 # edition 2021
 # DISTRO_NAME=go_amd64
 # ROOTFS_FILE=go-musl_amd64_2022-03-21_12-06-rootfs.tar.zst
-# SHA256SUM=f4932856fbfe94d54aa8b5dce2b74b4d426fba3b8273fabb0a0381eeba0fb5d2
+# SHA256SUM=c1fb61c4b10ba9d82a72fa7aa8f84675d43ed75eb35d5cc0898dbdf454c33f4a
 # BUILD_DATE=20220321
 # BUILD_TAG=2022-03-21
 # STATUS=completed
@@ -114,12 +114,12 @@ old_sha256 = "f698a91299a199c9433d32609ec1a4dd0d50712df2e6e1dcf8735eb3afd39557"
 format = "rfc-3339"
 zone = "UTC"
 date = 2022-03-21
-begin = 2022-03-21 12:02:26.000731293+00:00
-start-sync_0 = 12:03:14
-start-zstd = 12:03:24
-start-sync_1 = 12:06:27
-end-sync_1 = 12:06:37
-end = 2022-03-21 12:06:37.023468078+00:00
+begin = 2022-03-21 12:02:28.359775600+00:00
+start-sync_0 = 12:03:33
+start-zstd = 12:03:42
+start-sync_1 = 12:06:45
+end-sync_1 = 12:06:55
+end = 2022-03-21 12:06:55.097804919+00:00
 
 [server]
 repo = "cake233/go-alpine-amd64"
