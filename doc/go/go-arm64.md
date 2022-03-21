@@ -69,7 +69,7 @@ name = "go_arm64_2022-03-21_12-11.tar.zst"
 version = "0.0.0-alpha.2"
 
 # This value can be used to verify the integrity of the file
-sha256 = "0b970d1d3014c1d15818a9c2451517fea02f58afab778a5aff18e0f999c197c2"
+sha256 = "ca21819f82b1695ff3d26299fded63c072a5c3cf4b17cffea299f9fe7081b6ce"
 
 # zstd: [1-22]
 zstd-level = 22
@@ -83,7 +83,7 @@ tar_bytes = 869822976
 # Space occupied ≈ tar-size + zstd-size
 # You will need to prepare a large enough space before installation.
 zstd = "190M"
-zstd_bytes = 198505615
+zstd_bytes = 198503662
 
 [compatibility]
 compatible_mode = true
@@ -103,7 +103,7 @@ old_sha256 = "0ae743330893a039039144dc24b31bac4abeed4ad455189f07b605aa86b51c1e"
 # edition 2021
 # DISTRO_NAME=go_arm64
 # ROOTFS_FILE=go_arm64_2022-03-21_12-11-rootfs.tar.zst
-# SHA256SUM=0b970d1d3014c1d15818a9c2451517fea02f58afab778a5aff18e0f999c197c2
+# SHA256SUM=ca21819f82b1695ff3d26299fded63c072a5c3cf4b17cffea299f9fe7081b6ce
 # BUILD_DATE=20220321
 # BUILD_TAG=2022-03-21
 # STATUS=completed
@@ -114,12 +114,12 @@ old_sha256 = "0ae743330893a039039144dc24b31bac4abeed4ad455189f07b605aa86b51c1e"
 format = "rfc-3339"
 zone = "UTC"
 date = 2022-03-21
-begin = 2022-03-21 12:04:20.926444444+00:00
-start-sync_0 = 12:06:20
-start-zstd = 12:06:34
-start-sync_1 = 12:11:30
-end-sync_1 = 12:11:47
-end = 2022-03-21 12:11:47.340848751+00:00
+begin = 2022-03-21 12:02:27.310578911+00:00
+start-sync_0 = 12:05:25
+start-zstd = 12:05:41
+start-sync_1 = 12:11:33
+end-sync_1 = 12:11:51
+end = 2022-03-21 12:11:51.582226351+00:00
 
 [server]
 repo = "cake233/go-arm64"
