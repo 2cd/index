@@ -77,7 +77,7 @@ localhost:5903
 ```toml
 [main]
 name = "arch"
-tag = ["cutefish", "2022-03-16"]
+tag = ["cutefish", "2022-03-23"]
 os = "arch"
 release = "latest"
 arch = "armhf"
@@ -85,12 +85,12 @@ platform = "linux/arm/v7"
 x11_or_wayland = true
 
 [file]
-name = "arch-cutefish_armhf_2022-03-16_00-56.tar.zst"
+name = "arch-cutefish_armhf_2022-03-23_00-53.tar.zst"
 
 version = "0.0.0-alpha.2"
 
 # This value can be used to verify the integrity of the file
-sha256 = "c9631e5619277c0a8b296927933671c6bb51c4cfe729d0881c6d828ae064720f"
+sha256 = "e149f5d2fdd549d690685906733db6951257b7210f32febff80ac876fd9f40d9"
 
 # zstd: [1-22]
 zstd-level = 15
@@ -99,48 +99,48 @@ zstd-level = 15
 # Installed size ≈ tar-size
 # Installed size is approximately equal to the size of the tar file
 tar = "3.3G"
-tar_bytes = 3456199680
+tar_bytes = 3456921600
 
 # Space occupied ≈ tar-size + zstd-size
 # You will need to prepare a large enough space before installation.
 zstd = "1.2G"
-zstd_bytes = 1186273897
+zstd_bytes = 1186723074
 
 [compatibility]
 compatible_mode = true
 
-previous_version = "latest02"
+previous_version = "latest01"
 
 # The value is &str, not int
-previous_date = "20220309"
-previous_tag = "2022-03-09"
-previous_file = "arch-cutefish_armhf_2022-03-09_01-02-rootfs.tar.zst"
-previous_sha256 = "627d55ca245a65dd2d6ce89297ccc9e56fc66524eb12a4c97d9411186aac6101"
+previous_date = "20220316"
+previous_tag = "2022-03-16"
+previous_file = "arch-cutefish_armhf_2022-03-16_00-56-rootfs.tar.zst"
+previous_sha256 = "c9631e5619277c0a8b296927933671c6bb51c4cfe729d0881c6d828ae064720f"
 
-current_version = "latest01"
-current_date = "20220316"
-old_file = "arch-cutefish_armhf_2022-03-03_19-26-rootfs.tar.zst"
-old_sha256 = "cbb7464442795f86b3bfd0d0484208e27a696de7bf0357204f3c235faac83894"
+current_version = "latest02"
+current_date = "20220323"
+old_file = "arch-cutefish_armhf_2022-03-09_01-02-rootfs.tar.zst"
+old_sha256 = "627d55ca245a65dd2d6ce89297ccc9e56fc66524eb12a4c97d9411186aac6101"
 # edition 2021
 # DISTRO_NAME=arch_armhf
-# ROOTFS_FILE=arch-cutefish_armhf_2022-03-16_00-56-rootfs.tar.zst
-# SHA256SUM=c9631e5619277c0a8b296927933671c6bb51c4cfe729d0881c6d828ae064720f
-# BUILD_DATE=20220316
-# BUILD_TAG=2022-03-16
+# ROOTFS_FILE=arch-cutefish_armhf_2022-03-23_00-53-rootfs.tar.zst
+# SHA256SUM=e149f5d2fdd549d690685906733db6951257b7210f32febff80ac876fd9f40d9
+# BUILD_DATE=20220323
+# BUILD_TAG=2022-03-23
 # STATUS=completed
-# VERSION=latest01
-# END_TIME=00:56
+# VERSION=latest02
+# END_TIME=00:53
 
 [time]
 format = "rfc-3339"
 zone = "UTC"
-date = 2022-03-16
-begin = 2022-03-16 00:29:35.134225558+00:00
-start-sync_0 = 00:45:13
-start-zstd = 00:49:16
-start-sync_1 = 00:54:37
-end-sync_1 = 00:56:01
-end = 2022-03-16 00:56:01.086998602+00:00
+date = 2022-03-23
+begin = 2022-03-23 00:33:25.545600099+00:00
+start-sync_0 = 00:45:43
+start-zstd = 00:48:47
+start-sync_1 = 00:52:42
+end-sync_1 = 00:53:55
+end = 2022-03-23 00:53:55.182699521+00:00
 
 [server]
 repo = "cake233/arch-cutefish-armv7"
