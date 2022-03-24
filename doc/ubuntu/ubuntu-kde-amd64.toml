@@ -1,6 +1,6 @@
 [main]
 name = "ubuntu"
-tag = ["kde", "2022-03-22", "devel"]
+tag = ["kde", "2022-03-24", "devel"]
 os = "ubuntu"
 release = "dev"
 arch = "amd64"
@@ -8,62 +8,62 @@ platform = "linux/amd64"
 x11_or_wayland = true
 
 [file]
-name = "ubuntu-kde_amd64_2022-03-22_00-47.tar.zst"
+name = "ubuntu-kde_amd64_2022-03-24_19-04.tar.zst"
 
 version = "0.0.0-alpha.2"
 
 # This value can be used to verify the integrity of the file
-sha256 = "bf3eabf723ae6ca6d25b26a6a6b8d2d1fbd2f4e4840c564f3efd49e071e6895c"
+sha256 = "dc6fc982ded4de38e461366786efd251350cf831e47a60ee41228fee1bdfc00d"
 
 # zstd: [1-22]
-zstd-level = 18
+zstd-level = 13
 
 [file.size]
 # Installed size ≈ tar-size
 # Installed size is approximately equal to the size of the tar file
-tar = "3.8G"
-tar_bytes = 4070959616
+tar = "4.1G"
+tar_bytes = 4396838400
 
 # Space occupied ≈ tar-size + zstd-size
 # You will need to prepare a large enough space before installation.
-zstd = "1.1G"
-zstd_bytes = 1101973263
+zstd = "1.3G"
+zstd_bytes = 1345394431
 
 [compatibility]
 compatible_mode = true
 
-previous_version = "latest02"
+previous_version = "latest01"
 
 # The value is &str, not int
-previous_date = "20220315"
-previous_tag = "2022-03-15"
-previous_file = "ubuntu-kde_amd64_2022-03-15_00-48-rootfs.tar.zst"
-previous_sha256 = "40e69ff98caa401fa131482986b11804369cb30c494b6d9945c9f2173b803b0d"
+previous_date = "20220322"
+previous_tag = "2022-03-22"
+previous_file = "ubuntu-kde_amd64_2022-03-22_00-47-rootfs.tar.zst"
+previous_sha256 = "bf3eabf723ae6ca6d25b26a6a6b8d2d1fbd2f4e4840c564f3efd49e071e6895c"
 
-current_version = "latest01"
-current_date = "20220322"
-old_file = "ubuntu-kde_amd64_2022-03-08_00-42-rootfs.tar.zst"
-old_sha256 = "c1147215f5b445bbf1869ebf80d35976de1ce95ac655c879c4e4c49ea3ad58b8"
+current_version = "latest02"
+current_date = "20220324"
+old_file = "ubuntu-kde_amd64_2022-03-15_00-48-rootfs.tar.zst"
+old_sha256 = "40e69ff98caa401fa131482986b11804369cb30c494b6d9945c9f2173b803b0d"
 # edition 2021
 # DISTRO_NAME=ubuntu-dev_amd64
-# ROOTFS_FILE=ubuntu-kde_amd64_2022-03-22_00-47-rootfs.tar.zst
-# SHA256SUM=bf3eabf723ae6ca6d25b26a6a6b8d2d1fbd2f4e4840c564f3efd49e071e6895c
-# BUILD_DATE=20220322
-# BUILD_TAG=2022-03-22
+# ROOTFS_FILE=ubuntu-kde_amd64_2022-03-24_19-04-rootfs.tar.zst
+# SHA256SUM=dc6fc982ded4de38e461366786efd251350cf831e47a60ee41228fee1bdfc00d
+# BUILD_DATE=20220324
+# BUILD_TAG=2022-03-24
 # STATUS=completed
-# VERSION=latest01
-# END_TIME=00:47
+# VERSION=latest02
+# END_TIME=19:04
 
 [time]
 format = "rfc-3339"
 zone = "UTC"
-date = 2022-03-22
-begin = 2022-03-22 00:21:17.903325547+00:00
-start-sync_0 = 00:28:43
-start-zstd = 00:33:00
-start-sync_1 = 00:45:50
-end-sync_1 = 00:47:05
-end = 2022-03-22 00:47:05.474425310+00:00
+date = 2022-03-24
+begin = 2022-03-24 18:49:42.738427909+00:00
+start-sync_0 = 18:55:07
+start-zstd = 18:58:58
+start-sync_1 = 19:02:49
+end-sync_1 = 19:04:11
+end = 2022-03-24 19:04:11.095672103+00:00
 
 [server]
 repo = "cake233/ubuntu-kde-amd64"
@@ -77,18 +77,16 @@ split = false
 
 [server.node2]
 name = "tmoe"
-current = true
-previous = false
+current = false
+previous = true
 in_sync = false
 split = false
 
 [server.node3]
 name = "azure"
-current = true
+current = false
 previous = true
 in_sync = false
-start_sync = 2022-03-22 06:35:48.458872655+00:00
-end_sync = 2022-03-22 06:39:47.262868977+00:00
 split = false
 
 [server.node4]
