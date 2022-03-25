@@ -69,7 +69,7 @@ ldd "$FILE"
 ```toml
 [main]
 name = "rust"
-tag = ["latest", "2022-03-21", "nightly", "unstable", "default", "gnu-libc"]
+tag = ["latest", "2022-03-25", "nightly", "unstable", "default", "gnu-libc"]
 os = "debian"
 release = "sid"
 arch = "amd64"
@@ -77,12 +77,12 @@ platform = "linux/amd64"
 x11_or_wayland = false
 
 [file]
-name = "rust_amd64_2022-03-21_03-00.tar.zst"
+name = "rust_amd64_2022-03-25_03-00.tar.zst"
 
 version = "0.0.0-alpha.2"
 
 # This value can be used to verify the integrity of the file
-sha256 = "a37f349701f5de656249d9c82f0de402c17b464a0f647368e9c264f6e38552aa"
+sha256 = "95e92bb7be04bafce98fe0c11f01eb7410bc2ca282e3bd165599916ab6e4baf1"
 
 # zstd: [1-22]
 zstd-level = 20
@@ -91,48 +91,48 @@ zstd-level = 20
 # Installed size ≈ tar-size
 # Installed size is approximately equal to the size of the tar file
 tar = "1.5G"
-tar_bytes = 1570572800
+tar_bytes = 1571565568
 
 # Space occupied ≈ tar-size + zstd-size
 # You will need to prepare a large enough space before installation.
 zstd = "233M"
-zstd_bytes = 243826108
+zstd_bytes = 243941721
 
 [compatibility]
 compatible_mode = true
 
-previous_version = "latest02"
+previous_version = "latest01"
 
 # The value is &str, not int
-previous_date = "20220318"
-previous_tag = "2022-03-18"
-previous_file = "rust_amd64_2022-03-18_03-00-rootfs.tar.zst"
-previous_sha256 = "2ed256d49e318f06f2c82f5b483f768322fa36ea1ba493c1a9edcf0fc8a2105d"
+previous_date = "20220321"
+previous_tag = "2022-03-21"
+previous_file = "rust_amd64_2022-03-21_03-00-rootfs.tar.zst"
+previous_sha256 = "a37f349701f5de656249d9c82f0de402c17b464a0f647368e9c264f6e38552aa"
 
-current_version = "latest01"
-current_date = "20220321"
-old_file = "rust_amd64_2022-03-14_03-01-rootfs.tar.zst"
-old_sha256 = "45e907d83aa96362fad9faa1933faff27cbf96f36c0f6d088e4307d91abc4706"
+current_version = "latest02"
+current_date = "20220325"
+old_file = "rust_amd64_2022-03-18_03-00-rootfs.tar.zst"
+old_sha256 = "2ed256d49e318f06f2c82f5b483f768322fa36ea1ba493c1a9edcf0fc8a2105d"
 # edition 2021
 # DISTRO_NAME=rust_amd64
-# ROOTFS_FILE=rust_amd64_2022-03-21_03-00-rootfs.tar.zst
-# SHA256SUM=a37f349701f5de656249d9c82f0de402c17b464a0f647368e9c264f6e38552aa
-# BUILD_DATE=20220321
-# BUILD_TAG=2022-03-21
+# ROOTFS_FILE=rust_amd64_2022-03-25_03-00-rootfs.tar.zst
+# SHA256SUM=95e92bb7be04bafce98fe0c11f01eb7410bc2ca282e3bd165599916ab6e4baf1
+# BUILD_DATE=20220325
+# BUILD_TAG=2022-03-25
 # STATUS=completed
-# VERSION=latest01
+# VERSION=latest02
 # END_TIME=03:00
 
 [time]
 format = "rfc-3339"
 zone = "UTC"
-date = 2022-03-21
-begin = 2022-03-21 02:52:23.809949445+00:00
-start-sync_0 = 02:53:52
-start-zstd = 02:54:52
-start-sync_1 = 03:00:33
-end-sync_1 = 03:00:54
-end = 2022-03-21 03:00:54.282051637+00:00
+date = 2022-03-25
+begin = 2022-03-25 02:52:27.511724265+00:00
+start-sync_0 = 02:54:10
+start-zstd = 02:55:07
+start-sync_1 = 03:00:16
+end-sync_1 = 03:00:36
+end = 2022-03-25 03:00:36.111594811+00:00
 
 [server]
 repo = "cake233/rust-amd64"
@@ -173,7 +173,7 @@ CARGO_HOME = "/usr/local/cargo"
 ldd = 'ldd (Debian GLIBC 2.33-7) 2.33'
 rustup = 'rustup 1.24.3 (ce5817a94 2021-05-31)'
 cargo = 'cargo 1.61.0-nightly (109bfbd 2022-03-17)'
-rustc = 'rustc 1.61.0-nightly (c84f39e6c 2022-03-20)'
+rustc = 'rustc 1.61.0-nightly (63b8f01bb 2022-03-24)'
 cc = 'cc (Debian 11.2.0-18) 11.2.0'
 cargo_verbose = '''
 cargo 1.61.0-nightly (109bfbd 2022-03-17)
@@ -186,10 +186,10 @@ libcurl: 7.80.0-DEV (sys:0.4.51+curl-7.80.0 vendored ssl:OpenSSL/1.1.1m)
 os: OracleLinux [64-bit]
 '''
 rustc_verbose = '''
-rustc 1.61.0-nightly (c84f39e6c 2022-03-20)
+rustc 1.61.0-nightly (63b8f01bb 2022-03-24)
 binary: rustc
-commit-hash: c84f39e6c08397d4ab9b51b472002a8bfc3b5b59
-commit-date: 2022-03-20
+commit-hash: 63b8f01bb5ca277e7df8d7efe094ed4244c1790c
+commit-date: 2022-03-24
 host: x86_64-unknown-linux-gnu
 release: 1.61.0-nightly
 LLVM version: 14.0.0
