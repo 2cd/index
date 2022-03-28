@@ -44,7 +44,7 @@ docker exec -it dotnet-arm64 /usr/local/powershell/pwsh
 ```toml
 [main]
 name = "dotnet"
-tag = ["latest", "2022-03-24", ".NET", "dotnet-sdk"]
+tag = ["latest", "2022-03-28", ".NET", "dotnet-sdk"]
 os = "arch"
 release = "latest"
 arch = "arm64"
@@ -52,12 +52,12 @@ platform = "linux/arm64"
 x11_or_wayland = false
 
 [file]
-name = "dotnet_arm64_2022-03-24_12-51.tar.zst"
+name = "dotnet_arm64_2022-03-28_11-26.tar.zst"
 
 version = "0.0.0-alpha.2"
 
 # This value can be used to verify the integrity of the file
-sha256 = "48ca053c00d98ddf7f5e2853c5448df59ffa30114622158103c9443d7efca9ab"
+sha256 = "1d558e6dc57c28219bfebd259f3d9a4c5b985a01a464751ac025fa65bd2588ab"
 
 # zstd: [1-22]
 zstd-level = 22
@@ -66,48 +66,48 @@ zstd-level = 22
 # Installed size ≈ tar-size
 # Installed size is approximately equal to the size of the tar file
 tar = "1.6G"
-tar_bytes = 1692005888
+tar_bytes = 1698758656
 
 # Space occupied ≈ tar-size + zstd-size
 # You will need to prepare a large enough space before installation.
-zstd = "380M"
-zstd_bytes = 398454956
+zstd = "383M"
+zstd_bytes = 400769171
 
 [compatibility]
 compatible_mode = true
 
-previous_version = "latest01"
+previous_version = "latest02"
 
 # The value is &str, not int
-previous_date = "20220315"
-previous_tag = "2022-03-15"
-previous_file = "dotnet_arm64_2022-03-15_07-35-rootfs.tar.zst"
-previous_sha256 = "69cc9e8e9a64a2003706bea66a19ae691cb14e1fc98ef0607a69494700bfe68c"
+previous_date = "20220324"
+previous_tag = "2022-03-24"
+previous_file = "dotnet_arm64_2022-03-24_12-51-rootfs.tar.zst"
+previous_sha256 = "48ca053c00d98ddf7f5e2853c5448df59ffa30114622158103c9443d7efca9ab"
 
-current_version = "latest02"
-current_date = "20220324"
-old_file = ""
-old_sha256 = ""
+current_version = "latest01"
+current_date = "20220328"
+old_file = "dotnet_arm64_2022-03-15_07-35-rootfs.tar.zst"
+old_sha256 = "69cc9e8e9a64a2003706bea66a19ae691cb14e1fc98ef0607a69494700bfe68c"
 # edition 2021
 # DISTRO_NAME=dotnet_arm64
-# ROOTFS_FILE=dotnet_arm64_2022-03-24_12-51-rootfs.tar.zst
-# SHA256SUM=48ca053c00d98ddf7f5e2853c5448df59ffa30114622158103c9443d7efca9ab
-# BUILD_DATE=20220324
-# BUILD_TAG=2022-03-24
+# ROOTFS_FILE=dotnet_arm64_2022-03-28_11-26-rootfs.tar.zst
+# SHA256SUM=1d558e6dc57c28219bfebd259f3d9a4c5b985a01a464751ac025fa65bd2588ab
+# BUILD_DATE=20220328
+# BUILD_TAG=2022-03-28
 # STATUS=completed
-# VERSION=latest02
-# END_TIME=12:51
+# VERSION=latest01
+# END_TIME=11:26
 
 [time]
 format = "rfc-3339"
 zone = "UTC"
-date = 2022-03-24
-begin = 2022-03-24 12:27:07.397286473+00:00
-start-sync_0 = 12:41:22
-start-zstd = 12:42:04
-start-sync_1 = 12:50:40
-end-sync_1 = 12:51:09
-end = 2022-03-24 12:51:09.157844108+00:00
+date = 2022-03-28
+begin = 2022-03-28 11:02:26.961851292+00:00
+start-sync_0 = 11:16:19
+start-zstd = 11:17:00
+start-sync_1 = 11:25:43
+end-sync_1 = 11:26:11
+end = 2022-03-28 11:26:11.995782618+00:00
 
 [server]
 repo = "cake233/dotnet-arm64"
