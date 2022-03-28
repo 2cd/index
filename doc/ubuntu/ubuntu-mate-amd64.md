@@ -77,7 +77,7 @@ localhost:5903
 ```toml
 [main]
 name = "ubuntu"
-tag = ["mate", "2022-03-24", "devel"]
+tag = ["mate", "2022-03-28", "devel"]
 os = "ubuntu"
 release = "dev"
 arch = "amd64"
@@ -85,62 +85,62 @@ platform = "linux/amd64"
 x11_or_wayland = true
 
 [file]
-name = "ubuntu-mate_amd64_2022-03-24_19-03.tar.zst"
+name = "ubuntu-mate_amd64_2022-03-28_23-46.tar.zst"
 
 version = "0.0.0-alpha.2"
 
 # This value can be used to verify the integrity of the file
-sha256 = "fa171d1068ffca8bfd0402aefe4a82a785b6ed68c31f52c6c0488740eb359393"
+sha256 = "a3f2b6c658c17c9e5352c01b4e246250e4cd938c04edaa5ab53e0cd85c53b472"
 
 # zstd: [1-22]
-zstd-level = 13
+zstd-level = 19
 
 [file.size]
 # Installed size ≈ tar-size
 # Installed size is approximately equal to the size of the tar file
 tar = "3.9G"
-tar_bytes = 4127340544
+tar_bytes = 4143325184
 
 # Space occupied ≈ tar-size + zstd-size
 # You will need to prepare a large enough space before installation.
-zstd = "1.2G"
-zstd_bytes = 1218901527
+zstd = "1.1G"
+zstd_bytes = 1097184286
 
 [compatibility]
 compatible_mode = true
 
-previous_version = "latest01"
+previous_version = "latest02"
 
 # The value is &str, not int
-previous_date = "20220322"
-previous_tag = "2022-03-22"
-previous_file = "ubuntu-mate_amd64_2022-03-22_00-40-rootfs.tar.zst"
-previous_sha256 = "e51531938bb09f3af38001531a72630605ecefcb27a759d36fe642e586ba1e19"
+previous_date = "20220324"
+previous_tag = "2022-03-24"
+previous_file = "ubuntu-mate_amd64_2022-03-24_19-03-rootfs.tar.zst"
+previous_sha256 = "fa171d1068ffca8bfd0402aefe4a82a785b6ed68c31f52c6c0488740eb359393"
 
-current_version = "latest02"
-current_date = "20220324"
-old_file = "ubuntu-mate_amd64_2022-03-15_00-43-rootfs.tar.zst"
-old_sha256 = "be2fa9ee3a5857d95b3c763a8bb1a4213a897398ed3f88a0c3faef9f728f03d2"
+current_version = "latest01"
+current_date = "20220328"
+old_file = "ubuntu-mate_amd64_2022-03-22_00-40-rootfs.tar.zst"
+old_sha256 = "e51531938bb09f3af38001531a72630605ecefcb27a759d36fe642e586ba1e19"
 # edition 2021
 # DISTRO_NAME=ubuntu-dev_amd64
-# ROOTFS_FILE=ubuntu-mate_amd64_2022-03-24_19-03-rootfs.tar.zst
-# SHA256SUM=fa171d1068ffca8bfd0402aefe4a82a785b6ed68c31f52c6c0488740eb359393
-# BUILD_DATE=20220324
-# BUILD_TAG=2022-03-24
+# ROOTFS_FILE=ubuntu-mate_amd64_2022-03-28_23-46-rootfs.tar.zst
+# SHA256SUM=a3f2b6c658c17c9e5352c01b4e246250e4cd938c04edaa5ab53e0cd85c53b472
+# BUILD_DATE=20220328
+# BUILD_TAG=2022-03-28
 # STATUS=completed
-# VERSION=latest02
-# END_TIME=19:03
+# VERSION=latest01
+# END_TIME=23:46
 
 [time]
 format = "rfc-3339"
 zone = "UTC"
-date = 2022-03-24
-begin = 2022-03-24 18:49:43.213729372+00:00
-start-sync_0 = 18:55:19
-start-zstd = 18:59:05
-start-sync_1 = 19:02:21
-end-sync_1 = 19:03:34
-end = 2022-03-24 19:03:34.861193993+00:00
+date = 2022-03-28
+begin = 2022-03-28 23:19:08.564038902+00:00
+start-sync_0 = 23:25:31
+start-zstd = 23:29:53
+start-sync_1 = 23:45:17
+end-sync_1 = 23:46:34
+end = 2022-03-28 23:46:34.173547727+00:00
 
 [server]
 repo = "cake233/ubuntu-mate-amd64"
