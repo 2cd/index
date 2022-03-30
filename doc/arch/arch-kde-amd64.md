@@ -77,7 +77,7 @@ localhost:5903
 ```toml
 [main]
 name = "arch"
-tag = ["kde", "2022-03-23"]
+tag = ["kde", "2022-03-29"]
 os = "arch"
 release = "latest"
 arch = "amd64"
@@ -85,62 +85,62 @@ platform = "linux/amd64"
 x11_or_wayland = true
 
 [file]
-name = "arch-kde_amd64_2022-03-23_00-52.tar.zst"
+name = "arch-kde_amd64_2022-03-30_00-00.tar.zst"
 
 version = "0.0.0-alpha.2"
 
 # This value can be used to verify the integrity of the file
-sha256 = "a10daaa5496451f808af4a82bf5fd9d8001b8f4f987a45ad2c6adeb05bc90b06"
+sha256 = "e39d8e7b7e77c1eeb9a5087a57f758d35c686247c69715af3099436a747d1bec"
 
 # zstd: [1-22]
-zstd-level = 15
+zstd-level = 19
 
 [file.size]
 # Installed size ≈ tar-size
 # Installed size is approximately equal to the size of the tar file
-tar = "4.3G"
-tar_bytes = 4523297792
+tar = "4.2G"
+tar_bytes = 4501234688
 
 # Space occupied ≈ tar-size + zstd-size
 # You will need to prepare a large enough space before installation.
-zstd = "1.4G"
-zstd_bytes = 1445831690
+zstd = "1.3G"
+zstd_bytes = 1308078312
 
 [compatibility]
 compatible_mode = true
 
-previous_version = "latest02"
+previous_version = "latest01"
 
 # The value is &str, not int
-previous_date = "20220316"
-previous_tag = "2022-03-16"
-previous_file = "arch-kde_amd64_2022-03-16_00-48-rootfs.tar.zst"
-previous_sha256 = "aa0be8394b17369fce9a366c3648bffbab5ddc253b0fe1ac5541b216ce9d08fa"
+previous_date = "20220323"
+previous_tag = "2022-03-23"
+previous_file = "arch-kde_amd64_2022-03-23_00-52-rootfs.tar.zst"
+previous_sha256 = "a10daaa5496451f808af4a82bf5fd9d8001b8f4f987a45ad2c6adeb05bc90b06"
 
-current_version = "latest01"
-current_date = "20220323"
-old_file = "arch-kde_amd64_2022-03-09_00-52-rootfs.tar.zst"
-old_sha256 = "ca205f0047544595c2938f0502da99fde10b5a3876e060f78e50e1e8949e10f9"
+current_version = "latest02"
+current_date = "20220330"
+old_file = "arch-kde_amd64_2022-03-16_00-48-rootfs.tar.zst"
+old_sha256 = "aa0be8394b17369fce9a366c3648bffbab5ddc253b0fe1ac5541b216ce9d08fa"
 # edition 2021
 # DISTRO_NAME=arch_amd64
-# ROOTFS_FILE=arch-kde_amd64_2022-03-23_00-52-rootfs.tar.zst
-# SHA256SUM=a10daaa5496451f808af4a82bf5fd9d8001b8f4f987a45ad2c6adeb05bc90b06
-# BUILD_DATE=20220323
-# BUILD_TAG=2022-03-23
+# ROOTFS_FILE=arch-kde_amd64_2022-03-30_00-00-rootfs.tar.zst
+# SHA256SUM=e39d8e7b7e77c1eeb9a5087a57f758d35c686247c69715af3099436a747d1bec
+# BUILD_DATE=20220330
+# BUILD_TAG=2022-03-29
 # STATUS=completed
-# VERSION=latest01
-# END_TIME=00:52
+# VERSION=latest02
+# END_TIME=00:00
 
 [time]
 format = "rfc-3339"
 zone = "UTC"
-date = 2022-03-23
-begin = 2022-03-23 00:33:30.238900697+00:00
-start-sync_0 = 00:38:44
-start-zstd = 00:44:03
-start-sync_1 = 00:50:49
-end-sync_1 = 00:52:27
-end = 2022-03-23 00:52:27.191126984+00:00
+date = 2022-03-29
+begin = 2022-03-29 23:32:48.444407585+00:00
+start-sync_0 = 23:37:50
+start-zstd = 23:42:25
+start-sync_1 = 23:59:32
+end-sync_1 = 00:00:54
+end = 2022-03-30 00:00:54.571616672+00:00
 
 [server]
 repo = "cake233/arch-kde-amd64"
