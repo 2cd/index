@@ -1,6 +1,6 @@
 [main]
 name = "nginx"
-tag = ["latest", "2022-03-21"]
+tag = ["latest", "2022-04-04"]
 os = "debian"
 release = "stable"
 arch = "amd64"
@@ -8,12 +8,12 @@ platform = "linux/amd64"
 x11_or_wayland = false
 
 [file]
-name = "nginx_amd64_2022-03-21_12-05.tar.zst"
+name = "nginx_amd64_2022-04-04_11-06.tar.zst"
 
 version = "0.0.0-alpha.2"
 
 # This value can be used to verify the integrity of the file
-sha256 = "4ff4ad4bcda616cc26564becffa0fb0ed9c0b86830f4c649b5165b58f293ee0f"
+sha256 = "17ea40f3cfaec6e65774df60df6f3f910a062c2a85a4fe7f8d44a994468288e4"
 
 # zstd: [1-22]
 zstd-level = 22
@@ -22,48 +22,48 @@ zstd-level = 22
 # Installed size ≈ tar-size
 # Installed size is approximately equal to the size of the tar file
 tar = "163M"
-tar_bytes = 170030592
+tar_bytes = 170032128
 
 # Space occupied ≈ tar-size + zstd-size
 # You will need to prepare a large enough space before installation.
 zstd = "40M"
-zstd_bytes = 41564673
+zstd_bytes = 41553261
 
 [compatibility]
 compatible_mode = true
 
-previous_version = "latest02"
+previous_version = "latest01"
 
 # The value is &str, not int
-previous_date = "20220307"
-previous_tag = "2022-03-07"
-previous_file = "nginx_amd64_2022-03-07_12-05-rootfs.tar.zst"
-previous_sha256 = "add0c7403c6dc1360c964e658ba0b6e99e83deee55bb6ec945e91ebcfc136455"
+previous_date = "20220321"
+previous_tag = "2022-03-21"
+previous_file = "nginx_amd64_2022-03-21_12-05-rootfs.tar.zst"
+previous_sha256 = "4ff4ad4bcda616cc26564becffa0fb0ed9c0b86830f4c649b5165b58f293ee0f"
 
-current_version = "latest01"
-current_date = "20220321"
-old_file = "nginx_amd64_2022-03-01_18-58-rootfs.tar.zst"
-old_sha256 = "a42e29486e52a066431a1b699fe54b7500972a50960e056e168e6c73e6b99d70"
+current_version = "latest02"
+current_date = "20220404"
+old_file = "nginx_amd64_2022-03-07_12-05-rootfs.tar.zst"
+old_sha256 = "add0c7403c6dc1360c964e658ba0b6e99e83deee55bb6ec945e91ebcfc136455"
 # edition 2021
 # DISTRO_NAME=nginx_amd64
-# ROOTFS_FILE=nginx_amd64_2022-03-21_12-05-rootfs.tar.zst
-# SHA256SUM=4ff4ad4bcda616cc26564becffa0fb0ed9c0b86830f4c649b5165b58f293ee0f
-# BUILD_DATE=20220321
-# BUILD_TAG=2022-03-21
+# ROOTFS_FILE=nginx_amd64_2022-04-04_11-06-rootfs.tar.zst
+# SHA256SUM=17ea40f3cfaec6e65774df60df6f3f910a062c2a85a4fe7f8d44a994468288e4
+# BUILD_DATE=20220404
+# BUILD_TAG=2022-04-04
 # STATUS=completed
-# VERSION=latest01
-# END_TIME=12:05
+# VERSION=latest02
+# END_TIME=11:06
 
 [time]
 format = "rfc-3339"
 zone = "UTC"
-date = 2022-03-21
-begin = 2022-03-21 12:02:30.983616414+00:00
-start-sync_0 = 12:03:34
-start-zstd = 12:03:46
-start-sync_1 = 12:05:20
-end-sync_1 = 12:05:30
-end = 2022-03-21 12:05:30.148810048+00:00
+date = 2022-04-04
+begin = 2022-04-04 11:03:57.747111696+00:00
+start-sync_0 = 11:04:23
+start-zstd = 11:04:39
+start-sync_1 = 11:06:18
+end-sync_1 = 11:06:29
+end = 2022-04-04 11:06:29.779506775+00:00
 
 [server]
 repo = "cake233/nginx-amd64"
@@ -77,18 +77,16 @@ split = false
 
 [server.node2]
 name = "tmoe"
-current = true
-previous = false
+current = false
+previous = true
 in_sync = false
 split = false
 
 [server.node3]
 name = "azure"
-current = true
+current = false
 previous = true
 in_sync = false
-start_sync = 2022-03-21 18:03:59.338630314+00:00
-end_sync = 2022-03-21 18:04:13.652215697+00:00
 split = false
 
 [server.node4]
@@ -100,7 +98,7 @@ current = true
 LANG = "en_US.UTF-8"
 
 [version]
-ldd = 'ldd (Debian GLIBC 2.31-13+deb11u2) 2.31'
+ldd = 'ldd (Debian GLIBC 2.31-13+deb11u3) 2.31'
 nginx = '1.21.6'
 njs = '0.7.2'
 pkg_release = '1~bullseye'
