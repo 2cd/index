@@ -64,12 +64,12 @@ platform = "linux/amd64"
 x11_or_wayland = false
 
 [file]
-name = "go_amd64_2022-04-04_11-09.tar.zst"
+name = "go_amd64_2022-04-04_11-10.tar.zst"
 
 version = "0.0.0-alpha.2"
 
 # This value can be used to verify the integrity of the file
-sha256 = "aa669eb3263d5ba12f94158ba5879d8e6781b0a37b6b2e4ea3edac29019380c9"
+sha256 = "08b8edc5b2ab81bf9fb9f9a1722642c81d172fba82fb35e8c23e64a2f5851fec"
 
 # zstd: [1-22]
 zstd-level = 22
@@ -83,7 +83,7 @@ tar_bytes = 1013648896
 # Space occupied ≈ tar-size + zstd-size
 # You will need to prepare a large enough space before installation.
 zstd = "206M"
-zstd_bytes = 215651044
+zstd_bytes = 215650064
 
 [compatibility]
 compatible_mode = true
@@ -102,24 +102,24 @@ old_file = "go_amd64_2022-03-16_07-55-rootfs.tar.zst"
 old_sha256 = "a7c9632717e514a4c1b0ae6340b9834fa89c988f06399bd90bf2b81dc729e702"
 # edition 2021
 # DISTRO_NAME=go_amd64
-# ROOTFS_FILE=go_amd64_2022-04-04_11-09-rootfs.tar.zst
-# SHA256SUM=aa669eb3263d5ba12f94158ba5879d8e6781b0a37b6b2e4ea3edac29019380c9
+# ROOTFS_FILE=go_amd64_2022-04-04_11-10-rootfs.tar.zst
+# SHA256SUM=08b8edc5b2ab81bf9fb9f9a1722642c81d172fba82fb35e8c23e64a2f5851fec
 # BUILD_DATE=20220404
 # BUILD_TAG=2022-04-04
 # STATUS=completed
 # VERSION=latest01
-# END_TIME=11:09
+# END_TIME=11:10
 
 [time]
 format = "rfc-3339"
 zone = "UTC"
 date = 2022-04-04
-begin = 2022-04-04 11:02:29.810768860+00:00
-start-sync_0 = 11:03:16
-start-zstd = 11:03:59
-start-sync_1 = 11:08:48
-end-sync_1 = 11:09:05
-end = 2022-04-04 11:09:05.553857216+00:00
+begin = 2022-04-04 11:02:35.116123840+00:00
+start-sync_0 = 11:03:51
+start-zstd = 11:04:52
+start-sync_1 = 11:10:30
+end-sync_1 = 11:10:54
+end = 2022-04-04 11:10:54.764379923+00:00
 
 [server]
 repo = "cake233/go-amd64"
