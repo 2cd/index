@@ -64,12 +64,12 @@ platform = "linux/arm64"
 x11_or_wayland = false
 
 [file]
-name = "go_arm64_2022-04-04_11-10.tar.zst"
+name = "go_arm64_2022-04-04_11-11.tar.zst"
 
 version = "0.0.0-alpha.2"
 
 # This value can be used to verify the integrity of the file
-sha256 = "b495b031135d74686e48e129f2c815b1588e39ee1260dc3caf551da51b8dc504"
+sha256 = "39fc977216a9581b4ba754dcc114df0c5da9c0fae273729396a3c462efdd63aa"
 
 # zstd: [1-22]
 zstd-level = 22
@@ -83,7 +83,7 @@ tar_bytes = 869830144
 # Space occupied ≈ tar-size + zstd-size
 # You will need to prepare a large enough space before installation.
 zstd = "190M"
-zstd_bytes = 198531742
+zstd_bytes = 198531216
 
 [compatibility]
 compatible_mode = true
@@ -102,24 +102,24 @@ old_file = "go_arm64_2022-03-16_07-56-rootfs.tar.zst"
 old_sha256 = "0c5d2f557764ee204efbd145d5e959f10cc691397291d5d209925c372064d59d"
 # edition 2021
 # DISTRO_NAME=go_arm64
-# ROOTFS_FILE=go_arm64_2022-04-04_11-10-rootfs.tar.zst
-# SHA256SUM=b495b031135d74686e48e129f2c815b1588e39ee1260dc3caf551da51b8dc504
+# ROOTFS_FILE=go_arm64_2022-04-04_11-11-rootfs.tar.zst
+# SHA256SUM=39fc977216a9581b4ba754dcc114df0c5da9c0fae273729396a3c462efdd63aa
 # BUILD_DATE=20220404
 # BUILD_TAG=2022-04-04
 # STATUS=completed
 # VERSION=latest01
-# END_TIME=11:10
+# END_TIME=11:11
 
 [time]
 format = "rfc-3339"
 zone = "UTC"
 date = 2022-04-04
-begin = 2022-04-04 11:02:30.613233706+00:00
-start-sync_0 = 11:04:51
-start-zstd = 11:05:06
-start-sync_1 = 11:10:08
-end-sync_1 = 11:10:24
-end = 2022-04-04 11:10:24.325895386+00:00
+begin = 2022-04-04 11:02:31.162592506+00:00
+start-sync_0 = 11:05:23
+start-zstd = 11:05:38
+start-sync_1 = 11:11:13
+end-sync_1 = 11:11:32
+end = 2022-04-04 11:11:32.724704637+00:00
 
 [server]
 repo = "cake233/go-arm64"
