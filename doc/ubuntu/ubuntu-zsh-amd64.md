@@ -20,7 +20,7 @@ docker exec -it ubuntu-zsh-amd64 zsh
 ```toml
 [main]
 name = "ubuntu"
-tag = ["zsh", "2022-03-28", "devel"]
+tag = ["zsh", "2022-04-04", "devel"]
 os = "ubuntu"
 release = "dev"
 arch = "amd64"
@@ -28,12 +28,12 @@ platform = "linux/amd64"
 x11_or_wayland = false
 
 [file]
-name = "ubuntu-zsh_amd64_2022-03-28_23-08.tar.zst"
+name = "ubuntu-zsh_amd64_2022-04-04_23-09.tar.zst"
 
 version = "0.0.0-alpha.2"
 
 # This value can be used to verify the integrity of the file
-sha256 = "a45bc7ef4fa614509bb5e74a1a68e626771c319583eaa7057c5538e8b630ab80"
+sha256 = "57e4c7cb3b23bdcc4209b47cff9d9b29c29735090543d8d0d6c2f1e081f79c7b"
 
 # zstd: [1-22]
 zstd-level = 20
@@ -42,48 +42,48 @@ zstd-level = 20
 # Installed size ≈ tar-size
 # Installed size is approximately equal to the size of the tar file
 tar = "634M"
-tar_bytes = 664019456
+tar_bytes = 664422400
 
 # Space occupied ≈ tar-size + zstd-size
 # You will need to prepare a large enough space before installation.
 zstd = "114M"
-zstd_bytes = 118498933
+zstd_bytes = 118616226
 
 [compatibility]
 compatible_mode = true
 
-previous_version = "latest01"
+previous_version = "latest02"
 
 # The value is &str, not int
-previous_date = "20220322"
-previous_tag = "2022-03-22"
-previous_file = "ubuntu-zsh_amd64_2022-03-22_00-09-rootfs.tar.zst"
-previous_sha256 = "f30c9e27efaeec69bd31afc824763caa00c8a6443409eb8a129b22d1b830760c"
+previous_date = "20220328"
+previous_tag = "2022-03-28"
+previous_file = "ubuntu-zsh_amd64_2022-03-28_23-08-rootfs.tar.zst"
+previous_sha256 = "a45bc7ef4fa614509bb5e74a1a68e626771c319583eaa7057c5538e8b630ab80"
 
-current_version = "latest02"
-current_date = "20220328"
-old_file = "ubuntu-zsh_amd64_2022-03-15_00-08-rootfs.tar.zst"
-old_sha256 = "d0af56210b45f2db03e4a101a2e83de24378fa13da8ed2cfe20cda581e9b4b1a"
+current_version = "latest01"
+current_date = "20220404"
+old_file = "ubuntu-zsh_amd64_2022-03-22_00-09-rootfs.tar.zst"
+old_sha256 = "f30c9e27efaeec69bd31afc824763caa00c8a6443409eb8a129b22d1b830760c"
 # edition 2021
 # DISTRO_NAME=ubuntu-dev_amd64
-# ROOTFS_FILE=ubuntu-zsh_amd64_2022-03-28_23-08-rootfs.tar.zst
-# SHA256SUM=a45bc7ef4fa614509bb5e74a1a68e626771c319583eaa7057c5538e8b630ab80
-# BUILD_DATE=20220328
-# BUILD_TAG=2022-03-28
+# ROOTFS_FILE=ubuntu-zsh_amd64_2022-04-04_23-09-rootfs.tar.zst
+# SHA256SUM=57e4c7cb3b23bdcc4209b47cff9d9b29c29735090543d8d0d6c2f1e081f79c7b
+# BUILD_DATE=20220404
+# BUILD_TAG=2022-04-04
 # STATUS=completed
-# VERSION=latest02
-# END_TIME=23:08
+# VERSION=latest01
+# END_TIME=23:09
 
 [time]
 format = "rfc-3339"
 zone = "UTC"
-date = 2022-03-28
-begin = 2022-03-28 23:02:29.023164421+00:00
-start-sync_0 = 23:04:20
-start-zstd = 23:06:08
-start-sync_1 = 23:08:24
-end-sync_1 = 23:08:39
-end = 2022-03-28 23:08:39.673637024+00:00
+date = 2022-04-04
+begin = 2022-04-04 23:02:30.466268236+00:00
+start-sync_0 = 23:04:38
+start-zstd = 23:06:32
+start-sync_1 = 23:09:02
+end-sync_1 = 23:09:18
+end = 2022-04-04 23:09:18.980696216+00:00
 
 [server]
 repo = "cake233/ubuntu-zsh-amd64"
