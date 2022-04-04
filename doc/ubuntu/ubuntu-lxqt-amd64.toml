@@ -1,6 +1,6 @@
 [main]
 name = "ubuntu"
-tag = ["lxqt", "2022-03-28", "devel"]
+tag = ["lxqt", "2022-04-04", "devel"]
 os = "ubuntu"
 release = "dev"
 arch = "amd64"
@@ -8,12 +8,12 @@ platform = "linux/amd64"
 x11_or_wayland = true
 
 [file]
-name = "ubuntu-lxqt_amd64_2022-03-28_23-45.tar.zst"
+name = "ubuntu-lxqt_amd64_2022-04-04_23-49.tar.zst"
 
 version = "0.0.0-alpha.2"
 
 # This value can be used to verify the integrity of the file
-sha256 = "2b04a86f6a6924213bb490cbdbefe1d7d09a3b1ab25cf7e7ca4218ab2efaf776"
+sha256 = "690d801707dc90586c09327feaebc255d87597c2642e9842d73f476be4d179cf"
 
 # zstd: [1-22]
 zstd-level = 19
@@ -21,49 +21,49 @@ zstd-level = 19
 [file.size]
 # Installed size ≈ tar-size
 # Installed size is approximately equal to the size of the tar file
-tar = "3.7G"
-tar_bytes = 3930905600
+tar = "3.8G"
+tar_bytes = 3976694784
 
 # Space occupied ≈ tar-size + zstd-size
 # You will need to prepare a large enough space before installation.
-zstd = "1001M"
-zstd_bytes = 1049218378
+zstd = "1009M"
+zstd_bytes = 1057948892
 
 [compatibility]
 compatible_mode = true
 
-previous_version = "latest02"
+previous_version = "latest01"
 
 # The value is &str, not int
-previous_date = "20220324"
-previous_tag = "2022-03-24"
-previous_file = "ubuntu-lxqt_amd64_2022-03-24_19-09-rootfs.tar.zst"
-previous_sha256 = "d50388630273b5aff86bb409aa8f3c455d267319f3bd37ddef5e1a7074776568"
+previous_date = "20220328"
+previous_tag = "2022-03-28"
+previous_file = "ubuntu-lxqt_amd64_2022-03-28_23-45-rootfs.tar.zst"
+previous_sha256 = "2b04a86f6a6924213bb490cbdbefe1d7d09a3b1ab25cf7e7ca4218ab2efaf776"
 
-current_version = "latest01"
-current_date = "20220328"
-old_file = "ubuntu-lxqt_amd64_2022-03-22_00-42-rootfs.tar.zst"
-old_sha256 = "bb269225a87f98dd81cc7eabae43c6ed562a014b16cfe368dd904f4222368cb6"
+current_version = "latest02"
+current_date = "20220404"
+old_file = "ubuntu-lxqt_amd64_2022-03-24_19-09-rootfs.tar.zst"
+old_sha256 = "d50388630273b5aff86bb409aa8f3c455d267319f3bd37ddef5e1a7074776568"
 # edition 2021
 # DISTRO_NAME=ubuntu-dev_amd64
-# ROOTFS_FILE=ubuntu-lxqt_amd64_2022-03-28_23-45-rootfs.tar.zst
-# SHA256SUM=2b04a86f6a6924213bb490cbdbefe1d7d09a3b1ab25cf7e7ca4218ab2efaf776
-# BUILD_DATE=20220328
-# BUILD_TAG=2022-03-28
+# ROOTFS_FILE=ubuntu-lxqt_amd64_2022-04-04_23-49-rootfs.tar.zst
+# SHA256SUM=690d801707dc90586c09327feaebc255d87597c2642e9842d73f476be4d179cf
+# BUILD_DATE=20220404
+# BUILD_TAG=2022-04-04
 # STATUS=completed
-# VERSION=latest01
-# END_TIME=23:45
+# VERSION=latest02
+# END_TIME=23:49
 
 [time]
 format = "rfc-3339"
 zone = "UTC"
-date = 2022-03-28
-begin = 2022-03-28 23:19:09.588375252+00:00
-start-sync_0 = 23:25:58
-start-zstd = 23:29:33
-start-sync_1 = 23:43:56
-end-sync_1 = 23:45:01
-end = 2022-03-28 23:45:01.404896185+00:00
+date = 2022-04-04
+begin = 2022-04-04 23:21:35.982458004+00:00
+start-sync_0 = 23:28:34
+start-zstd = 23:32:50
+start-sync_1 = 23:47:56
+end-sync_1 = 23:49:06
+end = 2022-04-04 23:49:06.542406029+00:00
 
 [server]
 repo = "cake233/ubuntu-lxqt-amd64"
@@ -77,18 +77,16 @@ split = false
 
 [server.node2]
 name = "tmoe"
-current = true
-previous = false
+current = false
+previous = true
 in_sync = false
 split = false
 
 [server.node3]
 name = "azure"
-current = true
+current = false
 previous = true
 in_sync = false
-start_sync = 2022-03-29 05:09:20.196039498+00:00
-end_sync = 2022-03-29 05:14:02.490918548+00:00
 split = false
 
 [server.node4]
