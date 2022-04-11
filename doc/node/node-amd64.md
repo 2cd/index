@@ -20,20 +20,19 @@ docker exec -it node-amd64 bash
 ```toml
 [main]
 name = "node"
-tag = ["latest", "2022-03-28"]
+tag = ["latest", "2022-04-11"]
 os = "debian"
 release = "stable"
 arch = "amd64"
 platform = "linux/amd64"
 x11_or_wayland = false
+syntax_version = "0.0.0-alpha.3"
 
 [file]
-name = "node_amd64_2022-03-28_11-12.tar.zst"
-
-version = "0.0.0-alpha.2"
+name = "node_amd64_2022-04-11_11-14.tar.zst"
 
 # This value can be used to verify the integrity of the file
-sha256 = "69f424b49aa095b5a253fc3510fb4778d3b08a75c8e4a34d31f2572581019f56"
+sha256 = "b9bd440cc628cf8231033212f35ddbbffe02d45399cafb0bbfd1a72d29f8319f"
 
 # zstd: [1-22]
 zstd-level = 22
@@ -42,48 +41,48 @@ zstd-level = 22
 # Installed size ≈ tar-size
 # Installed size is approximately equal to the size of the tar file
 tar = "993M"
-tar_bytes = 1040630272
+tar_bytes = 1040595968
 
 # Space occupied ≈ tar-size + zstd-size
 # You will need to prepare a large enough space before installation.
 zstd = "198M"
-zstd_bytes = 206726123
+zstd_bytes = 206752426
 
 [compatibility]
 compatible_mode = true
 
-previous_version = "latest02"
+previous_version = "latest01"
 
 # The value is &str, not int
-previous_date = "20220324"
-previous_tag = "2022-03-24"
-previous_file = "node_amd64_2022-03-24_12-37-rootfs.tar.zst"
-previous_sha256 = "628816c0a18e26942a6368c3d161e52901208fd0744b5c6c41a4a7f0727fd305"
+previous_date = "20220328"
+previous_tag = "2022-03-28"
+previous_file = "node_amd64_2022-03-28_11-12-rootfs.tar.zst"
+previous_sha256 = "69f424b49aa095b5a253fc3510fb4778d3b08a75c8e4a34d31f2572581019f56"
 
-current_version = "latest01"
-current_date = "20220328"
-old_file = "node_amd64_2022-03-14_12-14-rootfs.tar.zst"
-old_sha256 = "60e2aa10f399665f588c4704946da32286a48d6946f58126ee78c0119cc31ccf"
+current_version = "latest02"
+current_date = "20220411"
+old_file = "node_amd64_2022-03-24_12-37-rootfs.tar.zst"
+old_sha256 = "628816c0a18e26942a6368c3d161e52901208fd0744b5c6c41a4a7f0727fd305"
 # edition 2021
 # DISTRO_NAME=node_amd64
-# ROOTFS_FILE=node_amd64_2022-03-28_11-12-rootfs.tar.zst
-# SHA256SUM=69f424b49aa095b5a253fc3510fb4778d3b08a75c8e4a34d31f2572581019f56
-# BUILD_DATE=20220328
-# BUILD_TAG=2022-03-28
+# ROOTFS_FILE=node_amd64_2022-04-11_11-14-rootfs.tar.zst
+# SHA256SUM=b9bd440cc628cf8231033212f35ddbbffe02d45399cafb0bbfd1a72d29f8319f
+# BUILD_DATE=20220411
+# BUILD_TAG=2022-04-11
 # STATUS=completed
-# VERSION=latest01
-# END_TIME=11:12
+# VERSION=latest02
+# END_TIME=11:14
 
 [time]
 format = "rfc-3339"
 zone = "UTC"
-date = 2022-03-28
-begin = 2022-03-28 11:02:28.715260519+00:00
-start-sync_0 = 11:03:46
-start-zstd = 11:04:07
-start-sync_1 = 11:12:13
-end-sync_1 = 11:12:32
-end = 2022-03-28 11:12:32.937326617+00:00
+date = 2022-04-11
+begin = 2022-04-11 11:02:36.877040771+00:00
+start-sync_0 = 11:03:50
+start-zstd = 11:05:05
+start-sync_1 = 11:14:19
+end-sync_1 = 11:14:38
+end = 2022-04-11 11:14:38.371402200+00:00
 
 [server]
 repo = "cake233/node-amd64"
