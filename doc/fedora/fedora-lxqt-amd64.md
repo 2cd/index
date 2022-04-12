@@ -86,10 +86,10 @@ x11_or_wayland = true
 syntax_version = "0.0.0-alpha.3"
 
 [file]
-name = "fedora-lxqt_amd64_2022-04-12_13-05.tar.zst"
+name = "fedora-lxqt_amd64_2022-04-12_14-32.tar.zst"
 
 # This value can be used to verify the integrity of the file
-sha256 = "bf47e22d3ef6241f41e6a8025c5831b91a708615094716cedd7b9f24fbea3809"
+sha256 = "d9721af6d013f976c60ea1cd5dc1a712da66f75c82a161932d283cb46e8b20c9"
 
 # zstd: [1-22]
 zstd-level = 19
@@ -98,12 +98,12 @@ zstd-level = 19
 # Installed size ≈ tar-size
 # Installed size is approximately equal to the size of the tar file
 tar = "3.2G"
-tar_bytes = 3373196800
+tar_bytes = 3373303808
 
 # Space occupied ≈ tar-size + zstd-size
 # You will need to prepare a large enough space before installation.
-zstd = "881M"
-zstd_bytes = 923781551
+zstd = "882M"
+zstd_bytes = 924144980
 
 [compatibility]
 compatible_mode = true
@@ -122,24 +122,24 @@ old_file = "fedora-rawhide_amd64+lxqt-2021_10-26-rootfs.tar.zst"
 old_sha256 = "e507e03c2fba7bde2a8166834367ba9a4d407b87840550d3504aab03a9f877c1"
 # edition 2021
 # DISTRO_NAME=fedora-rawhide_amd64
-# ROOTFS_FILE=fedora-lxqt_amd64_2022-04-12_13-05-rootfs.tar.zst
-# SHA256SUM=bf47e22d3ef6241f41e6a8025c5831b91a708615094716cedd7b9f24fbea3809
+# ROOTFS_FILE=fedora-lxqt_amd64_2022-04-12_14-32-rootfs.tar.zst
+# SHA256SUM=d9721af6d013f976c60ea1cd5dc1a712da66f75c82a161932d283cb46e8b20c9
 # BUILD_DATE=20220412
 # BUILD_TAG=2022-04-12
 # STATUS=completed
 # VERSION=latest02
-# END_TIME=13:05
+# END_TIME=14:32
 
 [time]
 format = "rfc-3339"
 zone = "UTC"
 date = 2022-04-12
-begin = 2022-04-12 12:44:35.605548147+00:00
-start-sync_0 = 12:49:23
-start-zstd = 12:52:10
-start-sync_1 = 13:04:50
-end-sync_1 = 13:05:52
-end = 2022-04-12 13:05:52.233345954+00:00
+begin = 2022-04-12 14:14:49.646590577+00:00
+start-sync_0 = 14:18:43
+start-zstd = 14:21:07
+start-sync_1 = 14:32:02
+end-sync_1 = 14:32:59
+end = 2022-04-12 14:32:59.418865098+00:00
 
 [server]
 repo = "cake233/fedora-lxqt-amd64"
