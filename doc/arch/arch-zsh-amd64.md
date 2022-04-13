@@ -20,20 +20,19 @@ docker exec -it arch-zsh-amd64 zsh
 ```toml
 [main]
 name = "arch"
-tag = ["zsh", "2022-04-05"]
+tag = ["zsh", "2022-04-13"]
 os = "arch"
 release = "latest"
 arch = "amd64"
 platform = "linux/amd64"
 x11_or_wayland = false
+syntax_version = "0.0.0-alpha.3"
 
 [file]
-name = "arch-zsh_amd64_2022-04-05_23-13.tar.zst"
-
-version = "0.0.0-alpha.2"
+name = "arch-zsh_amd64_2022-04-13_00-16.tar.zst"
 
 # This value can be used to verify the integrity of the file
-sha256 = "2be4c23d5f70cc0083da2b581a94ed8e1d3aa93474015eca95e2e92cf5d484a4"
+sha256 = "8bfe161a9aad61b4c1b51d49bd2cbc2bf9ae62a31bd91ced613fe82491f830b4"
 
 # zstd: [1-22]
 zstd-level = 20
@@ -42,48 +41,48 @@ zstd-level = 20
 # Installed size ≈ tar-size
 # Installed size is approximately equal to the size of the tar file
 tar = "956M"
-tar_bytes = 1002389504
+tar_bytes = 1001964544
 
 # Space occupied ≈ tar-size + zstd-size
 # You will need to prepare a large enough space before installation.
 zstd = "237M"
-zstd_bytes = 248027482
+zstd_bytes = 248052677
 
 [compatibility]
 compatible_mode = true
 
-previous_version = "latest01"
+previous_version = "latest02"
 
 # The value is &str, not int
-previous_date = "20220329"
-previous_tag = "2022-03-29"
-previous_file = "arch-zsh_amd64_2022-03-29_23-14-rootfs.tar.zst"
-previous_sha256 = "f9ee5c3f65d0ddbcad4491fa950acdbe3d6c50c69353578376a99f355c89c8af"
+previous_date = "20211128"
+previous_tag = ""
+previous_file = ""
+previous_sha256 = ""
 
-current_version = "latest02"
-current_date = "20220405"
-old_file = "arch-zsh_amd64_2022-03-23_00-14-rootfs.tar.zst"
-old_sha256 = "b832d40cee4427e5e95feba037d96310eea38db5a612ed6dad79245e3b44f51e"
+current_version = "latest01"
+current_date = "20220413"
+old_file = ""
+old_sha256 = ""
 # edition 2021
 # DISTRO_NAME=arch_amd64
-# ROOTFS_FILE=arch-zsh_amd64_2022-04-05_23-13-rootfs.tar.zst
-# SHA256SUM=2be4c23d5f70cc0083da2b581a94ed8e1d3aa93474015eca95e2e92cf5d484a4
-# BUILD_DATE=20220405
-# BUILD_TAG=2022-04-05
+# ROOTFS_FILE=arch-zsh_amd64_2022-04-13_00-16-rootfs.tar.zst
+# SHA256SUM=8bfe161a9aad61b4c1b51d49bd2cbc2bf9ae62a31bd91ced613fe82491f830b4
+# BUILD_DATE=20220413
+# BUILD_TAG=2022-04-13
 # STATUS=completed
-# VERSION=latest02
-# END_TIME=23:13
+# VERSION=latest01
+# END_TIME=00:16
 
 [time]
 format = "rfc-3339"
 zone = "UTC"
-date = 2022-04-05
-begin = 2022-04-05 23:05:52.679003599+00:00
-start-sync_0 = 23:07:42
-start-zstd = 23:09:22
-start-sync_1 = 23:12:53
-end-sync_1 = 23:13:12
-end = 2022-04-05 23:13:12.902635450+00:00
+date = 2022-04-13
+begin = 2022-04-13 00:09:09.861472278+00:00
+start-sync_0 = 00:10:58
+start-zstd = 00:12:41
+start-sync_1 = 00:16:18
+end-sync_1 = 00:16:39
+end = 2022-04-13 00:16:39.564279435+00:00
 
 [server]
 repo = "cake233/arch-zsh-amd64"
