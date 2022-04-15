@@ -69,20 +69,19 @@ ldd "$FILE"
 ```toml
 [main]
 name = "rust"
-tag = ["latest", "2022-04-11", "nightly", "unstable", "default", "gnu-libc"]
+tag = ["latest", "2022-04-15", "nightly", "unstable", "default", "gnu-libc"]
 os = "debian"
 release = "sid"
 arch = "s390x"
 platform = "linux/s390x"
 x11_or_wayland = false
+syntax_version = "0.0.0-alpha.3"
 
 [file]
-name = "rust_s390x_2022-04-11_02-08.tar.zst"
-
-version = "0.0.0-alpha.2"
+name = "rust_s390x_2022-04-15_03-06.tar.zst"
 
 # This value can be used to verify the integrity of the file
-sha256 = "1449608d38c5ad09516c87cf986882a172209c0ae0758a622c4f06c5db29cac8"
+sha256 = "0a18d9ac18cd8b6414af940d0786d7c1873560f587c04f057b7a57ff2c864c19"
 
 # zstd: [1-22]
 zstd-level = 20
@@ -91,48 +90,48 @@ zstd-level = 20
 # Installed size ≈ tar-size
 # Installed size is approximately equal to the size of the tar file
 tar = "1.7G"
-tar_bytes = 1773570560
+tar_bytes = 1773899264
 
 # Space occupied ≈ tar-size + zstd-size
 # You will need to prepare a large enough space before installation.
-zstd = "248M"
-zstd_bytes = 259094585
+zstd = "247M"
+zstd_bytes = 258603501
 
 [compatibility]
 compatible_mode = true
 
-previous_version = "latest01"
+previous_version = "latest02"
 
 # The value is &str, not int
-previous_date = "20220408"
-previous_tag = "2022-04-08"
-previous_file = "rust_s390x_2022-04-08_02-07-rootfs.tar.zst"
-previous_sha256 = "9df9cf1d0eef41509e92482efe44f07493c97b789644fc71e0cbf220878056af"
+previous_date = "20220411"
+previous_tag = "2022-04-11"
+previous_file = "rust_s390x_2022-04-11_02-08-rootfs.tar.zst"
+previous_sha256 = "1449608d38c5ad09516c87cf986882a172209c0ae0758a622c4f06c5db29cac8"
 
-current_version = "latest02"
-current_date = "20220411"
-old_file = "rust_s390x_2022-04-04_02-06-rootfs.tar.zst"
-old_sha256 = "72b2dbcc6463beb58747b8cd61bd7ecfb1945c645628f3e388589ac071923af5"
+current_version = "latest01"
+current_date = "20220415"
+old_file = "rust_s390x_2022-04-08_02-07-rootfs.tar.zst"
+old_sha256 = "9df9cf1d0eef41509e92482efe44f07493c97b789644fc71e0cbf220878056af"
 # edition 2021
 # DISTRO_NAME=rust_s390x
-# ROOTFS_FILE=rust_s390x_2022-04-11_02-08-rootfs.tar.zst
-# SHA256SUM=1449608d38c5ad09516c87cf986882a172209c0ae0758a622c4f06c5db29cac8
-# BUILD_DATE=20220411
-# BUILD_TAG=2022-04-11
+# ROOTFS_FILE=rust_s390x_2022-04-15_03-06-rootfs.tar.zst
+# SHA256SUM=0a18d9ac18cd8b6414af940d0786d7c1873560f587c04f057b7a57ff2c864c19
+# BUILD_DATE=20220415
+# BUILD_TAG=2022-04-15
 # STATUS=completed
-# VERSION=latest02
-# END_TIME=02:08
+# VERSION=latest01
+# END_TIME=03:06
 
 [time]
 format = "rfc-3339"
 zone = "UTC"
-date = 2022-04-11
-begin = 2022-04-11 01:52:29.848106016+00:00
-start-sync_0 = 02:00:16
-start-zstd = 02:01:35
-start-sync_1 = 02:07:58
-end-sync_1 = 02:08:23
-end = 2022-04-11 02:08:23.973446772+00:00
+date = 2022-04-15
+begin = 2022-04-15 02:53:32.566450121+00:00
+start-sync_0 = 02:59:40
+start-zstd = 03:00:44
+start-sync_1 = 03:06:07
+end-sync_1 = 03:06:29
+end = 2022-04-15 03:06:29.487949863+00:00
 
 [server]
 repo = "cake233/rust-s390x"
@@ -172,24 +171,24 @@ CARGO_HOME = "/usr/local/cargo"
 [version]
 ldd = 'ldd (Debian GLIBC 2.33-7) 2.33'
 rustup = 'rustup 1.24.3 (ce5817a94 2021-05-31)'
-cargo = 'cargo 1.62.0-nightly (e2e2dddeb 2022-04-05)'
-rustc = 'rustc 1.62.0-nightly (1f7fb6413 2022-04-10)'
-cc = 'cc (Debian 11.2.0-19) 11.2.0'
+cargo = 'cargo 1.62.0-nightly (dba5baf43 2022-04-13)'
+rustc = 'rustc 1.62.0-nightly (e7575f967 2022-04-14)'
+cc = 'cc (Debian 11.2.0-20) 11.2.0'
 cargo_verbose = '''
-cargo 1.62.0-nightly (e2e2dddeb 2022-04-05)
+cargo 1.62.0-nightly (dba5baf43 2022-04-13)
 release: 1.62.0-nightly
-commit-hash: e2e2dddebe66dfc1403a312653557e332445308b
-commit-date: 2022-04-05
+commit-hash: dba5baf4345858c591517b24801902a062c399f8
+commit-date: 2022-04-13
 host: s390x-unknown-linux-gnu
 libgit2: 1.4.2 (sys:0.14.2 vendored)
 libcurl: 7.80.0-DEV (sys:0.4.51+curl-7.80.0 vendored ssl:OpenSSL/1.1.1m)
 os: Linux [64-bit]
 '''
 rustc_verbose = '''
-rustc 1.62.0-nightly (1f7fb6413 2022-04-10)
+rustc 1.62.0-nightly (e7575f967 2022-04-14)
 binary: rustc
-commit-hash: 1f7fb6413d6d6c0c929b223e478e44c3db991b03
-commit-date: 2022-04-10
+commit-hash: e7575f9670f3c837def3d186ae09366c75c7632e
+commit-date: 2022-04-14
 host: s390x-unknown-linux-gnu
 release: 1.62.0-nightly
 LLVM version: 14.0.0
