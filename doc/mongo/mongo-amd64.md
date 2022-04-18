@@ -20,20 +20,19 @@ docker exec -it mongo-amd64 bash
 ```toml
 [main]
 name = "mongo"
-tag = ["latest", "2022-04-04"]
+tag = ["latest", "2022-04-18"]
 os = "ubuntu"
 release = "lts"
 arch = "amd64"
 platform = "linux/amd64"
 x11_or_wayland = false
+syntax_version = "0.0.0-alpha.3"
 
 [file]
-name = "mongo_amd64_2022-04-04_11-08.tar.zst"
-
-version = "0.0.0-alpha.2"
+name = "mongo_amd64_2022-04-18_12-09.tar.zst"
 
 # This value can be used to verify the integrity of the file
-sha256 = "4d8d105b097871be15517096fb49499a647c98ca114099bbb0b65e62083d038a"
+sha256 = "7fb8c78318fe50c0769c6dc97827dfb72956c44525701b3cbdf39d2a02bb9579"
 
 # zstd: [1-22]
 zstd-level = 22
@@ -41,49 +40,49 @@ zstd-level = 22
 [file.size]
 # Installed size ≈ tar-size
 # Installed size is approximately equal to the size of the tar file
-tar = "906M"
-tar_bytes = 949081088
+tar = "907M"
+tar_bytes = 950608896
 
 # Space occupied ≈ tar-size + zstd-size
 # You will need to prepare a large enough space before installation.
-zstd = "162M"
-zstd_bytes = 169656724
+zstd = "163M"
+zstd_bytes = 169981506
 
 [compatibility]
 compatible_mode = true
 
-previous_version = "latest01"
+previous_version = "latest02"
 
 # The value is &str, not int
-previous_date = "20220321"
-previous_tag = "2022-03-21"
-previous_file = "mongo_amd64_2022-03-21_12-08-rootfs.tar.zst"
-previous_sha256 = "43d32b098a547ef9d022324f84c398a23d69b88f66c1afc51cfba51b7dce5727"
+previous_date = "20220404"
+previous_tag = "2022-04-04"
+previous_file = "mongo_amd64_2022-04-04_11-08-rootfs.tar.zst"
+previous_sha256 = "4d8d105b097871be15517096fb49499a647c98ca114099bbb0b65e62083d038a"
 
-current_version = "latest02"
-current_date = "20220404"
-old_file = "mongo_amd64_2022-03-07_12-10-rootfs.tar.zst"
-old_sha256 = "1948743b4e34dddfbe0281eec210b7fc49b7a7939f50c0f9cadbcb1cf7342348"
+current_version = "latest01"
+current_date = "20220418"
+old_file = "mongo_amd64_2022-03-21_12-08-rootfs.tar.zst"
+old_sha256 = "43d32b098a547ef9d022324f84c398a23d69b88f66c1afc51cfba51b7dce5727"
 # edition 2021
 # DISTRO_NAME=mongo_amd64
-# ROOTFS_FILE=mongo_amd64_2022-04-04_11-08-rootfs.tar.zst
-# SHA256SUM=4d8d105b097871be15517096fb49499a647c98ca114099bbb0b65e62083d038a
-# BUILD_DATE=20220404
-# BUILD_TAG=2022-04-04
+# ROOTFS_FILE=mongo_amd64_2022-04-18_12-09-rootfs.tar.zst
+# SHA256SUM=7fb8c78318fe50c0769c6dc97827dfb72956c44525701b3cbdf39d2a02bb9579
+# BUILD_DATE=20220418
+# BUILD_TAG=2022-04-18
 # STATUS=completed
-# VERSION=latest02
-# END_TIME=11:08
+# VERSION=latest01
+# END_TIME=12:09
 
 [time]
 format = "rfc-3339"
 zone = "UTC"
-date = 2022-04-04
-begin = 2022-04-04 11:02:31.568628067+00:00
-start-sync_0 = 11:03:43
-start-zstd = 11:04:20
-start-sync_1 = 11:08:20
-end-sync_1 = 11:08:34
-end = 2022-04-04 11:08:34.799569932+00:00
+date = 2022-04-18
+begin = 2022-04-18 12:02:32.158425565+00:00
+start-sync_0 = 12:04:13
+start-zstd = 12:04:43
+start-sync_1 = 12:08:55
+end-sync_1 = 12:09:12
+end = 2022-04-18 12:09:12.611952841+00:00
 
 [server]
 repo = "cake233/mongo-amd64"
@@ -124,5 +123,5 @@ ldd = 'ldd (Ubuntu GLIBC 2.31-0ubuntu9.7) 2.31'
 gosu = '1.12 (go1.13.10 on linux/amd64; gc)'
 jsyaml = '3.13.1'
 mongo_major = '5.0'
-mongo_version = '5.0.6'
+mongo_version = '5.0.7'
 ```
