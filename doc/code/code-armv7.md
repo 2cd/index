@@ -210,20 +210,19 @@ editor 0.set || nano 0.set
 ```toml
 [main]
 name = "code"
-tag = ["latest", "2022-04-04", "vsc", "vscode", "web"]
+tag = ["latest", "2022-04-18", "vsc", "vscode", "web"]
 os = "debian"
 release = "sid"
 arch = "armhf"
 platform = "linux/arm/v7"
 x11_or_wayland = false
+syntax_version = "0.0.0-alpha.3"
 
 [file]
-name = "code_armhf_2022-04-04_11-10.tar.zst"
-
-version = "0.0.0-alpha.2"
+name = "code_armhf_2022-04-18_12-12.tar.zst"
 
 # This value can be used to verify the integrity of the file
-sha256 = "0b7bddfd01e980e0e3ad5405eb55c856b52533b899246116ba2c28d7abecd190"
+sha256 = "7db314ca0622ae32e056cce46a704f0c3aca106655e862a01707abb1c46c7cc9"
 
 # zstd: [1-22]
 zstd-level = 22
@@ -231,49 +230,49 @@ zstd-level = 22
 [file.size]
 # Installed size ≈ tar-size
 # Installed size is approximately equal to the size of the tar file
-tar = "411M"
-tar_bytes = 430312960
+tar = "446M"
+tar_bytes = 467588608
 
 # Space occupied ≈ tar-size + zstd-size
 # You will need to prepare a large enough space before installation.
-zstd = "90M"
-zstd_bytes = 93469145
+zstd = "87M"
+zstd_bytes = 90271521
 
 [compatibility]
 compatible_mode = true
 
-previous_version = "latest02"
+previous_version = "latest01"
 
 # The value is &str, not int
-previous_date = "20220321"
-previous_tag = "2022-03-21"
-previous_file = "code_armhf_2022-03-21_12-13-rootfs.tar.zst"
-previous_sha256 = "073ad721011761496d73683a88cf8442a86389a3a855392b36c41767723f3b04"
+previous_date = "20220404"
+previous_tag = "2022-04-04"
+previous_file = "code_armhf_2022-04-04_11-10-rootfs.tar.zst"
+previous_sha256 = "0b7bddfd01e980e0e3ad5405eb55c856b52533b899246116ba2c28d7abecd190"
 
-current_version = "latest01"
-current_date = "20220404"
-old_file = "code_armhf_2022-03-07_12-11-rootfs.tar.zst"
-old_sha256 = "2e2e84f14259af2778e33a233bc19a630e640096a5ee54026db2216ef3beccab"
+current_version = "latest02"
+current_date = "20220418"
+old_file = "code_armhf_2022-03-21_12-13-rootfs.tar.zst"
+old_sha256 = "073ad721011761496d73683a88cf8442a86389a3a855392b36c41767723f3b04"
 # edition 2021
 # DISTRO_NAME=code_armhf
-# ROOTFS_FILE=code_armhf_2022-04-04_11-10-rootfs.tar.zst
-# SHA256SUM=0b7bddfd01e980e0e3ad5405eb55c856b52533b899246116ba2c28d7abecd190
-# BUILD_DATE=20220404
-# BUILD_TAG=2022-04-04
+# ROOTFS_FILE=code_armhf_2022-04-18_12-12-rootfs.tar.zst
+# SHA256SUM=7db314ca0622ae32e056cce46a704f0c3aca106655e862a01707abb1c46c7cc9
+# BUILD_DATE=20220418
+# BUILD_TAG=2022-04-18
 # STATUS=completed
-# VERSION=latest01
-# END_TIME=11:10
+# VERSION=latest02
+# END_TIME=12:12
 
 [time]
 format = "rfc-3339"
 zone = "UTC"
-date = 2022-04-04
-begin = 2022-04-04 11:02:33.351300386+00:00
-start-sync_0 = 11:07:05
-start-zstd = 11:07:33
-start-sync_1 = 11:10:41
-end-sync_1 = 11:10:54
-end = 2022-04-04 11:10:54.259986174+00:00
+date = 2022-04-18
+begin = 2022-04-18 12:02:31.143680500+00:00
+start-sync_0 = 12:08:10
+start-zstd = 12:08:41
+start-sync_1 = 12:12:15
+end-sync_1 = 12:12:28
+end = 2022-04-18 12:12:28.143384018+00:00
 
 [server]
 repo = "cake233/code-armv7"
@@ -309,7 +308,7 @@ LANG = "en_US.UTF-8"
 
 [version]
 ldd = 'ldd (Debian GLIBC 2.33-7) 2.33'
-code = '4.2.0 693b1fac04524bb0e0cfbb93afc85702263329bb with Code 1.64.2'
+code = '4.3.0 09bc30027a7fbba170f907a527eaa9f7219fe739 with Code 1.65.2'
 
 [port]
 tcp = [8080]
