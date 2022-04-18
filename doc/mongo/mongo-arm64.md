@@ -20,20 +20,19 @@ docker exec -it mongo-arm64 bash
 ```toml
 [main]
 name = "mongo"
-tag = ["latest", "2022-04-04"]
+tag = ["latest", "2022-04-18"]
 os = "ubuntu"
 release = "lts"
 arch = "arm64"
 platform = "linux/arm64"
 x11_or_wayland = false
+syntax_version = "0.0.0-alpha.3"
 
 [file]
-name = "mongo_arm64_2022-04-04_11-11.tar.zst"
-
-version = "0.0.0-alpha.2"
+name = "mongo_arm64_2022-04-18_12-10.tar.zst"
 
 # This value can be used to verify the integrity of the file
-sha256 = "5de3516db20a08006f8fac1afe2dc4d43df1f01f2797e9d7c7b81ce9b1cd8727"
+sha256 = "76dfb23b5278041cdbc47a6a13b203a16fe71e3f47e033953896db4b0837a9ab"
 
 # zstd: [1-22]
 zstd-level = 22
@@ -41,49 +40,49 @@ zstd-level = 22
 [file.size]
 # Installed size ≈ tar-size
 # Installed size is approximately equal to the size of the tar file
-tar = "873M"
-tar_bytes = 914664960
+tar = "874M"
+tar_bytes = 915894784
 
 # Space occupied ≈ tar-size + zstd-size
 # You will need to prepare a large enough space before installation.
 zstd = "158M"
-zstd_bytes = 164750855
+zstd_bytes = 164919091
 
 [compatibility]
 compatible_mode = true
 
-previous_version = "latest01"
+previous_version = "latest02"
 
 # The value is &str, not int
-previous_date = "20220321"
-previous_tag = "2022-03-21"
-previous_file = "mongo_arm64_2022-03-21_12-10-rootfs.tar.zst"
-previous_sha256 = "df2e1dae19b7945ef573a8a12fe24a2bf95b26de51f3eef7ad37ff91986680bf"
+previous_date = "20220404"
+previous_tag = "2022-04-04"
+previous_file = "mongo_arm64_2022-04-04_11-11-rootfs.tar.zst"
+previous_sha256 = "5de3516db20a08006f8fac1afe2dc4d43df1f01f2797e9d7c7b81ce9b1cd8727"
 
-current_version = "latest02"
-current_date = "20220404"
-old_file = "mongo_arm64_2022-03-07_12-10-rootfs.tar.zst"
-old_sha256 = "38151c1a0eb1240720522df5cb7025eef0694ba2a77c650423c0a5ee0cd6796a"
+current_version = "latest01"
+current_date = "20220418"
+old_file = "mongo_arm64_2022-03-21_12-10-rootfs.tar.zst"
+old_sha256 = "df2e1dae19b7945ef573a8a12fe24a2bf95b26de51f3eef7ad37ff91986680bf"
 # edition 2021
 # DISTRO_NAME=mongo_arm64
-# ROOTFS_FILE=mongo_arm64_2022-04-04_11-11-rootfs.tar.zst
-# SHA256SUM=5de3516db20a08006f8fac1afe2dc4d43df1f01f2797e9d7c7b81ce9b1cd8727
-# BUILD_DATE=20220404
-# BUILD_TAG=2022-04-04
+# ROOTFS_FILE=mongo_arm64_2022-04-18_12-10-rootfs.tar.zst
+# SHA256SUM=76dfb23b5278041cdbc47a6a13b203a16fe71e3f47e033953896db4b0837a9ab
+# BUILD_DATE=20220418
+# BUILD_TAG=2022-04-18
 # STATUS=completed
-# VERSION=latest02
-# END_TIME=11:11
+# VERSION=latest01
+# END_TIME=12:10
 
 [time]
 format = "rfc-3339"
 zone = "UTC"
-date = 2022-04-04
-begin = 2022-04-04 11:02:35.288283066+00:00
-start-sync_0 = 11:06:25
-start-zstd = 11:06:58
-start-sync_1 = 11:11:34
-end-sync_1 = 11:11:54
-end = 2022-04-04 11:11:54.661421369+00:00
+date = 2022-04-18
+begin = 2022-04-18 12:02:31.714296491+00:00
+start-sync_0 = 12:06:00
+start-zstd = 12:06:22
+start-sync_1 = 12:10:24
+end-sync_1 = 12:10:39
+end = 2022-04-18 12:10:39.764290980+00:00
 
 [server]
 repo = "cake233/mongo-arm64"
@@ -124,5 +123,5 @@ ldd = 'ldd (Ubuntu GLIBC 2.31-0ubuntu9.7) 2.31'
 gosu = '1.12 (go1.13.10 on linux/arm64; gc)'
 jsyaml = '3.13.1'
 mongo_major = '5.0'
-mongo_version = '5.0.6'
+mongo_version = '5.0.7'
 ```
