@@ -77,7 +77,7 @@ localhost:5903
 ```toml
 [main]
 name = "arch"
-tag = ["cutefish", "2022-04-13"]
+tag = ["cutefish", "2022-04-20"]
 os = "arch"
 release = "latest"
 arch = "amd64"
@@ -86,10 +86,10 @@ x11_or_wayland = true
 syntax_version = "0.0.0-alpha.3"
 
 [file]
-name = "arch-cutefish_amd64_2022-04-13_00-58.tar.zst"
+name = "arch-cutefish_amd64_2022-04-20_00-56.tar.zst"
 
 # This value can be used to verify the integrity of the file
-sha256 = "a9f7b850e933c1fabca1f3e31081324a38e280433b74acd1a8ae61a765cc106a"
+sha256 = "5a6500c90baafa93783d301fc65678d2ce2f707ef9eec10e065a9516c66ebe92"
 
 # zstd: [1-22]
 zstd-level = 19
@@ -98,48 +98,48 @@ zstd-level = 19
 # Installed size ≈ tar-size
 # Installed size is approximately equal to the size of the tar file
 tar = "3.9G"
-tar_bytes = 4148341248
+tar_bytes = 4165490176
 
 # Space occupied ≈ tar-size + zstd-size
 # You will need to prepare a large enough space before installation.
 zstd = "1.1G"
-zstd_bytes = 1154142341
+zstd_bytes = 1160499696
 
 [compatibility]
 compatible_mode = true
 
-previous_version = "latest02"
+previous_version = "latest01"
 
 # The value is &str, not int
-previous_date = "20211128"
-previous_tag = ""
-previous_file = ""
-previous_sha256 = ""
+previous_date = "20220413"
+previous_tag = "2022-04-13"
+previous_file = "arch-cutefish_amd64_2022-04-13_00-58-rootfs.tar.zst"
+previous_sha256 = "a9f7b850e933c1fabca1f3e31081324a38e280433b74acd1a8ae61a765cc106a"
 
-current_version = "latest01"
-current_date = "20220413"
-old_file = ""
-old_sha256 = ""
+current_version = "latest02"
+current_date = "20220420"
+old_file = "arch-cutefish_amd64_2022-04-05_23-58-rootfs.tar.zst"
+old_sha256 = "a3c35394322b945bc43967ff47a8d5dbfaacca00d16f176f6f684783a6c68179"
 # edition 2021
 # DISTRO_NAME=arch_amd64
-# ROOTFS_FILE=arch-cutefish_amd64_2022-04-13_00-58-rootfs.tar.zst
-# SHA256SUM=a9f7b850e933c1fabca1f3e31081324a38e280433b74acd1a8ae61a765cc106a
-# BUILD_DATE=20220413
-# BUILD_TAG=2022-04-13
+# ROOTFS_FILE=arch-cutefish_amd64_2022-04-20_00-56-rootfs.tar.zst
+# SHA256SUM=5a6500c90baafa93783d301fc65678d2ce2f707ef9eec10e065a9516c66ebe92
+# BUILD_DATE=20220420
+# BUILD_TAG=2022-04-20
 # STATUS=completed
-# VERSION=latest01
-# END_TIME=00:58
+# VERSION=latest02
+# END_TIME=00:56
 
 [time]
 format = "rfc-3339"
 zone = "UTC"
-date = 2022-04-13
-begin = 2022-04-13 00:35:13.734131647+00:00
-start-sync_0 = 00:38:40
-start-zstd = 00:42:52
-start-sync_1 = 00:57:02
-end-sync_1 = 00:58:25
-end = 2022-04-13 00:58:26.015379168+00:00
+date = 2022-04-20
+begin = 2022-04-20 00:25:55.590938941+00:00
+start-sync_0 = 00:33:21
+start-zstd = 00:37:16
+start-sync_1 = 00:55:22
+end-sync_1 = 00:56:41
+end = 2022-04-20 00:56:41.562426765+00:00
 
 [server]
 repo = "cake233/arch-cutefish-amd64"
