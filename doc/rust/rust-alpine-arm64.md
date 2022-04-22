@@ -69,7 +69,7 @@ ldd "$FILE"
 ```toml
 [main]
 name = "rust"
-tag = ["alpine", "2022-04-18", "nightly", "unstable", "minimal", "musl-libc", "musl"]
+tag = ["alpine", "2022-04-22", "nightly", "unstable", "minimal", "musl-libc", "musl"]
 os = "alpine"
 release = "edge"
 arch = "arm64"
@@ -78,10 +78,10 @@ x11_or_wayland = false
 syntax_version = "0.0.0-alpha.3"
 
 [file]
-name = "rust-musl_arm64_2022-04-18_03-00.tar.zst"
+name = "rust-musl_arm64_2022-04-22_03-01.tar.zst"
 
 # This value can be used to verify the integrity of the file
-sha256 = "accee7debf1e2cbe460a04fbc934d8eae43d936002e83f6ae079fae907248942"
+sha256 = "7f9dad5cd56418c92f2a2e60982357b126c8c0c42f9fb3e8f1b65e6bac123ed9"
 
 # zstd: [1-22]
 zstd-level = 22
@@ -89,49 +89,49 @@ zstd-level = 22
 [file.size]
 # Installed size ≈ tar-size
 # Installed size is approximately equal to the size of the tar file
-tar = "773M"
-tar_bytes = 810380288
+tar = "774M"
+tar_bytes = 810622464
 
 # Space occupied ≈ tar-size + zstd-size
 # You will need to prepare a large enough space before installation.
 zstd = "148M"
-zstd_bytes = 154796384
+zstd_bytes = 154865835
 
 [compatibility]
 compatible_mode = true
 
-previous_version = "latest02"
+previous_version = "latest01"
 
 # The value is &str, not int
-previous_date = "20220415"
-previous_tag = "2022-04-15"
-previous_file = "rust-musl_arm64_2022-04-15_02-59-rootfs.tar.zst"
-previous_sha256 = "61739105b40adcb259d7ce895e50c31a4e1d436e2293695de68034338e7cd7d1"
+previous_date = "20220418"
+previous_tag = "2022-04-18"
+previous_file = "rust-musl_arm64_2022-04-18_03-00-rootfs.tar.zst"
+previous_sha256 = "accee7debf1e2cbe460a04fbc934d8eae43d936002e83f6ae079fae907248942"
 
-current_version = "latest01"
-current_date = "20220418"
-old_file = "rust-musl_arm64_2022-04-11_02-00-rootfs.tar.zst"
-old_sha256 = "3e5e04715f4863a34e13560d4dcab63cb780dcefd62ff242fad84973b119321f"
+current_version = "latest02"
+current_date = "20220422"
+old_file = "rust-musl_arm64_2022-04-15_02-59-rootfs.tar.zst"
+old_sha256 = "61739105b40adcb259d7ce895e50c31a4e1d436e2293695de68034338e7cd7d1"
 # edition 2021
 # DISTRO_NAME=rust_arm64
-# ROOTFS_FILE=rust-musl_arm64_2022-04-18_03-00-rootfs.tar.zst
-# SHA256SUM=accee7debf1e2cbe460a04fbc934d8eae43d936002e83f6ae079fae907248942
-# BUILD_DATE=20220418
-# BUILD_TAG=2022-04-18
+# ROOTFS_FILE=rust-musl_arm64_2022-04-22_03-01-rootfs.tar.zst
+# SHA256SUM=7f9dad5cd56418c92f2a2e60982357b126c8c0c42f9fb3e8f1b65e6bac123ed9
+# BUILD_DATE=20220422
+# BUILD_TAG=2022-04-22
 # STATUS=completed
-# VERSION=latest01
-# END_TIME=03:00
+# VERSION=latest02
+# END_TIME=03:01
 
 [time]
 format = "rfc-3339"
 zone = "UTC"
-date = 2022-04-18
-begin = 2022-04-18 02:52:27.190856713+00:00
-start-sync_0 = 02:54:37
-start-zstd = 02:55:19
-start-sync_1 = 02:59:56
-end-sync_1 = 03:00:10
-end = 2022-04-18 03:00:10.925815007+00:00
+date = 2022-04-22
+begin = 2022-04-22 02:52:34.830295604+00:00
+start-sync_0 = 02:54:47
+start-zstd = 02:55:42
+start-sync_1 = 03:01:01
+end-sync_1 = 03:01:19
+end = 2022-04-22 03:01:19.219728088+00:00
 
 [server]
 repo = "cake233/rust-alpine-arm64"
@@ -171,26 +171,26 @@ CARGO_HOME = "/usr/local/cargo"
 [version]
 ldd = 'musl libc (aarch64) Version 1.2.3'
 rustup = 'rustup 1.24.3 (ce5817a94 2021-05-31)'
-cargo = 'cargo 1.62.0-nightly (dba5baf43 2022-04-13)'
-rustc = 'rustc 1.62.0-nightly (ec77f2524 2022-04-17)'
+cargo = 'cargo 1.62.0-nightly (edffc4ada 2022-04-19)'
+rustc = 'rustc 1.62.0-nightly (de1bc0008 2022-04-21)'
 cc = 'cc (Alpine 11.2.1_git20220219) 11.2.1 20220219'
 cargo_verbose = '''
-cargo 1.62.0-nightly (dba5baf43 2022-04-13)
+cargo 1.62.0-nightly (edffc4ada 2022-04-19)
 release: 1.62.0-nightly
-commit-hash: dba5baf4345858c591517b24801902a062c399f8
-commit-date: 2022-04-13
+commit-hash: edffc4ada3d77799e5a04eeafd9b2f843d29fc23
+commit-date: 2022-04-19
 host: aarch64-unknown-linux-musl
 libgit2: 1.4.2 (sys:0.14.2 vendored)
 libcurl: 7.80.0-DEV (sys:0.4.51+curl-7.80.0 vendored ssl:OpenSSL/1.1.1m)
 os: Alpine Linux 3.16.0_alpha20220328 [64-bit]
 '''
 rustc_verbose = '''
-rustc 1.62.0-nightly (ec77f2524 2022-04-17)
+rustc 1.62.0-nightly (de1bc0008 2022-04-21)
 binary: rustc
-commit-hash: ec77f252434a532fdb5699ae4f21a3072d211edd
-commit-date: 2022-04-17
+commit-hash: de1bc0008be096cf7ed67b93402250d3b3e480d0
+commit-date: 2022-04-21
 host: aarch64-unknown-linux-musl
 release: 1.62.0-nightly
-LLVM version: 14.0.0
+LLVM version: 14.0.1
 '''
 ```
