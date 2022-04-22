@@ -29,10 +29,10 @@ x11_or_wayland = false
 syntax_version = "0.0.0-alpha.3"
 
 [file]
-name = "amazon_arm64_2022-04-22_05-55.tar.zst"
+name = "amazon_arm64_2022-04-22_09-50.tar.zst"
 
 # This value can be used to verify the integrity of the file
-sha256 = "252f5db23e55d2aaae401eda8f292756d4356c300506140e262e64137e1f8992"
+sha256 = "fe7ea992034e767e5018690cd4975f6008e01697d1df91c94fd1b65185540168"
 
 # zstd: [1-22]
 zstd-level = 19
@@ -41,12 +41,12 @@ zstd-level = 19
 # Installed size ≈ tar-size
 # Installed size is approximately equal to the size of the tar file
 tar = "335M"
-tar_bytes = 350253056
+tar_bytes = 350364160
 
 # Space occupied ≈ tar-size + zstd-size
 # You will need to prepare a large enough space before installation.
 zstd = "52M"
-zstd_bytes = 53849455
+zstd_bytes = 53878729
 
 [compatibility]
 compatible_mode = true
@@ -61,28 +61,28 @@ previous_sha256 = "ecc5e6a57f31710eda8b0d63e7c1313aa4cc393f0a1eba840842ddb204a07
 
 current_version = "latest02"
 current_date = "20220422"
-old_file = "amazon_arm64_2022-04-22_05-19-rootfs.tar.zst"
-old_sha256 = "8bf9e2f2d5fe4064fb9f18af6ea5006e9b2bbd26fac7eace4d9768fbca7c990f"
+old_file = "amazon_arm64_2022-04-22_05-55-rootfs.tar.zst"
+old_sha256 = "252f5db23e55d2aaae401eda8f292756d4356c300506140e262e64137e1f8992"
 # edition 2021
 # DISTRO_NAME=amazon_arm64
-# ROOTFS_FILE=amazon_arm64_2022-04-22_05-55-rootfs.tar.zst
-# SHA256SUM=252f5db23e55d2aaae401eda8f292756d4356c300506140e262e64137e1f8992
+# ROOTFS_FILE=amazon_arm64_2022-04-22_09-50-rootfs.tar.zst
+# SHA256SUM=fe7ea992034e767e5018690cd4975f6008e01697d1df91c94fd1b65185540168
 # BUILD_DATE=20220422
 # BUILD_TAG=2022-04-22
 # STATUS=completed
 # VERSION=latest02
-# END_TIME=05:55
+# END_TIME=09:50
 
 [time]
 format = "rfc-3339"
 zone = "UTC"
 date = 2022-04-22
-begin = 2022-04-22 05:51:53.383417438+00:00
-start-sync_0 = 05:53:47
-start-zstd = 05:54:18
-start-sync_1 = 05:55:16
-end-sync_1 = 05:55:29
-end = 2022-04-22 05:55:29.157428946+00:00
+begin = 2022-04-22 09:47:37.987097733+00:00
+start-sync_0 = 09:49:14
+start-zstd = 09:49:33
+start-sync_1 = 09:50:29
+end-sync_1 = 09:50:37
+end = 2022-04-22 09:50:37.634858267+00:00
 
 [server]
 repo = "cake233/amazon-arm64"
@@ -97,14 +97,14 @@ split = false
 [server.node2]
 name = "tmoe"
 current = false
-previous = false
+previous = true
 in_sync = false
 split = false
 
 [server.node3]
 name = "azure"
 current = false
-previous = false
+previous = true
 in_sync = false
 split = false
 
