@@ -86,10 +86,10 @@ x11_or_wayland = true
 syntax_version = "0.0.0-alpha.3"
 
 [file]
-name = "euler-dde_amd64_2022-04-22_03-49.tar.zst"
+name = "euler-dde_amd64_2022-04-22_08-02.tar.zst"
 
 # This value can be used to verify the integrity of the file
-sha256 = "05160fbdaf6cb0ee3826fd6e8832682ffc920b709a501e2936982f807abc0333"
+sha256 = "980b1c5bef555f88e4bc66aea83ff6be047da60eef8698f91f537a529036c9c8"
 
 # zstd: [1-22]
 zstd-level = 18
@@ -97,13 +97,13 @@ zstd-level = 18
 [file.size]
 # Installed size ≈ tar-size
 # Installed size is approximately equal to the size of the tar file
-tar = "4.3G"
-tar_bytes = 4557050368
+tar = "4.5G"
+tar_bytes = 4763501568
 
 # Space occupied ≈ tar-size + zstd-size
 # You will need to prepare a large enough space before installation.
-zstd = "1.3G"
-zstd_bytes = 1340380815
+zstd = "1.4G"
+zstd_bytes = 1406291525
 
 [compatibility]
 compatible_mode = true
@@ -118,28 +118,28 @@ previous_sha256 = "e1cff8d6ac9c08bc2856404cfae37a94a72502f1fd2088b01d194b871a3d6
 
 current_version = "latest02"
 current_date = "20220422"
-old_file = ""
-old_sha256 = ""
+old_file = "euler-dde_amd64_2022-04-22_03-49-rootfs.tar.zst"
+old_sha256 = "05160fbdaf6cb0ee3826fd6e8832682ffc920b709a501e2936982f807abc0333"
 # edition 2021
 # DISTRO_NAME=euler_amd64
-# ROOTFS_FILE=euler-dde_amd64_2022-04-22_03-49-rootfs.tar.zst
-# SHA256SUM=05160fbdaf6cb0ee3826fd6e8832682ffc920b709a501e2936982f807abc0333
+# ROOTFS_FILE=euler-dde_amd64_2022-04-22_08-02-rootfs.tar.zst
+# SHA256SUM=980b1c5bef555f88e4bc66aea83ff6be047da60eef8698f91f537a529036c9c8
 # BUILD_DATE=20220422
 # BUILD_TAG=2022-04-22
 # STATUS=completed
 # VERSION=latest02
-# END_TIME=03:49
+# END_TIME=08:02
 
 [time]
 format = "rfc-3339"
 zone = "UTC"
 date = 2022-04-22
-begin = 2022-04-22 03:21:12.977952411+00:00
-start-sync_0 = 03:31:06
-start-zstd = 03:36:14
-start-sync_1 = 03:47:57
-end-sync_1 = 03:49:25
-end = 2022-04-22 03:49:25.712367382+00:00
+begin = 2022-04-22 07:30:58.221832820+00:00
+start-sync_0 = 07:41:46
+start-zstd = 07:47:02
+start-sync_1 = 08:00:49
+end-sync_1 = 08:02:29
+end = 2022-04-22 08:02:29.608876103+00:00
 
 [server]
 repo = "cake233/euler-dde-amd64"
