@@ -1,0 +1,118 @@
+# cblmariner-arm64
+
+## How to run it?
+
+```sh
+docker run \
+    -it \
+    --name cblmariner-arm64 \
+    cake233/cblmariner-arm64
+```
+
+## How to exec shell?
+
+```sh
+docker exec -it cblmariner-arm64 sh
+```
+
+## cblmariner-arm64.toml
+
+```toml
+[main]
+name = "cblmariner"
+tag = ["base", "2022-04-22"]
+os = "cblmariner"
+release = "base"
+arch = "arm64"
+platform = "linux/arm64"
+x11_or_wayland = false
+syntax_version = "0.0.0-alpha.3"
+
+[file]
+name = "cblmariner_arm64_2022-04-22_08-54.tar.zst"
+
+# This value can be used to verify the integrity of the file
+sha256 = "b66c8208bdd58ac1b1fb1f46927df20761181ba0c0bad0e04141d6fc5c7ff3e8"
+
+# zstd: [1-22]
+zstd-level = 19
+
+[file.size]
+# Installed size ≈ tar-size
+# Installed size is approximately equal to the size of the tar file
+tar = "243M"
+tar_bytes = 254697984
+
+# Space occupied ≈ tar-size + zstd-size
+# You will need to prepare a large enough space before installation.
+zstd = "73M"
+zstd_bytes = 76179125
+
+[compatibility]
+compatible_mode = true
+
+previous_version = "latest02"
+
+# The value is &str, not int
+previous_date = "20211128"
+previous_tag = ""
+previous_file = ""
+previous_sha256 = ""
+
+current_version = "latest01"
+current_date = "20220422"
+old_file = ""
+old_sha256 = ""
+# edition 2021
+# DISTRO_NAME=cblmariner_arm64
+# ROOTFS_FILE=cblmariner_arm64_2022-04-22_08-54-rootfs.tar.zst
+# SHA256SUM=b66c8208bdd58ac1b1fb1f46927df20761181ba0c0bad0e04141d6fc5c7ff3e8
+# BUILD_DATE=20220422
+# BUILD_TAG=2022-04-22
+# STATUS=completed
+# VERSION=latest01
+# END_TIME=08:54
+
+[time]
+format = "rfc-3339"
+zone = "UTC"
+date = 2022-04-22
+begin = 2022-04-22 08:51:20.711140973+00:00
+start-sync_0 = 08:52:59
+start-zstd = 08:53:17
+start-sync_1 = 08:54:11
+end-sync_1 = 08:54:20
+end = 2022-04-22 08:54:20.952374865+00:00
+
+[server]
+repo = "cake233/cblmariner-arm64"
+
+[server.node1]
+name = "cn"
+current = false
+previous = false
+in_sync = false
+split = false
+
+[server.node2]
+name = "tmoe"
+current = false
+previous = true
+in_sync = false
+split = false
+
+[server.node3]
+name = "azure"
+current = false
+previous = true
+in_sync = false
+split = false
+
+[server.node4]
+name = "docker"
+current = true
+
+# Environment variables  (●＞ω＜●)
+[env]
+LANG = "en_US.UTF-8"
+```
