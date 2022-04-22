@@ -29,10 +29,10 @@ x11_or_wayland = false
 syntax_version = "0.0.0-alpha.3"
 
 [file]
-name = "euler_arm64_2022-04-22_00-36.tar.zst"
+name = "euler_arm64_2022-04-22_00-51.tar.zst"
 
 # This value can be used to verify the integrity of the file
-sha256 = "7f840b17dbe0a714d82d94bb4ab824e6f5497518cbcd079452dfff811687bbae"
+sha256 = "3b229d82a7c24481bb77a99aa6c0a5118047233698ad3144e8da652a348a572f"
 
 # zstd: [1-22]
 zstd-level = 19
@@ -40,13 +40,13 @@ zstd-level = 19
 [file.size]
 # Installed size ≈ tar-size
 # Installed size is approximately equal to the size of the tar file
-tar = "246M"
-tar_bytes = 257421312
+tar = "456M"
+tar_bytes = 477766144
 
 # Space occupied ≈ tar-size + zstd-size
 # You will need to prepare a large enough space before installation.
-zstd = "49M"
-zstd_bytes = 50470414
+zstd = "65M"
+zstd_bytes = 67855995
 
 [compatibility]
 compatible_mode = true
@@ -65,24 +65,24 @@ old_file = ""
 old_sha256 = ""
 # edition 2021
 # DISTRO_NAME=euler_arm64
-# ROOTFS_FILE=euler_arm64_2022-04-22_00-36-rootfs.tar.zst
-# SHA256SUM=7f840b17dbe0a714d82d94bb4ab824e6f5497518cbcd079452dfff811687bbae
+# ROOTFS_FILE=euler_arm64_2022-04-22_00-51-rootfs.tar.zst
+# SHA256SUM=3b229d82a7c24481bb77a99aa6c0a5118047233698ad3144e8da652a348a572f
 # BUILD_DATE=20220422
 # BUILD_TAG=2022-04-22
 # STATUS=completed
 # VERSION=latest01
-# END_TIME=00:36
+# END_TIME=00:51
 
 [time]
 format = "rfc-3339"
 zone = "UTC"
 date = 2022-04-22
-begin = 2022-04-22 00:32:23.188111795+00:00
-start-sync_0 = 00:34:58
-start-zstd = 00:35:17
-start-sync_1 = 00:36:03
-end-sync_1 = 00:36:16
-end = 2022-04-22 00:36:16.469388602+00:00
+begin = 2022-04-22 00:46:28.763417947+00:00
+start-sync_0 = 00:49:35
+start-zstd = 00:50:01
+start-sync_1 = 00:51:13
+end-sync_1 = 00:51:24
+end = 2022-04-22 00:51:24.923563657+00:00
 
 [server]
 repo = "cake233/euler-arm64"
