@@ -29,10 +29,10 @@ x11_or_wayland = false
 syntax_version = "0.0.0-alpha.3"
 
 [file]
-name = "cblmariner_amd64_2022-04-22_08-53.tar.zst"
+name = "cblmariner_amd64_2022-04-22_09-26.tar.zst"
 
 # This value can be used to verify the integrity of the file
-sha256 = "9dcf8447d7d892fcc912c745ce906b4f8b8a1e160fd3b16144d03a047cbe682c"
+sha256 = "939fa023d86ddb18a46064446eef91f069a74a7c65fe5352cb38119623a85c54"
 
 # zstd: [1-22]
 zstd-level = 19
@@ -40,49 +40,49 @@ zstd-level = 19
 [file.size]
 # Installed size ≈ tar-size
 # Installed size is approximately equal to the size of the tar file
-tar = "261M"
-tar_bytes = 272933376
+tar = "281M"
+tar_bytes = 294432256
 
 # Space occupied ≈ tar-size + zstd-size
 # You will need to prepare a large enough space before installation.
-zstd = "80M"
-zstd_bytes = 83769523
+zstd = "85M"
+zstd_bytes = 88503120
 
 [compatibility]
 compatible_mode = true
 
-previous_version = "latest02"
+previous_version = "latest01"
 
 # The value is &str, not int
-previous_date = "20211128"
-previous_tag = ""
-previous_file = ""
-previous_sha256 = ""
+previous_date = "20220422"
+previous_tag = "2022-04-22"
+previous_file = "cblmariner_amd64_2022-04-22_08-53-rootfs.tar.zst"
+previous_sha256 = "9dcf8447d7d892fcc912c745ce906b4f8b8a1e160fd3b16144d03a047cbe682c"
 
-current_version = "latest01"
+current_version = "latest02"
 current_date = "20220422"
 old_file = ""
 old_sha256 = ""
 # edition 2021
 # DISTRO_NAME=cblmariner_amd64
-# ROOTFS_FILE=cblmariner_amd64_2022-04-22_08-53-rootfs.tar.zst
-# SHA256SUM=9dcf8447d7d892fcc912c745ce906b4f8b8a1e160fd3b16144d03a047cbe682c
+# ROOTFS_FILE=cblmariner_amd64_2022-04-22_09-26-rootfs.tar.zst
+# SHA256SUM=939fa023d86ddb18a46064446eef91f069a74a7c65fe5352cb38119623a85c54
 # BUILD_DATE=20220422
 # BUILD_TAG=2022-04-22
 # STATUS=completed
-# VERSION=latest01
-# END_TIME=08:53
+# VERSION=latest02
+# END_TIME=09:26
 
 [time]
 format = "rfc-3339"
 zone = "UTC"
 date = 2022-04-22
-begin = 2022-04-22 08:51:23.412994379+00:00
-start-sync_0 = 08:52:18
-start-zstd = 08:52:42
-start-sync_1 = 08:53:35
-end-sync_1 = 08:53:49
-end = 2022-04-22 08:53:49.118331625+00:00
+begin = 2022-04-22 09:24:15.998193707+00:00
+start-sync_0 = 09:24:49
+start-zstd = 09:24:59
+start-sync_1 = 09:25:56
+end-sync_1 = 09:26:10
+end = 2022-04-22 09:26:10.947298200+00:00
 
 [server]
 repo = "cake233/cblmariner-amd64"
