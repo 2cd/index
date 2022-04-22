@@ -29,10 +29,10 @@ x11_or_wayland = false
 syntax_version = "0.0.0-alpha.3"
 
 [file]
-name = "amazon_amd64_2022-04-22_05-18.tar.zst"
+name = "amazon_amd64_2022-04-22_05-53.tar.zst"
 
 # This value can be used to verify the integrity of the file
-sha256 = "0eae29f03338e5b7a9abcb072c2e74bf1a8885c2b57f55034ff13c98fd6f96b8"
+sha256 = "8baab41c9c446ac9c85aafa76e797d8cea69e410dbcbe15741486538b7d23726"
 
 # zstd: [1-22]
 zstd-level = 19
@@ -40,13 +40,13 @@ zstd-level = 19
 [file.size]
 # Installed size ≈ tar-size
 # Installed size is approximately equal to the size of the tar file
-tar = "296M"
-tar_bytes = 309843968
+tar = "300M"
+tar_bytes = 314483200
 
 # Space occupied ≈ tar-size + zstd-size
 # You will need to prepare a large enough space before installation.
-zstd = "50M"
-zstd_bytes = 52070693
+zstd = "51M"
+zstd_bytes = 53382752
 
 [compatibility]
 compatible_mode = true
@@ -61,28 +61,28 @@ previous_sha256 = "4a211daa6909c7c88f20bf2a12a01bd75207fee8b603be2a2c5eb7063449f
 
 current_version = "latest02"
 current_date = "20220422"
-old_file = ""
-old_sha256 = ""
+old_file = "amazon_amd64_2022-04-22_05-18-rootfs.tar.zst"
+old_sha256 = "0eae29f03338e5b7a9abcb072c2e74bf1a8885c2b57f55034ff13c98fd6f96b8"
 # edition 2021
 # DISTRO_NAME=amazon_amd64
-# ROOTFS_FILE=amazon_amd64_2022-04-22_05-18-rootfs.tar.zst
-# SHA256SUM=0eae29f03338e5b7a9abcb072c2e74bf1a8885c2b57f55034ff13c98fd6f96b8
+# ROOTFS_FILE=amazon_amd64_2022-04-22_05-53-rootfs.tar.zst
+# SHA256SUM=8baab41c9c446ac9c85aafa76e797d8cea69e410dbcbe15741486538b7d23726
 # BUILD_DATE=20220422
 # BUILD_TAG=2022-04-22
 # STATUS=completed
 # VERSION=latest02
-# END_TIME=05:18
+# END_TIME=05:53
 
 [time]
 format = "rfc-3339"
 zone = "UTC"
 date = 2022-04-22
-begin = 2022-04-22 05:16:17.312901199+00:00
-start-sync_0 = 05:16:55
-start-zstd = 05:17:29
-start-sync_1 = 05:18:28
-end-sync_1 = 05:18:41
-end = 2022-04-22 05:18:41.141974125+00:00
+begin = 2022-04-22 05:51:48.248221553+00:00
+start-sync_0 = 05:52:23
+start-zstd = 05:52:48
+start-sync_1 = 05:53:38
+end-sync_1 = 05:53:46
+end = 2022-04-22 05:53:46.231528156+00:00
 
 [server]
 repo = "cake233/amazon-amd64"
