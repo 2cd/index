@@ -9,10 +9,10 @@ x11_or_wayland = false
 syntax_version = "0.0.0-alpha.3"
 
 [file]
-name = "oracle_amd64_2022-04-22_04-14.tar.zst"
+name = "oracle_amd64_2022-04-22_05-19.tar.zst"
 
 # This value can be used to verify the integrity of the file
-sha256 = "3b2508890a918c8506947e74255fef3666a556e5cb54f7b4aeffa95d302ec6a0"
+sha256 = "42330d68d8a204665b1f6ddbe897f86f0f773f30161d27eeea32a46e8d7a3f73"
 
 # zstd: [1-22]
 zstd-level = 19
@@ -26,43 +26,43 @@ tar_bytes = 468356608
 # Space occupied ≈ tar-size + zstd-size
 # You will need to prepare a large enough space before installation.
 zstd = "74M"
-zstd_bytes = 77453861
+zstd_bytes = 77453807
 
 [compatibility]
 compatible_mode = true
 
-previous_version = "latest02"
+previous_version = "latest01"
 
 # The value is &str, not int
-previous_date = "20211128"
-previous_tag = ""
-previous_file = ""
-previous_sha256 = ""
+previous_date = "20220422"
+previous_tag = "2022-04-22"
+previous_file = "oracle_amd64_2022-04-22_04-14-rootfs.tar.zst"
+previous_sha256 = "3b2508890a918c8506947e74255fef3666a556e5cb54f7b4aeffa95d302ec6a0"
 
-current_version = "latest01"
+current_version = "latest02"
 current_date = "20220422"
 old_file = ""
 old_sha256 = ""
 # edition 2021
 # DISTRO_NAME=oracle_amd64
-# ROOTFS_FILE=oracle_amd64_2022-04-22_04-14-rootfs.tar.zst
-# SHA256SUM=3b2508890a918c8506947e74255fef3666a556e5cb54f7b4aeffa95d302ec6a0
+# ROOTFS_FILE=oracle_amd64_2022-04-22_05-19-rootfs.tar.zst
+# SHA256SUM=42330d68d8a204665b1f6ddbe897f86f0f773f30161d27eeea32a46e8d7a3f73
 # BUILD_DATE=20220422
 # BUILD_TAG=2022-04-22
 # STATUS=completed
-# VERSION=latest01
-# END_TIME=04:14
+# VERSION=latest02
+# END_TIME=05:19
 
 [time]
 format = "rfc-3339"
 zone = "UTC"
 date = 2022-04-22
-begin = 2022-04-22 04:11:18.711433977+00:00
-start-sync_0 = 04:12:12
-start-zstd = 04:12:45
-start-sync_1 = 04:14:03
-end-sync_1 = 04:14:14
-end = 2022-04-22 04:14:14.724904950+00:00
+begin = 2022-04-22 05:16:16.055046463+00:00
+start-sync_0 = 05:17:04
+start-zstd = 05:17:28
+start-sync_1 = 05:18:51
+end-sync_1 = 05:19:00
+end = 2022-04-22 05:19:00.741675453+00:00
 
 [server]
 repo = "cake233/oracle-amd64"
@@ -76,18 +76,16 @@ split = false
 
 [server.node2]
 name = "tmoe"
-current = true
+current = false
 previous = false
 in_sync = false
 split = false
 
 [server.node3]
 name = "azure"
-current = true
+current = false
 previous = false
 in_sync = false
-start_sync = 2022-04-22 04:47:17.039299608+00:00
-end_sync = 2022-04-22 04:47:41.230865835+00:00
 split = false
 
 [server.node4]
