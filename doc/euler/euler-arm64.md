@@ -29,10 +29,10 @@ x11_or_wayland = false
 syntax_version = "0.0.0-alpha.3"
 
 [file]
-name = "euler_arm64_2022-04-22_00-51.tar.zst"
+name = "euler_arm64_2022-04-22_01-11.tar.zst"
 
 # This value can be used to verify the integrity of the file
-sha256 = "3b229d82a7c24481bb77a99aa6c0a5118047233698ad3144e8da652a348a572f"
+sha256 = "ee7ea4521eee04549d8ba24329ea06e73012733ec3c1dd8768bc8a4705958918"
 
 # zstd: [1-22]
 zstd-level = 19
@@ -46,43 +46,43 @@ tar_bytes = 477766144
 # Space occupied ≈ tar-size + zstd-size
 # You will need to prepare a large enough space before installation.
 zstd = "65M"
-zstd_bytes = 67855995
+zstd_bytes = 67852220
 
 [compatibility]
 compatible_mode = true
 
-previous_version = "latest02"
+previous_version = "latest01"
 
 # The value is &str, not int
-previous_date = "20211128"
-previous_tag = ""
-previous_file = ""
-previous_sha256 = ""
+previous_date = "20220422"
+previous_tag = "2022-04-22"
+previous_file = "euler_arm64_2022-04-22_00-51-rootfs.tar.zst"
+previous_sha256 = "3b229d82a7c24481bb77a99aa6c0a5118047233698ad3144e8da652a348a572f"
 
-current_version = "latest01"
+current_version = "latest02"
 current_date = "20220422"
 old_file = ""
 old_sha256 = ""
 # edition 2021
 # DISTRO_NAME=euler_arm64
-# ROOTFS_FILE=euler_arm64_2022-04-22_00-51-rootfs.tar.zst
-# SHA256SUM=3b229d82a7c24481bb77a99aa6c0a5118047233698ad3144e8da652a348a572f
+# ROOTFS_FILE=euler_arm64_2022-04-22_01-11-rootfs.tar.zst
+# SHA256SUM=ee7ea4521eee04549d8ba24329ea06e73012733ec3c1dd8768bc8a4705958918
 # BUILD_DATE=20220422
 # BUILD_TAG=2022-04-22
 # STATUS=completed
-# VERSION=latest01
-# END_TIME=00:51
+# VERSION=latest02
+# END_TIME=01:11
 
 [time]
 format = "rfc-3339"
 zone = "UTC"
 date = 2022-04-22
-begin = 2022-04-22 00:46:28.763417947+00:00
-start-sync_0 = 00:49:35
-start-zstd = 00:50:01
-start-sync_1 = 00:51:13
-end-sync_1 = 00:51:24
-end = 2022-04-22 00:51:24.923563657+00:00
+begin = 2022-04-22 01:07:04.493591133+00:00
+start-sync_0 = 01:09:57
+start-zstd = 01:10:19
+start-sync_1 = 01:11:37
+end-sync_1 = 01:11:46
+end = 2022-04-22 01:11:46.103727182+00:00
 
 [server]
 repo = "cake233/euler-arm64"
