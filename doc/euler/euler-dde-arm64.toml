@@ -9,10 +9,10 @@ x11_or_wayland = true
 syntax_version = "0.0.0-alpha.3"
 
 [file]
-name = "euler-dde_arm64_2022-04-22_04-06.tar.zst"
+name = "euler-dde_arm64_2022-04-22_08-16.tar.zst"
 
 # This value can be used to verify the integrity of the file
-sha256 = "e34f4cd5fefe54e0978b6866bebaf23c2f434ed46c3d3dd07f394479979ddbee"
+sha256 = "43e4e5ff3d9e79a3c9da2f97d10249c2e32cb405eb6df0dffa025d4a0b4e47d6"
 
 # zstd: [1-22]
 zstd-level = 18
@@ -20,13 +20,13 @@ zstd-level = 18
 [file.size]
 # Installed size ≈ tar-size
 # Installed size is approximately equal to the size of the tar file
-tar = "4.3G"
-tar_bytes = 4604140032
+tar = "4.5G"
+tar_bytes = 4827781120
 
 # Space occupied ≈ tar-size + zstd-size
 # You will need to prepare a large enough space before installation.
 zstd = "1.3G"
-zstd_bytes = 1302570745
+zstd_bytes = 1374775057
 
 [compatibility]
 compatible_mode = true
@@ -41,28 +41,28 @@ previous_sha256 = "8f636ec543e827cdecda89377af3815aecb9b4dfba1c3eae99029da8319eb
 
 current_version = "latest02"
 current_date = "20220422"
-old_file = ""
-old_sha256 = ""
+old_file = "euler-dde_arm64_2022-04-22_04-06-rootfs.tar.zst"
+old_sha256 = "e34f4cd5fefe54e0978b6866bebaf23c2f434ed46c3d3dd07f394479979ddbee"
 # edition 2021
 # DISTRO_NAME=euler_arm64
-# ROOTFS_FILE=euler-dde_arm64_2022-04-22_04-06-rootfs.tar.zst
-# SHA256SUM=e34f4cd5fefe54e0978b6866bebaf23c2f434ed46c3d3dd07f394479979ddbee
+# ROOTFS_FILE=euler-dde_arm64_2022-04-22_08-16-rootfs.tar.zst
+# SHA256SUM=43e4e5ff3d9e79a3c9da2f97d10249c2e32cb405eb6df0dffa025d4a0b4e47d6
 # BUILD_DATE=20220422
 # BUILD_TAG=2022-04-22
 # STATUS=completed
 # VERSION=latest02
-# END_TIME=04:06
+# END_TIME=08:16
 
 [time]
 format = "rfc-3339"
 zone = "UTC"
 date = 2022-04-22
-begin = 2022-04-22 03:21:11.077560450+00:00
-start-sync_0 = 03:48:46
-start-zstd = 03:53:19
-start-sync_1 = 04:05:19
-end-sync_1 = 04:06:49
-end = 2022-04-22 04:06:49.482449442+00:00
+begin = 2022-04-22 07:30:57.050407185+00:00
+start-sync_0 = 07:56:40
+start-zstd = 08:00:49
+start-sync_1 = 08:14:59
+end-sync_1 = 08:16:27
+end = 2022-04-22 08:16:27.653867778+00:00
 
 [server]
 repo = "cake233/euler-dde-arm64"
@@ -76,18 +76,16 @@ split = false
 
 [server.node2]
 name = "tmoe"
-current = true
-previous = false
+current = false
+previous = true
 in_sync = false
 split = false
 
 [server.node3]
 name = "azure"
-current = true
+current = false
 previous = true
 in_sync = false
-start_sync = 2022-04-22 04:21:56.713109912+00:00
-end_sync = 2022-04-22 04:25:50.800106184+00:00
 split = false
 
 [server.node4]
