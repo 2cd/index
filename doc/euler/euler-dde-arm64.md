@@ -1,0 +1,158 @@
+# euler-dde-arm64
+
+## How to run it?
+
+```sh
+# install docker
+if [ -z "$(command -v docker)" ]; then
+    apt update
+    apt install docker.io
+    # If your host architecture is not arm64, then install qemu & binfmt-support.
+    apt install qemu-user-static
+fi
+
+# 5903 is the host vnc port
+# 5902 is the container vnc port
+# 36080 is the container novnc port
+docker run \
+    -it \
+    --shm-size 512m \
+    -p 5903:5902 \
+    -p 36081:36080 \
+    --name euler-dde-arm64 \
+    -e LANG=en_US.UTF-8 \
+    cake233/euler-dde-arm64
+
+# optional: bind audio server
+# host cmd: pactl load-module module-native-protocol-unix socket=/path/to/src.socket
+# docker args: -v /path/to/src.socket:/path/to/target.socket \
+# -e PULSE_SERVER=unix:/path/to/target.socket
+
+```
+
+## How to start vnc?
+
+```sh
+    docker exex -it euler-dde-arm64 bash
+```
+
+The default user is root.
+
+After entering the container, you can create a new user, and then switch to it.
+
+Finally, run the following commands.
+
+```sh
+    startvnc
+```
+
+If you want to use tigervnc, then open vnc viewer, then type the address:
+
+```
+localhost:5903
+```
+
+## euler-dde-arm64.toml
+
+```toml
+[main]
+name = "euler"
+tag = ["dde", "2022-04-22"]
+os = "euler"
+release = "dde"
+arch = "arm64"
+platform = "linux/arm64"
+x11_or_wayland = true
+syntax_version = "0.0.0-alpha.3"
+
+[file]
+name = "euler-dde_arm64_2022-04-22_01-59.tar.zst"
+
+# This value can be used to verify the integrity of the file
+sha256 = "8f636ec543e827cdecda89377af3815aecb9b4dfba1c3eae99029da8319eb6b8"
+
+# zstd: [1-22]
+zstd-level = 13
+
+[file.size]
+# Installed size ≈ tar-size
+# Installed size is approximately equal to the size of the tar file
+tar = "4.3G"
+tar_bytes = 4580879872
+
+# Space occupied ≈ tar-size + zstd-size
+# You will need to prepare a large enough space before installation.
+zstd = "1.4G"
+zstd_bytes = 1465266606
+
+[compatibility]
+compatible_mode = true
+
+previous_version = "latest02"
+
+# The value is &str, not int
+previous_date = "20211128"
+previous_tag = ""
+previous_file = ""
+previous_sha256 = ""
+
+current_version = "latest01"
+current_date = "20220422"
+old_file = ""
+old_sha256 = ""
+# edition 2021
+# DISTRO_NAME=euler_arm64
+# ROOTFS_FILE=euler-dde_arm64_2022-04-22_01-59-rootfs.tar.zst
+# SHA256SUM=8f636ec543e827cdecda89377af3815aecb9b4dfba1c3eae99029da8319eb6b8
+# BUILD_DATE=20220422
+# BUILD_TAG=2022-04-22
+# STATUS=completed
+# VERSION=latest01
+# END_TIME=01:59
+
+[time]
+format = "rfc-3339"
+zone = "UTC"
+date = 2022-04-22
+begin = 2022-04-22 01:12:04.238447141+00:00
+start-sync_0 = 01:48:53
+start-zstd = 01:53:44
+start-sync_1 = 01:58:10
+end-sync_1 = 01:59:47
+end = 2022-04-22 01:59:47.416161363+00:00
+
+[server]
+repo = "cake233/euler-dde-arm64"
+
+[server.node1]
+name = "cn"
+current = false
+previous = false
+in_sync = false
+split = false
+
+[server.node2]
+name = "tmoe"
+current = false
+previous = true
+in_sync = false
+split = false
+
+[server.node3]
+name = "azure"
+current = false
+previous = true
+in_sync = false
+split = false
+
+[server.node4]
+name = "docker"
+current = true
+
+# Environment variables  (●＞ω＜●)
+[env]
+LANG = "en_US.UTF-8"
+
+[port]
+tcp = [5902]
+```
