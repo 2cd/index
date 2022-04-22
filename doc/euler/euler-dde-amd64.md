@@ -1,3 +1,5 @@
+# euler-dde-amd64
+
 ## How to run it?
 
 ```sh
@@ -31,7 +33,7 @@ docker run \
 ## How to start vnc?
 
 ```sh
-    docker exex -it euler-dde-amd64 bash
+    docker exex -it euler-dde-amd64 zsh
 ```
 
 The default user is root.
@@ -84,60 +86,60 @@ x11_or_wayland = true
 syntax_version = "0.0.0-alpha.3"
 
 [file]
-name = "euler-dde_amd64_2022-04-22_01-31.tar.zst"
+name = "euler-dde_amd64_2022-04-22_03-49.tar.zst"
 
 # This value can be used to verify the integrity of the file
-sha256 = "e1cff8d6ac9c08bc2856404cfae37a94a72502f1fd2088b01d194b871a3d6a64"
+sha256 = "05160fbdaf6cb0ee3826fd6e8832682ffc920b709a501e2936982f807abc0333"
 
 # zstd: [1-22]
-zstd-level = 13
+zstd-level = 18
 
 [file.size]
 # Installed size ≈ tar-size
 # Installed size is approximately equal to the size of the tar file
 tar = "4.3G"
-tar_bytes = 4529408512
+tar_bytes = 4557050368
 
 # Space occupied ≈ tar-size + zstd-size
 # You will need to prepare a large enough space before installation.
-zstd = "1.4G"
-zstd_bytes = 1498977062
+zstd = "1.3G"
+zstd_bytes = 1340380815
 
 [compatibility]
 compatible_mode = true
 
-previous_version = "latest02"
+previous_version = "latest01"
 
 # The value is &str, not int
-previous_date = "20211128"
-previous_tag = ""
-previous_file = ""
-previous_sha256 = ""
+previous_date = "20220422"
+previous_tag = "2022-04-22"
+previous_file = "euler-dde_amd64_2022-04-22_01-31-rootfs.tar.zst"
+previous_sha256 = "e1cff8d6ac9c08bc2856404cfae37a94a72502f1fd2088b01d194b871a3d6a64"
 
-current_version = "latest01"
+current_version = "latest02"
 current_date = "20220422"
 old_file = ""
 old_sha256 = ""
 # edition 2021
 # DISTRO_NAME=euler_amd64
-# ROOTFS_FILE=euler-dde_amd64_2022-04-22_01-31-rootfs.tar.zst
-# SHA256SUM=e1cff8d6ac9c08bc2856404cfae37a94a72502f1fd2088b01d194b871a3d6a64
+# ROOTFS_FILE=euler-dde_amd64_2022-04-22_03-49-rootfs.tar.zst
+# SHA256SUM=05160fbdaf6cb0ee3826fd6e8832682ffc920b709a501e2936982f807abc0333
 # BUILD_DATE=20220422
 # BUILD_TAG=2022-04-22
 # STATUS=completed
-# VERSION=latest01
-# END_TIME=01:31
+# VERSION=latest02
+# END_TIME=03:49
 
 [time]
 format = "rfc-3339"
 zone = "UTC"
 date = 2022-04-22
-begin = 2022-04-22 01:12:01.572119971+00:00
-start-sync_0 = 01:22:23
-start-zstd = 01:26:35
-start-sync_1 = 01:30:29
-end-sync_1 = 01:31:59
-end = 2022-04-22 01:31:59.543294707+00:00
+begin = 2022-04-22 03:21:12.977952411+00:00
+start-sync_0 = 03:31:06
+start-zstd = 03:36:14
+start-sync_1 = 03:47:57
+end-sync_1 = 03:49:25
+end = 2022-04-22 03:49:25.712367382+00:00
 
 [server]
 repo = "cake233/euler-dde-amd64"
