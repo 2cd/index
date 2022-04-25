@@ -1,0 +1,118 @@
+# ubuntu-kinetic-armv7
+
+## How to run it?
+
+```sh
+docker run \
+    -it \
+    --name ubuntu-kinetic-armv7 \
+    cake233/ubuntu-kinetic-armv7
+```
+
+## How to exec shell?
+
+```sh
+docker exec -it ubuntu-kinetic-armv7 sh
+```
+
+## ubuntu-kinetic-armv7.toml
+
+```toml
+[main]
+name = "ubuntu"
+tag = ["kinetic", "2022-04-25", "devel"]
+os = "ubuntu"
+release = "dev"
+arch = "armhf"
+platform = "linux/arm/v7"
+x11_or_wayland = false
+syntax_version = "0.0.0-alpha.3"
+
+[file]
+name = "ubuntu-kinetic_armhf_2022-04-25_19-29.tar.zst"
+
+# This value can be used to verify the integrity of the file
+sha256 = "8d248cc436f28569fde310a86d7484a8b49e064b417f338c2cbc04e7c54f072a"
+
+# zstd: [1-22]
+zstd-level = 19
+
+[file.size]
+# Installed size ≈ tar-size
+# Installed size is approximately equal to the size of the tar file
+tar = "382M"
+tar_bytes = 400048640
+
+# Space occupied ≈ tar-size + zstd-size
+# You will need to prepare a large enough space before installation.
+zstd = "67M"
+zstd_bytes = 69245082
+
+[compatibility]
+compatible_mode = true
+
+previous_version = "latest02"
+
+# The value is &str, not int
+previous_date = "20211128"
+previous_tag = ""
+previous_file = ""
+previous_sha256 = ""
+
+current_version = "latest01"
+current_date = "20220425"
+old_file = ""
+old_sha256 = ""
+# edition 2021
+# DISTRO_NAME=ubuntu-dev_armhf
+# ROOTFS_FILE=ubuntu-kinetic_armhf_2022-04-25_19-29-rootfs.tar.zst
+# SHA256SUM=8d248cc436f28569fde310a86d7484a8b49e064b417f338c2cbc04e7c54f072a
+# BUILD_DATE=20220425
+# BUILD_TAG=2022-04-25
+# STATUS=completed
+# VERSION=latest01
+# END_TIME=19:29
+
+[time]
+format = "rfc-3339"
+zone = "UTC"
+date = 2022-04-25
+begin = 2022-04-25 19:23:48.597114925+00:00
+start-sync_0 = 19:27:51
+start-zstd = 19:28:14
+start-sync_1 = 19:29:20
+end-sync_1 = 19:29:29
+end = 2022-04-25 19:29:29.646321188+00:00
+
+[server]
+repo = "cake233/ubuntu-kinetic-armv7"
+
+[server.node1]
+name = "cn"
+current = false
+previous = false
+in_sync = false
+split = false
+
+[server.node2]
+name = "tmoe"
+current = false
+previous = true
+in_sync = false
+split = false
+
+[server.node3]
+name = "azure"
+current = false
+previous = true
+in_sync = false
+split = false
+
+[server.node4]
+name = "docker"
+current = true
+
+# Environment variables  (●＞ω＜●)
+[env]
+LANG = "en_US.UTF-8"
+```
