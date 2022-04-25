@@ -1,6 +1,6 @@
 [main]
 name = "php"
-tag = ["latest", "2022-04-11"]
+tag = ["latest", "2022-04-25"]
 os = "debian"
 release = "stable"
 arch = "arm64"
@@ -9,10 +9,10 @@ x11_or_wayland = false
 syntax_version = "0.0.0-alpha.3"
 
 [file]
-name = "php_arm64_2022-04-11_11-09.tar.zst"
+name = "php_arm64_2022-04-25_12-10.tar.zst"
 
 # This value can be used to verify the integrity of the file
-sha256 = "967e3cac0e2dea6a742f85e9e8d8ad5e6500a68c875998fcb6a8dce0b1d860bc"
+sha256 = "049f086e87432df09b53f5703303b8f9567863ac7b38298652051bf10d5f94ec"
 
 # zstd: [1-22]
 zstd-level = 22
@@ -21,48 +21,48 @@ zstd-level = 22
 # Installed size ≈ tar-size
 # Installed size is approximately equal to the size of the tar file
 tar = "456M"
-tar_bytes = 478094848
+tar_bytes = 478146048
 
 # Space occupied ≈ tar-size + zstd-size
 # You will need to prepare a large enough space before installation.
 zstd = "99M"
-zstd_bytes = 102804906
+zstd_bytes = 102847557
 
 [compatibility]
 compatible_mode = true
 
-previous_version = "latest02"
+previous_version = "latest01"
 
 # The value is &str, not int
-previous_date = "20220328"
-previous_tag = "2022-03-28"
-previous_file = "php_arm64_2022-03-28_11-10-rootfs.tar.zst"
-previous_sha256 = "724d22cbb9c5e7518ca926f7fe163262017d2ff9ae45ea971ea95c5fa76da3ef"
+previous_date = "20220411"
+previous_tag = "2022-04-11"
+previous_file = "php_arm64_2022-04-11_11-09-rootfs.tar.zst"
+previous_sha256 = "967e3cac0e2dea6a742f85e9e8d8ad5e6500a68c875998fcb6a8dce0b1d860bc"
 
-current_version = "latest01"
-current_date = "20220411"
-old_file = "php_arm64_2022-03-24_12-33-rootfs.tar.zst"
-old_sha256 = "9ef17bc1c8144fd9e08b67c3d9a1460a0473aa5f39cbde4825ad0fdae64316c8"
+current_version = "latest02"
+current_date = "20220425"
+old_file = "php_arm64_2022-03-28_11-10-rootfs.tar.zst"
+old_sha256 = "724d22cbb9c5e7518ca926f7fe163262017d2ff9ae45ea971ea95c5fa76da3ef"
 # edition 2021
 # DISTRO_NAME=php_arm64
-# ROOTFS_FILE=php_arm64_2022-04-11_11-09-rootfs.tar.zst
-# SHA256SUM=967e3cac0e2dea6a742f85e9e8d8ad5e6500a68c875998fcb6a8dce0b1d860bc
-# BUILD_DATE=20220411
-# BUILD_TAG=2022-04-11
+# ROOTFS_FILE=php_arm64_2022-04-25_12-10-rootfs.tar.zst
+# SHA256SUM=049f086e87432df09b53f5703303b8f9567863ac7b38298652051bf10d5f94ec
+# BUILD_DATE=20220425
+# BUILD_TAG=2022-04-25
 # STATUS=completed
-# VERSION=latest01
-# END_TIME=11:09
+# VERSION=latest02
+# END_TIME=12:10
 
 [time]
 format = "rfc-3339"
 zone = "UTC"
-date = 2022-04-11
-begin = 2022-04-11 11:02:35.263502793+00:00
-start-sync_0 = 11:04:56
-start-zstd = 11:05:08
-start-sync_1 = 11:09:02
-end-sync_1 = 11:09:13
-end = 2022-04-11 11:09:13.718804185+00:00
+date = 2022-04-25
+begin = 2022-04-25 12:02:36.997673673+00:00
+start-sync_0 = 12:05:23
+start-zstd = 12:05:39
+start-sync_1 = 12:10:01
+end-sync_1 = 12:10:16
+end = 2022-04-25 12:10:16.694581905+00:00
 
 [server]
 repo = "cake233/php-arm64"
@@ -76,18 +76,16 @@ split = false
 
 [server.node2]
 name = "tmoe"
-current = true
-previous = false
+current = false
+previous = true
 in_sync = false
 split = false
 
 [server.node3]
 name = "azure"
-current = true
+current = false
 previous = true
 in_sync = false
-start_sync = 2022-04-11 17:20:13.041459550+00:00
-end_sync = 2022-04-11 17:20:49.014896686+00:00
 split = false
 
 [server.node4]
@@ -102,9 +100,9 @@ PHP_INI_DIR = '/usr/local/etc/php'
 [version]
 ldd = 'ldd (Debian GLIBC 2.31-13+deb11u3) 2.31'
 php = '''
-PHP 8.1.4 (cli) (built: Mar 29 2022 01:53:06) (NTS)
+PHP 8.1.5 (cli) (built: Apr 20 2022 15:56:43) (NTS)
 Copyright (c) The PHP Group
-Zend Engine v4.1.4, Copyright (c) Zend Technologies
+Zend Engine v4.1.5, Copyright (c) Zend Technologies
 '''
 
 [other]
@@ -114,5 +112,5 @@ php_cflags = '-fstack-protector-strong -fpic -fpie -O2 -D_LARGEFILE_SOURCE -D_FI
 php_cppflags = '-fstack-protector-strong -fpic -fpie -O2 -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64'
 php_ldflags = '-Wl,-O1 -pie'
 gpg_keys = '528995BFEDFBA7191D46839EF9BA0ADA31CBD89E 39B641343D8C104B2B146DC3F9C39DC0B9698544 F1F692238FBC1666E5A5CCD4199F9DFEF6FFBAFD'
-php_url = 'https://www.php.net/distributions/php-8.1.4.tar.xz'
-php_src_url = 'https://www.php.net/distributions/php-8.1.4.tar.xz.asc'
+php_url = 'https://www.php.net/distributions/php-8.1.5.tar.xz'
+php_src_url = 'https://www.php.net/distributions/php-8.1.5.tar.xz.asc'
