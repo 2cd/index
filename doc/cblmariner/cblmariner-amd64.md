@@ -20,19 +20,19 @@ docker exec -it cblmariner-amd64 sh
 ```toml
 [main]
 name = "cblmariner"
-tag = ["base", "2022-04-22"]
+tag = ["base", "2022-04-26"]
 os = "cblmariner"
 release = "base"
 arch = "amd64"
 platform = "linux/amd64"
-x11_or_wayland = false
-syntax_version = "0.0.0-alpha.3"
+xorg_or_wayland = false
+syntax_version = "0.0.0-alpha.4"
 
 [file]
-name = "cblmariner_amd64_2022-04-22_09-49.tar.zst"
+name = "cblmariner_amd64_2022-04-26_02-39.tar.zst"
 
 # This value can be used to verify the integrity of the file
-sha256 = "616423230a9734785ad7540a34fbdbc7f76db500c560cc1c17e03dbecdab7d8c"
+sha256 = "b96a93a71ce374e853d17aed0c437ecf989210b87e459b91b81e9274f76d8126"
 
 # zstd: [1-22]
 zstd-level = 19
@@ -40,13 +40,13 @@ zstd-level = 19
 [file.size]
 # Installed size ≈ tar-size
 # Installed size is approximately equal to the size of the tar file
-tar = "283M"
-tar_bytes = 295881216
+tar = "285M"
+tar_bytes = 298074624
 
 # Space occupied ≈ tar-size + zstd-size
 # You will need to prepare a large enough space before installation.
 zstd = "85M"
-zstd_bytes = 88862916
+zstd_bytes = 88934397
 
 [compatibility]
 compatible_mode = true
@@ -60,29 +60,29 @@ previous_file = "cblmariner_amd64_2022-04-22_08-53-rootfs.tar.zst"
 previous_sha256 = "9dcf8447d7d892fcc912c745ce906b4f8b8a1e160fd3b16144d03a047cbe682c"
 
 current_version = "latest02"
-current_date = "20220422"
-old_file = "cblmariner_amd64_2022-04-22_09-26-rootfs.tar.zst"
-old_sha256 = "939fa023d86ddb18a46064446eef91f069a74a7c65fe5352cb38119623a85c54"
+current_date = "20220426"
+old_file = "cblmariner_amd64_2022-04-22_09-49-rootfs.tar.zst"
+old_sha256 = "616423230a9734785ad7540a34fbdbc7f76db500c560cc1c17e03dbecdab7d8c"
 # edition 2021
 # DISTRO_NAME=cblmariner_amd64
-# ROOTFS_FILE=cblmariner_amd64_2022-04-22_09-49-rootfs.tar.zst
-# SHA256SUM=616423230a9734785ad7540a34fbdbc7f76db500c560cc1c17e03dbecdab7d8c
-# BUILD_DATE=20220422
-# BUILD_TAG=2022-04-22
+# ROOTFS_FILE=cblmariner_amd64_2022-04-26_02-39-rootfs.tar.zst
+# SHA256SUM=b96a93a71ce374e853d17aed0c437ecf989210b87e459b91b81e9274f76d8126
+# BUILD_DATE=20220426
+# BUILD_TAG=2022-04-26
 # STATUS=completed
 # VERSION=latest02
-# END_TIME=09:49
+# END_TIME=02:39
 
 [time]
 format = "rfc-3339"
 zone = "UTC"
-date = 2022-04-22
-begin = 2022-04-22 09:47:36.552619419+00:00
-start-sync_0 = 09:48:19
-start-zstd = 09:48:31
-start-sync_1 = 09:49:31
-end-sync_1 = 09:49:42
-end = 2022-04-22 09:49:42.801271467+00:00
+date = 2022-04-26
+begin = 2022-04-26 02:37:51.069045849+00:00
+start-sync_0 = 02:38:15
+start-zstd = 02:38:26
+start-sync_1 = 02:39:28
+end-sync_1 = 02:39:38
+end = 2022-04-26 02:39:38.135157612+00:00
 
 [server]
 repo = "cake233/cblmariner-amd64"
@@ -96,14 +96,14 @@ split = false
 
 [server.node2]
 name = "tmoe"
-current = false
+current = true
 previous = true
 in_sync = false
 split = false
 
 [server.node3]
 name = "azure"
-current = false
+current = true
 previous = true
 in_sync = false
 split = false
