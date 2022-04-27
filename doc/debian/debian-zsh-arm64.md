@@ -20,19 +20,19 @@ docker exec -it debian-zsh-arm64 zsh
 ```toml
 [main]
 name = "debian"
-tag = ["zsh", "2022-04-20"]
+tag = ["zsh", "2022-04-27"]
 os = "debian"
 release = "sid"
 arch = "arm64"
 platform = "linux/arm64"
-x11_or_wayland = false
-syntax_version = "0.0.0-alpha.3"
+xorg_or_wayland = false
+syntax_version = "0.0.0-alpha.4"
 
 [file]
-name = "debian-zsh_arm64_2022-04-20_12-17.tar.zst"
+name = "debian-zsh_arm64_2022-04-27_12-22.tar.zst"
 
 # This value can be used to verify the integrity of the file
-sha256 = "4b98bac766eced670d891f2439b49116c9908139aaea416787119e7998daa68f"
+sha256 = "9ce0cb28737f41d0d92a4d6ebd62afb04d61a418ca22b6d46e6e02a54225b221"
 
 # zstd: [1-22]
 zstd-level = 20
@@ -40,49 +40,49 @@ zstd-level = 20
 [file.size]
 # Installed size ≈ tar-size
 # Installed size is approximately equal to the size of the tar file
-tar = "738M"
-tar_bytes = 773797376
+tar = "741M"
+tar_bytes = 776633344
 
 # Space occupied ≈ tar-size + zstd-size
 # You will need to prepare a large enough space before installation.
-zstd = "143M"
-zstd_bytes = 149755433
+zstd = "144M"
+zstd_bytes = 150592464
 
 [compatibility]
 compatible_mode = true
 
-previous_version = "latest01"
+previous_version = "latest02"
 
 # The value is &str, not int
-previous_date = "20220413"
-previous_tag = "2022-04-13"
-previous_file = "debian-zsh_arm64_2022-04-13_12-17-rootfs.tar.zst"
-previous_sha256 = "4cf43ccc5a6bb42c0812c1a5fc02ddfce0e6fb35c6f568509ee42c3f46dd9471"
+previous_date = "20220420"
+previous_tag = "2022-04-20"
+previous_file = "debian-zsh_arm64_2022-04-20_12-17-rootfs.tar.zst"
+previous_sha256 = "4b98bac766eced670d891f2439b49116c9908139aaea416787119e7998daa68f"
 
-current_version = "latest02"
-current_date = "20220420"
-old_file = "debian-zsh_arm64_2022-04-06_11-32-rootfs.tar.zst"
-old_sha256 = "eefa37c43801a3cc658d98ea93f0072e58a1ea18416790f687e2c89cc9b00a94"
+current_version = "latest01"
+current_date = "20220427"
+old_file = "debian-zsh_arm64_2022-04-13_12-17-rootfs.tar.zst"
+old_sha256 = "4cf43ccc5a6bb42c0812c1a5fc02ddfce0e6fb35c6f568509ee42c3f46dd9471"
 # edition 2021
 # DISTRO_NAME=debian-sid_arm64
-# ROOTFS_FILE=debian-zsh_arm64_2022-04-20_12-17-rootfs.tar.zst
-# SHA256SUM=4b98bac766eced670d891f2439b49116c9908139aaea416787119e7998daa68f
-# BUILD_DATE=20220420
-# BUILD_TAG=2022-04-20
+# ROOTFS_FILE=debian-zsh_arm64_2022-04-27_12-22-rootfs.tar.zst
+# SHA256SUM=9ce0cb28737f41d0d92a4d6ebd62afb04d61a418ca22b6d46e6e02a54225b221
+# BUILD_DATE=20220427
+# BUILD_TAG=2022-04-27
 # STATUS=completed
-# VERSION=latest02
-# END_TIME=12:17
+# VERSION=latest01
+# END_TIME=12:22
 
 [time]
 format = "rfc-3339"
 zone = "UTC"
-date = 2022-04-20
-begin = 2022-04-20 12:02:32.423474725+00:00
-start-sync_0 = 12:13:33
-start-zstd = 12:15:14
-start-sync_1 = 12:17:35
-end-sync_1 = 12:17:48
-end = 2022-04-20 12:17:48.449861558+00:00
+date = 2022-04-27
+begin = 2022-04-27 12:02:36.507531991+00:00
+start-sync_0 = 12:17:23
+start-zstd = 12:19:15
+start-sync_1 = 12:22:06
+end-sync_1 = 12:22:21
+end = 2022-04-27 12:22:21.294079784+00:00
 
 [server]
 repo = "cake233/debian-zsh-arm64"
@@ -96,14 +96,14 @@ split = false
 
 [server.node2]
 name = "tmoe"
-current = false
+current = true
 previous = true
 in_sync = false
 split = false
 
 [server.node3]
 name = "azure"
-current = false
+current = true
 previous = true
 in_sync = false
 split = false
