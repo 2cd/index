@@ -20,19 +20,19 @@ docker exec -it arch-zsh-amd64 zsh
 ```toml
 [main]
 name = "arch"
-tag = ["zsh", "2022-04-20"]
+tag = ["zsh", "2022-04-27"]
 os = "arch"
 release = "latest"
 arch = "amd64"
 platform = "linux/amd64"
-x11_or_wayland = false
-syntax_version = "0.0.0-alpha.3"
+xorg_or_wayland = false
+syntax_version = "0.0.0-alpha.4"
 
 [file]
-name = "arch-zsh_amd64_2022-04-20_00-11.tar.zst"
+name = "arch-zsh_amd64_2022-04-27_00-16.tar.zst"
 
 # This value can be used to verify the integrity of the file
-sha256 = "f9ef8cbcb196262d74378521b080a5ebaa340034f60234b152eaf4040d7637dd"
+sha256 = "2d5e8fd452169f0e67b90144a2ee66e308fbbdea995aa3abb8a1e78caca2bcf3"
 
 # zstd: [1-22]
 zstd-level = 20
@@ -41,48 +41,48 @@ zstd-level = 20
 # Installed size ≈ tar-size
 # Installed size is approximately equal to the size of the tar file
 tar = "958M"
-tar_bytes = 1003516928
+tar_bytes = 1003640832
 
 # Space occupied ≈ tar-size + zstd-size
 # You will need to prepare a large enough space before installation.
 zstd = "238M"
-zstd_bytes = 248516230
+zstd_bytes = 248629984
 
 [compatibility]
 compatible_mode = true
 
-previous_version = "latest01"
+previous_version = "latest02"
 
 # The value is &str, not int
-previous_date = "20220413"
-previous_tag = "2022-04-13"
-previous_file = "arch-zsh_amd64_2022-04-13_00-16-rootfs.tar.zst"
-previous_sha256 = "8bfe161a9aad61b4c1b51d49bd2cbc2bf9ae62a31bd91ced613fe82491f830b4"
+previous_date = "20220420"
+previous_tag = "2022-04-20"
+previous_file = "arch-zsh_amd64_2022-04-20_00-11-rootfs.tar.zst"
+previous_sha256 = "f9ef8cbcb196262d74378521b080a5ebaa340034f60234b152eaf4040d7637dd"
 
-current_version = "latest02"
-current_date = "20220420"
-old_file = "arch-zsh_amd64_2022-04-05_23-13-rootfs.tar.zst"
-old_sha256 = "2be4c23d5f70cc0083da2b581a94ed8e1d3aa93474015eca95e2e92cf5d484a4"
+current_version = "latest01"
+current_date = "20220427"
+old_file = "arch-zsh_amd64_2022-04-13_00-16-rootfs.tar.zst"
+old_sha256 = "8bfe161a9aad61b4c1b51d49bd2cbc2bf9ae62a31bd91ced613fe82491f830b4"
 # edition 2021
 # DISTRO_NAME=arch_amd64
-# ROOTFS_FILE=arch-zsh_amd64_2022-04-20_00-11-rootfs.tar.zst
-# SHA256SUM=f9ef8cbcb196262d74378521b080a5ebaa340034f60234b152eaf4040d7637dd
-# BUILD_DATE=20220420
-# BUILD_TAG=2022-04-20
+# ROOTFS_FILE=arch-zsh_amd64_2022-04-27_00-16-rootfs.tar.zst
+# SHA256SUM=2d5e8fd452169f0e67b90144a2ee66e308fbbdea995aa3abb8a1e78caca2bcf3
+# BUILD_DATE=20220427
+# BUILD_TAG=2022-04-27
 # STATUS=completed
-# VERSION=latest02
-# END_TIME=00:11
+# VERSION=latest01
+# END_TIME=00:16
 
 [time]
 format = "rfc-3339"
 zone = "UTC"
-date = 2022-04-20
-begin = 2022-04-20 00:03:57.938399700+00:00
-start-sync_0 = 00:05:46
-start-zstd = 00:07:33
-start-sync_1 = 00:10:55
-end-sync_1 = 00:11:17
-end = 2022-04-20 00:11:17.107129341+00:00
+date = 2022-04-27
+begin = 2022-04-27 00:08:22.943787565+00:00
+start-sync_0 = 00:10:30
+start-zstd = 00:12:15
+start-sync_1 = 00:15:51
+end-sync_1 = 00:16:10
+end = 2022-04-27 00:16:10.173671961+00:00
 
 [server]
 repo = "cake233/arch-zsh-amd64"
@@ -96,14 +96,14 @@ split = false
 
 [server.node2]
 name = "tmoe"
-current = false
+current = true
 previous = true
 in_sync = false
 split = false
 
 [server.node3]
 name = "azure"
-current = false
+current = true
 previous = true
 in_sync = false
 split = false
