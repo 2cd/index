@@ -9,10 +9,10 @@ xorg_or_wayland = false
 syntax_version = "0.0.0-alpha.4"
 
 [file]
-name = "ubuntu-kinetic_amd64_2022-04-27_00-10.tar.zst"
+name = "ubuntu-kinetic_amd64_2022-04-27_13-14.tar.zst"
 
 # This value can be used to verify the integrity of the file
-sha256 = "a6850a33abf45fdf77f9a155a1385913839966f83928f01d51f39e0dfb2e0563"
+sha256 = "5cf855278f6616b2e83715e5e7ab255f622b81e1d251b97d60fd7b68b7dbb4a1"
 
 # zstd: [1-22]
 zstd-level = 19
@@ -26,43 +26,43 @@ tar_bytes = 438179840
 # Space occupied ≈ tar-size + zstd-size
 # You will need to prepare a large enough space before installation.
 zstd = "70M"
-zstd_bytes = 73113447
+zstd_bytes = 73104776
 
 [compatibility]
 compatible_mode = true
 
-previous_version = "latest02"
+previous_version = "latest01"
 
 # The value is &str, not int
-previous_date = "20220426"
-previous_tag = "2022-04-26"
-previous_file = "ubuntu-kinetic_amd64_2022-04-26_00-07-rootfs.tar.zst"
-previous_sha256 = "63de3f4853258d34aac5476f80de67536057572f293e78951147a69d931de17f"
+previous_date = "20220427"
+previous_tag = "2022-04-27"
+previous_file = "ubuntu-kinetic_amd64_2022-04-27_00-10-rootfs.tar.zst"
+previous_sha256 = "a6850a33abf45fdf77f9a155a1385913839966f83928f01d51f39e0dfb2e0563"
 
-current_version = "latest01"
+current_version = "latest02"
 current_date = "20220427"
-old_file = "ubuntu-kinetic_amd64_2022-04-25_19-26-rootfs.tar.zst"
-old_sha256 = "f4c020115ca9e0a6ac7332e74cd7b5e9dff783d972d6405f3a617c163ef84701"
+old_file = "ubuntu-kinetic_amd64_2022-04-26_00-07-rootfs.tar.zst"
+old_sha256 = "63de3f4853258d34aac5476f80de67536057572f293e78951147a69d931de17f"
 # edition 2021
 # DISTRO_NAME=ubuntu-dev_amd64
-# ROOTFS_FILE=ubuntu-kinetic_amd64_2022-04-27_00-10-rootfs.tar.zst
-# SHA256SUM=a6850a33abf45fdf77f9a155a1385913839966f83928f01d51f39e0dfb2e0563
+# ROOTFS_FILE=ubuntu-kinetic_amd64_2022-04-27_13-14-rootfs.tar.zst
+# SHA256SUM=5cf855278f6616b2e83715e5e7ab255f622b81e1d251b97d60fd7b68b7dbb4a1
 # BUILD_DATE=20220427
 # BUILD_TAG=2022-04-27
 # STATUS=completed
-# VERSION=latest01
-# END_TIME=00:10
+# VERSION=latest02
+# END_TIME=13:14
 
 [time]
 format = "rfc-3339"
 zone = "UTC"
 date = 2022-04-27
-begin = 2022-04-27 00:07:54.221328480+00:00
-start-sync_0 = 00:08:44
-start-zstd = 00:09:18
-start-sync_1 = 00:10:45
-end-sync_1 = 00:10:59
-end = 2022-04-27 00:10:59.385897644+00:00
+begin = 2022-04-27 13:12:17.750387266+00:00
+start-sync_0 = 13:12:59
+start-zstd = 13:13:23
+start-sync_1 = 13:14:37
+end-sync_1 = 13:14:48
+end = 2022-04-27 13:14:48.773085736+00:00
 
 [server]
 repo = "cake233/ubuntu-kinetic-amd64"
@@ -77,7 +77,7 @@ split = false
 [server.node2]
 name = "tmoe"
 current = true
-previous = false
+previous = true
 in_sync = false
 split = false
 
@@ -86,8 +86,6 @@ name = "azure"
 current = true
 previous = true
 in_sync = false
-start_sync = 2022-04-27 02:04:55.007215384+00:00
-end_sync = 2022-04-27 02:05:20.496893976+00:00
 split = false
 
 [server.node4]
