@@ -20,7 +20,7 @@ docker exec -it ubuntu-kinetic-amd64 sh
 ```toml
 [main]
 name = "ubuntu"
-tag = ["kinetic", "2022-04-29", "devel"]
+tag = ["kinetic", "2022-04-30", "devel"]
 os = "ubuntu"
 release = "dev"
 arch = "amd64"
@@ -29,10 +29,10 @@ xorg_or_wayland = false
 syntax_version = "0.0.0-alpha.4"
 
 [file]
-name = "ubuntu-kinetic_amd64_2022-04-29_00-08.tar.zst"
+name = "ubuntu-kinetic_amd64_2022-04-30_00-07.tar.zst"
 
 # This value can be used to verify the integrity of the file
-sha256 = "bfa1af5ed5e760fb17308b0d1d3c9658b8fe07227a6b5d04a96d0bf09f8d75de"
+sha256 = "6711074b6e35d1237446e338ec799d7f0e01ee472c175cc3c15e3953ba95743a"
 
 # zstd: [1-22]
 zstd-level = 19
@@ -40,49 +40,49 @@ zstd-level = 19
 [file.size]
 # Installed size ≈ tar-size
 # Installed size is approximately equal to the size of the tar file
-tar = "418M"
-tar_bytes = 438185984
+tar = "419M"
+tar_bytes = 439182336
 
 # Space occupied ≈ tar-size + zstd-size
 # You will need to prepare a large enough space before installation.
 zstd = "70M"
-zstd_bytes = 73110792
+zstd_bytes = 73200329
 
 [compatibility]
 compatible_mode = true
 
-previous_version = "latest02"
+previous_version = "latest01"
 
 # The value is &str, not int
-previous_date = "20220428"
-previous_tag = "2022-04-28"
-previous_file = "ubuntu-kinetic_amd64_2022-04-28_00-07-rootfs.tar.zst"
-previous_sha256 = "038b3b5795e1129c7729e311334762bc5e626b52de6ec28b5e671e738bc1bf88"
+previous_date = "20220429"
+previous_tag = "2022-04-29"
+previous_file = "ubuntu-kinetic_amd64_2022-04-29_00-08-rootfs.tar.zst"
+previous_sha256 = "bfa1af5ed5e760fb17308b0d1d3c9658b8fe07227a6b5d04a96d0bf09f8d75de"
 
-current_version = "latest01"
-current_date = "20220429"
-old_file = "ubuntu-kinetic_amd64_2022-04-27_00-10-rootfs.tar.zst"
-old_sha256 = "a6850a33abf45fdf77f9a155a1385913839966f83928f01d51f39e0dfb2e0563"
+current_version = "latest02"
+current_date = "20220430"
+old_file = "ubuntu-kinetic_amd64_2022-04-28_00-07-rootfs.tar.zst"
+old_sha256 = "038b3b5795e1129c7729e311334762bc5e626b52de6ec28b5e671e738bc1bf88"
 # edition 2021
 # DISTRO_NAME=ubuntu-dev_amd64
-# ROOTFS_FILE=ubuntu-kinetic_amd64_2022-04-29_00-08-rootfs.tar.zst
-# SHA256SUM=bfa1af5ed5e760fb17308b0d1d3c9658b8fe07227a6b5d04a96d0bf09f8d75de
-# BUILD_DATE=20220429
-# BUILD_TAG=2022-04-29
+# ROOTFS_FILE=ubuntu-kinetic_amd64_2022-04-30_00-07-rootfs.tar.zst
+# SHA256SUM=6711074b6e35d1237446e338ec799d7f0e01ee472c175cc3c15e3953ba95743a
+# BUILD_DATE=20220430
+# BUILD_TAG=2022-04-30
 # STATUS=completed
-# VERSION=latest01
-# END_TIME=00:08
+# VERSION=latest02
+# END_TIME=00:07
 
 [time]
 format = "rfc-3339"
 zone = "UTC"
-date = 2022-04-29
-begin = 2022-04-29 00:04:36.118716114+00:00
-start-sync_0 = 00:05:33
-start-zstd = 00:06:13
-start-sync_1 = 00:07:49
-end-sync_1 = 00:08:03
-end = 2022-04-29 00:08:03.901559567+00:00
+date = 2022-04-30
+begin = 2022-04-30 00:04:29.649415661+00:00
+start-sync_0 = 00:05:17
+start-zstd = 00:05:44
+start-sync_1 = 00:07:21
+end-sync_1 = 00:07:30
+end = 2022-04-30 00:07:31.019803447+00:00
 
 [server]
 repo = "cake233/ubuntu-kinetic-amd64"
