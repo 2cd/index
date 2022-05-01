@@ -20,19 +20,19 @@ docker exec -it arch-armv7 sh
 ```toml
 [main]
 name = "arch"
-tag = ["base", "2022-04-13"]
+tag = ["base", "2022-05-01"]
 os = "arch"
 release = "latest"
 arch = "armhf"
 platform = "linux/arm/v7"
-x11_or_wayland = false
-syntax_version = "0.0.0-alpha.3"
+xorg_or_wayland = false
+syntax_version = "0.0.0-alpha.4"
 
 [file]
-name = "arch_armhf_2022-04-13_00-05.tar.zst"
+name = "arch_armhf_2022-05-01_19-29.tar.zst"
 
 # This value can be used to verify the integrity of the file
-sha256 = "1302a857d0f28db6a9e8c6c2656c45f06e9bc12ddfaaf019e0935e181cecf9e9"
+sha256 = "ea7f741f054228d6baf32a15acfa36097bcd53632f7367d4981cf0c805bab6a9"
 
 # zstd: [1-22]
 zstd-level = 12
@@ -40,13 +40,13 @@ zstd-level = 12
 [file.size]
 # Installed size ≈ tar-size
 # Installed size is approximately equal to the size of the tar file
-tar = "563M"
-tar_bytes = 590011904
+tar = "773M"
+tar_bytes = 809744384
 
 # Space occupied ≈ tar-size + zstd-size
 # You will need to prepare a large enough space before installation.
-zstd = "170M"
-zstd_bytes = 177396575
+zstd = "230M"
+zstd_bytes = 240632565
 
 [compatibility]
 compatible_mode = true
@@ -60,29 +60,29 @@ previous_file = ""
 previous_sha256 = ""
 
 current_version = "latest01"
-current_date = "20220413"
+current_date = "20220501"
 old_file = ""
 old_sha256 = ""
 # edition 2021
 # DISTRO_NAME=arch_armhf
-# ROOTFS_FILE=arch_armhf_2022-04-13_00-05-rootfs.tar.zst
-# SHA256SUM=1302a857d0f28db6a9e8c6c2656c45f06e9bc12ddfaaf019e0935e181cecf9e9
-# BUILD_DATE=20220413
-# BUILD_TAG=2022-04-13
+# ROOTFS_FILE=arch_armhf_2022-05-01_19-29-rootfs.tar.zst
+# SHA256SUM=ea7f741f054228d6baf32a15acfa36097bcd53632f7367d4981cf0c805bab6a9
+# BUILD_DATE=20220501
+# BUILD_TAG=2022-05-01
 # STATUS=completed
 # VERSION=latest01
-# END_TIME=00:05
+# END_TIME=19:29
 
 [time]
 format = "rfc-3339"
 zone = "UTC"
-date = 2022-04-13
-begin = 2022-04-13 00:02:50.987388913+00:00
-start-sync_0 = 00:03:55
-start-zstd = 00:04:35
-start-sync_1 = 00:04:50
-end-sync_1 = 00:05:06
-end = 2022-04-13 00:05:06.456987492+00:00
+date = 2022-05-01
+begin = 2022-05-01 19:26:39.659519265+00:00
+start-sync_0 = 19:28:33
+start-zstd = 19:29:12
+start-sync_1 = 19:29:33
+end-sync_1 = 19:29:57
+end = 2022-05-01 19:29:57.264066517+00:00
 
 [server]
 repo = "cake233/arch-armv7"
@@ -96,14 +96,14 @@ split = false
 
 [server.node2]
 name = "tmoe"
-current = false
+current = true
 previous = false
 in_sync = false
 split = false
 
 [server.node3]
 name = "azure"
-current = false
+current = true
 previous = false
 in_sync = false
 split = false
