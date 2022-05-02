@@ -20,7 +20,7 @@ docker exec -it ubuntu-kinetic-armv7 sh
 ```toml
 [main]
 name = "ubuntu"
-tag = ["kinetic", "2022-05-01", "devel"]
+tag = ["kinetic", "2022-05-02", "devel"]
 os = "ubuntu"
 release = "dev"
 arch = "armhf"
@@ -29,10 +29,10 @@ xorg_or_wayland = false
 syntax_version = "0.0.0-alpha.4"
 
 [file]
-name = "ubuntu-kinetic_armhf_2022-05-01_00-10.tar.zst"
+name = "ubuntu-kinetic_armhf_2022-05-02_00-12.tar.zst"
 
 # This value can be used to verify the integrity of the file
-sha256 = "51411f4f6d5c89e6b948b376772c52555487d67cf13c43f34a90a0ac8befd6c0"
+sha256 = "aa385f47ea45be0785ca64fe4df98319aaac03e7280374a442fbcaf948ee080f"
 
 # zstd: [1-22]
 zstd-level = 19
@@ -46,43 +46,43 @@ tar_bytes = 401104896
 # Space occupied ≈ tar-size + zstd-size
 # You will need to prepare a large enough space before installation.
 zstd = "67M"
-zstd_bytes = 69497290
+zstd_bytes = 69504347
 
 [compatibility]
 compatible_mode = true
 
-previous_version = "latest02"
+previous_version = "latest01"
 
 # The value is &str, not int
-previous_date = "20220430"
-previous_tag = "2022-04-30"
-previous_file = "ubuntu-kinetic_armhf_2022-04-30_00-10-rootfs.tar.zst"
-previous_sha256 = "c3db2f470c90399d08ca77efbf3118f39e72c4c49c0e517f2affa54f5b16af05"
+previous_date = "20220501"
+previous_tag = "2022-05-01"
+previous_file = "ubuntu-kinetic_armhf_2022-05-01_00-10-rootfs.tar.zst"
+previous_sha256 = "51411f4f6d5c89e6b948b376772c52555487d67cf13c43f34a90a0ac8befd6c0"
 
-current_version = "latest01"
-current_date = "20220501"
-old_file = "ubuntu-kinetic_armhf_2022-04-29_00-11-rootfs.tar.zst"
-old_sha256 = "02558444089a90966a2343df4993da60182cdf1ff18ac63ef45aaecc1e1175d4"
+current_version = "latest02"
+current_date = "20220502"
+old_file = "ubuntu-kinetic_armhf_2022-04-30_00-10-rootfs.tar.zst"
+old_sha256 = "c3db2f470c90399d08ca77efbf3118f39e72c4c49c0e517f2affa54f5b16af05"
 # edition 2021
 # DISTRO_NAME=ubuntu-dev_armhf
-# ROOTFS_FILE=ubuntu-kinetic_armhf_2022-05-01_00-10-rootfs.tar.zst
-# SHA256SUM=51411f4f6d5c89e6b948b376772c52555487d67cf13c43f34a90a0ac8befd6c0
-# BUILD_DATE=20220501
-# BUILD_TAG=2022-05-01
+# ROOTFS_FILE=ubuntu-kinetic_armhf_2022-05-02_00-12-rootfs.tar.zst
+# SHA256SUM=aa385f47ea45be0785ca64fe4df98319aaac03e7280374a442fbcaf948ee080f
+# BUILD_DATE=20220502
+# BUILD_TAG=2022-05-02
 # STATUS=completed
-# VERSION=latest01
-# END_TIME=00:10
+# VERSION=latest02
+# END_TIME=00:12
 
 [time]
 format = "rfc-3339"
 zone = "UTC"
-date = 2022-05-01
-begin = 2022-05-01 00:04:34.857759678+00:00
-start-sync_0 = 00:09:03
-start-zstd = 00:09:34
-start-sync_1 = 00:10:40
-end-sync_1 = 00:10:52
-end = 2022-05-01 00:10:52.549749127+00:00
+date = 2022-05-02
+begin = 2022-05-02 00:04:45.242862360+00:00
+start-sync_0 = 00:10:06
+start-zstd = 00:10:38
+start-sync_1 = 00:11:58
+end-sync_1 = 00:12:15
+end = 2022-05-02 00:12:15.064269960+00:00
 
 [server]
 repo = "cake233/ubuntu-kinetic-armv7"
