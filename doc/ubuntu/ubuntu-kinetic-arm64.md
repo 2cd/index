@@ -20,7 +20,7 @@ docker exec -it ubuntu-kinetic-arm64 sh
 ```toml
 [main]
 name = "ubuntu"
-tag = ["kinetic", "2022-05-01", "devel"]
+tag = ["kinetic", "2022-05-02", "devel"]
 os = "ubuntu"
 release = "dev"
 arch = "arm64"
@@ -29,10 +29,10 @@ xorg_or_wayland = false
 syntax_version = "0.0.0-alpha.4"
 
 [file]
-name = "ubuntu-kinetic_arm64_2022-05-01_00-12.tar.zst"
+name = "ubuntu-kinetic_arm64_2022-05-02_00-12.tar.zst"
 
 # This value can be used to verify the integrity of the file
-sha256 = "6e879e45290c217aa161a8030d7dadb5d414519a546b7ea14be826889d9d4aeb"
+sha256 = "97ef1f94f4dbb442cb349cbaa0a427d6a7df19849c12ca899aaef6f31dc9e678"
 
 # zstd: [1-22]
 zstd-level = 19
@@ -46,43 +46,43 @@ tar_bytes = 428778496
 # Space occupied ≈ tar-size + zstd-size
 # You will need to prepare a large enough space before installation.
 zstd = "69M"
-zstd_bytes = 71541378
+zstd_bytes = 71545159
 
 [compatibility]
 compatible_mode = true
 
-previous_version = "latest02"
+previous_version = "latest01"
 
 # The value is &str, not int
-previous_date = "20220430"
-previous_tag = "2022-04-30"
-previous_file = "ubuntu-kinetic_arm64_2022-04-30_00-11-rootfs.tar.zst"
-previous_sha256 = "a3d627f90ac956246f45e6b27903c706ec900c20058502819a5f594d137aef89"
+previous_date = "20220501"
+previous_tag = "2022-05-01"
+previous_file = "ubuntu-kinetic_arm64_2022-05-01_00-12-rootfs.tar.zst"
+previous_sha256 = "6e879e45290c217aa161a8030d7dadb5d414519a546b7ea14be826889d9d4aeb"
 
-current_version = "latest01"
-current_date = "20220501"
-old_file = "ubuntu-kinetic_arm64_2022-04-29_00-10-rootfs.tar.zst"
-old_sha256 = "9e2c8e5fdbd00377f862b804248f26746b05d39871dc675e59fa3b9558f664a2"
+current_version = "latest02"
+current_date = "20220502"
+old_file = "ubuntu-kinetic_arm64_2022-04-30_00-11-rootfs.tar.zst"
+old_sha256 = "a3d627f90ac956246f45e6b27903c706ec900c20058502819a5f594d137aef89"
 # edition 2021
 # DISTRO_NAME=ubuntu-dev_arm64
-# ROOTFS_FILE=ubuntu-kinetic_arm64_2022-05-01_00-12-rootfs.tar.zst
-# SHA256SUM=6e879e45290c217aa161a8030d7dadb5d414519a546b7ea14be826889d9d4aeb
-# BUILD_DATE=20220501
-# BUILD_TAG=2022-05-01
+# ROOTFS_FILE=ubuntu-kinetic_arm64_2022-05-02_00-12-rootfs.tar.zst
+# SHA256SUM=97ef1f94f4dbb442cb349cbaa0a427d6a7df19849c12ca899aaef6f31dc9e678
+# BUILD_DATE=20220502
+# BUILD_TAG=2022-05-02
 # STATUS=completed
-# VERSION=latest01
+# VERSION=latest02
 # END_TIME=00:12
 
 [time]
 format = "rfc-3339"
 zone = "UTC"
-date = 2022-05-01
-begin = 2022-05-01 00:04:34.278147697+00:00
-start-sync_0 = 00:10:07
-start-zstd = 00:10:35
-start-sync_1 = 00:12:03
-end-sync_1 = 00:12:13
-end = 2022-05-01 00:12:13.956964071+00:00
+date = 2022-05-02
+begin = 2022-05-02 00:04:29.024920243+00:00
+start-sync_0 = 00:10:08
+start-zstd = 00:10:37
+start-sync_1 = 00:12:08
+end-sync_1 = 00:12:18
+end = 2022-05-02 00:12:18.148963320+00:00
 
 [server]
 repo = "cake233/ubuntu-kinetic-arm64"
