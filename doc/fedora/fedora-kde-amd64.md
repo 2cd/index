@@ -86,10 +86,10 @@ xorg_or_wayland = true
 syntax_version = "0.0.0-alpha.4"
 
 [file]
-name = "fedora-kde_amd64_2022-05-03_13-05.tar.zst"
+name = "fedora-kde_amd64_2022-05-03_15-39.tar.zst"
 
 # This value can be used to verify the integrity of the file
-sha256 = "3f74190d112d951b998e087cf04f19b08e4252dcd2bb173559b02172329fa119"
+sha256 = "cc7ff8e0fb9a7adcf9d0aae30fdf9fa55b432e7b5a9bef78545bd2a392b094b4"
 
 # zstd: [1-22]
 zstd-level = 19
@@ -98,12 +98,12 @@ zstd-level = 19
 # Installed size ≈ tar-size
 # Installed size is approximately equal to the size of the tar file
 tar = "4.7G"
-tar_bytes = 4949342208
+tar_bytes = 4949341184
 
 # Space occupied ≈ tar-size + zstd-size
 # You will need to prepare a large enough space before installation.
 zstd = "1.5G"
-zstd_bytes = 1554189178
+zstd_bytes = 1554264942
 
 [compatibility]
 compatible_mode = true
@@ -122,24 +122,24 @@ old_file = "fedora-kde_amd64_2022-04-19_13-21-rootfs.tar.zst"
 old_sha256 = "8c172b48242d1cad66250d7783db0d4204a436cb3e6101d9c6cdaa8bc5432f7c"
 # edition 2021
 # DISTRO_NAME=fedora-rawhide_amd64
-# ROOTFS_FILE=fedora-kde_amd64_2022-05-03_13-05-rootfs.tar.zst
-# SHA256SUM=3f74190d112d951b998e087cf04f19b08e4252dcd2bb173559b02172329fa119
+# ROOTFS_FILE=fedora-kde_amd64_2022-05-03_15-39-rootfs.tar.zst
+# SHA256SUM=cc7ff8e0fb9a7adcf9d0aae30fdf9fa55b432e7b5a9bef78545bd2a392b094b4
 # BUILD_DATE=20220503
 # BUILD_TAG=2022-05-03
 # STATUS=completed
 # VERSION=latest02
-# END_TIME=13:05
+# END_TIME=15:39
 
 [time]
 format = "rfc-3339"
 zone = "UTC"
 date = 2022-05-03
-begin = 2022-05-03 12:35:43.161538835+00:00
-start-sync_0 = 12:41:43
-start-zstd = 12:46:00
-start-sync_1 = 13:04:00
-end-sync_1 = 13:05:36
-end = 2022-05-03 13:05:36.863840516+00:00
+begin = 2022-05-03 15:11:17.948049390+00:00
+start-sync_0 = 15:16:58
+start-zstd = 15:21:00
+start-sync_1 = 15:38:02
+end-sync_1 = 15:39:35
+end = 2022-05-03 15:39:35.549717429+00:00
 
 [server]
 repo = "cake233/fedora-kde-amd64"
