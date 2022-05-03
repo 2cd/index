@@ -20,7 +20,7 @@ docker exec -it fedora-zsh-arm64 zsh
 ```toml
 [main]
 name = "fedora"
-tag = ["zsh", "2022-04-26"]
+tag = ["zsh", "2022-05-03"]
 os = "fedora"
 release = "rawhide"
 arch = "arm64"
@@ -29,10 +29,10 @@ xorg_or_wayland = false
 syntax_version = "0.0.0-alpha.4"
 
 [file]
-name = "fedora-zsh_arm64_2022-04-26_12-37.tar.zst"
+name = "fedora-zsh_arm64_2022-05-03_12-35.tar.zst"
 
 # This value can be used to verify the integrity of the file
-sha256 = "f9123543078dbcc322e828079f9012832340c7ee6e11a33c4da6e2b2f65298d1"
+sha256 = "98c36003237882d63ad8c208b239b960a17570b0b5b2f30fe6555b6bbf57a64b"
 
 # zstd: [1-22]
 zstd-level = 20
@@ -41,48 +41,48 @@ zstd-level = 20
 # Installed size ≈ tar-size
 # Installed size is approximately equal to the size of the tar file
 tar = "971M"
-tar_bytes = 1017718784
+tar_bytes = 1017946624
 
 # Space occupied ≈ tar-size + zstd-size
 # You will need to prepare a large enough space before installation.
 zstd = "156M"
-zstd_bytes = 162984286
+zstd_bytes = 163113981
 
 [compatibility]
 compatible_mode = true
 
-previous_version = "latest02"
+previous_version = "latest01"
 
 # The value is &str, not int
-previous_date = "20220419"
-previous_tag = "2022-04-19"
-previous_file = "fedora-zsh_arm64_2022-04-19_12-47-rootfs.tar.zst"
-previous_sha256 = "bbce0dba3291c96b07342e5a074b613b94a798e6be6c7a5440755a934dc2b33b"
+previous_date = "20220426"
+previous_tag = "2022-04-26"
+previous_file = "fedora-zsh_arm64_2022-04-26_12-37-rootfs.tar.zst"
+previous_sha256 = "f9123543078dbcc322e828079f9012832340c7ee6e11a33c4da6e2b2f65298d1"
 
-current_version = "latest01"
-current_date = "20220426"
-old_file = "fedora-zsh_arm64_2022-04-12_14-14-rootfs.tar.zst"
-old_sha256 = "60c0e1f049d56586181602be26e7a2ccc4ce8c2b475bddf34d36b4b2785ce32e"
+current_version = "latest02"
+current_date = "20220503"
+old_file = "fedora-zsh_arm64_2022-04-19_12-47-rootfs.tar.zst"
+old_sha256 = "bbce0dba3291c96b07342e5a074b613b94a798e6be6c7a5440755a934dc2b33b"
 # edition 2021
 # DISTRO_NAME=fedora-rawhide_arm64
-# ROOTFS_FILE=fedora-zsh_arm64_2022-04-26_12-37-rootfs.tar.zst
-# SHA256SUM=f9123543078dbcc322e828079f9012832340c7ee6e11a33c4da6e2b2f65298d1
-# BUILD_DATE=20220426
-# BUILD_TAG=2022-04-26
+# ROOTFS_FILE=fedora-zsh_arm64_2022-05-03_12-35-rootfs.tar.zst
+# SHA256SUM=98c36003237882d63ad8c208b239b960a17570b0b5b2f30fe6555b6bbf57a64b
+# BUILD_DATE=20220503
+# BUILD_TAG=2022-05-03
 # STATUS=completed
-# VERSION=latest01
-# END_TIME=12:37
+# VERSION=latest02
+# END_TIME=12:35
 
 [time]
 format = "rfc-3339"
 zone = "UTC"
-date = 2022-04-26
-begin = 2022-04-26 12:02:32.233529387+00:00
-start-sync_0 = 12:32:40
-start-zstd = 12:34:41
-start-sync_1 = 12:37:34
-end-sync_1 = 12:37:52
-end = 2022-04-26 12:37:52.215313080+00:00
+date = 2022-05-03
+begin = 2022-05-03 12:02:45.790669781+00:00
+start-sync_0 = 12:30:19
+start-zstd = 12:32:16
+start-sync_1 = 12:35:04
+end-sync_1 = 12:35:19
+end = 2022-05-03 12:35:19.926164553+00:00
 
 [server]
 repo = "cake233/fedora-zsh-arm64"
