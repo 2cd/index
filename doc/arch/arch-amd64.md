@@ -32,7 +32,7 @@ syntax_version = "0.0.0-alpha.4"
 name = "arch_amd64_2022-05-04_00-05.tar.zst"
 
 # This value can be used to verify the integrity of the file
-sha256 = "0b9a7208c6a8268102d657b858b7ee7828ebae5132d9af5124f035cc9208302e"
+sha256 = "46839385143882df46d58fdef3ce1cf3eea4f838a692f6df3e57887b617b35f5"
 
 # zstd: [1-22]
 zstd-level = 12
@@ -46,7 +46,7 @@ tar_bytes = 902112256
 # Space occupied ≈ tar-size + zstd-size
 # You will need to prepare a large enough space before installation.
 zstd = "251M"
-zstd_bytes = 262586581
+zstd_bytes = 262586352
 
 [compatibility]
 compatible_mode = true
@@ -66,7 +66,7 @@ old_sha256 = ""
 # edition 2021
 # DISTRO_NAME=arch_amd64
 # ROOTFS_FILE=arch_amd64_2022-05-04_00-05-rootfs.tar.zst
-# SHA256SUM=0b9a7208c6a8268102d657b858b7ee7828ebae5132d9af5124f035cc9208302e
+# SHA256SUM=46839385143882df46d58fdef3ce1cf3eea4f838a692f6df3e57887b617b35f5
 # BUILD_DATE=20220504
 # BUILD_TAG=2022-05-04
 # STATUS=completed
@@ -77,12 +77,12 @@ old_sha256 = ""
 format = "rfc-3339"
 zone = "UTC"
 date = 2022-05-04
-begin = 2022-05-04 00:02:34.895871435+00:00
-start-sync_0 = 00:03:48
-start-zstd = 00:04:30
-start-sync_1 = 00:04:56
-end-sync_1 = 00:05:17
-end = 2022-05-04 00:05:17.682105133+00:00
+begin = 2022-05-04 00:02:46.496889183+00:00
+start-sync_0 = 00:04:02
+start-zstd = 00:04:51
+start-sync_1 = 00:05:17
+end-sync_1 = 00:05:42
+end = 2022-05-04 00:05:42.614827026+00:00
 
 [server]
 repo = "cake233/arch-amd64"
