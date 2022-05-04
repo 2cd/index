@@ -86,10 +86,10 @@ xorg_or_wayland = true
 syntax_version = "0.0.0-alpha.4"
 
 [file]
-name = "debian-mate_arm64_2022-05-04_13-21.tar.zst"
+name = "debian-mate_arm64_2022-05-04_15-29.tar.zst"
 
 # This value can be used to verify the integrity of the file
-sha256 = "09e3363eb0513b7f3285a1af378525605883d2af449548073855d033bbf73cd3"
+sha256 = "c8928d9dcb8c3bc9d6c6c80e08d8ce06d3131bbc162693a03fcd7645ccfc90cf"
 
 # zstd: [1-22]
 zstd-level = 19
@@ -98,12 +98,12 @@ zstd-level = 19
 # Installed size ≈ tar-size
 # Installed size is approximately equal to the size of the tar file
 tar = "4.2G"
-tar_bytes = 4447436288
+tar_bytes = 4447432704
 
 # Space occupied ≈ tar-size + zstd-size
 # You will need to prepare a large enough space before installation.
 zstd = "1.2G"
-zstd_bytes = 1237443335
+zstd_bytes = 1237471033
 
 [compatibility]
 compatible_mode = true
@@ -122,24 +122,24 @@ old_file = "debian-mate_arm64_2022-04-20_13-29-rootfs.tar.zst"
 old_sha256 = "620caea71f4889c28da5e9ce7ee5f97e787671e35c071b210efabfb720d0b72a"
 # edition 2021
 # DISTRO_NAME=debian-sid_arm64
-# ROOTFS_FILE=debian-mate_arm64_2022-05-04_13-21-rootfs.tar.zst
-# SHA256SUM=09e3363eb0513b7f3285a1af378525605883d2af449548073855d033bbf73cd3
+# ROOTFS_FILE=debian-mate_arm64_2022-05-04_15-29-rootfs.tar.zst
+# SHA256SUM=c8928d9dcb8c3bc9d6c6c80e08d8ce06d3131bbc162693a03fcd7645ccfc90cf
 # BUILD_DATE=20220504
 # BUILD_TAG=2022-05-04
 # STATUS=completed
 # VERSION=latest02
-# END_TIME=13:21
+# END_TIME=15:29
 
 [time]
 format = "rfc-3339"
 zone = "UTC"
 date = 2022-05-04
-begin = 2022-05-04 12:21:05.865616745+00:00
-start-sync_0 = 12:59:06
-start-zstd = 13:03:25
-start-sync_1 = 13:20:03
-end-sync_1 = 13:21:24
-end = 2022-05-04 13:21:24.772167425+00:00
+begin = 2022-05-04 14:22:07.010379994+00:00
+start-sync_0 = 15:05:55
+start-zstd = 15:10:18
+start-sync_1 = 15:27:43
+end-sync_1 = 15:29:12
+end = 2022-05-04 15:29:12.381668188+00:00
 
 [server]
 repo = "cake233/debian-mate-arm64"
