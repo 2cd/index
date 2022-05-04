@@ -9,10 +9,10 @@ xorg_or_wayland = true
 syntax_version = "0.0.0-alpha.4"
 
 [file]
-name = "debian-kde_amd64_2022-05-04_12-51.tar.zst"
+name = "debian-kde_amd64_2022-05-04_14-57.tar.zst"
 
 # This value can be used to verify the integrity of the file
-sha256 = "b67b72b9253c3abdb7652d237f7991b7a9f95ebd9a8547244a6dff768fee9d6f"
+sha256 = "45a430bce7a80d0ced13cea636d352ec6326706c945c9c54a39dce7befc5dea7"
 
 # zstd: [1-22]
 zstd-level = 19
@@ -21,12 +21,12 @@ zstd-level = 19
 # Installed size ≈ tar-size
 # Installed size is approximately equal to the size of the tar file
 tar = "5.0G"
-tar_bytes = 5292314112
+tar_bytes = 5292310016
 
 # Space occupied ≈ tar-size + zstd-size
 # You will need to prepare a large enough space before installation.
 zstd = "1.5G"
-zstd_bytes = 1539935363
+zstd_bytes = 1539918570
 
 [compatibility]
 compatible_mode = true
@@ -45,24 +45,24 @@ old_file = "debian-kde_amd64_2022-04-20_12-53-rootfs.tar.zst"
 old_sha256 = "6b6f698bfd27865337816a32146fea079f2a2cb589c2bd0290eb778745b5e9af"
 # edition 2021
 # DISTRO_NAME=debian-sid_amd64
-# ROOTFS_FILE=debian-kde_amd64_2022-05-04_12-51-rootfs.tar.zst
-# SHA256SUM=b67b72b9253c3abdb7652d237f7991b7a9f95ebd9a8547244a6dff768fee9d6f
+# ROOTFS_FILE=debian-kde_amd64_2022-05-04_14-57-rootfs.tar.zst
+# SHA256SUM=45a430bce7a80d0ced13cea636d352ec6326706c945c9c54a39dce7befc5dea7
 # BUILD_DATE=20220504
 # BUILD_TAG=2022-05-04
 # STATUS=completed
 # VERSION=latest02
-# END_TIME=12:51
+# END_TIME=14:57
 
 [time]
 format = "rfc-3339"
 zone = "UTC"
 date = 2022-05-04
-begin = 2022-05-04 12:21:05.164500695+00:00
-start-sync_0 = 12:27:19
-start-zstd = 12:32:17
-start-sync_1 = 12:50:07
-end-sync_1 = 12:51:38
-end = 2022-05-04 12:51:38.568864584+00:00
+begin = 2022-05-04 14:22:03.028728869+00:00
+start-sync_0 = 14:29:24
+start-zstd = 14:34:34
+start-sync_1 = 14:55:36
+end-sync_1 = 14:57:13
+end = 2022-05-04 14:57:13.629971200+00:00
 
 [server]
 repo = "cake233/debian-kde-amd64"
