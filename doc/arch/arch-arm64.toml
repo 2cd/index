@@ -9,10 +9,10 @@ xorg_or_wayland = false
 syntax_version = "0.0.0-alpha.4"
 
 [file]
-name = "arch_arm64_2022-05-04_00-05.tar.zst"
+name = "arch_arm64_2022-05-04_00-06.tar.zst"
 
 # This value can be used to verify the integrity of the file
-sha256 = "895f82201911856344f7507306cf583270cd9e84d337ef5e1982a533b130a1d9"
+sha256 = "acf30ff436a14559a1e9dfa4beb9c324b38293cb53aab3eae31a888fccb3bc7e"
 
 # zstd: [1-22]
 zstd-level = 12
@@ -26,7 +26,7 @@ tar_bytes = 901984768
 # Space occupied ≈ tar-size + zstd-size
 # You will need to prepare a large enough space before installation.
 zstd = "245M"
-zstd_bytes = 256553285
+zstd_bytes = 256553229
 
 [compatibility]
 compatible_mode = true
@@ -45,24 +45,24 @@ old_file = ""
 old_sha256 = ""
 # edition 2021
 # DISTRO_NAME=arch_arm64
-# ROOTFS_FILE=arch_arm64_2022-05-04_00-05-rootfs.tar.zst
-# SHA256SUM=895f82201911856344f7507306cf583270cd9e84d337ef5e1982a533b130a1d9
+# ROOTFS_FILE=arch_arm64_2022-05-04_00-06-rootfs.tar.zst
+# SHA256SUM=acf30ff436a14559a1e9dfa4beb9c324b38293cb53aab3eae31a888fccb3bc7e
 # BUILD_DATE=20220504
 # BUILD_TAG=2022-05-04
 # STATUS=completed
 # VERSION=latest01
-# END_TIME=00:05
+# END_TIME=00:06
 
 [time]
 format = "rfc-3339"
 zone = "UTC"
 date = 2022-05-04
-begin = 2022-05-04 00:02:33.530726697+00:00
-start-sync_0 = 00:04:33
-start-zstd = 00:05:18
-start-sync_1 = 00:05:39
-end-sync_1 = 00:05:59
-end = 2022-05-04 00:05:59.440281237+00:00
+begin = 2022-05-04 00:02:33.947067315+00:00
+start-sync_0 = 00:04:41
+start-zstd = 00:05:23
+start-sync_1 = 00:05:48
+end-sync_1 = 00:06:08
+end = 2022-05-04 00:06:08.603224851+00:00
 
 [server]
 repo = "cake233/arch-arm64"
