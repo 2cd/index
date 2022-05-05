@@ -86,10 +86,10 @@ xorg_or_wayland = true
 syntax_version = "0.0.0-alpha.4"
 
 [file]
-name = "alpine-mate_amd64_2022-05-05_00-13.tar.zst"
+name = "alpine-mate_amd64_2022-05-05_00-49.tar.zst"
 
 # This value can be used to verify the integrity of the file
-sha256 = "b374186e3aa69e2de340db0cb7f588558fa47a171784a48c0726b994b0764360"
+sha256 = "f178a0e42dc814202c5c3c7427e98daa1808e7d94ba2a625395ad13556d123bc"
 
 # zstd: [1-22]
 zstd-level = 19
@@ -103,7 +103,7 @@ tar_bytes = 1099450880
 # Space occupied ≈ tar-size + zstd-size
 # You will need to prepare a large enough space before installation.
 zstd = "328M"
-zstd_bytes = 343584903
+zstd_bytes = 343584089
 
 [compatibility]
 compatible_mode = true
@@ -122,24 +122,24 @@ old_file = "alpine-mate_amd64_2022-04-21_00-12-rootfs.tar.zst"
 old_sha256 = "a494578c08b5445d74fab70643660c37c27aa988ffca3b6287fee4809f54b2d3"
 # edition 2021
 # DISTRO_NAME=alpine-edge_amd64
-# ROOTFS_FILE=alpine-mate_amd64_2022-05-05_00-13-rootfs.tar.zst
-# SHA256SUM=b374186e3aa69e2de340db0cb7f588558fa47a171784a48c0726b994b0764360
+# ROOTFS_FILE=alpine-mate_amd64_2022-05-05_00-49-rootfs.tar.zst
+# SHA256SUM=f178a0e42dc814202c5c3c7427e98daa1808e7d94ba2a625395ad13556d123bc
 # BUILD_DATE=20220505
 # BUILD_TAG=2022-05-05
 # STATUS=completed
 # VERSION=latest01
-# END_TIME=00:13
+# END_TIME=00:49
 
 [time]
 format = "rfc-3339"
 zone = "UTC"
 date = 2022-05-05
-begin = 2022-05-05 00:07:08.136288103+00:00
-start-sync_0 = 00:08:55
-start-zstd = 00:09:50
-start-sync_1 = 00:13:31
-end-sync_1 = 00:13:56
-end = 2022-05-05 00:13:56.725690735+00:00
+begin = 2022-05-05 00:42:40.980483301+00:00
+start-sync_0 = 00:44:19
+start-zstd = 00:45:14
+start-sync_1 = 00:48:36
+end-sync_1 = 00:49:00
+end = 2022-05-05 00:49:00.741158387+00:00
 
 [server]
 repo = "cake233/alpine-mate-amd64"
