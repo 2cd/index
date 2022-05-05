@@ -9,10 +9,10 @@ xorg_or_wayland = true
 syntax_version = "0.0.0-alpha.4"
 
 [file]
-name = "alpine-kde_amd64_2022-05-05_00-19.tar.zst"
+name = "alpine-kde_amd64_2022-05-05_00-54.tar.zst"
 
 # This value can be used to verify the integrity of the file
-sha256 = "274ec3ed7f4131bea1f8b6153ca59f4ea8a1bd28c039173d1c20fb87e705d48f"
+sha256 = "f7eb9dd720cd305e7a7a035809f8d2277fe67ea2415c00d81335569ef88eb7d0"
 
 # zstd: [1-22]
 zstd-level = 19
@@ -26,7 +26,7 @@ tar_bytes = 1835853824
 # Space occupied ≈ tar-size + zstd-size
 # You will need to prepare a large enough space before installation.
 zstd = "487M"
-zstd_bytes = 510554009
+zstd_bytes = 510623826
 
 [compatibility]
 compatible_mode = true
@@ -45,24 +45,24 @@ old_file = "alpine-kde_amd64_2022-04-21_00-19-rootfs.tar.zst"
 old_sha256 = "47d9875da69a48f1f18b5cea99c771bd15a7675b08a3d53f06c7692d2d547c2d"
 # edition 2021
 # DISTRO_NAME=alpine-edge_amd64
-# ROOTFS_FILE=alpine-kde_amd64_2022-05-05_00-19-rootfs.tar.zst
-# SHA256SUM=274ec3ed7f4131bea1f8b6153ca59f4ea8a1bd28c039173d1c20fb87e705d48f
+# ROOTFS_FILE=alpine-kde_amd64_2022-05-05_00-54-rootfs.tar.zst
+# SHA256SUM=f7eb9dd720cd305e7a7a035809f8d2277fe67ea2415c00d81335569ef88eb7d0
 # BUILD_DATE=20220505
 # BUILD_TAG=2022-05-05
 # STATUS=completed
 # VERSION=latest01
-# END_TIME=00:19
+# END_TIME=00:54
 
 [time]
 format = "rfc-3339"
 zone = "UTC"
 date = 2022-05-05
-begin = 2022-05-05 00:07:04.976701292+00:00
-start-sync_0 = 00:09:18
-start-zstd = 00:11:16
-start-sync_1 = 00:18:58
-end-sync_1 = 00:19:36
-end = 2022-05-05 00:19:36.917179783+00:00
+begin = 2022-05-05 00:42:46.029282893+00:00
+start-sync_0 = 00:45:07
+start-zstd = 00:46:53
+start-sync_1 = 00:53:28
+end-sync_1 = 00:54:12
+end = 2022-05-05 00:54:12.218020419+00:00
 
 [server]
 repo = "cake233/alpine-kde-amd64"
