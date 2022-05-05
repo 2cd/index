@@ -86,10 +86,10 @@ xorg_or_wayland = true
 syntax_version = "0.0.0-alpha.4"
 
 [file]
-name = "alpine-mate_i386_2022-05-05_00-32.tar.zst"
+name = "alpine-mate_i386_2022-05-05_01-03.tar.zst"
 
 # This value can be used to verify the integrity of the file
-sha256 = "dc25ffa134e82de55b58d8afdf2ef328d925608367953efcc133a3931a0a94a3"
+sha256 = "012f13622adaf9ed9a0a686c86762c4d5c17ebd8ba558adaf7602af5c935c589"
 
 # zstd: [1-22]
 zstd-level = 19
@@ -103,7 +103,7 @@ tar_bytes = 834694656
 # Space occupied ≈ tar-size + zstd-size
 # You will need to prepare a large enough space before installation.
 zstd = "251M"
-zstd_bytes = 262707576
+zstd_bytes = 262702987
 
 [compatibility]
 compatible_mode = true
@@ -122,24 +122,24 @@ old_file = "alpine-mate_i386_2022-04-21_00-28-rootfs.tar.zst"
 old_sha256 = "7ca450fabd8d93b555fc6bf048a0fda35e58c7645a176431f7e360e0aca90667"
 # edition 2021
 # DISTRO_NAME=alpine-edge_i386
-# ROOTFS_FILE=alpine-mate_i386_2022-05-05_00-32-rootfs.tar.zst
-# SHA256SUM=dc25ffa134e82de55b58d8afdf2ef328d925608367953efcc133a3931a0a94a3
+# ROOTFS_FILE=alpine-mate_i386_2022-05-05_01-03-rootfs.tar.zst
+# SHA256SUM=012f13622adaf9ed9a0a686c86762c4d5c17ebd8ba558adaf7602af5c935c589
 # BUILD_DATE=20220505
 # BUILD_TAG=2022-05-05
 # STATUS=completed
 # VERSION=latest02
-# END_TIME=00:32
+# END_TIME=01:03
 
 [time]
 format = "rfc-3339"
 zone = "UTC"
 date = 2022-05-05
-begin = 2022-05-05 00:07:06.009176696+00:00
-start-sync_0 = 00:28:32
-start-zstd = 00:29:20
-start-sync_1 = 00:31:48
-end-sync_1 = 00:32:11
-end = 2022-05-05 00:32:11.932956646+00:00
+begin = 2022-05-05 00:42:45.310736243+00:00
+start-sync_0 = 01:00:05
+start-zstd = 01:00:49
+start-sync_1 = 01:03:05
+end-sync_1 = 01:03:27
+end = 2022-05-05 01:03:27.795390767+00:00
 
 [server]
 repo = "cake233/alpine-mate-386"
