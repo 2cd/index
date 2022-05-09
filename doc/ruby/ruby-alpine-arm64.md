@@ -20,19 +20,19 @@ docker exec -it ruby-alpine-arm64 bash
 ```toml
 [main]
 name = "ruby"
-tag = ["alpine", "2022-04-25", "musl-libc", "musl"]
+tag = ["alpine", "2022-05-09", "musl-libc", "musl"]
 os = "alpine"
 release = "stable"
 arch = "arm64"
 platform = "linux/arm64"
-x11_or_wayland = false
-syntax_version = "0.0.0-alpha.3"
+xorg_or_wayland = false
+syntax_version = "0.0.0-alpha.4"
 
 [file]
-name = "ruby-musl_arm64_2022-04-25_12-04.tar.zst"
+name = "ruby-musl_arm64_2022-05-09_12-04.tar.zst"
 
 # This value can be used to verify the integrity of the file
-sha256 = "c3aa1f77a9255ea9dcda8addc104f44ef042f68b6343d56a63f1f00941a72c3e"
+sha256 = "8b22870614b13ec47b640e99d3a1d1dc8fc15fc6e955e6e5b88cdfb1c3575698"
 
 # zstd: [1-22]
 zstd-level = 22
@@ -41,48 +41,48 @@ zstd-level = 22
 # Installed size ≈ tar-size
 # Installed size is approximately equal to the size of the tar file
 tar = "82M"
-tar_bytes = 85962752
+tar_bytes = 85966848
 
 # Space occupied ≈ tar-size + zstd-size
 # You will need to prepare a large enough space before installation.
 zstd = "32M"
-zstd_bytes = 32735460
+zstd_bytes = 32738796
 
 [compatibility]
 compatible_mode = true
 
-previous_version = "latest01"
+previous_version = "latest02"
 
 # The value is &str, not int
-previous_date = "20220411"
-previous_tag = "2022-04-11"
-previous_file = "ruby-musl_arm64_2022-04-11_11-05-rootfs.tar.zst"
-previous_sha256 = "144a90a605b6ec83fffe021fa54b703a89488d8f4ef4dc56fed480218744eeb9"
+previous_date = "20220425"
+previous_tag = "2022-04-25"
+previous_file = "ruby-musl_arm64_2022-04-25_12-04-rootfs.tar.zst"
+previous_sha256 = "c3aa1f77a9255ea9dcda8addc104f44ef042f68b6343d56a63f1f00941a72c3e"
 
-current_version = "latest02"
-current_date = "20220425"
-old_file = "ruby-musl_arm64_2022-03-28_11-04-rootfs.tar.zst"
-old_sha256 = "7d0c3cb1c516020dc5a5db11acad2b5e57e775209dee214a6b4748d9e3c7dcd6"
+current_version = "latest01"
+current_date = "20220509"
+old_file = "ruby-musl_arm64_2022-04-11_11-05-rootfs.tar.zst"
+old_sha256 = "144a90a605b6ec83fffe021fa54b703a89488d8f4ef4dc56fed480218744eeb9"
 # edition 2021
 # DISTRO_NAME=ruby_arm64
-# ROOTFS_FILE=ruby-musl_arm64_2022-04-25_12-04-rootfs.tar.zst
-# SHA256SUM=c3aa1f77a9255ea9dcda8addc104f44ef042f68b6343d56a63f1f00941a72c3e
-# BUILD_DATE=20220425
-# BUILD_TAG=2022-04-25
+# ROOTFS_FILE=ruby-musl_arm64_2022-05-09_12-04-rootfs.tar.zst
+# SHA256SUM=8b22870614b13ec47b640e99d3a1d1dc8fc15fc6e955e6e5b88cdfb1c3575698
+# BUILD_DATE=20220509
+# BUILD_TAG=2022-05-09
 # STATUS=completed
-# VERSION=latest02
+# VERSION=latest01
 # END_TIME=12:04
 
 [time]
 format = "rfc-3339"
 zone = "UTC"
-date = 2022-04-25
-begin = 2022-04-25 12:02:35.093346804+00:00
-start-sync_0 = 12:03:52
-start-zstd = 12:04:05
-start-sync_1 = 12:04:45
-end-sync_1 = 12:04:56
-end = 2022-04-25 12:04:56.509290447+00:00
+date = 2022-05-09
+begin = 2022-05-09 12:02:34.741008868+00:00
+start-sync_0 = 12:03:28
+start-zstd = 12:03:34
+start-sync_1 = 12:04:09
+end-sync_1 = 12:04:14
+end = 2022-05-09 12:04:15.002326311+00:00
 
 [server]
 repo = "cake233/ruby-alpine-arm64"
@@ -96,14 +96,14 @@ split = false
 
 [server.node2]
 name = "tmoe"
-current = false
+current = true
 previous = true
 in_sync = false
 split = false
 
 [server.node3]
 name = "azure"
-current = false
+current = true
 previous = true
 in_sync = false
 split = false
