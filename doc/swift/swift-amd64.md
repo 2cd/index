@@ -44,19 +44,19 @@ docker exec -it swift-amd64 bash
 ```toml
 [main]
 name = "swift"
-tag = ["latest", "2022-04-25", "nightly"]
+tag = ["latest", "2022-05-09", "nightly"]
 os = "ubuntu"
 release = "focal"
 arch = "amd64"
 platform = "linux/amd64"
-x11_or_wayland = false
-syntax_version = "0.0.0-alpha.3"
+xorg_or_wayland = false
+syntax_version = "0.0.0-alpha.4"
 
 [file]
-name = "swift_amd64_2022-04-25_12-26.tar.zst"
+name = "swift_amd64_2022-05-09_12-25.tar.zst"
 
 # This value can be used to verify the integrity of the file
-sha256 = "e2af0843bfa3523becc35545f1f8a23e8f58ebeb4e1cb850f0aed6f1ea91b15e"
+sha256 = "561bcdba08f6cea000fafaa3488b493b6923e980140fe3f2b65e3260962fb8ab"
 
 # zstd: [1-22]
 zstd-level = 22
@@ -65,48 +65,48 @@ zstd-level = 22
 # Installed size ≈ tar-size
 # Installed size is approximately equal to the size of the tar file
 tar = "2.6G"
-tar_bytes = 2700128256
+tar_bytes = 2701052928
 
 # Space occupied ≈ tar-size + zstd-size
 # You will need to prepare a large enough space before installation.
 zstd = "453M"
-zstd_bytes = 474897838
+zstd_bytes = 474868946
 
 [compatibility]
 compatible_mode = true
 
-previous_version = "latest01"
+previous_version = "latest02"
 
 # The value is &str, not int
-previous_date = "20220411"
-previous_tag = "2022-04-11"
-previous_file = "swift_amd64_2022-04-11_11-25-rootfs.tar.zst"
-previous_sha256 = "4e5a953f509dd196e731d686c336cde1a8830da905be2fd2d200cff53164dcf8"
+previous_date = "20220425"
+previous_tag = "2022-04-25"
+previous_file = "swift_amd64_2022-04-25_12-26-rootfs.tar.zst"
+previous_sha256 = "e2af0843bfa3523becc35545f1f8a23e8f58ebeb4e1cb850f0aed6f1ea91b15e"
 
-current_version = "latest02"
-current_date = "20220425"
-old_file = "swift_amd64_2022-03-28_11-24-rootfs.tar.zst"
-old_sha256 = "e940280994ca1f96d8c396ca8b7d32fd2b1696dc5f85020efa76ad668aec8315"
+current_version = "latest01"
+current_date = "20220509"
+old_file = "swift_amd64_2022-04-11_11-25-rootfs.tar.zst"
+old_sha256 = "4e5a953f509dd196e731d686c336cde1a8830da905be2fd2d200cff53164dcf8"
 # edition 2021
 # DISTRO_NAME=swift_amd64
-# ROOTFS_FILE=swift_amd64_2022-04-25_12-26-rootfs.tar.zst
-# SHA256SUM=e2af0843bfa3523becc35545f1f8a23e8f58ebeb4e1cb850f0aed6f1ea91b15e
-# BUILD_DATE=20220425
-# BUILD_TAG=2022-04-25
+# ROOTFS_FILE=swift_amd64_2022-05-09_12-25-rootfs.tar.zst
+# SHA256SUM=561bcdba08f6cea000fafaa3488b493b6923e980140fe3f2b65e3260962fb8ab
+# BUILD_DATE=20220509
+# BUILD_TAG=2022-05-09
 # STATUS=completed
-# VERSION=latest02
-# END_TIME=12:26
+# VERSION=latest01
+# END_TIME=12:25
 
 [time]
 format = "rfc-3339"
 zone = "UTC"
-date = 2022-04-25
-begin = 2022-04-25 12:02:34.373108825+00:00
-start-sync_0 = 12:04:54
-start-zstd = 12:07:07
-start-sync_1 = 12:26:06
-end-sync_1 = 12:26:45
-end = 2022-04-25 12:26:45.734041794+00:00
+date = 2022-05-09
+begin = 2022-05-09 12:02:39.073510154+00:00
+start-sync_0 = 12:05:09
+start-zstd = 12:07:15
+start-sync_1 = 12:25:19
+end-sync_1 = 12:25:54
+end = 2022-05-09 12:25:54.251285393+00:00
 
 [server]
 repo = "cake233/swift-amd64"
@@ -120,14 +120,14 @@ split = false
 
 [server.node2]
 name = "tmoe"
-current = false
+current = true
 previous = true
 in_sync = false
 split = false
 
 [server.node3]
 name = "azure"
-current = false
+current = true
 previous = true
 in_sync = false
 split = false
@@ -144,7 +144,7 @@ LANG = "en_US.UTF-8"
 ldd = 'ldd (Ubuntu GLIBC 2.31-0ubuntu9.7) 2.31'
 git = 'git version 2.25.1'
 swift = '''
-Swift version 5.7-dev (LLVM 0111970099b6de6, Swift 5d55ffea514a842)
+Swift version 5.7-dev (LLVM cd62c186b914a47, Swift c58d4dba34ef37a)
 Target: x86_64-unknown-linux-gnu
 '''
 ```
