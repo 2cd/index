@@ -20,19 +20,19 @@ docker exec -it php-arm64 bash
 ```toml
 [main]
 name = "php"
-tag = ["latest", "2022-04-25"]
+tag = ["latest", "2022-05-09"]
 os = "debian"
 release = "stable"
 arch = "arm64"
 platform = "linux/arm64"
-x11_or_wayland = false
-syntax_version = "0.0.0-alpha.3"
+xorg_or_wayland = false
+syntax_version = "0.0.0-alpha.4"
 
 [file]
-name = "php_arm64_2022-04-25_12-10.tar.zst"
+name = "php_arm64_2022-05-09_12-09.tar.zst"
 
 # This value can be used to verify the integrity of the file
-sha256 = "049f086e87432df09b53f5703303b8f9567863ac7b38298652051bf10d5f94ec"
+sha256 = "e457a774ec636bfb6873a496b5a95838077c55cb1f6b2e894b0539ede5a60198"
 
 # zstd: [1-22]
 zstd-level = 22
@@ -40,49 +40,49 @@ zstd-level = 22
 [file.size]
 # Installed size ≈ tar-size
 # Installed size is approximately equal to the size of the tar file
-tar = "456M"
-tar_bytes = 478146048
+tar = "457M"
+tar_bytes = 478149120
 
 # Space occupied ≈ tar-size + zstd-size
 # You will need to prepare a large enough space before installation.
 zstd = "99M"
-zstd_bytes = 102847557
+zstd_bytes = 102891917
 
 [compatibility]
 compatible_mode = true
 
-previous_version = "latest01"
+previous_version = "latest02"
 
 # The value is &str, not int
-previous_date = "20220411"
-previous_tag = "2022-04-11"
-previous_file = "php_arm64_2022-04-11_11-09-rootfs.tar.zst"
-previous_sha256 = "967e3cac0e2dea6a742f85e9e8d8ad5e6500a68c875998fcb6a8dce0b1d860bc"
+previous_date = "20220425"
+previous_tag = "2022-04-25"
+previous_file = "php_arm64_2022-04-25_12-10-rootfs.tar.zst"
+previous_sha256 = "049f086e87432df09b53f5703303b8f9567863ac7b38298652051bf10d5f94ec"
 
-current_version = "latest02"
-current_date = "20220425"
-old_file = "php_arm64_2022-03-28_11-10-rootfs.tar.zst"
-old_sha256 = "724d22cbb9c5e7518ca926f7fe163262017d2ff9ae45ea971ea95c5fa76da3ef"
+current_version = "latest01"
+current_date = "20220509"
+old_file = "php_arm64_2022-04-11_11-09-rootfs.tar.zst"
+old_sha256 = "967e3cac0e2dea6a742f85e9e8d8ad5e6500a68c875998fcb6a8dce0b1d860bc"
 # edition 2021
 # DISTRO_NAME=php_arm64
-# ROOTFS_FILE=php_arm64_2022-04-25_12-10-rootfs.tar.zst
-# SHA256SUM=049f086e87432df09b53f5703303b8f9567863ac7b38298652051bf10d5f94ec
-# BUILD_DATE=20220425
-# BUILD_TAG=2022-04-25
+# ROOTFS_FILE=php_arm64_2022-05-09_12-09-rootfs.tar.zst
+# SHA256SUM=e457a774ec636bfb6873a496b5a95838077c55cb1f6b2e894b0539ede5a60198
+# BUILD_DATE=20220509
+# BUILD_TAG=2022-05-09
 # STATUS=completed
-# VERSION=latest02
-# END_TIME=12:10
+# VERSION=latest01
+# END_TIME=12:09
 
 [time]
 format = "rfc-3339"
 zone = "UTC"
-date = 2022-04-25
-begin = 2022-04-25 12:02:36.997673673+00:00
-start-sync_0 = 12:05:23
-start-zstd = 12:05:39
-start-sync_1 = 12:10:01
-end-sync_1 = 12:10:16
-end = 2022-04-25 12:10:16.694581905+00:00
+date = 2022-05-09
+begin = 2022-05-09 12:02:38.799319321+00:00
+start-sync_0 = 12:05:17
+start-zstd = 12:05:32
+start-sync_1 = 12:09:28
+end-sync_1 = 12:09:42
+end = 2022-05-09 12:09:42.302080618+00:00
 
 [server]
 repo = "cake233/php-arm64"
@@ -96,14 +96,14 @@ split = false
 
 [server.node2]
 name = "tmoe"
-current = false
+current = true
 previous = true
 in_sync = false
 split = false
 
 [server.node3]
 name = "azure"
-current = false
+current = true
 previous = true
 in_sync = false
 split = false
