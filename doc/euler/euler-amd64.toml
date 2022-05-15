@@ -1,6 +1,6 @@
 [main]
 name = "euler"
-tag = ["base", "2022-04-26"]
+tag = ["base", "2022-05-15"]
 os = "euler"
 release = "base"
 arch = "amd64"
@@ -9,10 +9,10 @@ xorg_or_wayland = false
 syntax_version = "0.0.0-alpha.4"
 
 [file]
-name = "euler_amd64_2022-04-26_02-42.tar.zst"
+name = "euler_amd64_2022-05-15_00-07.tar.zst"
 
 # This value can be used to verify the integrity of the file
-sha256 = "102de50eab90c320532dc4c2c88d962cb271511d7808575dcc1a13c5f7c99e4f"
+sha256 = "4278815a65b9a1329b635640e5a8dd378b66434a433d1e7082cd917b739d836b"
 
 # zstd: [1-22]
 zstd-level = 19
@@ -20,13 +20,13 @@ zstd-level = 19
 [file.size]
 # Installed size ≈ tar-size
 # Installed size is approximately equal to the size of the tar file
-tar = "445M"
-tar_bytes = 466259968
+tar = "448M"
+tar_bytes = 468773376
 
 # Space occupied ≈ tar-size + zstd-size
 # You will need to prepare a large enough space before installation.
 zstd = "70M"
-zstd_bytes = 72536551
+zstd_bytes = 72690117
 
 [compatibility]
 compatible_mode = true
@@ -40,29 +40,29 @@ previous_file = "euler_amd64_2022-04-22_00-50-rootfs.tar.zst"
 previous_sha256 = "377a436edc19dea57b0f4852ebf3026c49b348489f789cda46f27de68b78c85b"
 
 current_version = "latest02"
-current_date = "20220426"
+current_date = "20220515"
 old_file = "euler_amd64_2022-04-22_09-51-rootfs.tar.zst"
 old_sha256 = "ca47af1ef86244f5d4f279d8e3636b4c868fb6b35474c6d2ac5cc19173356d76"
 # edition 2021
 # DISTRO_NAME=euler_amd64
-# ROOTFS_FILE=euler_amd64_2022-04-26_02-42-rootfs.tar.zst
-# SHA256SUM=102de50eab90c320532dc4c2c88d962cb271511d7808575dcc1a13c5f7c99e4f
-# BUILD_DATE=20220426
-# BUILD_TAG=2022-04-26
+# ROOTFS_FILE=euler_amd64_2022-05-15_00-07-rootfs.tar.zst
+# SHA256SUM=4278815a65b9a1329b635640e5a8dd378b66434a433d1e7082cd917b739d836b
+# BUILD_DATE=20220515
+# BUILD_TAG=2022-05-15
 # STATUS=completed
 # VERSION=latest02
-# END_TIME=02:42
+# END_TIME=00:07
 
 [time]
 format = "rfc-3339"
 zone = "UTC"
-date = 2022-04-26
-begin = 2022-04-26 02:37:54.877192387+00:00
-start-sync_0 = 02:40:15
-start-zstd = 02:40:38
-start-sync_1 = 02:42:08
-end-sync_1 = 02:42:17
-end = 2022-04-26 02:42:17.935309479+00:00
+date = 2022-05-15
+begin = 2022-05-15 00:03:25.564554207+00:00
+start-sync_0 = 00:06:03
+start-zstd = 00:06:26
+start-sync_1 = 00:07:47
+end-sync_1 = 00:07:58
+end = 2022-05-15 00:07:58.819005186+00:00
 
 [server]
 repo = "cake233/euler-amd64"
