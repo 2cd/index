@@ -1,6 +1,6 @@
 [main]
 name = "nginx"
-tag = ["latest", "2022-05-15"]
+tag = ["latest", "2022-05-16"]
 os = "debian"
 release = "stable"
 arch = "amd64"
@@ -9,10 +9,10 @@ xorg_or_wayland = false
 syntax_version = "0.0.0-alpha.4"
 
 [file]
-name = "nginx_amd64_2022-05-15_15-05.tar.zst"
+name = "nginx_amd64_2022-05-16_12-05.tar.zst"
 
 # This value can be used to verify the integrity of the file
-sha256 = "ef2b81afaaa887d294a4bd9022b7d61b5ac842c1563d3a72b6c1d06831565fdd"
+sha256 = "6a0c6fac6abc49f70a1847c42bec409894fd107cb214a80337c92146eb27664d"
 
 # zstd: [1-22]
 zstd-level = 22
@@ -26,7 +26,7 @@ tar_bytes = 170079744
 # Space occupied ≈ tar-size + zstd-size
 # You will need to prepare a large enough space before installation.
 zstd = "40M"
-zstd_bytes = 41561235
+zstd_bytes = 41561070
 
 [compatibility]
 compatible_mode = true
@@ -40,29 +40,29 @@ previous_file = "nginx_amd64_2022-05-02_12-05-rootfs.tar.zst"
 previous_sha256 = "2b7830df48ce62ea1b14541636247adeb7204f7878436b07b1f21c07ccfd3505"
 
 current_version = "latest01"
-current_date = "20220515"
+current_date = "20220516"
 old_file = "nginx_amd64_2022-04-18_12-05-rootfs.tar.zst"
 old_sha256 = "01919be8f1e7c4251fdba268fe20998458c41660446ee2c02df135bb896998b0"
 # edition 2021
 # DISTRO_NAME=nginx_amd64
-# ROOTFS_FILE=nginx_amd64_2022-05-15_15-05-rootfs.tar.zst
-# SHA256SUM=ef2b81afaaa887d294a4bd9022b7d61b5ac842c1563d3a72b6c1d06831565fdd
-# BUILD_DATE=20220515
-# BUILD_TAG=2022-05-15
+# ROOTFS_FILE=nginx_amd64_2022-05-16_12-05-rootfs.tar.zst
+# SHA256SUM=6a0c6fac6abc49f70a1847c42bec409894fd107cb214a80337c92146eb27664d
+# BUILD_DATE=20220516
+# BUILD_TAG=2022-05-16
 # STATUS=completed
 # VERSION=latest01
-# END_TIME=15:05
+# END_TIME=12:05
 
 [time]
 format = "rfc-3339"
 zone = "UTC"
-date = 2022-05-15
-begin = 2022-05-15 15:02:41.885240071+00:00
-start-sync_0 = 15:03:38
-start-zstd = 15:03:50
-start-sync_1 = 15:05:36
-end-sync_1 = 15:05:46
-end = 2022-05-15 15:05:46.390726913+00:00
+date = 2022-05-16
+begin = 2022-05-16 12:02:39.672321373+00:00
+start-sync_0 = 12:03:41
+start-zstd = 12:03:54
+start-sync_1 = 12:05:24
+end-sync_1 = 12:05:33
+end = 2022-05-16 12:05:34.009225146+00:00
 
 [server]
 repo = "cake233/nginx-amd64"
