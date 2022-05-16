@@ -20,7 +20,7 @@ docker exec -it nginx-alpine-armv7 bash
 ```toml
 [main]
 name = "nginx"
-tag = ["alpine", "2022-05-15", "musl-libc", "musl"]
+tag = ["alpine", "2022-05-16", "musl-libc", "musl"]
 os = "alpine"
 release = "stable"
 arch = "armhf"
@@ -29,10 +29,10 @@ xorg_or_wayland = false
 syntax_version = "0.0.0-alpha.4"
 
 [file]
-name = "nginx-musl_armhf_2022-05-15_15-04.tar.zst"
+name = "nginx-musl_armhf_2022-05-16_12-04.tar.zst"
 
 # This value can be used to verify the integrity of the file
-sha256 = "fb9607dacf9aacf539901737314de6bb5f280e3f85966927013430be03fa6a19"
+sha256 = "364ddb7cc7edfd1f82a41b438594d38bfcde18bd5a34a480a877c4a302f63b9a"
 
 # zstd: [1-22]
 zstd-level = 22
@@ -46,7 +46,7 @@ tar_bytes = 25347072
 # Space occupied ≈ tar-size + zstd-size
 # You will need to prepare a large enough space before installation.
 zstd = "8.4M"
-zstd_bytes = 8744060
+zstd_bytes = 8732785
 
 [compatibility]
 compatible_mode = true
@@ -60,29 +60,29 @@ previous_file = "nginx-musl_armhf_2022-05-02_12-04-rootfs.tar.zst"
 previous_sha256 = "dd5b17083820074630f406b5e1f8594c36378673603d3d9e791c4153b4eb4656"
 
 current_version = "latest01"
-current_date = "20220515"
+current_date = "20220516"
 old_file = "nginx-musl_armhf_2022-04-18_12-03-rootfs.tar.zst"
 old_sha256 = "f4636c27f6019c0f94057bf4e47d833d9e2b857df498d0f58c6efb9b8cd660b5"
 # edition 2021
 # DISTRO_NAME=nginx_armhf
-# ROOTFS_FILE=nginx-musl_armhf_2022-05-15_15-04-rootfs.tar.zst
-# SHA256SUM=fb9607dacf9aacf539901737314de6bb5f280e3f85966927013430be03fa6a19
-# BUILD_DATE=20220515
-# BUILD_TAG=2022-05-15
+# ROOTFS_FILE=nginx-musl_armhf_2022-05-16_12-04-rootfs.tar.zst
+# SHA256SUM=364ddb7cc7edfd1f82a41b438594d38bfcde18bd5a34a480a877c4a302f63b9a
+# BUILD_DATE=20220516
+# BUILD_TAG=2022-05-16
 # STATUS=completed
 # VERSION=latest01
-# END_TIME=15:04
+# END_TIME=12:04
 
 [time]
 format = "rfc-3339"
 zone = "UTC"
-date = 2022-05-15
-begin = 2022-05-15 15:02:40.019810363+00:00
-start-sync_0 = 15:03:35
-start-zstd = 15:03:43
-start-sync_1 = 15:03:54
-end-sync_1 = 15:04:01
-end = 2022-05-15 15:04:01.824502268+00:00
+date = 2022-05-16
+begin = 2022-05-16 12:02:39.520504413+00:00
+start-sync_0 = 12:03:37
+start-zstd = 12:03:44
+start-sync_1 = 12:03:56
+end-sync_1 = 12:04:01
+end = 2022-05-16 12:04:01.359940514+00:00
 
 [server]
 repo = "cake233/nginx-alpine-armv7"
