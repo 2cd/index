@@ -210,7 +210,7 @@ editor 0.set || nano 0.set
 ```toml
 [main]
 name = "code"
-tag = ["latest", "2022-05-02", "vsc", "vscode", "web"]
+tag = ["latest", "2022-05-16", "vsc", "vscode", "web"]
 os = "debian"
 release = "sid"
 arch = "amd64"
@@ -219,10 +219,10 @@ xorg_or_wayland = false
 syntax_version = "0.0.0-alpha.4"
 
 [file]
-name = "code_amd64_2022-05-02_12-08.tar.zst"
+name = "code_amd64_2022-05-16_12-08.tar.zst"
 
 # This value can be used to verify the integrity of the file
-sha256 = "1d9bb3122b0f36409cf61e78d869ddb8dc30ba94200de7dc81d31609bdf38247"
+sha256 = "21ab3ad6cfdc6f9b6b3cb4ed6f3368213711e022e6f594e3d26b0658fe7f24b8"
 
 # zstd: [1-22]
 zstd-level = 22
@@ -230,49 +230,49 @@ zstd-level = 22
 [file.size]
 # Installed size ≈ tar-size
 # Installed size is approximately equal to the size of the tar file
-tar = "533M"
-tar_bytes = 558330368
+tar = "548M"
+tar_bytes = 574296576
 
 # Space occupied ≈ tar-size + zstd-size
 # You will need to prepare a large enough space before installation.
-zstd = "103M"
-zstd_bytes = 107682951
+zstd = "107M"
+zstd_bytes = 111214111
 
 [compatibility]
 compatible_mode = true
 
-previous_version = "latest02"
+previous_version = "latest01"
 
 # The value is &str, not int
-previous_date = "20220418"
-previous_tag = "2022-04-18"
-previous_file = "code_amd64_2022-04-18_12-08-rootfs.tar.zst"
-previous_sha256 = "47a89524a1827effe1bea641d6bfd7464061472c1431727856be03a528cb3701"
+previous_date = "20220502"
+previous_tag = "2022-05-02"
+previous_file = "code_amd64_2022-05-02_12-08-rootfs.tar.zst"
+previous_sha256 = "1d9bb3122b0f36409cf61e78d869ddb8dc30ba94200de7dc81d31609bdf38247"
 
-current_version = "latest01"
-current_date = "20220502"
-old_file = "code_amd64_2022-04-04_11-07-rootfs.tar.zst"
-old_sha256 = "4c4349005ca317810b320c9779411402d7bc28790d87e857ee075b0377b7b314"
+current_version = "latest02"
+current_date = "20220516"
+old_file = "code_amd64_2022-04-18_12-08-rootfs.tar.zst"
+old_sha256 = "47a89524a1827effe1bea641d6bfd7464061472c1431727856be03a528cb3701"
 # edition 2021
 # DISTRO_NAME=code_amd64
-# ROOTFS_FILE=code_amd64_2022-05-02_12-08-rootfs.tar.zst
-# SHA256SUM=1d9bb3122b0f36409cf61e78d869ddb8dc30ba94200de7dc81d31609bdf38247
-# BUILD_DATE=20220502
-# BUILD_TAG=2022-05-02
+# ROOTFS_FILE=code_amd64_2022-05-16_12-08-rootfs.tar.zst
+# SHA256SUM=21ab3ad6cfdc6f9b6b3cb4ed6f3368213711e022e6f594e3d26b0658fe7f24b8
+# BUILD_DATE=20220516
+# BUILD_TAG=2022-05-16
 # STATUS=completed
-# VERSION=latest01
+# VERSION=latest02
 # END_TIME=12:08
 
 [time]
 format = "rfc-3339"
 zone = "UTC"
-date = 2022-05-02
-begin = 2022-05-02 12:02:37.214420399+00:00
-start-sync_0 = 12:03:28
-start-zstd = 12:04:01
-start-sync_1 = 12:08:03
-end-sync_1 = 12:08:15
-end = 2022-05-02 12:08:15.704422792+00:00
+date = 2022-05-16
+begin = 2022-05-16 12:02:36.055998505+00:00
+start-sync_0 = 12:03:54
+start-zstd = 12:04:27
+start-sync_1 = 12:08:20
+end-sync_1 = 12:08:32
+end = 2022-05-16 12:08:32.180790776+00:00
 
 [server]
 repo = "cake233/code-amd64"
@@ -308,7 +308,7 @@ LANG = "en_US.UTF-8"
 
 [version]
 ldd = 'ldd (Debian GLIBC 2.33-7) 2.33'
-code = '4.3.0 09bc30027a7fbba170f907a527eaa9f7219fe739 with Code 1.65.2'
+code = '4.4.0 b088ec7adf9e17bc75215f79e21498eb40da03ed with Code 1.66.2'
 
 [port]
 tcp = [8080]
