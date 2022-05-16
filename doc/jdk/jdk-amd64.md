@@ -20,7 +20,7 @@ docker exec -it jdk-amd64 bash
 ```toml
 [main]
 name = "jdk"
-tag = ["latest", "2022-05-02"]
+tag = ["latest", "2022-05-16"]
 os = "debian"
 release = "stable"
 arch = "amd64"
@@ -29,10 +29,10 @@ xorg_or_wayland = false
 syntax_version = "0.0.0-alpha.4"
 
 [file]
-name = "jdk_amd64_2022-05-02_12-08.tar.zst"
+name = "jdk_amd64_2022-05-16_12-08.tar.zst"
 
 # This value can be used to verify the integrity of the file
-sha256 = "75c5acb84a5df1763c77453253ee5bd6f6b25e1993a6d485db0d97fce4f6af3b"
+sha256 = "e03337dbb8f0b21993ff139368d782e38adc70842752ca1300c0e20b47dc716e"
 
 # zstd: [1-22]
 zstd-level = 22
@@ -41,48 +41,48 @@ zstd-level = 22
 # Installed size ≈ tar-size
 # Installed size is approximately equal to the size of the tar file
 tar = "432M"
-tar_bytes = 452084736
+tar_bytes = 452105728
 
 # Space occupied ≈ tar-size + zstd-size
 # You will need to prepare a large enough space before installation.
 zstd = "185M"
-zstd_bytes = 193638098
+zstd_bytes = 193737891
 
 [compatibility]
 compatible_mode = true
 
-previous_version = "latest01"
+previous_version = "latest02"
 
 # The value is &str, not int
-previous_date = "20220418"
-previous_tag = "2022-04-18"
-previous_file = "jdk_amd64_2022-04-18_12-07-rootfs.tar.zst"
-previous_sha256 = "eea1a9d8add4ddf9cdfb6679f5fed4e5a954e1286e58a8b8b794c8d9a27e1db7"
+previous_date = "20220502"
+previous_tag = "2022-05-02"
+previous_file = "jdk_amd64_2022-05-02_12-08-rootfs.tar.zst"
+previous_sha256 = "75c5acb84a5df1763c77453253ee5bd6f6b25e1993a6d485db0d97fce4f6af3b"
 
-current_version = "latest02"
-current_date = "20220502"
-old_file = "jdk_amd64_2022-04-04_11-07-rootfs.tar.zst"
-old_sha256 = "0e7126954cb6162d12b7139277d6caa9fef7cdb2d7efc77c85ca1c0907255da5"
+current_version = "latest01"
+current_date = "20220516"
+old_file = "jdk_amd64_2022-04-18_12-07-rootfs.tar.zst"
+old_sha256 = "eea1a9d8add4ddf9cdfb6679f5fed4e5a954e1286e58a8b8b794c8d9a27e1db7"
 # edition 2021
 # DISTRO_NAME=jdk_amd64
-# ROOTFS_FILE=jdk_amd64_2022-05-02_12-08-rootfs.tar.zst
-# SHA256SUM=75c5acb84a5df1763c77453253ee5bd6f6b25e1993a6d485db0d97fce4f6af3b
-# BUILD_DATE=20220502
-# BUILD_TAG=2022-05-02
+# ROOTFS_FILE=jdk_amd64_2022-05-16_12-08-rootfs.tar.zst
+# SHA256SUM=e03337dbb8f0b21993ff139368d782e38adc70842752ca1300c0e20b47dc716e
+# BUILD_DATE=20220516
+# BUILD_TAG=2022-05-16
 # STATUS=completed
-# VERSION=latest02
+# VERSION=latest01
 # END_TIME=12:08
 
 [time]
 format = "rfc-3339"
 zone = "UTC"
-date = 2022-05-02
-begin = 2022-05-02 12:02:42.317754750+00:00
+date = 2022-05-16
+begin = 2022-05-16 12:02:37.914413602+00:00
 start-sync_0 = 12:03:39
-start-zstd = 12:03:55
-start-sync_1 = 12:07:46
-end-sync_1 = 12:08:06
-end = 2022-05-02 12:08:06.235807418+00:00
+start-zstd = 12:03:51
+start-sync_1 = 12:08:03
+end-sync_1 = 12:08:21
+end = 2022-05-16 12:08:21.930187676+00:00
 
 [server]
 repo = "cake233/jdk-amd64"
@@ -122,8 +122,8 @@ JAVA_HOME = '/usr/local/openjdk-19'
 ldd = 'ldd (Debian GLIBC 2.31-13+deb11u3) 2.31'
 java = '''
 openjdk 19-ea 2022-09-20
-OpenJDK Runtime Environment (build 19-ea+20-1369)
-OpenJDK 64-Bit Server VM (build 19-ea+20-1369, mixed mode, sharing)
+OpenJDK Runtime Environment (build 19-ea+21-1482)
+OpenJDK 64-Bit Server VM (build 19-ea+21-1482, mixed mode, sharing)
 '''
 javac = 'javac 19-ea'
 ```
