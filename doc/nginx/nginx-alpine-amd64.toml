@@ -1,6 +1,6 @@
 [main]
 name = "nginx"
-tag = ["alpine", "2022-05-15", "musl-libc", "musl"]
+tag = ["alpine", "2022-05-16", "musl-libc", "musl"]
 os = "alpine"
 release = "stable"
 arch = "amd64"
@@ -9,10 +9,10 @@ xorg_or_wayland = false
 syntax_version = "0.0.0-alpha.4"
 
 [file]
-name = "nginx-musl_amd64_2022-05-15_15-03.tar.zst"
+name = "nginx-musl_amd64_2022-05-16_12-04.tar.zst"
 
 # This value can be used to verify the integrity of the file
-sha256 = "bba4d7a3368323330d169d74fe1650a0441df031dad9c2979e9f3f6bad6c8867"
+sha256 = "a49312a746b71bc4af6d7ca55b969477145b729d955fd135e18e89c4566037c1"
 
 # zstd: [1-22]
 zstd-level = 22
@@ -26,7 +26,7 @@ tar_bytes = 36025856
 # Space occupied ≈ tar-size + zstd-size
 # You will need to prepare a large enough space before installation.
 zstd = "9.3M"
-zstd_bytes = 9680048
+zstd_bytes = 9680106
 
 [compatibility]
 compatible_mode = true
@@ -40,29 +40,29 @@ previous_file = "nginx-musl_amd64_2022-05-02_12-04-rootfs.tar.zst"
 previous_sha256 = "94052ecc07b7a1ed9269eed6a8b9ce8540d06e4ab9cc016939c8263e81886449"
 
 current_version = "latest01"
-current_date = "20220515"
+current_date = "20220516"
 old_file = "nginx-musl_amd64_2022-04-18_12-03-rootfs.tar.zst"
 old_sha256 = "6c4f90d77ca3b4501bbe280cc014717e5efefb3b36464a4f8ce595a6b699b4dc"
 # edition 2021
 # DISTRO_NAME=nginx_amd64
-# ROOTFS_FILE=nginx-musl_amd64_2022-05-15_15-03-rootfs.tar.zst
-# SHA256SUM=bba4d7a3368323330d169d74fe1650a0441df031dad9c2979e9f3f6bad6c8867
-# BUILD_DATE=20220515
-# BUILD_TAG=2022-05-15
+# ROOTFS_FILE=nginx-musl_amd64_2022-05-16_12-04-rootfs.tar.zst
+# SHA256SUM=a49312a746b71bc4af6d7ca55b969477145b729d955fd135e18e89c4566037c1
+# BUILD_DATE=20220516
+# BUILD_TAG=2022-05-16
 # STATUS=completed
 # VERSION=latest01
-# END_TIME=15:03
+# END_TIME=12:04
 
 [time]
 format = "rfc-3339"
 zone = "UTC"
-date = 2022-05-15
-begin = 2022-05-15 15:02:36.786347702+00:00
-start-sync_0 = 15:03:16
-start-zstd = 15:03:22
-start-sync_1 = 15:03:39
-end-sync_1 = 15:03:44
-end = 2022-05-15 15:03:44.154068503+00:00
+date = 2022-05-16
+begin = 2022-05-16 12:02:40.750925325+00:00
+start-sync_0 = 12:03:35
+start-zstd = 12:03:44
+start-sync_1 = 12:04:01
+end-sync_1 = 12:04:08
+end = 2022-05-16 12:04:08.967666417+00:00
 
 [server]
 repo = "cake233/nginx-alpine-amd64"
