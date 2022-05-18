@@ -29,10 +29,10 @@ xorg_or_wayland = false
 syntax_version = "0.0.0-alpha.4"
 
 [file]
-name = "arch_armhf_2022-05-18_00-05.tar.zst"
+name = "arch_armhf_2022-05-18_00-06.tar.zst"
 
 # This value can be used to verify the integrity of the file
-sha256 = "9c333e235f4ce13dc6ca1c2e910ae124859505f362f24f48c24cdb2b35901513"
+sha256 = "3a5b0056e01348b09a1211e3c7693033d293cbbb5f731bcf2ddec93afc5ca447"
 
 # zstd: [1-22]
 zstd-level = 12
@@ -46,7 +46,7 @@ tar_bytes = 810343936
 # Space occupied ≈ tar-size + zstd-size
 # You will need to prepare a large enough space before installation.
 zstd = "230M"
-zstd_bytes = 240906764
+zstd_bytes = 240906994
 
 [compatibility]
 compatible_mode = true
@@ -65,24 +65,24 @@ old_file = ""
 old_sha256 = ""
 # edition 2021
 # DISTRO_NAME=arch_armhf
-# ROOTFS_FILE=arch_armhf_2022-05-18_00-05-rootfs.tar.zst
-# SHA256SUM=9c333e235f4ce13dc6ca1c2e910ae124859505f362f24f48c24cdb2b35901513
+# ROOTFS_FILE=arch_armhf_2022-05-18_00-06-rootfs.tar.zst
+# SHA256SUM=3a5b0056e01348b09a1211e3c7693033d293cbbb5f731bcf2ddec93afc5ca447
 # BUILD_DATE=20220518
 # BUILD_TAG=2022-05-18
 # STATUS=completed
 # VERSION=latest01
-# END_TIME=00:05
+# END_TIME=00:06
 
 [time]
 format = "rfc-3339"
 zone = "UTC"
 date = 2022-05-18
-begin = 2022-05-18 00:02:26.696420785+00:00
-start-sync_0 = 00:04:20
-start-zstd = 00:04:57
-start-sync_1 = 00:05:18
-end-sync_1 = 00:05:38
-end = 2022-05-18 00:05:38.223256962+00:00
+begin = 2022-05-18 00:02:26.507698589+00:00
+start-sync_0 = 00:05:05
+start-zstd = 00:05:53
+start-sync_1 = 00:06:19
+end-sync_1 = 00:06:42
+end = 2022-05-18 00:06:42.798963495+00:00
 
 [server]
 repo = "cake233/arch-armv7"
