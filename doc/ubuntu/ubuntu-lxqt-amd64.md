@@ -77,7 +77,7 @@ localhost:5903
 ```toml
 [main]
 name = "ubuntu"
-tag = ["lxqt", "2022-05-24", "devel"]
+tag = ["lxqt", "2022-05-31", "devel"]
 os = "ubuntu"
 release = "dev"
 arch = "amd64"
@@ -86,10 +86,10 @@ xorg_or_wayland = true
 syntax_version = "0.0.0-alpha.4"
 
 [file]
-name = "ubuntu-lxqt_amd64_2022-05-24_00-42.tar.zst"
+name = "ubuntu-lxqt_amd64_2022-05-31_00-44.tar.zst"
 
 # This value can be used to verify the integrity of the file
-sha256 = "364b51720740728a45610a824d1525018ceb89dd87ee95a15b0bcea76bff8288"
+sha256 = "cdb11cfe044a152620f20be5c183190a5c6f45c76365c7720dae34b409fae403"
 
 # zstd: [1-22]
 zstd-level = 19
@@ -98,48 +98,48 @@ zstd-level = 19
 # Installed size ≈ tar-size
 # Installed size is approximately equal to the size of the tar file
 tar = "3.5G"
-tar_bytes = 3727788544
+tar_bytes = 3729333760
 
 # Space occupied ≈ tar-size + zstd-size
 # You will need to prepare a large enough space before installation.
-zstd = "945M"
-zstd_bytes = 990747965
+zstd = "946M"
+zstd_bytes = 991091331
 
 [compatibility]
 compatible_mode = true
 
-previous_version = "latest01"
+previous_version = "latest02"
 
 # The value is &str, not int
-previous_date = "20220517"
-previous_tag = "2022-05-17"
-previous_file = "ubuntu-lxqt_amd64_2022-05-17_00-46-rootfs.tar.zst"
-previous_sha256 = "c5a02b2a26264207af229a03bd1941133295920380ba1831b2b153f45f6dad39"
+previous_date = "20220524"
+previous_tag = "2022-05-24"
+previous_file = "ubuntu-lxqt_amd64_2022-05-24_00-42-rootfs.tar.zst"
+previous_sha256 = "364b51720740728a45610a824d1525018ceb89dd87ee95a15b0bcea76bff8288"
 
-current_version = "latest02"
-current_date = "20220524"
-old_file = "ubuntu-lxqt_amd64_2022-05-10_00-52-rootfs.tar.zst"
-old_sha256 = "d43f454ab60ecea76935536c88bf813b727bec87ed5fd5390b25787def3d24a1"
+current_version = "latest01"
+current_date = "20220531"
+old_file = "ubuntu-lxqt_amd64_2022-05-17_00-46-rootfs.tar.zst"
+old_sha256 = "c5a02b2a26264207af229a03bd1941133295920380ba1831b2b153f45f6dad39"
 # edition 2021
 # DISTRO_NAME=ubuntu-dev_amd64
-# ROOTFS_FILE=ubuntu-lxqt_amd64_2022-05-24_00-42-rootfs.tar.zst
-# SHA256SUM=364b51720740728a45610a824d1525018ceb89dd87ee95a15b0bcea76bff8288
-# BUILD_DATE=20220524
-# BUILD_TAG=2022-05-24
+# ROOTFS_FILE=ubuntu-lxqt_amd64_2022-05-31_00-44-rootfs.tar.zst
+# SHA256SUM=cdb11cfe044a152620f20be5c183190a5c6f45c76365c7720dae34b409fae403
+# BUILD_DATE=20220531
+# BUILD_TAG=2022-05-31
 # STATUS=completed
-# VERSION=latest02
-# END_TIME=00:42
+# VERSION=latest01
+# END_TIME=00:44
 
 [time]
 format = "rfc-3339"
 zone = "UTC"
-date = 2022-05-24
-begin = 2022-05-24 00:18:56.593028813+00:00
-start-sync_0 = 00:25:11
-start-zstd = 00:28:34
-start-sync_1 = 00:41:10
-end-sync_1 = 00:42:12
-end = 2022-05-24 00:42:12.441463746+00:00
+date = 2022-05-31
+begin = 2022-05-31 00:18:56.710814015+00:00
+start-sync_0 = 00:25:13
+start-zstd = 00:28:57
+start-sync_1 = 00:43:37
+end-sync_1 = 00:44:46
+end = 2022-05-31 00:44:46.409443226+00:00
 
 [server]
 repo = "cake233/ubuntu-lxqt-amd64"
