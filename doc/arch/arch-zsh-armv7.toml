@@ -85,7 +85,7 @@ split = false
 name = "azure"
 current = true
 previous = true
-in_sync = false
+in_sync = true
 split = false
 
 [server.node4]
