@@ -20,7 +20,7 @@ docker exec -it kali-zsh-amd64 zsh
 ```toml
 [main]
 name = "kali"
-tag = ["zsh", "2022-05-26"]
+tag = ["zsh", "2022-06-09"]
 os = "kali"
 release = "rolling"
 arch = "amd64"
@@ -29,10 +29,10 @@ xorg_or_wayland = false
 syntax_version = "0.0.0-alpha.4"
 
 [file]
-name = "kali-zsh_amd64_2022-05-26_12-09.tar.zst"
+name = "kali-zsh_amd64_2022-06-09_12-08.tar.zst"
 
 # This value can be used to verify the integrity of the file
-sha256 = "2775cfec236394fd8818dc62a7326db022c2d2f76cd43045da1ac5377709f305"
+sha256 = "185d093bfe8ce0386c30b0d2e4f0db4940a77637699c42824ca6dc37fc41d4ce"
 
 # zstd: [1-22]
 zstd-level = 20
@@ -40,49 +40,49 @@ zstd-level = 20
 [file.size]
 # Installed size ≈ tar-size
 # Installed size is approximately equal to the size of the tar file
-tar = "749M"
-tar_bytes = 785263104
+tar = "750M"
+tar_bytes = 785774592
 
 # Space occupied ≈ tar-size + zstd-size
 # You will need to prepare a large enough space before installation.
 zstd = "146M"
-zstd_bytes = 152328862
+zstd_bytes = 152306045
 
 [compatibility]
 compatible_mode = true
 
-previous_version = "latest02"
+previous_version = "latest01"
 
 # The value is &str, not int
-previous_date = "20220519"
-previous_tag = "2022-05-19"
-previous_file = "kali-zsh_amd64_2022-05-19_12-09-rootfs.tar.zst"
-previous_sha256 = "22c84a4ce34d2000084eb04285e1055df84b1904a752904d48027464e961bf8e"
+previous_date = "20220526"
+previous_tag = "2022-05-26"
+previous_file = "kali-zsh_amd64_2022-05-26_12-09-rootfs.tar.zst"
+previous_sha256 = "2775cfec236394fd8818dc62a7326db022c2d2f76cd43045da1ac5377709f305"
 
-current_version = "latest01"
-current_date = "20220526"
-old_file = "kali-zsh_amd64_2022-05-12_12-10-rootfs.tar.zst"
-old_sha256 = "722f30dba5ed234c929e084c9c0aa679cb60a672f493ef05c21eaed7380a46b0"
+current_version = "latest02"
+current_date = "20220609"
+old_file = "kali-zsh_amd64_2022-05-19_12-09-rootfs.tar.zst"
+old_sha256 = "22c84a4ce34d2000084eb04285e1055df84b1904a752904d48027464e961bf8e"
 # edition 2021
 # DISTRO_NAME=kali-rolling_amd64
-# ROOTFS_FILE=kali-zsh_amd64_2022-05-26_12-09-rootfs.tar.zst
-# SHA256SUM=2775cfec236394fd8818dc62a7326db022c2d2f76cd43045da1ac5377709f305
-# BUILD_DATE=20220526
-# BUILD_TAG=2022-05-26
+# ROOTFS_FILE=kali-zsh_amd64_2022-06-09_12-08-rootfs.tar.zst
+# SHA256SUM=185d093bfe8ce0386c30b0d2e4f0db4940a77637699c42824ca6dc37fc41d4ce
+# BUILD_DATE=20220609
+# BUILD_TAG=2022-06-09
 # STATUS=completed
-# VERSION=latest01
-# END_TIME=12:09
+# VERSION=latest02
+# END_TIME=12:08
 
 [time]
 format = "rfc-3339"
 zone = "UTC"
-date = 2022-05-26
-begin = 2022-05-26 12:02:33.408782932+00:00
-start-sync_0 = 12:04:38
-start-zstd = 12:06:28
-start-sync_1 = 12:09:05
-end-sync_1 = 12:09:21
-end = 2022-05-26 12:09:21.463344787+00:00
+date = 2022-06-09
+begin = 2022-06-09 12:02:33.205683234+00:00
+start-sync_0 = 12:04:25
+start-zstd = 12:06:10
+start-sync_1 = 12:08:43
+end-sync_1 = 12:08:58
+end = 2022-06-09 12:08:58.350645534+00:00
 
 [server]
 repo = "cake233/kali-zsh-amd64"
