@@ -1,6 +1,6 @@
 [main]
 name = "code"
-tag = ["latest", "2022-05-30", "vsc", "vscode", "web"]
+tag = ["latest", "2022-06-13", "vsc", "vscode", "web"]
 os = "debian"
 release = "sid"
 arch = "arm64"
@@ -9,10 +9,10 @@ xorg_or_wayland = false
 syntax_version = "0.0.0-alpha.4"
 
 [file]
-name = "code_arm64_2022-05-30_12-11.tar.zst"
+name = "code_arm64_2022-06-13_12-12.tar.zst"
 
 # This value can be used to verify the integrity of the file
-sha256 = "d914a5f3fc70a7319a2962f4a6b6101f731fb717be664599e83474cc82d01c83"
+sha256 = "cf475d53565454ccabc0ac590cf09d2a3c0affd5859e0d50d134794486d8dfdf"
 
 # zstd: [1-22]
 zstd-level = 22
@@ -20,49 +20,49 @@ zstd-level = 22
 [file.size]
 # Installed size ≈ tar-size
 # Installed size is approximately equal to the size of the tar file
-tar = "503M"
-tar_bytes = 527177216
+tar = "504M"
+tar_bytes = 527436288
 
 # Space occupied ≈ tar-size + zstd-size
 # You will need to prepare a large enough space before installation.
 zstd = "99M"
-zstd_bytes = 102849821
+zstd_bytes = 102939242
 
 [compatibility]
 compatible_mode = true
 
-previous_version = "latest02"
+previous_version = "latest01"
 
 # The value is &str, not int
-previous_date = "20220516"
-previous_tag = "2022-05-16"
-previous_file = "code_arm64_2022-05-16_12-12-rootfs.tar.zst"
-previous_sha256 = "5bbcbc616b09744f2e28ccd687182796e8a48627f402ee79456ab29c04465c84"
+previous_date = "20220530"
+previous_tag = "2022-05-30"
+previous_file = "code_arm64_2022-05-30_12-11-rootfs.tar.zst"
+previous_sha256 = "d914a5f3fc70a7319a2962f4a6b6101f731fb717be664599e83474cc82d01c83"
 
-current_version = "latest01"
-current_date = "20220530"
-old_file = "code_arm64_2022-05-02_12-11-rootfs.tar.zst"
-old_sha256 = "70670489328f2ee56b2c7c4280ce2cf9770e78e24529bf79c793ad43fe1662b2"
+current_version = "latest02"
+current_date = "20220613"
+old_file = "code_arm64_2022-05-16_12-12-rootfs.tar.zst"
+old_sha256 = "5bbcbc616b09744f2e28ccd687182796e8a48627f402ee79456ab29c04465c84"
 # edition 2021
 # DISTRO_NAME=code_arm64
-# ROOTFS_FILE=code_arm64_2022-05-30_12-11-rootfs.tar.zst
-# SHA256SUM=d914a5f3fc70a7319a2962f4a6b6101f731fb717be664599e83474cc82d01c83
-# BUILD_DATE=20220530
-# BUILD_TAG=2022-05-30
+# ROOTFS_FILE=code_arm64_2022-06-13_12-12-rootfs.tar.zst
+# SHA256SUM=cf475d53565454ccabc0ac590cf09d2a3c0affd5859e0d50d134794486d8dfdf
+# BUILD_DATE=20220613
+# BUILD_TAG=2022-06-13
 # STATUS=completed
-# VERSION=latest01
-# END_TIME=12:11
+# VERSION=latest02
+# END_TIME=12:12
 
 [time]
 format = "rfc-3339"
 zone = "UTC"
-date = 2022-05-30
-begin = 2022-05-30 12:02:40.042907852+00:00
-start-sync_0 = 12:07:21
-start-zstd = 12:07:50
-start-sync_1 = 12:11:32
-end-sync_1 = 12:11:44
-end = 2022-05-30 12:11:44.071113559+00:00
+date = 2022-06-13
+begin = 2022-06-13 12:02:34.119974482+00:00
+start-sync_0 = 12:07:29
+start-zstd = 12:07:58
+start-sync_1 = 12:12:02
+end-sync_1 = 12:12:13
+end = 2022-06-13 12:12:13.442057931+00:00
 
 [server]
 repo = "cake233/code-arm64"
@@ -77,7 +77,7 @@ split = false
 [server.node2]
 name = "tmoe"
 current = true
-previous = false
+previous = true
 in_sync = false
 split = false
 
@@ -86,8 +86,6 @@ name = "azure"
 current = true
 previous = true
 in_sync = false
-start_sync = 2022-05-30 18:14:55.067143928+00:00
-end_sync = 2022-05-30 18:15:27.194599698+00:00
 split = false
 
 [server.node4]
