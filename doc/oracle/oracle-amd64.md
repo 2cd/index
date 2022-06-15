@@ -20,7 +20,7 @@ docker exec -it oracle-amd64 sh
 ```toml
 [main]
 name = "oracle"
-tag = ["base", "2022-05-15"]
+tag = ["base", "2022-06-15"]
 os = "oracle"
 release = "base"
 arch = "amd64"
@@ -29,10 +29,10 @@ xorg_or_wayland = false
 syntax_version = "0.0.0-alpha.4"
 
 [file]
-name = "oracle_amd64_2022-05-15_00-07.tar.zst"
+name = "oracle_amd64_2022-06-15_00-06.tar.zst"
 
 # This value can be used to verify the integrity of the file
-sha256 = "e3e7080a34f1d977688b10e3aa53cadfc8760e2bcae129f91d0bffce25f2c335"
+sha256 = "8c63d228d319d7c27c1fc390dd25e196abb8839620450762cef74766030fe2d1"
 
 # zstd: [1-22]
 zstd-level = 19
@@ -40,49 +40,49 @@ zstd-level = 19
 [file.size]
 # Installed size ≈ tar-size
 # Installed size is approximately equal to the size of the tar file
-tar = "447M"
-tar_bytes = 468701184
+tar = "438M"
+tar_bytes = 459258880
 
 # Space occupied ≈ tar-size + zstd-size
 # You will need to prepare a large enough space before installation.
-zstd = "74M"
-zstd_bytes = 77482152
+zstd = "73M"
+zstd_bytes = 76103655
 
 [compatibility]
 compatible_mode = true
 
-previous_version = "latest02"
+previous_version = "latest01"
 
 # The value is &str, not int
-previous_date = "20220426"
-previous_tag = "2022-04-26"
-previous_file = "oracle_amd64_2022-04-26_02-40-rootfs.tar.zst"
-previous_sha256 = "ffb3efa3df2007b27200103c0b3efa22a68a6bbe5ee9210b46fb58d1910b8ecd"
+previous_date = "20220515"
+previous_tag = "2022-05-15"
+previous_file = "oracle_amd64_2022-05-15_00-07-rootfs.tar.zst"
+previous_sha256 = "e3e7080a34f1d977688b10e3aa53cadfc8760e2bcae129f91d0bffce25f2c335"
 
-current_version = "latest01"
-current_date = "20220515"
-old_file = "oracle_amd64_2022-04-22_04-14-rootfs.tar.zst"
-old_sha256 = "3b2508890a918c8506947e74255fef3666a556e5cb54f7b4aeffa95d302ec6a0"
+current_version = "latest02"
+current_date = "20220615"
+old_file = "oracle_amd64_2022-04-26_02-40-rootfs.tar.zst"
+old_sha256 = "ffb3efa3df2007b27200103c0b3efa22a68a6bbe5ee9210b46fb58d1910b8ecd"
 # edition 2021
 # DISTRO_NAME=oracle_amd64
-# ROOTFS_FILE=oracle_amd64_2022-05-15_00-07-rootfs.tar.zst
-# SHA256SUM=e3e7080a34f1d977688b10e3aa53cadfc8760e2bcae129f91d0bffce25f2c335
-# BUILD_DATE=20220515
-# BUILD_TAG=2022-05-15
+# ROOTFS_FILE=oracle_amd64_2022-06-15_00-06-rootfs.tar.zst
+# SHA256SUM=8c63d228d319d7c27c1fc390dd25e196abb8839620450762cef74766030fe2d1
+# BUILD_DATE=20220615
+# BUILD_TAG=2022-06-15
 # STATUS=completed
-# VERSION=latest01
-# END_TIME=00:07
+# VERSION=latest02
+# END_TIME=00:06
 
 [time]
 format = "rfc-3339"
 zone = "UTC"
-date = 2022-05-15
-begin = 2022-05-15 00:03:31.949576414+00:00
-start-sync_0 = 00:04:47
-start-zstd = 00:05:20
-start-sync_1 = 00:07:06
-end-sync_1 = 00:07:22
-end = 2022-05-15 00:07:22.042904430+00:00
+date = 2022-06-15
+begin = 2022-06-15 00:04:16.978839594+00:00
+start-sync_0 = 00:05:05
+start-zstd = 00:05:26
+start-sync_1 = 00:06:44
+end-sync_1 = 00:06:56
+end = 2022-06-15 00:06:56.675618594+00:00
 
 [server]
 repo = "cake233/oracle-amd64"
