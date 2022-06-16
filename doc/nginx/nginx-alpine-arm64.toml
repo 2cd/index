@@ -1,6 +1,6 @@
 [main]
 name = "nginx"
-tag = ["alpine", "2022-06-13", "musl-libc", "musl"]
+tag = ["alpine", "2022-06-16", "musl-libc", "musl"]
 os = "alpine"
 release = "stable"
 arch = "arm64"
@@ -9,10 +9,10 @@ xorg_or_wayland = false
 syntax_version = "0.0.0-alpha.4"
 
 [file]
-name = "nginx-musl_arm64_2022-06-13_12-04.tar.zst"
+name = "nginx-musl_arm64_2022-06-16_06-39.tar.zst"
 
 # This value can be used to verify the integrity of the file
-sha256 = "7a20ea88d8f635057e7f165277076696647c1a9afe4ad7e90487f90a8faa5d75"
+sha256 = "435eeb4fe94d5cf8b62920f571bcf1c98771e32824ebb57309c8cd770f163848"
 
 # zstd: [1-22]
 zstd-level = 22
@@ -21,12 +21,12 @@ zstd-level = 22
 # Installed size ≈ tar-size
 # Installed size is approximately equal to the size of the tar file
 tar = "33M"
-tar_bytes = 34189312
+tar_bytes = 34213888
 
 # Space occupied ≈ tar-size + zstd-size
 # You will need to prepare a large enough space before installation.
 zstd = "9.0M"
-zstd_bytes = 9396309
+zstd_bytes = 9407075
 
 [compatibility]
 compatible_mode = true
@@ -34,35 +34,35 @@ compatible_mode = true
 previous_version = "latest02"
 
 # The value is &str, not int
-previous_date = "20220530"
-previous_tag = "2022-05-30"
-previous_file = "nginx-musl_arm64_2022-05-30_12-04-rootfs.tar.zst"
-previous_sha256 = "3a1a82ce8f4a5ce2a9dcf71a4f920fb3a0dcc3416e898aaaa33528dedf68e93f"
+previous_date = "20211128"
+previous_tag = ""
+previous_file = ""
+previous_sha256 = ""
 
 current_version = "latest01"
-current_date = "20220613"
-old_file = "nginx-musl_arm64_2022-05-16_12-04-rootfs.tar.zst"
-old_sha256 = "ddbe9173364c1b6ed4decf6c53d5e14b73eb2f8476af90a56c1eaa74ffd52dc1"
+current_date = "20220616"
+old_file = ""
+old_sha256 = ""
 # edition 2021
 # DISTRO_NAME=nginx_arm64
-# ROOTFS_FILE=nginx-musl_arm64_2022-06-13_12-04-rootfs.tar.zst
-# SHA256SUM=7a20ea88d8f635057e7f165277076696647c1a9afe4ad7e90487f90a8faa5d75
-# BUILD_DATE=20220613
-# BUILD_TAG=2022-06-13
+# ROOTFS_FILE=nginx-musl_arm64_2022-06-16_06-39-rootfs.tar.zst
+# SHA256SUM=435eeb4fe94d5cf8b62920f571bcf1c98771e32824ebb57309c8cd770f163848
+# BUILD_DATE=20220616
+# BUILD_TAG=2022-06-16
 # STATUS=completed
 # VERSION=latest01
-# END_TIME=12:04
+# END_TIME=06:39
 
 [time]
 format = "rfc-3339"
 zone = "UTC"
-date = 2022-06-13
-begin = 2022-06-13 12:02:37.135843419+00:00
-start-sync_0 = 12:03:27
-start-zstd = 12:03:36
-start-sync_1 = 12:03:52
-end-sync_1 = 12:04:00
-end = 2022-06-13 12:04:00.541053147+00:00
+date = 2022-06-16
+begin = 2022-06-16 06:38:23.272880119+00:00
+start-sync_0 = 06:38:38
+start-zstd = 06:38:45
+start-sync_1 = 06:39:00
+end-sync_1 = 06:39:05
+end = 2022-06-16 06:39:05.685292785+00:00
 
 [server]
 repo = "cake233/nginx-alpine-arm64"
@@ -77,7 +77,7 @@ split = false
 [server.node2]
 name = "tmoe"
 current = true
-previous = false
+previous = true
 in_sync = false
 split = false
 
@@ -86,8 +86,6 @@ name = "azure"
 current = true
 previous = true
 in_sync = false
-start_sync = 2022-06-13 18:03:38.907011900+00:00
-end_sync = 2022-06-13 18:03:47.806604909+00:00
 split = false
 
 [server.node4]
