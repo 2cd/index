@@ -20,7 +20,7 @@ docker exec -it node-alpine-armv7 bash
 ```toml
 [main]
 name = "node"
-tag = ["alpine", "2022-06-06", "musl-libc", "musl"]
+tag = ["alpine", "2022-06-20", "musl-libc", "musl"]
 os = "alpine"
 release = "stable"
 arch = "armhf"
@@ -29,10 +29,10 @@ xorg_or_wayland = false
 syntax_version = "0.0.0-alpha.4"
 
 [file]
-name = "node-musl_armhf_2022-06-06_12-04.tar.zst"
+name = "node-musl_armhf_2022-06-20_12-04.tar.zst"
 
 # This value can be used to verify the integrity of the file
-sha256 = "8a5b5f01af1c1e09db8437b55a306ae4a7d1e99f8729990dc19bac80b33a4748"
+sha256 = "32c7d863d7ae9f7453a1d5c44b374ad6352dcf2337591a65ddfdb87b3c8be92f"
 
 # zstd: [1-22]
 zstd-level = 22
@@ -40,49 +40,49 @@ zstd-level = 22
 [file.size]
 # Installed size ≈ tar-size
 # Installed size is approximately equal to the size of the tar file
-tar = "168M"
-tar_bytes = 175556608
+tar = "170M"
+tar_bytes = 177711616
 
 # Space occupied ≈ tar-size + zstd-size
 # You will need to prepare a large enough space before installation.
 zstd = "31M"
-zstd_bytes = 32008533
+zstd_bytes = 32321090
 
 [compatibility]
 compatible_mode = true
 
-previous_version = "latest01"
+previous_version = "latest02"
 
 # The value is &str, not int
-previous_date = "20220523"
-previous_tag = "2022-05-23"
-previous_file = "node-musl_armhf_2022-05-23_12-04-rootfs.tar.zst"
-previous_sha256 = "10458b72f9c6b2ff0deaa1f3125dab4c02ddaed9ab8f926d31dc2f9a29d81cc9"
+previous_date = "20220606"
+previous_tag = "2022-06-06"
+previous_file = "node-musl_armhf_2022-06-06_12-04-rootfs.tar.zst"
+previous_sha256 = "8a5b5f01af1c1e09db8437b55a306ae4a7d1e99f8729990dc19bac80b33a4748"
 
-current_version = "latest02"
-current_date = "20220606"
-old_file = "node-musl_armhf_2022-05-09_12-04-rootfs.tar.zst"
-old_sha256 = "e407393e2bacf1fb64e4bf25cefb71304871cb3a4250f7da2a13786a4543f1ad"
+current_version = "latest01"
+current_date = "20220620"
+old_file = "node-musl_armhf_2022-05-23_12-04-rootfs.tar.zst"
+old_sha256 = "10458b72f9c6b2ff0deaa1f3125dab4c02ddaed9ab8f926d31dc2f9a29d81cc9"
 # edition 2021
 # DISTRO_NAME=node_armhf
-# ROOTFS_FILE=node-musl_armhf_2022-06-06_12-04-rootfs.tar.zst
-# SHA256SUM=8a5b5f01af1c1e09db8437b55a306ae4a7d1e99f8729990dc19bac80b33a4748
-# BUILD_DATE=20220606
-# BUILD_TAG=2022-06-06
+# ROOTFS_FILE=node-musl_armhf_2022-06-20_12-04-rootfs.tar.zst
+# SHA256SUM=32c7d863d7ae9f7453a1d5c44b374ad6352dcf2337591a65ddfdb87b3c8be92f
+# BUILD_DATE=20220620
+# BUILD_TAG=2022-06-20
 # STATUS=completed
-# VERSION=latest02
+# VERSION=latest01
 # END_TIME=12:04
 
 [time]
 format = "rfc-3339"
 zone = "UTC"
-date = 2022-06-06
-begin = 2022-06-06 12:02:32.429385241+00:00
+date = 2022-06-20
+begin = 2022-06-20 12:02:29.364322610+00:00
 start-sync_0 = 12:03:24
-start-zstd = 12:03:31
-start-sync_1 = 12:04:27
-end-sync_1 = 12:04:33
-end = 2022-06-06 12:04:33.959034911+00:00
+start-zstd = 12:03:34
+start-sync_1 = 12:04:26
+end-sync_1 = 12:04:35
+end = 2022-06-20 12:04:35.330852177+00:00
 
 [server]
 repo = "cake233/node-alpine-armv7"
@@ -117,8 +117,8 @@ current = true
 LANG = "C.UTF-8"
 
 [version]
-ldd = 'musl libc (armhf) Version 1.2.2'
-node = 'v18.2.0'
+ldd = 'musl libc (armhf) Version 1.2.3'
+node = 'v18.4.0'
 yarn = '1.22.19'
-npm = '8.9.0'
+npm = '8.12.1'
 ```
