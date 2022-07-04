@@ -20,7 +20,7 @@ docker exec -it php-alpine-arm64 bash
 ```toml
 [main]
 name = "php"
-tag = ["alpine", "2022-06-20", "musl-libc", "musl"]
+tag = ["alpine", "2022-07-04", "musl-libc", "musl"]
 os = "alpine"
 release = "stable"
 arch = "arm64"
@@ -29,10 +29,10 @@ xorg_or_wayland = false
 syntax_version = "0.0.0-alpha.4"
 
 [file]
-name = "php-musl_arm64_2022-06-20_12-04.tar.zst"
+name = "php-musl_arm64_2022-07-04_12-04.tar.zst"
 
 # This value can be used to verify the integrity of the file
-sha256 = "0edc21dcac09209ab67e13074adce465ede3279fccb0663da44c401e55c41e19"
+sha256 = "9167bf1a0ee4bcf7dfc5fb4e1b206ae8294de6b9e4c39382e78d84adb4094b20"
 
 # zstd: [1-22]
 zstd-level = 22
@@ -41,48 +41,48 @@ zstd-level = 22
 # Installed size ≈ tar-size
 # Installed size is approximately equal to the size of the tar file
 tar = "91M"
-tar_bytes = 94929408
+tar_bytes = 94933504
 
 # Space occupied ≈ tar-size + zstd-size
 # You will need to prepare a large enough space before installation.
 zstd = "25M"
-zstd_bytes = 25255670
+zstd_bytes = 25248503
 
 [compatibility]
 compatible_mode = true
 
-previous_version = "latest02"
+previous_version = "latest01"
 
 # The value is &str, not int
-previous_date = "20220606"
-previous_tag = "2022-06-06"
-previous_file = "php-musl_arm64_2022-06-06_12-04-rootfs.tar.zst"
-previous_sha256 = "1807b7115e2f68c101203b100caa4128164b46c3f3da90bca7394e457273cfed"
+previous_date = "20220620"
+previous_tag = "2022-06-20"
+previous_file = "php-musl_arm64_2022-06-20_12-04-rootfs.tar.zst"
+previous_sha256 = "0edc21dcac09209ab67e13074adce465ede3279fccb0663da44c401e55c41e19"
 
-current_version = "latest01"
-current_date = "20220620"
-old_file = "php-musl_arm64_2022-05-23_12-04-rootfs.tar.zst"
-old_sha256 = "a267552067436c090c547d681db498d0ee80f4a453f8b5283a82b910a5f10b55"
+current_version = "latest02"
+current_date = "20220704"
+old_file = "php-musl_arm64_2022-06-06_12-04-rootfs.tar.zst"
+old_sha256 = "1807b7115e2f68c101203b100caa4128164b46c3f3da90bca7394e457273cfed"
 # edition 2021
 # DISTRO_NAME=php_arm64
-# ROOTFS_FILE=php-musl_arm64_2022-06-20_12-04-rootfs.tar.zst
-# SHA256SUM=0edc21dcac09209ab67e13074adce465ede3279fccb0663da44c401e55c41e19
-# BUILD_DATE=20220620
-# BUILD_TAG=2022-06-20
+# ROOTFS_FILE=php-musl_arm64_2022-07-04_12-04-rootfs.tar.zst
+# SHA256SUM=9167bf1a0ee4bcf7dfc5fb4e1b206ae8294de6b9e4c39382e78d84adb4094b20
+# BUILD_DATE=20220704
+# BUILD_TAG=2022-07-04
 # STATUS=completed
-# VERSION=latest01
+# VERSION=latest02
 # END_TIME=12:04
 
 [time]
 format = "rfc-3339"
 zone = "UTC"
-date = 2022-06-20
-begin = 2022-06-20 12:02:31.416866524+00:00
-start-sync_0 = 12:03:22
-start-zstd = 12:03:28
-start-sync_1 = 12:04:12
-end-sync_1 = 12:04:19
-end = 2022-06-20 12:04:20.000217529+00:00
+date = 2022-07-04
+begin = 2022-07-04 12:02:38.638927671+00:00
+start-sync_0 = 12:03:40
+start-zstd = 12:03:49
+start-sync_1 = 12:04:28
+end-sync_1 = 12:04:35
+end = 2022-07-04 12:04:35.797510060+00:00
 
 [server]
 repo = "cake233/php-alpine-arm64"
