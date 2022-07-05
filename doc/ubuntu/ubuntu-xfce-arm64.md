@@ -77,7 +77,7 @@ localhost:5903
 ```toml
 [main]
 name = "ubuntu"
-tag = ["xfce", "2022-06-28", "devel"]
+tag = ["xfce", "2022-07-05", "devel"]
 os = "ubuntu"
 release = "dev"
 arch = "arm64"
@@ -86,10 +86,10 @@ xorg_or_wayland = true
 syntax_version = "0.0.0-alpha.4"
 
 [file]
-name = "ubuntu-xfce_arm64_2022-06-28_01-11.tar.zst"
+name = "ubuntu-xfce_arm64_2022-07-05_01-02.tar.zst"
 
 # This value can be used to verify the integrity of the file
-sha256 = "865fba8e71367fbca4a9c436119300bb682b3cafde3e1189545c51e6e25061d7"
+sha256 = "bc58e582fae8c1c11c1e1281518c963cb47599ab04634bb8a602d206b7ed79b3"
 
 # zstd: [1-22]
 zstd-level = 19
@@ -98,48 +98,48 @@ zstd-level = 19
 # Installed size ≈ tar-size
 # Installed size is approximately equal to the size of the tar file
 tar = "3.4G"
-tar_bytes = 3569928704
+tar_bytes = 3575514112
 
 # Space occupied ≈ tar-size + zstd-size
 # You will need to prepare a large enough space before installation.
-zstd = "944M"
-zstd_bytes = 988804923
+zstd = "937M"
+zstd_bytes = 982253765
 
 [compatibility]
 compatible_mode = true
 
-previous_version = "latest01"
+previous_version = "latest02"
 
 # The value is &str, not int
-previous_date = "20220621"
-previous_tag = "2022-06-21"
-previous_file = "ubuntu-xfce_arm64_2022-06-21_01-03-rootfs.tar.zst"
-previous_sha256 = "f089210dec1fa91c7c9945f7d253d2e40f92e1836819fd303ed149d395687b8a"
+previous_date = "20220628"
+previous_tag = "2022-06-28"
+previous_file = "ubuntu-xfce_arm64_2022-06-28_01-11-rootfs.tar.zst"
+previous_sha256 = "865fba8e71367fbca4a9c436119300bb682b3cafde3e1189545c51e6e25061d7"
 
-current_version = "latest02"
-current_date = "20220628"
-old_file = "ubuntu-xfce_arm64_2022-06-14_01-03-rootfs.tar.zst"
-old_sha256 = "2f7caea9edddf6c5124c59a5ae503f0c4024ae9c44f06c7998157110a7eb3bd5"
+current_version = "latest01"
+current_date = "20220705"
+old_file = "ubuntu-xfce_arm64_2022-06-21_01-03-rootfs.tar.zst"
+old_sha256 = "f089210dec1fa91c7c9945f7d253d2e40f92e1836819fd303ed149d395687b8a"
 # edition 2021
 # DISTRO_NAME=ubuntu-dev_arm64
-# ROOTFS_FILE=ubuntu-xfce_arm64_2022-06-28_01-11-rootfs.tar.zst
-# SHA256SUM=865fba8e71367fbca4a9c436119300bb682b3cafde3e1189545c51e6e25061d7
-# BUILD_DATE=20220628
-# BUILD_TAG=2022-06-28
+# ROOTFS_FILE=ubuntu-xfce_arm64_2022-07-05_01-02-rootfs.tar.zst
+# SHA256SUM=bc58e582fae8c1c11c1e1281518c963cb47599ab04634bb8a602d206b7ed79b3
+# BUILD_DATE=20220705
+# BUILD_TAG=2022-07-05
 # STATUS=completed
-# VERSION=latest02
-# END_TIME=01:11
+# VERSION=latest01
+# END_TIME=01:02
 
 [time]
 format = "rfc-3339"
 zone = "UTC"
-date = 2022-06-28
-begin = 2022-06-28 00:21:22.659278969+00:00
-start-sync_0 = 00:53:39
-start-zstd = 00:56:47
-start-sync_1 = 01:10:05
-end-sync_1 = 01:11:14
-end = 2022-06-28 01:11:14.459411530+00:00
+date = 2022-07-05
+begin = 2022-07-05 00:18:23.317837421+00:00
+start-sync_0 = 00:47:14
+start-zstd = 00:50:01
+start-sync_1 = 01:01:19
+end-sync_1 = 01:02:22
+end = 2022-07-05 01:02:22.239997105+00:00
 
 [server]
 repo = "cake233/ubuntu-xfce-arm64"
