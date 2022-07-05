@@ -1,6 +1,6 @@
 [main]
 name = "ubuntu"
-tag = ["zsh", "2022-06-28", "devel"]
+tag = ["zsh", "2022-07-05", "devel"]
 os = "ubuntu"
 release = "dev"
 arch = "armhf"
@@ -9,10 +9,10 @@ xorg_or_wayland = false
 syntax_version = "0.0.0-alpha.4"
 
 [file]
-name = "ubuntu-zsh_armhf_2022-06-28_00-17.tar.zst"
+name = "ubuntu-zsh_armhf_2022-07-05_00-18.tar.zst"
 
 # This value can be used to verify the integrity of the file
-sha256 = "2f715546858b311ec8864bbdfc199f178c9f9b07776d73834fdb565794aea95f"
+sha256 = "ab18202ab5b60635c78990a3e48c75999411f2dfd77a65f17bfadcd213e423d9"
 
 # zstd: [1-22]
 zstd-level = 20
@@ -20,49 +20,49 @@ zstd-level = 20
 [file.size]
 # Installed size ≈ tar-size
 # Installed size is approximately equal to the size of the tar file
-tar = "579M"
-tar_bytes = 606643200
+tar = "586M"
+tar_bytes = 613487104
 
 # Space occupied ≈ tar-size + zstd-size
 # You will need to prepare a large enough space before installation.
 zstd = "110M"
-zstd_bytes = 114971437
+zstd_bytes = 114719066
 
 [compatibility]
 compatible_mode = true
 
-previous_version = "latest01"
+previous_version = "latest02"
 
 # The value is &str, not int
-previous_date = "20220621"
-previous_tag = "2022-06-21"
-previous_file = "ubuntu-zsh_armhf_2022-06-21_00-17-rootfs.tar.zst"
-previous_sha256 = "1425a88fd8789f1cc5116a67e22bbbc32a4d05317bdc737557efa495dc285824"
+previous_date = "20220628"
+previous_tag = "2022-06-28"
+previous_file = "ubuntu-zsh_armhf_2022-06-28_00-17-rootfs.tar.zst"
+previous_sha256 = "2f715546858b311ec8864bbdfc199f178c9f9b07776d73834fdb565794aea95f"
 
-current_version = "latest02"
-current_date = "20220628"
-old_file = "ubuntu-zsh_armhf_2022-06-14_00-18-rootfs.tar.zst"
-old_sha256 = "f9de051764dc257b2581e8c01901e51c81b3720c0062defceb67a94244c9ab1f"
+current_version = "latest01"
+current_date = "20220705"
+old_file = "ubuntu-zsh_armhf_2022-06-21_00-17-rootfs.tar.zst"
+old_sha256 = "1425a88fd8789f1cc5116a67e22bbbc32a4d05317bdc737557efa495dc285824"
 # edition 2021
 # DISTRO_NAME=ubuntu-dev_armhf
-# ROOTFS_FILE=ubuntu-zsh_armhf_2022-06-28_00-17-rootfs.tar.zst
-# SHA256SUM=2f715546858b311ec8864bbdfc199f178c9f9b07776d73834fdb565794aea95f
-# BUILD_DATE=20220628
-# BUILD_TAG=2022-06-28
+# ROOTFS_FILE=ubuntu-zsh_armhf_2022-07-05_00-18-rootfs.tar.zst
+# SHA256SUM=ab18202ab5b60635c78990a3e48c75999411f2dfd77a65f17bfadcd213e423d9
+# BUILD_DATE=20220705
+# BUILD_TAG=2022-07-05
 # STATUS=completed
-# VERSION=latest02
-# END_TIME=00:17
+# VERSION=latest01
+# END_TIME=00:18
 
 [time]
 format = "rfc-3339"
 zone = "UTC"
-date = 2022-06-28
-begin = 2022-06-28 00:02:27.757632649+00:00
-start-sync_0 = 00:13:46
-start-zstd = 00:15:24
-start-sync_1 = 00:17:18
-end-sync_1 = 00:17:31
-end = 2022-06-28 00:17:31.203401562+00:00
+date = 2022-07-05
+begin = 2022-07-05 00:02:28.244853148+00:00
+start-sync_0 = 00:14:06
+start-zstd = 00:15:53
+start-sync_1 = 00:17:46
+end-sync_1 = 00:18:02
+end = 2022-07-05 00:18:02.669829696+00:00
 
 [server]
 repo = "cake233/ubuntu-zsh-armv7"
@@ -77,7 +77,7 @@ split = false
 [server.node2]
 name = "tmoe"
 current = true
-previous = false
+previous = true
 in_sync = false
 split = false
 
@@ -86,8 +86,6 @@ name = "azure"
 current = true
 previous = true
 in_sync = false
-start_sync = 2022-06-28 06:04:40.060255512+00:00
-end_sync = 2022-06-28 06:05:10.128208543+00:00
 split = false
 
 [server.node4]
