@@ -20,7 +20,7 @@ docker exec -it manjaro-zsh-arm64 zsh
 ```toml
 [main]
 name = "manjaro"
-tag = ["zsh", "2022-07-01"]
+tag = ["zsh", "2022-07-08"]
 os = "manjaro"
 release = "stable"
 arch = "arm64"
@@ -29,10 +29,10 @@ xorg_or_wayland = false
 syntax_version = "0.0.0-alpha.4"
 
 [file]
-name = "manjaro-zsh_arm64_2022-07-01_12-17.tar.zst"
+name = "manjaro-zsh_arm64_2022-07-08_12-16.tar.zst"
 
 # This value can be used to verify the integrity of the file
-sha256 = "b7dbc8a8cf27bf0ced9f2b81f5d55eb903cc320f0dec6bc303f00f124ff2d0f6"
+sha256 = "8e4028853fe5dca9f4fc61adec86f6b91fa743e5de87b04181a06284572ce8de"
 
 # zstd: [1-22]
 zstd-level = 20
@@ -41,48 +41,48 @@ zstd-level = 20
 # Installed size ≈ tar-size
 # Installed size is approximately equal to the size of the tar file
 tar = "1.1G"
-tar_bytes = 1176660992
+tar_bytes = 1176662016
 
 # Space occupied ≈ tar-size + zstd-size
 # You will need to prepare a large enough space before installation.
 zstd = "250M"
-zstd_bytes = 261392452
+zstd_bytes = 261387889
 
 [compatibility]
 compatible_mode = true
 
-previous_version = "latest01"
+previous_version = "latest02"
 
 # The value is &str, not int
-previous_date = "20220624"
-previous_tag = "2022-06-24"
-previous_file = "manjaro-zsh_arm64_2022-06-24_12-20-rootfs.tar.zst"
-previous_sha256 = "ca7cfd10c2d26b37b0e5c5829ab40aafe18acd07ffcc7d1dfab61239d6b924bf"
+previous_date = "20220701"
+previous_tag = "2022-07-01"
+previous_file = "manjaro-zsh_arm64_2022-07-01_12-17-rootfs.tar.zst"
+previous_sha256 = "b7dbc8a8cf27bf0ced9f2b81f5d55eb903cc320f0dec6bc303f00f124ff2d0f6"
 
-current_version = "latest02"
-current_date = "20220701"
-old_file = "manjaro-zsh_arm64_2022-06-17_12-19-rootfs.tar.zst"
-old_sha256 = "fce0d0f9adc364f9ec9ede07cf8aeee028646e8cff0e4ae93d0b24f3e1594dff"
+current_version = "latest01"
+current_date = "20220708"
+old_file = "manjaro-zsh_arm64_2022-06-24_12-20-rootfs.tar.zst"
+old_sha256 = "ca7cfd10c2d26b37b0e5c5829ab40aafe18acd07ffcc7d1dfab61239d6b924bf"
 # edition 2021
 # DISTRO_NAME=manjaro-stable_arm64
-# ROOTFS_FILE=manjaro-zsh_arm64_2022-07-01_12-17-rootfs.tar.zst
-# SHA256SUM=b7dbc8a8cf27bf0ced9f2b81f5d55eb903cc320f0dec6bc303f00f124ff2d0f6
-# BUILD_DATE=20220701
-# BUILD_TAG=2022-07-01
+# ROOTFS_FILE=manjaro-zsh_arm64_2022-07-08_12-16-rootfs.tar.zst
+# SHA256SUM=8e4028853fe5dca9f4fc61adec86f6b91fa743e5de87b04181a06284572ce8de
+# BUILD_DATE=20220708
+# BUILD_TAG=2022-07-08
 # STATUS=completed
-# VERSION=latest02
-# END_TIME=12:17
+# VERSION=latest01
+# END_TIME=12:16
 
 [time]
 format = "rfc-3339"
 zone = "UTC"
-date = 2022-07-01
-begin = 2022-07-01 12:02:29.452920246+00:00
-start-sync_0 = 12:10:22
-start-zstd = 12:11:52
-start-sync_1 = 12:17:08
-end-sync_1 = 12:17:28
-end = 2022-07-01 12:17:28.440142889+00:00
+date = 2022-07-08
+begin = 2022-07-08 12:02:30.677067308+00:00
+start-sync_0 = 12:09:46
+start-zstd = 12:11:17
+start-sync_1 = 12:16:14
+end-sync_1 = 12:16:36
+end = 2022-07-08 12:16:37.018244781+00:00
 
 [server]
 repo = "cake233/manjaro-zsh-arm64"
