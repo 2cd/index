@@ -69,7 +69,7 @@ ldd "$FILE"
 ```toml
 [main]
 name = "rust"
-tag = ["latest", "2022-07-04", "nightly", "unstable", "default", "gnu-libc"]
+tag = ["latest", "2022-07-08", "nightly", "unstable", "default", "gnu-libc"]
 os = "debian"
 release = "sid"
 arch = "amd64"
@@ -78,10 +78,10 @@ xorg_or_wayland = false
 syntax_version = "0.0.0-alpha.4"
 
 [file]
-name = "rust_amd64_2022-07-04_03-00.tar.zst"
+name = "rust_amd64_2022-07-08_03-01.tar.zst"
 
 # This value can be used to verify the integrity of the file
-sha256 = "64d132bb056ed3f48695923ee2f1c5de9fc288ea630755c47f982203fa81744c"
+sha256 = "746e32b56f560abd6dd62ca30060e1d046be9ad7939b70039065bcfda5977067"
 
 # zstd: [1-22]
 zstd-level = 20
@@ -90,48 +90,48 @@ zstd-level = 20
 # Installed size ≈ tar-size
 # Installed size is approximately equal to the size of the tar file
 tar = "1.5G"
-tar_bytes = 1599829504
+tar_bytes = 1604082176
 
 # Space occupied ≈ tar-size + zstd-size
 # You will need to prepare a large enough space before installation.
 zstd = "240M"
-zstd_bytes = 251013629
+zstd_bytes = 251352993
 
 [compatibility]
 compatible_mode = true
 
-previous_version = "latest01"
+previous_version = "latest02"
 
 # The value is &str, not int
-previous_date = "20220701"
-previous_tag = "2022-07-01"
-previous_file = "rust_amd64_2022-07-01_02-59-rootfs.tar.zst"
-previous_sha256 = "7e5fb530ab62858f0d29d0e3d0061f518e6b8716e0428cc5025c71a1cd5ce0e9"
+previous_date = "20220704"
+previous_tag = "2022-07-04"
+previous_file = "rust_amd64_2022-07-04_03-00-rootfs.tar.zst"
+previous_sha256 = "64d132bb056ed3f48695923ee2f1c5de9fc288ea630755c47f982203fa81744c"
 
-current_version = "latest02"
-current_date = "20220704"
-old_file = "rust_amd64_2022-06-27_02-59-rootfs.tar.zst"
-old_sha256 = "e1d445ada5b5f32a75fa2859fe951343c52bfd4f1764d010c987160e1a88060a"
+current_version = "latest01"
+current_date = "20220708"
+old_file = "rust_amd64_2022-07-01_02-59-rootfs.tar.zst"
+old_sha256 = "7e5fb530ab62858f0d29d0e3d0061f518e6b8716e0428cc5025c71a1cd5ce0e9"
 # edition 2021
 # DISTRO_NAME=rust_amd64
-# ROOTFS_FILE=rust_amd64_2022-07-04_03-00-rootfs.tar.zst
-# SHA256SUM=64d132bb056ed3f48695923ee2f1c5de9fc288ea630755c47f982203fa81744c
-# BUILD_DATE=20220704
-# BUILD_TAG=2022-07-04
+# ROOTFS_FILE=rust_amd64_2022-07-08_03-01-rootfs.tar.zst
+# SHA256SUM=746e32b56f560abd6dd62ca30060e1d046be9ad7939b70039065bcfda5977067
+# BUILD_DATE=20220708
+# BUILD_TAG=2022-07-08
 # STATUS=completed
-# VERSION=latest02
-# END_TIME=03:00
+# VERSION=latest01
+# END_TIME=03:01
 
 [time]
 format = "rfc-3339"
 zone = "UTC"
-date = 2022-07-04
-begin = 2022-07-04 02:52:31.175082945+00:00
-start-sync_0 = 02:54:12
+date = 2022-07-08
+begin = 2022-07-08 02:52:28.209915512+00:00
+start-sync_0 = 02:54:08
 start-zstd = 02:55:09
-start-sync_1 = 03:00:08
-end-sync_1 = 03:00:45
-end = 2022-07-04 03:00:45.957123020+00:00
+start-sync_1 = 03:01:27
+end-sync_1 = 03:01:49
+end = 2022-07-08 03:01:49.115038253+00:00
 
 [server]
 repo = "cake233/rust-amd64"
@@ -171,24 +171,24 @@ CARGO_HOME = "/usr/local/cargo"
 [version]
 ldd = 'ldd (Debian GLIBC 2.33-7) 2.33'
 rustup = 'rustup 1.24.3 (ce5817a94 2021-05-31)'
-cargo = 'cargo 1.64.0-nightly (dbff32b27 2022-06-24)'
-rustc = 'rustc 1.64.0-nightly (495b21669 2022-07-03)'
+cargo = 'cargo 1.64.0-nightly (c0bbd42ce 2022-07-03)'
+rustc = 'rustc 1.64.0-nightly (1517f5de0 2022-07-07)'
 cc = 'cc (Debian 11.3.0-4) 11.3.0'
 cargo_verbose = '''
-cargo 1.64.0-nightly (dbff32b27 2022-06-24)
+cargo 1.64.0-nightly (c0bbd42ce 2022-07-03)
 release: 1.64.0-nightly
-commit-hash: dbff32b27893b899ae2397f3d56d1be111041d56
-commit-date: 2022-06-24
+commit-hash: c0bbd42ce5e83fe2a93e817c3f9b955492d3130a
+commit-date: 2022-07-03
 host: x86_64-unknown-linux-gnu
 libgit2: 1.4.2 (sys:0.14.2 vendored)
 libcurl: 7.83.1-DEV (sys:0.4.55+curl-7.83.1 vendored ssl:OpenSSL/1.1.1n)
 os: OracleLinux [64-bit]
 '''
 rustc_verbose = '''
-rustc 1.64.0-nightly (495b21669 2022-07-03)
+rustc 1.64.0-nightly (1517f5de0 2022-07-07)
 binary: rustc
-commit-hash: 495b216696ccbc27c73d6bdc486bf4621d610f4b
-commit-date: 2022-07-03
+commit-hash: 1517f5de01c445b5124b30f02257b02b4c5ef3b2
+commit-date: 2022-07-07
 host: x86_64-unknown-linux-gnu
 release: 1.64.0-nightly
 LLVM version: 14.0.6
