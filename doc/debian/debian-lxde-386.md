@@ -77,7 +77,7 @@ localhost:5903
 ```toml
 [main]
 name = "debian"
-tag = ["lxde", "2022-07-06"]
+tag = ["lxde", "2022-07-13"]
 os = "debian"
 release = "sid"
 arch = "i386"
@@ -86,10 +86,10 @@ xorg_or_wayland = true
 syntax_version = "0.0.0-alpha.4"
 
 [file]
-name = "debian-lxde_i386_2022-07-06_13-10.tar.zst"
+name = "debian-lxde_i386_2022-07-13_13-10.tar.zst"
 
 # This value can be used to verify the integrity of the file
-sha256 = "b18a79c8108e81e1e3e2a3a24a54671a9a108398b749dfd6df1ba9829b04cb51"
+sha256 = "41d36dc30bfddfa5609d4004cb242e2fa0d2bdd6cfeef8bff2ea0296d7f84f2c"
 
 # zstd: [1-22]
 zstd-level = 19
@@ -97,49 +97,49 @@ zstd-level = 19
 [file.size]
 # Installed size ≈ tar-size
 # Installed size is approximately equal to the size of the tar file
-tar = "3.9G"
-tar_bytes = 4176145408
+tar = "4.0G"
+tar_bytes = 4198724608
 
 # Space occupied ≈ tar-size + zstd-size
 # You will need to prepare a large enough space before installation.
 zstd = "1.2G"
-zstd_bytes = 1193442150
+zstd_bytes = 1194496305
 
 [compatibility]
 compatible_mode = true
 
-previous_version = "latest02"
+previous_version = "latest01"
 
 # The value is &str, not int
-previous_date = "20220629"
-previous_tag = "2022-06-29"
-previous_file = "debian-lxde_i386_2022-06-29_13-16-rootfs.tar.zst"
-previous_sha256 = "a531e6e8d9251a3eb23e4e04cd963e7bb87a5df545ad1cc44e92b84b8e43954e"
+previous_date = "20220706"
+previous_tag = "2022-07-06"
+previous_file = "debian-lxde_i386_2022-07-06_13-10-rootfs.tar.zst"
+previous_sha256 = "b18a79c8108e81e1e3e2a3a24a54671a9a108398b749dfd6df1ba9829b04cb51"
 
-current_version = "latest01"
-current_date = "20220706"
-old_file = "debian-lxde_i386_2022-06-22_13-12-rootfs.tar.zst"
-old_sha256 = "ce0a9fee756a4f527fa4aabdf2d1aa7dff6237d1f0bb1c2a248eafe2f7e31203"
+current_version = "latest02"
+current_date = "20220713"
+old_file = "debian-lxde_i386_2022-06-29_13-16-rootfs.tar.zst"
+old_sha256 = "a531e6e8d9251a3eb23e4e04cd963e7bb87a5df545ad1cc44e92b84b8e43954e"
 # edition 2021
 # DISTRO_NAME=debian-sid_i386
-# ROOTFS_FILE=debian-lxde_i386_2022-07-06_13-10-rootfs.tar.zst
-# SHA256SUM=b18a79c8108e81e1e3e2a3a24a54671a9a108398b749dfd6df1ba9829b04cb51
-# BUILD_DATE=20220706
-# BUILD_TAG=2022-07-06
+# ROOTFS_FILE=debian-lxde_i386_2022-07-13_13-10-rootfs.tar.zst
+# SHA256SUM=41d36dc30bfddfa5609d4004cb242e2fa0d2bdd6cfeef8bff2ea0296d7f84f2c
+# BUILD_DATE=20220713
+# BUILD_TAG=2022-07-13
 # STATUS=completed
-# VERSION=latest01
+# VERSION=latest02
 # END_TIME=13:10
 
 [time]
 format = "rfc-3339"
 zone = "UTC"
-date = 2022-07-06
-begin = 2022-07-06 12:19:39.766464096+00:00
-start-sync_0 = 12:51:18
-start-zstd = 12:54:50
-start-sync_1 = 13:08:54
-end-sync_1 = 13:10:32
-end = 2022-07-06 13:10:32.433276443+00:00
+date = 2022-07-13
+begin = 2022-07-13 12:21:31.456195314+00:00
+start-sync_0 = 12:51:51
+start-zstd = 12:55:15
+start-sync_1 = 13:09:36
+end-sync_1 = 13:10:45
+end = 2022-07-13 13:10:46.001341437+00:00
 
 [server]
 repo = "cake233/debian-lxde-386"
@@ -174,7 +174,7 @@ current = true
 LANG = "en_US.UTF-8"
 
 [version]
-ldd = 'ldd (Debian GLIBC 2.33-7) 2.33'
+ldd = 'ldd (Debian GLIBC 2.33-8) 2.33'
 zsh = 'zsh 5.9 (i686-debian-linux-gnu)'
 
 [port]
