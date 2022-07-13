@@ -20,7 +20,7 @@ docker exec -it arch-zsh-arm64 zsh
 ```toml
 [main]
 name = "arch"
-tag = ["zsh", "2022-07-06"]
+tag = ["zsh", "2022-07-13"]
 os = "arch"
 release = "latest"
 arch = "arm64"
@@ -29,10 +29,10 @@ xorg_or_wayland = false
 syntax_version = "0.0.0-alpha.4"
 
 [file]
-name = "arch-zsh_arm64_2022-07-06_00-27.tar.zst"
+name = "arch-zsh_arm64_2022-07-13_00-37.tar.zst"
 
 # This value can be used to verify the integrity of the file
-sha256 = "91a097940aa10f555a3e65d02b24f0e983979d03b14e5c408d8e8b188fb509bc"
+sha256 = "aae1d184449dfa97d269ea3da092721b68577b1912658ce60930e84c49721da5"
 
 # zstd: [1-22]
 zstd-level = 20
@@ -40,49 +40,49 @@ zstd-level = 20
 [file.size]
 # Installed size ≈ tar-size
 # Installed size is approximately equal to the size of the tar file
-tar = "955M"
-tar_bytes = 1001169920
+tar = "957M"
+tar_bytes = 1002882560
 
 # Space occupied ≈ tar-size + zstd-size
 # You will need to prepare a large enough space before installation.
-zstd = "225M"
-zstd_bytes = 235789176
+zstd = "226M"
+zstd_bytes = 236078067
 
 [compatibility]
 compatible_mode = true
 
-previous_version = "latest02"
+previous_version = "latest01"
 
 # The value is &str, not int
-previous_date = "20220629"
-previous_tag = "2022-06-29"
-previous_file = "arch-zsh_arm64_2022-06-29_00-28-rootfs.tar.zst"
-previous_sha256 = "dc41851b79c1f7039451fe1c0d12c1d863dda7c48b77079882f856ebd24ef694"
+previous_date = "20220706"
+previous_tag = "2022-07-06"
+previous_file = "arch-zsh_arm64_2022-07-06_00-27-rootfs.tar.zst"
+previous_sha256 = "91a097940aa10f555a3e65d02b24f0e983979d03b14e5c408d8e8b188fb509bc"
 
-current_version = "latest01"
-current_date = "20220706"
-old_file = "arch-zsh_arm64_2022-06-22_00-25-rootfs.tar.zst"
-old_sha256 = "3d170679179a09804da2ee8ce037caf50cce552cb2557e1e214de5441a969c6a"
+current_version = "latest02"
+current_date = "20220713"
+old_file = "arch-zsh_arm64_2022-06-29_00-28-rootfs.tar.zst"
+old_sha256 = "dc41851b79c1f7039451fe1c0d12c1d863dda7c48b77079882f856ebd24ef694"
 # edition 2021
 # DISTRO_NAME=arch_arm64
-# ROOTFS_FILE=arch-zsh_arm64_2022-07-06_00-27-rootfs.tar.zst
-# SHA256SUM=91a097940aa10f555a3e65d02b24f0e983979d03b14e5c408d8e8b188fb509bc
-# BUILD_DATE=20220706
-# BUILD_TAG=2022-07-06
+# ROOTFS_FILE=arch-zsh_arm64_2022-07-13_00-37-rootfs.tar.zst
+# SHA256SUM=aae1d184449dfa97d269ea3da092721b68577b1912658ce60930e84c49721da5
+# BUILD_DATE=20220713
+# BUILD_TAG=2022-07-13
 # STATUS=completed
-# VERSION=latest01
-# END_TIME=00:27
+# VERSION=latest02
+# END_TIME=00:37
 
 [time]
 format = "rfc-3339"
 zone = "UTC"
-date = 2022-07-06
-begin = 2022-07-06 00:07:41.383617298+00:00
-start-sync_0 = 00:21:32
-start-zstd = 00:23:05
-start-sync_1 = 00:26:47
-end-sync_1 = 00:27:10
-end = 2022-07-06 00:27:10.566332462+00:00
+date = 2022-07-13
+begin = 2022-07-13 00:12:32.814483312+00:00
+start-sync_0 = 00:31:30
+start-zstd = 00:33:09
+start-sync_1 = 00:37:02
+end-sync_1 = 00:37:28
+end = 2022-07-13 00:37:28.089809875+00:00
 
 [server]
 repo = "cake233/arch-zsh-arm64"
