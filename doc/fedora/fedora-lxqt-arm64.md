@@ -77,7 +77,7 @@ localhost:5903
 ```toml
 [main]
 name = "fedora"
-tag = ["lxqt", "2022-07-12"]
+tag = ["lxqt", "2022-07-19"]
 os = "fedora"
 release = "rawhide"
 arch = "arm64"
@@ -86,10 +86,10 @@ xorg_or_wayland = true
 syntax_version = "0.0.0-alpha.4"
 
 [file]
-name = "fedora-lxqt_arm64_2022-07-12_13-56.tar.zst"
+name = "fedora-lxqt_arm64_2022-07-19_13-53.tar.zst"
 
 # This value can be used to verify the integrity of the file
-sha256 = "64ab20c34e1b16f1624668075ae58fd028675773d5039a7a573fb878c5da7f56"
+sha256 = "76c6ed109d39cce55438d2ec8e8f774840e6635fe7b761ce0ba68b906fafa024"
 
 # zstd: [1-22]
 zstd-level = 19
@@ -98,12 +98,12 @@ zstd-level = 19
 # Installed size ≈ tar-size
 # Installed size is approximately equal to the size of the tar file
 tar = "4.5G"
-tar_bytes = 4801993728
+tar_bytes = 4810693120
 
 # Space occupied ≈ tar-size + zstd-size
 # You will need to prepare a large enough space before installation.
 zstd = "1.1G"
-zstd_bytes = 1130934652
+zstd_bytes = 1147327686
 
 [compatibility]
 compatible_mode = true
@@ -117,29 +117,29 @@ previous_file = "fedora-rawhide_arm64+lxqt-2021_11-02-rootfs.tar.zst"
 previous_sha256 = "3148521c15bba60de747c6f5fbfdbf3f1591601ec23bd53a319bd3d8a3cd444e"
 
 current_version = "latest02"
-current_date = "20220712"
+current_date = "20220719"
 old_file = "fedora-rawhide_arm64+lxqt-2021_10-26-rootfs.tar.zst"
 old_sha256 = "3e47a4fc80dd5ee4013b9db146ae5c2c5713ea0884d27d3d45508ac9c3127ab3"
 # edition 2021
 # DISTRO_NAME=fedora-rawhide_arm64
-# ROOTFS_FILE=fedora-lxqt_arm64_2022-07-12_13-56-rootfs.tar.zst
-# SHA256SUM=64ab20c34e1b16f1624668075ae58fd028675773d5039a7a573fb878c5da7f56
-# BUILD_DATE=20220712
-# BUILD_TAG=2022-07-12
+# ROOTFS_FILE=fedora-lxqt_arm64_2022-07-19_13-53-rootfs.tar.zst
+# SHA256SUM=76c6ed109d39cce55438d2ec8e8f774840e6635fe7b761ce0ba68b906fafa024
+# BUILD_DATE=20220719
+# BUILD_TAG=2022-07-19
 # STATUS=completed
 # VERSION=latest02
-# END_TIME=13:56
+# END_TIME=13:53
 
 [time]
 format = "rfc-3339"
 zone = "UTC"
-date = 2022-07-12
-begin = 2022-07-12 12:43:19.049641344+00:00
-start-sync_0 = 13:36:43
-start-zstd = 13:40:16
-start-sync_1 = 13:55:08
-end-sync_1 = 13:56:13
-end = 2022-07-12 13:56:13.775549344+00:00
+date = 2022-07-19
+begin = 2022-07-19 12:42:28.568547191+00:00
+start-sync_0 = 13:32:11
+start-zstd = 13:35:56
+start-sync_1 = 13:52:41
+end-sync_1 = 13:53:50
+end = 2022-07-19 13:53:50.198562827+00:00
 
 [server]
 repo = "cake233/fedora-lxqt-arm64"
