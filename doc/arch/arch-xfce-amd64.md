@@ -77,7 +77,7 @@ localhost:5903
 ```toml
 [main]
 name = "arch"
-tag = ["xfce", "2022-07-13"]
+tag = ["xfce", "2022-07-20"]
 os = "arch"
 release = "latest"
 arch = "amd64"
@@ -86,10 +86,10 @@ xorg_or_wayland = true
 syntax_version = "0.0.0-alpha.4"
 
 [file]
-name = "arch-xfce_amd64_2022-07-13_01-04.tar.zst"
+name = "arch-xfce_amd64_2022-07-20_01-15.tar.zst"
 
 # This value can be used to verify the integrity of the file
-sha256 = "44a630bd4c8275a8c92950b664cd4b6eaa03e32c33e19c2378b393bc38fd69bc"
+sha256 = "44fdc5eb3e08d558e3d5dbe623284895610d0f0e3f03e8e31c0af2352e3fc492"
 
 # zstd: [1-22]
 zstd-level = 19
@@ -98,48 +98,48 @@ zstd-level = 19
 # Installed size ≈ tar-size
 # Installed size is approximately equal to the size of the tar file
 tar = "3.6G"
-tar_bytes = 3849138176
+tar_bytes = 3801526784
 
 # Space occupied ≈ tar-size + zstd-size
 # You will need to prepare a large enough space before installation.
 zstd = "1.1G"
-zstd_bytes = 1133754856
+zstd_bytes = 1136100690
 
 [compatibility]
 compatible_mode = true
 
-previous_version = "latest01"
+previous_version = "latest02"
 
 # The value is &str, not int
-previous_date = "20220706"
-previous_tag = "2022-07-06"
-previous_file = "arch-xfce_amd64_2022-07-06_00-50-rootfs.tar.zst"
-previous_sha256 = "1f534043b4a5529e1b2fe1a38b862bc47ec6964fb0fa1fc5eb92b24613dd2733"
+previous_date = "20220713"
+previous_tag = "2022-07-13"
+previous_file = "arch-xfce_amd64_2022-07-13_01-04-rootfs.tar.zst"
+previous_sha256 = "44a630bd4c8275a8c92950b664cd4b6eaa03e32c33e19c2378b393bc38fd69bc"
 
-current_version = "latest02"
-current_date = "20220713"
-old_file = "arch-xfce_amd64_2022-06-29_00-56-rootfs.tar.zst"
-old_sha256 = "6378e761277142bb99d78d24d0c8c80e7f6bf24558dbaaf77a1445a091237537"
+current_version = "latest01"
+current_date = "20220720"
+old_file = "arch-xfce_amd64_2022-07-06_00-50-rootfs.tar.zst"
+old_sha256 = "1f534043b4a5529e1b2fe1a38b862bc47ec6964fb0fa1fc5eb92b24613dd2733"
 # edition 2021
 # DISTRO_NAME=arch_amd64
-# ROOTFS_FILE=arch-xfce_amd64_2022-07-13_01-04-rootfs.tar.zst
-# SHA256SUM=44a630bd4c8275a8c92950b664cd4b6eaa03e32c33e19c2378b393bc38fd69bc
-# BUILD_DATE=20220713
-# BUILD_TAG=2022-07-13
+# ROOTFS_FILE=arch-xfce_amd64_2022-07-20_01-15-rootfs.tar.zst
+# SHA256SUM=44fdc5eb3e08d558e3d5dbe623284895610d0f0e3f03e8e31c0af2352e3fc492
+# BUILD_DATE=20220720
+# BUILD_TAG=2022-07-20
 # STATUS=completed
-# VERSION=latest02
-# END_TIME=01:04
+# VERSION=latest01
+# END_TIME=01:15
 
 [time]
 format = "rfc-3339"
 zone = "UTC"
-date = 2022-07-13
-begin = 2022-07-13 00:37:57.413048542+00:00
-start-sync_0 = 00:43:15
-start-zstd = 00:47:13
-start-sync_1 = 01:03:13
-end-sync_1 = 01:04:32
-end = 2022-07-13 01:04:32.343548957+00:00
+date = 2022-07-20
+begin = 2022-07-20 00:53:43.278673166+00:00
+start-sync_0 = 00:58:10
+start-zstd = 01:01:21
+start-sync_1 = 01:14:02
+end-sync_1 = 01:15:06
+end = 2022-07-20 01:15:06.097124713+00:00
 
 [server]
 repo = "cake233/arch-xfce-amd64"
