@@ -77,7 +77,7 @@ localhost:5903
 ```toml
 [main]
 name = "ubuntu"
-tag = ["kde", "2022-07-19", "devel"]
+tag = ["kde", "2022-07-26", "devel"]
 os = "ubuntu"
 release = "dev"
 arch = "amd64"
@@ -86,10 +86,10 @@ xorg_or_wayland = true
 syntax_version = "0.0.0-alpha.4"
 
 [file]
-name = "ubuntu-kde_amd64_2022-07-19_01-07.tar.zst"
+name = "ubuntu-kde_amd64_2022-07-26_01-13.tar.zst"
 
 # This value can be used to verify the integrity of the file
-sha256 = "25bdac6854660f7d989f6d30ae5f0d45af84accf26cbbdcf78957f246d25d75b"
+sha256 = "872263b327a21dc009894d5351dbe0b370b95866f12142018fe38632bfb0e1ad"
 
 # zstd: [1-22]
 zstd-level = 19
@@ -98,12 +98,12 @@ zstd-level = 19
 # Installed size ≈ tar-size
 # Installed size is approximately equal to the size of the tar file
 tar = "4.4G"
-tar_bytes = 4632082944
+tar_bytes = 4660935168
 
 # Space occupied ≈ tar-size + zstd-size
 # You will need to prepare a large enough space before installation.
 zstd = "1.2G"
-zstd_bytes = 1263988947
+zstd_bytes = 1272669115
 
 [compatibility]
 compatible_mode = true
@@ -117,29 +117,29 @@ previous_file = "ubuntu-kde_amd64_2022-07-12_00-53-rootfs.tar.zst"
 previous_sha256 = "84f14dc548f4f941017f526a48c44ae063231350f0e87b4085386e6dd74743a6"
 
 current_version = "latest02"
-current_date = "20220719"
+current_date = "20220726"
 old_file = "ubuntu-kde_amd64_2022-07-05_00-44-rootfs.tar.zst"
 old_sha256 = "6b09dbb874087c5209eaa10edbd37776403040f0d9eadefacebf0f2df09f3b17"
 # edition 2021
 # DISTRO_NAME=ubuntu-dev_amd64
-# ROOTFS_FILE=ubuntu-kde_amd64_2022-07-19_01-07-rootfs.tar.zst
-# SHA256SUM=25bdac6854660f7d989f6d30ae5f0d45af84accf26cbbdcf78957f246d25d75b
-# BUILD_DATE=20220719
-# BUILD_TAG=2022-07-19
+# ROOTFS_FILE=ubuntu-kde_amd64_2022-07-26_01-13-rootfs.tar.zst
+# SHA256SUM=872263b327a21dc009894d5351dbe0b370b95866f12142018fe38632bfb0e1ad
+# BUILD_DATE=20220726
+# BUILD_TAG=2022-07-26
 # STATUS=completed
 # VERSION=latest02
-# END_TIME=01:07
+# END_TIME=01:13
 
 [time]
 format = "rfc-3339"
 zone = "UTC"
-date = 2022-07-19
-begin = 2022-07-19 00:19:50.119184192+00:00
-start-sync_0 = 00:41:27
-start-zstd = 00:46:32
-start-sync_1 = 01:06:03
-end-sync_1 = 01:07:36
-end = 2022-07-19 01:07:36.076069676+00:00
+date = 2022-07-26
+begin = 2022-07-26 00:24:02.339418417+00:00
+start-sync_0 = 00:36:28
+start-zstd = 00:45:32
+start-sync_1 = 01:12:23
+end-sync_1 = 01:13:54
+end = 2022-07-26 01:13:54.280660370+00:00
 
 [server]
 repo = "cake233/ubuntu-kde-amd64"
