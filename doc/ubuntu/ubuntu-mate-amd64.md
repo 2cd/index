@@ -77,7 +77,7 @@ localhost:5903
 ```toml
 [main]
 name = "ubuntu"
-tag = ["mate", "2022-07-19", "devel"]
+tag = ["mate", "2022-07-26", "devel"]
 os = "ubuntu"
 release = "dev"
 arch = "amd64"
@@ -86,10 +86,10 @@ xorg_or_wayland = true
 syntax_version = "0.0.0-alpha.4"
 
 [file]
-name = "ubuntu-mate_amd64_2022-07-19_00-51.tar.zst"
+name = "ubuntu-mate_amd64_2022-07-26_00-56.tar.zst"
 
 # This value can be used to verify the integrity of the file
-sha256 = "4bbe77b070dbfa7ee910bd76d32e84bacaa74c934c7a4fcc78c5ad1101eccb8e"
+sha256 = "fe2328dc927620389ef52a72a01ab95364b4c366479926a61ed7dd676c066dcc"
 
 # zstd: [1-22]
 zstd-level = 19
@@ -98,12 +98,12 @@ zstd-level = 19
 # Installed size ≈ tar-size
 # Installed size is approximately equal to the size of the tar file
 tar = "3.9G"
-tar_bytes = 4146076672
+tar_bytes = 4170932736
 
 # Space occupied ≈ tar-size + zstd-size
 # You will need to prepare a large enough space before installation.
 zstd = "1.1G"
-zstd_bytes = 1108428606
+zstd_bytes = 1115081692
 
 [compatibility]
 compatible_mode = true
@@ -117,29 +117,29 @@ previous_file = "ubuntu-mate_amd64_2022-07-12_00-46-rootfs.tar.zst"
 previous_sha256 = "69e431fab0bdf8e03cebe03b73b5281ef18fb529047189ada77cfe9edd8b08cf"
 
 current_version = "latest02"
-current_date = "20220719"
+current_date = "20220726"
 old_file = "ubuntu-mate_amd64_2022-07-05_00-45-rootfs.tar.zst"
 old_sha256 = "decc11c955006caf3607296ab85f17528e950a2ae7edeed68fbd295a6e33ce9d"
 # edition 2021
 # DISTRO_NAME=ubuntu-dev_amd64
-# ROOTFS_FILE=ubuntu-mate_amd64_2022-07-19_00-51-rootfs.tar.zst
-# SHA256SUM=4bbe77b070dbfa7ee910bd76d32e84bacaa74c934c7a4fcc78c5ad1101eccb8e
-# BUILD_DATE=20220719
-# BUILD_TAG=2022-07-19
+# ROOTFS_FILE=ubuntu-mate_amd64_2022-07-26_00-56-rootfs.tar.zst
+# SHA256SUM=fe2328dc927620389ef52a72a01ab95364b4c366479926a61ed7dd676c066dcc
+# BUILD_DATE=20220726
+# BUILD_TAG=2022-07-26
 # STATUS=completed
 # VERSION=latest02
-# END_TIME=00:51
+# END_TIME=00:56
 
 [time]
 format = "rfc-3339"
 zone = "UTC"
-date = 2022-07-19
-begin = 2022-07-19 00:19:49.560818592+00:00
-start-sync_0 = 00:34:21
-start-zstd = 00:37:53
-start-sync_1 = 00:50:39
-end-sync_1 = 00:51:44
-end = 2022-07-19 00:51:44.461170165+00:00
+date = 2022-07-26
+begin = 2022-07-26 00:24:02.440263266+00:00
+start-sync_0 = 00:33:55
+start-zstd = 00:38:40
+start-sync_1 = 00:55:34
+end-sync_1 = 00:56:54
+end = 2022-07-26 00:56:54.399211236+00:00
 
 [server]
 repo = "cake233/ubuntu-mate-amd64"
