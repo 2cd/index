@@ -77,7 +77,7 @@ localhost:5903
 ```toml
 [main]
 name = "debian"
-tag = ["kde", "2022-07-20"]
+tag = ["kde", "2022-07-27"]
 os = "debian"
 release = "sid"
 arch = "amd64"
@@ -86,10 +86,10 @@ xorg_or_wayland = true
 syntax_version = "0.0.0-alpha.4"
 
 [file]
-name = "debian-kde_amd64_2022-07-20_13-13.tar.zst"
+name = "debian-kde_amd64_2022-07-27_13-08.tar.zst"
 
 # This value can be used to verify the integrity of the file
-sha256 = "67d55ae5ca2c36ed6532e532df8bee7c2ac71d55e17424169c2494de36208450"
+sha256 = "ce8730548f3ad7d5db747a0d4236f1aaf6f8e792b1c5991dabbf2919586dc4a1"
 
 # zstd: [1-22]
 zstd-level = 19
@@ -97,13 +97,13 @@ zstd-level = 19
 [file.size]
 # Installed size ≈ tar-size
 # Installed size is approximately equal to the size of the tar file
-tar = "5.1G"
-tar_bytes = 5426634240
+tar = "5.7G"
+tar_bytes = 6016493056
 
 # Space occupied ≈ tar-size + zstd-size
 # You will need to prepare a large enough space before installation.
-zstd = "1.5G"
-zstd_bytes = 1562533168
+zstd = "1.7G"
+zstd_bytes = 1746527234
 
 [compatibility]
 compatible_mode = true
@@ -117,29 +117,29 @@ previous_file = "debian-kde_amd64_2022-07-13_12-54-rootfs.tar.zst"
 previous_sha256 = "eb90d2b3c0572fdc4438eca3d16cd0d56c323d92b4fe274682538b580e744252"
 
 current_version = "latest01"
-current_date = "20220720"
+current_date = "20220727"
 old_file = "debian-kde_amd64_2022-07-06_12-58-rootfs.tar.zst"
 old_sha256 = "f4b460776bd1ac255b3d657a309ba91d747e8d4c4940cc693547cebd558bd7e9"
 # edition 2021
 # DISTRO_NAME=debian-sid_amd64
-# ROOTFS_FILE=debian-kde_amd64_2022-07-20_13-13-rootfs.tar.zst
-# SHA256SUM=67d55ae5ca2c36ed6532e532df8bee7c2ac71d55e17424169c2494de36208450
-# BUILD_DATE=20220720
-# BUILD_TAG=2022-07-20
+# ROOTFS_FILE=debian-kde_amd64_2022-07-27_13-08-rootfs.tar.zst
+# SHA256SUM=ce8730548f3ad7d5db747a0d4236f1aaf6f8e792b1c5991dabbf2919586dc4a1
+# BUILD_DATE=20220727
+# BUILD_TAG=2022-07-27
 # STATUS=completed
 # VERSION=latest01
-# END_TIME=13:13
+# END_TIME=13:08
 
 [time]
 format = "rfc-3339"
 zone = "UTC"
-date = 2022-07-20
-begin = 2022-07-20 12:22:57.425240513+00:00
-start-sync_0 = 12:33:33
-start-zstd = 12:45:55
-start-sync_1 = 13:11:52
-end-sync_1 = 13:13:54
-end = 2022-07-20 13:13:54.918102840+00:00
+date = 2022-07-27
+begin = 2022-07-27 12:22:01.623308870+00:00
+start-sync_0 = 12:29:30
+start-zstd = 12:44:53
+start-sync_1 = 13:05:50
+end-sync_1 = 13:08:13
+end = 2022-07-27 13:08:13.370426094+00:00
 
 [server]
 repo = "cake233/debian-kde-amd64"
