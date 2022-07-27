@@ -77,7 +77,7 @@ localhost:5903
 ```toml
 [main]
 name = "arch"
-tag = ["mate", "2022-07-20"]
+tag = ["mate", "2022-07-27"]
 os = "arch"
 release = "latest"
 arch = "amd64"
@@ -86,10 +86,10 @@ xorg_or_wayland = true
 syntax_version = "0.0.0-alpha.4"
 
 [file]
-name = "arch-mate_amd64_2022-07-20_01-21.tar.zst"
+name = "arch-mate_amd64_2022-07-27_01-06.tar.zst"
 
 # This value can be used to verify the integrity of the file
-sha256 = "933cbbdc0a98353f1a6f0f399024f8af399bb2a92e096d2fd527fb9da4dcae7f"
+sha256 = "c95f5e8ed5746d2c4df2bd65af775cca3eecbfc0a9ee94942fb232842c36fe3e"
 
 # zstd: [1-22]
 zstd-level = 19
@@ -97,13 +97,13 @@ zstd-level = 19
 [file.size]
 # Installed size ≈ tar-size
 # Installed size is approximately equal to the size of the tar file
-tar = "4.4G"
-tar_bytes = 4695778816
+tar = "4.5G"
+tar_bytes = 4725088256
 
 # Space occupied ≈ tar-size + zstd-size
 # You will need to prepare a large enough space before installation.
 zstd = "1.3G"
-zstd_bytes = 1322320033
+zstd_bytes = 1329022840
 
 [compatibility]
 compatible_mode = true
@@ -117,29 +117,29 @@ previous_file = "arch-mate_amd64_2022-07-13_01-04-rootfs.tar.zst"
 previous_sha256 = "bd7b2fdaf9e69bdf244c5523aa7fefc9eae706ce5b57f79e404f5dd563b15e13"
 
 current_version = "latest01"
-current_date = "20220720"
+current_date = "20220727"
 old_file = "arch-mate_amd64_2022-07-06_00-55-rootfs.tar.zst"
 old_sha256 = "06c54447c00ba449457d4c4b347641bafcb7a6e30f022cf31d85a11901a452cb"
 # edition 2021
 # DISTRO_NAME=arch_amd64
-# ROOTFS_FILE=arch-mate_amd64_2022-07-20_01-21-rootfs.tar.zst
-# SHA256SUM=933cbbdc0a98353f1a6f0f399024f8af399bb2a92e096d2fd527fb9da4dcae7f
-# BUILD_DATE=20220720
-# BUILD_TAG=2022-07-20
+# ROOTFS_FILE=arch-mate_amd64_2022-07-27_01-06-rootfs.tar.zst
+# SHA256SUM=c95f5e8ed5746d2c4df2bd65af775cca3eecbfc0a9ee94942fb232842c36fe3e
+# BUILD_DATE=20220727
+# BUILD_TAG=2022-07-27
 # STATUS=completed
 # VERSION=latest01
-# END_TIME=01:21
+# END_TIME=01:06
 
 [time]
 format = "rfc-3339"
 zone = "UTC"
-date = 2022-07-20
-begin = 2022-07-20 00:53:43.417045031+00:00
-start-sync_0 = 00:58:48
-start-zstd = 01:03:22
-start-sync_1 = 01:20:38
-end-sync_1 = 01:21:56
-end = 2022-07-20 01:21:56.256285059+00:00
+date = 2022-07-27
+begin = 2022-07-27 00:39:53.337138402+00:00
+start-sync_0 = 00:44:40
+start-zstd = 00:49:07
+start-sync_1 = 01:05:19
+end-sync_1 = 01:06:33
+end = 2022-07-27 01:06:33.648789289+00:00
 
 [server]
 repo = "cake233/arch-mate-amd64"
