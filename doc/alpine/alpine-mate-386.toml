@@ -1,6 +1,6 @@
 [main]
 name = "alpine"
-tag = ["mate", "2022-07-21"]
+tag = ["mate", "2022-07-28"]
 os = "alpine"
 release = "edge"
 arch = "i386"
@@ -9,10 +9,10 @@ xorg_or_wayland = true
 syntax_version = "0.0.0-alpha.4"
 
 [file]
-name = "alpine-mate_i386_2022-07-21_00-31.tar.zst"
+name = "alpine-mate_i386_2022-07-28_00-26.tar.zst"
 
 # This value can be used to verify the integrity of the file
-sha256 = "bd636e543ee88833e5ff2fe90d802e2c3a553fd52f768af391ec751ce1c1fbc1"
+sha256 = "471a02ea6310bdaf8652c68aa93c8ca09fed7664fe122ed63826fcea10976699"
 
 # zstd: [1-22]
 zstd-level = 19
@@ -20,13 +20,13 @@ zstd-level = 19
 [file.size]
 # Installed size ≈ tar-size
 # Installed size is approximately equal to the size of the tar file
-tar = "750M"
-tar_bytes = 786053120
+tar = "749M"
+tar_bytes = 785295360
 
 # Space occupied ≈ tar-size + zstd-size
 # You will need to prepare a large enough space before installation.
-zstd = "237M"
-zstd_bytes = 247572806
+zstd = "236M"
+zstd_bytes = 247376338
 
 [compatibility]
 compatible_mode = true
@@ -40,29 +40,29 @@ previous_file = "alpine-mate_i386_2022-07-14_00-26-rootfs.tar.zst"
 previous_sha256 = "99559a0ab3180368194cd757c01a38022fb9220c747f6bfd099681aecb8ab953"
 
 current_version = "latest01"
-current_date = "20220721"
+current_date = "20220728"
 old_file = "alpine-mate_i386_2022-07-07_00-27-rootfs.tar.zst"
 old_sha256 = "bf77591f714896ae561ada4aa6ba7efd98895659caba4fc68f4cbdac2dcaa506"
 # edition 2021
 # DISTRO_NAME=alpine-edge_i386
-# ROOTFS_FILE=alpine-mate_i386_2022-07-21_00-31-rootfs.tar.zst
-# SHA256SUM=bd636e543ee88833e5ff2fe90d802e2c3a553fd52f768af391ec751ce1c1fbc1
-# BUILD_DATE=20220721
-# BUILD_TAG=2022-07-21
+# ROOTFS_FILE=alpine-mate_i386_2022-07-28_00-26-rootfs.tar.zst
+# SHA256SUM=471a02ea6310bdaf8652c68aa93c8ca09fed7664fe122ed63826fcea10976699
+# BUILD_DATE=20220728
+# BUILD_TAG=2022-07-28
 # STATUS=completed
 # VERSION=latest01
-# END_TIME=00:31
+# END_TIME=00:26
 
 [time]
 format = "rfc-3339"
 zone = "UTC"
-date = 2022-07-21
-begin = 2022-07-21 00:06:48.091372962+00:00
-start-sync_0 = 00:27:23
-start-zstd = 00:28:13
-start-sync_1 = 00:30:39
-end-sync_1 = 00:31:05
-end = 2022-07-21 00:31:05.539238420+00:00
+date = 2022-07-28
+begin = 2022-07-28 00:06:38.360641021+00:00
+start-sync_0 = 00:23:26
+start-zstd = 00:24:05
+start-sync_1 = 00:26:12
+end-sync_1 = 00:26:32
+end = 2022-07-28 00:26:32.397450695+00:00
 
 [server]
 repo = "cake233/alpine-mate-386"
