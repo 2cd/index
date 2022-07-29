@@ -77,7 +77,7 @@ localhost:5903
 ```toml
 [main]
 name = "manjaro"
-tag = ["xfce", "2022-07-22"]
+tag = ["xfce", "2022-07-29"]
 os = "manjaro"
 release = "stable"
 arch = "arm64"
@@ -86,10 +86,10 @@ xorg_or_wayland = true
 syntax_version = "0.0.0-alpha.4"
 
 [file]
-name = "manjaro-xfce_arm64_2022-07-22_12-55.tar.zst"
+name = "manjaro-xfce_arm64_2022-07-29_12-55.tar.zst"
 
 # This value can be used to verify the integrity of the file
-sha256 = "d3907eeea640b1a98ece39d65f0dc8633e00f99d5fb5b3ba5b1647f8afbe51ed"
+sha256 = "b290cae41221e83d977bcdfd84b52a8ba779a8b2a1444869a6ed920ee091f6fa"
 
 # zstd: [1-22]
 zstd-level = 19
@@ -98,12 +98,12 @@ zstd-level = 19
 # Installed size ≈ tar-size
 # Installed size is approximately equal to the size of the tar file
 tar = "4.2G"
-tar_bytes = 4509015040
+tar_bytes = 4509181952
 
 # Space occupied ≈ tar-size + zstd-size
 # You will need to prepare a large enough space before installation.
 zstd = "1.3G"
-zstd_bytes = 1308945358
+zstd_bytes = 1308991738
 
 [compatibility]
 compatible_mode = true
@@ -117,15 +117,15 @@ previous_file = "manjaro-xfce_arm64_2022-07-15_12-57-rootfs.tar.zst"
 previous_sha256 = "86ca8c9a527ac5c60045e12d2b0687f98d50f1270d221f877a5ae9bcc2d388b9"
 
 current_version = "latest02"
-current_date = "20220722"
+current_date = "20220729"
 old_file = "manjaro-xfce_arm64_2022-07-08_12-53-rootfs.tar.zst"
 old_sha256 = "c97a3dce2505fbce05cc4c4999c8d2165dae4cc3edc87e966accf4ffe48e139d"
 # edition 2021
 # DISTRO_NAME=manjaro-stable_arm64
-# ROOTFS_FILE=manjaro-xfce_arm64_2022-07-22_12-55-rootfs.tar.zst
-# SHA256SUM=d3907eeea640b1a98ece39d65f0dc8633e00f99d5fb5b3ba5b1647f8afbe51ed
-# BUILD_DATE=20220722
-# BUILD_TAG=2022-07-22
+# ROOTFS_FILE=manjaro-xfce_arm64_2022-07-29_12-55-rootfs.tar.zst
+# SHA256SUM=b290cae41221e83d977bcdfd84b52a8ba779a8b2a1444869a6ed920ee091f6fa
+# BUILD_DATE=20220729
+# BUILD_TAG=2022-07-29
 # STATUS=completed
 # VERSION=latest02
 # END_TIME=12:55
@@ -133,13 +133,13 @@ old_sha256 = "c97a3dce2505fbce05cc4c4999c8d2165dae4cc3edc87e966accf4ffe48e139d"
 [time]
 format = "rfc-3339"
 zone = "UTC"
-date = 2022-07-22
-begin = 2022-07-22 12:18:58.484071618+00:00
-start-sync_0 = 12:33:20
-start-zstd = 12:37:30
-start-sync_1 = 12:53:49
-end-sync_1 = 12:55:05
-end = 2022-07-22 12:55:05.379163934+00:00
+date = 2022-07-29
+begin = 2022-07-29 12:16:11.347961429+00:00
+start-sync_0 = 12:31:52
+start-zstd = 12:35:58
+start-sync_1 = 12:54:11
+end-sync_1 = 12:55:37
+end = 2022-07-29 12:55:37.166259797+00:00
 
 [server]
 repo = "cake233/manjaro-xfce-arm64"
