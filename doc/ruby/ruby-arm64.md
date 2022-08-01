@@ -20,7 +20,7 @@ docker exec -it ruby-arm64 bash
 ```toml
 [main]
 name = "ruby"
-tag = ["latest", "2022-07-18"]
+tag = ["latest", "2022-08-01"]
 os = "debian"
 release = "stable"
 arch = "arm64"
@@ -29,10 +29,10 @@ xorg_or_wayland = false
 syntax_version = "0.0.0-alpha.4"
 
 [file]
-name = "ruby_arm64_2022-07-18_12-09.tar.zst"
+name = "ruby_arm64_2022-08-01_12-11.tar.zst"
 
 # This value can be used to verify the integrity of the file
-sha256 = "a88ba25d5bba7bb3724c45f7edd8cb71f66fba746c5542323c3da46a45258b40"
+sha256 = "6509e63054534722310c73f3113a3f671141744a9cbab5d513683ab1017acc77"
 
 # zstd: [1-22]
 zstd-level = 22
@@ -41,12 +41,12 @@ zstd-level = 22
 # Installed size ≈ tar-size
 # Installed size is approximately equal to the size of the tar file
 tar = "847M"
-tar_bytes = 887812608
+tar_bytes = 887815168
 
 # Space occupied ≈ tar-size + zstd-size
 # You will need to prepare a large enough space before installation.
 zstd = "197M"
-zstd_bytes = 206308167
+zstd_bytes = 206295696
 
 [compatibility]
 compatible_mode = true
@@ -60,29 +60,29 @@ previous_file = "ruby_arm64_2022-07-04_12-10-rootfs.tar.zst"
 previous_sha256 = "acacda059c8d5798d9ae9ea1ef8450ed76e38bfcc8cd6e84f37b28d2f8cc8336"
 
 current_version = "latest01"
-current_date = "20220718"
+current_date = "20220801"
 old_file = "ruby_arm64_2022-06-20_12-11-rootfs.tar.zst"
 old_sha256 = "e84bc4092d9f62abc343f5bd270eadc9256a70384689d8bd99d552ca8213f5b5"
 # edition 2021
 # DISTRO_NAME=ruby_arm64
-# ROOTFS_FILE=ruby_arm64_2022-07-18_12-09-rootfs.tar.zst
-# SHA256SUM=a88ba25d5bba7bb3724c45f7edd8cb71f66fba746c5542323c3da46a45258b40
-# BUILD_DATE=20220718
-# BUILD_TAG=2022-07-18
+# ROOTFS_FILE=ruby_arm64_2022-08-01_12-11-rootfs.tar.zst
+# SHA256SUM=6509e63054534722310c73f3113a3f671141744a9cbab5d513683ab1017acc77
+# BUILD_DATE=20220801
+# BUILD_TAG=2022-08-01
 # STATUS=completed
 # VERSION=latest01
-# END_TIME=12:09
+# END_TIME=12:11
 
 [time]
 format = "rfc-3339"
 zone = "UTC"
-date = 2022-07-18
-begin = 2022-07-18 12:02:30.453814597+00:00
-start-sync_0 = 12:05:06
-start-zstd = 12:05:21
-start-sync_1 = 12:09:43
-end-sync_1 = 12:09:59
-end = 2022-07-18 12:09:59.285639494+00:00
+date = 2022-08-01
+begin = 2022-08-01 12:02:39.404793816+00:00
+start-sync_0 = 12:06:26
+start-zstd = 12:06:47
+start-sync_1 = 12:11:33
+end-sync_1 = 12:11:53
+end = 2022-08-01 12:11:53.978329645+00:00
 
 [server]
 repo = "cake233/ruby-arm64"
