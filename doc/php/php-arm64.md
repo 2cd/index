@@ -20,7 +20,7 @@ docker exec -it php-arm64 bash
 ```toml
 [main]
 name = "php"
-tag = ["latest", "2022-07-18"]
+tag = ["latest", "2022-08-01"]
 os = "debian"
 release = "stable"
 arch = "arm64"
@@ -29,10 +29,10 @@ xorg_or_wayland = false
 syntax_version = "0.0.0-alpha.4"
 
 [file]
-name = "php_arm64_2022-07-18_12-08.tar.zst"
+name = "php_arm64_2022-08-01_12-09.tar.zst"
 
 # This value can be used to verify the integrity of the file
-sha256 = "e1ac7df2ccac2670415d543bd59469f812d8830a1c93b4248683916bc23dce52"
+sha256 = "a9900e4c5ce3cade2c368b86bb4d8e47362e6849eb166b4243f50a8c55c5083b"
 
 # zstd: [1-22]
 zstd-level = 22
@@ -41,12 +41,12 @@ zstd-level = 22
 # Installed size ≈ tar-size
 # Installed size is approximately equal to the size of the tar file
 tar = "457M"
-tar_bytes = 478218240
+tar_bytes = 478220288
 
 # Space occupied ≈ tar-size + zstd-size
 # You will need to prepare a large enough space before installation.
 zstd = "99M"
-zstd_bytes = 102793574
+zstd_bytes = 102792892
 
 [compatibility]
 compatible_mode = true
@@ -60,29 +60,29 @@ previous_file = "php_arm64_2022-07-04_12-10-rootfs.tar.zst"
 previous_sha256 = "9017f49042b82858cc7433bda9c6ff527803c79a080d2f26a097794598b0c3e4"
 
 current_version = "latest02"
-current_date = "20220718"
+current_date = "20220801"
 old_file = "php_arm64_2022-06-20_12-09-rootfs.tar.zst"
 old_sha256 = "fd1b1b00b91afa65c961c32f825aceea9a6de16da4860051bf109da799726106"
 # edition 2021
 # DISTRO_NAME=php_arm64
-# ROOTFS_FILE=php_arm64_2022-07-18_12-08-rootfs.tar.zst
-# SHA256SUM=e1ac7df2ccac2670415d543bd59469f812d8830a1c93b4248683916bc23dce52
-# BUILD_DATE=20220718
-# BUILD_TAG=2022-07-18
+# ROOTFS_FILE=php_arm64_2022-08-01_12-09-rootfs.tar.zst
+# SHA256SUM=a9900e4c5ce3cade2c368b86bb4d8e47362e6849eb166b4243f50a8c55c5083b
+# BUILD_DATE=20220801
+# BUILD_TAG=2022-08-01
 # STATUS=completed
 # VERSION=latest02
-# END_TIME=12:08
+# END_TIME=12:09
 
 [time]
 format = "rfc-3339"
 zone = "UTC"
-date = 2022-07-18
-begin = 2022-07-18 12:02:29.535482055+00:00
-start-sync_0 = 12:04:48
-start-zstd = 12:04:59
-start-sync_1 = 12:08:30
-end-sync_1 = 12:08:40
-end = 2022-07-18 12:08:40.498851931+00:00
+date = 2022-08-01
+begin = 2022-08-01 12:02:37.559073313+00:00
+start-sync_0 = 12:05:35
+start-zstd = 12:05:47
+start-sync_1 = 12:09:39
+end-sync_1 = 12:09:50
+end = 2022-08-01 12:09:50.207401667+00:00
 
 [server]
 repo = "cake233/php-arm64"
