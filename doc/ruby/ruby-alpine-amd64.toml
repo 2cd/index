@@ -1,6 +1,6 @@
 [main]
 name = "ruby"
-tag = ["alpine", "2022-07-18", "musl-libc", "musl"]
+tag = ["alpine", "2022-08-01", "musl-libc", "musl"]
 os = "alpine"
 release = "stable"
 arch = "amd64"
@@ -9,10 +9,10 @@ xorg_or_wayland = false
 syntax_version = "0.0.0-alpha.4"
 
 [file]
-name = "ruby-musl_amd64_2022-07-18_12-04.tar.zst"
+name = "ruby-musl_amd64_2022-08-01_12-05.tar.zst"
 
 # This value can be used to verify the integrity of the file
-sha256 = "856940809d381ebb3634035b7d22185ef37cf24b8468ea3037390dec64df2ac5"
+sha256 = "1358749f7aee8f566223198ddb979bbf6f0e29ca3606c1b3af3c8bf3add120b2"
 
 # zstd: [1-22]
 zstd-level = 22
@@ -21,12 +21,12 @@ zstd-level = 22
 # Installed size ≈ tar-size
 # Installed size is approximately equal to the size of the tar file
 tar = "83M"
-tar_bytes = 86340608
+tar_bytes = 86380032
 
 # Space occupied ≈ tar-size + zstd-size
 # You will need to prepare a large enough space before installation.
 zstd = "33M"
-zstd_bytes = 33803159
+zstd_bytes = 33811262
 
 [compatibility]
 compatible_mode = true
@@ -40,29 +40,29 @@ previous_file = "ruby-musl_amd64_2022-07-04_13-30-rootfs.tar.zst"
 previous_sha256 = "765cd26f421c91df20e7640b536a31708d7b5cda79b2982d895631531e463ccf"
 
 current_version = "latest02"
-current_date = "20220718"
+current_date = "20220801"
 old_file = "ruby-musl_amd64_2022-06-20_12-04-rootfs.tar.zst"
 old_sha256 = "8a7fc974d4cfc047c1b1b925c212a283a03975892d2bb73b640d30a41080e41c"
 # edition 2021
 # DISTRO_NAME=ruby_amd64
-# ROOTFS_FILE=ruby-musl_amd64_2022-07-18_12-04-rootfs.tar.zst
-# SHA256SUM=856940809d381ebb3634035b7d22185ef37cf24b8468ea3037390dec64df2ac5
-# BUILD_DATE=20220718
-# BUILD_TAG=2022-07-18
+# ROOTFS_FILE=ruby-musl_amd64_2022-08-01_12-05-rootfs.tar.zst
+# SHA256SUM=1358749f7aee8f566223198ddb979bbf6f0e29ca3606c1b3af3c8bf3add120b2
+# BUILD_DATE=20220801
+# BUILD_TAG=2022-08-01
 # STATUS=completed
 # VERSION=latest02
-# END_TIME=12:04
+# END_TIME=12:05
 
 [time]
 format = "rfc-3339"
 zone = "UTC"
-date = 2022-07-18
-begin = 2022-07-18 12:02:31.013956421+00:00
-start-sync_0 = 12:03:19
-start-zstd = 12:03:26
-start-sync_1 = 12:04:04
-end-sync_1 = 12:04:11
-end = 2022-07-18 12:04:11.499394736+00:00
+date = 2022-08-01
+begin = 2022-08-01 12:02:41.134830535+00:00
+start-sync_0 = 12:04:02
+start-zstd = 12:04:14
+start-sync_1 = 12:04:55
+end-sync_1 = 12:05:07
+end = 2022-08-01 12:05:07.956954064+00:00
 
 [server]
 repo = "cake233/ruby-alpine-amd64"
