@@ -77,7 +77,7 @@ localhost:5903
 ```toml
 [main]
 name = "fedora"
-tag = ["xfce", "2022-07-26"]
+tag = ["xfce", "2022-08-02"]
 os = "fedora"
 release = "rawhide"
 arch = "amd64"
@@ -86,10 +86,10 @@ xorg_or_wayland = true
 syntax_version = "0.0.0-alpha.4"
 
 [file]
-name = "fedora-xfce_amd64_2022-07-26_13-11.tar.zst"
+name = "fedora-xfce_amd64_2022-08-02_13-20.tar.zst"
 
 # This value can be used to verify the integrity of the file
-sha256 = "96f3ab4021d1d5ff019d39de3696443d9adac9c6da91716055105da9476ab099"
+sha256 = "51d6f11fc4f7754fc2b38a713d1dbb400ea845ae99ff69dbf843898df9d993ae"
 
 # zstd: [1-22]
 zstd-level = 19
@@ -98,12 +98,12 @@ zstd-level = 19
 # Installed size ≈ tar-size
 # Installed size is approximately equal to the size of the tar file
 tar = "3.9G"
-tar_bytes = 4089597952
+tar_bytes = 4083109376
 
 # Space occupied ≈ tar-size + zstd-size
 # You will need to prepare a large enough space before installation.
 zstd = "1.3G"
-zstd_bytes = 1336295069
+zstd_bytes = 1330969453
 
 [compatibility]
 compatible_mode = true
@@ -117,29 +117,29 @@ previous_file = "fedora-xfce_amd64_2022-07-12_13-06-rootfs.tar.zst"
 previous_sha256 = "4b0720e27c8a4565f665055eaf47031302ada87cf9a0138166d6db440162aade"
 
 current_version = "latest01"
-current_date = "20220726"
+current_date = "20220802"
 old_file = "fedora-xfce_amd64_2022-07-05_13-08-rootfs.tar.zst"
 old_sha256 = "e36a9295e38875f01f53d586e0a9d5cda81551996ebf0aadd5519d5ef4283c8c"
 # edition 2021
 # DISTRO_NAME=fedora-rawhide_amd64
-# ROOTFS_FILE=fedora-xfce_amd64_2022-07-26_13-11-rootfs.tar.zst
-# SHA256SUM=96f3ab4021d1d5ff019d39de3696443d9adac9c6da91716055105da9476ab099
-# BUILD_DATE=20220726
-# BUILD_TAG=2022-07-26
+# ROOTFS_FILE=fedora-xfce_amd64_2022-08-02_13-20-rootfs.tar.zst
+# SHA256SUM=51d6f11fc4f7754fc2b38a713d1dbb400ea845ae99ff69dbf843898df9d993ae
+# BUILD_DATE=20220802
+# BUILD_TAG=2022-08-02
 # STATUS=completed
 # VERSION=latest01
-# END_TIME=13:11
+# END_TIME=13:20
 
 [time]
 format = "rfc-3339"
 zone = "UTC"
-date = 2022-07-26
-begin = 2022-07-26 12:48:25.814009966+00:00
-start-sync_0 = 12:54:26
-start-zstd = 12:57:28
-start-sync_1 = 13:10:37
-end-sync_1 = 13:11:50
-end = 2022-07-26 13:11:50.999853189+00:00
+date = 2022-08-02
+begin = 2022-08-02 12:50:21.236689843+00:00
+start-sync_0 = 12:58:50
+start-zstd = 13:02:21
+start-sync_1 = 13:18:29
+end-sync_1 = 13:20:01
+end = 2022-08-02 13:20:01.304597640+00:00
 
 [server]
 repo = "cake233/fedora-xfce-amd64"
