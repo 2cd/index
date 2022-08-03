@@ -1,6 +1,6 @@
 [main]
 name = "arch"
-tag = ["zsh", "2022-07-27"]
+tag = ["zsh", "2022-08-03"]
 os = "arch"
 release = "latest"
 arch = "amd64"
@@ -9,10 +9,10 @@ xorg_or_wayland = false
 syntax_version = "0.0.0-alpha.4"
 
 [file]
-name = "arch-zsh_amd64_2022-07-27_00-20.tar.zst"
+name = "arch-zsh_amd64_2022-08-03_00-20.tar.zst"
 
 # This value can be used to verify the integrity of the file
-sha256 = "a1f6e8ed5cef630f9dbac10276d382a205ac4a3697d9ba873b238f25041b45dc"
+sha256 = "eca2d58d13fae9b83c74b0b5328dabb929c943fab5f3d3bd4081751dc8549227"
 
 # zstd: [1-22]
 zstd-level = 20
@@ -20,13 +20,13 @@ zstd-level = 20
 [file.size]
 # Installed size ≈ tar-size
 # Installed size is approximately equal to the size of the tar file
-tar = "1003M"
-tar_bytes = 1051353600
+tar = "999M"
+tar_bytes = 1047225344
 
 # Space occupied ≈ tar-size + zstd-size
 # You will need to prepare a large enough space before installation.
 zstd = "252M"
-zstd_bytes = 263965297
+zstd_bytes = 263848686
 
 [compatibility]
 compatible_mode = true
@@ -40,15 +40,15 @@ previous_file = "arch-zsh_amd64_2022-07-13_00-19-rootfs.tar.zst"
 previous_sha256 = "57fc20d00907d149a79db4551bba17b6b4ddf8438dc8a62ac5b21172a767d302"
 
 current_version = "latest01"
-current_date = "20220727"
+current_date = "20220803"
 old_file = "arch-zsh_amd64_2022-07-06_00-16-rootfs.tar.zst"
 old_sha256 = "da3e057a7eff510f2eb8709e9048316c6db3f3edabd6cf721c5c979fb0edd1a6"
 # edition 2021
 # DISTRO_NAME=arch_amd64
-# ROOTFS_FILE=arch-zsh_amd64_2022-07-27_00-20-rootfs.tar.zst
-# SHA256SUM=a1f6e8ed5cef630f9dbac10276d382a205ac4a3697d9ba873b238f25041b45dc
-# BUILD_DATE=20220727
-# BUILD_TAG=2022-07-27
+# ROOTFS_FILE=arch-zsh_amd64_2022-08-03_00-20-rootfs.tar.zst
+# SHA256SUM=eca2d58d13fae9b83c74b0b5328dabb929c943fab5f3d3bd4081751dc8549227
+# BUILD_DATE=20220803
+# BUILD_TAG=2022-08-03
 # STATUS=completed
 # VERSION=latest01
 # END_TIME=00:20
@@ -56,13 +56,13 @@ old_sha256 = "da3e057a7eff510f2eb8709e9048316c6db3f3edabd6cf721c5c979fb0edd1a6"
 [time]
 format = "rfc-3339"
 zone = "UTC"
-date = 2022-07-27
-begin = 2022-07-27 00:11:55.502074184+00:00
-start-sync_0 = 00:14:19
-start-zstd = 00:15:48
-start-sync_1 = 00:19:59
-end-sync_1 = 00:20:20
-end = 2022-07-27 00:20:20.763172748+00:00
+date = 2022-08-03
+begin = 2022-08-03 00:12:15.251316854+00:00
+start-sync_0 = 00:14:47
+start-zstd = 00:16:19
+start-sync_1 = 00:20:34
+end-sync_1 = 00:20:58
+end = 2022-08-03 00:20:58.511587301+00:00
 
 [server]
 repo = "cake233/arch-zsh-amd64"
@@ -97,5 +97,5 @@ current = true
 LANG = "en_US.UTF-8"
 
 [version]
-ldd = 'ldd (GNU libc) 2.35'
+ldd = 'ldd (GNU libc) 2.36'
 zsh = 'zsh 5.9 (x86_64-pc-linux-gnu)'
