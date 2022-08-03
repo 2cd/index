@@ -77,7 +77,7 @@ localhost:5903
 ```toml
 [main]
 name = "arch"
-tag = ["mate", "2022-07-27"]
+tag = ["mate", "2022-08-03"]
 os = "arch"
 release = "latest"
 arch = "arm64"
@@ -86,10 +86,10 @@ xorg_or_wayland = true
 syntax_version = "0.0.0-alpha.4"
 
 [file]
-name = "arch-mate_arm64_2022-07-27_01-34.tar.zst"
+name = "arch-mate_arm64_2022-08-03_01-21.tar.zst"
 
 # This value can be used to verify the integrity of the file
-sha256 = "d491453d728f58f24835b9bfc137270554e1e01713f31ef9f0a1edc402c8988d"
+sha256 = "aec6a9001939c1632d4283062f232c6cfe78a6f298d52fd9ac068d6a1c793a77"
 
 # zstd: [1-22]
 zstd-level = 19
@@ -98,12 +98,12 @@ zstd-level = 19
 # Installed size ≈ tar-size
 # Installed size is approximately equal to the size of the tar file
 tar = "4.9G"
-tar_bytes = 5205477376
+tar_bytes = 5205793792
 
 # Space occupied ≈ tar-size + zstd-size
 # You will need to prepare a large enough space before installation.
 zstd = "1.4G"
-zstd_bytes = 1437522463
+zstd_bytes = 1437851347
 
 [compatibility]
 compatible_mode = true
@@ -117,29 +117,29 @@ previous_file = "arch-mate_arm64_2022-07-13_01-22-rootfs.tar.zst"
 previous_sha256 = "bf37acd7638831ab6e2c817b786ac6ac7b21dff7b0c96499947a5b49d1c724c8"
 
 current_version = "latest01"
-current_date = "20220727"
+current_date = "20220803"
 old_file = "arch-mate_arm64_2022-07-06_01-12-rootfs.tar.zst"
 old_sha256 = "dbb13c8930ec47bf314042a5882d4c294fc7d0a3a7bead7402364d96bd399517"
 # edition 2021
 # DISTRO_NAME=arch_arm64
-# ROOTFS_FILE=arch-mate_arm64_2022-07-27_01-34-rootfs.tar.zst
-# SHA256SUM=d491453d728f58f24835b9bfc137270554e1e01713f31ef9f0a1edc402c8988d
-# BUILD_DATE=20220727
-# BUILD_TAG=2022-07-27
+# ROOTFS_FILE=arch-mate_arm64_2022-08-03_01-21-rootfs.tar.zst
+# SHA256SUM=aec6a9001939c1632d4283062f232c6cfe78a6f298d52fd9ac068d6a1c793a77
+# BUILD_DATE=20220803
+# BUILD_TAG=2022-08-03
 # STATUS=completed
 # VERSION=latest01
-# END_TIME=01:34
+# END_TIME=01:21
 
 [time]
 format = "rfc-3339"
 zone = "UTC"
-date = 2022-07-27
-begin = 2022-07-27 00:40:00.580683636+00:00
-start-sync_0 = 01:04:07
-start-zstd = 01:10:39
-start-sync_1 = 01:32:50
-end-sync_1 = 01:34:30
-end = 2022-07-27 01:34:30.039643784+00:00
+date = 2022-08-03
+begin = 2022-08-03 00:39:29.616380708+00:00
+start-sync_0 = 00:57:44
+start-zstd = 01:02:27
+start-sync_1 = 01:19:52
+end-sync_1 = 01:21:12
+end = 2022-08-03 01:21:12.978935046+00:00
 
 [server]
 repo = "cake233/arch-mate-arm64"
