@@ -77,7 +77,7 @@ localhost:5903
 ```toml
 [main]
 name = "alpine"
-tag = ["mate", "2022-07-28"]
+tag = ["mate", "2022-08-04"]
 os = "alpine"
 release = "edge"
 arch = "amd64"
@@ -86,10 +86,10 @@ xorg_or_wayland = true
 syntax_version = "0.0.0-alpha.4"
 
 [file]
-name = "alpine-mate_amd64_2022-07-28_00-15.tar.zst"
+name = "alpine-mate_amd64_2022-08-04_00-15.tar.zst"
 
 # This value can be used to verify the integrity of the file
-sha256 = "d2cc2952edb0abd641e6fc004a7b172a40ffb18eb61d2f6f6082c6f3e7d45a43"
+sha256 = "f932a9774ec505a3c1cb44cd2e2dd2891a4e4e6291d1c8204dbd8053e1b16429"
 
 # zstd: [1-22]
 zstd-level = 19
@@ -98,12 +98,12 @@ zstd-level = 19
 # Installed size ≈ tar-size
 # Installed size is approximately equal to the size of the tar file
 tar = "1.1G"
-tar_bytes = 1097500160
+tar_bytes = 1114573824
 
 # Space occupied ≈ tar-size + zstd-size
 # You will need to prepare a large enough space before installation.
-zstd = "326M"
-zstd_bytes = 341777093
+zstd = "330M"
+zstd_bytes = 345660003
 
 [compatibility]
 compatible_mode = true
@@ -117,15 +117,15 @@ previous_file = "alpine-mate_amd64_2022-07-14_00-13-rootfs.tar.zst"
 previous_sha256 = "b61d242d9c9d2244221f2bb5e660c6e48cba2489da0a84a5504956fc51a3a84d"
 
 current_version = "latest02"
-current_date = "20220728"
+current_date = "20220804"
 old_file = "alpine-mate_amd64_2022-07-07_00-13-rootfs.tar.zst"
 old_sha256 = "d74333316b7e595b1de065cca70b69465922d248db4bc1e81bfc52934b93a5e0"
 # edition 2021
 # DISTRO_NAME=alpine-edge_amd64
-# ROOTFS_FILE=alpine-mate_amd64_2022-07-28_00-15-rootfs.tar.zst
-# SHA256SUM=d2cc2952edb0abd641e6fc004a7b172a40ffb18eb61d2f6f6082c6f3e7d45a43
-# BUILD_DATE=20220728
-# BUILD_TAG=2022-07-28
+# ROOTFS_FILE=alpine-mate_amd64_2022-08-04_00-15-rootfs.tar.zst
+# SHA256SUM=f932a9774ec505a3c1cb44cd2e2dd2891a4e4e6291d1c8204dbd8053e1b16429
+# BUILD_DATE=20220804
+# BUILD_TAG=2022-08-04
 # STATUS=completed
 # VERSION=latest02
 # END_TIME=00:15
@@ -133,13 +133,13 @@ old_sha256 = "d74333316b7e595b1de065cca70b69465922d248db4bc1e81bfc52934b93a5e0"
 [time]
 format = "rfc-3339"
 zone = "UTC"
-date = 2022-07-28
-begin = 2022-07-28 00:06:41.783498824+00:00
-start-sync_0 = 00:09:06
-start-zstd = 00:10:13
-start-sync_1 = 00:14:42
-end-sync_1 = 00:15:13
-end = 2022-07-28 00:15:13.024626359+00:00
+date = 2022-08-04
+begin = 2022-08-04 00:07:23.168302943+00:00
+start-sync_0 = 00:09:34
+start-zstd = 00:10:44
+start-sync_1 = 00:14:44
+end-sync_1 = 00:15:17
+end = 2022-08-04 00:15:17.319483225+00:00
 
 [server]
 repo = "cake233/alpine-mate-amd64"
