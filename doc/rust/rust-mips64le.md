@@ -69,7 +69,7 @@ ldd "$FILE"
 ```toml
 [main]
 name = "rust"
-tag = ["latest", "2022-08-05", "nightly", "unstable", "default", "gnu-libc"]
+tag = ["latest", "2022-08-08", "nightly", "unstable", "default", "gnu-libc"]
 os = "debian"
 release = "sid"
 arch = "mips64el"
@@ -78,10 +78,10 @@ xorg_or_wayland = false
 syntax_version = "0.0.0-alpha.4"
 
 [file]
-name = "rust_mips64el_2022-08-05_03-08.tar.zst"
+name = "rust_mips64el_2022-08-08_03-08.tar.zst"
 
 # This value can be used to verify the integrity of the file
-sha256 = "2381622081aa4235cd1bc1aaeafc00c64484c187f442c7aceaa6f13818ae4ddb"
+sha256 = "868833190950d332ff9418fd9a19bdf19e9406f7f69bcb4494a053783531dbd0"
 
 # zstd: [1-22]
 zstd-level = 20
@@ -90,48 +90,48 @@ zstd-level = 20
 # Installed size ≈ tar-size
 # Installed size is approximately equal to the size of the tar file
 tar = "2.0G"
-tar_bytes = 2063165440
+tar_bytes = 2060819456
 
 # Space occupied ≈ tar-size + zstd-size
 # You will need to prepare a large enough space before installation.
-zstd = "315M"
-zstd_bytes = 329613071
+zstd = "314M"
+zstd_bytes = 329116806
 
 [compatibility]
 compatible_mode = true
 
-previous_version = "latest02"
+previous_version = "latest01"
 
 # The value is &str, not int
-previous_date = "20220718"
-previous_tag = "2022-07-18"
-previous_file = "rust_mips64el_2022-07-18_03-06-rootfs.tar.zst"
-previous_sha256 = "47c2c790fc56a8033ab903415195bf3d1ae9ef5b479bd0b0f253a2d5a523c4ab"
+previous_date = "20220805"
+previous_tag = "2022-08-05"
+previous_file = "rust_mips64el_2022-08-05_03-08-rootfs.tar.zst"
+previous_sha256 = "2381622081aa4235cd1bc1aaeafc00c64484c187f442c7aceaa6f13818ae4ddb"
 
-current_version = "latest01"
-current_date = "20220805"
-old_file = "rust_mips64el_2022-07-15_03-08-rootfs.tar.zst"
-old_sha256 = "a7bacb66606c4c0c9d38dce8e2474bf2cf642f19f3c247898fc81a77e8433603"
+current_version = "latest02"
+current_date = "20220808"
+old_file = "rust_mips64el_2022-07-18_03-06-rootfs.tar.zst"
+old_sha256 = "47c2c790fc56a8033ab903415195bf3d1ae9ef5b479bd0b0f253a2d5a523c4ab"
 # edition 2021
 # DISTRO_NAME=rust_mips64el
-# ROOTFS_FILE=rust_mips64el_2022-08-05_03-08-rootfs.tar.zst
-# SHA256SUM=2381622081aa4235cd1bc1aaeafc00c64484c187f442c7aceaa6f13818ae4ddb
-# BUILD_DATE=20220805
-# BUILD_TAG=2022-08-05
+# ROOTFS_FILE=rust_mips64el_2022-08-08_03-08-rootfs.tar.zst
+# SHA256SUM=868833190950d332ff9418fd9a19bdf19e9406f7f69bcb4494a053783531dbd0
+# BUILD_DATE=20220808
+# BUILD_TAG=2022-08-08
 # STATUS=completed
-# VERSION=latest01
+# VERSION=latest02
 # END_TIME=03:08
 
 [time]
 format = "rfc-3339"
 zone = "UTC"
-date = 2022-08-05
-begin = 2022-08-05 02:52:21.923222435+00:00
-start-sync_0 = 02:59:05
-start-zstd = 03:00:06
-start-sync_1 = 03:07:50
-end-sync_1 = 03:08:13
-end = 2022-08-05 03:08:13.342073688+00:00
+date = 2022-08-08
+begin = 2022-08-08 02:52:23.472032700+00:00
+start-sync_0 = 02:59:26
+start-zstd = 03:00:31
+start-sync_1 = 03:07:34
+end-sync_1 = 03:08:00
+end = 2022-08-08 03:08:00.799934941+00:00
 
 [server]
 repo = "cake233/rust-mips64le"
@@ -169,14 +169,14 @@ RUSTUP_HOME = "/usr/local/rustup"
 CARGO_HOME = "/usr/local/cargo"
 
 [version]
-ldd = 'ldd (Debian GLIBC 2.33-8) 2.33'
+ldd = 'ldd (Debian GLIBC 2.34-1) 2.34'
 rustup = 'rustup 1.25.1 (bb60b1e89 2022-07-12)'
-cargo = 'cargo 1.64.0-nightly (4fd148c47 2022-08-03)'
-rustc = 'rustc 1.64.0-nightly (f6f9d5e73 2022-08-04)'
+cargo = 'cargo 1.65.0-nightly (4fd148c47 2022-08-03)'
+rustc = 'rustc 1.65.0-nightly (d394408fb 2022-08-07)'
 cc = 'cc (Debian 12.1.0-7) 12.1.0'
 cargo_verbose = '''
-cargo 1.64.0-nightly (4fd148c47 2022-08-03)
-release: 1.64.0-nightly
+cargo 1.65.0-nightly (4fd148c47 2022-08-03)
+release: 1.65.0-nightly
 commit-hash: 4fd148c47e733770c537efac5220744945d572ef
 commit-date: 2022-08-03
 host: mips64el-unknown-linux-gnuabi64
@@ -185,12 +185,12 @@ libcurl: 7.83.1-DEV (sys:0.4.55+curl-7.83.1 vendored ssl:OpenSSL/1.1.1q)
 os: Linux [64-bit]
 '''
 rustc_verbose = '''
-rustc 1.64.0-nightly (f6f9d5e73 2022-08-04)
+rustc 1.65.0-nightly (d394408fb 2022-08-07)
 binary: rustc
-commit-hash: f6f9d5e73d5524b6281c10a5c89b7db35c330634
-commit-date: 2022-08-04
+commit-hash: d394408fb38c4de61f765a3ed5189d2731a1da91
+commit-date: 2022-08-07
 host: mips64el-unknown-linux-gnuabi64
-release: 1.64.0-nightly
+release: 1.65.0-nightly
 LLVM version: 14.0.6
 '''
 ```
