@@ -210,7 +210,7 @@ editor 0.set || nano 0.set
 ```toml
 [main]
 name = "code"
-tag = ["latest", "2022-07-25", "vsc", "vscode", "web"]
+tag = ["latest", "2022-08-08", "vsc", "vscode", "web"]
 os = "debian"
 release = "sid"
 arch = "arm64"
@@ -219,10 +219,10 @@ xorg_or_wayland = false
 syntax_version = "0.0.0-alpha.4"
 
 [file]
-name = "code_arm64_2022-07-25_12-13.tar.zst"
+name = "code_arm64_2022-08-08_12-11.tar.zst"
 
 # This value can be used to verify the integrity of the file
-sha256 = "fcd9c84e61897daa555ebc2522ce72f3bac51b7cb24499bdd604bebfcbe81134"
+sha256 = "a1926795187d4574f7926bdd7177fa13f184f0d9b7e4043431b55f3dae9476f8"
 
 # zstd: [1-22]
 zstd-level = 22
@@ -231,12 +231,12 @@ zstd-level = 22
 # Installed size ≈ tar-size
 # Installed size is approximately equal to the size of the tar file
 tar = "530M"
-tar_bytes = 555088896
+tar_bytes = 555451392
 
 # Space occupied ≈ tar-size + zstd-size
 # You will need to prepare a large enough space before installation.
 zstd = "100M"
-zstd_bytes = 104200827
+zstd_bytes = 104214355
 
 [compatibility]
 compatible_mode = true
@@ -250,29 +250,29 @@ previous_file = "code_arm64_2022-07-11_12-11-rootfs.tar.zst"
 previous_sha256 = "0f22e14a3cf020bb34508ccfcbc41c232df656c0c769d51ceeeab699849ffcb1"
 
 current_version = "latest01"
-current_date = "20220725"
+current_date = "20220808"
 old_file = "code_arm64_2022-06-27_12-11-rootfs.tar.zst"
 old_sha256 = "b758cadd73aaa598463d4c826e6c4c75a506d00bbd232476fb43099b6ccea0dc"
 # edition 2021
 # DISTRO_NAME=code_arm64
-# ROOTFS_FILE=code_arm64_2022-07-25_12-13-rootfs.tar.zst
-# SHA256SUM=fcd9c84e61897daa555ebc2522ce72f3bac51b7cb24499bdd604bebfcbe81134
-# BUILD_DATE=20220725
-# BUILD_TAG=2022-07-25
+# ROOTFS_FILE=code_arm64_2022-08-08_12-11-rootfs.tar.zst
+# SHA256SUM=a1926795187d4574f7926bdd7177fa13f184f0d9b7e4043431b55f3dae9476f8
+# BUILD_DATE=20220808
+# BUILD_TAG=2022-08-08
 # STATUS=completed
 # VERSION=latest01
-# END_TIME=12:13
+# END_TIME=12:11
 
 [time]
 format = "rfc-3339"
 zone = "UTC"
-date = 2022-07-25
-begin = 2022-07-25 12:02:37.658479993+00:00
-start-sync_0 = 12:08:30
-start-zstd = 12:09:01
-start-sync_1 = 12:13:22
-end-sync_1 = 12:13:35
-end = 2022-07-25 12:13:35.295356332+00:00
+date = 2022-08-08
+begin = 2022-08-08 12:02:24.519616045+00:00
+start-sync_0 = 12:07:17
+start-zstd = 12:07:48
+start-sync_1 = 12:11:17
+end-sync_1 = 12:11:30
+end = 2022-08-08 12:11:30.946775471+00:00
 
 [server]
 repo = "cake233/code-arm64"
@@ -307,7 +307,7 @@ current = true
 LANG = "en_US.UTF-8"
 
 [version]
-ldd = 'ldd (Debian GLIBC 2.33-8) 2.33'
+ldd = 'ldd (Debian GLIBC 2.34-1) 2.34'
 code = '4.5.1 97d170331b51ee75c8e4bbdab23c755e3eeaaa8c with Code 1.68.1'
 
 [port]
