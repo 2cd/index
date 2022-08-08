@@ -20,7 +20,7 @@ docker exec -it nginx-arm64 bash
 ```toml
 [main]
 name = "nginx"
-tag = ["latest", "2022-07-25"]
+tag = ["latest", "2022-08-08"]
 os = "debian"
 release = "stable"
 arch = "arm64"
@@ -29,10 +29,10 @@ xorg_or_wayland = false
 syntax_version = "0.0.0-alpha.4"
 
 [file]
-name = "nginx_arm64_2022-07-25_12-06.tar.zst"
+name = "nginx_arm64_2022-08-08_12-06.tar.zst"
 
 # This value can be used to verify the integrity of the file
-sha256 = "5bc8b1985334c3adda74f253552a9269444c97db646fdb7a8278a5cd82f36779"
+sha256 = "70fe1f8e48a36fb2c5eddac3cb67be937a2199fbe2cc9dbb4ab7e40796c7cc10"
 
 # zstd: [1-22]
 zstd-level = 22
@@ -41,12 +41,12 @@ zstd-level = 22
 # Installed size ≈ tar-size
 # Installed size is approximately equal to the size of the tar file
 tar = "156M"
-tar_bytes = 163039744
+tar_bytes = 163044352
 
 # Space occupied ≈ tar-size + zstd-size
 # You will need to prepare a large enough space before installation.
 zstd = "39M"
-zstd_bytes = 40590904
+zstd_bytes = 40562584
 
 [compatibility]
 compatible_mode = true
@@ -60,15 +60,15 @@ previous_file = "nginx_arm64_2022-07-11_12-07-rootfs.tar.zst"
 previous_sha256 = "0071b3f3c4b855dcb46495f5f2d09580669142330be72f7779cbeedbe7353679"
 
 current_version = "latest02"
-current_date = "20220725"
+current_date = "20220808"
 old_file = "nginx_arm64_2022-06-27_12-06-rootfs.tar.zst"
 old_sha256 = "b6a9aef936ca56d1d8e2ca189bf409f2eeafa85776da24513a3919bfa809bf74"
 # edition 2021
 # DISTRO_NAME=nginx_arm64
-# ROOTFS_FILE=nginx_arm64_2022-07-25_12-06-rootfs.tar.zst
-# SHA256SUM=5bc8b1985334c3adda74f253552a9269444c97db646fdb7a8278a5cd82f36779
-# BUILD_DATE=20220725
-# BUILD_TAG=2022-07-25
+# ROOTFS_FILE=nginx_arm64_2022-08-08_12-06-rootfs.tar.zst
+# SHA256SUM=70fe1f8e48a36fb2c5eddac3cb67be937a2199fbe2cc9dbb4ab7e40796c7cc10
+# BUILD_DATE=20220808
+# BUILD_TAG=2022-08-08
 # STATUS=completed
 # VERSION=latest02
 # END_TIME=12:06
@@ -76,13 +76,13 @@ old_sha256 = "b6a9aef936ca56d1d8e2ca189bf409f2eeafa85776da24513a3919bfa809bf74"
 [time]
 format = "rfc-3339"
 zone = "UTC"
-date = 2022-07-25
-begin = 2022-07-25 12:02:36.481510645+00:00
-start-sync_0 = 12:04:41
-start-zstd = 12:04:51
-start-sync_1 = 12:06:18
-end-sync_1 = 12:06:26
-end = 2022-07-25 12:06:26.395326394+00:00
+date = 2022-08-08
+begin = 2022-08-08 12:02:31.730571975+00:00
+start-sync_0 = 12:04:58
+start-zstd = 12:05:16
+start-sync_1 = 12:06:45
+end-sync_1 = 12:06:58
+end = 2022-08-08 12:06:58.392185758+00:00
 
 [server]
 repo = "cake233/nginx-arm64"
