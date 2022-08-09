@@ -77,7 +77,7 @@ localhost:5903
 ```toml
 [main]
 name = "ubuntu"
-tag = ["xfce", "2022-08-02", "devel"]
+tag = ["xfce", "2022-08-09", "devel"]
 os = "ubuntu"
 release = "dev"
 arch = "arm64"
@@ -86,10 +86,10 @@ xorg_or_wayland = true
 syntax_version = "0.0.0-alpha.4"
 
 [file]
-name = "ubuntu-xfce_arm64_2022-08-02_01-09.tar.zst"
+name = "ubuntu-xfce_arm64_2022-08-09_01-11.tar.zst"
 
 # This value can be used to verify the integrity of the file
-sha256 = "00b8df2a4cb997a308ca6247de4f7b0a639aaa9d1d879adb56f35fa936e4e6dc"
+sha256 = "a7883c308c4630b1fd23da33efae7b41483484a54e46f028030ea184f1aa8de7"
 
 # zstd: [1-22]
 zstd-level = 19
@@ -98,12 +98,12 @@ zstd-level = 19
 # Installed size ≈ tar-size
 # Installed size is approximately equal to the size of the tar file
 tar = "3.6G"
-tar_bytes = 3767521280
+tar_bytes = 3763204608
 
 # Space occupied ≈ tar-size + zstd-size
 # You will need to prepare a large enough space before installation.
-zstd = "990M"
-zstd_bytes = 1037111797
+zstd = "995M"
+zstd_bytes = 1042397110
 
 [compatibility]
 compatible_mode = true
@@ -117,29 +117,29 @@ previous_file = "ubuntu-xfce_arm64_2022-07-12_01-05-rootfs.tar.zst"
 previous_sha256 = "5541a5398f5d6ab4a19001d6848675c224c26c0b1cae948c7a3144d41776c44f"
 
 current_version = "latest01"
-current_date = "20220802"
+current_date = "20220809"
 old_file = "ubuntu-xfce_arm64_2022-07-05_01-02-rootfs.tar.zst"
 old_sha256 = "bc58e582fae8c1c11c1e1281518c963cb47599ab04634bb8a602d206b7ed79b3"
 # edition 2021
 # DISTRO_NAME=ubuntu-dev_arm64
-# ROOTFS_FILE=ubuntu-xfce_arm64_2022-08-02_01-09-rootfs.tar.zst
-# SHA256SUM=00b8df2a4cb997a308ca6247de4f7b0a639aaa9d1d879adb56f35fa936e4e6dc
-# BUILD_DATE=20220802
-# BUILD_TAG=2022-08-02
+# ROOTFS_FILE=ubuntu-xfce_arm64_2022-08-09_01-11-rootfs.tar.zst
+# SHA256SUM=a7883c308c4630b1fd23da33efae7b41483484a54e46f028030ea184f1aa8de7
+# BUILD_DATE=20220809
+# BUILD_TAG=2022-08-09
 # STATUS=completed
 # VERSION=latest01
-# END_TIME=01:09
+# END_TIME=01:11
 
 [time]
 format = "rfc-3339"
 zone = "UTC"
-date = 2022-08-02
-begin = 2022-08-02 00:24:16.853213757+00:00
-start-sync_0 = 00:53:05
-start-zstd = 00:55:54
-start-sync_1 = 01:08:05
-end-sync_1 = 01:09:06
-end = 2022-08-02 01:09:06.318310468+00:00
+date = 2022-08-09
+begin = 2022-08-09 00:23:38.853310394+00:00
+start-sync_0 = 00:54:24
+start-zstd = 00:57:31
+start-sync_1 = 01:10:39
+end-sync_1 = 01:11:42
+end = 2022-08-09 01:11:42.762606563+00:00
 
 [server]
 repo = "cake233/ubuntu-xfce-arm64"
