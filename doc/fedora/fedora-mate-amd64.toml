@@ -1,6 +1,6 @@
 [main]
 name = "fedora"
-tag = ["mate", "2022-08-02"]
+tag = ["mate", "2022-08-09"]
 os = "fedora"
 release = "rawhide"
 arch = "amd64"
@@ -9,10 +9,10 @@ xorg_or_wayland = true
 syntax_version = "0.0.0-alpha.4"
 
 [file]
-name = "fedora-mate_amd64_2022-08-02_13-19.tar.zst"
+name = "fedora-mate_amd64_2022-08-09_13-14.tar.zst"
 
 # This value can be used to verify the integrity of the file
-sha256 = "7db02d8b0cc4c187dd1746bdd70ea4378a4f0b7368940e2a2a4e8f16dce73c34"
+sha256 = "2a36eb34e9aac8c86c301664e402d4b4c51bdf6ecb10a7ec0a2cb583017cdf08"
 
 # zstd: [1-22]
 zstd-level = 19
@@ -21,12 +21,12 @@ zstd-level = 19
 # Installed size ≈ tar-size
 # Installed size is approximately equal to the size of the tar file
 tar = "4.7G"
-tar_bytes = 4987769856
+tar_bytes = 4999668224
 
 # Space occupied ≈ tar-size + zstd-size
 # You will need to prepare a large enough space before installation.
 zstd = "1.5G"
-zstd_bytes = 1534335007
+zstd_bytes = 1539550878
 
 [compatibility]
 compatible_mode = true
@@ -34,35 +34,35 @@ compatible_mode = true
 previous_version = "latest02"
 
 # The value is &str, not int
-previous_date = "20211128"
-previous_tag = ""
-previous_file = ""
-previous_sha256 = ""
+previous_date = "20220712"
+previous_tag = "2022-07-12"
+previous_file = "fedora-mate_amd64_2022-07-12_13-02-rootfs.tar.zst"
+previous_sha256 = "ca9df518b155a49b7ef02ac88c203362067d753dd3d5241876307c86418b1e27"
 
 current_version = "latest01"
-current_date = "20220802"
-old_file = ""
-old_sha256 = ""
+current_date = "20220809"
+old_file = "fedora-mate_amd64_2022-07-05_12-58-rootfs.tar.zst"
+old_sha256 = "d8571a94e820c57ce4a8358b95e336ae2afd312aa9c5d8d54f4df2e93d0ca454"
 # edition 2021
 # DISTRO_NAME=fedora-rawhide_amd64
-# ROOTFS_FILE=fedora-mate_amd64_2022-08-02_13-19-rootfs.tar.zst
-# SHA256SUM=7db02d8b0cc4c187dd1746bdd70ea4378a4f0b7368940e2a2a4e8f16dce73c34
-# BUILD_DATE=20220802
-# BUILD_TAG=2022-08-02
+# ROOTFS_FILE=fedora-mate_amd64_2022-08-09_13-14-rootfs.tar.zst
+# SHA256SUM=2a36eb34e9aac8c86c301664e402d4b4c51bdf6ecb10a7ec0a2cb583017cdf08
+# BUILD_DATE=20220809
+# BUILD_TAG=2022-08-09
 # STATUS=completed
 # VERSION=latest01
-# END_TIME=13:19
+# END_TIME=13:14
 
 [time]
 format = "rfc-3339"
 zone = "UTC"
-date = 2022-08-02
-begin = 2022-08-02 12:50:09.121636199+00:00
-start-sync_0 = 12:55:55
-start-zstd = 13:00:01
-start-sync_1 = 13:17:33
-end-sync_1 = 13:19:00
-end = 2022-08-02 13:19:00.193681517+00:00
+date = 2022-08-09
+begin = 2022-08-09 12:44:21.441238699+00:00
+start-sync_0 = 12:50:56
+start-zstd = 12:55:05
+start-sync_1 = 13:12:47
+end-sync_1 = 13:14:19
+end = 2022-08-09 13:14:19.377513898+00:00
 
 [server]
 repo = "cake233/fedora-mate-amd64"
@@ -97,7 +97,7 @@ current = true
 LANG = "en_US.UTF-8"
 
 [version]
-ldd = 'ldd (GNU libc) 2.35.9000'
+ldd = 'ldd (GNU libc) 2.36'
 zsh = 'zsh 5.9 (x86_64-redhat-linux-gnu)'
 
 [port]
