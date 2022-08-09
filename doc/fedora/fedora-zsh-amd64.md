@@ -20,7 +20,7 @@ docker exec -it fedora-zsh-amd64 zsh
 ```toml
 [main]
 name = "fedora"
-tag = ["zsh", "2022-08-02"]
+tag = ["zsh", "2022-08-09"]
 os = "fedora"
 release = "rawhide"
 arch = "amd64"
@@ -29,10 +29,10 @@ xorg_or_wayland = false
 syntax_version = "0.0.0-alpha.4"
 
 [file]
-name = "fedora-zsh_amd64_2022-08-02_12-11.tar.zst"
+name = "fedora-zsh_amd64_2022-08-09_12-09.tar.zst"
 
 # This value can be used to verify the integrity of the file
-sha256 = "2f3dcbd10463b690513fbf7e1dd233a9c3f9b4e8978fbffc863b3438302107e8"
+sha256 = "95504e4745fa17daaa68143c0e9a69d9fec0f1d19387a940796f69d1f66ab26a"
 
 # zstd: [1-22]
 zstd-level = 20
@@ -41,12 +41,12 @@ zstd-level = 20
 # Installed size ≈ tar-size
 # Installed size is approximately equal to the size of the tar file
 tar = "1.1G"
-tar_bytes = 1098966528
+tar_bytes = 1104856064
 
 # Space occupied ≈ tar-size + zstd-size
 # You will need to prepare a large enough space before installation.
 zstd = "183M"
-zstd_bytes = 191340458
+zstd_bytes = 191541010
 
 [compatibility]
 compatible_mode = true
@@ -60,29 +60,29 @@ previous_file = "fedora-zsh_amd64_2022-07-12_12-09-rootfs.tar.zst"
 previous_sha256 = "10d070f7a2335fa9eca151daba478c58fa860b10afe6210685b5e7696114f8a6"
 
 current_version = "latest01"
-current_date = "20220802"
+current_date = "20220809"
 old_file = "fedora-zsh_amd64_2022-07-05_12-09-rootfs.tar.zst"
 old_sha256 = "45da92bef32c93d9acc7784b8456c56b0e81742f00a610385c7b373d3991fd00"
 # edition 2021
 # DISTRO_NAME=fedora-rawhide_amd64
-# ROOTFS_FILE=fedora-zsh_amd64_2022-08-02_12-11-rootfs.tar.zst
-# SHA256SUM=2f3dcbd10463b690513fbf7e1dd233a9c3f9b4e8978fbffc863b3438302107e8
-# BUILD_DATE=20220802
-# BUILD_TAG=2022-08-02
+# ROOTFS_FILE=fedora-zsh_amd64_2022-08-09_12-09-rootfs.tar.zst
+# SHA256SUM=95504e4745fa17daaa68143c0e9a69d9fec0f1d19387a940796f69d1f66ab26a
+# BUILD_DATE=20220809
+# BUILD_TAG=2022-08-09
 # STATUS=completed
 # VERSION=latest01
-# END_TIME=12:11
+# END_TIME=12:09
 
 [time]
 format = "rfc-3339"
 zone = "UTC"
-date = 2022-08-02
-begin = 2022-08-02 12:02:34.260699226+00:00
-start-sync_0 = 12:04:51
-start-zstd = 12:07:01
-start-sync_1 = 12:10:52
-end-sync_1 = 12:11:11
-end = 2022-08-02 12:11:11.787993035+00:00
+date = 2022-08-09
+begin = 2022-08-09 12:02:23.191337991+00:00
+start-sync_0 = 12:04:05
+start-zstd = 12:06:02
+start-sync_1 = 12:09:26
+end-sync_1 = 12:09:41
+end = 2022-08-09 12:09:41.877374413+00:00
 
 [server]
 repo = "cake233/fedora-zsh-amd64"
@@ -117,6 +117,6 @@ current = true
 LANG = "en_US.UTF-8"
 
 [version]
-ldd = 'ldd (GNU libc) 2.35.9000'
+ldd = 'ldd (GNU libc) 2.36'
 zsh = 'zsh 5.9 (x86_64-redhat-linux-gnu)'
 ```
