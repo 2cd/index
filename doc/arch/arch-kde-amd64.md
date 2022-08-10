@@ -77,7 +77,7 @@ localhost:5903
 ```toml
 [main]
 name = "arch"
-tag = ["kde", "2022-08-03"]
+tag = ["kde", "2022-08-10"]
 os = "arch"
 release = "latest"
 arch = "amd64"
@@ -86,10 +86,10 @@ xorg_or_wayland = true
 syntax_version = "0.0.0-alpha.4"
 
 [file]
-name = "arch-kde_amd64_2022-08-03_01-07.tar.zst"
+name = "arch-kde_amd64_2022-08-10_00-57.tar.zst"
 
 # This value can be used to verify the integrity of the file
-sha256 = "998c183f330eb283b1f81c9d87e31bd5862b2a98c0997084d3746550f79c8331"
+sha256 = "f71ca925bcde54c3cb0622c87047b0d9143f41ab5dad70d1cbe116309d537025"
 
 # zstd: [1-22]
 zstd-level = 19
@@ -98,12 +98,12 @@ zstd-level = 19
 # Installed size ≈ tar-size
 # Installed size is approximately equal to the size of the tar file
 tar = "4.5G"
-tar_bytes = 4763832320
+tar_bytes = 4762232832
 
 # Space occupied ≈ tar-size + zstd-size
 # You will need to prepare a large enough space before installation.
 zstd = "1.3G"
-zstd_bytes = 1369937307
+zstd_bytes = 1371438420
 
 [compatibility]
 compatible_mode = true
@@ -117,29 +117,29 @@ previous_file = "arch-kde_amd64_2022-07-13_01-08-rootfs.tar.zst"
 previous_sha256 = "f590d91cb4f4d74e807236ed811763e5a7a01f169b3833436f12c641a2f4d3c1"
 
 current_version = "latest01"
-current_date = "20220803"
+current_date = "20220810"
 old_file = "arch-kde_amd64_2022-07-06_01-01-rootfs.tar.zst"
 old_sha256 = "40d17d025f5d5909140290408d816c9c644d77991892c954a44a66ba13e8aafe"
 # edition 2021
 # DISTRO_NAME=arch_amd64
-# ROOTFS_FILE=arch-kde_amd64_2022-08-03_01-07-rootfs.tar.zst
-# SHA256SUM=998c183f330eb283b1f81c9d87e31bd5862b2a98c0997084d3746550f79c8331
-# BUILD_DATE=20220803
-# BUILD_TAG=2022-08-03
+# ROOTFS_FILE=arch-kde_amd64_2022-08-10_00-57-rootfs.tar.zst
+# SHA256SUM=f71ca925bcde54c3cb0622c87047b0d9143f41ab5dad70d1cbe116309d537025
+# BUILD_DATE=20220810
+# BUILD_TAG=2022-08-10
 # STATUS=completed
 # VERSION=latest01
-# END_TIME=01:07
+# END_TIME=00:57
 
 [time]
 format = "rfc-3339"
 zone = "UTC"
-date = 2022-08-03
-begin = 2022-08-03 00:39:30.894971787+00:00
-start-sync_0 = 00:43:46
-start-zstd = 00:48:37
-start-sync_1 = 01:06:20
-end-sync_1 = 01:07:37
-end = 2022-08-03 01:07:37.566690174+00:00
+date = 2022-08-10
+begin = 2022-08-10 00:32:15.105360983+00:00
+start-sync_0 = 00:36:25
+start-zstd = 00:40:57
+start-sync_1 = 00:56:20
+end-sync_1 = 00:57:35
+end = 2022-08-10 00:57:35.239529944+00:00
 
 [server]
 repo = "cake233/arch-kde-amd64"
