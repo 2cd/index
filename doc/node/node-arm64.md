@@ -20,7 +20,7 @@ docker exec -it node-arm64 bash
 ```toml
 [main]
 name = "node"
-tag = ["latest", "2022-08-01"]
+tag = ["latest", "2022-08-15"]
 os = "debian"
 release = "stable"
 arch = "arm64"
@@ -29,10 +29,10 @@ xorg_or_wayland = false
 syntax_version = "0.0.0-alpha.4"
 
 [file]
-name = "node_arm64_2022-08-01_12-11.tar.zst"
+name = "node_arm64_2022-08-15_12-12.tar.zst"
 
 # This value can be used to verify the integrity of the file
-sha256 = "0cf5bdd8ed60f818360c206f6fa3934b54a48863e045f455f87d372bd6417280"
+sha256 = "34d5558029e90bb7396bcd0e250ab0c0b1e549e7c2f3414fa2e623362f6a9ddd"
 
 # zstd: [1-22]
 zstd-level = 22
@@ -41,12 +41,12 @@ zstd-level = 22
 # Installed size ≈ tar-size
 # Installed size is approximately equal to the size of the tar file
 tar = "943M"
-tar_bytes = 988597248
+tar_bytes = 988610560
 
 # Space occupied ≈ tar-size + zstd-size
 # You will need to prepare a large enough space before installation.
 zstd = "197M"
-zstd_bytes = 206480761
+zstd_bytes = 206503905
 
 [compatibility]
 compatible_mode = true
@@ -60,29 +60,29 @@ previous_file = "node_arm64_2022-07-04_12-12-rootfs.tar.zst"
 previous_sha256 = "a918efefb51f14a9f5f67fad6023886253dde7e93e653f645f296b6e8d75b012"
 
 current_version = "latest02"
-current_date = "20220801"
+current_date = "20220815"
 old_file = "node_arm64_2022-06-20_12-10-rootfs.tar.zst"
 old_sha256 = "8c572bc5c3059ea0e0e9c77b0ba664322e2d2160e7ec8aaa0558ab50b1423b71"
 # edition 2021
 # DISTRO_NAME=node_arm64
-# ROOTFS_FILE=node_arm64_2022-08-01_12-11-rootfs.tar.zst
-# SHA256SUM=0cf5bdd8ed60f818360c206f6fa3934b54a48863e045f455f87d372bd6417280
-# BUILD_DATE=20220801
-# BUILD_TAG=2022-08-01
+# ROOTFS_FILE=node_arm64_2022-08-15_12-12-rootfs.tar.zst
+# SHA256SUM=34d5558029e90bb7396bcd0e250ab0c0b1e549e7c2f3414fa2e623362f6a9ddd
+# BUILD_DATE=20220815
+# BUILD_TAG=2022-08-15
 # STATUS=completed
 # VERSION=latest02
-# END_TIME=12:11
+# END_TIME=12:12
 
 [time]
 format = "rfc-3339"
 zone = "UTC"
-date = 2022-08-01
-begin = 2022-08-01 12:02:37.937658228+00:00
-start-sync_0 = 12:06:25
-start-zstd = 12:06:45
-start-sync_1 = 12:11:35
-end-sync_1 = 12:11:55
-end = 2022-08-01 12:11:55.169105477+00:00
+date = 2022-08-15
+begin = 2022-08-15 12:02:38.860673785+00:00
+start-sync_0 = 12:06:10
+start-zstd = 12:06:35
+start-sync_1 = 12:11:47
+end-sync_1 = 12:12:19
+end = 2022-08-15 12:12:19.104639845+00:00
 
 [server]
 repo = "cake233/node-arm64"
