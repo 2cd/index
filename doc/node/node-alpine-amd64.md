@@ -20,7 +20,7 @@ docker exec -it node-alpine-amd64 bash
 ```toml
 [main]
 name = "node"
-tag = ["alpine", "2022-08-01", "musl-libc", "musl"]
+tag = ["alpine", "2022-08-15", "musl-libc", "musl"]
 os = "alpine"
 release = "stable"
 arch = "amd64"
@@ -29,10 +29,10 @@ xorg_or_wayland = false
 syntax_version = "0.0.0-alpha.4"
 
 [file]
-name = "node-musl_amd64_2022-08-01_12-04.tar.zst"
+name = "node-musl_amd64_2022-08-15_12-04.tar.zst"
 
 # This value can be used to verify the integrity of the file
-sha256 = "b2ae740952db286b17ce36abeccaf4070cbc4ea2b7e8171f4130b78c714f3144"
+sha256 = "9c79e9326be4d393ea4306f3f44ccbe81d470d65fb45db50082cdca6b8efbb5b"
 
 # zstd: [1-22]
 zstd-level = 22
@@ -46,7 +46,7 @@ tar_bytes = 185927680
 # Space occupied ≈ tar-size + zstd-size
 # You will need to prepare a large enough space before installation.
 zstd = "33M"
-zstd_bytes = 33907211
+zstd_bytes = 33901190
 
 [compatibility]
 compatible_mode = true
@@ -60,15 +60,15 @@ previous_file = "node-musl_amd64_2022-07-04_12-04-rootfs.tar.zst"
 previous_sha256 = "c1527f2e5930ef6dbbc94cc9744f5229b5097fc82a53698b02b5c3c6b57a55a1"
 
 current_version = "latest01"
-current_date = "20220801"
+current_date = "20220815"
 old_file = "node-musl_amd64_2022-06-20_12-05-rootfs.tar.zst"
 old_sha256 = "e528cb318a3a369a513a8e8436e62ac48f716853256b61eecc04840248b7ee6e"
 # edition 2021
 # DISTRO_NAME=node_amd64
-# ROOTFS_FILE=node-musl_amd64_2022-08-01_12-04-rootfs.tar.zst
-# SHA256SUM=b2ae740952db286b17ce36abeccaf4070cbc4ea2b7e8171f4130b78c714f3144
-# BUILD_DATE=20220801
-# BUILD_TAG=2022-08-01
+# ROOTFS_FILE=node-musl_amd64_2022-08-15_12-04-rootfs.tar.zst
+# SHA256SUM=9c79e9326be4d393ea4306f3f44ccbe81d470d65fb45db50082cdca6b8efbb5b
+# BUILD_DATE=20220815
+# BUILD_TAG=2022-08-15
 # STATUS=completed
 # VERSION=latest01
 # END_TIME=12:04
@@ -76,13 +76,13 @@ old_sha256 = "e528cb318a3a369a513a8e8436e62ac48f716853256b61eecc04840248b7ee6e"
 [time]
 format = "rfc-3339"
 zone = "UTC"
-date = 2022-08-01
-begin = 2022-08-01 12:02:34.686876982+00:00
-start-sync_0 = 12:03:32
-start-zstd = 12:03:40
-start-sync_1 = 12:04:42
-end-sync_1 = 12:04:48
-end = 2022-08-01 12:04:48.961701710+00:00
+date = 2022-08-15
+begin = 2022-08-15 12:02:25.637437646+00:00
+start-sync_0 = 12:03:04
+start-zstd = 12:03:12
+start-sync_1 = 12:04:26
+end-sync_1 = 12:04:35
+end = 2022-08-15 12:04:35.681450082+00:00
 
 [server]
 repo = "cake233/node-alpine-amd64"
