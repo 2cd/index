@@ -20,7 +20,7 @@ docker exec -it node-alpine-armv7 bash
 ```toml
 [main]
 name = "node"
-tag = ["alpine", "2022-08-01", "musl-libc", "musl"]
+tag = ["alpine", "2022-08-15", "musl-libc", "musl"]
 os = "alpine"
 release = "stable"
 arch = "armhf"
@@ -29,10 +29,10 @@ xorg_or_wayland = false
 syntax_version = "0.0.0-alpha.4"
 
 [file]
-name = "node-musl_armhf_2022-08-01_12-05.tar.zst"
+name = "node-musl_armhf_2022-08-15_12-05.tar.zst"
 
 # This value can be used to verify the integrity of the file
-sha256 = "16bb83a1dd985424d0fce40fcb56bcbf7cc8672c21ba77f3c3558ef2b19cb594"
+sha256 = "2678015b91b8b25c1e6e25fc5882de8d5c4c1a0bf63df4e2313a306b81230658"
 
 # zstd: [1-22]
 zstd-level = 22
@@ -46,7 +46,7 @@ tar_bytes = 169324032
 # Space occupied ≈ tar-size + zstd-size
 # You will need to prepare a large enough space before installation.
 zstd = "31M"
-zstd_bytes = 32334793
+zstd_bytes = 32335198
 
 [compatibility]
 compatible_mode = true
@@ -60,15 +60,15 @@ previous_file = "node-musl_armhf_2022-07-04_12-04-rootfs.tar.zst"
 previous_sha256 = "4a6deb223b458c0445752179b94d6dd3e5065cdc08001b535a381ed40fa3fad5"
 
 current_version = "latest01"
-current_date = "20220801"
+current_date = "20220815"
 old_file = "node-musl_armhf_2022-06-20_12-04-rootfs.tar.zst"
 old_sha256 = "32c7d863d7ae9f7453a1d5c44b374ad6352dcf2337591a65ddfdb87b3c8be92f"
 # edition 2021
 # DISTRO_NAME=node_armhf
-# ROOTFS_FILE=node-musl_armhf_2022-08-01_12-05-rootfs.tar.zst
-# SHA256SUM=16bb83a1dd985424d0fce40fcb56bcbf7cc8672c21ba77f3c3558ef2b19cb594
-# BUILD_DATE=20220801
-# BUILD_TAG=2022-08-01
+# ROOTFS_FILE=node-musl_armhf_2022-08-15_12-05-rootfs.tar.zst
+# SHA256SUM=2678015b91b8b25c1e6e25fc5882de8d5c4c1a0bf63df4e2313a306b81230658
+# BUILD_DATE=20220815
+# BUILD_TAG=2022-08-15
 # STATUS=completed
 # VERSION=latest01
 # END_TIME=12:05
@@ -76,13 +76,13 @@ old_sha256 = "32c7d863d7ae9f7453a1d5c44b374ad6352dcf2337591a65ddfdb87b3c8be92f"
 [time]
 format = "rfc-3339"
 zone = "UTC"
-date = 2022-08-01
-begin = 2022-08-01 12:02:36.638560404+00:00
-start-sync_0 = 12:04:04
-start-zstd = 12:04:14
-start-sync_1 = 12:05:11
-end-sync_1 = 12:05:20
-end = 2022-08-01 12:05:20.280628757+00:00
+date = 2022-08-15
+begin = 2022-08-15 12:02:31.321201716+00:00
+start-sync_0 = 12:03:50
+start-zstd = 12:04:04
+start-sync_1 = 12:05:08
+end-sync_1 = 12:05:21
+end = 2022-08-15 12:05:21.329060912+00:00
 
 [server]
 repo = "cake233/node-alpine-armv7"
