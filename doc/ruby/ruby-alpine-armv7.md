@@ -20,7 +20,7 @@ docker exec -it ruby-alpine-armv7 bash
 ```toml
 [main]
 name = "ruby"
-tag = ["alpine", "2022-08-01", "musl-libc", "musl"]
+tag = ["alpine", "2022-08-15", "musl-libc", "musl"]
 os = "alpine"
 release = "stable"
 arch = "armhf"
@@ -29,10 +29,10 @@ xorg_or_wayland = false
 syntax_version = "0.0.0-alpha.4"
 
 [file]
-name = "ruby-musl_armhf_2022-08-01_12-05.tar.zst"
+name = "ruby-musl_armhf_2022-08-15_12-04.tar.zst"
 
 # This value can be used to verify the integrity of the file
-sha256 = "2fc65db4ff93b07c7ac7d15a284c0e2f54b8e96164e08582418127cc5eeb1226"
+sha256 = "c362b092357532fda8b8a942c095f72a7367cab434cd2fee307f38258f67a36e"
 
 # zstd: [1-22]
 zstd-level = 22
@@ -46,7 +46,7 @@ tar_bytes = 75715072
 # Space occupied ≈ tar-size + zstd-size
 # You will need to prepare a large enough space before installation.
 zstd = "31M"
-zstd_bytes = 31793626
+zstd_bytes = 31793909
 
 [compatibility]
 compatible_mode = true
@@ -60,29 +60,29 @@ previous_file = "ruby-musl_armhf_2022-07-04_12-04-rootfs.tar.zst"
 previous_sha256 = "42ef6d2dfd1f05fdc24bfcbf46a6d2a10fc7493ee229d57e2e4736e8a5be17f1"
 
 current_version = "latest01"
-current_date = "20220801"
+current_date = "20220815"
 old_file = "ruby-musl_armhf_2022-06-20_12-04-rootfs.tar.zst"
 old_sha256 = "62f71bb5a4d69f117599b648c42b79f2d2ee00e98bb884f4dcb2e72610e5bc18"
 # edition 2021
 # DISTRO_NAME=ruby_armhf
-# ROOTFS_FILE=ruby-musl_armhf_2022-08-01_12-05-rootfs.tar.zst
-# SHA256SUM=2fc65db4ff93b07c7ac7d15a284c0e2f54b8e96164e08582418127cc5eeb1226
-# BUILD_DATE=20220801
-# BUILD_TAG=2022-08-01
+# ROOTFS_FILE=ruby-musl_armhf_2022-08-15_12-04-rootfs.tar.zst
+# SHA256SUM=c362b092357532fda8b8a942c095f72a7367cab434cd2fee307f38258f67a36e
+# BUILD_DATE=20220815
+# BUILD_TAG=2022-08-15
 # STATUS=completed
 # VERSION=latest01
-# END_TIME=12:05
+# END_TIME=12:04
 
 [time]
 format = "rfc-3339"
 zone = "UTC"
-date = 2022-08-01
-begin = 2022-08-01 12:02:38.604754538+00:00
-start-sync_0 = 12:04:12
-start-zstd = 12:04:22
-start-sync_1 = 12:04:52
-end-sync_1 = 12:05:01
-end = 2022-08-01 12:05:01.406138143+00:00
+date = 2022-08-15
+begin = 2022-08-15 12:02:29.353350670+00:00
+start-sync_0 = 12:03:33
+start-zstd = 12:03:45
+start-sync_1 = 12:04:17
+end-sync_1 = 12:04:27
+end = 2022-08-15 12:04:27.360573732+00:00
 
 [server]
 repo = "cake233/ruby-alpine-armv7"
