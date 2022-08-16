@@ -77,7 +77,7 @@ localhost:5903
 ```toml
 [main]
 name = "ubuntu"
-tag = ["kde", "2022-08-09", "devel"]
+tag = ["kde", "2022-08-16", "devel"]
 os = "ubuntu"
 release = "dev"
 arch = "amd64"
@@ -86,10 +86,10 @@ xorg_or_wayland = true
 syntax_version = "0.0.0-alpha.4"
 
 [file]
-name = "ubuntu-kde_amd64_2022-08-09_00-54.tar.zst"
+name = "ubuntu-kde_amd64_2022-08-16_00-52.tar.zst"
 
 # This value can be used to verify the integrity of the file
-sha256 = "cd4c0d2cf10ec064e6184ed29e7137e1bb26fdf2c263858dbd69fa38fdd1253a"
+sha256 = "908fc23c1862a4c2c5e11aca61628705a8383d7f58604948e2d821710185534a"
 
 # zstd: [1-22]
 zstd-level = 19
@@ -98,48 +98,48 @@ zstd-level = 19
 # Installed size ≈ tar-size
 # Installed size is approximately equal to the size of the tar file
 tar = "4.4G"
-tar_bytes = 4669059072
+tar_bytes = 4669930496
 
 # Space occupied ≈ tar-size + zstd-size
 # You will need to prepare a large enough space before installation.
 zstd = "1.2G"
-zstd_bytes = 1276674805
+zstd_bytes = 1277498660
 
 [compatibility]
 compatible_mode = true
 
-previous_version = "latest01"
+previous_version = "latest02"
 
 # The value is &str, not int
-previous_date = "20220712"
-previous_tag = "2022-07-12"
-previous_file = "ubuntu-kde_amd64_2022-07-12_00-53-rootfs.tar.zst"
-previous_sha256 = "84f14dc548f4f941017f526a48c44ae063231350f0e87b4085386e6dd74743a6"
+previous_date = "20220809"
+previous_tag = "2022-08-09"
+previous_file = "ubuntu-kde_amd64_2022-08-09_00-54-rootfs.tar.zst"
+previous_sha256 = "cd4c0d2cf10ec064e6184ed29e7137e1bb26fdf2c263858dbd69fa38fdd1253a"
 
-current_version = "latest02"
-current_date = "20220809"
-old_file = "ubuntu-kde_amd64_2022-07-05_00-44-rootfs.tar.zst"
-old_sha256 = "6b09dbb874087c5209eaa10edbd37776403040f0d9eadefacebf0f2df09f3b17"
+current_version = "latest01"
+current_date = "20220816"
+old_file = "ubuntu-kde_amd64_2022-07-12_00-53-rootfs.tar.zst"
+old_sha256 = "84f14dc548f4f941017f526a48c44ae063231350f0e87b4085386e6dd74743a6"
 # edition 2021
 # DISTRO_NAME=ubuntu-dev_amd64
-# ROOTFS_FILE=ubuntu-kde_amd64_2022-08-09_00-54-rootfs.tar.zst
-# SHA256SUM=cd4c0d2cf10ec064e6184ed29e7137e1bb26fdf2c263858dbd69fa38fdd1253a
-# BUILD_DATE=20220809
-# BUILD_TAG=2022-08-09
+# ROOTFS_FILE=ubuntu-kde_amd64_2022-08-16_00-52-rootfs.tar.zst
+# SHA256SUM=908fc23c1862a4c2c5e11aca61628705a8383d7f58604948e2d821710185534a
+# BUILD_DATE=20220816
+# BUILD_TAG=2022-08-16
 # STATUS=completed
-# VERSION=latest02
-# END_TIME=00:54
+# VERSION=latest01
+# END_TIME=00:52
 
 [time]
 format = "rfc-3339"
 zone = "UTC"
-date = 2022-08-09
-begin = 2022-08-09 00:23:35.652942252+00:00
-start-sync_0 = 00:30:16
-start-zstd = 00:34:46
-start-sync_1 = 00:53:42
-end-sync_1 = 00:54:53
-end = 2022-08-09 00:54:53.832296368+00:00
+date = 2022-08-16
+begin = 2022-08-16 00:24:30.726886760+00:00
+start-sync_0 = 00:30:45
+start-zstd = 00:34:55
+start-sync_1 = 00:51:38
+end-sync_1 = 00:52:50
+end = 2022-08-16 00:52:50.918954250+00:00
 
 [server]
 repo = "cake233/ubuntu-kde-amd64"
