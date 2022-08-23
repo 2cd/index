@@ -77,7 +77,7 @@ localhost:5903
 ```toml
 [main]
 name = "fedora"
-tag = ["lxqt", "2022-08-16"]
+tag = ["lxqt", "2022-08-23"]
 os = "fedora"
 release = "rawhide"
 arch = "amd64"
@@ -86,10 +86,10 @@ xorg_or_wayland = true
 syntax_version = "0.0.0-alpha.4"
 
 [file]
-name = "fedora-lxqt_amd64_2022-08-16_13-22.tar.zst"
+name = "fedora-lxqt_amd64_2022-08-23_13-10.tar.zst"
 
 # This value can be used to verify the integrity of the file
-sha256 = "4d3996c0a11481e43a3607ba4995fb4a2e144ad3d61c41b1276350b6d7892a31"
+sha256 = "22b210be6a4c36ad8eafd7534c4dcaefb4ef6231d17ac40aba7fc10685d3da7f"
 
 # zstd: [1-22]
 zstd-level = 19
@@ -98,12 +98,12 @@ zstd-level = 19
 # Installed size ≈ tar-size
 # Installed size is approximately equal to the size of the tar file
 tar = "3.4G"
-tar_bytes = 3583870976
+tar_bytes = 3569485312
 
 # Space occupied ≈ tar-size + zstd-size
 # You will need to prepare a large enough space before installation.
-zstd = "936M"
-zstd_bytes = 980843485
+zstd = "931M"
+zstd_bytes = 976189804
 
 [compatibility]
 compatible_mode = true
@@ -117,29 +117,29 @@ previous_file = "fedora-rawhide_amd64+lxqt-2021_11-02-rootfs.tar.zst"
 previous_sha256 = "fc546284d21dbef914c7cafb3d7006b02cae4a8633067745fd826e8f3597cb70"
 
 current_version = "latest02"
-current_date = "20220816"
+current_date = "20220823"
 old_file = "fedora-rawhide_amd64+lxqt-2021_10-26-rootfs.tar.zst"
 old_sha256 = "e507e03c2fba7bde2a8166834367ba9a4d407b87840550d3504aab03a9f877c1"
 # edition 2021
 # DISTRO_NAME=fedora-rawhide_amd64
-# ROOTFS_FILE=fedora-lxqt_amd64_2022-08-16_13-22-rootfs.tar.zst
-# SHA256SUM=4d3996c0a11481e43a3607ba4995fb4a2e144ad3d61c41b1276350b6d7892a31
-# BUILD_DATE=20220816
-# BUILD_TAG=2022-08-16
+# ROOTFS_FILE=fedora-lxqt_amd64_2022-08-23_13-10-rootfs.tar.zst
+# SHA256SUM=22b210be6a4c36ad8eafd7534c4dcaefb4ef6231d17ac40aba7fc10685d3da7f
+# BUILD_DATE=20220823
+# BUILD_TAG=2022-08-23
 # STATUS=completed
 # VERSION=latest02
-# END_TIME=13:22
+# END_TIME=13:10
 
 [time]
 format = "rfc-3339"
 zone = "UTC"
-date = 2022-08-16
-begin = 2022-08-16 13:02:34.813488631+00:00
-start-sync_0 = 13:06:36
-start-zstd = 13:09:05
-start-sync_1 = 13:21:21
-end-sync_1 = 13:22:24
-end = 2022-08-16 13:22:24.052573793+00:00
+date = 2022-08-23
+begin = 2022-08-23 12:48:21.105285240+00:00
+start-sync_0 = 12:52:45
+start-zstd = 12:55:44
+start-sync_1 = 13:09:22
+end-sync_1 = 13:10:44
+end = 2022-08-23 13:10:44.870788145+00:00
 
 [server]
 repo = "cake233/fedora-lxqt-amd64"
@@ -174,7 +174,7 @@ current = true
 LANG = "en_US.UTF-8"
 
 [version]
-ldd = 'ldd (GNU libc) 2.36'
+ldd = 'ldd (GNU libc) 2.36.9000'
 zsh = 'zsh 5.9 (x86_64-redhat-linux-gnu)'
 
 [port]
