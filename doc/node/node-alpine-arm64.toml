@@ -1,6 +1,6 @@
 [main]
 name = "node"
-tag = ["alpine", "2022-08-15", "musl-libc", "musl"]
+tag = ["alpine", "2022-08-29", "musl-libc", "musl"]
 os = "alpine"
 release = "stable"
 arch = "arm64"
@@ -9,10 +9,10 @@ xorg_or_wayland = false
 syntax_version = "0.0.0-alpha.4"
 
 [file]
-name = "node-musl_arm64_2022-08-15_12-04.tar.zst"
+name = "node-musl_arm64_2022-08-29_12-05.tar.zst"
 
 # This value can be used to verify the integrity of the file
-sha256 = "549511171940c3d4ac90c1884f4089d579932a4297bea299fafb0fb13d283139"
+sha256 = "fa3869d91604e6236073d1006a494190ca4615df64ec2baf2734eeba351ff84c"
 
 # zstd: [1-22]
 zstd-level = 22
@@ -20,49 +20,49 @@ zstd-level = 22
 [file.size]
 # Installed size ≈ tar-size
 # Installed size is approximately equal to the size of the tar file
-tar = "175M"
-tar_bytes = 182905344
+tar = "176M"
+tar_bytes = 183530496
 
 # Space occupied ≈ tar-size + zstd-size
 # You will need to prepare a large enough space before installation.
 zstd = "33M"
-zstd_bytes = 33608858
+zstd_bytes = 33752515
 
 [compatibility]
 compatible_mode = true
 
-previous_version = "latest01"
+previous_version = "latest02"
 
 # The value is &str, not int
-previous_date = "20220704"
-previous_tag = "2022-07-04"
-previous_file = "node-musl_arm64_2022-07-04_12-04-rootfs.tar.zst"
-previous_sha256 = "da0ea73b31b2c40ff49abb68f41231301bb2fcc1a081cda9f4f3e49223e09940"
+previous_date = "20220815"
+previous_tag = "2022-08-15"
+previous_file = "node-musl_arm64_2022-08-15_12-04-rootfs.tar.zst"
+previous_sha256 = "549511171940c3d4ac90c1884f4089d579932a4297bea299fafb0fb13d283139"
 
-current_version = "latest02"
-current_date = "20220815"
-old_file = "node-musl_arm64_2022-06-20_12-04-rootfs.tar.zst"
-old_sha256 = "8838f9e316cb8dd0e0c67770534e2d0492c424ec8e7fd4b05dcb86b1bcfff244"
+current_version = "latest01"
+current_date = "20220829"
+old_file = "node-musl_arm64_2022-07-04_12-04-rootfs.tar.zst"
+old_sha256 = "da0ea73b31b2c40ff49abb68f41231301bb2fcc1a081cda9f4f3e49223e09940"
 # edition 2021
 # DISTRO_NAME=node_arm64
-# ROOTFS_FILE=node-musl_arm64_2022-08-15_12-04-rootfs.tar.zst
-# SHA256SUM=549511171940c3d4ac90c1884f4089d579932a4297bea299fafb0fb13d283139
-# BUILD_DATE=20220815
-# BUILD_TAG=2022-08-15
+# ROOTFS_FILE=node-musl_arm64_2022-08-29_12-05-rootfs.tar.zst
+# SHA256SUM=fa3869d91604e6236073d1006a494190ca4615df64ec2baf2734eeba351ff84c
+# BUILD_DATE=20220829
+# BUILD_TAG=2022-08-29
 # STATUS=completed
-# VERSION=latest02
-# END_TIME=12:04
+# VERSION=latest01
+# END_TIME=12:05
 
 [time]
 format = "rfc-3339"
 zone = "UTC"
-date = 2022-08-15
-begin = 2022-08-15 12:02:27.772708919+00:00
-start-sync_0 = 12:03:32
-start-zstd = 12:03:43
-start-sync_1 = 12:04:44
-end-sync_1 = 12:04:53
-end = 2022-08-15 12:04:53.467605085+00:00
+date = 2022-08-29
+begin = 2022-08-29 12:02:32.631066674+00:00
+start-sync_0 = 12:04:08
+start-zstd = 12:04:23
+start-sync_1 = 12:05:34
+end-sync_1 = 12:05:46
+end = 2022-08-29 12:05:46.588181865+00:00
 
 [server]
 repo = "cake233/node-alpine-arm64"
@@ -77,7 +77,7 @@ split = false
 [server.node2]
 name = "tmoe"
 current = true
-previous = false
+previous = true
 in_sync = false
 split = false
 
@@ -86,8 +86,6 @@ name = "azure"
 current = true
 previous = true
 in_sync = false
-start_sync = 2022-08-15 18:07:43.262687319+00:00
-end_sync = 2022-08-15 18:07:54.127084255+00:00
 split = false
 
 [server.node4]
@@ -100,6 +98,6 @@ LANG = "C.UTF-8"
 
 [version]
 ldd = 'musl libc (aarch64) Version 1.2.3'
-node = 'v18.7.0'
+node = 'v18.8.0'
 yarn = '1.22.19'
-npm = '8.15.0'
+npm = '8.18.0'
