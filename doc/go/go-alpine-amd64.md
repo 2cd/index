@@ -56,7 +56,7 @@ func main() {
 ```toml
 [main]
 name = "go"
-tag = ["alpine", "2022-08-22", "musl-libc", "musl"]
+tag = ["alpine", "2022-09-05", "musl-libc", "musl"]
 os = "alpine"
 release = "stable"
 arch = "amd64"
@@ -65,10 +65,10 @@ xorg_or_wayland = false
 syntax_version = "0.0.0-alpha.4"
 
 [file]
-name = "go-musl_amd64_2022-08-22_12-07.tar.zst"
+name = "go-musl_amd64_2022-09-05_12-07.tar.zst"
 
 # This value can be used to verify the integrity of the file
-sha256 = "aa571d6a67e6b1f9e70686d61aede92d0446e4ff8102e9a86f0859787c48ca47"
+sha256 = "b75ae5551ee4e1f23f6afa5ece79532b6a53f08ca70c02c55ec3e82f89bb0066"
 
 # zstd: [1-22]
 zstd-level = 22
@@ -77,48 +77,48 @@ zstd-level = 22
 # Installed size ≈ tar-size
 # Installed size is approximately equal to the size of the tar file
 tar = "361M"
-tar_bytes = 377700864
+tar_bytes = 377704960
 
 # Space occupied ≈ tar-size + zstd-size
 # You will need to prepare a large enough space before installation.
 zstd = "86M"
-zstd_bytes = 89338001
+zstd_bytes = 89341004
 
 [compatibility]
 compatible_mode = true
 
-previous_version = "latest02"
+previous_version = "latest01"
 
 # The value is &str, not int
-previous_date = "20220808"
-previous_tag = "2022-08-08"
-previous_file = "go-musl_amd64_2022-08-08_12-07-rootfs.tar.zst"
-previous_sha256 = "fddd20d75661e1d7adc17ebaa541e9e0696c57a1b49712a89f78e8355435b95f"
+previous_date = "20220822"
+previous_tag = "2022-08-22"
+previous_file = "go-musl_amd64_2022-08-22_12-07-rootfs.tar.zst"
+previous_sha256 = "aa571d6a67e6b1f9e70686d61aede92d0446e4ff8102e9a86f0859787c48ca47"
 
-current_version = "latest01"
-current_date = "20220822"
-old_file = "go-musl_amd64_2022-07-11_12-07-rootfs.tar.zst"
-old_sha256 = "4a8104552141724063ea84e21b473b14d2b03bcbccaa9d759bb8cddc8c583723"
+current_version = "latest02"
+current_date = "20220905"
+old_file = "go-musl_amd64_2022-08-08_12-07-rootfs.tar.zst"
+old_sha256 = "fddd20d75661e1d7adc17ebaa541e9e0696c57a1b49712a89f78e8355435b95f"
 # edition 2021
 # DISTRO_NAME=go_amd64
-# ROOTFS_FILE=go-musl_amd64_2022-08-22_12-07-rootfs.tar.zst
-# SHA256SUM=aa571d6a67e6b1f9e70686d61aede92d0446e4ff8102e9a86f0859787c48ca47
-# BUILD_DATE=20220822
-# BUILD_TAG=2022-08-22
+# ROOTFS_FILE=go-musl_amd64_2022-09-05_12-07-rootfs.tar.zst
+# SHA256SUM=b75ae5551ee4e1f23f6afa5ece79532b6a53f08ca70c02c55ec3e82f89bb0066
+# BUILD_DATE=20220905
+# BUILD_TAG=2022-09-05
 # STATUS=completed
-# VERSION=latest01
+# VERSION=latest02
 # END_TIME=12:07
 
 [time]
 format = "rfc-3339"
 zone = "UTC"
-date = 2022-08-22
-begin = 2022-08-22 12:02:29.151464148+00:00
-start-sync_0 = 12:03:34
-start-zstd = 12:03:51
-start-sync_1 = 12:07:23
-end-sync_1 = 12:07:39
-end = 2022-08-22 12:07:39.440751841+00:00
+date = 2022-09-05
+begin = 2022-09-05 12:02:26.448767421+00:00
+start-sync_0 = 12:03:21
+start-zstd = 12:03:33
+start-sync_1 = 12:06:48
+end-sync_1 = 12:07:01
+end = 2022-09-05 12:07:01.165089911+00:00
 
 [server]
 repo = "cake233/go-alpine-amd64"
