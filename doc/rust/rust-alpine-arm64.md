@@ -69,7 +69,7 @@ ldd "$FILE"
 ```toml
 [main]
 name = "rust"
-tag = ["alpine", "2022-09-02", "nightly", "unstable", "minimal", "musl-libc", "musl"]
+tag = ["alpine", "2022-09-05", "nightly", "unstable", "minimal", "musl-libc", "musl"]
 os = "alpine"
 release = "edge"
 arch = "arm64"
@@ -78,10 +78,10 @@ xorg_or_wayland = false
 syntax_version = "0.0.0-alpha.4"
 
 [file]
-name = "rust-musl_arm64_2022-09-02_03-00.tar.zst"
+name = "rust-musl_arm64_2022-09-05_03-01.tar.zst"
 
 # This value can be used to verify the integrity of the file
-sha256 = "b3587af373427d0fc6d96ad1a28443bb123a47f7623562862cde9acc0298d638"
+sha256 = "0aa6f860d0dbe06216285397c011c2d46594758ba2f08cd300c02e005bcffccf"
 
 # zstd: [1-22]
 zstd-level = 22
@@ -89,49 +89,49 @@ zstd-level = 22
 [file.size]
 # Installed size ≈ tar-size
 # Installed size is approximately equal to the size of the tar file
-tar = "761M"
-tar_bytes = 797731328
+tar = "775M"
+tar_bytes = 811656704
 
 # Space occupied ≈ tar-size + zstd-size
 # You will need to prepare a large enough space before installation.
 zstd = "150M"
-zstd_bytes = 157146318
+zstd_bytes = 157279656
 
 [compatibility]
 compatible_mode = true
 
-previous_version = "latest02"
+previous_version = "latest01"
 
 # The value is &str, not int
-previous_date = "20220829"
-previous_tag = "2022-08-29"
-previous_file = "rust-musl_arm64_2022-08-29_02-59-rootfs.tar.zst"
-previous_sha256 = "814c712b57424ca998ed6720706f81d15f931a39f274a910809131e7a16b9330"
+previous_date = "20220902"
+previous_tag = "2022-09-02"
+previous_file = "rust-musl_arm64_2022-09-02_03-00-rootfs.tar.zst"
+previous_sha256 = "b3587af373427d0fc6d96ad1a28443bb123a47f7623562862cde9acc0298d638"
 
-current_version = "latest01"
-current_date = "20220902"
-old_file = "rust-musl_arm64_2022-08-26_03-01-rootfs.tar.zst"
-old_sha256 = "ab9b85f994af4407fbb5ffb64beba357e495b4525101274f508cff6e36b148c6"
+current_version = "latest02"
+current_date = "20220905"
+old_file = "rust-musl_arm64_2022-08-29_02-59-rootfs.tar.zst"
+old_sha256 = "814c712b57424ca998ed6720706f81d15f931a39f274a910809131e7a16b9330"
 # edition 2021
 # DISTRO_NAME=rust_arm64
-# ROOTFS_FILE=rust-musl_arm64_2022-09-02_03-00-rootfs.tar.zst
-# SHA256SUM=b3587af373427d0fc6d96ad1a28443bb123a47f7623562862cde9acc0298d638
-# BUILD_DATE=20220902
-# BUILD_TAG=2022-09-02
+# ROOTFS_FILE=rust-musl_arm64_2022-09-05_03-01-rootfs.tar.zst
+# SHA256SUM=0aa6f860d0dbe06216285397c011c2d46594758ba2f08cd300c02e005bcffccf
+# BUILD_DATE=20220905
+# BUILD_TAG=2022-09-05
 # STATUS=completed
-# VERSION=latest01
-# END_TIME=03:00
+# VERSION=latest02
+# END_TIME=03:01
 
 [time]
 format = "rfc-3339"
 zone = "UTC"
-date = 2022-09-02
-begin = 2022-09-02 02:52:19.975098895+00:00
-start-sync_0 = 02:54:12
-start-zstd = 02:54:47
-start-sync_1 = 02:59:49
-end-sync_1 = 03:00:05
-end = 2022-09-02 03:00:05.066427394+00:00
+date = 2022-09-05
+begin = 2022-09-05 02:52:23.900533581+00:00
+start-sync_0 = 02:54:47
+start-zstd = 02:55:34
+start-sync_1 = 03:00:48
+end-sync_1 = 03:01:05
+end = 2022-09-05 03:01:06.004195653+00:00
 
 [server]
 repo = "cake233/rust-alpine-arm64"
@@ -172,7 +172,7 @@ CARGO_HOME = "/usr/local/cargo"
 ldd = 'musl libc (aarch64) Version 1.2.3'
 rustup = 'rustup 1.25.1 (bb60b1e89 2022-07-12)'
 cargo = 'cargo 1.65.0-nightly (4ed54cecc 2022-08-27)'
-rustc = 'rustc 1.65.0-nightly (2e35f954a 2022-09-01)'
+rustc = 'rustc 1.65.0-nightly (289279de1 2022-09-04)'
 cc = 'cc (Alpine 12.1.1_git20220630) 12.1.1 20220630'
 cargo_verbose = '''
 cargo 1.65.0-nightly (4ed54cecc 2022-08-27)
@@ -185,10 +185,10 @@ libcurl: 7.83.1-DEV (sys:0.4.55+curl-7.83.1 vendored ssl:OpenSSL/1.1.1q)
 os: Alpine Linux 3.17_alpha20220715 [64-bit]
 '''
 rustc_verbose = '''
-rustc 1.65.0-nightly (2e35f954a 2022-09-01)
+rustc 1.65.0-nightly (289279de1 2022-09-04)
 binary: rustc
-commit-hash: 2e35f954ada0f0c777844dc4fa66684efe90a035
-commit-date: 2022-09-01
+commit-hash: 289279de116707f28cf9c18e4bbb8c6ec84ad75b
+commit-date: 2022-09-04
 host: aarch64-unknown-linux-musl
 release: 1.65.0-nightly
 LLVM version: 15.0.0
