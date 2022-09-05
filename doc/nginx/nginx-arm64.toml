@@ -1,6 +1,6 @@
 [main]
 name = "nginx"
-tag = ["latest", "2022-08-22"]
+tag = ["latest", "2022-09-05"]
 os = "debian"
 release = "stable"
 arch = "arm64"
@@ -9,10 +9,10 @@ xorg_or_wayland = false
 syntax_version = "0.0.0-alpha.4"
 
 [file]
-name = "nginx_arm64_2022-08-22_12-06.tar.zst"
+name = "nginx_arm64_2022-09-05_12-06.tar.zst"
 
 # This value can be used to verify the integrity of the file
-sha256 = "c69cb847c62918329742f24a09350b4e07f89774a31c6f25308479556889995e"
+sha256 = "c2606d89f84d5d34e56fc7b0d37a676d692defe4dfff0ec81bafaf22535ef820"
 
 # zstd: [1-22]
 zstd-level = 22
@@ -21,48 +21,48 @@ zstd-level = 22
 # Installed size ≈ tar-size
 # Installed size is approximately equal to the size of the tar file
 tar = "156M"
-tar_bytes = 163032064
+tar_bytes = 163037696
 
 # Space occupied ≈ tar-size + zstd-size
 # You will need to prepare a large enough space before installation.
 zstd = "39M"
-zstd_bytes = 40589180
+zstd_bytes = 40559576
 
 [compatibility]
 compatible_mode = true
 
-previous_version = "latest02"
+previous_version = "latest01"
 
 # The value is &str, not int
-previous_date = "20220808"
-previous_tag = "2022-08-08"
-previous_file = "nginx_arm64_2022-08-08_12-06-rootfs.tar.zst"
-previous_sha256 = "70fe1f8e48a36fb2c5eddac3cb67be937a2199fbe2cc9dbb4ab7e40796c7cc10"
+previous_date = "20220822"
+previous_tag = "2022-08-22"
+previous_file = "nginx_arm64_2022-08-22_12-06-rootfs.tar.zst"
+previous_sha256 = "c69cb847c62918329742f24a09350b4e07f89774a31c6f25308479556889995e"
 
-current_version = "latest01"
-current_date = "20220822"
-old_file = "nginx_arm64_2022-07-11_12-07-rootfs.tar.zst"
-old_sha256 = "0071b3f3c4b855dcb46495f5f2d09580669142330be72f7779cbeedbe7353679"
+current_version = "latest02"
+current_date = "20220905"
+old_file = "nginx_arm64_2022-08-08_12-06-rootfs.tar.zst"
+old_sha256 = "70fe1f8e48a36fb2c5eddac3cb67be937a2199fbe2cc9dbb4ab7e40796c7cc10"
 # edition 2021
 # DISTRO_NAME=nginx_arm64
-# ROOTFS_FILE=nginx_arm64_2022-08-22_12-06-rootfs.tar.zst
-# SHA256SUM=c69cb847c62918329742f24a09350b4e07f89774a31c6f25308479556889995e
-# BUILD_DATE=20220822
-# BUILD_TAG=2022-08-22
+# ROOTFS_FILE=nginx_arm64_2022-09-05_12-06-rootfs.tar.zst
+# SHA256SUM=c2606d89f84d5d34e56fc7b0d37a676d692defe4dfff0ec81bafaf22535ef820
+# BUILD_DATE=20220905
+# BUILD_TAG=2022-09-05
 # STATUS=completed
-# VERSION=latest01
+# VERSION=latest02
 # END_TIME=12:06
 
 [time]
 format = "rfc-3339"
 zone = "UTC"
-date = 2022-08-22
-begin = 2022-08-22 12:02:24.921052023+00:00
+date = 2022-09-05
+begin = 2022-09-05 12:02:27.689791750+00:00
 start-sync_0 = 12:04:46
-start-zstd = 12:04:55
-start-sync_1 = 12:06:31
-end-sync_1 = 12:06:39
-end = 2022-08-22 12:06:39.164187802+00:00
+start-zstd = 12:04:58
+start-sync_1 = 12:06:24
+end-sync_1 = 12:06:34
+end = 2022-09-05 12:06:34.160680177+00:00
 
 [server]
 repo = "cake233/nginx-arm64"
@@ -77,7 +77,7 @@ split = false
 [server.node2]
 name = "tmoe"
 current = true
-previous = false
+previous = true
 in_sync = false
 split = false
 
@@ -86,8 +86,6 @@ name = "azure"
 current = true
 previous = true
 in_sync = false
-start_sync = 2022-08-22 18:04:34.820678540+00:00
-end_sync = 2022-08-22 18:04:45.550801990+00:00
 split = false
 
 [server.node4]
