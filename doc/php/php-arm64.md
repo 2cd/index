@@ -20,7 +20,7 @@ docker exec -it php-arm64 bash
 ```toml
 [main]
 name = "php"
-tag = ["latest", "2022-08-29"]
+tag = ["latest", "2022-09-12"]
 os = "debian"
 release = "stable"
 arch = "arm64"
@@ -29,10 +29,10 @@ xorg_or_wayland = false
 syntax_version = "0.0.0-alpha.4"
 
 [file]
-name = "php_arm64_2022-08-29_12-10.tar.zst"
+name = "php_arm64_2022-09-12_12-09.tar.zst"
 
 # This value can be used to verify the integrity of the file
-sha256 = "8c57da0a49b8a9bced15faf729acb0f73d7ccac1dab85c36c03ec99a4ff0f3d4"
+sha256 = "7c5c13e52d2348ae669145fc43a8805183dbc4a21c677653dd47eba1dfa7804a"
 
 # zstd: [1-22]
 zstd-level = 22
@@ -41,48 +41,48 @@ zstd-level = 22
 # Installed size ≈ tar-size
 # Installed size is approximately equal to the size of the tar file
 tar = "457M"
-tar_bytes = 478249984
+tar_bytes = 478231552
 
 # Space occupied ≈ tar-size + zstd-size
 # You will need to prepare a large enough space before installation.
 zstd = "99M"
-zstd_bytes = 102862448
+zstd_bytes = 102816725
 
 [compatibility]
 compatible_mode = true
 
-previous_version = "latest02"
+previous_version = "latest01"
 
 # The value is &str, not int
-previous_date = "20220815"
-previous_tag = "2022-08-15"
-previous_file = "php_arm64_2022-08-15_12-10-rootfs.tar.zst"
-previous_sha256 = "d3fe9f5d81c7b4b089666cf788ad4ceb79134ff965f306958b77401445366108"
+previous_date = "20220829"
+previous_tag = "2022-08-29"
+previous_file = "php_arm64_2022-08-29_12-10-rootfs.tar.zst"
+previous_sha256 = "8c57da0a49b8a9bced15faf729acb0f73d7ccac1dab85c36c03ec99a4ff0f3d4"
 
-current_version = "latest01"
-current_date = "20220829"
-old_file = "php_arm64_2022-07-04_12-10-rootfs.tar.zst"
-old_sha256 = "9017f49042b82858cc7433bda9c6ff527803c79a080d2f26a097794598b0c3e4"
+current_version = "latest02"
+current_date = "20220912"
+old_file = "php_arm64_2022-08-15_12-10-rootfs.tar.zst"
+old_sha256 = "d3fe9f5d81c7b4b089666cf788ad4ceb79134ff965f306958b77401445366108"
 # edition 2021
 # DISTRO_NAME=php_arm64
-# ROOTFS_FILE=php_arm64_2022-08-29_12-10-rootfs.tar.zst
-# SHA256SUM=8c57da0a49b8a9bced15faf729acb0f73d7ccac1dab85c36c03ec99a4ff0f3d4
-# BUILD_DATE=20220829
-# BUILD_TAG=2022-08-29
+# ROOTFS_FILE=php_arm64_2022-09-12_12-09-rootfs.tar.zst
+# SHA256SUM=7c5c13e52d2348ae669145fc43a8805183dbc4a21c677653dd47eba1dfa7804a
+# BUILD_DATE=20220912
+# BUILD_TAG=2022-09-12
 # STATUS=completed
-# VERSION=latest01
-# END_TIME=12:10
+# VERSION=latest02
+# END_TIME=12:09
 
 [time]
 format = "rfc-3339"
 zone = "UTC"
-date = 2022-08-29
-begin = 2022-08-29 12:02:32.565973031+00:00
-start-sync_0 = 12:05:53
-start-zstd = 12:06:14
-start-sync_1 = 12:10:33
-end-sync_1 = 12:10:49
-end = 2022-08-29 12:10:49.952639235+00:00
+date = 2022-09-12
+begin = 2022-09-12 12:02:28.248713512+00:00
+start-sync_0 = 12:05:26
+start-zstd = 12:05:39
+start-sync_1 = 12:09:35
+end-sync_1 = 12:09:46
+end = 2022-09-12 12:09:46.651652915+00:00
 
 [server]
 repo = "cake233/php-arm64"
@@ -118,11 +118,11 @@ LANG = "en_US.UTF-8"
 PHP_INI_DIR = '/usr/local/etc/php'
 
 [version]
-ldd = 'ldd (Debian GLIBC 2.31-13+deb11u3) 2.31'
+ldd = 'ldd (Debian GLIBC 2.31-13+deb11u4) 2.31'
 php = '''
-PHP 8.1.9 (cli) (built: Aug 23 2022 14:32:46) (NTS)
+PHP 8.1.10 (cli) (built: Sep  1 2022 21:50:57) (NTS)
 Copyright (c) The PHP Group
-Zend Engine v4.1.9, Copyright (c) Zend Technologies
+Zend Engine v4.1.10, Copyright (c) Zend Technologies
 '''
 
 [other]
@@ -132,6 +132,6 @@ php_cflags = '-fstack-protector-strong -fpic -fpie -O2 -D_LARGEFILE_SOURCE -D_FI
 php_cppflags = '-fstack-protector-strong -fpic -fpie -O2 -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64'
 php_ldflags = '-Wl,-O1 -pie'
 gpg_keys = '528995BFEDFBA7191D46839EF9BA0ADA31CBD89E 39B641343D8C104B2B146DC3F9C39DC0B9698544 F1F692238FBC1666E5A5CCD4199F9DFEF6FFBAFD'
-php_url = 'https://www.php.net/distributions/php-8.1.9.tar.xz'
-php_src_url = 'https://www.php.net/distributions/php-8.1.9.tar.xz.asc'
+php_url = 'https://www.php.net/distributions/php-8.1.10.tar.xz'
+php_src_url = 'https://www.php.net/distributions/php-8.1.10.tar.xz.asc'
 ```
