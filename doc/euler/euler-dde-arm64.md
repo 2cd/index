@@ -77,7 +77,7 @@ localhost:5903
 ```toml
 [main]
 name = "euler"
-tag = ["dde", "2022-08-16"]
+tag = ["dde", "2022-09-15"]
 os = "euler"
 release = "dde"
 arch = "arm64"
@@ -86,10 +86,10 @@ xorg_or_wayland = true
 syntax_version = "0.0.0-alpha.4"
 
 [file]
-name = "euler-dde_arm64_2022-08-16_04-11.tar.zst"
+name = "euler-dde_arm64_2022-09-15_01-02.tar.zst"
 
 # This value can be used to verify the integrity of the file
-sha256 = "1576a9d369fb68164781ddce47cbc6687952a7c975a0bb8b069f631207567f43"
+sha256 = "2f822ef8e19abb9561ba16bc99f64bc80137175501bceb6010823e30d21abd05"
 
 # zstd: [1-22]
 zstd-level = 18
@@ -98,12 +98,12 @@ zstd-level = 18
 # Installed size ≈ tar-size
 # Installed size is approximately equal to the size of the tar file
 tar = "4.6G"
-tar_bytes = 4896915968
+tar_bytes = 4914139648
 
 # Space occupied ≈ tar-size + zstd-size
 # You will need to prepare a large enough space before installation.
 zstd = "1.3G"
-zstd_bytes = 1387864488
+zstd_bytes = 1391976722
 
 [compatibility]
 compatible_mode = true
@@ -117,29 +117,29 @@ previous_file = "euler-dde_arm64_2022-06-15_00-53-rootfs.tar.zst"
 previous_sha256 = "82fb5084f4e69b96bd92595c4814c20ada8062c404f570b2bf27ec649e138cf7"
 
 current_version = "latest02"
-current_date = "20220816"
+current_date = "20220915"
 old_file = "euler-dde_arm64_2022-05-15_00-52-rootfs.tar.zst"
 old_sha256 = "e591c72b1b84824ff393a8d8a908427e2a0567f980df562c1b6269874b40a5a8"
 # edition 2021
 # DISTRO_NAME=euler_arm64
-# ROOTFS_FILE=euler-dde_arm64_2022-08-16_04-11-rootfs.tar.zst
-# SHA256SUM=1576a9d369fb68164781ddce47cbc6687952a7c975a0bb8b069f631207567f43
-# BUILD_DATE=20220816
-# BUILD_TAG=2022-08-16
+# ROOTFS_FILE=euler-dde_arm64_2022-09-15_01-02-rootfs.tar.zst
+# SHA256SUM=2f822ef8e19abb9561ba16bc99f64bc80137175501bceb6010823e30d21abd05
+# BUILD_DATE=20220915
+# BUILD_TAG=2022-09-15
 # STATUS=completed
 # VERSION=latest02
-# END_TIME=04:11
+# END_TIME=01:02
 
 [time]
 format = "rfc-3339"
 zone = "UTC"
-date = 2022-08-16
-begin = 2022-08-16 03:27:05.570196128+00:00
-start-sync_0 = 03:52:47
-start-zstd = 03:57:04
-start-sync_1 = 04:09:56
-end-sync_1 = 04:11:23
-end = 2022-08-16 04:11:23.866469533+00:00
+date = 2022-09-15
+begin = 2022-09-15 00:11:17.205326133+00:00
+start-sync_0 = 00:41:22
+start-zstd = 00:46:23
+start-sync_1 = 01:01:10
+end-sync_1 = 01:02:50
+end = 2022-09-15 01:02:50.091413238+00:00
 
 [server]
 repo = "cake233/euler-dde-arm64"
