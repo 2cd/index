@@ -20,7 +20,7 @@ docker exec -it nginx-amd64 bash
 ```toml
 [main]
 name = "nginx"
-tag = ["latest", "2022-09-05"]
+tag = ["latest", "2022-09-19"]
 os = "debian"
 release = "stable"
 arch = "amd64"
@@ -29,10 +29,10 @@ xorg_or_wayland = false
 syntax_version = "0.0.0-alpha.4"
 
 [file]
-name = "nginx_amd64_2022-09-05_12-05.tar.zst"
+name = "nginx_amd64_2022-09-19_12-05.tar.zst"
 
 # This value can be used to verify the integrity of the file
-sha256 = "da71459490b8daeb0e7787de2c07cdc9cf7e9f1a1d53059cf408995b4adde8e0"
+sha256 = "7a177b132fb4feadcebf28ac714ab3f76dbfc620dfe2f7d72ac95ff4c385e028"
 
 # zstd: [1-22]
 zstd-level = 22
@@ -41,48 +41,48 @@ zstd-level = 22
 # Installed size ≈ tar-size
 # Installed size is approximately equal to the size of the tar file
 tar = "163M"
-tar_bytes = 170124288
+tar_bytes = 170233344
 
 # Space occupied ≈ tar-size + zstd-size
 # You will need to prepare a large enough space before installation.
 zstd = "40M"
-zstd_bytes = 41572653
+zstd_bytes = 41533981
 
 [compatibility]
 compatible_mode = true
 
-previous_version = "latest01"
+previous_version = "latest02"
 
 # The value is &str, not int
-previous_date = "20220822"
-previous_tag = "2022-08-22"
-previous_file = "nginx_amd64_2022-08-22_12-05-rootfs.tar.zst"
-previous_sha256 = "bd5795019782ef91e3e37316a6f80988ba3ec8b6142b70a1aa4ffc96c5e04da0"
+previous_date = "20220905"
+previous_tag = "2022-09-05"
+previous_file = "nginx_amd64_2022-09-05_12-05-rootfs.tar.zst"
+previous_sha256 = "da71459490b8daeb0e7787de2c07cdc9cf7e9f1a1d53059cf408995b4adde8e0"
 
-current_version = "latest02"
-current_date = "20220905"
-old_file = "nginx_amd64_2022-08-08_12-05-rootfs.tar.zst"
-old_sha256 = "eb071787fc5030242dadffb06569bdd624422792ba24f3da499215e28812581b"
+current_version = "latest01"
+current_date = "20220919"
+old_file = "nginx_amd64_2022-08-22_12-05-rootfs.tar.zst"
+old_sha256 = "bd5795019782ef91e3e37316a6f80988ba3ec8b6142b70a1aa4ffc96c5e04da0"
 # edition 2021
 # DISTRO_NAME=nginx_amd64
-# ROOTFS_FILE=nginx_amd64_2022-09-05_12-05-rootfs.tar.zst
-# SHA256SUM=da71459490b8daeb0e7787de2c07cdc9cf7e9f1a1d53059cf408995b4adde8e0
-# BUILD_DATE=20220905
-# BUILD_TAG=2022-09-05
+# ROOTFS_FILE=nginx_amd64_2022-09-19_12-05-rootfs.tar.zst
+# SHA256SUM=7a177b132fb4feadcebf28ac714ab3f76dbfc620dfe2f7d72ac95ff4c385e028
+# BUILD_DATE=20220919
+# BUILD_TAG=2022-09-19
 # STATUS=completed
-# VERSION=latest02
+# VERSION=latest01
 # END_TIME=12:05
 
 [time]
 format = "rfc-3339"
 zone = "UTC"
-date = 2022-09-05
-begin = 2022-09-05 12:02:25.510593107+00:00
-start-sync_0 = 12:03:21
-start-zstd = 12:03:30
-start-sync_1 = 12:04:54
-end-sync_1 = 12:05:02
-end = 2022-09-05 12:05:02.792010698+00:00
+date = 2022-09-19
+begin = 2022-09-19 12:02:31.242024380+00:00
+start-sync_0 = 12:03:48
+start-zstd = 12:04:06
+start-sync_1 = 12:05:42
+end-sync_1 = 12:05:55
+end = 2022-09-19 12:05:55.313096208+00:00
 
 [server]
 repo = "cake233/nginx-amd64"
@@ -117,7 +117,7 @@ current = true
 LANG = "en_US.UTF-8"
 
 [version]
-ldd = 'ldd (Debian GLIBC 2.31-13+deb11u3) 2.31'
+ldd = 'ldd (Debian GLIBC 2.31-13+deb11u4) 2.31'
 nginx = '1.23.1'
 njs = '0.7.6'
 pkg_release = '1~bullseye'
