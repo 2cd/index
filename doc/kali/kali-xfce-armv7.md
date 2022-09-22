@@ -77,7 +77,7 @@ localhost:5903
 ```toml
 [main]
 name = "kali"
-tag = ["xfce", "2022-09-15"]
+tag = ["xfce", "2022-09-22"]
 os = "kali"
 release = "rolling"
 arch = "armhf"
@@ -86,10 +86,10 @@ xorg_or_wayland = true
 syntax_version = "0.0.0-alpha.4"
 
 [file]
-name = "kali-xfce_armhf_2022-09-15_13-28.tar.zst"
+name = "kali-xfce_armhf_2022-09-22_13-29.tar.zst"
 
 # This value can be used to verify the integrity of the file
-sha256 = "a07f8130ff8f5c85f42fe967a72a31f243b90c8e436becc5250b6af451d31b49"
+sha256 = "1ef0cd679c0a0fd6d978e0c0916e6a06cfcac92401e720a8376657cc4706320b"
 
 # zstd: [1-22]
 zstd-level = 19
@@ -97,49 +97,49 @@ zstd-level = 19
 [file.size]
 # Installed size ≈ tar-size
 # Installed size is approximately equal to the size of the tar file
-tar = "5.1G"
-tar_bytes = 5453583360
+tar = "5.2G"
+tar_bytes = 5479842816
 
 # Space occupied ≈ tar-size + zstd-size
 # You will need to prepare a large enough space before installation.
 zstd = "1.6G"
-zstd_bytes = 1616812229
+zstd_bytes = 1624200558
 
 [compatibility]
 compatible_mode = true
 
-previous_version = "latest01"
+previous_version = "latest02"
 
 # The value is &str, not int
-previous_date = "20220908"
-previous_tag = "2022-09-08"
-previous_file = "kali-xfce_armhf_2022-09-08_13-24-rootfs.tar.zst"
-previous_sha256 = "3064ca44b0ecf16eae422e10bcf712f435e3498fa2152c308f7c798604ee268d"
+previous_date = "20220915"
+previous_tag = "2022-09-15"
+previous_file = "kali-xfce_armhf_2022-09-15_13-28-rootfs.tar.zst"
+previous_sha256 = "a07f8130ff8f5c85f42fe967a72a31f243b90c8e436becc5250b6af451d31b49"
 
-current_version = "latest02"
-current_date = "20220915"
-old_file = "kali-xfce_armhf_2022-09-01_13-27-rootfs.tar.zst"
-old_sha256 = "8a2cf0fc2876fd48b1ec8d182c012e07adf841b9b83afe84762b4aba6a0068a0"
+current_version = "latest01"
+current_date = "20220922"
+old_file = "kali-xfce_armhf_2022-09-08_13-24-rootfs.tar.zst"
+old_sha256 = "3064ca44b0ecf16eae422e10bcf712f435e3498fa2152c308f7c798604ee268d"
 # edition 2021
 # DISTRO_NAME=kali-rolling_armhf
-# ROOTFS_FILE=kali-xfce_armhf_2022-09-15_13-28-rootfs.tar.zst
-# SHA256SUM=a07f8130ff8f5c85f42fe967a72a31f243b90c8e436becc5250b6af451d31b49
-# BUILD_DATE=20220915
-# BUILD_TAG=2022-09-15
+# ROOTFS_FILE=kali-xfce_armhf_2022-09-22_13-29-rootfs.tar.zst
+# SHA256SUM=1ef0cd679c0a0fd6d978e0c0916e6a06cfcac92401e720a8376657cc4706320b
+# BUILD_DATE=20220922
+# BUILD_TAG=2022-09-22
 # STATUS=completed
-# VERSION=latest02
-# END_TIME=13:28
+# VERSION=latest01
+# END_TIME=13:29
 
 [time]
 format = "rfc-3339"
 zone = "UTC"
-date = 2022-09-15
-begin = 2022-09-15 12:22:53.988683050+00:00
-start-sync_0 = 13:04:59
-start-zstd = 13:09:50
-start-sync_1 = 13:26:41
-end-sync_1 = 13:28:10
-end = 2022-09-15 13:28:10.480546249+00:00
+date = 2022-09-22
+begin = 2022-09-22 12:18:11.097426227+00:00
+start-sync_0 = 13:04:13
+start-zstd = 13:09:23
+start-sync_1 = 13:27:45
+end-sync_1 = 13:29:19
+end = 2022-09-22 13:29:19.029988811+00:00
 
 [server]
 repo = "cake233/kali-xfce-armv7"
