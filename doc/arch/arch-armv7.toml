@@ -1,6 +1,6 @@
 [main]
 name = "arch"
-tag = ["base", "2022-09-21"]
+tag = ["base", "2022-09-28"]
 os = "arch"
 release = "latest"
 arch = "armhf"
@@ -9,10 +9,10 @@ xorg_or_wayland = false
 syntax_version = "0.0.0-alpha.4"
 
 [file]
-name = "arch_armhf_2022-09-21_00-06.tar.zst"
+name = "arch_armhf_2022-09-28_00-06.tar.zst"
 
 # This value can be used to verify the integrity of the file
-sha256 = "6607d0026ecf9d94c74ac56f05b5f36f6f0f94229717dda69886fcbd33d97910"
+sha256 = "065cf280d0145d9165aa4e7f9917678a9a07aeb35887c1f67c9c1fe473d87d51"
 
 # zstd: [1-22]
 zstd-level = 12
@@ -20,13 +20,13 @@ zstd-level = 12
 [file.size]
 # Installed size ≈ tar-size
 # Installed size is approximately equal to the size of the tar file
-tar = "779M"
-tar_bytes = 816540672
+tar = "780M"
+tar_bytes = 817117184
 
 # Space occupied ≈ tar-size + zstd-size
 # You will need to prepare a large enough space before installation.
 zstd = "232M"
-zstd_bytes = 242895498
+zstd_bytes = 242968089
 
 [compatibility]
 compatible_mode = true
@@ -40,15 +40,15 @@ previous_file = ""
 previous_sha256 = ""
 
 current_version = "latest01"
-current_date = "20220921"
+current_date = "20220928"
 old_file = ""
 old_sha256 = ""
 # edition 2021
 # DISTRO_NAME=arch_armhf
-# ROOTFS_FILE=arch_armhf_2022-09-21_00-06-rootfs.tar.zst
-# SHA256SUM=6607d0026ecf9d94c74ac56f05b5f36f6f0f94229717dda69886fcbd33d97910
-# BUILD_DATE=20220921
-# BUILD_TAG=2022-09-21
+# ROOTFS_FILE=arch_armhf_2022-09-28_00-06-rootfs.tar.zst
+# SHA256SUM=065cf280d0145d9165aa4e7f9917678a9a07aeb35887c1f67c9c1fe473d87d51
+# BUILD_DATE=20220928
+# BUILD_TAG=2022-09-28
 # STATUS=completed
 # VERSION=latest01
 # END_TIME=00:06
@@ -56,13 +56,13 @@ old_sha256 = ""
 [time]
 format = "rfc-3339"
 zone = "UTC"
-date = 2022-09-21
-begin = 2022-09-21 00:02:22.747434095+00:00
-start-sync_0 = 00:05:07
-start-zstd = 00:05:48
-start-sync_1 = 00:06:10
-end-sync_1 = 00:06:31
-end = 2022-09-21 00:06:31.248821008+00:00
+date = 2022-09-28
+begin = 2022-09-28 00:02:22.229486245+00:00
+start-sync_0 = 00:05:12
+start-zstd = 00:05:51
+start-sync_1 = 00:06:11
+end-sync_1 = 00:06:30
+end = 2022-09-28 00:06:30.656164071+00:00
 
 [server]
 repo = "cake233/arch-armv7"
