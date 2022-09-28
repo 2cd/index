@@ -20,7 +20,7 @@ docker exec -it arch-zsh-armv7 zsh
 ```toml
 [main]
 name = "arch"
-tag = ["zsh", "2022-09-23"]
+tag = ["zsh", "2022-09-28"]
 os = "arch"
 release = "latest"
 arch = "armhf"
@@ -29,10 +29,10 @@ xorg_or_wayland = false
 syntax_version = "0.0.0-alpha.4"
 
 [file]
-name = "arch-zsh_armhf_2022-09-23_05-09.tar.zst"
+name = "arch-zsh_armhf_2022-09-28_00-34.tar.zst"
 
 # This value can be used to verify the integrity of the file
-sha256 = "780f89acb44cc8ce53d0eabd03c13aee961c3d960c16d81663f6194acba0ab0f"
+sha256 = "5c0cf8cc3a37e18fba2adced30a7db8dfcfd4970ed562695da4b734a7716ee10"
 
 # zstd: [1-22]
 zstd-level = 20
@@ -41,12 +41,12 @@ zstd-level = 20
 # Installed size ≈ tar-size
 # Installed size is approximately equal to the size of the tar file
 tar = "871M"
-tar_bytes = 912885248
+tar_bytes = 913222144
 
 # Space occupied ≈ tar-size + zstd-size
 # You will need to prepare a large enough space before installation.
 zstd = "214M"
-zstd_bytes = 224296896
+zstd_bytes = 224370355
 
 [compatibility]
 compatible_mode = true
@@ -60,29 +60,29 @@ previous_file = "arch-zsh_armhf_2022-09-21_00-17-rootfs.tar.zst"
 previous_sha256 = "b69ae8a284b45a201818deca7be5de234b4840f1a2eba64093f288178ad2ce3b"
 
 current_version = "latest02"
-current_date = "20220923"
+current_date = "20220928"
 old_file = "arch-zsh_armhf_2022-09-14_00-16-rootfs.tar.zst"
 old_sha256 = "92737025fcdc23643f8fe82b18d582a1571841574259e1f7f2ff3340ce8a07d0"
 # edition 2021
 # DISTRO_NAME=arch_armhf
-# ROOTFS_FILE=arch-zsh_armhf_2022-09-23_05-09-rootfs.tar.zst
-# SHA256SUM=780f89acb44cc8ce53d0eabd03c13aee961c3d960c16d81663f6194acba0ab0f
-# BUILD_DATE=20220923
-# BUILD_TAG=2022-09-23
+# ROOTFS_FILE=arch-zsh_armhf_2022-09-28_00-34-rootfs.tar.zst
+# SHA256SUM=5c0cf8cc3a37e18fba2adced30a7db8dfcfd4970ed562695da4b734a7716ee10
+# BUILD_DATE=20220928
+# BUILD_TAG=2022-09-28
 # STATUS=completed
 # VERSION=latest02
-# END_TIME=05:09
+# END_TIME=00:34
 
 [time]
 format = "rfc-3339"
 zone = "UTC"
-date = 2022-09-23
-begin = 2022-09-23 04:49:17.173059118+00:00
-start-sync_0 = 05:04:19
-start-zstd = 05:05:47
-start-sync_1 = 05:09:09
-end-sync_1 = 05:09:27
-end = 2022-09-23 05:09:27.304242743+00:00
+date = 2022-09-28
+begin = 2022-09-28 00:08:43.217987614+00:00
+start-sync_0 = 00:28:33
+start-zstd = 00:30:10
+start-sync_1 = 00:34:21
+end-sync_1 = 00:34:47
+end = 2022-09-28 00:34:47.187015276+00:00
 
 [server]
 repo = "cake233/arch-zsh-armv7"
