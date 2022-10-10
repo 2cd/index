@@ -20,7 +20,7 @@ docker exec -it ruby-alpine-amd64 bash
 ```toml
 [main]
 name = "ruby"
-tag = ["alpine", "2022-09-26", "musl-libc", "musl"]
+tag = ["alpine", "2022-10-10", "musl-libc", "musl"]
 os = "alpine"
 release = "stable"
 arch = "amd64"
@@ -29,10 +29,10 @@ xorg_or_wayland = false
 syntax_version = "0.0.0-alpha.4"
 
 [file]
-name = "ruby-musl_amd64_2022-09-26_12-04.tar.zst"
+name = "ruby-musl_amd64_2022-10-10_12-04.tar.zst"
 
 # This value can be used to verify the integrity of the file
-sha256 = "88ced4026d7469fb95843c689fcf3952f16e10a0a7f98457e0db2c0b70cbb40f"
+sha256 = "d5ec0be043fbe8b7a34b7df0c31bbfb376b1151c5a2bd5ce1492be5c454fa43d"
 
 # zstd: [1-22]
 zstd-level = 22
@@ -46,43 +46,43 @@ tar_bytes = 86324736
 # Space occupied ≈ tar-size + zstd-size
 # You will need to prepare a large enough space before installation.
 zstd = "33M"
-zstd_bytes = 33809962
+zstd_bytes = 33810375
 
 [compatibility]
 compatible_mode = true
 
-previous_version = "latest02"
+previous_version = "latest01"
 
 # The value is &str, not int
-previous_date = "20220912"
-previous_tag = "2022-09-12"
-previous_file = "ruby-musl_amd64_2022-09-12_12-04-rootfs.tar.zst"
-previous_sha256 = "94e6949259c46a2c01189d4b9699214f416b69252bab9fe212aa631e6c5bb228"
+previous_date = "20220926"
+previous_tag = "2022-09-26"
+previous_file = "ruby-musl_amd64_2022-09-26_12-04-rootfs.tar.zst"
+previous_sha256 = "88ced4026d7469fb95843c689fcf3952f16e10a0a7f98457e0db2c0b70cbb40f"
 
-current_version = "latest01"
-current_date = "20220926"
-old_file = "ruby-musl_amd64_2022-08-29_15-24-rootfs.tar.zst"
-old_sha256 = "f08bf3f45384287d3543dd95b6b303a78b95b585c2d3e58641675f256432d0cf"
+current_version = "latest02"
+current_date = "20221010"
+old_file = "ruby-musl_amd64_2022-09-12_12-04-rootfs.tar.zst"
+old_sha256 = "94e6949259c46a2c01189d4b9699214f416b69252bab9fe212aa631e6c5bb228"
 # edition 2021
 # DISTRO_NAME=ruby_amd64
-# ROOTFS_FILE=ruby-musl_amd64_2022-09-26_12-04-rootfs.tar.zst
-# SHA256SUM=88ced4026d7469fb95843c689fcf3952f16e10a0a7f98457e0db2c0b70cbb40f
-# BUILD_DATE=20220926
-# BUILD_TAG=2022-09-26
+# ROOTFS_FILE=ruby-musl_amd64_2022-10-10_12-04-rootfs.tar.zst
+# SHA256SUM=d5ec0be043fbe8b7a34b7df0c31bbfb376b1151c5a2bd5ce1492be5c454fa43d
+# BUILD_DATE=20221010
+# BUILD_TAG=2022-10-10
 # STATUS=completed
-# VERSION=latest01
+# VERSION=latest02
 # END_TIME=12:04
 
 [time]
 format = "rfc-3339"
 zone = "UTC"
-date = 2022-09-26
-begin = 2022-09-26 12:02:29.069517639+00:00
-start-sync_0 = 12:03:46
-start-zstd = 12:03:57
-start-sync_1 = 12:04:39
-end-sync_1 = 12:04:49
-end = 2022-09-26 12:04:49.113450811+00:00
+date = 2022-10-10
+begin = 2022-10-10 12:02:33.957338696+00:00
+start-sync_0 = 12:03:34
+start-zstd = 12:03:48
+start-sync_1 = 12:04:30
+end-sync_1 = 12:04:43
+end = 2022-10-10 12:04:43.082750386+00:00
 
 [server]
 repo = "cake233/ruby-alpine-amd64"
