@@ -20,7 +20,7 @@ docker exec -it php-alpine-amd64 bash
 ```toml
 [main]
 name = "php"
-tag = ["alpine", "2022-09-26", "musl-libc", "musl"]
+tag = ["alpine", "2022-10-10", "musl-libc", "musl"]
 os = "alpine"
 release = "stable"
 arch = "amd64"
@@ -29,10 +29,10 @@ xorg_or_wayland = false
 syntax_version = "0.0.0-alpha.4"
 
 [file]
-name = "php-musl_amd64_2022-09-26_12-04.tar.zst"
+name = "php-musl_amd64_2022-10-10_12-04.tar.zst"
 
 # This value can be used to verify the integrity of the file
-sha256 = "d377fec18d623d8ff502c85d861f9b99e7f92020bb0ca0b41b9e7401e0ef5d77"
+sha256 = "56b0fceb80d14bf1e8eadf58298dd21f37e0a05e9a41ec0eeef6d8d804f498fb"
 
 # zstd: [1-22]
 zstd-level = 22
@@ -41,48 +41,48 @@ zstd-level = 22
 # Installed size ≈ tar-size
 # Installed size is approximately equal to the size of the tar file
 tar = "101M"
-tar_bytes = 105395712
+tar_bytes = 105457152
 
 # Space occupied ≈ tar-size + zstd-size
 # You will need to prepare a large enough space before installation.
 zstd = "25M"
-zstd_bytes = 25293785
+zstd_bytes = 25365494
 
 [compatibility]
 compatible_mode = true
 
-previous_version = "latest02"
+previous_version = "latest01"
 
 # The value is &str, not int
-previous_date = "20220912"
-previous_tag = "2022-09-12"
-previous_file = "php-musl_amd64_2022-09-12_12-04-rootfs.tar.zst"
-previous_sha256 = "fac96180dad3eebf7fce39ac4797e2a6e8ec0cffc77dab5de7b2875cac66b351"
+previous_date = "20220926"
+previous_tag = "2022-09-26"
+previous_file = "php-musl_amd64_2022-09-26_12-04-rootfs.tar.zst"
+previous_sha256 = "d377fec18d623d8ff502c85d861f9b99e7f92020bb0ca0b41b9e7401e0ef5d77"
 
-current_version = "latest01"
-current_date = "20220926"
-old_file = "php-musl_amd64_2022-08-29_12-04-rootfs.tar.zst"
-old_sha256 = "637a6a4d7889971749d7eeba2553a45e615321527d50f64a6ea4fdcebcef5f3f"
+current_version = "latest02"
+current_date = "20221010"
+old_file = "php-musl_amd64_2022-09-12_12-04-rootfs.tar.zst"
+old_sha256 = "fac96180dad3eebf7fce39ac4797e2a6e8ec0cffc77dab5de7b2875cac66b351"
 # edition 2021
 # DISTRO_NAME=php_amd64
-# ROOTFS_FILE=php-musl_amd64_2022-09-26_12-04-rootfs.tar.zst
-# SHA256SUM=d377fec18d623d8ff502c85d861f9b99e7f92020bb0ca0b41b9e7401e0ef5d77
-# BUILD_DATE=20220926
-# BUILD_TAG=2022-09-26
+# ROOTFS_FILE=php-musl_amd64_2022-10-10_12-04-rootfs.tar.zst
+# SHA256SUM=56b0fceb80d14bf1e8eadf58298dd21f37e0a05e9a41ec0eeef6d8d804f498fb
+# BUILD_DATE=20221010
+# BUILD_TAG=2022-10-10
 # STATUS=completed
-# VERSION=latest01
+# VERSION=latest02
 # END_TIME=12:04
 
 [time]
 format = "rfc-3339"
 zone = "UTC"
-date = 2022-09-26
-begin = 2022-09-26 12:02:28.366651180+00:00
-start-sync_0 = 12:03:38
-start-zstd = 12:03:47
-start-sync_1 = 12:04:27
-end-sync_1 = 12:04:35
-end = 2022-09-26 12:04:35.915262466+00:00
+date = 2022-10-10
+begin = 2022-10-10 12:02:33.737619520+00:00
+start-sync_0 = 12:03:31
+start-zstd = 12:03:45
+start-sync_1 = 12:04:25
+end-sync_1 = 12:04:36
+end = 2022-10-10 12:04:36.251115759+00:00
 
 [server]
 repo = "cake233/php-alpine-amd64"
@@ -120,9 +120,9 @@ PHP_INI_DIR = '/usr/local/etc/php'
 [version]
 ldd = 'musl libc (x86_64) Version 1.2.3'
 php = '''
-PHP 8.1.10 (cli) (built: Sep  1 2022 21:39:29) (NTS)
+PHP 8.1.11 (cli) (built: Oct  6 2022 23:49:21) (NTS)
 Copyright (c) The PHP Group
-Zend Engine v4.1.10, Copyright (c) Zend Technologies
+Zend Engine v4.1.11, Copyright (c) Zend Technologies
 '''
 
 [other]
@@ -132,6 +132,6 @@ php_cflags = '-fstack-protector-strong -fpic -fpie -O2 -D_LARGEFILE_SOURCE -D_FI
 php_cppflags = '-fstack-protector-strong -fpic -fpie -O2 -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64'
 php_ldflags = '-Wl,-O1 -pie'
 gpg_keys = '528995BFEDFBA7191D46839EF9BA0ADA31CBD89E 39B641343D8C104B2B146DC3F9C39DC0B9698544 F1F692238FBC1666E5A5CCD4199F9DFEF6FFBAFD'
-php_url = 'https://www.php.net/distributions/php-8.1.10.tar.xz'
-php_src_url = 'https://www.php.net/distributions/php-8.1.10.tar.xz.asc'
+php_url = 'https://www.php.net/distributions/php-8.1.11.tar.xz'
+php_src_url = 'https://www.php.net/distributions/php-8.1.11.tar.xz.asc'
 ```
