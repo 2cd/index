@@ -1,6 +1,6 @@
 [main]
 name = "fedora"
-tag = ["mate", "2022-10-04"]
+tag = ["mate", "2022-10-11"]
 os = "fedora"
 release = "rawhide"
 arch = "amd64"
@@ -9,10 +9,10 @@ xorg_or_wayland = true
 syntax_version = "0.0.0-alpha.4"
 
 [file]
-name = "fedora-mate_amd64_2022-10-04_13-20.tar.zst"
+name = "fedora-mate_amd64_2022-10-11_13-22.tar.zst"
 
 # This value can be used to verify the integrity of the file
-sha256 = "b818cb5a48908e31e9a5da99ffe1a1540ee5b18afff1161bfabaeed40dd84f42"
+sha256 = "f1e7685bbc45485e57e81cdf71c49e8363aca94adc94993727af5b955c6a7597"
 
 # zstd: [1-22]
 zstd-level = 19
@@ -21,48 +21,48 @@ zstd-level = 19
 # Installed size ≈ tar-size
 # Installed size is approximately equal to the size of the tar file
 tar = "4.9G"
-tar_bytes = 5195115520
+tar_bytes = 5211279872
 
 # Space occupied ≈ tar-size + zstd-size
 # You will need to prepare a large enough space before installation.
 zstd = "1.6G"
-zstd_bytes = 1631349477
+zstd_bytes = 1642100021
 
 [compatibility]
 compatible_mode = true
 
-previous_version = "latest02"
+previous_version = "latest01"
 
 # The value is &str, not int
-previous_date = "20220927"
-previous_tag = "2022-09-27"
-previous_file = "fedora-mate_amd64_2022-09-27_13-27-rootfs.tar.zst"
-previous_sha256 = "824af65d6f194cafd984a1e63dbbd86fb11f031fe0cf2bcdf3159c666677e269"
+previous_date = "20221004"
+previous_tag = "2022-10-04"
+previous_file = "fedora-mate_amd64_2022-10-04_13-20-rootfs.tar.zst"
+previous_sha256 = "b818cb5a48908e31e9a5da99ffe1a1540ee5b18afff1161bfabaeed40dd84f42"
 
-current_version = "latest01"
-current_date = "20221004"
-old_file = "fedora-mate_amd64_2022-09-20_13-32-rootfs.tar.zst"
-old_sha256 = "61af7f985285cad6387e4fac2371aa847b12a08df5a8f0f7a828df39c348de74"
+current_version = "latest02"
+current_date = "20221011"
+old_file = "fedora-mate_amd64_2022-09-27_13-27-rootfs.tar.zst"
+old_sha256 = "824af65d6f194cafd984a1e63dbbd86fb11f031fe0cf2bcdf3159c666677e269"
 # edition 2021
 # DISTRO_NAME=fedora-rawhide_amd64
-# ROOTFS_FILE=fedora-mate_amd64_2022-10-04_13-20-rootfs.tar.zst
-# SHA256SUM=b818cb5a48908e31e9a5da99ffe1a1540ee5b18afff1161bfabaeed40dd84f42
-# BUILD_DATE=20221004
-# BUILD_TAG=2022-10-04
+# ROOTFS_FILE=fedora-mate_amd64_2022-10-11_13-22-rootfs.tar.zst
+# SHA256SUM=f1e7685bbc45485e57e81cdf71c49e8363aca94adc94993727af5b955c6a7597
+# BUILD_DATE=20221011
+# BUILD_TAG=2022-10-11
 # STATUS=completed
-# VERSION=latest01
-# END_TIME=13:20
+# VERSION=latest02
+# END_TIME=13:22
 
 [time]
 format = "rfc-3339"
 zone = "UTC"
-date = 2022-10-04
-begin = 2022-10-04 12:49:38.161739206+00:00
-start-sync_0 = 12:56:23
-start-zstd = 13:00:44
-start-sync_1 = 13:18:36
-end-sync_1 = 13:20:41
-end = 2022-10-04 13:20:41.690680321+00:00
+date = 2022-10-11
+begin = 2022-10-11 12:51:03.277956319+00:00
+start-sync_0 = 12:57:24
+start-zstd = 13:01:39
+start-sync_1 = 13:20:39
+end-sync_1 = 13:22:10
+end = 2022-10-11 13:22:10.483842191+00:00
 
 [server]
 repo = "cake233/fedora-mate-amd64"
@@ -77,7 +77,7 @@ split = false
 [server.node2]
 name = "tmoe"
 current = true
-previous = false
+previous = true
 in_sync = false
 split = false
 
@@ -86,8 +86,6 @@ name = "azure"
 current = true
 previous = true
 in_sync = false
-start_sync = 2022-10-04 18:06:19.002010401+00:00
-end_sync = 2022-10-04 18:10:41.649303185+00:00
 split = false
 
 [server.node4]
