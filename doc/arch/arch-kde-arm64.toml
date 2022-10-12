@@ -1,6 +1,6 @@
 [main]
 name = "arch"
-tag = ["kde", "2022-10-05"]
+tag = ["kde", "2022-10-12"]
 os = "arch"
 release = "latest"
 arch = "arm64"
@@ -9,10 +9,10 @@ xorg_or_wayland = true
 syntax_version = "0.0.0-alpha.4"
 
 [file]
-name = "arch-kde_arm64_2022-10-05_01-12.tar.zst"
+name = "arch-kde_arm64_2022-10-12_01-16.tar.zst"
 
 # This value can be used to verify the integrity of the file
-sha256 = "aaeeb83cf3063a78bc67b91d208aee0d04064154d20ff0f93e3f7eddd32589fd"
+sha256 = "dd9a5069059ec54ee6c760356661efe5be6d479c145d754ba14cee490dedd046"
 
 # zstd: [1-22]
 zstd-level = 19
@@ -20,49 +20,49 @@ zstd-level = 19
 [file.size]
 # Installed size ≈ tar-size
 # Installed size is approximately equal to the size of the tar file
-tar = "4.9G"
-tar_bytes = 5246595584
+tar = "5.0G"
+tar_bytes = 5266188288
 
 # Space occupied ≈ tar-size + zstd-size
 # You will need to prepare a large enough space before installation.
 zstd = "1.4G"
-zstd_bytes = 1491065806
+zstd_bytes = 1492646050
 
 [compatibility]
 compatible_mode = true
 
-previous_version = "latest02"
+previous_version = "latest01"
 
 # The value is &str, not int
-previous_date = "20220928"
-previous_tag = "2022-09-28"
-previous_file = "arch-kde_arm64_2022-09-28_01-19-rootfs.tar.zst"
-previous_sha256 = "640d6a39fd9babc5bcf2f8fbbf5f22a07435ff8955536e6f646e67a2b065e623"
+previous_date = "20221005"
+previous_tag = "2022-10-05"
+previous_file = "arch-kde_arm64_2022-10-05_01-12-rootfs.tar.zst"
+previous_sha256 = "aaeeb83cf3063a78bc67b91d208aee0d04064154d20ff0f93e3f7eddd32589fd"
 
-current_version = "latest01"
-current_date = "20221005"
-old_file = "arch-kde_arm64_2022-09-21_01-19-rootfs.tar.zst"
-old_sha256 = "e37ae45645744513d138e79ed4e7d99864f17a43eb4fc8c2d00bde74900c8277"
+current_version = "latest02"
+current_date = "20221012"
+old_file = "arch-kde_arm64_2022-09-28_01-19-rootfs.tar.zst"
+old_sha256 = "640d6a39fd9babc5bcf2f8fbbf5f22a07435ff8955536e6f646e67a2b065e623"
 # edition 2021
 # DISTRO_NAME=arch_arm64
-# ROOTFS_FILE=arch-kde_arm64_2022-10-05_01-12-rootfs.tar.zst
-# SHA256SUM=aaeeb83cf3063a78bc67b91d208aee0d04064154d20ff0f93e3f7eddd32589fd
-# BUILD_DATE=20221005
-# BUILD_TAG=2022-10-05
+# ROOTFS_FILE=arch-kde_arm64_2022-10-12_01-16-rootfs.tar.zst
+# SHA256SUM=dd9a5069059ec54ee6c760356661efe5be6d479c145d754ba14cee490dedd046
+# BUILD_DATE=20221012
+# BUILD_TAG=2022-10-12
 # STATUS=completed
-# VERSION=latest01
-# END_TIME=01:12
+# VERSION=latest02
+# END_TIME=01:16
 
 [time]
 format = "rfc-3339"
 zone = "UTC"
-date = 2022-10-05
-begin = 2022-10-05 00:29:54.481335935+00:00
-start-sync_0 = 00:47:57
-start-zstd = 00:52:46
-start-sync_1 = 01:11:20
-end-sync_1 = 01:12:42
-end = 2022-10-05 01:12:42.607115687+00:00
+date = 2022-10-12
+begin = 2022-10-12 00:33:30.428949843+00:00
+start-sync_0 = 00:51:43
+start-zstd = 00:56:49
+start-sync_1 = 01:15:32
+end-sync_1 = 01:16:55
+end = 2022-10-12 01:16:55.463347505+00:00
 
 [server]
 repo = "cake233/arch-kde-arm64"
@@ -77,7 +77,7 @@ split = false
 [server.node2]
 name = "tmoe"
 current = true
-previous = false
+previous = true
 in_sync = false
 split = false
 
@@ -86,8 +86,6 @@ name = "azure"
 current = true
 previous = true
 in_sync = false
-start_sync = 2022-10-05 06:35:22.790456598+00:00
-end_sync = 2022-10-05 06:39:40.681832286+00:00
 split = false
 
 [server.node4]
