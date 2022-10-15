@@ -77,7 +77,7 @@ localhost:5903
 ```toml
 [main]
 name = "euler"
-tag = ["dde", "2022-09-15"]
+tag = ["dde", "2022-10-15"]
 os = "euler"
 release = "dde"
 arch = "arm64"
@@ -86,10 +86,10 @@ xorg_or_wayland = true
 syntax_version = "0.0.0-alpha.4"
 
 [file]
-name = "euler-dde_arm64_2022-09-15_01-02.tar.zst"
+name = "euler-dde_arm64_2022-10-15_00-58.tar.zst"
 
 # This value can be used to verify the integrity of the file
-sha256 = "2f822ef8e19abb9561ba16bc99f64bc80137175501bceb6010823e30d21abd05"
+sha256 = "2a3864b1a1fde11df6a34df238564dd01f827cdef2192ddc15b12bc68c55e0cc"
 
 # zstd: [1-22]
 zstd-level = 18
@@ -98,48 +98,48 @@ zstd-level = 18
 # Installed size ≈ tar-size
 # Installed size is approximately equal to the size of the tar file
 tar = "4.6G"
-tar_bytes = 4914139648
+tar_bytes = 4916174848
 
 # Space occupied ≈ tar-size + zstd-size
 # You will need to prepare a large enough space before installation.
 zstd = "1.3G"
-zstd_bytes = 1391976722
+zstd_bytes = 1392171933
 
 [compatibility]
 compatible_mode = true
 
-previous_version = "latest01"
+previous_version = "latest02"
 
 # The value is &str, not int
-previous_date = "20220615"
-previous_tag = "2022-06-15"
-previous_file = "euler-dde_arm64_2022-06-15_00-53-rootfs.tar.zst"
-previous_sha256 = "82fb5084f4e69b96bd92595c4814c20ada8062c404f570b2bf27ec649e138cf7"
+previous_date = "20220915"
+previous_tag = "2022-09-15"
+previous_file = "euler-dde_arm64_2022-09-15_01-02-rootfs.tar.zst"
+previous_sha256 = "2f822ef8e19abb9561ba16bc99f64bc80137175501bceb6010823e30d21abd05"
 
-current_version = "latest02"
-current_date = "20220915"
-old_file = "euler-dde_arm64_2022-05-15_00-52-rootfs.tar.zst"
-old_sha256 = "e591c72b1b84824ff393a8d8a908427e2a0567f980df562c1b6269874b40a5a8"
+current_version = "latest01"
+current_date = "20221015"
+old_file = "euler-dde_arm64_2022-06-15_00-53-rootfs.tar.zst"
+old_sha256 = "82fb5084f4e69b96bd92595c4814c20ada8062c404f570b2bf27ec649e138cf7"
 # edition 2021
 # DISTRO_NAME=euler_arm64
-# ROOTFS_FILE=euler-dde_arm64_2022-09-15_01-02-rootfs.tar.zst
-# SHA256SUM=2f822ef8e19abb9561ba16bc99f64bc80137175501bceb6010823e30d21abd05
-# BUILD_DATE=20220915
-# BUILD_TAG=2022-09-15
+# ROOTFS_FILE=euler-dde_arm64_2022-10-15_00-58-rootfs.tar.zst
+# SHA256SUM=2a3864b1a1fde11df6a34df238564dd01f827cdef2192ddc15b12bc68c55e0cc
+# BUILD_DATE=20221015
+# BUILD_TAG=2022-10-15
 # STATUS=completed
-# VERSION=latest02
-# END_TIME=01:02
+# VERSION=latest01
+# END_TIME=00:58
 
 [time]
 format = "rfc-3339"
 zone = "UTC"
-date = 2022-09-15
-begin = 2022-09-15 00:11:17.205326133+00:00
-start-sync_0 = 00:41:22
-start-zstd = 00:46:23
-start-sync_1 = 01:01:10
-end-sync_1 = 01:02:50
-end = 2022-09-15 01:02:50.091413238+00:00
+date = 2022-10-15
+begin = 2022-10-15 00:10:04.281022343+00:00
+start-sync_0 = 00:37:37
+start-zstd = 00:43:01
+start-sync_1 = 00:56:31
+end-sync_1 = 00:58:02
+end = 2022-10-15 00:58:02.520672588+00:00
 
 [server]
 repo = "cake233/euler-dde-arm64"
