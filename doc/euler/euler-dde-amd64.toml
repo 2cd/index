@@ -1,6 +1,6 @@
 [main]
 name = "euler"
-tag = ["dde", "2022-09-15"]
+tag = ["dde", "2022-10-15"]
 os = "euler"
 release = "dde"
 arch = "amd64"
@@ -9,10 +9,10 @@ xorg_or_wayland = true
 syntax_version = "0.0.0-alpha.4"
 
 [file]
-name = "euler-dde_amd64_2022-09-15_00-38.tar.zst"
+name = "euler-dde_amd64_2022-10-15_00-42.tar.zst"
 
 # This value can be used to verify the integrity of the file
-sha256 = "68c9e8eb704e3f34bb58177186019f6dc9de7c90f97b140243c2c5f53561e5aa"
+sha256 = "8e2633020376c1e3ed21089aaab443e1096857076282e0d0029aa1a8043c8844"
 
 # zstd: [1-22]
 zstd-level = 18
@@ -21,48 +21,48 @@ zstd-level = 18
 # Installed size ≈ tar-size
 # Installed size is approximately equal to the size of the tar file
 tar = "4.6G"
-tar_bytes = 4857294848
+tar_bytes = 4850273280
 
 # Space occupied ≈ tar-size + zstd-size
 # You will need to prepare a large enough space before installation.
 zstd = "1.4G"
-zstd_bytes = 1426769452
+zstd_bytes = 1424799073
 
 [compatibility]
 compatible_mode = true
 
-previous_version = "latest01"
+previous_version = "latest02"
 
 # The value is &str, not int
-previous_date = "20220615"
-previous_tag = "2022-06-15"
-previous_file = "euler-dde_amd64_2022-06-15_00-38-rootfs.tar.zst"
-previous_sha256 = "61199add278022cf630fcdb68c70f13c9260bd48a50760885a50acd2fee9e9c8"
+previous_date = "20220915"
+previous_tag = "2022-09-15"
+previous_file = "euler-dde_amd64_2022-09-15_00-38-rootfs.tar.zst"
+previous_sha256 = "68c9e8eb704e3f34bb58177186019f6dc9de7c90f97b140243c2c5f53561e5aa"
 
-current_version = "latest02"
-current_date = "20220915"
-old_file = "euler-dde_amd64_2022-05-15_00-39-rootfs.tar.zst"
-old_sha256 = "a86f43798dfd3f987689f9ea28ab84c18b8387713acf039d0cdc9d7348c55052"
+current_version = "latest01"
+current_date = "20221015"
+old_file = "euler-dde_amd64_2022-06-15_00-38-rootfs.tar.zst"
+old_sha256 = "61199add278022cf630fcdb68c70f13c9260bd48a50760885a50acd2fee9e9c8"
 # edition 2021
 # DISTRO_NAME=euler_amd64
-# ROOTFS_FILE=euler-dde_amd64_2022-09-15_00-38-rootfs.tar.zst
-# SHA256SUM=68c9e8eb704e3f34bb58177186019f6dc9de7c90f97b140243c2c5f53561e5aa
-# BUILD_DATE=20220915
-# BUILD_TAG=2022-09-15
+# ROOTFS_FILE=euler-dde_amd64_2022-10-15_00-42-rootfs.tar.zst
+# SHA256SUM=8e2633020376c1e3ed21089aaab443e1096857076282e0d0029aa1a8043c8844
+# BUILD_DATE=20221015
+# BUILD_TAG=2022-10-15
 # STATUS=completed
-# VERSION=latest02
-# END_TIME=00:38
+# VERSION=latest01
+# END_TIME=00:42
 
 [time]
 format = "rfc-3339"
 zone = "UTC"
-date = 2022-09-15
-begin = 2022-09-15 00:11:16.735795994+00:00
-start-sync_0 = 00:19:36
-start-zstd = 00:24:08
-start-sync_1 = 00:37:03
-end-sync_1 = 00:38:32
-end = 2022-09-15 00:38:32.063207517+00:00
+date = 2022-10-15
+begin = 2022-10-15 00:10:06.015223110+00:00
+start-sync_0 = 00:20:07
+start-zstd = 00:25:48
+start-sync_1 = 00:41:14
+end-sync_1 = 00:42:54
+end = 2022-10-15 00:42:54.199211960+00:00
 
 [server]
 repo = "cake233/euler-dde-amd64"
@@ -77,7 +77,7 @@ split = false
 [server.node2]
 name = "tmoe"
 current = true
-previous = false
+previous = true
 in_sync = false
 split = false
 
@@ -86,8 +86,6 @@ name = "azure"
 current = true
 previous = true
 in_sync = false
-start_sync = 2022-09-15 04:09:54.089619345+00:00
-end_sync = 2022-09-15 04:13:43.835025728+00:00
 split = false
 
 [server.node4]
