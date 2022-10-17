@@ -1,6 +1,6 @@
 [main]
 name = "nginx"
-tag = ["alpine", "2022-10-03", "musl-libc", "musl"]
+tag = ["alpine", "2022-10-17", "musl-libc", "musl"]
 os = "alpine"
 release = "stable"
 arch = "amd64"
@@ -9,10 +9,10 @@ xorg_or_wayland = false
 syntax_version = "0.0.0-alpha.4"
 
 [file]
-name = "nginx-musl_amd64_2022-10-03_12-03.tar.zst"
+name = "nginx-musl_amd64_2022-10-17_12-04.tar.zst"
 
 # This value can be used to verify the integrity of the file
-sha256 = "bb03cff40a694dfb1972d00fd3e90128f280c0ce6218a6a4cd8bb99881fba233"
+sha256 = "d675c2db6f9cc1735c9a8aea244e26062c27ad05a01468d077dcb88517204708"
 
 # zstd: [1-22]
 zstd-level = 22
@@ -26,43 +26,43 @@ tar_bytes = 36012544
 # Space occupied ≈ tar-size + zstd-size
 # You will need to prepare a large enough space before installation.
 zstd = "9.3M"
-zstd_bytes = 9720501
+zstd_bytes = 9720528
 
 [compatibility]
 compatible_mode = true
 
-previous_version = "latest01"
+previous_version = "latest02"
 
 # The value is &str, not int
-previous_date = "20220919"
-previous_tag = "2022-09-19"
-previous_file = "nginx-musl_amd64_2022-09-19_12-03-rootfs.tar.zst"
-previous_sha256 = "6ce99377561065cccdc4fcdb5151448c82f53aa8f13c366f1e68183fe3afa165"
+previous_date = "20221003"
+previous_tag = "2022-10-03"
+previous_file = "nginx-musl_amd64_2022-10-03_12-03-rootfs.tar.zst"
+previous_sha256 = "bb03cff40a694dfb1972d00fd3e90128f280c0ce6218a6a4cd8bb99881fba233"
 
-current_version = "latest02"
-current_date = "20221003"
-old_file = "nginx-musl_amd64_2022-09-05_12-03-rootfs.tar.zst"
-old_sha256 = "9636f80fa8ad4fa04ceaa3ab1b90ddc0b27438199246ff8b30e0b3ab1a9e8788"
+current_version = "latest01"
+current_date = "20221017"
+old_file = "nginx-musl_amd64_2022-09-19_12-03-rootfs.tar.zst"
+old_sha256 = "6ce99377561065cccdc4fcdb5151448c82f53aa8f13c366f1e68183fe3afa165"
 # edition 2021
 # DISTRO_NAME=nginx_amd64
-# ROOTFS_FILE=nginx-musl_amd64_2022-10-03_12-03-rootfs.tar.zst
-# SHA256SUM=bb03cff40a694dfb1972d00fd3e90128f280c0ce6218a6a4cd8bb99881fba233
-# BUILD_DATE=20221003
-# BUILD_TAG=2022-10-03
+# ROOTFS_FILE=nginx-musl_amd64_2022-10-17_12-04-rootfs.tar.zst
+# SHA256SUM=d675c2db6f9cc1735c9a8aea244e26062c27ad05a01468d077dcb88517204708
+# BUILD_DATE=20221017
+# BUILD_TAG=2022-10-17
 # STATUS=completed
-# VERSION=latest02
-# END_TIME=12:03
+# VERSION=latest01
+# END_TIME=12:04
 
 [time]
 format = "rfc-3339"
 zone = "UTC"
-date = 2022-10-03
-begin = 2022-10-03 12:02:26.175116146+00:00
-start-sync_0 = 12:03:11
-start-zstd = 12:03:18
-start-sync_1 = 12:03:36
-end-sync_1 = 12:03:41
-end = 2022-10-03 12:03:41.438407203+00:00
+date = 2022-10-17
+begin = 2022-10-17 12:02:35.111441633+00:00
+start-sync_0 = 12:03:30
+start-zstd = 12:03:43
+start-sync_1 = 12:04:04
+end-sync_1 = 12:04:14
+end = 2022-10-17 12:04:14.153694937+00:00
 
 [server]
 repo = "cake233/nginx-alpine-amd64"
@@ -77,7 +77,7 @@ split = false
 [server.node2]
 name = "tmoe"
 current = true
-previous = false
+previous = true
 in_sync = false
 split = false
 
@@ -86,8 +86,6 @@ name = "azure"
 current = true
 previous = true
 in_sync = false
-start_sync = 2022-10-03 18:02:37.548047799+00:00
-end_sync = 2022-10-03 18:02:43.773470363+00:00
 split = false
 
 [server.node4]
