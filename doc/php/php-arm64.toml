@@ -1,6 +1,6 @@
 [main]
 name = "php"
-tag = ["latest", "2022-10-10"]
+tag = ["latest", "2022-10-24"]
 os = "debian"
 release = "stable"
 arch = "arm64"
@@ -9,10 +9,10 @@ xorg_or_wayland = false
 syntax_version = "0.0.0-alpha.4"
 
 [file]
-name = "php_arm64_2022-10-10_12-10.tar.zst"
+name = "php_arm64_2022-10-24_12-09.tar.zst"
 
 # This value can be used to verify the integrity of the file
-sha256 = "b5c81e0382525e89ed36fc0a30374cf6578302f0520b3e795db01e41e3cf4631"
+sha256 = "7b0b3736ad3d054830cb6c3e58fb72d7747b52dc67a502f5126fcb21322343cd"
 
 # zstd: [1-22]
 zstd-level = 22
@@ -21,48 +21,48 @@ zstd-level = 22
 # Installed size ≈ tar-size
 # Installed size is approximately equal to the size of the tar file
 tar = "457M"
-tar_bytes = 478288896
+tar_bytes = 478297600
 
 # Space occupied ≈ tar-size + zstd-size
 # You will need to prepare a large enough space before installation.
 zstd = "99M"
-zstd_bytes = 102875637
+zstd_bytes = 102877119
 
 [compatibility]
 compatible_mode = true
 
-previous_version = "latest01"
+previous_version = "latest02"
 
 # The value is &str, not int
-previous_date = "20220926"
-previous_tag = "2022-09-26"
-previous_file = "php_arm64_2022-09-26_12-09-rootfs.tar.zst"
-previous_sha256 = "ee5152ab151dbc6b5958e51df368b26bc9ac63a99b3fff225dda22b87d137e4b"
+previous_date = "20221010"
+previous_tag = "2022-10-10"
+previous_file = "php_arm64_2022-10-10_12-10-rootfs.tar.zst"
+previous_sha256 = "b5c81e0382525e89ed36fc0a30374cf6578302f0520b3e795db01e41e3cf4631"
 
-current_version = "latest02"
-current_date = "20221010"
-old_file = "php_arm64_2022-09-12_12-09-rootfs.tar.zst"
-old_sha256 = "7c5c13e52d2348ae669145fc43a8805183dbc4a21c677653dd47eba1dfa7804a"
+current_version = "latest01"
+current_date = "20221024"
+old_file = "php_arm64_2022-09-26_12-09-rootfs.tar.zst"
+old_sha256 = "ee5152ab151dbc6b5958e51df368b26bc9ac63a99b3fff225dda22b87d137e4b"
 # edition 2021
 # DISTRO_NAME=php_arm64
-# ROOTFS_FILE=php_arm64_2022-10-10_12-10-rootfs.tar.zst
-# SHA256SUM=b5c81e0382525e89ed36fc0a30374cf6578302f0520b3e795db01e41e3cf4631
-# BUILD_DATE=20221010
-# BUILD_TAG=2022-10-10
+# ROOTFS_FILE=php_arm64_2022-10-24_12-09-rootfs.tar.zst
+# SHA256SUM=7b0b3736ad3d054830cb6c3e58fb72d7747b52dc67a502f5126fcb21322343cd
+# BUILD_DATE=20221024
+# BUILD_TAG=2022-10-24
 # STATUS=completed
-# VERSION=latest02
-# END_TIME=12:10
+# VERSION=latest01
+# END_TIME=12:09
 
 [time]
 format = "rfc-3339"
 zone = "UTC"
-date = 2022-10-10
-begin = 2022-10-10 12:02:30.752628316+00:00
-start-sync_0 = 12:05:22
-start-zstd = 12:05:38
-start-sync_1 = 12:10:06
-end-sync_1 = 12:10:20
-end = 2022-10-10 12:10:20.290569385+00:00
+date = 2022-10-24
+begin = 2022-10-24 12:02:30.047267070+00:00
+start-sync_0 = 12:05:06
+start-zstd = 12:05:22
+start-sync_1 = 12:09:20
+end-sync_1 = 12:09:33
+end = 2022-10-24 12:09:33.812054643+00:00
 
 [server]
 repo = "cake233/php-arm64"
@@ -77,7 +77,7 @@ split = false
 [server.node2]
 name = "tmoe"
 current = true
-previous = false
+previous = true
 in_sync = false
 split = false
 
@@ -86,8 +86,6 @@ name = "azure"
 current = true
 previous = true
 in_sync = false
-start_sync = 2022-10-10 18:13:27.562949795+00:00
-end_sync = 2022-10-10 18:13:56.933002006+00:00
 split = false
 
 [server.node4]
@@ -100,7 +98,7 @@ LANG = "en_US.UTF-8"
 PHP_INI_DIR = '/usr/local/etc/php'
 
 [version]
-ldd = 'ldd (Debian GLIBC 2.31-13+deb11u4) 2.31'
+ldd = 'ldd (Debian GLIBC 2.31-13+deb11u5) 2.31'
 php = '''
 PHP 8.1.11 (cli) (built: Oct  5 2022 07:40:39) (NTS)
 Copyright (c) The PHP Group
