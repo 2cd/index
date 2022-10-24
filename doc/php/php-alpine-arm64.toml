@@ -1,6 +1,6 @@
 [main]
 name = "php"
-tag = ["alpine", "2022-10-10", "musl-libc", "musl"]
+tag = ["alpine", "2022-10-24", "musl-libc", "musl"]
 os = "alpine"
 release = "stable"
 arch = "arm64"
@@ -9,10 +9,10 @@ xorg_or_wayland = false
 syntax_version = "0.0.0-alpha.4"
 
 [file]
-name = "php-musl_arm64_2022-10-10_12-04.tar.zst"
+name = "php-musl_arm64_2022-10-24_12-04.tar.zst"
 
 # This value can be used to verify the integrity of the file
-sha256 = "9f17af4f539f5a802de789ba5a0e20296e7b68e06acba9cbb0d400a2f88a269d"
+sha256 = "b0935bd93772ca420ae4d16a1947e39de0c11a0207708c5f9d90ee9bee63c54c"
 
 # zstd: [1-22]
 zstd-level = 22
@@ -26,43 +26,43 @@ tar_bytes = 95009792
 # Space occupied ≈ tar-size + zstd-size
 # You will need to prepare a large enough space before installation.
 zstd = "25M"
-zstd_bytes = 25348997
+zstd_bytes = 25346282
 
 [compatibility]
 compatible_mode = true
 
-previous_version = "latest02"
+previous_version = "latest01"
 
 # The value is &str, not int
-previous_date = "20220926"
-previous_tag = "2022-09-26"
-previous_file = "php-musl_arm64_2022-09-26_12-05-rootfs.tar.zst"
-previous_sha256 = "e54f3129edd1b3f03eb29df91cf1d7ad519fe53f6222e7cc121b0d6c67ab6e3f"
+previous_date = "20221010"
+previous_tag = "2022-10-10"
+previous_file = "php-musl_arm64_2022-10-10_12-04-rootfs.tar.zst"
+previous_sha256 = "9f17af4f539f5a802de789ba5a0e20296e7b68e06acba9cbb0d400a2f88a269d"
 
-current_version = "latest01"
-current_date = "20221010"
-old_file = "php-musl_arm64_2022-09-12_13-09-rootfs.tar.zst"
-old_sha256 = "950ca40616822c8e7e2293231be36555f0df3a32e2e0d7a2e2f0f2d92d32f399"
+current_version = "latest02"
+current_date = "20221024"
+old_file = "php-musl_arm64_2022-09-26_12-05-rootfs.tar.zst"
+old_sha256 = "e54f3129edd1b3f03eb29df91cf1d7ad519fe53f6222e7cc121b0d6c67ab6e3f"
 # edition 2021
 # DISTRO_NAME=php_arm64
-# ROOTFS_FILE=php-musl_arm64_2022-10-10_12-04-rootfs.tar.zst
-# SHA256SUM=9f17af4f539f5a802de789ba5a0e20296e7b68e06acba9cbb0d400a2f88a269d
-# BUILD_DATE=20221010
-# BUILD_TAG=2022-10-10
+# ROOTFS_FILE=php-musl_arm64_2022-10-24_12-04-rootfs.tar.zst
+# SHA256SUM=b0935bd93772ca420ae4d16a1947e39de0c11a0207708c5f9d90ee9bee63c54c
+# BUILD_DATE=20221024
+# BUILD_TAG=2022-10-24
 # STATUS=completed
-# VERSION=latest01
+# VERSION=latest02
 # END_TIME=12:04
 
 [time]
 format = "rfc-3339"
 zone = "UTC"
-date = 2022-10-10
-begin = 2022-10-10 12:02:28.000929434+00:00
-start-sync_0 = 12:03:25
-start-zstd = 12:03:31
-start-sync_1 = 12:04:08
-end-sync_1 = 12:04:15
-end = 2022-10-10 12:04:15.375201316+00:00
+date = 2022-10-24
+begin = 2022-10-24 12:02:28.020537045+00:00
+start-sync_0 = 12:03:21
+start-zstd = 12:03:26
+start-sync_1 = 12:04:03
+end-sync_1 = 12:04:09
+end = 2022-10-24 12:04:09.049897365+00:00
 
 [server]
 repo = "cake233/php-alpine-arm64"
@@ -77,7 +77,7 @@ split = false
 [server.node2]
 name = "tmoe"
 current = true
-previous = false
+previous = true
 in_sync = false
 split = false
 
@@ -86,8 +86,6 @@ name = "azure"
 current = true
 previous = true
 in_sync = false
-start_sync = 2022-10-10 18:11:29.741145669+00:00
-end_sync = 2022-10-10 18:11:37.811479270+00:00
 split = false
 
 [server.node4]
