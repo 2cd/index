@@ -44,7 +44,7 @@ docker exec -it dotnet-arm64 /usr/local/powershell/pwsh
 ```toml
 [main]
 name = "dotnet"
-tag = ["latest", "2022-10-10", ".NET", "dotnet-sdk"]
+tag = ["latest", "2022-10-24", ".NET", "dotnet-sdk"]
 os = "arch"
 release = "latest"
 arch = "arm64"
@@ -53,10 +53,10 @@ xorg_or_wayland = false
 syntax_version = "0.0.0-alpha.4"
 
 [file]
-name = "dotnet_arm64_2022-10-10_12-27.tar.zst"
+name = "dotnet_arm64_2022-10-24_12-27.tar.zst"
 
 # This value can be used to verify the integrity of the file
-sha256 = "50f71102ea3e7f1cd0c07d6fab6dbf8c26cb213ccf63981975f5ee4e92228c63"
+sha256 = "8689635b60e00182f658a46b4975539f34c21a5010a3891931c4598a4a39f7be"
 
 # zstd: [1-22]
 zstd-level = 22
@@ -65,48 +65,48 @@ zstd-level = 22
 # Installed size ≈ tar-size
 # Installed size is approximately equal to the size of the tar file
 tar = "1.7G"
-tar_bytes = 1736492032
+tar_bytes = 1739480576
 
 # Space occupied ≈ tar-size + zstd-size
 # You will need to prepare a large enough space before installation.
-zstd = "388M"
-zstd_bytes = 406733411
+zstd = "389M"
+zstd_bytes = 407416396
 
 [compatibility]
 compatible_mode = true
 
-previous_version = "latest02"
+previous_version = "latest01"
 
 # The value is &str, not int
-previous_date = "20220926"
-previous_tag = "2022-09-26"
-previous_file = "dotnet_arm64_2022-09-26_12-29-rootfs.tar.zst"
-previous_sha256 = "6505fc3199a98eac3b2063d799f1a1259250b9f87e20bbc5c190706c4cec9f77"
+previous_date = "20221010"
+previous_tag = "2022-10-10"
+previous_file = "dotnet_arm64_2022-10-10_12-27-rootfs.tar.zst"
+previous_sha256 = "50f71102ea3e7f1cd0c07d6fab6dbf8c26cb213ccf63981975f5ee4e92228c63"
 
-current_version = "latest01"
-current_date = "20221010"
-old_file = "dotnet_arm64_2022-09-12_12-34-rootfs.tar.zst"
-old_sha256 = "66c390298eb6bdd093ae59560c965b8421e795eacc889acd439d33cc8285dd15"
+current_version = "latest02"
+current_date = "20221024"
+old_file = "dotnet_arm64_2022-09-26_12-29-rootfs.tar.zst"
+old_sha256 = "6505fc3199a98eac3b2063d799f1a1259250b9f87e20bbc5c190706c4cec9f77"
 # edition 2021
 # DISTRO_NAME=dotnet_arm64
-# ROOTFS_FILE=dotnet_arm64_2022-10-10_12-27-rootfs.tar.zst
-# SHA256SUM=50f71102ea3e7f1cd0c07d6fab6dbf8c26cb213ccf63981975f5ee4e92228c63
-# BUILD_DATE=20221010
-# BUILD_TAG=2022-10-10
+# ROOTFS_FILE=dotnet_arm64_2022-10-24_12-27-rootfs.tar.zst
+# SHA256SUM=8689635b60e00182f658a46b4975539f34c21a5010a3891931c4598a4a39f7be
+# BUILD_DATE=20221024
+# BUILD_TAG=2022-10-24
 # STATUS=completed
-# VERSION=latest01
+# VERSION=latest02
 # END_TIME=12:27
 
 [time]
 format = "rfc-3339"
 zone = "UTC"
-date = 2022-10-10
-begin = 2022-10-10 12:02:28.221872335+00:00
-start-sync_0 = 12:17:02
-start-zstd = 12:17:39
-start-sync_1 = 12:26:58
-end-sync_1 = 12:27:26
-end = 2022-10-10 12:27:26.771689554+00:00
+date = 2022-10-24
+begin = 2022-10-24 12:02:30.243280119+00:00
+start-sync_0 = 12:17:08
+start-zstd = 12:17:49
+start-sync_1 = 12:27:14
+end-sync_1 = 12:27:43
+end = 2022-10-24 12:27:43.320904610+00:00
 
 [server]
 repo = "cake233/dotnet-arm64"
@@ -150,35 +150,35 @@ NUGET_XMLDOC_MODE = "skip"
 
 [version]
 ldd = 'ldd (GNU libc) 2.35'
-git = 'git version 2.38.0'
-dotnet = '6.0.401'
-powershell = 'PowerShell 7.2.6'
+git = 'git version 2.38.1'
+dotnet = '6.0.402'
+powershell = 'PowerShell 7.2.7'
 dotnet_info = '''
 .NET SDK (reflecting any global.json):
- Version:   6.0.401
- Commit:    0906eae6f8
+ Version:   6.0.402
+ Commit:    6862418796
 
 Runtime Environment:
  OS Name:     archarm
  OS Version:  
  OS Platform: Linux
  RID:         linux-arm64
- Base Path:   /usr/local/dotnet/sdk/6.0.401/
+ Base Path:   /usr/local/dotnet/sdk/6.0.402/
 
 global.json file:
   Not found
 
 Host:
-  Version:      6.0.9
+  Version:      6.0.10
   Architecture: arm64
-  Commit:       163a63591c
+  Commit:       5a400c212a
 
 .NET SDKs installed:
-  6.0.401 [/usr/local/dotnet/sdk]
+  6.0.402 [/usr/local/dotnet/sdk]
 
 .NET runtimes installed:
-  Microsoft.AspNetCore.App 6.0.9 [/usr/local/dotnet/shared/Microsoft.AspNetCore.App]
-  Microsoft.NETCore.App 6.0.9 [/usr/local/dotnet/shared/Microsoft.NETCore.App]
+  Microsoft.AspNetCore.App 6.0.10 [/usr/local/dotnet/shared/Microsoft.AspNetCore.App]
+  Microsoft.NETCore.App 6.0.10 [/usr/local/dotnet/shared/Microsoft.NETCore.App]
 
 Download .NET:
   https://aka.ms/dotnet-download
