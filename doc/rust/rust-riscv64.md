@@ -69,7 +69,7 @@ ldd "$FILE"
 ```toml
 [main]
 name = "rust"
-tag = ["latest", "2022-10-21", "nightly", "unstable", "default", "gnu-libc"]
+tag = ["latest", "2022-10-24", "nightly", "unstable", "default", "gnu-libc"]
 os = "debian"
 release = "sid"
 arch = "riscv64"
@@ -78,10 +78,10 @@ xorg_or_wayland = false
 syntax_version = "0.0.0-alpha.4"
 
 [file]
-name = "rust_riscv64_2022-10-21_03-09.tar.zst"
+name = "rust_riscv64_2022-10-24_03-08.tar.zst"
 
 # This value can be used to verify the integrity of the file
-sha256 = "34c1ee69722ac0430f775dd6f2128d78d1bc365f5e214358556fc674a998efd2"
+sha256 = "c4addd8f27f2ba53797b502e74cc4f77dcfef412f39311be36cc1a0730d8b8c1"
 
 # zstd: [1-22]
 zstd-level = 20
@@ -90,48 +90,48 @@ zstd-level = 20
 # Installed size ≈ tar-size
 # Installed size is approximately equal to the size of the tar file
 tar = "1.6G"
-tar_bytes = 1664256000
+tar_bytes = 1664520704
 
 # Space occupied ≈ tar-size + zstd-size
 # You will need to prepare a large enough space before installation.
-zstd = "227M"
-zstd_bytes = 237240717
+zstd = "226M"
+zstd_bytes = 236737464
 
 [compatibility]
 compatible_mode = true
 
-previous_version = "latest02"
+previous_version = "latest01"
 
 # The value is &str, not int
-previous_date = "20221017"
-previous_tag = "2022-10-17"
-previous_file = "rust_riscv64_2022-10-17_03-08-rootfs.tar.zst"
-previous_sha256 = "cea4142285b59d2562a522cae3044a6684b017b467bc4fa8d33164fba1bc7679"
+previous_date = "20221021"
+previous_tag = "2022-10-21"
+previous_file = "rust_riscv64_2022-10-21_03-09-rootfs.tar.zst"
+previous_sha256 = "34c1ee69722ac0430f775dd6f2128d78d1bc365f5e214358556fc674a998efd2"
 
-current_version = "latest01"
-current_date = "20221021"
-old_file = "rust_riscv64_2022-10-14_03-06-rootfs.tar.zst"
-old_sha256 = "d51c316b9d251106bf80be8175d6d684119238653ebe8dcd62b9c7f1451119fb"
+current_version = "latest02"
+current_date = "20221024"
+old_file = "rust_riscv64_2022-10-17_03-08-rootfs.tar.zst"
+old_sha256 = "cea4142285b59d2562a522cae3044a6684b017b467bc4fa8d33164fba1bc7679"
 # edition 2021
 # DISTRO_NAME=rust_riscv64
-# ROOTFS_FILE=rust_riscv64_2022-10-21_03-09-rootfs.tar.zst
-# SHA256SUM=34c1ee69722ac0430f775dd6f2128d78d1bc365f5e214358556fc674a998efd2
-# BUILD_DATE=20221021
-# BUILD_TAG=2022-10-21
+# ROOTFS_FILE=rust_riscv64_2022-10-24_03-08-rootfs.tar.zst
+# SHA256SUM=c4addd8f27f2ba53797b502e74cc4f77dcfef412f39311be36cc1a0730d8b8c1
+# BUILD_DATE=20221024
+# BUILD_TAG=2022-10-24
 # STATUS=completed
-# VERSION=latest01
-# END_TIME=03:09
+# VERSION=latest02
+# END_TIME=03:08
 
 [time]
 format = "rfc-3339"
 zone = "UTC"
-date = 2022-10-21
-begin = 2022-10-21 02:52:30.899613160+00:00
-start-sync_0 = 03:01:58
-start-zstd = 03:03:12
-start-sync_1 = 03:09:16
-end-sync_1 = 03:09:45
-end = 2022-10-21 03:09:45.314124477+00:00
+date = 2022-10-24
+begin = 2022-10-24 02:52:26.565816121+00:00
+start-sync_0 = 03:01:00
+start-zstd = 03:02:06
+start-sync_1 = 03:08:13
+end-sync_1 = 03:08:36
+end = 2022-10-24 03:08:36.820454682+00:00
 
 [server]
 repo = "cake233/rust-riscv64"
@@ -171,24 +171,24 @@ CARGO_HOME = "/usr/local/cargo"
 [version]
 ldd = 'ldd (Debian GLIBC 2.35-3) 2.35'
 rustup = 'rustup 1.25.1 (bb60b1e89 2022-07-12)'
-cargo = 'cargo 1.66.0-nightly (3ff044334 2022-10-17)'
-rustc = 'rustc 1.66.0-nightly (dcb376115 2022-10-20)'
-cc = 'cc (Debian 12.2.0-5) 12.2.0'
+cargo = 'cargo 1.66.0-nightly (071eeaf21 2022-10-22)'
+rustc = 'rustc 1.66.0-nightly (7fcf850d7 2022-10-23)'
+cc = 'cc (Debian 12.2.0-7) 12.2.0'
 cargo_verbose = '''
-cargo 1.66.0-nightly (3ff044334 2022-10-17)
+cargo 1.66.0-nightly (071eeaf21 2022-10-22)
 release: 1.66.0-nightly
-commit-hash: 3ff044334f0567ce1481c78603aeee7211b91623
-commit-date: 2022-10-17
+commit-hash: 071eeaf210708219a5a1b2c4728ca2f97df7f2ae
+commit-date: 2022-10-22
 host: riscv64gc-unknown-linux-gnu
 libgit2: 1.5.0 (sys:0.15.0 vendored)
 libcurl: 7.83.1-DEV (sys:0.4.55+curl-7.83.1 vendored ssl:OpenSSL/1.1.1q)
 os: Linux [64-bit]
 '''
 rustc_verbose = '''
-rustc 1.66.0-nightly (dcb376115 2022-10-20)
+rustc 1.66.0-nightly (7fcf850d7 2022-10-23)
 binary: rustc
-commit-hash: dcb376115066d111dbf5f13d5ac2a2dbe8c12add
-commit-date: 2022-10-20
+commit-hash: 7fcf850d7942804990a1d2e3fe036622a0fe4c74
+commit-date: 2022-10-23
 host: riscv64gc-unknown-linux-gnu
 release: 1.66.0-nightly
 LLVM version: 15.0.2
