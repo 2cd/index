@@ -210,7 +210,7 @@ editor 0.set || nano 0.set
 ```toml
 [main]
 name = "code"
-tag = ["latest", "2022-10-17", "vsc", "vscode", "web"]
+tag = ["latest", "2022-10-31", "vsc", "vscode", "web"]
 os = "debian"
 release = "sid"
 arch = "arm64"
@@ -219,10 +219,10 @@ xorg_or_wayland = false
 syntax_version = "0.0.0-alpha.4"
 
 [file]
-name = "code_arm64_2022-10-17_12-12.tar.zst"
+name = "code_arm64_2022-10-31_12-11.tar.zst"
 
 # This value can be used to verify the integrity of the file
-sha256 = "06ac5221e71ac3b7c3bdffeb0a45f3220b3f9b1e5160572a7ccd87f66c29ec17"
+sha256 = "949e2fd8d8009851e8dfa49a5924e50dfddb2087f398c3f0d9277f24229dbece"
 
 # zstd: [1-22]
 zstd-level = 22
@@ -230,49 +230,49 @@ zstd-level = 22
 [file.size]
 # Installed size ≈ tar-size
 # Installed size is approximately equal to the size of the tar file
-tar = "492M"
-tar_bytes = 514896896
+tar = "499M"
+tar_bytes = 522220032
 
 # Space occupied ≈ tar-size + zstd-size
 # You will need to prepare a large enough space before installation.
-zstd = "81M"
-zstd_bytes = 84893279
+zstd = "83M"
+zstd_bytes = 86754711
 
 [compatibility]
 compatible_mode = true
 
-previous_version = "latest01"
+previous_version = "latest02"
 
 # The value is &str, not int
-previous_date = "20221003"
-previous_tag = "2022-10-03"
-previous_file = "code_arm64_2022-10-03_12-12-rootfs.tar.zst"
-previous_sha256 = "6cbc82c1f69735a5492d7a5aad6aa6fd3191c089649ddbc288722050d1e2ccb4"
+previous_date = "20221017"
+previous_tag = "2022-10-17"
+previous_file = "code_arm64_2022-10-17_12-12-rootfs.tar.zst"
+previous_sha256 = "06ac5221e71ac3b7c3bdffeb0a45f3220b3f9b1e5160572a7ccd87f66c29ec17"
 
-current_version = "latest02"
-current_date = "20221017"
-old_file = "code_arm64_2022-09-19_12-13-rootfs.tar.zst"
-old_sha256 = "ed732f2ba1fcb651c57ca6c5a20b1ade229a56b1ed2ad42a9662d89e0e11afea"
+current_version = "latest01"
+current_date = "20221031"
+old_file = "code_arm64_2022-10-03_12-12-rootfs.tar.zst"
+old_sha256 = "6cbc82c1f69735a5492d7a5aad6aa6fd3191c089649ddbc288722050d1e2ccb4"
 # edition 2021
 # DISTRO_NAME=code_arm64
-# ROOTFS_FILE=code_arm64_2022-10-17_12-12-rootfs.tar.zst
-# SHA256SUM=06ac5221e71ac3b7c3bdffeb0a45f3220b3f9b1e5160572a7ccd87f66c29ec17
-# BUILD_DATE=20221017
-# BUILD_TAG=2022-10-17
+# ROOTFS_FILE=code_arm64_2022-10-31_12-11-rootfs.tar.zst
+# SHA256SUM=949e2fd8d8009851e8dfa49a5924e50dfddb2087f398c3f0d9277f24229dbece
+# BUILD_DATE=20221031
+# BUILD_TAG=2022-10-31
 # STATUS=completed
-# VERSION=latest02
-# END_TIME=12:12
+# VERSION=latest01
+# END_TIME=12:11
 
 [time]
 format = "rfc-3339"
 zone = "UTC"
-date = 2022-10-17
-begin = 2022-10-17 12:02:28.918356611+00:00
-start-sync_0 = 12:07:57
-start-zstd = 12:08:27
-start-sync_1 = 12:11:52
-end-sync_1 = 12:12:04
-end = 2022-10-17 12:12:04.521678337+00:00
+date = 2022-10-31
+begin = 2022-10-31 12:02:27.465968663+00:00
+start-sync_0 = 12:07:04
+start-zstd = 12:07:32
+start-sync_1 = 12:11:06
+end-sync_1 = 12:11:16
+end = 2022-10-31 12:11:16.942367873+00:00
 
 [server]
 repo = "cake233/code-arm64"
@@ -307,8 +307,8 @@ current = true
 LANG = "en_US.UTF-8"
 
 [version]
-ldd = 'ldd (Debian GLIBC 2.35-3) 2.35'
-code = '4.7.1 77bbed48315a7cc275dc05a53d197197928f4b88 with Code 1.71.2'
+ldd = 'ldd (Debian GLIBC 2.35-4) 2.35'
+code = '4.8.1 cc8ce3b3c642b162daf39ad1d94ab778282463ef with Code 1.72.1'
 
 [port]
 tcp = [8080]
