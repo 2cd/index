@@ -69,7 +69,7 @@ ldd "$FILE"
 ```toml
 [main]
 name = "rust"
-tag = ["latest", "2022-10-28", "nightly", "unstable", "default", "gnu-libc"]
+tag = ["latest", "2022-10-31", "nightly", "unstable", "default", "gnu-libc"]
 os = "debian"
 release = "sid"
 arch = "armhf"
@@ -78,10 +78,10 @@ xorg_or_wayland = false
 syntax_version = "0.0.0-alpha.4"
 
 [file]
-name = "rust_armhf_2022-10-28_03-07.tar.zst"
+name = "rust_armhf_2022-10-31_03-04.tar.zst"
 
 # This value can be used to verify the integrity of the file
-sha256 = "f9f4c84eb21942dd716b94ba06be7b2e84128768759c017991294c06629372bd"
+sha256 = "0442c819daf12bc26caaa5dbe5143b2b8c23fd63b571e6e391ceddb1082197da"
 
 # zstd: [1-22]
 zstd-level = 20
@@ -90,48 +90,48 @@ zstd-level = 20
 # Installed size ≈ tar-size
 # Installed size is approximately equal to the size of the tar file
 tar = "1.5G"
-tar_bytes = 1598814208
+tar_bytes = 1598229504
 
 # Space occupied ≈ tar-size + zstd-size
 # You will need to prepare a large enough space before installation.
 zstd = "236M"
-zstd_bytes = 247218200
+zstd_bytes = 247129998
 
 [compatibility]
 compatible_mode = true
 
-previous_version = "latest02"
+previous_version = "latest01"
 
 # The value is &str, not int
-previous_date = "20221024"
-previous_tag = "2022-10-24"
-previous_file = "rust_armhf_2022-10-24_03-05-rootfs.tar.zst"
-previous_sha256 = "364add5a80fa80c555e46211f022eb8eaa69242bb9597195bb63e4adf502259e"
+previous_date = "20221028"
+previous_tag = "2022-10-28"
+previous_file = "rust_armhf_2022-10-28_03-07-rootfs.tar.zst"
+previous_sha256 = "f9f4c84eb21942dd716b94ba06be7b2e84128768759c017991294c06629372bd"
 
-current_version = "latest01"
-current_date = "20221028"
-old_file = "rust_armhf_2022-10-21_03-05-rootfs.tar.zst"
-old_sha256 = "5fe215182e2c35e6dd585b3605c5db1e448474ea019f9e97c6e996f2128159d1"
+current_version = "latest02"
+current_date = "20221031"
+old_file = "rust_armhf_2022-10-24_03-05-rootfs.tar.zst"
+old_sha256 = "364add5a80fa80c555e46211f022eb8eaa69242bb9597195bb63e4adf502259e"
 # edition 2021
 # DISTRO_NAME=rust_armhf
-# ROOTFS_FILE=rust_armhf_2022-10-28_03-07-rootfs.tar.zst
-# SHA256SUM=f9f4c84eb21942dd716b94ba06be7b2e84128768759c017991294c06629372bd
-# BUILD_DATE=20221028
-# BUILD_TAG=2022-10-28
+# ROOTFS_FILE=rust_armhf_2022-10-31_03-04-rootfs.tar.zst
+# SHA256SUM=0442c819daf12bc26caaa5dbe5143b2b8c23fd63b571e6e391ceddb1082197da
+# BUILD_DATE=20221031
+# BUILD_TAG=2022-10-31
 # STATUS=completed
-# VERSION=latest01
-# END_TIME=03:07
+# VERSION=latest02
+# END_TIME=03:04
 
 [time]
 format = "rfc-3339"
 zone = "UTC"
-date = 2022-10-28
-begin = 2022-10-28 02:52:25.353609370+00:00
-start-sync_0 = 03:00:41
-start-zstd = 03:01:51
-start-sync_1 = 03:07:36
-end-sync_1 = 03:07:59
-end = 2022-10-28 03:07:59.927338024+00:00
+date = 2022-10-31
+begin = 2022-10-31 02:52:18.940381655+00:00
+start-sync_0 = 02:58:12
+start-zstd = 02:59:07
+start-sync_1 = 03:03:48
+end-sync_1 = 03:04:05
+end = 2022-10-31 03:04:05.864421384+00:00
 
 [server]
 repo = "cake233/rust-armv7"
@@ -171,26 +171,26 @@ CARGO_HOME = "/usr/local/cargo"
 [version]
 ldd = 'ldd (Debian GLIBC 2.35-4) 2.35'
 rustup = 'rustup 1.25.1 (bb60b1e89 2022-07-12)'
-cargo = 'cargo 1.66.0-nightly (9210810d1 2022-10-25)'
-rustc = 'rustc 1.66.0-nightly (0da281b60 2022-10-27)'
+cargo = 'cargo 1.67.0-nightly (7e484fc1a 2022-10-27)'
+rustc = 'rustc 1.67.0-nightly (77e57db38 2022-10-30)'
 cc = 'cc (Debian 12.2.0-7) 12.2.0'
 cargo_verbose = '''
-cargo 1.66.0-nightly (9210810d1 2022-10-25)
-release: 1.66.0-nightly
-commit-hash: 9210810d1fd7b51ae0439a0a363cc50e36963455
-commit-date: 2022-10-25
+cargo 1.67.0-nightly (7e484fc1a 2022-10-27)
+release: 1.67.0-nightly
+commit-hash: 7e484fc1a766f56dbc95380f45719698e0c82749
+commit-date: 2022-10-27
 host: armv7-unknown-linux-gnueabihf
 libgit2: 1.5.0 (sys:0.15.0 vendored)
 libcurl: 7.83.1-DEV (sys:0.4.55+curl-7.83.1 vendored ssl:OpenSSL/1.1.1q)
 os: Linux [32-bit]
 '''
 rustc_verbose = '''
-rustc 1.66.0-nightly (0da281b60 2022-10-27)
+rustc 1.67.0-nightly (77e57db38 2022-10-30)
 binary: rustc
-commit-hash: 0da281b6068a7d889ae89a9bd8991284cc9b7535
-commit-date: 2022-10-27
+commit-hash: 77e57db384aca99444c3b5f6a9c86bc58a804d89
+commit-date: 2022-10-30
 host: armv7-unknown-linux-gnueabihf
-release: 1.66.0-nightly
-LLVM version: 15.0.2
+release: 1.67.0-nightly
+LLVM version: 15.0.4
 '''
 ```
