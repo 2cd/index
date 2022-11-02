@@ -20,7 +20,7 @@ docker exec -it arch-armv7 sh
 ```toml
 [main]
 name = "arch"
-tag = ["base", "2022-10-26"]
+tag = ["base", "2022-11-02"]
 os = "arch"
 release = "latest"
 arch = "armhf"
@@ -29,10 +29,10 @@ xorg_or_wayland = false
 syntax_version = "0.0.0-alpha.4"
 
 [file]
-name = "arch_armhf_2022-10-26_00-06.tar.zst"
+name = "arch_armhf_2022-11-02_00-06.tar.zst"
 
 # This value can be used to verify the integrity of the file
-sha256 = "cceb3f85d77cb4d7a2416c04f2a4a2ff815581deb873e9abfe37af2efc00b595"
+sha256 = "abba40efd44e875a4ae1b843b47cbb845624d087d77bc5c6c17abf99290f8070"
 
 # zstd: [1-22]
 zstd-level = 12
@@ -41,12 +41,12 @@ zstd-level = 12
 # Installed size ≈ tar-size
 # Installed size is approximately equal to the size of the tar file
 tar = "781M"
-tar_bytes = 818499584
+tar_bytes = 818620928
 
 # Space occupied ≈ tar-size + zstd-size
 # You will need to prepare a large enough space before installation.
 zstd = "233M"
-zstd_bytes = 243366123
+zstd_bytes = 243438863
 
 [compatibility]
 compatible_mode = true
@@ -60,15 +60,15 @@ previous_file = ""
 previous_sha256 = ""
 
 current_version = "latest01"
-current_date = "20221026"
+current_date = "20221102"
 old_file = ""
 old_sha256 = ""
 # edition 2021
 # DISTRO_NAME=arch_armhf
-# ROOTFS_FILE=arch_armhf_2022-10-26_00-06-rootfs.tar.zst
-# SHA256SUM=cceb3f85d77cb4d7a2416c04f2a4a2ff815581deb873e9abfe37af2efc00b595
-# BUILD_DATE=20221026
-# BUILD_TAG=2022-10-26
+# ROOTFS_FILE=arch_armhf_2022-11-02_00-06-rootfs.tar.zst
+# SHA256SUM=abba40efd44e875a4ae1b843b47cbb845624d087d77bc5c6c17abf99290f8070
+# BUILD_DATE=20221102
+# BUILD_TAG=2022-11-02
 # STATUS=completed
 # VERSION=latest01
 # END_TIME=00:06
@@ -76,13 +76,13 @@ old_sha256 = ""
 [time]
 format = "rfc-3339"
 zone = "UTC"
-date = 2022-10-26
-begin = 2022-10-26 00:02:22.789936263+00:00
-start-sync_0 = 00:05:17
-start-zstd = 00:05:59
-start-sync_1 = 00:06:20
-end-sync_1 = 00:06:40
-end = 2022-10-26 00:06:40.099720222+00:00
+date = 2022-11-02
+begin = 2022-11-02 00:02:23.092736019+00:00
+start-sync_0 = 00:05:03
+start-zstd = 00:05:42
+start-sync_1 = 00:06:05
+end-sync_1 = 00:06:25
+end = 2022-11-02 00:06:25.171095717+00:00
 
 [server]
 repo = "cake233/arch-armv7"
