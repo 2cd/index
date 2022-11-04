@@ -69,7 +69,7 @@ ldd "$FILE"
 ```toml
 [main]
 name = "rust"
-tag = ["alpine", "2022-10-31", "nightly", "unstable", "minimal", "musl-libc", "musl"]
+tag = ["alpine", "2022-11-04", "nightly", "unstable", "minimal", "musl-libc", "musl"]
 os = "alpine"
 release = "edge"
 arch = "amd64"
@@ -78,10 +78,10 @@ xorg_or_wayland = false
 syntax_version = "0.0.0-alpha.4"
 
 [file]
-name = "rust-musl_amd64_2022-10-31_03-00.tar.zst"
+name = "rust-musl_amd64_2022-11-04_03-00.tar.zst"
 
 # This value can be used to verify the integrity of the file
-sha256 = "eda568cb1f380a5c765b51479aab2ceb548706da73ddde4059ced706f6f7148c"
+sha256 = "50c278d74a4062752646d5ed4e2bc143d4f35f72a77cc87f81ea17a80a874f67"
 
 # zstd: [1-22]
 zstd-level = 22
@@ -89,49 +89,49 @@ zstd-level = 22
 [file.size]
 # Installed size ≈ tar-size
 # Installed size is approximately equal to the size of the tar file
-tar = "809M"
-tar_bytes = 847395840
+tar = "808M"
+tar_bytes = 846710272
 
 # Space occupied ≈ tar-size + zstd-size
 # You will need to prepare a large enough space before installation.
 zstd = "163M"
-zstd_bytes = 170623017
+zstd_bytes = 170348809
 
 [compatibility]
 compatible_mode = true
 
-previous_version = "latest02"
+previous_version = "latest01"
 
 # The value is &str, not int
-previous_date = "20221028"
-previous_tag = "2022-10-28"
-previous_file = "rust-musl_amd64_2022-10-28_03-00-rootfs.tar.zst"
-previous_sha256 = "e264b62a0653984b0059a2823da2238f68b96841e021361e288d72e3df20c4db"
+previous_date = "20221031"
+previous_tag = "2022-10-31"
+previous_file = "rust-musl_amd64_2022-10-31_03-00-rootfs.tar.zst"
+previous_sha256 = "eda568cb1f380a5c765b51479aab2ceb548706da73ddde4059ced706f6f7148c"
 
-current_version = "latest01"
-current_date = "20221031"
-old_file = "rust-musl_amd64_2022-10-24_03-00-rootfs.tar.zst"
-old_sha256 = "4c87d2944e23fbcd1bb66b96ffdcae8bf0d3044b3ebaca1005372e77a46e4a4e"
+current_version = "latest02"
+current_date = "20221104"
+old_file = "rust-musl_amd64_2022-10-28_03-00-rootfs.tar.zst"
+old_sha256 = "e264b62a0653984b0059a2823da2238f68b96841e021361e288d72e3df20c4db"
 # edition 2021
 # DISTRO_NAME=rust_amd64
-# ROOTFS_FILE=rust-musl_amd64_2022-10-31_03-00-rootfs.tar.zst
-# SHA256SUM=eda568cb1f380a5c765b51479aab2ceb548706da73ddde4059ced706f6f7148c
-# BUILD_DATE=20221031
-# BUILD_TAG=2022-10-31
+# ROOTFS_FILE=rust-musl_amd64_2022-11-04_03-00-rootfs.tar.zst
+# SHA256SUM=50c278d74a4062752646d5ed4e2bc143d4f35f72a77cc87f81ea17a80a874f67
+# BUILD_DATE=20221104
+# BUILD_TAG=2022-11-04
 # STATUS=completed
-# VERSION=latest01
+# VERSION=latest02
 # END_TIME=03:00
 
 [time]
 format = "rfc-3339"
 zone = "UTC"
-date = 2022-10-31
-begin = 2022-10-31 02:52:26.114456040+00:00
-start-sync_0 = 02:53:18
-start-zstd = 02:54:13
-start-sync_1 = 03:00:35
-end-sync_1 = 03:00:56
-end = 2022-10-31 03:00:56.198164671+00:00
+date = 2022-11-04
+begin = 2022-11-04 02:52:23.362848842+00:00
+start-sync_0 = 02:53:21
+start-zstd = 02:54:09
+start-sync_1 = 02:59:59
+end-sync_1 = 03:00:18
+end = 2022-11-04 03:00:18.152654252+00:00
 
 [server]
 repo = "cake233/rust-alpine-amd64"
@@ -172,8 +172,8 @@ CARGO_HOME = "/usr/local/cargo"
 ldd = 'musl libc (x86_64) Version 1.2.3'
 rustup = 'rustup 1.25.1 (2022-07-12)'
 cargo = 'cargo 1.67.0-nightly (7e484fc1a 2022-10-27)'
-rustc = 'rustc 1.67.0-nightly (77e57db38 2022-10-30)'
-cc = 'cc (Alpine 12.2.1_git20220924-r3) 12.2.1 20220924'
+rustc = 'rustc 1.67.0-nightly (edf018221 2022-11-02)'
+cc = 'cc (Alpine 12.2.1_git20220924-r4) 12.2.1 20220924'
 cargo_verbose = '''
 cargo 1.67.0-nightly (7e484fc1a 2022-10-27)
 release: 1.67.0-nightly
@@ -185,10 +185,10 @@ libcurl: 7.83.1-DEV (sys:0.4.55+curl-7.83.1 vendored ssl:OpenSSL/1.1.1q)
 os: Alpine Linux 3.17_alpha20220715 [64-bit]
 '''
 rustc_verbose = '''
-rustc 1.67.0-nightly (77e57db38 2022-10-30)
+rustc 1.67.0-nightly (edf018221 2022-11-02)
 binary: rustc
-commit-hash: 77e57db384aca99444c3b5f6a9c86bc58a804d89
-commit-date: 2022-10-30
+commit-hash: edf0182213a9e30982eb34f3925ddc4cf5ed3471
+commit-date: 2022-11-02
 host: x86_64-unknown-linux-musl
 release: 1.67.0-nightly
 LLVM version: 15.0.4
