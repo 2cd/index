@@ -85,7 +85,9 @@ split = false
 name = "azure"
 current = true
 previous = true
-in_sync = true
+in_sync = false
+start_sync = 2022-11-07 18:14:58.959244607+00:00
+end_sync = 2022-11-07 18:15:23.193621053+00:00
 split = false
 
 [server.node4]
