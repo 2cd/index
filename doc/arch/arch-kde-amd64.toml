@@ -9,10 +9,10 @@ xorg_or_wayland = true
 syntax_version = "0.0.0-alpha.4"
 
 [file]
-name = "arch-kde_amd64_2022-11-09_00-37.tar.zst"
+name = "arch-kde_amd64_2022-11-09_01-51.tar.zst"
 
 # This value can be used to verify the integrity of the file
-sha256 = "d83ec441f85f6751b6ac305ab462d39736664bcd8d23219e70e2bfdd06f79ffd"
+sha256 = "a83af6d4cdd63de44b59711f7c396cb80ccdbf3d9b36399cca5fc81f7f53146c"
 
 # zstd: [1-22]
 zstd-level = 19
@@ -26,7 +26,7 @@ tar_bytes = 4808309248
 # Space occupied ≈ tar-size + zstd-size
 # You will need to prepare a large enough space before installation.
 zstd = "1.4G"
-zstd_bytes = 1403715049
+zstd_bytes = 1403711255
 
 [compatibility]
 compatible_mode = true
@@ -45,24 +45,24 @@ old_file = "arch-kde_amd64_2022-10-26_00-53-rootfs.tar.zst"
 old_sha256 = "905b47b1eb49566c231448e1ac2245d836d861c6741a4328087eef2e01ac401a"
 # edition 2021
 # DISTRO_NAME=arch_amd64
-# ROOTFS_FILE=arch-kde_amd64_2022-11-09_00-37-rootfs.tar.zst
-# SHA256SUM=d83ec441f85f6751b6ac305ab462d39736664bcd8d23219e70e2bfdd06f79ffd
+# ROOTFS_FILE=arch-kde_amd64_2022-11-09_01-51-rootfs.tar.zst
+# SHA256SUM=a83af6d4cdd63de44b59711f7c396cb80ccdbf3d9b36399cca5fc81f7f53146c
 # BUILD_DATE=20221109
 # BUILD_TAG=2022-11-09
 # STATUS=completed
 # VERSION=latest02
-# END_TIME=00:37
+# END_TIME=01:51
 
 [time]
 format = "rfc-3339"
 zone = "UTC"
 date = 2022-11-09
-begin = 2022-11-09 00:09:07.047938330+00:00
-start-sync_0 = 00:13:40
-start-zstd = 00:18:31
-start-sync_1 = 00:35:53
-end-sync_1 = 00:37:12
-end = 2022-11-09 00:37:12.644722479+00:00
+begin = 2022-11-09 01:16:51.425472922+00:00
+start-sync_0 = 01:23:03
+start-zstd = 01:29:02
+start-sync_1 = 01:50:07
+end-sync_1 = 01:51:43
+end = 2022-11-09 01:51:43.862913181+00:00
 
 [server]
 repo = "cake233/arch-kde-amd64"
