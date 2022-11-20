@@ -86,10 +86,10 @@ xorg_or_wayland = true
 syntax_version = "0.0.0-alpha.4"
 
 [file]
-name = "arch-mate_arm64_2022-11-20_19-20.tar.zst"
+name = "arch-mate_arm64_2022-11-20_21-29.tar.zst"
 
 # This value can be used to verify the integrity of the file
-sha256 = "4a59708083bdbf88f11c7ad02a46997e73951fa3513af7c266fcfd4622fa2103"
+sha256 = "2266eb0fd1af512b10c2cd27a98c21386122a598b4ef428cd18c53cb0df26255"
 
 # zstd: [1-22]
 zstd-level = 19
@@ -98,12 +98,12 @@ zstd-level = 19
 # Installed size ≈ tar-size
 # Installed size is approximately equal to the size of the tar file
 tar = "4.9G"
-tar_bytes = 5231656448
+tar_bytes = 5237266944
 
 # Space occupied ≈ tar-size + zstd-size
 # You will need to prepare a large enough space before installation.
 zstd = "1.4G"
-zstd_bytes = 1462686460
+zstd_bytes = 1463640564
 
 [compatibility]
 compatible_mode = true
@@ -122,24 +122,24 @@ old_file = "arch-mate_arm64_2022-11-09_01-58-rootfs.tar.zst"
 old_sha256 = "fd4c8eb2a42e24521d21daf3b07b33cb9eeaf7433d6701f66b3b6ceff9408557"
 # edition 2021
 # DISTRO_NAME=arch_arm64
-# ROOTFS_FILE=arch-mate_arm64_2022-11-20_19-20-rootfs.tar.zst
-# SHA256SUM=4a59708083bdbf88f11c7ad02a46997e73951fa3513af7c266fcfd4622fa2103
+# ROOTFS_FILE=arch-mate_arm64_2022-11-20_21-29-rootfs.tar.zst
+# SHA256SUM=2266eb0fd1af512b10c2cd27a98c21386122a598b4ef428cd18c53cb0df26255
 # BUILD_DATE=20221120
 # BUILD_TAG=2022-11-20
 # STATUS=completed
 # VERSION=latest02
-# END_TIME=19:20
+# END_TIME=21:29
 
 [time]
 format = "rfc-3339"
 zone = "UTC"
 date = 2022-11-20
-begin = 2022-11-20 18:25:23.622990056+00:00
-start-sync_0 = 18:51:09
-start-zstd = 18:57:12
-start-sync_1 = 19:19:00
-end-sync_1 = 19:20:34
-end = 2022-11-20 19:20:34.110345462+00:00
+begin = 2022-11-20 20:39:02.115057911+00:00
+start-sync_0 = 21:00:48
+start-zstd = 21:06:44
+start-sync_1 = 21:27:59
+end-sync_1 = 21:29:30
+end = 2022-11-20 21:29:30.513502864+00:00
 
 [server]
 repo = "cake233/arch-mate-arm64"
