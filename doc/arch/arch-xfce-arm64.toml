@@ -9,10 +9,10 @@ xorg_or_wayland = true
 syntax_version = "0.0.0-alpha.4"
 
 [file]
-name = "arch-xfce_arm64_2022-11-20_19-11.tar.zst"
+name = "arch-xfce_arm64_2022-11-20_21-16.tar.zst"
 
 # This value can be used to verify the integrity of the file
-sha256 = "3c6a80be365ef4915274a020bd771f2b075127ce878ffdaf17b6ea1a5fa1178e"
+sha256 = "dfc2c32abeb1071b68f523d05431c0d7b6dedbf41fabb54f8fa82fd95583b503"
 
 # zstd: [1-22]
 zstd-level = 19
@@ -21,12 +21,12 @@ zstd-level = 19
 # Installed size ≈ tar-size
 # Installed size is approximately equal to the size of the tar file
 tar = "4.1G"
-tar_bytes = 4344851456
+tar_bytes = 4377744384
 
 # Space occupied ≈ tar-size + zstd-size
 # You will need to prepare a large enough space before installation.
 zstd = "1.2G"
-zstd_bytes = 1259070632
+zstd_bytes = 1270059265
 
 [compatibility]
 compatible_mode = true
@@ -45,24 +45,24 @@ old_file = "arch-xfce_arm64_2022-11-09_01-57-rootfs.tar.zst"
 old_sha256 = "dfb051cbb5611fa3717faf17f0a4ceb42d224e219a422d3d5ef10a0ce96d6e08"
 # edition 2021
 # DISTRO_NAME=arch_arm64
-# ROOTFS_FILE=arch-xfce_arm64_2022-11-20_19-11-rootfs.tar.zst
-# SHA256SUM=3c6a80be365ef4915274a020bd771f2b075127ce878ffdaf17b6ea1a5fa1178e
+# ROOTFS_FILE=arch-xfce_arm64_2022-11-20_21-16-rootfs.tar.zst
+# SHA256SUM=dfc2c32abeb1071b68f523d05431c0d7b6dedbf41fabb54f8fa82fd95583b503
 # BUILD_DATE=20221120
 # BUILD_TAG=2022-11-20
 # STATUS=completed
 # VERSION=latest02
-# END_TIME=19:11
+# END_TIME=21:16
 
 [time]
 format = "rfc-3339"
 zone = "UTC"
 date = 2022-11-20
-begin = 2022-11-20 18:25:25.412063074+00:00
-start-sync_0 = 18:48:06
-start-zstd = 18:52:15
-start-sync_1 = 19:09:57
-end-sync_1 = 19:11:21
-end = 2022-11-20 19:11:21.488729974+00:00
+begin = 2022-11-20 20:39:03.366991587+00:00
+start-sync_0 = 20:56:07
+start-zstd = 21:00:00
+start-sync_1 = 21:15:31
+end-sync_1 = 21:16:55
+end = 2022-11-20 21:16:55.215084823+00:00
 
 [server]
 repo = "cake233/arch-xfce-arm64"
