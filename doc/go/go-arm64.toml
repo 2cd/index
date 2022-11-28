@@ -1,6 +1,6 @@
 [main]
 name = "go"
-tag = ["latest", "2022-11-14"]
+tag = ["latest", "2022-11-28"]
 os = "debian"
 release = "stable"
 arch = "arm64"
@@ -9,10 +9,10 @@ xorg_or_wayland = false
 syntax_version = "0.0.0-alpha.4"
 
 [file]
-name = "go_arm64_2022-11-14_12-10.tar.zst"
+name = "go_arm64_2022-11-28_12-09.tar.zst"
 
 # This value can be used to verify the integrity of the file
-sha256 = "aef4614eb5158f73dcc5b7c1d774f15799f08eba439e9c69d8e04605e1833a6c"
+sha256 = "ff2a9cf99e4fe7af79723388843952d17d6752d89487eb85164258f83a697099"
 
 # zstd: [1-22]
 zstd-level = 22
@@ -26,43 +26,43 @@ tar_bytes = 893171712
 # Space occupied ≈ tar-size + zstd-size
 # You will need to prepare a large enough space before installation.
 zstd = "194M"
-zstd_bytes = 203036574
+zstd_bytes = 203027432
 
 [compatibility]
 compatible_mode = true
 
-previous_version = "latest01"
+previous_version = "latest02"
 
 # The value is &str, not int
-previous_date = "20221031"
-previous_tag = "2022-10-31"
-previous_file = "go_arm64_2022-10-31_12-10-rootfs.tar.zst"
-previous_sha256 = "01bba8ebbb6c3468ca96e4f7eb897d613b1cc296d785a604561f0910905d6827"
+previous_date = "20221114"
+previous_tag = "2022-11-14"
+previous_file = "go_arm64_2022-11-14_12-10-rootfs.tar.zst"
+previous_sha256 = "aef4614eb5158f73dcc5b7c1d774f15799f08eba439e9c69d8e04605e1833a6c"
 
-current_version = "latest02"
-current_date = "20221114"
-old_file = "go_arm64_2022-10-17_12-12-rootfs.tar.zst"
-old_sha256 = "b6102bbe3a8423cb9fe2b5cb052bddc64734e3e5566b32912147aa851f2ce4c9"
+current_version = "latest01"
+current_date = "20221128"
+old_file = "go_arm64_2022-10-31_12-10-rootfs.tar.zst"
+old_sha256 = "01bba8ebbb6c3468ca96e4f7eb897d613b1cc296d785a604561f0910905d6827"
 # edition 2021
 # DISTRO_NAME=go_arm64
-# ROOTFS_FILE=go_arm64_2022-11-14_12-10-rootfs.tar.zst
-# SHA256SUM=aef4614eb5158f73dcc5b7c1d774f15799f08eba439e9c69d8e04605e1833a6c
-# BUILD_DATE=20221114
-# BUILD_TAG=2022-11-14
+# ROOTFS_FILE=go_arm64_2022-11-28_12-09-rootfs.tar.zst
+# SHA256SUM=ff2a9cf99e4fe7af79723388843952d17d6752d89487eb85164258f83a697099
+# BUILD_DATE=20221128
+# BUILD_TAG=2022-11-28
 # STATUS=completed
-# VERSION=latest02
-# END_TIME=12:10
+# VERSION=latest01
+# END_TIME=12:09
 
 [time]
 format = "rfc-3339"
 zone = "UTC"
-date = 2022-11-14
-begin = 2022-11-14 12:02:27.230095143+00:00
-start-sync_0 = 12:05:03
-start-zstd = 12:05:17
-start-sync_1 = 12:10:22
-end-sync_1 = 12:10:39
-end = 2022-11-14 12:10:39.706686378+00:00
+date = 2022-11-28
+begin = 2022-11-28 12:02:27.311769068+00:00
+start-sync_0 = 12:04:38
+start-zstd = 12:04:51
+start-sync_1 = 12:09:34
+end-sync_1 = 12:09:49
+end = 2022-11-28 12:09:49.896226014+00:00
 
 [server]
 repo = "cake233/go-arm64"
@@ -77,7 +77,7 @@ split = false
 [server.node2]
 name = "tmoe"
 current = true
-previous = false
+previous = true
 in_sync = false
 split = false
 
@@ -86,8 +86,6 @@ name = "azure"
 current = true
 previous = true
 in_sync = false
-start_sync = 2022-11-14 18:10:12.466655625+00:00
-end_sync = 2022-11-14 18:11:14.213537447+00:00
 split = false
 
 [server.node4]
