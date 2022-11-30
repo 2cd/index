@@ -20,7 +20,7 @@ docker exec -it debian-zsh-arm64 zsh
 ```toml
 [main]
 name = "debian"
-tag = ["zsh", "2022-11-23"]
+tag = ["zsh", "2022-11-30"]
 os = "debian"
 release = "sid"
 arch = "arm64"
@@ -29,10 +29,10 @@ xorg_or_wayland = false
 syntax_version = "0.0.0-alpha.4"
 
 [file]
-name = "debian-zsh_arm64_2022-11-23_12-17.tar.zst"
+name = "debian-zsh_arm64_2022-11-30_12-17.tar.zst"
 
 # This value can be used to verify the integrity of the file
-sha256 = "2ffee87a48dd6c7b4f160e13142fb1b507fcab0c9133fc6935f48832477c1196"
+sha256 = "8e647aaad3054fad3ff6e52188eeea04d38f06411ec09205a289bf0c4bb7b50e"
 
 # zstd: [1-22]
 zstd-level = 20
@@ -41,48 +41,48 @@ zstd-level = 20
 # Installed size ≈ tar-size
 # Installed size is approximately equal to the size of the tar file
 tar = "803M"
-tar_bytes = 841484288
+tar_bytes = 841487360
 
 # Space occupied ≈ tar-size + zstd-size
 # You will need to prepare a large enough space before installation.
 zstd = "146M"
-zstd_bytes = 152768280
+zstd_bytes = 152792320
 
 [compatibility]
 compatible_mode = true
 
-previous_version = "latest01"
+previous_version = "latest02"
 
 # The value is &str, not int
-previous_date = "20221116"
-previous_tag = "2022-11-16"
-previous_file = "debian-zsh_arm64_2022-11-16_12-17-rootfs.tar.zst"
-previous_sha256 = "7b31854a37d28ae00cb538381416a4d270965272c7f8636ebed392c8415e8ea9"
+previous_date = "20221123"
+previous_tag = "2022-11-23"
+previous_file = "debian-zsh_arm64_2022-11-23_12-17-rootfs.tar.zst"
+previous_sha256 = "2ffee87a48dd6c7b4f160e13142fb1b507fcab0c9133fc6935f48832477c1196"
 
-current_version = "latest02"
-current_date = "20221123"
-old_file = "debian-zsh_arm64_2022-11-09_12-17-rootfs.tar.zst"
-old_sha256 = "2884b0227be3ff37aef5a4a0d3ded5644c3d7942e47c5e0dfdf51df607f7a7a0"
+current_version = "latest01"
+current_date = "20221130"
+old_file = "debian-zsh_arm64_2022-11-16_12-17-rootfs.tar.zst"
+old_sha256 = "7b31854a37d28ae00cb538381416a4d270965272c7f8636ebed392c8415e8ea9"
 # edition 2021
 # DISTRO_NAME=debian-sid_arm64
-# ROOTFS_FILE=debian-zsh_arm64_2022-11-23_12-17-rootfs.tar.zst
-# SHA256SUM=2ffee87a48dd6c7b4f160e13142fb1b507fcab0c9133fc6935f48832477c1196
-# BUILD_DATE=20221123
-# BUILD_TAG=2022-11-23
+# ROOTFS_FILE=debian-zsh_arm64_2022-11-30_12-17-rootfs.tar.zst
+# SHA256SUM=8e647aaad3054fad3ff6e52188eeea04d38f06411ec09205a289bf0c4bb7b50e
+# BUILD_DATE=20221130
+# BUILD_TAG=2022-11-30
 # STATUS=completed
-# VERSION=latest02
+# VERSION=latest01
 # END_TIME=12:17
 
 [time]
 format = "rfc-3339"
 zone = "UTC"
-date = 2022-11-23
-begin = 2022-11-23 12:02:24.850050627+00:00
-start-sync_0 = 12:12:56
-start-zstd = 12:14:40
-start-sync_1 = 12:17:03
-end-sync_1 = 12:17:16
-end = 2022-11-23 12:17:16.311074266+00:00
+date = 2022-11-30
+begin = 2022-11-30 12:02:24.536255917+00:00
+start-sync_0 = 12:13:11
+start-zstd = 12:14:53
+start-sync_1 = 12:17:12
+end-sync_1 = 12:17:24
+end = 2022-11-30 12:17:24.757108130+00:00
 
 [server]
 repo = "cake233/debian-zsh-arm64"
@@ -117,6 +117,6 @@ current = true
 LANG = "en_US.UTF-8"
 
 [version]
-ldd = 'ldd (Debian GLIBC 2.36-5) 2.36'
+ldd = 'ldd (Debian GLIBC 2.36-6) 2.36'
 zsh = 'zsh 5.9 (aarch64-unknown-linux-gnu)'
 ```
