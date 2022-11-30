@@ -1,6 +1,6 @@
 [main]
 name = "arch"
-tag = ["zsh", "2022-11-23"]
+tag = ["zsh", "2022-11-30"]
 os = "arch"
 release = "latest"
 arch = "arm64"
@@ -9,10 +9,10 @@ xorg_or_wayland = false
 syntax_version = "0.0.0-alpha.4"
 
 [file]
-name = "arch-zsh_arm64_2022-11-23_00-28.tar.zst"
+name = "arch-zsh_arm64_2022-11-30_00-32.tar.zst"
 
 # This value can be used to verify the integrity of the file
-sha256 = "d4544ceccd104f4a3abe560d69d6260442b03a728c3eef369e16effafc782a4f"
+sha256 = "67ff60b2683944ae710fca303702be415dee19f4e501ec64f64568ec55998721"
 
 # zstd: [1-22]
 zstd-level = 20
@@ -21,48 +21,48 @@ zstd-level = 20
 # Installed size ≈ tar-size
 # Installed size is approximately equal to the size of the tar file
 tar = "1000M"
-tar_bytes = 1047652864
+tar_bytes = 1047761920
 
 # Space occupied ≈ tar-size + zstd-size
 # You will need to prepare a large enough space before installation.
 zstd = "235M"
-zstd_bytes = 246362821
+zstd_bytes = 246384632
 
 [compatibility]
 compatible_mode = true
 
-previous_version = "latest01"
+previous_version = "latest02"
 
 # The value is &str, not int
-previous_date = "20221120"
-previous_tag = "2022-11-20"
-previous_file = "arch-zsh_arm64_2022-11-20_20-37-rootfs.tar.zst"
-previous_sha256 = "2962d52c3ebf4f636414cc5a3ecb6f14b9c16d4aa539d85c830afaa3eddb561b"
+previous_date = "20221123"
+previous_tag = "2022-11-23"
+previous_file = "arch-zsh_arm64_2022-11-23_00-28-rootfs.tar.zst"
+previous_sha256 = "d4544ceccd104f4a3abe560d69d6260442b03a728c3eef369e16effafc782a4f"
 
-current_version = "latest02"
-current_date = "20221123"
-old_file = "arch-zsh_arm64_2022-10-26_00-26-rootfs.tar.zst"
-old_sha256 = "3bf1f96abe19cf09b21899e74eb9986b9711f1452806172ed3a3e7f0ab1cde97"
+current_version = "latest01"
+current_date = "20221130"
+old_file = "arch-zsh_arm64_2022-11-20_20-37-rootfs.tar.zst"
+old_sha256 = "2962d52c3ebf4f636414cc5a3ecb6f14b9c16d4aa539d85c830afaa3eddb561b"
 # edition 2021
 # DISTRO_NAME=arch_arm64
-# ROOTFS_FILE=arch-zsh_arm64_2022-11-23_00-28-rootfs.tar.zst
-# SHA256SUM=d4544ceccd104f4a3abe560d69d6260442b03a728c3eef369e16effafc782a4f
-# BUILD_DATE=20221123
-# BUILD_TAG=2022-11-23
+# ROOTFS_FILE=arch-zsh_arm64_2022-11-30_00-32-rootfs.tar.zst
+# SHA256SUM=67ff60b2683944ae710fca303702be415dee19f4e501ec64f64568ec55998721
+# BUILD_DATE=20221130
+# BUILD_TAG=2022-11-30
 # STATUS=completed
-# VERSION=latest02
-# END_TIME=00:28
+# VERSION=latest01
+# END_TIME=00:32
 
 [time]
 format = "rfc-3339"
 zone = "UTC"
-date = 2022-11-23
-begin = 2022-11-23 00:08:47.863625607+00:00
-start-sync_0 = 00:22:35
-start-zstd = 00:24:03
-start-sync_1 = 00:27:44
-end-sync_1 = 00:28:01
-end = 2022-11-23 00:28:01.800365697+00:00
+date = 2022-11-30
+begin = 2022-11-30 00:07:53.932622267+00:00
+start-sync_0 = 00:26:48
+start-zstd = 00:28:17
+start-sync_1 = 00:32:16
+end-sync_1 = 00:32:37
+end = 2022-11-30 00:32:37.136397992+00:00
 
 [server]
 repo = "cake233/arch-zsh-arm64"
@@ -77,7 +77,7 @@ split = false
 [server.node2]
 name = "tmoe"
 current = true
-previous = false
+previous = true
 in_sync = false
 split = false
 
@@ -86,8 +86,6 @@ name = "azure"
 current = true
 previous = true
 in_sync = false
-start_sync = 2022-11-23 06:04:12.695641754+00:00
-end_sync = 2022-11-23 06:05:07.199281450+00:00
 split = false
 
 [server.node4]
