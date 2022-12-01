@@ -77,7 +77,7 @@ localhost:5903
 ```toml
 [main]
 name = "alpine"
-tag = ["mate", "2022-11-24"]
+tag = ["mate", "2022-12-01"]
 os = "alpine"
 release = "edge"
 arch = "amd64"
@@ -86,10 +86,10 @@ xorg_or_wayland = true
 syntax_version = "0.0.0-alpha.4"
 
 [file]
-name = "alpine-mate_amd64_2022-11-24_00-14.tar.zst"
+name = "alpine-mate_amd64_2022-12-01_00-13.tar.zst"
 
 # This value can be used to verify the integrity of the file
-sha256 = "da312e18d5d66d36c5148516141a9df87cff19b6edf4f71794851d3dd1e5b18c"
+sha256 = "a1e75827a773333b3d9a453dad37d5d6371d9492b74d61a470cbc45ca0b95132"
 
 # zstd: [1-22]
 zstd-level = 19
@@ -98,48 +98,48 @@ zstd-level = 19
 # Installed size ≈ tar-size
 # Installed size is approximately equal to the size of the tar file
 tar = "1.1G"
-tar_bytes = 1128293376
+tar_bytes = 1134042624
 
 # Space occupied ≈ tar-size + zstd-size
 # You will need to prepare a large enough space before installation.
-zstd = "333M"
-zstd_bytes = 348789001
+zstd = "335M"
+zstd_bytes = 350356971
 
 [compatibility]
 compatible_mode = true
 
-previous_version = "latest02"
+previous_version = "latest01"
 
 # The value is &str, not int
-previous_date = "20221120"
-previous_tag = "2022-11-20"
-previous_file = "alpine-mate_amd64_2022-11-20_21-09-rootfs.tar.zst"
-previous_sha256 = "2643bc5ff975e98a854dd2f1b8169db9309542ab478803e4d1a5563a8cccdfee"
+previous_date = "20221124"
+previous_tag = "2022-11-24"
+previous_file = "alpine-mate_amd64_2022-11-24_00-14-rootfs.tar.zst"
+previous_sha256 = "da312e18d5d66d36c5148516141a9df87cff19b6edf4f71794851d3dd1e5b18c"
 
-current_version = "latest01"
-current_date = "20221124"
-old_file = "alpine-mate_amd64_2022-11-17_00-13-rootfs.tar.zst"
-old_sha256 = "2532d94219d070bb4f3d97c64fe16c7979dc0d4564ac2a4b2202761b8588f877"
+current_version = "latest02"
+current_date = "20221201"
+old_file = "alpine-mate_amd64_2022-11-20_21-09-rootfs.tar.zst"
+old_sha256 = "2643bc5ff975e98a854dd2f1b8169db9309542ab478803e4d1a5563a8cccdfee"
 # edition 2021
 # DISTRO_NAME=alpine-edge_amd64
-# ROOTFS_FILE=alpine-mate_amd64_2022-11-24_00-14-rootfs.tar.zst
-# SHA256SUM=da312e18d5d66d36c5148516141a9df87cff19b6edf4f71794851d3dd1e5b18c
-# BUILD_DATE=20221124
-# BUILD_TAG=2022-11-24
+# ROOTFS_FILE=alpine-mate_amd64_2022-12-01_00-13-rootfs.tar.zst
+# SHA256SUM=a1e75827a773333b3d9a453dad37d5d6371d9492b74d61a470cbc45ca0b95132
+# BUILD_DATE=20221201
+# BUILD_TAG=2022-12-01
 # STATUS=completed
-# VERSION=latest01
-# END_TIME=00:14
+# VERSION=latest02
+# END_TIME=00:13
 
 [time]
 format = "rfc-3339"
 zone = "UTC"
-date = 2022-11-24
-begin = 2022-11-24 00:06:42.737860178+00:00
-start-sync_0 = 00:08:12
-start-zstd = 00:09:24
-start-sync_1 = 00:14:11
-end-sync_1 = 00:14:44
-end = 2022-11-24 00:14:44.764424066+00:00
+date = 2022-12-01
+begin = 2022-12-01 00:06:56.453620923+00:00
+start-sync_0 = 00:08:48
+start-zstd = 00:09:43
+start-sync_1 = 00:13:08
+end-sync_1 = 00:13:32
+end = 2022-12-01 00:13:32.091671809+00:00
 
 [server]
 repo = "cake233/alpine-mate-amd64"
