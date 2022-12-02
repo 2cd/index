@@ -1,6 +1,6 @@
 [main]
 name = "manjaro"
-tag = ["zsh", "2022-11-25"]
+tag = ["zsh", "2022-12-02"]
 os = "manjaro"
 release = "stable"
 arch = "amd64"
@@ -9,10 +9,10 @@ xorg_or_wayland = false
 syntax_version = "0.0.0-alpha.4"
 
 [file]
-name = "manjaro-zsh_amd64_2022-11-25_12-12.tar.zst"
+name = "manjaro-zsh_amd64_2022-12-02_12-11.tar.zst"
 
 # This value can be used to verify the integrity of the file
-sha256 = "1d394a3c9d22475ef3e31cf0cc27bc74083bf7103edd433e3d38f165ea48ad99"
+sha256 = "602ecc027630b4c334eacf0ee21d1df9464f6adc131ec1d065a40d7f51dfc0ac"
 
 # zstd: [1-22]
 zstd-level = 20
@@ -21,48 +21,48 @@ zstd-level = 20
 # Installed size ≈ tar-size
 # Installed size is approximately equal to the size of the tar file
 tar = "1.1G"
-tar_bytes = 1174044160
+tar_bytes = 1174062592
 
 # Space occupied ≈ tar-size + zstd-size
 # You will need to prepare a large enough space before installation.
 zstd = "275M"
-zstd_bytes = 287507121
+zstd_bytes = 287410069
 
 [compatibility]
 compatible_mode = true
 
-previous_version = "latest01"
+previous_version = "latest02"
 
 # The value is &str, not int
-previous_date = "20221028"
-previous_tag = "2022-10-28"
-previous_file = "manjaro-zsh_amd64_2022-10-28_12-10-rootfs.tar.zst"
-previous_sha256 = "c2b5e9d4a6676c76e7cdff82564411b9b456e96f8f249b1110598284d668a9bf"
+previous_date = "20221125"
+previous_tag = "2022-11-25"
+previous_file = "manjaro-zsh_amd64_2022-11-25_12-12-rootfs.tar.zst"
+previous_sha256 = "1d394a3c9d22475ef3e31cf0cc27bc74083bf7103edd433e3d38f165ea48ad99"
 
-current_version = "latest02"
-current_date = "20221125"
-old_file = "manjaro-zsh_amd64_2022-10-07_12-11-rootfs.tar.zst"
-old_sha256 = "18dc676cfb98f43f57a6bd1e26db3184f4ed1e9ea016aa4ccdaaa4ea62ac1238"
+current_version = "latest01"
+current_date = "20221202"
+old_file = "manjaro-zsh_amd64_2022-10-28_12-10-rootfs.tar.zst"
+old_sha256 = "c2b5e9d4a6676c76e7cdff82564411b9b456e96f8f249b1110598284d668a9bf"
 # edition 2021
 # DISTRO_NAME=manjaro-stable_amd64
-# ROOTFS_FILE=manjaro-zsh_amd64_2022-11-25_12-12-rootfs.tar.zst
-# SHA256SUM=1d394a3c9d22475ef3e31cf0cc27bc74083bf7103edd433e3d38f165ea48ad99
-# BUILD_DATE=20221125
-# BUILD_TAG=2022-11-25
+# ROOTFS_FILE=manjaro-zsh_amd64_2022-12-02_12-11-rootfs.tar.zst
+# SHA256SUM=602ecc027630b4c334eacf0ee21d1df9464f6adc131ec1d065a40d7f51dfc0ac
+# BUILD_DATE=20221202
+# BUILD_TAG=2022-12-02
 # STATUS=completed
-# VERSION=latest02
-# END_TIME=12:12
+# VERSION=latest01
+# END_TIME=12:11
 
 [time]
 format = "rfc-3339"
 zone = "UTC"
-date = 2022-11-25
-begin = 2022-11-25 12:02:24.978493422+00:00
-start-sync_0 = 12:05:18
-start-zstd = 12:07:03
-start-sync_1 = 12:11:39
-end-sync_1 = 12:12:04
-end = 2022-11-25 12:12:04.174380342+00:00
+date = 2022-12-02
+begin = 2022-12-02 12:02:22.915637859+00:00
+start-sync_0 = 12:05:37
+start-zstd = 12:07:17
+start-sync_1 = 12:11:32
+end-sync_1 = 12:11:52
+end = 2022-12-02 12:11:52.240126530+00:00
 
 [server]
 repo = "cake233/manjaro-zsh-amd64"
@@ -77,7 +77,7 @@ split = false
 [server.node2]
 name = "tmoe"
 current = true
-previous = false
+previous = true
 in_sync = false
 split = false
 
@@ -86,8 +86,6 @@ name = "azure"
 current = true
 previous = true
 in_sync = false
-start_sync = 2022-11-25 18:02:47.892379097+00:00
-end_sync = 2022-11-25 18:03:43.421484184+00:00
 split = false
 
 [server.node4]
