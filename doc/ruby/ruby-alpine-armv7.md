@@ -20,7 +20,7 @@ docker exec -it ruby-alpine-armv7 bash
 ```toml
 [main]
 name = "ruby"
-tag = ["alpine", "2022-11-21", "musl-libc", "musl"]
+tag = ["alpine", "2022-12-05", "musl-libc", "musl"]
 os = "alpine"
 release = "stable"
 arch = "armhf"
@@ -29,10 +29,10 @@ xorg_or_wayland = false
 syntax_version = "0.0.0-alpha.4"
 
 [file]
-name = "ruby-musl_armhf_2022-11-21_12-04.tar.zst"
+name = "ruby-musl_armhf_2022-12-05_12-04.tar.zst"
 
 # This value can be used to verify the integrity of the file
-sha256 = "147f1add93ff4197fa468de53af506da2cb7b2be3094f3f806c3d72f0b4fe498"
+sha256 = "1f2c4406f64496a6c4c12a70bdbf4e88ed44f6eb50a1cc24de990675ce5ca54d"
 
 # zstd: [1-22]
 zstd-level = 22
@@ -40,49 +40,49 @@ zstd-level = 22
 [file.size]
 # Installed size ≈ tar-size
 # Installed size is approximately equal to the size of the tar file
-tar = "73M"
-tar_bytes = 75703296
+tar = "90M"
+tar_bytes = 93638144
 
 # Space occupied ≈ tar-size + zstd-size
 # You will need to prepare a large enough space before installation.
-zstd = "31M"
-zstd_bytes = 31819517
+zstd = "32M"
+zstd_bytes = 33076679
 
 [compatibility]
 compatible_mode = true
 
-previous_version = "latest01"
+previous_version = "latest02"
 
 # The value is &str, not int
-previous_date = "20221107"
-previous_tag = "2022-11-07"
-previous_file = "ruby-musl_armhf_2022-11-07_12-04-rootfs.tar.zst"
-previous_sha256 = "37d755a336a4e5cea5be3e543fd2d9b830997792e323a83ca16df43c7ffcaea1"
+previous_date = "20221121"
+previous_tag = "2022-11-21"
+previous_file = "ruby-musl_armhf_2022-11-21_12-04-rootfs.tar.zst"
+previous_sha256 = "147f1add93ff4197fa468de53af506da2cb7b2be3094f3f806c3d72f0b4fe498"
 
-current_version = "latest02"
-current_date = "20221121"
-old_file = "ruby-musl_armhf_2022-10-24_12-04-rootfs.tar.zst"
-old_sha256 = "6f643577aada8570440d893baed18f19bd44b13947727114681ccd7648eae815"
+current_version = "latest01"
+current_date = "20221205"
+old_file = "ruby-musl_armhf_2022-11-07_12-04-rootfs.tar.zst"
+old_sha256 = "37d755a336a4e5cea5be3e543fd2d9b830997792e323a83ca16df43c7ffcaea1"
 # edition 2021
 # DISTRO_NAME=ruby_armhf
-# ROOTFS_FILE=ruby-musl_armhf_2022-11-21_12-04-rootfs.tar.zst
-# SHA256SUM=147f1add93ff4197fa468de53af506da2cb7b2be3094f3f806c3d72f0b4fe498
-# BUILD_DATE=20221121
-# BUILD_TAG=2022-11-21
+# ROOTFS_FILE=ruby-musl_armhf_2022-12-05_12-04-rootfs.tar.zst
+# SHA256SUM=1f2c4406f64496a6c4c12a70bdbf4e88ed44f6eb50a1cc24de990675ce5ca54d
+# BUILD_DATE=20221205
+# BUILD_TAG=2022-12-05
 # STATUS=completed
-# VERSION=latest02
+# VERSION=latest01
 # END_TIME=12:04
 
 [time]
 format = "rfc-3339"
 zone = "UTC"
-date = 2022-11-21
-begin = 2022-11-21 12:02:31.142049295+00:00
-start-sync_0 = 12:03:44
-start-zstd = 12:03:59
-start-sync_1 = 12:04:32
-end-sync_1 = 12:04:43
-end = 2022-11-21 12:04:43.195412090+00:00
+date = 2022-12-05
+begin = 2022-12-05 12:02:32.051263910+00:00
+start-sync_0 = 12:03:41
+start-zstd = 12:03:49
+start-sync_1 = 12:04:23
+end-sync_1 = 12:04:32
+end = 2022-12-05 12:04:32.284488566+00:00
 
 [server]
 repo = "cake233/ruby-alpine-armv7"
@@ -122,7 +122,7 @@ BUNDLE_APP_CONFIG = '/usr/local/bundle'
 
 [version]
 ldd = 'musl libc (armhf) Version 1.2.3'
-ruby = 'ruby 3.1.2p20 (2022-04-12 revision 4491bb740a) [arm-linux-musleabihf]'
-gem = '3.3.7'
-bundle = 'Bundler version 2.3.7'
+ruby = 'ruby 3.1.3p185 (2022-11-24 revision 1a6b16756e) [arm-linux-musleabihf]'
+gem = '3.3.26'
+bundle = 'Bundler version 2.3.26'
 ```
