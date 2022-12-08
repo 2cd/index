@@ -20,7 +20,7 @@ docker exec -it alpine-zsh-arm64 zsh
 ```toml
 [main]
 name = "alpine"
-tag = ["zsh", "2022-12-01"]
+tag = ["zsh", "2022-12-08"]
 os = "alpine"
 release = "edge"
 arch = "arm64"
@@ -29,10 +29,10 @@ xorg_or_wayland = false
 syntax_version = "0.0.0-alpha.4"
 
 [file]
-name = "alpine-zsh_arm64_2022-12-01_00-05.tar.zst"
+name = "alpine-zsh_arm64_2022-12-08_00-06.tar.zst"
 
 # This value can be used to verify the integrity of the file
-sha256 = "1c7f2e2171d68be17f7c083a35796b144236b8eabedacdea0e60307d2f1b2350"
+sha256 = "2c6537a78984115d866d5b7a2fafe3a3caaad75a566c26359ace0539b9eadbdb"
 
 # zstd: [1-22]
 zstd-level = 20
@@ -41,48 +41,48 @@ zstd-level = 20
 # Installed size ≈ tar-size
 # Installed size is approximately equal to the size of the tar file
 tar = "104M"
-tar_bytes = 108702720
+tar_bytes = 108781568
 
 # Space occupied ≈ tar-size + zstd-size
 # You will need to prepare a large enough space before installation.
 zstd = "29M"
-zstd_bytes = 29992157
+zstd_bytes = 30004408
 
 [compatibility]
 compatible_mode = true
 
-previous_version = "latest01"
+previous_version = "latest02"
 
 # The value is &str, not int
-previous_date = "20221124"
-previous_tag = "2022-11-24"
-previous_file = "alpine-zsh_arm64_2022-11-24_00-05-rootfs.tar.zst"
-previous_sha256 = "81b8d7dbfc179f781cb78f1e299ced065062a1449c8c8f2dfabcbc68f6788184"
+previous_date = "20221201"
+previous_tag = "2022-12-01"
+previous_file = "alpine-zsh_arm64_2022-12-01_00-05-rootfs.tar.zst"
+previous_sha256 = "1c7f2e2171d68be17f7c083a35796b144236b8eabedacdea0e60307d2f1b2350"
 
-current_version = "latest02"
-current_date = "20221201"
-old_file = "alpine-zsh_arm64_2022-11-20_21-02-rootfs.tar.zst"
-old_sha256 = "101555c96ce931f0e13525c6cb0a77342bf136e8d67e5917004bb1b3d6f243d7"
+current_version = "latest01"
+current_date = "20221208"
+old_file = "alpine-zsh_arm64_2022-11-24_00-05-rootfs.tar.zst"
+old_sha256 = "81b8d7dbfc179f781cb78f1e299ced065062a1449c8c8f2dfabcbc68f6788184"
 # edition 2021
 # DISTRO_NAME=alpine-edge_arm64
-# ROOTFS_FILE=alpine-zsh_arm64_2022-12-01_00-05-rootfs.tar.zst
-# SHA256SUM=1c7f2e2171d68be17f7c083a35796b144236b8eabedacdea0e60307d2f1b2350
-# BUILD_DATE=20221201
-# BUILD_TAG=2022-12-01
+# ROOTFS_FILE=alpine-zsh_arm64_2022-12-08_00-06-rootfs.tar.zst
+# SHA256SUM=2c6537a78984115d866d5b7a2fafe3a3caaad75a566c26359ace0539b9eadbdb
+# BUILD_DATE=20221208
+# BUILD_TAG=2022-12-08
 # STATUS=completed
-# VERSION=latest02
-# END_TIME=00:05
+# VERSION=latest01
+# END_TIME=00:06
 
 [time]
 format = "rfc-3339"
 zone = "UTC"
-date = 2022-12-01
-begin = 2022-12-01 00:02:24.135901708+00:00
-start-sync_0 = 00:04:00
-start-zstd = 00:05:21
-start-sync_1 = 00:05:49
-end-sync_1 = 00:05:54
-end = 2022-12-01 00:05:54.872009288+00:00
+date = 2022-12-08
+begin = 2022-12-08 00:02:32.161971771+00:00
+start-sync_0 = 00:04:33
+start-zstd = 00:05:58
+start-sync_1 = 00:06:36
+end-sync_1 = 00:06:46
+end = 2022-12-08 00:06:46.532895802+00:00
 
 [server]
 repo = "cake233/alpine-zsh-arm64"
