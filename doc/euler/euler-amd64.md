@@ -20,7 +20,7 @@ docker exec -it euler-amd64 sh
 ```toml
 [main]
 name = "euler"
-tag = ["base", "2022-11-15"]
+tag = ["base", "2022-12-15"]
 os = "euler"
 release = "base"
 arch = "amd64"
@@ -29,10 +29,10 @@ xorg_or_wayland = false
 syntax_version = "0.0.0-alpha.4"
 
 [file]
-name = "euler_amd64_2022-11-15_00-06.tar.zst"
+name = "euler_amd64_2022-12-15_00-07.tar.zst"
 
 # This value can be used to verify the integrity of the file
-sha256 = "d5268f5c537ad85e12f2b65fcedd18d3ff1bba6c1f28267b7b4ecc01cea71807"
+sha256 = "03ce306152b739ae2b068e23a3c8338d58149c3169d1ace675f0af6278d04623"
 
 # zstd: [1-22]
 zstd-level = 19
@@ -41,48 +41,48 @@ zstd-level = 19
 # Installed size ≈ tar-size
 # Installed size is approximately equal to the size of the tar file
 tar = "495M"
-tar_bytes = 518131200
+tar_bytes = 518130688
 
 # Space occupied ≈ tar-size + zstd-size
 # You will need to prepare a large enough space before installation.
 zstd = "82M"
-zstd_bytes = 85007009
+zstd_bytes = 85004967
 
 [compatibility]
 compatible_mode = true
 
-previous_version = "latest02"
+previous_version = "latest01"
 
 # The value is &str, not int
-previous_date = "20221015"
-previous_tag = "2022-10-15"
-previous_file = "euler_amd64_2022-10-15_00-07-rootfs.tar.zst"
-previous_sha256 = "8585fd633dec6fbf3487476b7f223cc4b930e0876a53e165efc94d3d686b21f2"
+previous_date = "20221115"
+previous_tag = "2022-11-15"
+previous_file = "euler_amd64_2022-11-15_00-06-rootfs.tar.zst"
+previous_sha256 = "d5268f5c537ad85e12f2b65fcedd18d3ff1bba6c1f28267b7b4ecc01cea71807"
 
-current_version = "latest01"
-current_date = "20221115"
-old_file = "euler_amd64_2022-09-15_00-06-rootfs.tar.zst"
-old_sha256 = "d4d0de818e5d5e5275c7b4b8acbc1a6e5848a9cef951c0ef23ecbab204088912"
+current_version = "latest02"
+current_date = "20221215"
+old_file = "euler_amd64_2022-10-15_00-07-rootfs.tar.zst"
+old_sha256 = "8585fd633dec6fbf3487476b7f223cc4b930e0876a53e165efc94d3d686b21f2"
 # edition 2021
 # DISTRO_NAME=euler_amd64
-# ROOTFS_FILE=euler_amd64_2022-11-15_00-06-rootfs.tar.zst
-# SHA256SUM=d5268f5c537ad85e12f2b65fcedd18d3ff1bba6c1f28267b7b4ecc01cea71807
-# BUILD_DATE=20221115
-# BUILD_TAG=2022-11-15
+# ROOTFS_FILE=euler_amd64_2022-12-15_00-07-rootfs.tar.zst
+# SHA256SUM=03ce306152b739ae2b068e23a3c8338d58149c3169d1ace675f0af6278d04623
+# BUILD_DATE=20221215
+# BUILD_TAG=2022-12-15
 # STATUS=completed
-# VERSION=latest01
-# END_TIME=00:06
+# VERSION=latest02
+# END_TIME=00:07
 
 [time]
 format = "rfc-3339"
 zone = "UTC"
-date = 2022-11-15
-begin = 2022-11-15 00:03:16.955482734+00:00
-start-sync_0 = 00:04:29
-start-zstd = 00:04:56
-start-sync_1 = 00:06:42
-end-sync_1 = 00:06:56
-end = 2022-11-15 00:06:56.245006931+00:00
+date = 2022-12-15
+begin = 2022-12-15 00:03:19.124359287+00:00
+start-sync_0 = 00:04:48
+start-zstd = 00:05:16
+start-sync_1 = 00:07:10
+end-sync_1 = 00:07:24
+end = 2022-12-15 00:07:24.645559173+00:00
 
 [server]
 repo = "cake233/euler-amd64"
