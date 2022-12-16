@@ -69,7 +69,7 @@ ldd "$FILE"
 ```toml
 [main]
 name = "rust"
-tag = ["latest", "2022-12-12", "nightly", "unstable", "default", "gnu-libc"]
+tag = ["latest", "2022-12-16", "nightly", "unstable", "default", "gnu-libc"]
 os = "debian"
 release = "sid"
 arch = "arm64"
@@ -78,10 +78,10 @@ xorg_or_wayland = false
 syntax_version = "0.0.0-alpha.4"
 
 [file]
-name = "rust_arm64_2022-12-12_03-08.tar.zst"
+name = "rust_arm64_2022-12-16_03-07.tar.zst"
 
 # This value can be used to verify the integrity of the file
-sha256 = "a10eb58093e840ee9c2c56b0a23d91bfeaf122d382e14f9f23a1746a0ae8a871"
+sha256 = "4c7a801497621a6c64870f74bf7b1bad0a27266ea209a329cf3d98d7b314a152"
 
 # zstd: [1-22]
 zstd-level = 20
@@ -90,48 +90,48 @@ zstd-level = 20
 # Installed size ≈ tar-size
 # Installed size is approximately equal to the size of the tar file
 tar = "1.8G"
-tar_bytes = 1877216768
+tar_bytes = 1878077952
 
 # Space occupied ≈ tar-size + zstd-size
 # You will need to prepare a large enough space before installation.
 zstd = "246M"
-zstd_bytes = 257181785
+zstd_bytes = 257285481
 
 [compatibility]
 compatible_mode = true
 
-previous_version = "latest02"
+previous_version = "latest01"
 
 # The value is &str, not int
-previous_date = "20221209"
-previous_tag = "2022-12-09"
-previous_file = "rust_arm64_2022-12-09_03-05-rootfs.tar.zst"
-previous_sha256 = "8f32c24ab3a61e8a74778cc307fbdb58b6b09cb2bc11b984b992659cc7a7c006"
+previous_date = "20221212"
+previous_tag = "2022-12-12"
+previous_file = "rust_arm64_2022-12-12_03-08-rootfs.tar.zst"
+previous_sha256 = "a10eb58093e840ee9c2c56b0a23d91bfeaf122d382e14f9f23a1746a0ae8a871"
 
-current_version = "latest01"
-current_date = "20221212"
-old_file = "rust_arm64_2022-12-02_10-22-rootfs.tar.zst"
-old_sha256 = "533ef6af19808a66982a71a2066190f88b4602bebbb088e0d358e385917faba1"
+current_version = "latest02"
+current_date = "20221216"
+old_file = "rust_arm64_2022-12-09_03-05-rootfs.tar.zst"
+old_sha256 = "8f32c24ab3a61e8a74778cc307fbdb58b6b09cb2bc11b984b992659cc7a7c006"
 # edition 2021
 # DISTRO_NAME=rust_arm64
-# ROOTFS_FILE=rust_arm64_2022-12-12_03-08-rootfs.tar.zst
-# SHA256SUM=a10eb58093e840ee9c2c56b0a23d91bfeaf122d382e14f9f23a1746a0ae8a871
-# BUILD_DATE=20221212
-# BUILD_TAG=2022-12-12
+# ROOTFS_FILE=rust_arm64_2022-12-16_03-07-rootfs.tar.zst
+# SHA256SUM=4c7a801497621a6c64870f74bf7b1bad0a27266ea209a329cf3d98d7b314a152
+# BUILD_DATE=20221216
+# BUILD_TAG=2022-12-16
 # STATUS=completed
-# VERSION=latest01
-# END_TIME=03:08
+# VERSION=latest02
+# END_TIME=03:07
 
 [time]
 format = "rfc-3339"
 zone = "UTC"
-date = 2022-12-12
-begin = 2022-12-12 02:52:34.703990477+00:00
-start-sync_0 = 03:00:31
-start-zstd = 03:01:55
-start-sync_1 = 03:08:20
-end-sync_1 = 03:08:44
-end = 2022-12-12 03:08:44.817997909+00:00
+date = 2022-12-16
+begin = 2022-12-16 02:52:29.336653796+00:00
+start-sync_0 = 02:59:36
+start-zstd = 03:00:55
+start-sync_1 = 03:07:13
+end-sync_1 = 03:07:38
+end = 2022-12-16 03:07:38.502019243+00:00
 
 [server]
 repo = "cake233/rust-arm64"
@@ -171,24 +171,24 @@ CARGO_HOME = "/usr/local/cargo"
 [version]
 ldd = 'ldd (Debian GLIBC 2.36-6) 2.36'
 rustup = 'rustup 1.25.1 (bb60b1e89 2022-07-12)'
-cargo = 'cargo 1.68.0-nightly (70898e522 2022-12-05)'
-rustc = 'rustc 1.68.0-nightly (bdb07a8ec 2022-12-11)'
-cc = 'cc (Debian 12.2.0-9.1) 12.2.0'
+cargo = 'cargo 1.68.0-nightly (cc0a32087 2022-12-14)'
+rustc = 'rustc 1.68.0-nightly (ec56537c4 2022-12-15)'
+cc = 'cc (Debian 12.2.0-10) 12.2.0'
 cargo_verbose = '''
-cargo 1.68.0-nightly (70898e522 2022-12-05)
+cargo 1.68.0-nightly (cc0a32087 2022-12-14)
 release: 1.68.0-nightly
-commit-hash: 70898e522116f6c23971e2a554b2dc85fd4c84cd
-commit-date: 2022-12-05
+commit-hash: cc0a320879c17207bbfb96b5d778e28a2c62030d
+commit-date: 2022-12-14
 host: aarch64-unknown-linux-gnu
 libgit2: 1.5.0 (sys:0.15.0 vendored)
 libcurl: 7.86.0-DEV (sys:0.4.59+curl-7.86.0 vendored ssl:OpenSSL/1.1.1q)
 os: Linux [64-bit]
 '''
 rustc_verbose = '''
-rustc 1.68.0-nightly (bdb07a8ec 2022-12-11)
+rustc 1.68.0-nightly (ec56537c4 2022-12-15)
 binary: rustc
-commit-hash: bdb07a8ec8e77aa10fb84fae1d4ff71c21180bb4
-commit-date: 2022-12-11
+commit-hash: ec56537c4325ce5b798fc3628cbdd48ba4949ae5
+commit-date: 2022-12-15
 host: aarch64-unknown-linux-gnu
 release: 1.68.0-nightly
 LLVM version: 15.0.6
