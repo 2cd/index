@@ -20,7 +20,7 @@ docker exec -it php-alpine-arm64 bash
 ```toml
 [main]
 name = "php"
-tag = ["alpine", "2022-12-05", "musl-libc", "musl"]
+tag = ["alpine", "2022-12-19", "musl-libc", "musl"]
 os = "alpine"
 release = "stable"
 arch = "arm64"
@@ -29,10 +29,10 @@ xorg_or_wayland = false
 syntax_version = "0.0.0-alpha.4"
 
 [file]
-name = "php-musl_arm64_2022-12-05_12-04.tar.zst"
+name = "php-musl_arm64_2022-12-19_12-05.tar.zst"
 
 # This value can be used to verify the integrity of the file
-sha256 = "ba168b7cc35889216975ec25aa8dc3b8fbd0253cd2d6341fa0d7a55223836aba"
+sha256 = "51336d4dce5cd1181c0f3341c101a98f35a993214307d82196d5228b36314a80"
 
 # zstd: [1-22]
 zstd-level = 22
@@ -40,49 +40,49 @@ zstd-level = 22
 [file.size]
 # Installed size ≈ tar-size
 # Installed size is approximately equal to the size of the tar file
-tar = "103M"
-tar_bytes = 107024384
+tar = "104M"
+tar_bytes = 108085760
 
 # Space occupied ≈ tar-size + zstd-size
 # You will need to prepare a large enough space before installation.
-zstd = "25M"
-zstd_bytes = 26101568
+zstd = "26M"
+zstd_bytes = 26368654
 
 [compatibility]
 compatible_mode = true
 
-previous_version = "latest02"
+previous_version = "latest01"
 
 # The value is &str, not int
-previous_date = "20221121"
-previous_tag = "2022-11-21"
-previous_file = "php-musl_arm64_2022-11-21_12-04-rootfs.tar.zst"
-previous_sha256 = "1a896bd521c93388b96ba122c9a60f786ceff654c95080484a4646e445234d32"
+previous_date = "20221205"
+previous_tag = "2022-12-05"
+previous_file = "php-musl_arm64_2022-12-05_12-04-rootfs.tar.zst"
+previous_sha256 = "ba168b7cc35889216975ec25aa8dc3b8fbd0253cd2d6341fa0d7a55223836aba"
 
-current_version = "latest01"
-current_date = "20221205"
-old_file = "php-musl_arm64_2022-11-07_12-04-rootfs.tar.zst"
-old_sha256 = "1542aa27c4d0810cdb83b0d06d622501986b48d6a89a0f69f7696abdccb59631"
+current_version = "latest02"
+current_date = "20221219"
+old_file = ""
+old_sha256 = ""
 # edition 2021
 # DISTRO_NAME=php_arm64
-# ROOTFS_FILE=php-musl_arm64_2022-12-05_12-04-rootfs.tar.zst
-# SHA256SUM=ba168b7cc35889216975ec25aa8dc3b8fbd0253cd2d6341fa0d7a55223836aba
-# BUILD_DATE=20221205
-# BUILD_TAG=2022-12-05
+# ROOTFS_FILE=php-musl_arm64_2022-12-19_12-05-rootfs.tar.zst
+# SHA256SUM=51336d4dce5cd1181c0f3341c101a98f35a993214307d82196d5228b36314a80
+# BUILD_DATE=20221219
+# BUILD_TAG=2022-12-19
 # STATUS=completed
-# VERSION=latest01
-# END_TIME=12:04
+# VERSION=latest02
+# END_TIME=12:05
 
 [time]
 format = "rfc-3339"
 zone = "UTC"
-date = 2022-12-05
-begin = 2022-12-05 12:02:33.270942018+00:00
-start-sync_0 = 12:03:43
-start-zstd = 12:03:54
-start-sync_1 = 12:04:33
-end-sync_1 = 12:04:41
-end = 2022-12-05 12:04:41.768512944+00:00
+date = 2022-12-19
+begin = 2022-12-19 12:02:31.783676101+00:00
+start-sync_0 = 12:04:09
+start-zstd = 12:04:14
+start-sync_1 = 12:04:54
+end-sync_1 = 12:05:00
+end = 2022-12-19 12:05:00.638860467+00:00
 
 [server]
 repo = "cake233/php-alpine-arm64"
@@ -120,9 +120,9 @@ PHP_INI_DIR = '/usr/local/etc/php'
 [version]
 ldd = 'musl libc (aarch64) Version 1.2.3'
 php = '''
-PHP 8.1.13 (cli) (built: Nov 30 2022 21:16:58) (NTS)
+PHP 8.2.0 (cli) (built: Dec  8 2022 19:17:28) (NTS)
 Copyright (c) The PHP Group
-Zend Engine v4.1.13, Copyright (c) Zend Technologies
+Zend Engine v4.2.0, Copyright (c) Zend Technologies
 '''
 
 [other]
@@ -131,7 +131,7 @@ php_extra_configure_args = '--enable-embed'
 php_cflags = '-fstack-protector-strong -fpic -fpie -O2 -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64'
 php_cppflags = '-fstack-protector-strong -fpic -fpie -O2 -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64'
 php_ldflags = '-Wl,-O1 -pie'
-gpg_keys = '528995BFEDFBA7191D46839EF9BA0ADA31CBD89E 39B641343D8C104B2B146DC3F9C39DC0B9698544 F1F692238FBC1666E5A5CCD4199F9DFEF6FFBAFD'
-php_url = 'https://www.php.net/distributions/php-8.1.13.tar.xz'
-php_src_url = 'https://www.php.net/distributions/php-8.1.13.tar.xz.asc'
+gpg_keys = '39B641343D8C104B2B146DC3F9C39DC0B9698544 E60913E4DF209907D8E30D96659A97C9CF2A795A 1198C0117593497A5EC5C199286AF1F9897469DC'
+php_url = 'https://www.php.net/distributions/php-8.2.0.tar.xz'
+php_src_url = 'https://www.php.net/distributions/php-8.2.0.tar.xz.asc'
 ```
