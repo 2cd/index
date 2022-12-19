@@ -44,7 +44,7 @@ docker exec -it dotnet-amd64 /usr/local/powershell/pwsh
 ```toml
 [main]
 name = "dotnet"
-tag = ["latest", "2022-12-05", ".NET", "dotnet-sdk"]
+tag = ["latest", "2022-12-19", ".NET", "dotnet-sdk"]
 os = "arch"
 release = "latest"
 arch = "amd64"
@@ -53,10 +53,10 @@ xorg_or_wayland = false
 syntax_version = "0.0.0-alpha.4"
 
 [file]
-name = "dotnet_amd64_2022-12-05_12-18.tar.zst"
+name = "dotnet_amd64_2022-12-19_12-17.tar.zst"
 
 # This value can be used to verify the integrity of the file
-sha256 = "9fdbdabcfd0eb013c42d629605138e97f445c08871dcf1b9a143f84076c75181"
+sha256 = "386e8782dd7c0f2d8ccdb33b95ecf6051de6c7f68b374b6a6d61291819faf9f9"
 
 # zstd: [1-22]
 zstd-level = 22
@@ -64,13 +64,13 @@ zstd-level = 22
 [file.size]
 # Installed size ≈ tar-size
 # Installed size is approximately equal to the size of the tar file
-tar = "1.7G"
-tar_bytes = 1810489344
+tar = "1.8G"
+tar_bytes = 1825570816
 
 # Space occupied ≈ tar-size + zstd-size
 # You will need to prepare a large enough space before installation.
-zstd = "417M"
-zstd_bytes = 436720939
+zstd = "421M"
+zstd_bytes = 440476770
 
 [compatibility]
 compatible_mode = true
@@ -84,29 +84,29 @@ previous_file = "dotnet_amd64_2022-11-21_12-15-rootfs.tar.zst"
 previous_sha256 = "d8262e7008a2e6e36db70fcaa1f4990044463730fb27844c8eb5b8c9648a8571"
 
 current_version = "latest02"
-current_date = "20221205"
-old_file = "dotnet_amd64_2022-10-26_00-49-rootfs.tar.zst"
-old_sha256 = "8160f7a699987ff71e1ca950ea7a8553d13dc8e240f33666097a234240206bc4"
+current_date = "20221219"
+old_file = ""
+old_sha256 = ""
 # edition 2021
 # DISTRO_NAME=dotnet_amd64
-# ROOTFS_FILE=dotnet_amd64_2022-12-05_12-18-rootfs.tar.zst
-# SHA256SUM=9fdbdabcfd0eb013c42d629605138e97f445c08871dcf1b9a143f84076c75181
-# BUILD_DATE=20221205
-# BUILD_TAG=2022-12-05
+# ROOTFS_FILE=dotnet_amd64_2022-12-19_12-17-rootfs.tar.zst
+# SHA256SUM=386e8782dd7c0f2d8ccdb33b95ecf6051de6c7f68b374b6a6d61291819faf9f9
+# BUILD_DATE=20221219
+# BUILD_TAG=2022-12-19
 # STATUS=completed
 # VERSION=latest02
-# END_TIME=12:18
+# END_TIME=12:17
 
 [time]
 format = "rfc-3339"
 zone = "UTC"
-date = 2022-12-05
-begin = 2022-12-05 12:02:29.853698816+00:00
-start-sync_0 = 12:06:42
-start-zstd = 12:07:27
-start-sync_1 = 12:18:07
-end-sync_1 = 12:18:41
-end = 2022-12-05 12:18:41.056768052+00:00
+date = 2022-12-19
+begin = 2022-12-19 12:02:31.477335040+00:00
+start-sync_0 = 12:06:38
+start-zstd = 12:07:24
+start-sync_1 = 12:16:46
+end-sync_1 = 12:17:17
+end = 2022-12-19 12:17:17.176028208+00:00
 
 [server]
 repo = "cake233/dotnet-amd64"
@@ -150,32 +150,32 @@ NUGET_XMLDOC_MODE = "skip"
 
 [version]
 ldd = 'ldd (GNU libc) 2.36'
-git = 'git version 2.38.1'
-dotnet = '7.0.100'
-powershell = 'PowerShell 7.3.0'
+git = 'git version 2.39.0'
+dotnet = '7.0.101'
+powershell = 'PowerShell 7.3.1'
 dotnet_info = '''
 .NET SDK:
- Version:   7.0.100
- Commit:    e12b7af219
+ Version:   7.0.101
+ Commit:    bb24aafa11
 
 Runtime Environment:
  OS Name:     arch
  OS Version:  
  OS Platform: Linux
  RID:         arch-x64
- Base Path:   /usr/local/dotnet/sdk/7.0.100/
+ Base Path:   /usr/local/dotnet/sdk/7.0.101/
 
 Host:
-  Version:      7.0.0
+  Version:      7.0.1
   Architecture: x64
-  Commit:       d099f075e4
+  Commit:       97203d38ba
 
 .NET SDKs installed:
-  7.0.100 [/usr/local/dotnet/sdk]
+  7.0.101 [/usr/local/dotnet/sdk]
 
 .NET runtimes installed:
-  Microsoft.AspNetCore.App 7.0.0 [/usr/local/dotnet/shared/Microsoft.AspNetCore.App]
-  Microsoft.NETCore.App 7.0.0 [/usr/local/dotnet/shared/Microsoft.NETCore.App]
+  Microsoft.AspNetCore.App 7.0.1 [/usr/local/dotnet/shared/Microsoft.AspNetCore.App]
+  Microsoft.NETCore.App 7.0.1 [/usr/local/dotnet/shared/Microsoft.NETCore.App]
 
 Other architectures found:
   None
