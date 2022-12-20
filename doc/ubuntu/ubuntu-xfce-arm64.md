@@ -86,10 +86,10 @@ xorg_or_wayland = true
 syntax_version = "0.0.0-alpha.4"
 
 [file]
-name = "ubuntu-xfce_arm64_2022-12-20_01-06.tar.zst"
+name = "ubuntu-xfce_arm64_2022-12-20_02-45.tar.zst"
 
 # This value can be used to verify the integrity of the file
-sha256 = "09f46c5101c0257378f77625049052cbf474d94e45d3e7d0316199800951114d"
+sha256 = "d793ce2232299a918595bfb83042f887a6880bd4be8af0753bf5e90695c82e60"
 
 # zstd: [1-22]
 zstd-level = 19
@@ -98,12 +98,12 @@ zstd-level = 19
 # Installed size ≈ tar-size
 # Installed size is approximately equal to the size of the tar file
 tar = "3.7G"
-tar_bytes = 3887975424
+tar_bytes = 3882755584
 
 # Space occupied ≈ tar-size + zstd-size
 # You will need to prepare a large enough space before installation.
-zstd = "1010M"
-zstd_bytes = 1058444726
+zstd = "1004M"
+zstd_bytes = 1052723541
 
 [compatibility]
 compatible_mode = true
@@ -122,24 +122,24 @@ old_file = "ubuntu-xfce_arm64_2022-12-06_00-50-rootfs.tar.zst"
 old_sha256 = "fc8e3d8e7635ad06acabd332e841627cb5383c186ddd513e1add44e00b0aea6a"
 # edition 2021
 # DISTRO_NAME=ubuntu-dev_arm64
-# ROOTFS_FILE=ubuntu-xfce_arm64_2022-12-20_01-06-rootfs.tar.zst
-# SHA256SUM=09f46c5101c0257378f77625049052cbf474d94e45d3e7d0316199800951114d
+# ROOTFS_FILE=ubuntu-xfce_arm64_2022-12-20_02-45-rootfs.tar.zst
+# SHA256SUM=d793ce2232299a918595bfb83042f887a6880bd4be8af0753bf5e90695c82e60
 # BUILD_DATE=20221220
 # BUILD_TAG=2022-12-20
 # STATUS=completed
 # VERSION=latest02
-# END_TIME=01:06
+# END_TIME=02:45
 
 [time]
 format = "rfc-3339"
 zone = "UTC"
 date = 2022-12-20
-begin = 2022-12-20 00:03:19.673686480+00:00
-start-sync_0 = 00:44:42
-start-zstd = 00:48:19
-start-sync_1 = 01:05:01
-end-sync_1 = 01:06:12
-end = 2022-12-20 01:06:12.506996418+00:00
+begin = 2022-12-20 02:00:27.546569340+00:00
+start-sync_0 = 02:29:20
+start-zstd = 02:32:02
+start-sync_1 = 02:44:29
+end-sync_1 = 02:45:33
+end = 2022-12-20 02:45:33.840824923+00:00
 
 [server]
 repo = "cake233/ubuntu-xfce-arm64"
