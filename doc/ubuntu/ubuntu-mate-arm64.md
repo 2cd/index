@@ -86,10 +86,10 @@ xorg_or_wayland = true
 syntax_version = "0.0.0-alpha.4"
 
 [file]
-name = "ubuntu-mate_arm64_2022-12-20_01-12.tar.zst"
+name = "ubuntu-mate_arm64_2022-12-20_02-49.tar.zst"
 
 # This value can be used to verify the integrity of the file
-sha256 = "70bada9341179bcaf8d1a2ec404169430479022c68ed1424f9b14bf1dfd30ceb"
+sha256 = "bfe48d0489ec71b4ebe266a105400b10b6b752789d9c3b64ac84845de66aa28e"
 
 # zstd: [1-22]
 zstd-level = 19
@@ -98,12 +98,12 @@ zstd-level = 19
 # Installed size ≈ tar-size
 # Installed size is approximately equal to the size of the tar file
 tar = "4.3G"
-tar_bytes = 4565791232
+tar_bytes = 4565795328
 
 # Space occupied ≈ tar-size + zstd-size
 # You will need to prepare a large enough space before installation.
 zstd = "1.2G"
-zstd_bytes = 1227193551
+zstd_bytes = 1227194380
 
 [compatibility]
 compatible_mode = true
@@ -122,24 +122,24 @@ old_file = "ubuntu-mate_arm64_2022-12-06_00-59-rootfs.tar.zst"
 old_sha256 = "bde6ca89c30cceb6bd2ff4135040cb07b4aaa0da7772166d4f72b06ea48227d3"
 # edition 2021
 # DISTRO_NAME=ubuntu-dev_arm64
-# ROOTFS_FILE=ubuntu-mate_arm64_2022-12-20_01-12-rootfs.tar.zst
-# SHA256SUM=70bada9341179bcaf8d1a2ec404169430479022c68ed1424f9b14bf1dfd30ceb
+# ROOTFS_FILE=ubuntu-mate_arm64_2022-12-20_02-49-rootfs.tar.zst
+# SHA256SUM=bfe48d0489ec71b4ebe266a105400b10b6b752789d9c3b64ac84845de66aa28e
 # BUILD_DATE=20221220
 # BUILD_TAG=2022-12-20
 # STATUS=completed
 # VERSION=latest01
-# END_TIME=01:12
+# END_TIME=02:49
 
 [time]
 format = "rfc-3339"
 zone = "UTC"
 date = 2022-12-20
-begin = 2022-12-20 00:03:19.852694010+00:00
-start-sync_0 = 00:46:07
-start-zstd = 00:51:12
-start-sync_1 = 01:10:51
-end-sync_1 = 01:12:12
-end = 2022-12-20 01:12:12.764932965+00:00
+begin = 2022-12-20 02:00:29.539502442+00:00
+start-sync_0 = 02:30:01
+start-zstd = 02:33:39
+start-sync_1 = 02:48:09
+end-sync_1 = 02:49:20
+end = 2022-12-20 02:49:20.819456260+00:00
 
 [server]
 repo = "cake233/ubuntu-mate-arm64"
