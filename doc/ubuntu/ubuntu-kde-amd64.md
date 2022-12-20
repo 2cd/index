@@ -86,10 +86,10 @@ xorg_or_wayland = true
 syntax_version = "0.0.0-alpha.4"
 
 [file]
-name = "ubuntu-kde_amd64_2022-12-20_00-30.tar.zst"
+name = "ubuntu-kde_amd64_2022-12-20_02-30.tar.zst"
 
 # This value can be used to verify the integrity of the file
-sha256 = "4d377e9c796e80aa8a10d506a47adec83ffbaaa578b7fee911dbe2a26f404290"
+sha256 = "43092f2c362ea0a7bac6f51b32435537ca864ede857b65260d1c1a971bc86290"
 
 # zstd: [1-22]
 zstd-level = 19
@@ -98,12 +98,12 @@ zstd-level = 19
 # Installed size ≈ tar-size
 # Installed size is approximately equal to the size of the tar file
 tar = "4.5G"
-tar_bytes = 4786735616
+tar_bytes = 4786747904
 
 # Space occupied ≈ tar-size + zstd-size
 # You will need to prepare a large enough space before installation.
 zstd = "1.3G"
-zstd_bytes = 1323322775
+zstd_bytes = 1323340177
 
 [compatibility]
 compatible_mode = true
@@ -122,24 +122,24 @@ old_file = "ubuntu-kde_amd64_2022-12-06_00-37-rootfs.tar.zst"
 old_sha256 = "f2fdb26398db2268f97ebd100241583c83913d420ade41ec860a1245a217aaaf"
 # edition 2021
 # DISTRO_NAME=ubuntu-dev_amd64
-# ROOTFS_FILE=ubuntu-kde_amd64_2022-12-20_00-30-rootfs.tar.zst
-# SHA256SUM=4d377e9c796e80aa8a10d506a47adec83ffbaaa578b7fee911dbe2a26f404290
+# ROOTFS_FILE=ubuntu-kde_amd64_2022-12-20_02-30-rootfs.tar.zst
+# SHA256SUM=43092f2c362ea0a7bac6f51b32435537ca864ede857b65260d1c1a971bc86290
 # BUILD_DATE=20221220
 # BUILD_TAG=2022-12-20
 # STATUS=completed
 # VERSION=latest01
-# END_TIME=00:30
+# END_TIME=02:30
 
 [time]
 format = "rfc-3339"
 zone = "UTC"
 date = 2022-12-20
-begin = 2022-12-20 00:03:17.198950908+00:00
-start-sync_0 = 00:09:07
-start-zstd = 00:13:31
-start-sync_1 = 00:29:36
-end-sync_1 = 00:30:46
-end = 2022-12-20 00:30:46.042252262+00:00
+begin = 2022-12-20 02:00:25.797881697+00:00
+start-sync_0 = 02:07:06
+start-zstd = 02:11:27
+start-sync_1 = 02:28:46
+end-sync_1 = 02:30:06
+end = 2022-12-20 02:30:06.799228387+00:00
 
 [server]
 repo = "cake233/ubuntu-kde-amd64"
