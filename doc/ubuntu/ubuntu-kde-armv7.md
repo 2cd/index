@@ -86,10 +86,10 @@ xorg_or_wayland = true
 syntax_version = "0.0.0-alpha.4"
 
 [file]
-name = "ubuntu-kde_armhf_2022-12-20_00-48.tar.zst"
+name = "ubuntu-kde_armhf_2022-12-20_02-48.tar.zst"
 
 # This value can be used to verify the integrity of the file
-sha256 = "cf466f55b7bcd10637ab915147cedc8911cebc403fd6ba53d13ae250a4181a2b"
+sha256 = "52de45ce9d1d69029ec4df33cd56f99e5074fc7b4794b9dd9dde6fe9a3a26274"
 
 # zstd: [1-22]
 zstd-level = 19
@@ -98,12 +98,12 @@ zstd-level = 19
 # Installed size ≈ tar-size
 # Installed size is approximately equal to the size of the tar file
 tar = "3.8G"
-tar_bytes = 4024388608
+tar_bytes = 4041165824
 
 # Space occupied ≈ tar-size + zstd-size
 # You will need to prepare a large enough space before installation.
 zstd = "1.2G"
-zstd_bytes = 1230637555
+zstd_bytes = 1230471179
 
 [compatibility]
 compatible_mode = true
@@ -122,24 +122,24 @@ old_file = "ubuntu-kde_armhf_2022-12-06_00-49-rootfs.tar.zst"
 old_sha256 = "fb050c2c31cc8f2c60e7ff71aa4c089b137f15aed3329e84c66d446fd540069d"
 # edition 2021
 # DISTRO_NAME=ubuntu-dev_armhf
-# ROOTFS_FILE=ubuntu-kde_armhf_2022-12-20_00-48-rootfs.tar.zst
-# SHA256SUM=cf466f55b7bcd10637ab915147cedc8911cebc403fd6ba53d13ae250a4181a2b
+# ROOTFS_FILE=ubuntu-kde_armhf_2022-12-20_02-48-rootfs.tar.zst
+# SHA256SUM=52de45ce9d1d69029ec4df33cd56f99e5074fc7b4794b9dd9dde6fe9a3a26274
 # BUILD_DATE=20221220
 # BUILD_TAG=2022-12-20
 # STATUS=completed
 # VERSION=latest02
-# END_TIME=00:48
+# END_TIME=02:48
 
 [time]
 format = "rfc-3339"
 zone = "UTC"
 date = 2022-12-20
-begin = 2022-12-20 00:03:20.160830910+00:00
-start-sync_0 = 00:33:34
-start-zstd = 00:36:39
-start-sync_1 = 00:47:49
-end-sync_1 = 00:48:57
-end = 2022-12-20 00:48:57.218830194+00:00
+begin = 2022-12-20 02:00:24.925762421+00:00
+start-sync_0 = 02:31:11
+start-zstd = 02:34:12
+start-sync_1 = 02:46:52
+end-sync_1 = 02:48:01
+end = 2022-12-20 02:48:01.825809923+00:00
 
 [server]
 repo = "cake233/ubuntu-kde-armv7"
