@@ -86,10 +86,10 @@ xorg_or_wayland = true
 syntax_version = "0.0.0-alpha.4"
 
 [file]
-name = "ubuntu-lxqt_arm64_2022-12-20_00-54.tar.zst"
+name = "ubuntu-lxqt_arm64_2022-12-20_02-50.tar.zst"
 
 # This value can be used to verify the integrity of the file
-sha256 = "0b6683363044b4d2126bc841b4b6fb9af168b07445c017cc9504a8dde25206b0"
+sha256 = "bde3b53c30b556ff329fbb51a0690a29abcfebd97bd44c07eb016ae3e78f2289"
 
 # zstd: [1-22]
 zstd-level = 19
@@ -98,12 +98,12 @@ zstd-level = 19
 # Installed size ≈ tar-size
 # Installed size is approximately equal to the size of the tar file
 tar = "4.0G"
-tar_bytes = 4244524032
+tar_bytes = 4244519936
 
 # Space occupied ≈ tar-size + zstd-size
 # You will need to prepare a large enough space before installation.
 zstd = "1.1G"
-zstd_bytes = 1149490052
+zstd_bytes = 1149486644
 
 [compatibility]
 compatible_mode = true
@@ -122,24 +122,24 @@ old_file = "ubuntu-lxqt_arm64_2022-12-06_01-02-rootfs.tar.zst"
 old_sha256 = "8967fe5187840c3db12638d2cb84b3db121c2e41835f18c7080b07123d6d11cf"
 # edition 2021
 # DISTRO_NAME=ubuntu-dev_arm64
-# ROOTFS_FILE=ubuntu-lxqt_arm64_2022-12-20_00-54-rootfs.tar.zst
-# SHA256SUM=0b6683363044b4d2126bc841b4b6fb9af168b07445c017cc9504a8dde25206b0
+# ROOTFS_FILE=ubuntu-lxqt_arm64_2022-12-20_02-50-rootfs.tar.zst
+# SHA256SUM=bde3b53c30b556ff329fbb51a0690a29abcfebd97bd44c07eb016ae3e78f2289
 # BUILD_DATE=20221220
 # BUILD_TAG=2022-12-20
 # STATUS=completed
 # VERSION=latest01
-# END_TIME=00:54
+# END_TIME=02:50
 
 [time]
 format = "rfc-3339"
 zone = "UTC"
 date = 2022-12-20
-begin = 2022-12-20 00:03:20.882626226+00:00
-start-sync_0 = 00:35:11
-start-zstd = 00:38:24
-start-sync_1 = 00:53:16
-end-sync_1 = 00:54:26
-end = 2022-12-20 00:54:26.433165672+00:00
+begin = 2022-12-20 02:00:25.672476597+00:00
+start-sync_0 = 02:31:52
+start-zstd = 02:35:22
+start-sync_1 = 02:49:31
+end-sync_1 = 02:50:40
+end = 2022-12-20 02:50:40.296164731+00:00
 
 [server]
 repo = "cake233/ubuntu-lxqt-arm64"
