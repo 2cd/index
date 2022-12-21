@@ -77,7 +77,7 @@ localhost:5903
 ```toml
 [main]
 name = "debian"
-tag = ["kde", "2022-12-14"]
+tag = ["kde", "2022-12-21"]
 os = "debian"
 release = "sid"
 arch = "arm64"
@@ -86,10 +86,10 @@ xorg_or_wayland = true
 syntax_version = "0.0.0-alpha.4"
 
 [file]
-name = "debian-kde_arm64_2022-12-14_13-51.tar.zst"
+name = "debian-kde_arm64_2022-12-21_13-03.tar.zst"
 
 # This value can be used to verify the integrity of the file
-sha256 = "1cffaef45c3998008056f1a82a5f63c71a6c12982b1252d0c8dcfd9529f5771a"
+sha256 = "a53869140bf8f5fb08a638c9990aebe0df0173e4e90bbc3ff61f7a23120863ba"
 
 # zstd: [1-22]
 zstd-level = 19
@@ -97,49 +97,49 @@ zstd-level = 19
 [file.size]
 # Installed size ≈ tar-size
 # Installed size is approximately equal to the size of the tar file
-tar = "5.8G"
-tar_bytes = 6167950848
+tar = "3.6G"
+tar_bytes = 3764096000
 
 # Space occupied ≈ tar-size + zstd-size
 # You will need to prepare a large enough space before installation.
-zstd = "1.7G"
-zstd_bytes = 1726166937
+zstd = "977M"
+zstd_bytes = 1023420331
 
 [compatibility]
 compatible_mode = true
 
-previous_version = "latest02"
+previous_version = "latest01"
 
 # The value is &str, not int
-previous_date = "20221207"
-previous_tag = "2022-12-07"
-previous_file = "debian-kde_arm64_2022-12-07_13-31-rootfs.tar.zst"
-previous_sha256 = "9234cdfe268fdaffac5626fe4b95efff8155bd138d9733141d40d72d9da89872"
+previous_date = "20221214"
+previous_tag = "2022-12-14"
+previous_file = "debian-kde_arm64_2022-12-14_13-51-rootfs.tar.zst"
+previous_sha256 = "1cffaef45c3998008056f1a82a5f63c71a6c12982b1252d0c8dcfd9529f5771a"
 
-current_version = "latest01"
-current_date = "20221214"
-old_file = "debian-kde_arm64_2022-11-30_13-30-rootfs.tar.zst"
-old_sha256 = "67a567a445643679449f8d8334764b16aa5b934e448cd8109113d435ceaee6e7"
+current_version = "latest02"
+current_date = "20221221"
+old_file = "debian-kde_arm64_2022-12-07_13-31-rootfs.tar.zst"
+old_sha256 = "9234cdfe268fdaffac5626fe4b95efff8155bd138d9733141d40d72d9da89872"
 # edition 2021
 # DISTRO_NAME=debian-sid_arm64
-# ROOTFS_FILE=debian-kde_arm64_2022-12-14_13-51-rootfs.tar.zst
-# SHA256SUM=1cffaef45c3998008056f1a82a5f63c71a6c12982b1252d0c8dcfd9529f5771a
-# BUILD_DATE=20221214
-# BUILD_TAG=2022-12-14
+# ROOTFS_FILE=debian-kde_arm64_2022-12-21_13-03-rootfs.tar.zst
+# SHA256SUM=a53869140bf8f5fb08a638c9990aebe0df0173e4e90bbc3ff61f7a23120863ba
+# BUILD_DATE=20221221
+# BUILD_TAG=2022-12-21
 # STATUS=completed
-# VERSION=latest01
-# END_TIME=13:51
+# VERSION=latest02
+# END_TIME=13:03
 
 [time]
 format = "rfc-3339"
 zone = "UTC"
-date = 2022-12-14
-begin = 2022-12-14 12:21:15.594082811+00:00
-start-sync_0 = 13:18:55
-start-zstd = 13:25:43
-start-sync_1 = 13:50:07
-end-sync_1 = 13:51:57
-end = 2022-12-14 13:51:57.853325665+00:00
+date = 2022-12-21
+begin = 2022-12-21 12:19:40.681566856+00:00
+start-sync_0 = 12:47:58
+start-zstd = 12:50:37
+start-sync_1 = 13:02:37
+end-sync_1 = 13:03:36
+end = 2022-12-21 13:03:36.486511632+00:00
 
 [server]
 repo = "cake233/debian-kde-arm64"
