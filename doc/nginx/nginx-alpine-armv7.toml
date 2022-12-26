@@ -1,6 +1,6 @@
 [main]
 name = "nginx"
-tag = ["alpine", "2022-12-12", "musl-libc", "musl"]
+tag = ["alpine", "2022-12-26", "musl-libc", "musl"]
 os = "alpine"
 release = "stable"
 arch = "armhf"
@@ -9,10 +9,10 @@ xorg_or_wayland = false
 syntax_version = "0.0.0-alpha.4"
 
 [file]
-name = "nginx-musl_armhf_2022-12-12_12-03.tar.zst"
+name = "nginx-musl_armhf_2022-12-26_12-04.tar.zst"
 
 # This value can be used to verify the integrity of the file
-sha256 = "1883d15dc777c45fe073c79e444bc41be9823c367fd3bd9c0001edab7cb7d013"
+sha256 = "f2aed751fd3cf6e595f306063fa619227b7f7b9ed5aa3204a2c1c562c38e43db"
 
 # zstd: [1-22]
 zstd-level = 22
@@ -20,49 +20,49 @@ zstd-level = 22
 [file.size]
 # Installed size ≈ tar-size
 # Installed size is approximately equal to the size of the tar file
-tar = "25M"
-tar_bytes = 25447936
+tar = "47M"
+tar_bytes = 48389120
 
 # Space occupied ≈ tar-size + zstd-size
 # You will need to prepare a large enough space before installation.
-zstd = "8.4M"
-zstd_bytes = 8804238
+zstd = "13M"
+zstd_bytes = 12704064
 
 [compatibility]
 compatible_mode = true
 
-previous_version = "latest02"
+previous_version = "latest01"
 
 # The value is &str, not int
-previous_date = "20221128"
-previous_tag = "2022-11-28"
-previous_file = "nginx-musl_armhf_2022-11-28_12-03-rootfs.tar.zst"
-previous_sha256 = "c7b75ece94f849bb88767cca7cdd7c4cb265f9d26e9c72a3f5824823ff07ee70"
+previous_date = "20221212"
+previous_tag = "2022-12-12"
+previous_file = "nginx-musl_armhf_2022-12-12_12-03-rootfs.tar.zst"
+previous_sha256 = "1883d15dc777c45fe073c79e444bc41be9823c367fd3bd9c0001edab7cb7d013"
 
-current_version = "latest01"
-current_date = "20221212"
-old_file = "nginx-musl_armhf_2022-11-14_12-03-rootfs.tar.zst"
-old_sha256 = "d6bf142e0de9523148b85af5ee580b48bf55f8dbaa1833447d52200955e0f754"
+current_version = "latest02"
+current_date = "20221226"
+old_file = "nginx-musl_armhf_2022-11-28_12-03-rootfs.tar.zst"
+old_sha256 = "c7b75ece94f849bb88767cca7cdd7c4cb265f9d26e9c72a3f5824823ff07ee70"
 # edition 2021
 # DISTRO_NAME=nginx_armhf
-# ROOTFS_FILE=nginx-musl_armhf_2022-12-12_12-03-rootfs.tar.zst
-# SHA256SUM=1883d15dc777c45fe073c79e444bc41be9823c367fd3bd9c0001edab7cb7d013
-# BUILD_DATE=20221212
-# BUILD_TAG=2022-12-12
+# ROOTFS_FILE=nginx-musl_armhf_2022-12-26_12-04-rootfs.tar.zst
+# SHA256SUM=f2aed751fd3cf6e595f306063fa619227b7f7b9ed5aa3204a2c1c562c38e43db
+# BUILD_DATE=20221226
+# BUILD_TAG=2022-12-26
 # STATUS=completed
-# VERSION=latest01
-# END_TIME=12:03
+# VERSION=latest02
+# END_TIME=12:04
 
 [time]
 format = "rfc-3339"
 zone = "UTC"
-date = 2022-12-12
-begin = 2022-12-12 12:02:32.158089313+00:00
-start-sync_0 = 12:03:27
-start-zstd = 12:03:34
-start-sync_1 = 12:03:45
-end-sync_1 = 12:03:51
-end = 2022-12-12 12:03:51.395800651+00:00
+date = 2022-12-26
+begin = 2022-12-26 12:02:30.211034166+00:00
+start-sync_0 = 12:03:31
+start-zstd = 12:03:39
+start-sync_1 = 12:03:53
+end-sync_1 = 12:04:00
+end = 2022-12-26 12:04:00.564649893+00:00
 
 [server]
 repo = "cake233/nginx-alpine-armv7"
@@ -77,7 +77,7 @@ split = false
 [server.node2]
 name = "tmoe"
 current = true
-previous = false
+previous = true
 in_sync = false
 split = false
 
@@ -86,8 +86,6 @@ name = "azure"
 current = true
 previous = true
 in_sync = false
-start_sync = 2022-12-12 18:03:28.364744497+00:00
-end_sync = 2022-12-12 18:03:33.359231513+00:00
 split = false
 
 [server.node4]
@@ -100,6 +98,6 @@ LANG = "C.UTF-8"
 
 [version]
 ldd = 'musl libc (armhf) Version 1.2.3'
-nginx = '1.23.2'
-njs = '0.7.7'
+nginx = '1.23.3'
+njs = '0.7.9'
 pkg_release = '1'
