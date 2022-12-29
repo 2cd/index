@@ -1,6 +1,6 @@
 [main]
 name = "kali"
-tag = ["zsh", "2022-12-22"]
+tag = ["zsh", "2022-12-29"]
 os = "kali"
 release = "rolling"
 arch = "armhf"
@@ -9,10 +9,10 @@ xorg_or_wayland = false
 syntax_version = "0.0.0-alpha.4"
 
 [file]
-name = "kali-zsh_armhf_2022-12-22_12-18.tar.zst"
+name = "kali-zsh_armhf_2022-12-29_12-17.tar.zst"
 
 # This value can be used to verify the integrity of the file
-sha256 = "21bc94bd48aeaebf9d293e7d26b8019e265abd33348cb4d1a30ca37e673fd7ae"
+sha256 = "9ad9b94acb1857108d657ae25d5e7c505348502bdf1c6de1a6f0b181fc51e6c3"
 
 # zstd: [1-22]
 zstd-level = 20
@@ -21,48 +21,48 @@ zstd-level = 20
 # Installed size ≈ tar-size
 # Installed size is approximately equal to the size of the tar file
 tar = "730M"
-tar_bytes = 764943872
+tar_bytes = 764939264
 
 # Space occupied ≈ tar-size + zstd-size
 # You will need to prepare a large enough space before installation.
-zstd = "141M"
-zstd_bytes = 146828459
+zstd = "140M"
+zstd_bytes = 146729992
 
 [compatibility]
 compatible_mode = true
 
-previous_version = "latest01"
+previous_version = "latest02"
 
 # The value is &str, not int
-previous_date = "20221215"
-previous_tag = "2022-12-15"
-previous_file = "kali-zsh_armhf_2022-12-15_12-19-rootfs.tar.zst"
-previous_sha256 = "e87daf305bda95b3fff2ffaa181b8da387cad6c0c34b3ccfea1faaed01b4a86c"
+previous_date = "20221222"
+previous_tag = "2022-12-22"
+previous_file = "kali-zsh_armhf_2022-12-22_12-18-rootfs.tar.zst"
+previous_sha256 = "21bc94bd48aeaebf9d293e7d26b8019e265abd33348cb4d1a30ca37e673fd7ae"
 
-current_version = "latest02"
-current_date = "20221222"
-old_file = ""
-old_sha256 = ""
+current_version = "latest01"
+current_date = "20221229"
+old_file = "kali-zsh_armhf_2022-12-15_12-19-rootfs.tar.zst"
+old_sha256 = "e87daf305bda95b3fff2ffaa181b8da387cad6c0c34b3ccfea1faaed01b4a86c"
 # edition 2021
 # DISTRO_NAME=kali-rolling_armhf
-# ROOTFS_FILE=kali-zsh_armhf_2022-12-22_12-18-rootfs.tar.zst
-# SHA256SUM=21bc94bd48aeaebf9d293e7d26b8019e265abd33348cb4d1a30ca37e673fd7ae
-# BUILD_DATE=20221222
-# BUILD_TAG=2022-12-22
+# ROOTFS_FILE=kali-zsh_armhf_2022-12-29_12-17-rootfs.tar.zst
+# SHA256SUM=9ad9b94acb1857108d657ae25d5e7c505348502bdf1c6de1a6f0b181fc51e6c3
+# BUILD_DATE=20221229
+# BUILD_TAG=2022-12-29
 # STATUS=completed
-# VERSION=latest02
-# END_TIME=12:18
+# VERSION=latest01
+# END_TIME=12:17
 
 [time]
 format = "rfc-3339"
 zone = "UTC"
-date = 2022-12-22
-begin = 2022-12-22 12:02:24.108902161+00:00
-start-sync_0 = 12:14:44
-start-zstd = 12:16:28
-start-sync_1 = 12:18:35
-end-sync_1 = 12:18:48
-end = 2022-12-22 12:18:48.810551069+00:00
+date = 2022-12-29
+begin = 2022-12-29 12:02:26.479966815+00:00
+start-sync_0 = 12:13:53
+start-zstd = 12:15:37
+start-sync_1 = 12:17:39
+end-sync_1 = 12:17:52
+end = 2022-12-29 12:17:52.185816722+00:00
 
 [server]
 repo = "cake233/kali-zsh-armv7"
@@ -77,7 +77,7 @@ split = false
 [server.node2]
 name = "tmoe"
 current = true
-previous = false
+previous = true
 in_sync = false
 split = false
 
@@ -86,8 +86,6 @@ name = "azure"
 current = true
 previous = true
 in_sync = false
-start_sync = 2022-12-22 18:04:42.838023883+00:00
-end_sync = 2022-12-22 18:05:12.878436288+00:00
 split = false
 
 [server.node4]
@@ -99,5 +97,5 @@ current = true
 LANG = "en_US.UTF-8"
 
 [version]
-ldd = 'ldd (Debian GLIBC 2.36-4) 2.36'
+ldd = 'ldd (Debian GLIBC 2.36-6) 2.36'
 zsh = 'zsh 5.9 (arm-unknown-linux-gnueabihf)'
