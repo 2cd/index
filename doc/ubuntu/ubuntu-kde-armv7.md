@@ -77,7 +77,7 @@ localhost:5903
 ```toml
 [main]
 name = "ubuntu"
-tag = ["kde", "2022-12-27", "devel"]
+tag = ["kde", "2023-01-03", "devel"]
 os = "ubuntu"
 release = "dev"
 arch = "armhf"
@@ -86,10 +86,10 @@ xorg_or_wayland = true
 syntax_version = "0.0.0-alpha.4"
 
 [file]
-name = "ubuntu-kde_armhf_2022-12-27_00-59.tar.zst"
+name = "ubuntu-kde_armhf_2023-01-03_01-07.tar.zst"
 
 # This value can be used to verify the integrity of the file
-sha256 = "e1ecc80622a0f4992c7c8aba2d6db1fc985c28defbab455f38e6834fa15fccbd"
+sha256 = "ae4042afeabba8321322b5d4337da6f9ba58073b3f4a1b6e68157b44d7f13752"
 
 # zstd: [1-22]
 zstd-level = 19
@@ -98,48 +98,48 @@ zstd-level = 19
 # Installed size ≈ tar-size
 # Installed size is approximately equal to the size of the tar file
 tar = "3.8G"
-tar_bytes = 4041611264
+tar_bytes = 4041620480
 
 # Space occupied ≈ tar-size + zstd-size
 # You will need to prepare a large enough space before installation.
 zstd = "1.2G"
-zstd_bytes = 1230582419
+zstd_bytes = 1230571409
 
 [compatibility]
 compatible_mode = true
 
-previous_version = "latest02"
+previous_version = "latest01"
 
 # The value is &str, not int
-previous_date = "20221220"
-previous_tag = "2022-12-20"
-previous_file = "ubuntu-kde_armhf_2022-12-20_02-48-rootfs.tar.zst"
-previous_sha256 = "52de45ce9d1d69029ec4df33cd56f99e5074fc7b4794b9dd9dde6fe9a3a26274"
+previous_date = "20221227"
+previous_tag = "2022-12-27"
+previous_file = "ubuntu-kde_armhf_2022-12-27_00-59-rootfs.tar.zst"
+previous_sha256 = "e1ecc80622a0f4992c7c8aba2d6db1fc985c28defbab455f38e6834fa15fccbd"
 
-current_version = "latest01"
-current_date = "20221227"
-old_file = "ubuntu-kde_armhf_2022-12-13_00-58-rootfs.tar.zst"
-old_sha256 = "5c31e2b73ee6855e3853320e47ee2a55a450fa7a6907d2b2a0055d8df3b7d797"
+current_version = "latest02"
+current_date = "20230103"
+old_file = "ubuntu-kde_armhf_2022-12-20_02-48-rootfs.tar.zst"
+old_sha256 = "52de45ce9d1d69029ec4df33cd56f99e5074fc7b4794b9dd9dde6fe9a3a26274"
 # edition 2021
 # DISTRO_NAME=ubuntu-dev_armhf
-# ROOTFS_FILE=ubuntu-kde_armhf_2022-12-27_00-59-rootfs.tar.zst
-# SHA256SUM=e1ecc80622a0f4992c7c8aba2d6db1fc985c28defbab455f38e6834fa15fccbd
-# BUILD_DATE=20221227
-# BUILD_TAG=2022-12-27
+# ROOTFS_FILE=ubuntu-kde_armhf_2023-01-03_01-07-rootfs.tar.zst
+# SHA256SUM=ae4042afeabba8321322b5d4337da6f9ba58073b3f4a1b6e68157b44d7f13752
+# BUILD_DATE=20230103
+# BUILD_TAG=2023-01-03
 # STATUS=completed
-# VERSION=latest01
-# END_TIME=00:59
+# VERSION=latest02
+# END_TIME=01:07
 
 [time]
 format = "rfc-3339"
 zone = "UTC"
-date = 2022-12-27
-begin = 2022-12-27 00:02:56.386314189+00:00
-start-sync_0 = 00:40:05
-start-zstd = 00:43:53
-start-sync_1 = 00:58:06
-end-sync_1 = 00:59:34
-end = 2022-12-27 00:59:34.768563971+00:00
+date = 2023-01-03
+begin = 2023-01-03 00:03:14.668169128+00:00
+start-sync_0 = 00:46:14
+start-zstd = 00:50:14
+start-sync_1 = 01:05:44
+end-sync_1 = 01:07:06
+end = 2023-01-03 01:07:06.671214232+00:00
 
 [server]
 repo = "cake233/ubuntu-kde-armv7"
