@@ -1,6 +1,6 @@
 [main]
 name = "alpine"
-tag = ["xfce", "2022-12-29"]
+tag = ["xfce", "2023-01-05"]
 os = "alpine"
 release = "edge"
 arch = "amd64"
@@ -9,10 +9,10 @@ xorg_or_wayland = true
 syntax_version = "0.0.0-alpha.4"
 
 [file]
-name = "alpine-xfce_amd64_2022-12-29_00-15.tar.zst"
+name = "alpine-xfce_amd64_2023-01-05_00-13.tar.zst"
 
 # This value can be used to verify the integrity of the file
-sha256 = "28bfbd8e607182c5ace525d264aa273575cd4dfac3f85e620ab6eb3383525b6a"
+sha256 = "5fbd33860522f7eff66ac2559e9fb1c3c3511155a385f0033e6abb1269006aad"
 
 # zstd: [1-22]
 zstd-level = 19
@@ -20,49 +20,49 @@ zstd-level = 19
 [file.size]
 # Installed size ≈ tar-size
 # Installed size is approximately equal to the size of the tar file
-tar = "990M"
-tar_bytes = 1037863936
+tar = "992M"
+tar_bytes = 1039335936
 
 # Space occupied ≈ tar-size + zstd-size
 # You will need to prepare a large enough space before installation.
 zstd = "336M"
-zstd_bytes = 351375670
+zstd_bytes = 351967397
 
 [compatibility]
 compatible_mode = true
 
-previous_version = "latest01"
+previous_version = "latest02"
 
 # The value is &str, not int
-previous_date = "20221222"
-previous_tag = "2022-12-22"
-previous_file = "alpine-xfce_amd64_2022-12-22_00-13-rootfs.tar.zst"
-previous_sha256 = "d85975f5f2c305b7fd5c280ed3a2e217eefd9a4ec9ea1d44142841a569709e2e"
+previous_date = "20221229"
+previous_tag = "2022-12-29"
+previous_file = "alpine-xfce_amd64_2022-12-29_00-15-rootfs.tar.zst"
+previous_sha256 = "28bfbd8e607182c5ace525d264aa273575cd4dfac3f85e620ab6eb3383525b6a"
 
-current_version = "latest02"
-current_date = "20221229"
-old_file = "alpine-xfce_amd64_2022-12-15_00-14-rootfs.tar.zst"
-old_sha256 = "a4698a907d1349b37a35e72cbfd93b87ec55af5f7a11d454e03b8345ada67692"
+current_version = "latest01"
+current_date = "20230105"
+old_file = "alpine-xfce_amd64_2022-12-22_00-13-rootfs.tar.zst"
+old_sha256 = "d85975f5f2c305b7fd5c280ed3a2e217eefd9a4ec9ea1d44142841a569709e2e"
 # edition 2021
 # DISTRO_NAME=alpine-edge_amd64
-# ROOTFS_FILE=alpine-xfce_amd64_2022-12-29_00-15-rootfs.tar.zst
-# SHA256SUM=28bfbd8e607182c5ace525d264aa273575cd4dfac3f85e620ab6eb3383525b6a
-# BUILD_DATE=20221229
-# BUILD_TAG=2022-12-29
+# ROOTFS_FILE=alpine-xfce_amd64_2023-01-05_00-13-rootfs.tar.zst
+# SHA256SUM=5fbd33860522f7eff66ac2559e9fb1c3c3511155a385f0033e6abb1269006aad
+# BUILD_DATE=20230105
+# BUILD_TAG=2023-01-05
 # STATUS=completed
-# VERSION=latest02
-# END_TIME=00:15
+# VERSION=latest01
+# END_TIME=00:13
 
 [time]
 format = "rfc-3339"
 zone = "UTC"
-date = 2022-12-29
-begin = 2022-12-29 00:07:06.546395627+00:00
-start-sync_0 = 00:09:18
-start-zstd = 00:10:27
-start-sync_1 = 00:14:37
-end-sync_1 = 00:15:07
-end = 2022-12-29 00:15:07.688707011+00:00
+date = 2023-01-05
+begin = 2023-01-05 00:07:05.433691442+00:00
+start-sync_0 = 00:08:51
+start-zstd = 00:09:46
+start-sync_1 = 00:13:01
+end-sync_1 = 00:13:25
+end = 2023-01-05 00:13:25.473747819+00:00
 
 [server]
 repo = "cake233/alpine-xfce-amd64"
@@ -77,7 +77,7 @@ split = false
 [server.node2]
 name = "tmoe"
 current = true
-previous = false
+previous = true
 in_sync = false
 split = false
 
@@ -86,8 +86,6 @@ name = "azure"
 current = true
 previous = true
 in_sync = false
-start_sync = 2022-12-29 06:11:08.906328572+00:00
-end_sync = 2022-12-29 06:11:58.840707556+00:00
 split = false
 
 [server.node4]
