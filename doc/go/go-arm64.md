@@ -56,7 +56,7 @@ func main() {
 ```toml
 [main]
 name = "go"
-tag = ["latest", "2022-12-26"]
+tag = ["latest", "2023-01-09"]
 os = "debian"
 release = "stable"
 arch = "arm64"
@@ -65,10 +65,10 @@ xorg_or_wayland = false
 syntax_version = "0.0.0-alpha.4"
 
 [file]
-name = "go_arm64_2022-12-26_12-10.tar.zst"
+name = "go_arm64_2023-01-09_12-10.tar.zst"
 
 # This value can be used to verify the integrity of the file
-sha256 = "088ced30c2f10aed28c341ea7397584b9bbee921a348245080a9c3d204feb7cb"
+sha256 = "7405b3c9a50a1f6f6f555ff000631c8154da30d95c140d113de46c5883448d65"
 
 # zstd: [1-22]
 zstd-level = 22
@@ -82,43 +82,43 @@ tar_bytes = 893316608
 # Space occupied ≈ tar-size + zstd-size
 # You will need to prepare a large enough space before installation.
 zstd = "194M"
-zstd_bytes = 202984101
+zstd_bytes = 203027088
 
 [compatibility]
 compatible_mode = true
 
-previous_version = "latest02"
+previous_version = "latest01"
 
 # The value is &str, not int
-previous_date = "20221212"
-previous_tag = "2022-12-12"
-previous_file = "go_arm64_2022-12-12_12-10-rootfs.tar.zst"
-previous_sha256 = "76dd4c625b0ce1d47736f0d0aacca92af9b4b848b6df97255cfb85ecfd53d217"
+previous_date = "20221226"
+previous_tag = "2022-12-26"
+previous_file = "go_arm64_2022-12-26_12-10-rootfs.tar.zst"
+previous_sha256 = "088ced30c2f10aed28c341ea7397584b9bbee921a348245080a9c3d204feb7cb"
 
-current_version = "latest01"
-current_date = "20221226"
-old_file = "go_arm64_2022-11-28_12-09-rootfs.tar.zst"
-old_sha256 = "ff2a9cf99e4fe7af79723388843952d17d6752d89487eb85164258f83a697099"
+current_version = "latest02"
+current_date = "20230109"
+old_file = "go_arm64_2022-12-12_12-10-rootfs.tar.zst"
+old_sha256 = "76dd4c625b0ce1d47736f0d0aacca92af9b4b848b6df97255cfb85ecfd53d217"
 # edition 2021
 # DISTRO_NAME=go_arm64
-# ROOTFS_FILE=go_arm64_2022-12-26_12-10-rootfs.tar.zst
-# SHA256SUM=088ced30c2f10aed28c341ea7397584b9bbee921a348245080a9c3d204feb7cb
-# BUILD_DATE=20221226
-# BUILD_TAG=2022-12-26
+# ROOTFS_FILE=go_arm64_2023-01-09_12-10-rootfs.tar.zst
+# SHA256SUM=7405b3c9a50a1f6f6f555ff000631c8154da30d95c140d113de46c5883448d65
+# BUILD_DATE=20230109
+# BUILD_TAG=2023-01-09
 # STATUS=completed
-# VERSION=latest01
+# VERSION=latest02
 # END_TIME=12:10
 
 [time]
 format = "rfc-3339"
 zone = "UTC"
-date = 2022-12-26
-begin = 2022-12-26 12:02:27.804269066+00:00
-start-sync_0 = 12:04:54
-start-zstd = 12:05:08
-start-sync_1 = 12:09:56
-end-sync_1 = 12:10:12
-end = 2022-12-26 12:10:12.696544366+00:00
+date = 2023-01-09
+begin = 2023-01-09 12:02:34.291374112+00:00
+start-sync_0 = 12:05:11
+start-zstd = 12:05:28
+start-sync_1 = 12:10:15
+end-sync_1 = 12:10:34
+end = 2023-01-09 12:10:34.644648825+00:00
 
 [server]
 repo = "cake233/go-arm64"
