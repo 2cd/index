@@ -1,6 +1,6 @@
 [main]
 name = "go"
-tag = ["alpine", "2022-12-26", "musl-libc", "musl"]
+tag = ["alpine", "2023-01-09", "musl-libc", "musl"]
 os = "alpine"
 release = "stable"
 arch = "armhf"
@@ -9,10 +9,10 @@ xorg_or_wayland = false
 syntax_version = "0.0.0-alpha.4"
 
 [file]
-name = "go-musl_armhf_2022-12-26_12-07.tar.zst"
+name = "go-musl_armhf_2023-01-09_12-07.tar.zst"
 
 # This value can be used to verify the integrity of the file
-sha256 = "6aae2d480ad8f178f884a5b1ecd5be9b8f54d329a810ee8f6bb1ac8fe497339b"
+sha256 = "bfe3767055a4a23eae476092d60215a4d9f0abf629f1d7bc5ff50e0d89124943"
 
 # zstd: [1-22]
 zstd-level = 22
@@ -26,43 +26,43 @@ tar_bytes = 367229440
 # Space occupied ≈ tar-size + zstd-size
 # You will need to prepare a large enough space before installation.
 zstd = "82M"
-zstd_bytes = 85955354
+zstd_bytes = 85952267
 
 [compatibility]
 compatible_mode = true
 
-previous_version = "latest02"
+previous_version = "latest01"
 
 # The value is &str, not int
-previous_date = "20221212"
-previous_tag = "2022-12-12"
-previous_file = "go-musl_armhf_2022-12-12_12-08-rootfs.tar.zst"
-previous_sha256 = "bce1ed9e3f76e2e05dedf606840b99bb8f918d97f8cc856b4e958dc289de35f8"
+previous_date = "20221226"
+previous_tag = "2022-12-26"
+previous_file = "go-musl_armhf_2022-12-26_12-07-rootfs.tar.zst"
+previous_sha256 = "6aae2d480ad8f178f884a5b1ecd5be9b8f54d329a810ee8f6bb1ac8fe497339b"
 
-current_version = "latest01"
-current_date = "20221226"
-old_file = "go-musl_armhf_2022-11-28_12-08-rootfs.tar.zst"
-old_sha256 = "e600af4b71b0958506f6e7be7aa089f2f2f2e894fac966c0854b11f0241ffebf"
+current_version = "latest02"
+current_date = "20230109"
+old_file = "go-musl_armhf_2022-12-12_12-08-rootfs.tar.zst"
+old_sha256 = "bce1ed9e3f76e2e05dedf606840b99bb8f918d97f8cc856b4e958dc289de35f8"
 # edition 2021
 # DISTRO_NAME=go_armhf
-# ROOTFS_FILE=go-musl_armhf_2022-12-26_12-07-rootfs.tar.zst
-# SHA256SUM=6aae2d480ad8f178f884a5b1ecd5be9b8f54d329a810ee8f6bb1ac8fe497339b
-# BUILD_DATE=20221226
-# BUILD_TAG=2022-12-26
+# ROOTFS_FILE=go-musl_armhf_2023-01-09_12-07-rootfs.tar.zst
+# SHA256SUM=bfe3767055a4a23eae476092d60215a4d9f0abf629f1d7bc5ff50e0d89124943
+# BUILD_DATE=20230109
+# BUILD_TAG=2023-01-09
 # STATUS=completed
-# VERSION=latest01
+# VERSION=latest02
 # END_TIME=12:07
 
 [time]
 format = "rfc-3339"
 zone = "UTC"
-date = 2022-12-26
-begin = 2022-12-26 12:02:29.884718857+00:00
-start-sync_0 = 12:03:48
-start-zstd = 12:04:01
-start-sync_1 = 12:07:33
-end-sync_1 = 12:07:47
-end = 2022-12-26 12:07:47.700110448+00:00
+date = 2023-01-09
+begin = 2023-01-09 12:02:31.170858880+00:00
+start-sync_0 = 12:03:27
+start-zstd = 12:03:36
+start-sync_1 = 12:06:51
+end-sync_1 = 12:07:01
+end = 2023-01-09 12:07:01.696462968+00:00
 
 [server]
 repo = "cake233/go-alpine-armv7"
@@ -77,7 +77,7 @@ split = false
 [server.node2]
 name = "tmoe"
 current = true
-previous = false
+previous = true
 in_sync = false
 split = false
 
@@ -86,8 +86,6 @@ name = "azure"
 current = true
 previous = true
 in_sync = false
-start_sync = 2022-12-26 18:06:59.120165609+00:00
-end_sync = 2022-12-26 18:07:19.737294395+00:00
 split = false
 
 [server.node4]
