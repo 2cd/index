@@ -69,7 +69,7 @@ ldd "$FILE"
 ```toml
 [main]
 name = "rust"
-tag = ["alpine", "2023-01-06", "nightly", "unstable", "minimal", "musl-libc", "musl"]
+tag = ["alpine", "2023-01-09", "nightly", "unstable", "minimal", "musl-libc", "musl"]
 os = "alpine"
 release = "edge"
 arch = "amd64"
@@ -78,10 +78,10 @@ xorg_or_wayland = false
 syntax_version = "0.0.0-alpha.4"
 
 [file]
-name = "rust-musl_amd64_2023-01-06_02-59.tar.zst"
+name = "rust-musl_amd64_2023-01-09_02-59.tar.zst"
 
 # This value can be used to verify the integrity of the file
-sha256 = "b6fffd76fd7b348ad6cc045aeeabe5eb5fd2b83fe0a3ce21c564d02f0e8edff6"
+sha256 = "1ad40ca26d71801d16cf151f291a72d6616ac3f0e8a6f4e87b655ad43454d62f"
 
 # zstd: [1-22]
 zstd-level = 22
@@ -89,49 +89,49 @@ zstd-level = 22
 [file.size]
 # Installed size ≈ tar-size
 # Installed size is approximately equal to the size of the tar file
-tar = "812M"
-tar_bytes = 850957824
+tar = "813M"
+tar_bytes = 851641344
 
 # Space occupied ≈ tar-size + zstd-size
 # You will need to prepare a large enough space before installation.
 zstd = "164M"
-zstd_bytes = 171671393
+zstd_bytes = 171862617
 
 [compatibility]
 compatible_mode = true
 
-previous_version = "latest01"
+previous_version = "latest02"
 
 # The value is &str, not int
-previous_date = "20230102"
-previous_tag = "2023-01-02"
-previous_file = "rust-musl_amd64_2023-01-02_02-59-rootfs.tar.zst"
-previous_sha256 = "8cb930ce6fcf087ac1c715eef14b55398720310881dc4463e8b68c7d5fb852bd"
+previous_date = "20230106"
+previous_tag = "2023-01-06"
+previous_file = "rust-musl_amd64_2023-01-06_02-59-rootfs.tar.zst"
+previous_sha256 = "b6fffd76fd7b348ad6cc045aeeabe5eb5fd2b83fe0a3ce21c564d02f0e8edff6"
 
-current_version = "latest02"
-current_date = "20230106"
-old_file = "rust-musl_amd64_2022-12-30_02-58-rootfs.tar.zst"
-old_sha256 = "d35579fd13dd92f1407be1ae36afd4b51d42eecbbd9030367770f13c29311c0a"
+current_version = "latest01"
+current_date = "20230109"
+old_file = "rust-musl_amd64_2023-01-02_02-59-rootfs.tar.zst"
+old_sha256 = "8cb930ce6fcf087ac1c715eef14b55398720310881dc4463e8b68c7d5fb852bd"
 # edition 2021
 # DISTRO_NAME=rust_amd64
-# ROOTFS_FILE=rust-musl_amd64_2023-01-06_02-59-rootfs.tar.zst
-# SHA256SUM=b6fffd76fd7b348ad6cc045aeeabe5eb5fd2b83fe0a3ce21c564d02f0e8edff6
-# BUILD_DATE=20230106
-# BUILD_TAG=2023-01-06
+# ROOTFS_FILE=rust-musl_amd64_2023-01-09_02-59-rootfs.tar.zst
+# SHA256SUM=1ad40ca26d71801d16cf151f291a72d6616ac3f0e8a6f4e87b655ad43454d62f
+# BUILD_DATE=20230109
+# BUILD_TAG=2023-01-09
 # STATUS=completed
-# VERSION=latest02
+# VERSION=latest01
 # END_TIME=02:59
 
 [time]
 format = "rfc-3339"
 zone = "UTC"
-date = 2023-01-06
-begin = 2023-01-06 02:52:30.826082670+00:00
-start-sync_0 = 02:53:28
-start-zstd = 02:54:14
-start-sync_1 = 02:59:36
-end-sync_1 = 02:59:51
-end = 2023-01-06 02:59:51.687189556+00:00
+date = 2023-01-09
+begin = 2023-01-09 02:52:26.702618580+00:00
+start-sync_0 = 02:53:13
+start-zstd = 02:53:58
+start-sync_1 = 02:58:59
+end-sync_1 = 02:59:17
+end = 2023-01-09 02:59:17.606959942+00:00
 
 [server]
 repo = "cake233/rust-alpine-amd64"
@@ -172,8 +172,8 @@ CARGO_HOME = "/usr/local/cargo"
 ldd = 'musl libc (x86_64) Version 1.2.3'
 rustup = 'rustup 1.25.1 (2022-07-12)'
 cargo = 'cargo 1.68.0-nightly (8c460b223 2023-01-04)'
-rustc = 'rustc 1.68.0-nightly (388538fc9 2023-01-05)'
-cc = 'cc (Alpine 12.2.1_git20220924-r6) 12.2.1 20220924'
+rustc = 'rustc 1.68.0-nightly (cc47b0699 2023-01-08)'
+cc = 'cc (Alpine 12.2.1_git20220924-r7) 12.2.1 20220924'
 cargo_verbose = '''
 cargo 1.68.0-nightly (8c460b223 2023-01-04)
 release: 1.68.0-nightly
@@ -185,10 +185,10 @@ libcurl: 7.86.0-DEV (sys:0.4.59+curl-7.86.0 vendored ssl:OpenSSL/1.1.1q)
 os: Alpine Linux 3.17_alpha20221110 [64-bit]
 '''
 rustc_verbose = '''
-rustc 1.68.0-nightly (388538fc9 2023-01-05)
+rustc 1.68.0-nightly (cc47b0699 2023-01-08)
 binary: rustc
-commit-hash: 388538fc963e07a94e3fc3ac8948627fd2d28d29
-commit-date: 2023-01-05
+commit-hash: cc47b069983292e4ee8982d5dabe6301452c5f25
+commit-date: 2023-01-08
 host: x86_64-unknown-linux-musl
 release: 1.68.0-nightly
 LLVM version: 15.0.6
