@@ -77,7 +77,7 @@ localhost:5903
 ```toml
 [main]
 name = "arch"
-tag = ["mate", "2023-01-04"]
+tag = ["mate", "2023-01-11"]
 os = "arch"
 release = "latest"
 arch = "arm64"
@@ -86,10 +86,10 @@ xorg_or_wayland = true
 syntax_version = "0.0.0-alpha.4"
 
 [file]
-name = "arch-mate_arm64_2023-01-04_01-22.tar.zst"
+name = "arch-mate_arm64_2023-01-11_01-11.tar.zst"
 
 # This value can be used to verify the integrity of the file
-sha256 = "ff1ecc087e816653de5a9c949e00b30f59a534a368cd96c90f5b063e643668d4"
+sha256 = "3f4060ac2ce1754d63980f70280108eb084c001025f2a6f40beb07896dceb22b"
 
 # zstd: [1-22]
 zstd-level = 19
@@ -98,48 +98,48 @@ zstd-level = 19
 # Installed size ≈ tar-size
 # Installed size is approximately equal to the size of the tar file
 tar = "5.0G"
-tar_bytes = 5289968640
+tar_bytes = 5287703040
 
 # Space occupied ≈ tar-size + zstd-size
 # You will need to prepare a large enough space before installation.
 zstd = "1.4G"
-zstd_bytes = 1469418819
+zstd_bytes = 1469512416
 
 [compatibility]
 compatible_mode = true
 
-previous_version = "latest02"
+previous_version = "latest01"
 
 # The value is &str, not int
-previous_date = "20221228"
-previous_tag = "2022-12-28"
-previous_file = "arch-mate_arm64_2022-12-28_01-12-rootfs.tar.zst"
-previous_sha256 = "08c191d22a142619e86abb8911ae530b9192d2cb44622e0c06c74ecbd6f8983b"
+previous_date = "20230104"
+previous_tag = "2023-01-04"
+previous_file = "arch-mate_arm64_2023-01-04_01-22-rootfs.tar.zst"
+previous_sha256 = "ff1ecc087e816653de5a9c949e00b30f59a534a368cd96c90f5b063e643668d4"
 
-current_version = "latest01"
-current_date = "20230104"
-old_file = "arch-mate_arm64_2022-12-21_01-15-rootfs.tar.zst"
-old_sha256 = "39f2ee33e8210de943e093dec43b086f8888aeb22a7e83fa39bd1830ac39df52"
+current_version = "latest02"
+current_date = "20230111"
+old_file = "arch-mate_arm64_2022-12-28_01-12-rootfs.tar.zst"
+old_sha256 = "08c191d22a142619e86abb8911ae530b9192d2cb44622e0c06c74ecbd6f8983b"
 # edition 2021
 # DISTRO_NAME=arch_arm64
-# ROOTFS_FILE=arch-mate_arm64_2023-01-04_01-22-rootfs.tar.zst
-# SHA256SUM=ff1ecc087e816653de5a9c949e00b30f59a534a368cd96c90f5b063e643668d4
-# BUILD_DATE=20230104
-# BUILD_TAG=2023-01-04
+# ROOTFS_FILE=arch-mate_arm64_2023-01-11_01-11-rootfs.tar.zst
+# SHA256SUM=3f4060ac2ce1754d63980f70280108eb084c001025f2a6f40beb07896dceb22b
+# BUILD_DATE=20230111
+# BUILD_TAG=2023-01-11
 # STATUS=completed
-# VERSION=latest01
-# END_TIME=01:22
+# VERSION=latest02
+# END_TIME=01:11
 
 [time]
 format = "rfc-3339"
 zone = "UTC"
-date = 2023-01-04
-begin = 2023-01-04 00:32:08.893077607+00:00
-start-sync_0 = 00:53:12
-start-zstd = 00:59:13
-start-sync_1 = 01:20:28
-end-sync_1 = 01:22:06
-end = 2023-01-04 01:22:06.690130571+00:00
+date = 2023-01-11
+begin = 2023-01-11 00:27:08.469134402+00:00
+start-sync_0 = 00:46:29
+start-zstd = 00:51:40
+start-sync_1 = 01:09:29
+end-sync_1 = 01:11:04
+end = 2023-01-11 01:11:04.386844954+00:00
 
 [server]
 repo = "cake233/arch-mate-arm64"
