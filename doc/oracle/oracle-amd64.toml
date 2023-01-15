@@ -1,6 +1,6 @@
 [main]
 name = "oracle"
-tag = ["base", "2022-12-15"]
+tag = ["base", "2023-01-15"]
 os = "oracle"
 release = "base"
 arch = "amd64"
@@ -9,10 +9,10 @@ xorg_or_wayland = false
 syntax_version = "0.0.0-alpha.4"
 
 [file]
-name = "oracle_amd64_2022-12-15_00-06.tar.zst"
+name = "oracle_amd64_2023-01-15_00-07.tar.zst"
 
 # This value can be used to verify the integrity of the file
-sha256 = "d3b889a2bd744111f5f8536e3725b845a38f90d8f90e8322ad431289bbf6c3a4"
+sha256 = "5ce3b8e131c04979e61d1bbb8f0470a6b413e0c09ddc91395bf74d0dcadbc631"
 
 # zstd: [1-22]
 zstd-level = 19
@@ -20,49 +20,49 @@ zstd-level = 19
 [file.size]
 # Installed size ≈ tar-size
 # Installed size is approximately equal to the size of the tar file
-tar = "442M"
-tar_bytes = 462780416
+tar = "454M"
+tar_bytes = 475117568
 
 # Space occupied ≈ tar-size + zstd-size
 # You will need to prepare a large enough space before installation.
-zstd = "76M"
-zstd_bytes = 79681873
+zstd = "78M"
+zstd_bytes = 81620518
 
 [compatibility]
 compatible_mode = true
 
-previous_version = "latest02"
+previous_version = "latest01"
 
 # The value is &str, not int
-previous_date = "20221115"
-previous_tag = "2022-11-15"
-previous_file = "oracle_amd64_2022-11-15_00-06-rootfs.tar.zst"
-previous_sha256 = "2ba73204f924b08cfd7fe0c470fd20f61d333450b73b879fc22a098ae4cdc21e"
+previous_date = "20221215"
+previous_tag = "2022-12-15"
+previous_file = "oracle_amd64_2022-12-15_00-06-rootfs.tar.zst"
+previous_sha256 = "d3b889a2bd744111f5f8536e3725b845a38f90d8f90e8322ad431289bbf6c3a4"
 
-current_version = "latest01"
-current_date = "20221215"
-old_file = "oracle_amd64_2022-10-15_00-07-rootfs.tar.zst"
-old_sha256 = "0dc726b3d5ccff4a0d15b2cb3e222a3010292595629ec8c8673b057dbf4487c2"
+current_version = "latest02"
+current_date = "20230115"
+old_file = "oracle_amd64_2022-11-15_00-06-rootfs.tar.zst"
+old_sha256 = "2ba73204f924b08cfd7fe0c470fd20f61d333450b73b879fc22a098ae4cdc21e"
 # edition 2021
 # DISTRO_NAME=oracle_amd64
-# ROOTFS_FILE=oracle_amd64_2022-12-15_00-06-rootfs.tar.zst
-# SHA256SUM=d3b889a2bd744111f5f8536e3725b845a38f90d8f90e8322ad431289bbf6c3a4
-# BUILD_DATE=20221215
-# BUILD_TAG=2022-12-15
+# ROOTFS_FILE=oracle_amd64_2023-01-15_00-07-rootfs.tar.zst
+# SHA256SUM=5ce3b8e131c04979e61d1bbb8f0470a6b413e0c09ddc91395bf74d0dcadbc631
+# BUILD_DATE=20230115
+# BUILD_TAG=2023-01-15
 # STATUS=completed
-# VERSION=latest01
-# END_TIME=00:06
+# VERSION=latest02
+# END_TIME=00:07
 
 [time]
 format = "rfc-3339"
 zone = "UTC"
-date = 2022-12-15
-begin = 2022-12-15 00:03:17.926410476+00:00
-start-sync_0 = 00:04:22
-start-zstd = 00:04:41
-start-sync_1 = 00:06:03
-end-sync_1 = 00:06:12
-end = 2022-12-15 00:06:12.452948063+00:00
+date = 2023-01-15
+begin = 2023-01-15 00:03:26.494680133+00:00
+start-sync_0 = 00:04:59
+start-zstd = 00:05:27
+start-sync_1 = 00:07:07
+end-sync_1 = 00:07:21
+end = 2023-01-15 00:07:21.685897631+00:00
 
 [server]
 repo = "cake233/oracle-amd64"
@@ -77,7 +77,7 @@ split = false
 [server.node2]
 name = "tmoe"
 current = true
-previous = false
+previous = true
 in_sync = false
 split = false
 
@@ -86,8 +86,6 @@ name = "azure"
 current = true
 previous = true
 in_sync = false
-start_sync = 2022-12-15 04:04:59.654382215+00:00
-end_sync = 2022-12-15 04:05:18.713768714+00:00
 split = false
 
 [server.node4]
