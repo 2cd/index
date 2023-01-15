@@ -20,7 +20,7 @@ docker exec -it amazon-arm64 sh
 ```toml
 [main]
 name = "amazon"
-tag = ["base", "2022-12-15"]
+tag = ["base", "2023-01-15"]
 os = "amazon"
 release = "base"
 arch = "arm64"
@@ -29,10 +29,10 @@ xorg_or_wayland = false
 syntax_version = "0.0.0-alpha.4"
 
 [file]
-name = "amazon_arm64_2022-12-15_00-06.tar.zst"
+name = "amazon_arm64_2023-01-15_00-06.tar.zst"
 
 # This value can be used to verify the integrity of the file
-sha256 = "48b2ead371ba289dce04dc1dbcaac949affa917156b89ea5483d32020a8a79eb"
+sha256 = "794619bdd26a46cfa20616f2c208afd317406e60349860edefc97fa2f0358e2f"
 
 # zstd: [1-22]
 zstd-level = 19
@@ -40,49 +40,49 @@ zstd-level = 19
 [file.size]
 # Installed size ≈ tar-size
 # Installed size is approximately equal to the size of the tar file
-tar = "336M"
-tar_bytes = 351702528
+tar = "335M"
+tar_bytes = 350615040
 
 # Space occupied ≈ tar-size + zstd-size
 # You will need to prepare a large enough space before installation.
 zstd = "52M"
-zstd_bytes = 53929511
+zstd_bytes = 53868885
 
 [compatibility]
 compatible_mode = true
 
-previous_version = "latest02"
+previous_version = "latest01"
 
 # The value is &str, not int
-previous_date = "20221115"
-previous_tag = "2022-11-15"
-previous_file = "amazon_arm64_2022-11-15_00-06-rootfs.tar.zst"
-previous_sha256 = "288e7ff0c8da2044a8ebdc935b85d9de8ea67c6805dd80f15c7c832b6fe8421e"
+previous_date = "20221215"
+previous_tag = "2022-12-15"
+previous_file = "amazon_arm64_2022-12-15_00-06-rootfs.tar.zst"
+previous_sha256 = "48b2ead371ba289dce04dc1dbcaac949affa917156b89ea5483d32020a8a79eb"
 
-current_version = "latest01"
-current_date = "20221215"
-old_file = "amazon_arm64_2022-10-15_00-06-rootfs.tar.zst"
-old_sha256 = "b877389beb8b6ab92d6c325c1465fbb2a286a1e1684a4dcf1def325cdfc44cd5"
+current_version = "latest02"
+current_date = "20230115"
+old_file = "amazon_arm64_2022-11-15_00-06-rootfs.tar.zst"
+old_sha256 = "288e7ff0c8da2044a8ebdc935b85d9de8ea67c6805dd80f15c7c832b6fe8421e"
 # edition 2021
 # DISTRO_NAME=amazon_arm64
-# ROOTFS_FILE=amazon_arm64_2022-12-15_00-06-rootfs.tar.zst
-# SHA256SUM=48b2ead371ba289dce04dc1dbcaac949affa917156b89ea5483d32020a8a79eb
-# BUILD_DATE=20221215
-# BUILD_TAG=2022-12-15
+# ROOTFS_FILE=amazon_arm64_2023-01-15_00-06-rootfs.tar.zst
+# SHA256SUM=794619bdd26a46cfa20616f2c208afd317406e60349860edefc97fa2f0358e2f
+# BUILD_DATE=20230115
+# BUILD_TAG=2023-01-15
 # STATUS=completed
-# VERSION=latest01
+# VERSION=latest02
 # END_TIME=00:06
 
 [time]
 format = "rfc-3339"
 zone = "UTC"
-date = 2022-12-15
-begin = 2022-12-15 00:03:17.842926023+00:00
-start-sync_0 = 00:05:00
-start-zstd = 00:05:20
-start-sync_1 = 00:06:17
-end-sync_1 = 00:06:25
-end = 2022-12-15 00:06:25.587770757+00:00
+date = 2023-01-15
+begin = 2023-01-15 00:03:24.271595521+00:00
+start-sync_0 = 00:05:26
+start-zstd = 00:05:52
+start-sync_1 = 00:06:45
+end-sync_1 = 00:06:56
+end = 2023-01-15 00:06:56.584063050+00:00
 
 [server]
 repo = "cake233/amazon-arm64"
