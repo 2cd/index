@@ -20,7 +20,7 @@ docker exec -it cblmariner-arm64 sh
 ```toml
 [main]
 name = "cblmariner"
-tag = ["base", "2022-12-15"]
+tag = ["base", "2023-01-15"]
 os = "cblmariner"
 release = "base"
 arch = "arm64"
@@ -29,10 +29,10 @@ xorg_or_wayland = false
 syntax_version = "0.0.0-alpha.4"
 
 [file]
-name = "cblmariner_arm64_2022-12-15_00-07.tar.zst"
+name = "cblmariner_arm64_2023-01-15_00-08.tar.zst"
 
 # This value can be used to verify the integrity of the file
-sha256 = "d002ba3d90919f2f018c444c3bdc5980571e1a5200c1c9eade0314e9bb5ff545"
+sha256 = "7874a28e7baac751d6a501a345271c3e5ff1282c1c01c7c5c90c5f336dd5f21f"
 
 # zstd: [1-22]
 zstd-level = 19
@@ -40,49 +40,49 @@ zstd-level = 19
 [file.size]
 # Installed size ≈ tar-size
 # Installed size is approximately equal to the size of the tar file
-tar = "245M"
-tar_bytes = 256287744
+tar = "248M"
+tar_bytes = 260043264
 
 # Space occupied ≈ tar-size + zstd-size
 # You will need to prepare a large enough space before installation.
-zstd = "75M"
-zstd_bytes = 77716758
+zstd = "77M"
+zstd_bytes = 79826312
 
 [compatibility]
 compatible_mode = true
 
-previous_version = "latest01"
+previous_version = "latest02"
 
 # The value is &str, not int
-previous_date = "20221115"
-previous_tag = "2022-11-15"
-previous_file = "cblmariner_arm64_2022-11-15_00-06-rootfs.tar.zst"
-previous_sha256 = "fb7162c6451c47fe2fa2ef91474b2d48e8d885b0bce9e863dd71b7a8cf76ec33"
+previous_date = "20221215"
+previous_tag = "2022-12-15"
+previous_file = "cblmariner_arm64_2022-12-15_00-07-rootfs.tar.zst"
+previous_sha256 = "d002ba3d90919f2f018c444c3bdc5980571e1a5200c1c9eade0314e9bb5ff545"
 
-current_version = "latest02"
-current_date = "20221215"
-old_file = "cblmariner_arm64_2022-10-15_00-06-rootfs.tar.zst"
-old_sha256 = "99e822d0beb87b7d81af268ed39801e89445c8f73c3581593732168d2039d5ee"
+current_version = "latest01"
+current_date = "20230115"
+old_file = "cblmariner_arm64_2022-11-15_00-06-rootfs.tar.zst"
+old_sha256 = "fb7162c6451c47fe2fa2ef91474b2d48e8d885b0bce9e863dd71b7a8cf76ec33"
 # edition 2021
 # DISTRO_NAME=cblmariner_arm64
-# ROOTFS_FILE=cblmariner_arm64_2022-12-15_00-07-rootfs.tar.zst
-# SHA256SUM=d002ba3d90919f2f018c444c3bdc5980571e1a5200c1c9eade0314e9bb5ff545
-# BUILD_DATE=20221215
-# BUILD_TAG=2022-12-15
+# ROOTFS_FILE=cblmariner_arm64_2023-01-15_00-08-rootfs.tar.zst
+# SHA256SUM=7874a28e7baac751d6a501a345271c3e5ff1282c1c01c7c5c90c5f336dd5f21f
+# BUILD_DATE=20230115
+# BUILD_TAG=2023-01-15
 # STATUS=completed
-# VERSION=latest02
-# END_TIME=00:07
+# VERSION=latest01
+# END_TIME=00:08
 
 [time]
 format = "rfc-3339"
 zone = "UTC"
-date = 2022-12-15
-begin = 2022-12-15 00:03:15.858337807+00:00
-start-sync_0 = 00:05:50
-start-zstd = 00:06:08
-start-sync_1 = 00:07:00
-end-sync_1 = 00:07:13
-end = 2022-12-15 00:07:13.874228403+00:00
+date = 2023-01-15
+begin = 2023-01-15 00:03:24.891743704+00:00
+start-sync_0 = 00:06:50
+start-zstd = 00:07:10
+start-sync_1 = 00:08:03
+end-sync_1 = 00:08:17
+end = 2023-01-15 00:08:17.852781554+00:00
 
 [server]
 repo = "cake233/cblmariner-arm64"
