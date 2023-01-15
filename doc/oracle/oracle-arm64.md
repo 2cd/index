@@ -20,7 +20,7 @@ docker exec -it oracle-arm64 sh
 ```toml
 [main]
 name = "oracle"
-tag = ["base", "2022-12-15"]
+tag = ["base", "2023-01-15"]
 os = "oracle"
 release = "base"
 arch = "arm64"
@@ -29,10 +29,10 @@ xorg_or_wayland = false
 syntax_version = "0.0.0-alpha.4"
 
 [file]
-name = "oracle_arm64_2022-12-15_00-10.tar.zst"
+name = "oracle_arm64_2023-01-15_00-10.tar.zst"
 
 # This value can be used to verify the integrity of the file
-sha256 = "00553de874e7336773a0ffa31cc96143ac1d2629b1b6b7ddca91aceef8c4f85a"
+sha256 = "f3d6da8e946809b8a9e3823f1371363b0133d4e7993bc383411f95d3387d3c7e"
 
 # zstd: [1-22]
 zstd-level = 19
@@ -40,49 +40,49 @@ zstd-level = 19
 [file.size]
 # Installed size ≈ tar-size
 # Installed size is approximately equal to the size of the tar file
-tar = "472M"
-tar_bytes = 494675456
+tar = "484M"
+tar_bytes = 507103232
 
 # Space occupied ≈ tar-size + zstd-size
 # You will need to prepare a large enough space before installation.
-zstd = "75M"
-zstd_bytes = 78248443
+zstd = "77M"
+zstd_bytes = 80303157
 
 [compatibility]
 compatible_mode = true
 
-previous_version = "latest02"
+previous_version = "latest01"
 
 # The value is &str, not int
-previous_date = "20221115"
-previous_tag = "2022-11-15"
-previous_file = "oracle_arm64_2022-11-15_00-09-rootfs.tar.zst"
-previous_sha256 = "92692a8a4c8bfb4bb9114fbde633bde7f3fba6ce6b187e0ed6f94869f85e7937"
+previous_date = "20221215"
+previous_tag = "2022-12-15"
+previous_file = "oracle_arm64_2022-12-15_00-10-rootfs.tar.zst"
+previous_sha256 = "00553de874e7336773a0ffa31cc96143ac1d2629b1b6b7ddca91aceef8c4f85a"
 
-current_version = "latest01"
-current_date = "20221215"
-old_file = "oracle_arm64_2022-10-15_00-09-rootfs.tar.zst"
-old_sha256 = "852ee7b6973c96831dc9a3890be91dfb4e58afc798d566fc2ecfec9a69704275"
+current_version = "latest02"
+current_date = "20230115"
+old_file = "oracle_arm64_2022-11-15_00-09-rootfs.tar.zst"
+old_sha256 = "92692a8a4c8bfb4bb9114fbde633bde7f3fba6ce6b187e0ed6f94869f85e7937"
 # edition 2021
 # DISTRO_NAME=oracle_arm64
-# ROOTFS_FILE=oracle_arm64_2022-12-15_00-10-rootfs.tar.zst
-# SHA256SUM=00553de874e7336773a0ffa31cc96143ac1d2629b1b6b7ddca91aceef8c4f85a
-# BUILD_DATE=20221215
-# BUILD_TAG=2022-12-15
+# ROOTFS_FILE=oracle_arm64_2023-01-15_00-10-rootfs.tar.zst
+# SHA256SUM=f3d6da8e946809b8a9e3823f1371363b0133d4e7993bc383411f95d3387d3c7e
+# BUILD_DATE=20230115
+# BUILD_TAG=2023-01-15
 # STATUS=completed
-# VERSION=latest01
+# VERSION=latest02
 # END_TIME=00:10
 
 [time]
 format = "rfc-3339"
 zone = "UTC"
-date = 2022-12-15
-begin = 2022-12-15 00:03:19.071387810+00:00
-start-sync_0 = 00:08:43
-start-zstd = 00:09:05
-start-sync_1 = 00:10:35
-end-sync_1 = 00:10:44
-end = 2022-12-15 00:10:44.653635258+00:00
+date = 2023-01-15
+begin = 2023-01-15 00:03:25.864508995+00:00
+start-sync_0 = 00:08:37
+start-zstd = 00:09:01
+start-sync_1 = 00:10:21
+end-sync_1 = 00:10:33
+end = 2023-01-15 00:10:33.522492891+00:00
 
 [server]
 repo = "cake233/oracle-arm64"
