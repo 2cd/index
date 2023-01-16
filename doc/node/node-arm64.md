@@ -20,7 +20,7 @@ docker exec -it node-arm64 bash
 ```toml
 [main]
 name = "node"
-tag = ["latest", "2023-01-02"]
+tag = ["latest", "2023-01-16"]
 os = "debian"
 release = "stable"
 arch = "arm64"
@@ -29,10 +29,10 @@ xorg_or_wayland = false
 syntax_version = "0.0.0-alpha.4"
 
 [file]
-name = "node_arm64_2023-01-02_12-10.tar.zst"
+name = "node_arm64_2023-01-16_12-11.tar.zst"
 
 # This value can be used to verify the integrity of the file
-sha256 = "3314902da305111995d65148610bef6fcedd3fa8f39ea750d8396919e2cc83c3"
+sha256 = "70d56e2c15f18bc52ef9aafca1d0d5d7fae2acf9058e5af5d239e7000b8894e7"
 
 # zstd: [1-22]
 zstd-level = 22
@@ -40,49 +40,49 @@ zstd-level = 22
 [file.size]
 # Installed size ≈ tar-size
 # Installed size is approximately equal to the size of the tar file
-tar = "951M"
-tar_bytes = 996648960
+tar = "952M"
+tar_bytes = 997493760
 
 # Space occupied ≈ tar-size + zstd-size
 # You will need to prepare a large enough space before installation.
 zstd = "198M"
-zstd_bytes = 207170688
+zstd_bytes = 207234693
 
 [compatibility]
 compatible_mode = true
 
-previous_version = "latest01"
+previous_version = "latest02"
 
 # The value is &str, not int
-previous_date = "20221219"
-previous_tag = "2022-12-19"
-previous_file = "node_arm64_2022-12-19_12-11-rootfs.tar.zst"
-previous_sha256 = "c8c0176380f30933371c1e4ea943756e2c846548ddf257afa59c604be643d24f"
+previous_date = "20230102"
+previous_tag = "2023-01-02"
+previous_file = "node_arm64_2023-01-02_12-10-rootfs.tar.zst"
+previous_sha256 = "3314902da305111995d65148610bef6fcedd3fa8f39ea750d8396919e2cc83c3"
 
-current_version = "latest02"
-current_date = "20230102"
-old_file = "node_arm64_2022-12-05_12-12-rootfs.tar.zst"
-old_sha256 = "1ab11619e21c5affa2ff5462030b23c3893bf5553b1cd98023a839874a3b1ca7"
+current_version = "latest01"
+current_date = "20230116"
+old_file = "node_arm64_2022-12-19_12-11-rootfs.tar.zst"
+old_sha256 = "c8c0176380f30933371c1e4ea943756e2c846548ddf257afa59c604be643d24f"
 # edition 2021
 # DISTRO_NAME=node_arm64
-# ROOTFS_FILE=node_arm64_2023-01-02_12-10-rootfs.tar.zst
-# SHA256SUM=3314902da305111995d65148610bef6fcedd3fa8f39ea750d8396919e2cc83c3
-# BUILD_DATE=20230102
-# BUILD_TAG=2023-01-02
+# ROOTFS_FILE=node_arm64_2023-01-16_12-11-rootfs.tar.zst
+# SHA256SUM=70d56e2c15f18bc52ef9aafca1d0d5d7fae2acf9058e5af5d239e7000b8894e7
+# BUILD_DATE=20230116
+# BUILD_TAG=2023-01-16
 # STATUS=completed
-# VERSION=latest02
-# END_TIME=12:10
+# VERSION=latest01
+# END_TIME=12:11
 
 [time]
 format = "rfc-3339"
 zone = "UTC"
-date = 2023-01-02
-begin = 2023-01-02 12:02:34.732066794+00:00
-start-sync_0 = 12:05:35
-start-zstd = 12:05:49
-start-sync_1 = 12:10:29
-end-sync_1 = 12:10:45
-end = 2023-01-02 12:10:45.902150752+00:00
+date = 2023-01-16
+begin = 2023-01-16 12:02:34.739455535+00:00
+start-sync_0 = 12:06:10
+start-zstd = 12:06:30
+start-sync_1 = 12:11:15
+end-sync_1 = 12:11:37
+end = 2023-01-16 12:11:37.723720174+00:00
 
 [server]
 repo = "cake233/node-arm64"
@@ -118,7 +118,7 @@ LANG = "en_US.UTF-8"
 
 [version]
 ldd = 'ldd (Debian GLIBC 2.31-13+deb11u5) 2.31'
-node = 'v19.3.0'
+node = 'v19.4.0'
 yarn = '1.22.19'
 npm = '9.2.0'
 ```
