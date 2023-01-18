@@ -20,7 +20,7 @@ docker exec -it arch-arm64 sh
 ```toml
 [main]
 name = "arch"
-tag = ["base", "2023-01-11"]
+tag = ["base", "2023-01-18"]
 os = "arch"
 release = "latest"
 arch = "arm64"
@@ -29,10 +29,10 @@ xorg_or_wayland = false
 syntax_version = "0.0.0-alpha.4"
 
 [file]
-name = "arch_arm64_2023-01-11_00-06.tar.zst"
+name = "arch_arm64_2023-01-18_00-06.tar.zst"
 
 # This value can be used to verify the integrity of the file
-sha256 = "06a55b912a0e3306bcf9561e1617b600ff8c9d27e9f6d18efcee494b6c782ca3"
+sha256 = "40ed34a7e662e421ab61b4bee757d7f31b0f23ed3a9f51fa4a0c345727af230b"
 
 # zstd: [1-22]
 zstd-level = 12
@@ -41,12 +41,12 @@ zstd-level = 12
 # Installed size ≈ tar-size
 # Installed size is approximately equal to the size of the tar file
 tar = "902M"
-tar_bytes = 945643008
+tar_bytes = 945792512
 
 # Space occupied ≈ tar-size + zstd-size
 # You will need to prepare a large enough space before installation.
 zstd = "254M"
-zstd_bytes = 265973412
+zstd_bytes = 266046074
 
 [compatibility]
 compatible_mode = true
@@ -60,15 +60,15 @@ previous_file = ""
 previous_sha256 = ""
 
 current_version = "latest01"
-current_date = "20230111"
+current_date = "20230118"
 old_file = ""
 old_sha256 = ""
 # edition 2021
 # DISTRO_NAME=arch_arm64
-# ROOTFS_FILE=arch_arm64_2023-01-11_00-06-rootfs.tar.zst
-# SHA256SUM=06a55b912a0e3306bcf9561e1617b600ff8c9d27e9f6d18efcee494b6c782ca3
-# BUILD_DATE=20230111
-# BUILD_TAG=2023-01-11
+# ROOTFS_FILE=arch_arm64_2023-01-18_00-06-rootfs.tar.zst
+# SHA256SUM=40ed34a7e662e421ab61b4bee757d7f31b0f23ed3a9f51fa4a0c345727af230b
+# BUILD_DATE=20230118
+# BUILD_TAG=2023-01-18
 # STATUS=completed
 # VERSION=latest01
 # END_TIME=00:06
@@ -76,13 +76,13 @@ old_sha256 = ""
 [time]
 format = "rfc-3339"
 zone = "UTC"
-date = 2023-01-11
-begin = 2023-01-11 00:02:28.646143680+00:00
-start-sync_0 = 00:05:22
-start-zstd = 00:06:08
-start-sync_1 = 00:06:31
-end-sync_1 = 00:06:55
-end = 2023-01-11 00:06:55.052800854+00:00
+date = 2023-01-18
+begin = 2023-01-18 00:02:29.225764728+00:00
+start-sync_0 = 00:05:26
+start-zstd = 00:06:14
+start-sync_1 = 00:06:36
+end-sync_1 = 00:06:58
+end = 2023-01-18 00:06:58.378304269+00:00
 
 [server]
 repo = "cake233/arch-arm64"
