@@ -20,7 +20,7 @@ docker exec -it nginx-amd64 bash
 ```toml
 [main]
 name = "nginx"
-tag = ["latest", "2023-01-09"]
+tag = ["latest", "2023-01-23"]
 os = "debian"
 release = "stable"
 arch = "amd64"
@@ -29,10 +29,10 @@ xorg_or_wayland = false
 syntax_version = "0.0.0-alpha.4"
 
 [file]
-name = "nginx_amd64_2023-01-09_12-05.tar.zst"
+name = "nginx_amd64_2023-01-23_12-05.tar.zst"
 
 # This value can be used to verify the integrity of the file
-sha256 = "7b10067668d7b08bca2c3dcc94c87d748738580a6733f3117456a458b8217cf2"
+sha256 = "7fe95ec12b459afe0e83527c521f2c06d6a0fd8f9f22b7f19c2f61aaf61ab084"
 
 # zstd: [1-22]
 zstd-level = 22
@@ -46,43 +46,43 @@ tar_bytes = 170391040
 # Space occupied ≈ tar-size + zstd-size
 # You will need to prepare a large enough space before installation.
 zstd = "40M"
-zstd_bytes = 41602696
+zstd_bytes = 41601741
 
 [compatibility]
 compatible_mode = true
 
-previous_version = "latest02"
+previous_version = "latest01"
 
 # The value is &str, not int
-previous_date = "20221226"
-previous_tag = "2022-12-26"
-previous_file = "nginx_amd64_2022-12-26_12-04-rootfs.tar.zst"
-previous_sha256 = "b15bda57216d41ab52d9c9de9909fc751b0f447b022818e0708efed7361c867e"
+previous_date = "20230109"
+previous_tag = "2023-01-09"
+previous_file = "nginx_amd64_2023-01-09_12-05-rootfs.tar.zst"
+previous_sha256 = "7b10067668d7b08bca2c3dcc94c87d748738580a6733f3117456a458b8217cf2"
 
-current_version = "latest01"
-current_date = "20230109"
-old_file = "nginx_amd64_2022-12-12_12-06-rootfs.tar.zst"
-old_sha256 = "b5ac721f29c168c299c175dd6abca5b59cc818569a4c2529dffef01ff5feae91"
+current_version = "latest02"
+current_date = "20230123"
+old_file = "nginx_amd64_2022-12-26_12-04-rootfs.tar.zst"
+old_sha256 = "b15bda57216d41ab52d9c9de9909fc751b0f447b022818e0708efed7361c867e"
 # edition 2021
 # DISTRO_NAME=nginx_amd64
-# ROOTFS_FILE=nginx_amd64_2023-01-09_12-05-rootfs.tar.zst
-# SHA256SUM=7b10067668d7b08bca2c3dcc94c87d748738580a6733f3117456a458b8217cf2
-# BUILD_DATE=20230109
-# BUILD_TAG=2023-01-09
+# ROOTFS_FILE=nginx_amd64_2023-01-23_12-05-rootfs.tar.zst
+# SHA256SUM=7fe95ec12b459afe0e83527c521f2c06d6a0fd8f9f22b7f19c2f61aaf61ab084
+# BUILD_DATE=20230123
+# BUILD_TAG=2023-01-23
 # STATUS=completed
-# VERSION=latest01
+# VERSION=latest02
 # END_TIME=12:05
 
 [time]
 format = "rfc-3339"
 zone = "UTC"
-date = 2023-01-09
-begin = 2023-01-09 12:02:33.626303672+00:00
-start-sync_0 = 12:03:26
-start-zstd = 12:03:34
-start-sync_1 = 12:05:00
-end-sync_1 = 12:05:07
-end = 2023-01-09 12:05:07.952958200+00:00
+date = 2023-01-23
+begin = 2023-01-23 12:02:30.424086828+00:00
+start-sync_0 = 12:03:32
+start-zstd = 12:03:41
+start-sync_1 = 12:05:20
+end-sync_1 = 12:05:28
+end = 2023-01-23 12:05:28.065779176+00:00
 
 [server]
 repo = "cake233/nginx-amd64"
