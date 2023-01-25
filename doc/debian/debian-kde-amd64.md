@@ -77,7 +77,7 @@ localhost:5903
 ```toml
 [main]
 name = "debian"
-tag = ["kde", "2023-01-18"]
+tag = ["kde", "2023-01-25"]
 os = "debian"
 release = "sid"
 arch = "amd64"
@@ -86,10 +86,10 @@ xorg_or_wayland = true
 syntax_version = "0.0.0-alpha.4"
 
 [file]
-name = "debian-kde_amd64_2023-01-18_12-56.tar.zst"
+name = "debian-kde_amd64_2023-01-25_13-06.tar.zst"
 
 # This value can be used to verify the integrity of the file
-sha256 = "980ce5b956712f090a58789ca9136d603da9d8a885f048c847880059174fa6e4"
+sha256 = "69997203a7e91922673017ae57e38d1ee5f44b49183f03e2c678560b6fea0139"
 
 # zstd: [1-22]
 zstd-level = 19
@@ -98,48 +98,48 @@ zstd-level = 19
 # Installed size ≈ tar-size
 # Installed size is approximately equal to the size of the tar file
 tar = "5.5G"
-tar_bytes = 5872654848
+tar_bytes = 5882775552
 
 # Space occupied ≈ tar-size + zstd-size
 # You will need to prepare a large enough space before installation.
 zstd = "1.6G"
-zstd_bytes = 1671421749
+zstd_bytes = 1678702072
 
 [compatibility]
 compatible_mode = true
 
-previous_version = "latest01"
+previous_version = "latest02"
 
 # The value is &str, not int
-previous_date = "20230111"
-previous_tag = "2023-01-11"
-previous_file = "debian-kde_amd64_2023-01-11_12-55-rootfs.tar.zst"
-previous_sha256 = "2d41a0fe633a7f4e3775d8694c50848a41c3935d0833a765aab30fd234a44cd0"
+previous_date = "20230118"
+previous_tag = "2023-01-18"
+previous_file = "debian-kde_amd64_2023-01-18_12-56-rootfs.tar.zst"
+previous_sha256 = "980ce5b956712f090a58789ca9136d603da9d8a885f048c847880059174fa6e4"
 
-current_version = "latest02"
-current_date = "20230118"
-old_file = "debian-kde_amd64_2023-01-04_13-10-rootfs.tar.zst"
-old_sha256 = "51b05bfec0281f4dd5961d494831f3c9e4f53d152e6a83cb9c6dafc5e93664bc"
+current_version = "latest01"
+current_date = "20230125"
+old_file = "debian-kde_amd64_2023-01-11_12-55-rootfs.tar.zst"
+old_sha256 = "2d41a0fe633a7f4e3775d8694c50848a41c3935d0833a765aab30fd234a44cd0"
 # edition 2021
 # DISTRO_NAME=debian-sid_amd64
-# ROOTFS_FILE=debian-kde_amd64_2023-01-18_12-56-rootfs.tar.zst
-# SHA256SUM=980ce5b956712f090a58789ca9136d603da9d8a885f048c847880059174fa6e4
-# BUILD_DATE=20230118
-# BUILD_TAG=2023-01-18
+# ROOTFS_FILE=debian-kde_amd64_2023-01-25_13-06-rootfs.tar.zst
+# SHA256SUM=69997203a7e91922673017ae57e38d1ee5f44b49183f03e2c678560b6fea0139
+# BUILD_DATE=20230125
+# BUILD_TAG=2023-01-25
 # STATUS=completed
-# VERSION=latest02
-# END_TIME=12:56
+# VERSION=latest01
+# END_TIME=13:06
 
 [time]
 format = "rfc-3339"
 zone = "UTC"
-date = 2023-01-18
-begin = 2023-01-18 12:23:05.891612065+00:00
-start-sync_0 = 12:29:46
-start-zstd = 12:35:09
-start-sync_1 = 12:55:15
-end-sync_1 = 12:56:49
-end = 2023-01-18 12:56:49.438596962+00:00
+date = 2023-01-25
+begin = 2023-01-25 12:21:42.689178500+00:00
+start-sync_0 = 12:32:20
+start-zstd = 12:39:11
+start-sync_1 = 13:04:14
+end-sync_1 = 13:06:02
+end = 2023-01-25 13:06:02.191807816+00:00
 
 [server]
 repo = "cake233/debian-kde-amd64"
