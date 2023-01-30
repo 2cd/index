@@ -1,6 +1,6 @@
 [main]
 name = "node"
-tag = ["latest", "2023-01-16"]
+tag = ["latest", "2023-01-30"]
 os = "debian"
 release = "stable"
 arch = "arm64"
@@ -9,10 +9,10 @@ xorg_or_wayland = false
 syntax_version = "0.0.0-alpha.4"
 
 [file]
-name = "node_arm64_2023-01-16_12-11.tar.zst"
+name = "node_arm64_2023-01-30_12-10.tar.zst"
 
 # This value can be used to verify the integrity of the file
-sha256 = "70d56e2c15f18bc52ef9aafca1d0d5d7fae2acf9058e5af5d239e7000b8894e7"
+sha256 = "91658551bdf67b8cd8287cca9544faf2e09d821ac4ffe881fc07f9d7edc1405e"
 
 # zstd: [1-22]
 zstd-level = 22
@@ -21,48 +21,48 @@ zstd-level = 22
 # Installed size ≈ tar-size
 # Installed size is approximately equal to the size of the tar file
 tar = "952M"
-tar_bytes = 997493760
+tar_bytes = 997492224
 
 # Space occupied ≈ tar-size + zstd-size
 # You will need to prepare a large enough space before installation.
 zstd = "198M"
-zstd_bytes = 207234693
+zstd_bytes = 207295317
 
 [compatibility]
 compatible_mode = true
 
-previous_version = "latest02"
+previous_version = "latest01"
 
 # The value is &str, not int
-previous_date = "20230102"
-previous_tag = "2023-01-02"
-previous_file = "node_arm64_2023-01-02_12-10-rootfs.tar.zst"
-previous_sha256 = "3314902da305111995d65148610bef6fcedd3fa8f39ea750d8396919e2cc83c3"
+previous_date = "20230116"
+previous_tag = "2023-01-16"
+previous_file = "node_arm64_2023-01-16_12-11-rootfs.tar.zst"
+previous_sha256 = "70d56e2c15f18bc52ef9aafca1d0d5d7fae2acf9058e5af5d239e7000b8894e7"
 
-current_version = "latest01"
-current_date = "20230116"
-old_file = "node_arm64_2022-12-19_12-11-rootfs.tar.zst"
-old_sha256 = "c8c0176380f30933371c1e4ea943756e2c846548ddf257afa59c604be643d24f"
+current_version = "latest02"
+current_date = "20230130"
+old_file = "node_arm64_2023-01-02_12-10-rootfs.tar.zst"
+old_sha256 = "3314902da305111995d65148610bef6fcedd3fa8f39ea750d8396919e2cc83c3"
 # edition 2021
 # DISTRO_NAME=node_arm64
-# ROOTFS_FILE=node_arm64_2023-01-16_12-11-rootfs.tar.zst
-# SHA256SUM=70d56e2c15f18bc52ef9aafca1d0d5d7fae2acf9058e5af5d239e7000b8894e7
-# BUILD_DATE=20230116
-# BUILD_TAG=2023-01-16
+# ROOTFS_FILE=node_arm64_2023-01-30_12-10-rootfs.tar.zst
+# SHA256SUM=91658551bdf67b8cd8287cca9544faf2e09d821ac4ffe881fc07f9d7edc1405e
+# BUILD_DATE=20230130
+# BUILD_TAG=2023-01-30
 # STATUS=completed
-# VERSION=latest01
-# END_TIME=12:11
+# VERSION=latest02
+# END_TIME=12:10
 
 [time]
 format = "rfc-3339"
 zone = "UTC"
-date = 2023-01-16
-begin = 2023-01-16 12:02:34.739455535+00:00
-start-sync_0 = 12:06:10
-start-zstd = 12:06:30
-start-sync_1 = 12:11:15
-end-sync_1 = 12:11:37
-end = 2023-01-16 12:11:37.723720174+00:00
+date = 2023-01-30
+begin = 2023-01-30 12:02:36.971145583+00:00
+start-sync_0 = 12:05:56
+start-zstd = 12:06:16
+start-sync_1 = 12:10:39
+end-sync_1 = 12:10:59
+end = 2023-01-30 12:10:59.041810366+00:00
 
 [server]
 repo = "cake233/node-arm64"
@@ -77,7 +77,7 @@ split = false
 [server.node2]
 name = "tmoe"
 current = true
-previous = false
+previous = true
 in_sync = false
 split = false
 
@@ -86,8 +86,6 @@ name = "azure"
 current = true
 previous = true
 in_sync = false
-start_sync = 2023-01-16 18:09:33.639923309+00:00
-end_sync = 2023-01-16 18:10:17.131404624+00:00
 split = false
 
 [server.node4]
@@ -100,6 +98,6 @@ LANG = "en_US.UTF-8"
 
 [version]
 ldd = 'ldd (Debian GLIBC 2.31-13+deb11u5) 2.31'
-node = 'v19.4.0'
+node = 'v19.5.0'
 yarn = '1.22.19'
-npm = '9.2.0'
+npm = '9.3.1'
