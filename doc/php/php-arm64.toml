@@ -1,6 +1,6 @@
 [main]
 name = "php"
-tag = ["latest", "2023-01-16"]
+tag = ["latest", "2023-01-30"]
 os = "debian"
 release = "stable"
 arch = "arm64"
@@ -9,10 +9,10 @@ xorg_or_wayland = false
 syntax_version = "0.0.0-alpha.4"
 
 [file]
-name = "php_arm64_2023-01-16_12-09.tar.zst"
+name = "php_arm64_2023-01-30_12-09.tar.zst"
 
 # This value can be used to verify the integrity of the file
-sha256 = "b2689c01f4c4c1fd94bb7282452bf9f9670c0597392f7fbe7cd531e020016efd"
+sha256 = "35ccf73456da33237d763cdd7e30ef594fe67c1dbe08fedf97bdf8431c68a948"
 
 # zstd: [1-22]
 zstd-level = 22
@@ -21,48 +21,48 @@ zstd-level = 22
 # Installed size ≈ tar-size
 # Installed size is approximately equal to the size of the tar file
 tar = "458M"
-tar_bytes = 479700480
+tar_bytes = 479718912
 
 # Space occupied ≈ tar-size + zstd-size
 # You will need to prepare a large enough space before installation.
 zstd = "99M"
-zstd_bytes = 103288084
+zstd_bytes = 103325352
 
 [compatibility]
 compatible_mode = true
 
-previous_version = "latest02"
+previous_version = "latest01"
 
 # The value is &str, not int
-previous_date = "20230102"
-previous_tag = "2023-01-02"
-previous_file = "php_arm64_2023-01-02_12-09-rootfs.tar.zst"
-previous_sha256 = "711f5c15dd6578710dede8803da29c6f503d79ef88fddf2ca80ef9504b3c26d7"
+previous_date = "20230116"
+previous_tag = "2023-01-16"
+previous_file = "php_arm64_2023-01-16_12-09-rootfs.tar.zst"
+previous_sha256 = "b2689c01f4c4c1fd94bb7282452bf9f9670c0597392f7fbe7cd531e020016efd"
 
-current_version = "latest01"
-current_date = "20230116"
-old_file = "php_arm64_2022-12-19_12-11-rootfs.tar.zst"
-old_sha256 = "c783b117ae6fbe5049922c4665e475cf06707068691b85df8e80a85c2897fe86"
+current_version = "latest02"
+current_date = "20230130"
+old_file = "php_arm64_2023-01-02_12-09-rootfs.tar.zst"
+old_sha256 = "711f5c15dd6578710dede8803da29c6f503d79ef88fddf2ca80ef9504b3c26d7"
 # edition 2021
 # DISTRO_NAME=php_arm64
-# ROOTFS_FILE=php_arm64_2023-01-16_12-09-rootfs.tar.zst
-# SHA256SUM=b2689c01f4c4c1fd94bb7282452bf9f9670c0597392f7fbe7cd531e020016efd
-# BUILD_DATE=20230116
-# BUILD_TAG=2023-01-16
+# ROOTFS_FILE=php_arm64_2023-01-30_12-09-rootfs.tar.zst
+# SHA256SUM=35ccf73456da33237d763cdd7e30ef594fe67c1dbe08fedf97bdf8431c68a948
+# BUILD_DATE=20230130
+# BUILD_TAG=2023-01-30
 # STATUS=completed
-# VERSION=latest01
+# VERSION=latest02
 # END_TIME=12:09
 
 [time]
 format = "rfc-3339"
 zone = "UTC"
-date = 2023-01-16
-begin = 2023-01-16 12:02:35.741946365+00:00
-start-sync_0 = 12:05:13
-start-zstd = 12:05:28
-start-sync_1 = 12:09:20
-end-sync_1 = 12:09:34
-end = 2023-01-16 12:09:34.683702747+00:00
+date = 2023-01-30
+begin = 2023-01-30 12:02:33.912361637+00:00
+start-sync_0 = 12:05:01
+start-zstd = 12:05:13
+start-sync_1 = 12:08:55
+end-sync_1 = 12:09:05
+end = 2023-01-30 12:09:05.860646443+00:00
 
 [server]
 repo = "cake233/php-arm64"
@@ -77,7 +77,7 @@ split = false
 [server.node2]
 name = "tmoe"
 current = true
-previous = false
+previous = true
 in_sync = false
 split = false
 
@@ -86,8 +86,6 @@ name = "azure"
 current = true
 previous = true
 in_sync = false
-start_sync = 2023-01-16 18:12:59.174762469+00:00
-end_sync = 2023-01-16 18:13:21.538066227+00:00
 split = false
 
 [server.node4]
