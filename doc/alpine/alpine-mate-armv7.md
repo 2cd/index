@@ -77,7 +77,7 @@ localhost:5903
 ```toml
 [main]
 name = "alpine"
-tag = ["mate", "2023-02-02"]
+tag = ["mate", "2023-02-09"]
 os = "alpine"
 release = "edge"
 arch = "armhf"
@@ -86,10 +86,10 @@ xorg_or_wayland = true
 syntax_version = "0.0.0-alpha.4"
 
 [file]
-name = "alpine-mate_armhf_2023-02-02_00-15.tar.zst"
+name = "alpine-mate_armhf_2023-02-09_00-14.tar.zst"
 
 # This value can be used to verify the integrity of the file
-sha256 = "fbfd23a55265cb21ae48a20657bc8c5dfee235203e927f0f0c13c3b7817b106d"
+sha256 = "45e2e47e43c2dee9ebe68a48e88ab344754199e7483bbe9a9dd4c4caa3a75d3c"
 
 # zstd: [1-22]
 zstd-level = 19
@@ -97,49 +97,49 @@ zstd-level = 19
 [file.size]
 # Installed size ≈ tar-size
 # Installed size is approximately equal to the size of the tar file
-tar = "890M"
-tar_bytes = 932858368
+tar = "887M"
+tar_bytes = 929244672
 
 # Space occupied ≈ tar-size + zstd-size
 # You will need to prepare a large enough space before installation.
 zstd = "312M"
-zstd_bytes = 326933116
+zstd_bytes = 326743563
 
 [compatibility]
 compatible_mode = true
 
-previous_version = "latest01"
+previous_version = "latest02"
 
 # The value is &str, not int
-previous_date = "20230126"
-previous_tag = "2023-01-26"
-previous_file = "alpine-mate_armhf_2023-01-26_00-13-rootfs.tar.zst"
-previous_sha256 = "a3cfc47ba071cbcc164d5c6838836d7a61d5849cffd0a139899da3e8f755ec67"
+previous_date = "20230202"
+previous_tag = "2023-02-02"
+previous_file = "alpine-mate_armhf_2023-02-02_00-15-rootfs.tar.zst"
+previous_sha256 = "fbfd23a55265cb21ae48a20657bc8c5dfee235203e927f0f0c13c3b7817b106d"
 
-current_version = "latest02"
-current_date = "20230202"
-old_file = "alpine-mate_armhf_2023-01-19_00-13-rootfs.tar.zst"
-old_sha256 = "be36a7087bd93684a2ce9ec3ba41cdc4a2c9471663f1c6f5d69497824ebe40ad"
+current_version = "latest01"
+current_date = "20230209"
+old_file = "alpine-mate_armhf_2023-01-26_00-13-rootfs.tar.zst"
+old_sha256 = "a3cfc47ba071cbcc164d5c6838836d7a61d5849cffd0a139899da3e8f755ec67"
 # edition 2021
 # DISTRO_NAME=alpine-edge_armhf
-# ROOTFS_FILE=alpine-mate_armhf_2023-02-02_00-15-rootfs.tar.zst
-# SHA256SUM=fbfd23a55265cb21ae48a20657bc8c5dfee235203e927f0f0c13c3b7817b106d
-# BUILD_DATE=20230202
-# BUILD_TAG=2023-02-02
+# ROOTFS_FILE=alpine-mate_armhf_2023-02-09_00-14-rootfs.tar.zst
+# SHA256SUM=45e2e47e43c2dee9ebe68a48e88ab344754199e7483bbe9a9dd4c4caa3a75d3c
+# BUILD_DATE=20230209
+# BUILD_TAG=2023-02-09
 # STATUS=completed
-# VERSION=latest02
-# END_TIME=00:15
+# VERSION=latest01
+# END_TIME=00:14
 
 [time]
 format = "rfc-3339"
 zone = "UTC"
-date = 2023-02-02
-begin = 2023-02-02 00:07:12.081803609+00:00
-start-sync_0 = 00:11:08
-start-zstd = 00:12:04
-start-sync_1 = 00:15:25
-end-sync_1 = 00:15:56
-end = 2023-02-02 00:15:56.362706238+00:00
+date = 2023-02-09
+begin = 2023-02-09 00:07:18.903960886+00:00
+start-sync_0 = 00:10:59
+start-zstd = 00:11:43
+start-sync_1 = 00:14:03
+end-sync_1 = 00:14:29
+end = 2023-02-09 00:14:29.413079075+00:00
 
 [server]
 repo = "cake233/alpine-mate-armv7"
