@@ -1,6 +1,6 @@
 [main]
 name = "amazon"
-tag = ["base", "2023-01-15"]
+tag = ["base", "2023-02-15"]
 os = "amazon"
 release = "base"
 arch = "amd64"
@@ -9,10 +9,10 @@ xorg_or_wayland = false
 syntax_version = "0.0.0-alpha.4"
 
 [file]
-name = "amazon_amd64_2023-01-15_00-06.tar.zst"
+name = "amazon_amd64_2023-02-15_00-05.tar.zst"
 
 # This value can be used to verify the integrity of the file
-sha256 = "ee6ce897e2bd29d712273e7be8a59a0bc86adfd742e2cf24319db29e90321ff4"
+sha256 = "7924dc66f700a4b38a5a604788198fbfce5bdc5fd653d6c068ebbf2e37ead6ad"
 
 # zstd: [1-22]
 zstd-level = 19
@@ -20,49 +20,49 @@ zstd-level = 19
 [file.size]
 # Installed size ≈ tar-size
 # Installed size is approximately equal to the size of the tar file
-tar = "300M"
-tar_bytes = 314567680
+tar = "301M"
+tar_bytes = 314861568
 
 # Space occupied ≈ tar-size + zstd-size
 # You will need to prepare a large enough space before installation.
 zstd = "51M"
-zstd_bytes = 53422506
+zstd_bytes = 53447565
 
 [compatibility]
 compatible_mode = true
 
-previous_version = "latest02"
+previous_version = "latest01"
 
 # The value is &str, not int
-previous_date = "20221215"
-previous_tag = "2022-12-15"
-previous_file = "amazon_amd64_2022-12-15_00-05-rootfs.tar.zst"
-previous_sha256 = "63898dbd426c8b9abefe1aa3b329c1408363d3a27ec118bd68c3f0c01614ba45"
+previous_date = "20230115"
+previous_tag = "2023-01-15"
+previous_file = "amazon_amd64_2023-01-15_00-06-rootfs.tar.zst"
+previous_sha256 = "ee6ce897e2bd29d712273e7be8a59a0bc86adfd742e2cf24319db29e90321ff4"
 
-current_version = "latest01"
-current_date = "20230115"
-old_file = "amazon_amd64_2022-11-15_00-05-rootfs.tar.zst"
-old_sha256 = "066f316136f0979f3cd14d3a73b908ae1ebc0d4cce696d4a40bba149e42435c1"
+current_version = "latest02"
+current_date = "20230215"
+old_file = "amazon_amd64_2022-12-15_00-05-rootfs.tar.zst"
+old_sha256 = "63898dbd426c8b9abefe1aa3b329c1408363d3a27ec118bd68c3f0c01614ba45"
 # edition 2021
 # DISTRO_NAME=amazon_amd64
-# ROOTFS_FILE=amazon_amd64_2023-01-15_00-06-rootfs.tar.zst
-# SHA256SUM=ee6ce897e2bd29d712273e7be8a59a0bc86adfd742e2cf24319db29e90321ff4
-# BUILD_DATE=20230115
-# BUILD_TAG=2023-01-15
+# ROOTFS_FILE=amazon_amd64_2023-02-15_00-05-rootfs.tar.zst
+# SHA256SUM=7924dc66f700a4b38a5a604788198fbfce5bdc5fd653d6c068ebbf2e37ead6ad
+# BUILD_DATE=20230215
+# BUILD_TAG=2023-02-15
 # STATUS=completed
-# VERSION=latest01
-# END_TIME=00:06
+# VERSION=latest02
+# END_TIME=00:05
 
 [time]
 format = "rfc-3339"
 zone = "UTC"
-date = 2023-01-15
-begin = 2023-01-15 00:03:30.338760231+00:00
-start-sync_0 = 00:04:28
-start-zstd = 00:04:55
-start-sync_1 = 00:05:50
-end-sync_1 = 00:06:02
-end = 2023-01-15 00:06:02.061106178+00:00
+date = 2023-02-15
+begin = 2023-02-15 00:03:20.884216281+00:00
+start-sync_0 = 00:04:01
+start-zstd = 00:04:28
+start-sync_1 = 00:05:27
+end-sync_1 = 00:05:39
+end = 2023-02-15 00:05:39.586036575+00:00
 
 [server]
 repo = "cake233/amazon-amd64"
@@ -77,7 +77,7 @@ split = false
 [server.node2]
 name = "tmoe"
 current = true
-previous = false
+previous = true
 in_sync = false
 split = false
 
@@ -86,8 +86,6 @@ name = "azure"
 current = true
 previous = true
 in_sync = false
-start_sync = 2023-01-15 04:03:34.549850979+00:00
-end_sync = 2023-01-15 04:03:49.213368352+00:00
 split = false
 
 [server.node4]
