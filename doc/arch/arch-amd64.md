@@ -20,7 +20,7 @@ docker exec -it arch-amd64 sh
 ```toml
 [main]
 name = "arch"
-tag = ["base", "2023-02-08"]
+tag = ["base", "2023-02-15"]
 os = "arch"
 release = "latest"
 arch = "amd64"
@@ -29,10 +29,10 @@ xorg_or_wayland = false
 syntax_version = "0.0.0-alpha.4"
 
 [file]
-name = "arch_amd64_2023-02-08_00-05.tar.zst"
+name = "arch_amd64_2023-02-15_00-06.tar.zst"
 
 # This value can be used to verify the integrity of the file
-sha256 = "fc89b21d381c83714a9cfb30d36d63f7d44c46aeeb803b5dcf606d7942fad026"
+sha256 = "f0dd583054a5d7c49795aaf5341fbab9047187881c95ceaad6578f9cea319660"
 
 # zstd: [1-22]
 zstd-level = 12
@@ -41,12 +41,12 @@ zstd-level = 12
 # Installed size ≈ tar-size
 # Installed size is approximately equal to the size of the tar file
 tar = "944M"
-tar_bytes = 988809728
+tar_bytes = 989122560
 
 # Space occupied ≈ tar-size + zstd-size
 # You will need to prepare a large enough space before installation.
 zstd = "268M"
-zstd_bytes = 280716224
+zstd_bytes = 280714689
 
 [compatibility]
 compatible_mode = true
@@ -60,29 +60,29 @@ previous_file = ""
 previous_sha256 = ""
 
 current_version = "latest01"
-current_date = "20230208"
+current_date = "20230215"
 old_file = ""
 old_sha256 = ""
 # edition 2021
 # DISTRO_NAME=arch_amd64
-# ROOTFS_FILE=arch_amd64_2023-02-08_00-05-rootfs.tar.zst
-# SHA256SUM=fc89b21d381c83714a9cfb30d36d63f7d44c46aeeb803b5dcf606d7942fad026
-# BUILD_DATE=20230208
-# BUILD_TAG=2023-02-08
+# ROOTFS_FILE=arch_amd64_2023-02-15_00-06-rootfs.tar.zst
+# SHA256SUM=f0dd583054a5d7c49795aaf5341fbab9047187881c95ceaad6578f9cea319660
+# BUILD_DATE=20230215
+# BUILD_TAG=2023-02-15
 # STATUS=completed
 # VERSION=latest01
-# END_TIME=00:05
+# END_TIME=00:06
 
 [time]
 format = "rfc-3339"
 zone = "UTC"
-date = 2023-02-08
-begin = 2023-02-08 00:02:26.912345632+00:00
-start-sync_0 = 00:03:55
-start-zstd = 00:04:43
-start-sync_1 = 00:05:05
-end-sync_1 = 00:05:29
-end = 2023-02-08 00:05:29.027008188+00:00
+date = 2023-02-15
+begin = 2023-02-15 00:02:29.016728670+00:00
+start-sync_0 = 00:04:10
+start-zstd = 00:05:07
+start-sync_1 = 00:05:40
+end-sync_1 = 00:06:06
+end = 2023-02-15 00:06:06.313403228+00:00
 
 [server]
 repo = "cake233/arch-amd64"
