@@ -9,10 +9,10 @@ xorg_or_wayland = false
 syntax_version = "0.0.0-alpha.4"
 
 [file]
-name = "rust_s390x_2023-02-17_03-06.tar.zst"
+name = "rust_s390x_2023-02-17_10-39.tar.zst"
 
 # This value can be used to verify the integrity of the file
-sha256 = "f590dfa787fd5ae893e73b66501936c9fde32fe48e1fcf73fd1d0568e720f04e"
+sha256 = "4240326ce6f43d4da3f973853614de1f2db064b54a4c910f4891eebf7a299659"
 
 # zstd: [1-22]
 zstd-level = 20
@@ -26,43 +26,43 @@ tar_bytes = 1865457664
 # Space occupied ≈ tar-size + zstd-size
 # You will need to prepare a large enough space before installation.
 zstd = "235M"
-zstd_bytes = 245804715
+zstd_bytes = 245819229
 
 [compatibility]
 compatible_mode = true
 
-previous_version = "latest02"
+previous_version = "latest01"
 
 # The value is &str, not int
-previous_date = "20230213"
-previous_tag = "2023-02-13"
-previous_file = "rust_s390x_2023-02-13_03-08-rootfs.tar.zst"
-previous_sha256 = "009baf4016eae9497ec303c8c4a4233d9725c6e491b111fe8168d24157e06832"
+previous_date = "20230217"
+previous_tag = "2023-02-17"
+previous_file = "rust_s390x_2023-02-17_03-06-rootfs.tar.zst"
+previous_sha256 = "f590dfa787fd5ae893e73b66501936c9fde32fe48e1fcf73fd1d0568e720f04e"
 
-current_version = "latest01"
+current_version = "latest02"
 current_date = "20230217"
-old_file = "rust_s390x_2023-02-10_03-06-rootfs.tar.zst"
-old_sha256 = "3007b88182d9b102aafcdd8c8b86b3a0bd18ee3313fd39b00251b3a8620d1e70"
+old_file = "rust_s390x_2023-02-13_03-08-rootfs.tar.zst"
+old_sha256 = "009baf4016eae9497ec303c8c4a4233d9725c6e491b111fe8168d24157e06832"
 # edition 2021
 # DISTRO_NAME=rust_s390x
-# ROOTFS_FILE=rust_s390x_2023-02-17_03-06-rootfs.tar.zst
-# SHA256SUM=f590dfa787fd5ae893e73b66501936c9fde32fe48e1fcf73fd1d0568e720f04e
+# ROOTFS_FILE=rust_s390x_2023-02-17_10-39-rootfs.tar.zst
+# SHA256SUM=4240326ce6f43d4da3f973853614de1f2db064b54a4c910f4891eebf7a299659
 # BUILD_DATE=20230217
 # BUILD_TAG=2023-02-17
 # STATUS=completed
-# VERSION=latest01
-# END_TIME=03:06
+# VERSION=latest02
+# END_TIME=10:39
 
 [time]
 format = "rfc-3339"
 zone = "UTC"
 date = 2023-02-17
-begin = 2023-02-17 02:52:33.238890350+00:00
-start-sync_0 = 02:59:20
-start-zstd = 03:00:34
-start-sync_1 = 03:06:04
-end-sync_1 = 03:06:26
-end = 2023-02-17 03:06:26.172489666+00:00
+begin = 2023-02-17 10:25:46.439822824+00:00
+start-sync_0 = 10:32:05
+start-zstd = 10:33:14
+start-sync_1 = 10:38:56
+end-sync_1 = 10:39:14
+end = 2023-02-17 10:39:14.920599244+00:00
 
 [server]
 repo = "cake233/rust-s390x"
@@ -77,7 +77,7 @@ split = false
 [server.node2]
 name = "tmoe"
 current = true
-previous = false
+previous = true
 in_sync = false
 split = false
 
@@ -86,8 +86,6 @@ name = "azure"
 current = true
 previous = true
 in_sync = false
-start_sync = 2023-02-17 05:11:39.649632207+00:00
-end_sync = 2023-02-17 05:12:37.044078044+00:00
 split = false
 
 [server.node4]
