@@ -9,10 +9,10 @@ xorg_or_wayland = false
 syntax_version = "0.0.0-alpha.4"
 
 [file]
-name = "rust_armhf_2023-02-17_03-03.tar.zst"
+name = "rust_armhf_2023-02-17_10-37.tar.zst"
 
 # This value can be used to verify the integrity of the file
-sha256 = "8475051169e5720d3477b539c23725f658db9aea937497c654e45c3cbccb5e72"
+sha256 = "d7d9aa06943655ab4f72d5fac429e08f0c7fb8e329dfba45d904c803167c94e8"
 
 # zstd: [1-22]
 zstd-level = 20
@@ -26,43 +26,43 @@ tar_bytes = 1542316544
 # Space occupied ≈ tar-size + zstd-size
 # You will need to prepare a large enough space before installation.
 zstd = "215M"
-zstd_bytes = 225297513
+zstd_bytes = 225307372
 
 [compatibility]
 compatible_mode = true
 
-previous_version = "latest02"
+previous_version = "latest01"
 
 # The value is &str, not int
-previous_date = "20230210"
-previous_tag = "2023-02-10"
-previous_file = "rust_armhf_2023-02-10_03-03-rootfs.tar.zst"
-previous_sha256 = "9403248602fb30400788786cb76a7515999993200104f3c1d2c3e36a624775b8"
+previous_date = "20230217"
+previous_tag = "2023-02-17"
+previous_file = "rust_armhf_2023-02-17_03-03-rootfs.tar.zst"
+previous_sha256 = "8475051169e5720d3477b539c23725f658db9aea937497c654e45c3cbccb5e72"
 
-current_version = "latest01"
+current_version = "latest02"
 current_date = "20230217"
-old_file = "rust_armhf_2023-02-06_03-04-rootfs.tar.zst"
-old_sha256 = "ada8db7dcf200de793aea733fd70157a5e5b63e07b2d16753a0467e925a33c07"
+old_file = "rust_armhf_2023-02-10_03-03-rootfs.tar.zst"
+old_sha256 = "9403248602fb30400788786cb76a7515999993200104f3c1d2c3e36a624775b8"
 # edition 2021
 # DISTRO_NAME=rust_armhf
-# ROOTFS_FILE=rust_armhf_2023-02-17_03-03-rootfs.tar.zst
-# SHA256SUM=8475051169e5720d3477b539c23725f658db9aea937497c654e45c3cbccb5e72
+# ROOTFS_FILE=rust_armhf_2023-02-17_10-37-rootfs.tar.zst
+# SHA256SUM=d7d9aa06943655ab4f72d5fac429e08f0c7fb8e329dfba45d904c803167c94e8
 # BUILD_DATE=20230217
 # BUILD_TAG=2023-02-17
 # STATUS=completed
-# VERSION=latest01
-# END_TIME=03:03
+# VERSION=latest02
+# END_TIME=10:37
 
 [time]
 format = "rfc-3339"
 zone = "UTC"
 date = 2023-02-17
-begin = 2023-02-17 02:52:29.905014667+00:00
-start-sync_0 = 02:58:24
-start-zstd = 02:59:22
-start-sync_1 = 03:03:32
-end-sync_1 = 03:03:49
-end = 2023-02-17 03:03:49.880563771+00:00
+begin = 2023-02-17 10:25:47.615853136+00:00
+start-sync_0 = 10:31:42
+start-zstd = 10:32:43
+start-sync_1 = 10:36:59
+end-sync_1 = 10:37:18
+end = 2023-02-17 10:37:18.106296961+00:00
 
 [server]
 repo = "cake233/rust-armv7"
@@ -77,7 +77,7 @@ split = false
 [server.node2]
 name = "tmoe"
 current = true
-previous = false
+previous = true
 in_sync = false
 split = false
 
@@ -86,8 +86,6 @@ name = "azure"
 current = true
 previous = true
 in_sync = false
-start_sync = 2023-02-17 05:07:52.006602870+00:00
-end_sync = 2023-02-17 05:08:38.055813936+00:00
 split = false
 
 [server.node4]
