@@ -78,10 +78,10 @@ xorg_or_wayland = false
 syntax_version = "0.0.0-alpha.4"
 
 [file]
-name = "rust_ppc64el_2023-02-17_03-05.tar.zst"
+name = "rust_ppc64el_2023-02-17_10-38.tar.zst"
 
 # This value can be used to verify the integrity of the file
-sha256 = "abe6ca276bc2bfe92a5b4ef05cf2952b7c0ed613c5c5743ff5448e3bc2c680f9"
+sha256 = "f27402c28dd102992b60684564e4b54a9834957f85245cbd2934919bffc4f293"
 
 # zstd: [1-22]
 zstd-level = 20
@@ -95,43 +95,43 @@ tar_bytes = 1691649024
 # Space occupied ≈ tar-size + zstd-size
 # You will need to prepare a large enough space before installation.
 zstd = "218M"
-zstd_bytes = 227859910
+zstd_bytes = 227845348
 
 [compatibility]
 compatible_mode = true
 
-previous_version = "latest01"
+previous_version = "latest02"
 
 # The value is &str, not int
-previous_date = "20230213"
-previous_tag = "2023-02-13"
-previous_file = "rust_ppc64el_2023-02-13_03-05-rootfs.tar.zst"
-previous_sha256 = "17b4279dc937fd08cf547e9ba180f7ca05f768119c653a9792d5f76dada39d10"
+previous_date = "20230217"
+previous_tag = "2023-02-17"
+previous_file = "rust_ppc64el_2023-02-17_03-05-rootfs.tar.zst"
+previous_sha256 = "abe6ca276bc2bfe92a5b4ef05cf2952b7c0ed613c5c5743ff5448e3bc2c680f9"
 
-current_version = "latest02"
+current_version = "latest01"
 current_date = "20230217"
-old_file = "rust_ppc64el_2023-02-10_03-05-rootfs.tar.zst"
-old_sha256 = "71e66f56e5dbe20aa54952e311652c67d7692bf43747a2dbef4ada0498996618"
+old_file = "rust_ppc64el_2023-02-13_03-05-rootfs.tar.zst"
+old_sha256 = "17b4279dc937fd08cf547e9ba180f7ca05f768119c653a9792d5f76dada39d10"
 # edition 2021
 # DISTRO_NAME=rust_ppc64el
-# ROOTFS_FILE=rust_ppc64el_2023-02-17_03-05-rootfs.tar.zst
-# SHA256SUM=abe6ca276bc2bfe92a5b4ef05cf2952b7c0ed613c5c5743ff5448e3bc2c680f9
+# ROOTFS_FILE=rust_ppc64el_2023-02-17_10-38-rootfs.tar.zst
+# SHA256SUM=f27402c28dd102992b60684564e4b54a9834957f85245cbd2934919bffc4f293
 # BUILD_DATE=20230217
 # BUILD_TAG=2023-02-17
 # STATUS=completed
-# VERSION=latest02
-# END_TIME=03:05
+# VERSION=latest01
+# END_TIME=10:38
 
 [time]
 format = "rfc-3339"
 zone = "UTC"
 date = 2023-02-17
-begin = 2023-02-17 02:52:31.759433902+00:00
-start-sync_0 = 02:58:52
-start-zstd = 02:59:54
-start-sync_1 = 03:05:14
-end-sync_1 = 03:05:33
-end = 2023-02-17 03:05:33.997920048+00:00
+begin = 2023-02-17 10:25:49.490057996+00:00
+start-sync_0 = 10:31:58
+start-zstd = 10:33:02
+start-sync_1 = 10:38:20
+end-sync_1 = 10:38:38
+end = 2023-02-17 10:38:38.769291723+00:00
 
 [server]
 repo = "cake233/rust-ppc64le"
