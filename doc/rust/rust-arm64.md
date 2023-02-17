@@ -78,10 +78,10 @@ xorg_or_wayland = false
 syntax_version = "0.0.0-alpha.4"
 
 [file]
-name = "rust_arm64_2023-02-17_03-06.tar.zst"
+name = "rust_arm64_2023-02-17_10-38.tar.zst"
 
 # This value can be used to verify the integrity of the file
-sha256 = "a5b56cef1476a938ab4b167f007a9ffb87d3c2c47c28933d91b8eab040ef0b6d"
+sha256 = "d014c181af56dff8bf0de5a97091d4334e97f3d9d62bacc054360ee9b26142c8"
 
 # zstd: [1-22]
 zstd-level = 20
@@ -95,43 +95,43 @@ tar_bytes = 1853655040
 # Space occupied ≈ tar-size + zstd-size
 # You will need to prepare a large enough space before installation.
 zstd = "243M"
-zstd_bytes = 253851308
+zstd_bytes = 253846778
 
 [compatibility]
 compatible_mode = true
 
-previous_version = "latest01"
+previous_version = "latest02"
 
 # The value is &str, not int
-previous_date = "20230213"
-previous_tag = "2023-02-13"
-previous_file = "rust_arm64_2023-02-13_03-05-rootfs.tar.zst"
-previous_sha256 = "ffbf89e4b081bb64a7e912dca9ed8a2e7be580625080cdd74caa3c33a4e6500b"
+previous_date = "20230217"
+previous_tag = "2023-02-17"
+previous_file = "rust_arm64_2023-02-17_03-06-rootfs.tar.zst"
+previous_sha256 = "a5b56cef1476a938ab4b167f007a9ffb87d3c2c47c28933d91b8eab040ef0b6d"
 
-current_version = "latest02"
+current_version = "latest01"
 current_date = "20230217"
-old_file = "rust_arm64_2023-02-10_03-06-rootfs.tar.zst"
-old_sha256 = "5b3b0a579c96de61545cf77ed7afc6d9b475ce39217bbc0c61b5675eaf2efd1c"
+old_file = "rust_arm64_2023-02-13_03-05-rootfs.tar.zst"
+old_sha256 = "ffbf89e4b081bb64a7e912dca9ed8a2e7be580625080cdd74caa3c33a4e6500b"
 # edition 2021
 # DISTRO_NAME=rust_arm64
-# ROOTFS_FILE=rust_arm64_2023-02-17_03-06-rootfs.tar.zst
-# SHA256SUM=a5b56cef1476a938ab4b167f007a9ffb87d3c2c47c28933d91b8eab040ef0b6d
+# ROOTFS_FILE=rust_arm64_2023-02-17_10-38-rootfs.tar.zst
+# SHA256SUM=d014c181af56dff8bf0de5a97091d4334e97f3d9d62bacc054360ee9b26142c8
 # BUILD_DATE=20230217
 # BUILD_TAG=2023-02-17
 # STATUS=completed
-# VERSION=latest02
-# END_TIME=03:06
+# VERSION=latest01
+# END_TIME=10:38
 
 [time]
 format = "rfc-3339"
 zone = "UTC"
 date = 2023-02-17
-begin = 2023-02-17 02:52:31.794191897+00:00
-start-sync_0 = 02:58:56
-start-zstd = 03:00:04
-start-sync_1 = 03:05:44
-end-sync_1 = 03:06:04
-end = 2023-02-17 03:06:04.893448864+00:00
+begin = 2023-02-17 10:25:47.699849841+00:00
+start-sync_0 = 10:31:51
+start-zstd = 10:32:59
+start-sync_1 = 10:38:19
+end-sync_1 = 10:38:43
+end = 2023-02-17 10:38:43.197711484+00:00
 
 [server]
 repo = "cake233/rust-arm64"
