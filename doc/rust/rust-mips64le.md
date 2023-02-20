@@ -69,7 +69,7 @@ ldd "$FILE"
 ```toml
 [main]
 name = "rust"
-tag = ["latest", "2023-02-17", "nightly", "unstable", "default", "gnu-libc"]
+tag = ["latest", "2023-02-20", "nightly", "unstable", "default", "gnu-libc"]
 os = "debian"
 release = "sid"
 arch = "mips64el"
@@ -78,10 +78,10 @@ xorg_or_wayland = false
 syntax_version = "0.0.0-alpha.4"
 
 [file]
-name = "rust_mips64el_2023-02-17_16-41.tar.zst"
+name = "rust_mips64el_2023-02-20_03-05.tar.zst"
 
 # This value can be used to verify the integrity of the file
-sha256 = "6a6ae8baa70ed6d6ed99f35ffea238d9a6eea196566dd4773c9c8f386b861aba"
+sha256 = "118eed90559e8d585b2fd2cabecb5f9e93dbae797675faf7141f776ded0e2438"
 
 # zstd: [1-22]
 zstd-level = 20
@@ -90,12 +90,12 @@ zstd-level = 20
 # Installed size ≈ tar-size
 # Installed size is approximately equal to the size of the tar file
 tar = "1.6G"
-tar_bytes = 1647702528
+tar_bytes = 1645888000
 
 # Space occupied ≈ tar-size + zstd-size
 # You will need to prepare a large enough space before installation.
 zstd = "191M"
-zstd_bytes = 200209267
+zstd_bytes = 200024187
 
 [compatibility]
 compatible_mode = true
@@ -109,29 +109,29 @@ previous_file = "rust_mips64el_2023-02-13_15-58-rootfs.tar.zst"
 previous_sha256 = "4ba451b948f2f24907478aedf0e3aaace66646d691872984902851823d1f5bd7"
 
 current_version = "latest02"
-current_date = "20230217"
+current_date = "20230220"
 old_file = "rust_mips64el_2023-02-10_03-04-rootfs.tar.zst"
 old_sha256 = "ff3847a596a88d2757644569577369e10b1081806bfe580136fc3560538c1ed0"
 # edition 2021
 # DISTRO_NAME=rust_mips64el
-# ROOTFS_FILE=rust_mips64el_2023-02-17_16-41-rootfs.tar.zst
-# SHA256SUM=6a6ae8baa70ed6d6ed99f35ffea238d9a6eea196566dd4773c9c8f386b861aba
-# BUILD_DATE=20230217
-# BUILD_TAG=2023-02-17
+# ROOTFS_FILE=rust_mips64el_2023-02-20_03-05-rootfs.tar.zst
+# SHA256SUM=118eed90559e8d585b2fd2cabecb5f9e93dbae797675faf7141f776ded0e2438
+# BUILD_DATE=20230220
+# BUILD_TAG=2023-02-20
 # STATUS=completed
 # VERSION=latest02
-# END_TIME=16:41
+# END_TIME=03:05
 
 [time]
 format = "rfc-3339"
 zone = "UTC"
-date = 2023-02-17
-begin = 2023-02-17 16:29:50.911202083+00:00
-start-sync_0 = 16:35:35
-start-zstd = 16:36:32
-start-sync_1 = 16:41:29
-end-sync_1 = 16:41:46
-end = 2023-02-17 16:41:46.882054077+00:00
+date = 2023-02-20
+begin = 2023-02-20 02:52:28.722897272+00:00
+start-sync_0 = 02:59:31
+start-zstd = 03:00:36
+start-sync_1 = 03:05:41
+end-sync_1 = 03:05:59
+end = 2023-02-20 03:05:59.714728779+00:00
 
 [server]
 repo = "cake233/rust-mips64le"
@@ -171,24 +171,24 @@ CARGO_HOME = "/usr/local/cargo"
 [version]
 ldd = 'ldd (Debian GLIBC 2.36-8) 2.36'
 rustup = 'rustup 1.25.1 (bb60b1e89 2022-07-12)'
-cargo = 'cargo 1.69.0-nightly (39c13e67a 2023-02-12)'
-rustc = 'rustc 1.69.0-nightly (9a7cc6c32 2023-02-16)'
+cargo = 'cargo 1.69.0-nightly (17b3d0de0 2023-02-17)'
+rustc = 'rustc 1.69.0-nightly (7aa413d59 2023-02-19)'
 cc = 'cc (Debian 12.2.0-14) 12.2.0'
 cargo_verbose = '''
-cargo 1.69.0-nightly (39c13e67a 2023-02-12)
+cargo 1.69.0-nightly (17b3d0de0 2023-02-17)
 release: 1.69.0-nightly
-commit-hash: 39c13e67a5962466cc7253d41bc1099bbcb224c3
-commit-date: 2023-02-12
+commit-hash: 17b3d0de0897e1c6b8ca347bd39f850bb0a5b9f6
+commit-date: 2023-02-17
 host: mips64el-unknown-linux-gnuabi64
 libgit2: 1.5.0 (sys:0.16.0 vendored)
 libcurl: 7.86.0-DEV (sys:0.4.59+curl-7.86.0 vendored ssl:OpenSSL/1.1.1q)
 os: Linux [64-bit]
 '''
 rustc_verbose = '''
-rustc 1.69.0-nightly (9a7cc6c32 2023-02-16)
+rustc 1.69.0-nightly (7aa413d59 2023-02-19)
 binary: rustc
-commit-hash: 9a7cc6c32f1a690f86827e4724bcda85e506ef35
-commit-date: 2023-02-16
+commit-hash: 7aa413d59206fd511137728df3d9e0fd377429bd
+commit-date: 2023-02-19
 host: mips64el-unknown-linux-gnuabi64
 release: 1.69.0-nightly
 LLVM version: 15.0.7
