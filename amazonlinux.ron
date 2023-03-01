@@ -1,0 +1,19 @@
+(
+    os: "amazonlinux",
+    codename: {
+        "current": (
+            variant: {
+                "default": (
+                    arch: {
+                        "amd64": (
+                            tags: {"2023-02-26 05:11": (type: "tar.xz", digest: (algorithm: "sha256", hex: "e4f51ecd0e5b66c6eb975daf05bae51cbd54aae2f1ed474d59b170ada5497db2"), size: (bytes: 55851884, str: "53.26 MiB"), path: "images/amazonlinux/current/amd64/default/20230226_05:11/rootfs.tar.xz"), "2023-02-27 05:09": (type: "tar.xz", digest: (algorithm: "sha256", hex: "f04678539e51fba7847cbe4e2bb75f1407e482975e0988ca77eed36ff9ad5e6a"), size: (bytes: 55855296, str: "53.27 MiB"), path: "images/amazonlinux/current/amd64/default/20230227_05:09/rootfs.tar.xz"), "2023-02-28 05:10": (type: "tar.xz", digest: (algorithm: "sha256", hex: "87d128811724cdae56dc29f54103e3c705d2ec9a701b5d1ead78ff1788d36413"), size: (bytes: 55878548, str: "53.29 MiB"), path: "images/amazonlinux/current/amd64/default/20230228_05:10/rootfs.tar.xz")},
+                        ),
+                        "arm64": (
+                            tags: {"2023-02-26 05:09": (type: "tar.xz", digest: (algorithm: "sha256", hex: "21bcea372d5af3389ed8990d1f8fa43fc84a10fe4c7b1bc1e4000f6f4a28b913"), size: (bytes: 56411836, str: "53.80 MiB"), path: "images/amazonlinux/current/arm64/default/20230226_05:09/rootfs.tar.xz"), "2023-02-27 05:09": (type: "tar.xz", digest: (algorithm: "sha256", hex: "3c634e208868a3e6ebb0c5df919fd591c39167267b3dfeeb3ef9c2199b7cf862"), size: (bytes: 56622480, str: "54.00 MiB"), path: "images/amazonlinux/current/arm64/default/20230227_05:09/rootfs.tar.xz"), "2023-02-28 05:09": (type: "tar.xz", digest: (algorithm: "sha256", hex: "1638d057133ff3c15319334272874eb302a32bf23e928862a7f133501db86856"), size: (bytes: 56374712, str: "53.76 MiB"), path: "images/amazonlinux/current/arm64/default/20230228_05:09/rootfs.tar.xz")},
+                        ),
+                    },
+                ),
+            },
+        ),
+    },
+)

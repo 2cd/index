@@ -1,0 +1,31 @@
+syntax = "0.0.1"
+list = [
+    "almalinux",
+    "alpine",
+    "alt",
+    "amazonlinux",
+    "apertis",
+    "archlinux",
+    "busybox",
+    "centos",
+    "debian",
+    "devuan",
+    "fedora",
+    "funtoo",
+    "gentoo",
+    "kali",
+    "mint",
+    "openeuler",
+    "opensuse",
+    "openwrt",
+    "oracle",
+    "plamo",
+    "pld",
+    "rockylinux",
+    "springdalelinux",
+    "ubuntu",
+    "voidlinux",
+]
+
+[time]
+last_update = 2023-03-01T02:16:14.54799878Z

@@ -1,0 +1,107 @@
+(
+    os: "centos",
+    codename: {
+        "7": (
+            variant: {
+                "cloud": (
+                    arch: {
+                        "amd64": (
+                            tags: {"2023-02-26 07:08": (type: "tar.xz", digest: (algorithm: "sha256", hex: "3703d0d067db741a186baa94bec147d05203d465624fd24c16f7de9eafe7a26e"), size: (bytes: 85212392, str: "81.26 MiB"), path: "images/centos/7/amd64/cloud/20230226_07:08/rootfs.tar.xz"), "2023-02-27 07:08": (type: "tar.xz", digest: (algorithm: "sha256", hex: "939a3fedec9f24d62f3a6d39444b61dbc7a8131de0ee592195f47f3f145a3bcd"), size: (bytes: 85230340, str: "81.28 MiB"), path: "images/centos/7/amd64/cloud/20230227_07:08/rootfs.tar.xz"), "2023-02-28 07:08": (type: "tar.xz", digest: (algorithm: "sha256", hex: "937a6beb7bdbd2553d3bac7567b92e152d7a89f218c454e318849e7bc34dffe5"), size: (bytes: 85219992, str: "81.27 MiB"), path: "images/centos/7/amd64/cloud/20230228_07:08/rootfs.tar.xz")},
+                        ),
+                        "arm64": (
+                            tags: {"2023-02-26 07:09": (type: "tar.xz", digest: (algorithm: "sha256", hex: "0325bfbf94f9b323d40b5f95c275a4f316e9fb9f3eefd31039733bd9a763c209"), size: (bytes: 85159532, str: "81.21 MiB"), path: "images/centos/7/arm64/cloud/20230226_07:09/rootfs.tar.xz"), "2023-02-27 07:09": (type: "tar.xz", digest: (algorithm: "sha256", hex: "aeff04d504c660206cf21ea3948fac0f8e0328b7132b2434ee0aad65a0568ffb"), size: (bytes: 85291160, str: "81.34 MiB"), path: "images/centos/7/arm64/cloud/20230227_07:09/rootfs.tar.xz"), "2023-02-28 07:08": (type: "tar.xz", digest: (algorithm: "sha256", hex: "8e00a128a24ecc6b2150da2cb9e2a2f0619ffb37f9bba57780960477eb223d83"), size: (bytes: 84884088, str: "80.95 MiB"), path: "images/centos/7/arm64/cloud/20230228_07:08/rootfs.tar.xz")},
+                        ),
+                        "armhf": (
+                            tags: {"2023-02-26 07:08": (type: "tar.xz", digest: (algorithm: "sha256", hex: "610de7894ec27373c1febc136e487bff5a00bd8ec3fd0ee1934bb28054775bbf"), size: (bytes: 82607860, str: "78.78 MiB"), path: "images/centos/7/armhf/cloud/20230226_07:08/rootfs.tar.xz"), "2023-02-27 07:09": (type: "tar.xz", digest: (algorithm: "sha256", hex: "0c20e6ed67806b438b5c19afb35f9841c5af6e2b919ae5d4d3675af4c15dd76e"), size: (bytes: 82753636, str: "78.92 MiB"), path: "images/centos/7/armhf/cloud/20230227_07:09/rootfs.tar.xz"), "2023-02-28 07:08": (type: "tar.xz", digest: (algorithm: "sha256", hex: "14d85d7866f113e345b7b63fe2472aaf40af2a6c717ce2e94577ef55b03980d8"), size: (bytes: 82942452, str: "79.10 MiB"), path: "images/centos/7/armhf/cloud/20230228_07:08/rootfs.tar.xz")},
+                        ),
+                        "i386": (
+                            tags: {"2023-02-26 07:11": (type: "tar.xz", digest: (algorithm: "sha256", hex: "7c253ad5f712b8d5ff57f6c968ec349e1bfe1580b938c3d828cc9ae18a49f596"), size: (bytes: 83456316, str: "79.59 MiB"), path: "images/centos/7/i386/cloud/20230226_07:11/rootfs.tar.xz"), "2023-02-27 07:09": (type: "tar.xz", digest: (algorithm: "sha256", hex: "45a1b7845771d6838e2d1e0bc33961ce982e630c2d6aaff66d4ccbc8bab08cab"), size: (bytes: 83480916, str: "79.61 MiB"), path: "images/centos/7/i386/cloud/20230227_07:09/rootfs.tar.xz"), "2023-02-28 07:09": (type: "tar.xz", digest: (algorithm: "sha256", hex: "8019b4a13903bc14f5fa6bdc6715f976ac7ceb0b1eee3357cf4929fc52db55bf"), size: (bytes: 83467012, str: "79.60 MiB"), path: "images/centos/7/i386/cloud/20230228_07:09/rootfs.tar.xz")},
+                        ),
+                        "ppc64el": (
+                            tags: {"2023-02-26 07:08": (type: "tar.xz", digest: (algorithm: "sha256", hex: "03e3773a044c6ef8b487c4d12f00d88d3d962d43617d38436cacc33137aab46b"), size: (bytes: 87912252, str: "83.84 MiB"), path: "images/centos/7/ppc64el/cloud/20230226_07:08/rootfs.tar.xz"), "2023-02-27 07:09": (type: "tar.xz", digest: (algorithm: "sha256", hex: "260d7bfd17d6ee5e5cd4d700420591dfd1355279d3e90cb7245afefe45d00d89"), size: (bytes: 87635216, str: "83.58 MiB"), path: "images/centos/7/ppc64el/cloud/20230227_07:09/rootfs.tar.xz"), "2023-02-28 07:08": (type: "tar.xz", digest: (algorithm: "sha256", hex: "802aa1a4d28ad854b62fe058f65ee487899f124d6199494dc6d63210e13262ee"), size: (bytes: 87379700, str: "83.33 MiB"), path: "images/centos/7/ppc64el/cloud/20230228_07:08/rootfs.tar.xz")},
+                        ),
+                    },
+                ),
+                "default": (
+                    arch: {
+                        "amd64": (
+                            tags: {"2023-02-26 07:08": (type: "tar.xz", digest: (algorithm: "sha256", hex: "bbdaae023c1bb0da968b6a0ab0d5952fe764a1585910d7b4297ef45b5e3580d3"), size: (bytes: 71914984, str: "68.58 MiB"), path: "images/centos/7/amd64/default/20230226_07:08/rootfs.tar.xz"), "2023-02-27 07:09": (type: "tar.xz", digest: (algorithm: "sha256", hex: "a2ba5afee6b5652df9729aaf608914bfe330769b94a949a0a826da807cd20325"), size: (bytes: 71915268, str: "68.58 MiB"), path: "images/centos/7/amd64/default/20230227_07:09/rootfs.tar.xz"), "2023-02-28 07:08": (type: "tar.xz", digest: (algorithm: "sha256", hex: "3b4b0b1557ce9111ba8b268bc8e9988b11749d2d2cb362172e25ef903d1f9321"), size: (bytes: 71933512, str: "68.60 MiB"), path: "images/centos/7/amd64/default/20230228_07:08/rootfs.tar.xz")},
+                        ),
+                        "arm64": (
+                            tags: {"2023-02-26 07:08": (type: "tar.xz", digest: (algorithm: "sha256", hex: "82f29e143fd9d97cdcdb89b47f7f51d99f4ab72df2ea5a85647a8200a43d320c"), size: (bytes: 72348568, str: "69.00 MiB"), path: "images/centos/7/arm64/default/20230226_07:08/rootfs.tar.xz"), "2023-02-27 07:09": (type: "tar.xz", digest: (algorithm: "sha256", hex: "d2c922fe374a7623618b622f30909b525ff2d78b7a39a06fa4524a99ca61a948"), size: (bytes: 72959744, str: "69.58 MiB"), path: "images/centos/7/arm64/default/20230227_07:09/rootfs.tar.xz"), "2023-02-28 07:45": (type: "tar.xz", digest: (algorithm: "sha256", hex: "66a1e3bed1459db2837c08089b2cccf5ccade33615da54f2999b5181aba5f5eb"), size: (bytes: 72489764, str: "69.13 MiB"), path: "images/centos/7/arm64/default/20230228_07:45/rootfs.tar.xz")},
+                        ),
+                        "armhf": (
+                            tags: {"2023-02-26 07:08": (type: "tar.xz", digest: (algorithm: "sha256", hex: "e36b86278add5cb6015b5f98aabe99925e4f8b6a7811aff0d6b4ee9bec4fecb5"), size: (bytes: 69836068, str: "66.60 MiB"), path: "images/centos/7/armhf/default/20230226_07:08/rootfs.tar.xz"), "2023-02-27 07:09": (type: "tar.xz", digest: (algorithm: "sha256", hex: "d849f5eaeb091b05591e9d6342ea7fd4ce68d7f4653547c3d786a7de227ddd73"), size: (bytes: 70054896, str: "66.81 MiB"), path: "images/centos/7/armhf/default/20230227_07:09/rootfs.tar.xz"), "2023-02-28 07:45": (type: "tar.xz", digest: (algorithm: "sha256", hex: "4afc4d6b569099369e86e4ce041fb0126aab453ec98032127154d27f64029dc1"), size: (bytes: 69471660, str: "66.25 MiB"), path: "images/centos/7/armhf/default/20230228_07:45/rootfs.tar.xz")},
+                        ),
+                        "i386": (
+                            tags: {"2023-02-26 07:10": (type: "tar.xz", digest: (algorithm: "sha256", hex: "db20ac20055145e3c08acb208b74ebe5e4bde539f9f2148a8f2c06b748c8a139"), size: (bytes: 70783020, str: "67.50 MiB"), path: "images/centos/7/i386/default/20230226_07:10/rootfs.tar.xz"), "2023-02-27 07:09": (type: "tar.xz", digest: (algorithm: "sha256", hex: "61a272c0bc7caf9742ae9e9908df29443cb5ea764a7fabd7fd287f3995ece51f"), size: (bytes: 70794648, str: "67.52 MiB"), path: "images/centos/7/i386/default/20230227_07:09/rootfs.tar.xz"), "2023-02-28 07:08": (type: "tar.xz", digest: (algorithm: "sha256", hex: "c4ed0e7f4557bb2a078b4d84cacab8ccb82cd1ca86e301ec401e53d99d58d34c"), size: (bytes: 70806336, str: "67.53 MiB"), path: "images/centos/7/i386/default/20230228_07:08/rootfs.tar.xz")},
+                        ),
+                        "ppc64el": (
+                            tags: {"2023-02-26 07:08": (type: "tar.xz", digest: (algorithm: "sha256", hex: "dfdc1e27f9e31655d5ca6d5f27ebd861586107040de98eab7f504192949040be"), size: (bytes: 74600884, str: "71.14 MiB"), path: "images/centos/7/ppc64el/default/20230226_07:08/rootfs.tar.xz"), "2023-02-27 07:08": (type: "tar.xz", digest: (algorithm: "sha256", hex: "2a45509acbbcea8fe1e171f4cd36f1b4703a81f53f07a78587d888df5d7e7338"), size: (bytes: 74278176, str: "70.84 MiB"), path: "images/centos/7/ppc64el/default/20230227_07:08/rootfs.tar.xz"), "2023-02-28 07:08": (type: "tar.xz", digest: (algorithm: "sha256", hex: "19eb997df3eb9b09b1b9e525700c73ad5249afaeaf71485993a9bdd0ddd7f26b"), size: (bytes: 74522760, str: "71.07 MiB"), path: "images/centos/7/ppc64el/default/20230228_07:08/rootfs.tar.xz")},
+                        ),
+                    },
+                ),
+            },
+        ),
+        "8-Stream": (
+            variant: {
+                "cloud": (
+                    arch: {
+                        "amd64": (
+                            tags: {"2023-02-26 07:08": (type: "tar.xz", digest: (algorithm: "sha256", hex: "2c4bc8256fe3a3b175453cccc46e213c659acef2d7266feccfaa61eab6174788"), size: (bytes: 133575016, str: "127.39 MiB"), path: "images/centos/8-Stream/amd64/cloud/20230226_07:08/rootfs.tar.xz"), "2023-02-27 07:08": (type: "tar.xz", digest: (algorithm: "sha256", hex: "371b248718a1fe17ab0fe761b38c7d1b48179b81b8905427f290cd4123e8f672"), size: (bytes: 133670492, str: "127.48 MiB"), path: "images/centos/8-Stream/amd64/cloud/20230227_07:08/rootfs.tar.xz"), "2023-02-28 07:08": (type: "tar.xz", digest: (algorithm: "sha256", hex: "e47802b5bb7ab5b441f7a442218392e8431e8fc7ad727fd40cdcba3221340ef8"), size: (bytes: 133601636, str: "127.41 MiB"), path: "images/centos/8-Stream/amd64/cloud/20230228_07:08/rootfs.tar.xz")},
+                        ),
+                        "arm64": (
+                            tags: {"2023-02-26 07:09": (type: "tar.xz", digest: (algorithm: "sha256", hex: "e6bc9b88d3f0106792b3ef08dd7f922b52a929994fc10a1c97841e4b195f67da"), size: (bytes: 128053444, str: "122.12 MiB"), path: "images/centos/8-Stream/arm64/cloud/20230226_07:09/rootfs.tar.xz"), "2023-02-27 07:09": (type: "tar.xz", digest: (algorithm: "sha256", hex: "c30288737aa02c9b114a0a4a29f77687e9877c82eca01e6b8287b7437e0158b9"), size: (bytes: 128197064, str: "122.26 MiB"), path: "images/centos/8-Stream/arm64/cloud/20230227_07:09/rootfs.tar.xz"), "2023-02-28 07:08": (type: "tar.xz", digest: (algorithm: "sha256", hex: "4c421d2b2d71caa6b42f1675362d9d0f88b89778940c97dd68af70302f2bb50d"), size: (bytes: 127969404, str: "122.04 MiB"), path: "images/centos/8-Stream/arm64/cloud/20230228_07:08/rootfs.tar.xz")},
+                        ),
+                        "ppc64el": (
+                            tags: {"2023-02-26 07:08": (type: "tar.xz", digest: (algorithm: "sha256", hex: "895a72881e568f99bc7f5f8cca9d669a8e6182c58b1e45faf3d8e43900a429d3"), size: (bytes: 139114576, str: "132.67 MiB"), path: "images/centos/8-Stream/ppc64el/cloud/20230226_07:08/rootfs.tar.xz"), "2023-02-27 07:08": (type: "tar.xz", digest: (algorithm: "sha256", hex: "12083082bb6f4cbee87a82a983432a431c179b3d114f1a1e9b006e64a587b497"), size: (bytes: 139302672, str: "132.85 MiB"), path: "images/centos/8-Stream/ppc64el/cloud/20230227_07:08/rootfs.tar.xz"), "2023-02-28 07:08": (type: "tar.xz", digest: (algorithm: "sha256", hex: "527182ac409750231e80c3cbd5e3b49e4d79139001015648fc3815b3b10a0111"), size: (bytes: 139174760, str: "132.73 MiB"), path: "images/centos/8-Stream/ppc64el/cloud/20230228_07:08/rootfs.tar.xz")},
+                        ),
+                    },
+                ),
+                "default": (
+                    arch: {
+                        "amd64": (
+                            tags: {"2023-02-26 07:08": (type: "tar.xz", digest: (algorithm: "sha256", hex: "815a7eb0c09ca2b58205591ffabd595346fc558481ff0c166c425df649281da5"), size: (bytes: 116174416, str: "110.79 MiB"), path: "images/centos/8-Stream/amd64/default/20230226_07:08/rootfs.tar.xz"), "2023-02-27 07:08": (type: "tar.xz", digest: (algorithm: "sha256", hex: "898748f50377f5da8e2ab56f957ccf7dbcb253462b7da6877d37078957a96a33"), size: (bytes: 116169284, str: "110.79 MiB"), path: "images/centos/8-Stream/amd64/default/20230227_07:08/rootfs.tar.xz"), "2023-02-28 07:08": (type: "tar.xz", digest: (algorithm: "sha256", hex: "b28f22a916149e1943dc8fd7c88625075e643ec8af2435d62a625c72f3a46a51"), size: (bytes: 116153432, str: "110.77 MiB"), path: "images/centos/8-Stream/amd64/default/20230228_07:08/rootfs.tar.xz")},
+                        ),
+                        "arm64": (
+                            tags: {"2023-02-26 07:08": (type: "tar.xz", digest: (algorithm: "sha256", hex: "90899db5348467febb8fc0af4ae00408b925374d83b46f2c028300611176aa15"), size: (bytes: 109813588, str: "104.73 MiB"), path: "images/centos/8-Stream/arm64/default/20230226_07:08/rootfs.tar.xz"), "2023-02-27 07:41": (type: "tar.xz", digest: (algorithm: "sha256", hex: "e3f89b2d36d5d7d7fa869639bc06c9eb30e01b769fe7b32eddb4e799fd2f87c5"), size: (bytes: 109840212, str: "104.75 MiB"), path: "images/centos/8-Stream/arm64/default/20230227_07:41/rootfs.tar.xz"), "2023-02-28 07:08": (type: "tar.xz", digest: (algorithm: "sha256", hex: "e48ed8d7bd0fe5ac5209ac2f6dc9566ac422c72fae3c2b70e7f6885bd4faec50"), size: (bytes: 110947784, str: "105.81 MiB"), path: "images/centos/8-Stream/arm64/default/20230228_07:08/rootfs.tar.xz")},
+                        ),
+                        "ppc64el": (
+                            tags: {"2023-02-26 07:08": (type: "tar.xz", digest: (algorithm: "sha256", hex: "c1dbfb8e41cd0dcfe24f27a4b439515b1b9b2494c730e31a980a7e183bc8ee4b"), size: (bytes: 121629536, str: "115.99 MiB"), path: "images/centos/8-Stream/ppc64el/default/20230226_07:08/rootfs.tar.xz"), "2023-02-27 07:09": (type: "tar.xz", digest: (algorithm: "sha256", hex: "d7d4972504578fdbe2fd0d29339940f4788d941b3b2fcd0f6b502b8af2a03de3"), size: (bytes: 121013284, str: "115.41 MiB"), path: "images/centos/8-Stream/ppc64el/default/20230227_07:09/rootfs.tar.xz"), "2023-02-28 07:08": (type: "tar.xz", digest: (algorithm: "sha256", hex: "2d38324ac6ade3875b3a69438eee93ae6ccfc202699bf48ffa7ffed27e15cba2"), size: (bytes: 121218068, str: "115.60 MiB"), path: "images/centos/8-Stream/ppc64el/default/20230228_07:08/rootfs.tar.xz")},
+                        ),
+                    },
+                ),
+            },
+        ),
+        "9-Stream": (
+            variant: {
+                "cloud": (
+                    arch: {
+                        "amd64": (
+                            tags: {"2023-02-26 07:08": (type: "tar.xz", digest: (algorithm: "sha256", hex: "19ba49ef54ff378158e3f7c13028068be5f51708ad3879a9f99ba1ccd9ef2725"), size: (bytes: 119643032, str: "114.10 MiB"), path: "images/centos/9-Stream/amd64/cloud/20230226_07:08/rootfs.tar.xz"), "2023-02-27 07:08": (type: "tar.xz", digest: (algorithm: "sha256", hex: "7474a0840263063127fa0a9ccb7a856dd906486fe5facb06597c9cc10fc0eebd"), size: (bytes: 119641068, str: "114.10 MiB"), path: "images/centos/9-Stream/amd64/cloud/20230227_07:08/rootfs.tar.xz"), "2023-02-28 07:08": (type: "tar.xz", digest: (algorithm: "sha256", hex: "2839991b1216296f6a3fbb9322e2af41e906cc90692dfe68e636bcd86b79b17b"), size: (bytes: 119633628, str: "114.09 MiB"), path: "images/centos/9-Stream/amd64/cloud/20230228_07:08/rootfs.tar.xz")},
+                        ),
+                        "arm64": (
+                            tags: {"2023-02-26 07:08": (type: "tar.xz", digest: (algorithm: "sha256", hex: "f1d9bcd632000915824da45521be9d775565a87996e948c5890ac1022f675c48"), size: (bytes: 113225084, str: "107.98 MiB"), path: "images/centos/9-Stream/arm64/cloud/20230226_07:08/rootfs.tar.xz"), "2023-02-27 07:09": (type: "tar.xz", digest: (algorithm: "sha256", hex: "927c72b77c454611ae7bcb7386c1f78962c21bcbdd95f3d5f81daebddb1d96b0"), size: (bytes: 112929676, str: "107.70 MiB"), path: "images/centos/9-Stream/arm64/cloud/20230227_07:09/rootfs.tar.xz"), "2023-02-28 07:08": (type: "tar.xz", digest: (algorithm: "sha256", hex: "522e01775fd6b803d09edd3350469387b2231523345bdd72a478cdf4e65a15ac"), size: (bytes: 112649428, str: "107.43 MiB"), path: "images/centos/9-Stream/arm64/cloud/20230228_07:08/rootfs.tar.xz")},
+                        ),
+                        "ppc64el": (
+                            tags: {"2023-02-26 07:08": (type: "tar.xz", digest: (algorithm: "sha256", hex: "766df02f4ec1cde2e7e55db2bdc0717fda1dbd7516d2dcf63af2f836ae2ceece"), size: (bytes: 123533888, str: "117.81 MiB"), path: "images/centos/9-Stream/ppc64el/cloud/20230226_07:08/rootfs.tar.xz"), "2023-02-27 07:08": (type: "tar.xz", digest: (algorithm: "sha256", hex: "8f5c1404f9383b8938f6ab781acae771ab4cd50ddff10683fd1a85ee641f5dea"), size: (bytes: 123325660, str: "117.61 MiB"), path: "images/centos/9-Stream/ppc64el/cloud/20230227_07:08/rootfs.tar.xz"), "2023-02-28 07:08": (type: "tar.xz", digest: (algorithm: "sha256", hex: "a11d8bb0076f8d840572986ac54bc5373a9c9a5a658c8c3ae70b7aae9f0878a5"), size: (bytes: 122871964, str: "117.18 MiB"), path: "images/centos/9-Stream/ppc64el/cloud/20230228_07:08/rootfs.tar.xz")},
+                        ),
+                    },
+                ),
+                "default": (
+                    arch: {
+                        "amd64": (
+                            tags: {"2023-02-26 07:10": (type: "tar.xz", digest: (algorithm: "sha256", hex: "56fde5eb0a2c985f0073c69c3f8d370c4a83637c19aabaa5ce448c103d8228d9"), size: (bytes: 104709276, str: "99.86 MiB"), path: "images/centos/9-Stream/amd64/default/20230226_07:10/rootfs.tar.xz"), "2023-02-27 07:09": (type: "tar.xz", digest: (algorithm: "sha256", hex: "49dc2f900f13a5ed3ee38ee6542618c7052f4818cc234a2359b92dfa5e1e07bd"), size: (bytes: 104691704, str: "99.84 MiB"), path: "images/centos/9-Stream/amd64/default/20230227_07:09/rootfs.tar.xz"), "2023-02-28 07:08": (type: "tar.xz", digest: (algorithm: "sha256", hex: "b04720dcfdf2e62ae3f74ce24ab4f6cb0ad2e557c2c8455cb8151f1173fae8ed"), size: (bytes: 104739436, str: "99.89 MiB"), path: "images/centos/9-Stream/amd64/default/20230228_07:08/rootfs.tar.xz")},
+                        ),
+                        "arm64": (
+                            tags: {"2023-02-26 07:08": (type: "tar.xz", digest: (algorithm: "sha256", hex: "830e219977782b40bdb1a933fa4ef190254b98733543f1956ed9eee73713e7c2"), size: (bytes: 98183368, str: "93.63 MiB"), path: "images/centos/9-Stream/arm64/default/20230226_07:08/rootfs.tar.xz"), "2023-02-27 07:08": (type: "tar.xz", digest: (algorithm: "sha256", hex: "0702f75b384966b2b0a5104ab121947ce75187c0623e994073d8eb74213ae3be"), size: (bytes: 97693328, str: "93.17 MiB"), path: "images/centos/9-Stream/arm64/default/20230227_07:08/rootfs.tar.xz"), "2023-02-28 07:08": (type: "tar.xz", digest: (algorithm: "sha256", hex: "3c633bad9eede5e23f9fb119111b8916ca110781d9fce7c5f7d6ab66e38d7cef"), size: (bytes: 97801276, str: "93.27 MiB"), path: "images/centos/9-Stream/arm64/default/20230228_07:08/rootfs.tar.xz")},
+                        ),
+                        "ppc64el": (
+                            tags: {"2023-02-26 07:08": (type: "tar.xz", digest: (algorithm: "sha256", hex: "81624480d7cec84ba2acc214b5d6351e1c87f74c324b515eb4fdf9d430926453"), size: (bytes: 107193664, str: "102.23 MiB"), path: "images/centos/9-Stream/ppc64el/default/20230226_07:08/rootfs.tar.xz"), "2023-02-27 07:09": (type: "tar.xz", digest: (algorithm: "sha256", hex: "a99a11b460dd6243055538902451b1eccfbe2e85e70ec63a1820f197bf103436"), size: (bytes: 107733844, str: "102.74 MiB"), path: "images/centos/9-Stream/ppc64el/default/20230227_07:09/rootfs.tar.xz"), "2023-02-28 07:08": (type: "tar.xz", digest: (algorithm: "sha256", hex: "28328e5bd67847d1fb9a978bfe0dc14a462dc6cf2dac82b23a534c911573f816"), size: (bytes: 107777396, str: "102.78 MiB"), path: "images/centos/9-Stream/ppc64el/default/20230228_07:08/rootfs.tar.xz")},
+                        ),
+                    },
+                ),
+            },
+        ),
+    },
+)

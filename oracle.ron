@@ -1,0 +1,77 @@
+(
+    os: "oracle",
+    codename: {
+        "7": (
+            variant: {
+                "cloud": (
+                    arch: {
+                        "amd64": (
+                            tags: {"2023-02-25 09:24": (type: "tar.xz", digest: (algorithm: "sha256", hex: "5c0a310e51ee98a038589114e82b28bab1b166fc8b07142dddb985eabccd5d0a"), size: (bytes: 81411172, str: "77.64 MiB"), path: "images/oracle/7/amd64/cloud/20230225_09:24/rootfs.tar.xz"), "2023-02-27 08:49": (type: "tar.xz", digest: (algorithm: "sha256", hex: "50f4b21d97599b261f43216c070c20150e6326b2ab2802a24bbac9b25134b4bb"), size: (bytes: 80435680, str: "76.71 MiB"), path: "images/oracle/7/amd64/cloud/20230227_08:49/rootfs.tar.xz"), "2023-02-28 07:46": (type: "tar.xz", digest: (algorithm: "sha256", hex: "ca3bb984f33b5d9ba42ec271b7ce9b923b6b6d0e39a2f88511441b1212f8a741"), size: (bytes: 80978036, str: "77.23 MiB"), path: "images/oracle/7/amd64/cloud/20230228_07:46/rootfs.tar.xz")},
+                        ),
+                        "arm64": (
+                            tags: {"2023-02-25 09:24": (type: "tar.xz", digest: (algorithm: "sha256", hex: "8a64f430ca97c78cfc68a8cc1ed075a1e4f87945f8c4badc45fb282190cbc1e3"), size: (bytes: 78861876, str: "75.21 MiB"), path: "images/oracle/7/arm64/cloud/20230225_09:24/rootfs.tar.xz"), "2023-02-27 07:47": (type: "tar.xz", digest: (algorithm: "sha256", hex: "024c63cba401acf8bfef70b1b084959d06eba5babbe7d0903ad3b5681fdb4db4"), size: (bytes: 78363084, str: "74.73 MiB"), path: "images/oracle/7/arm64/cloud/20230227_07:47/rootfs.tar.xz"), "2023-02-28 07:48": (type: "tar.xz", digest: (algorithm: "sha256", hex: "6070387158e5a220747d7fea97650b58229e8aa7e128e441a5b7cd3fae2fad07"), size: (bytes: 78985544, str: "75.33 MiB"), path: "images/oracle/7/arm64/cloud/20230228_07:48/rootfs.tar.xz")},
+                        ),
+                    },
+                ),
+                "default": (
+                    arch: {
+                        "amd64": (
+                            tags: {"2023-02-25 08:12": (type: "tar.xz", digest: (algorithm: "sha256", hex: "727ba18399384d2dc048462e5164e6c964c5b4809026eeb0b7fe3c29ee9847d8"), size: (bytes: 73511052, str: "70.11 MiB"), path: "images/oracle/7/amd64/default/20230225_08:12/rootfs.tar.xz"), "2023-02-27 07:46": (type: "tar.xz", digest: (algorithm: "sha256", hex: "47e7065651335dcae69ad8dc8de10b90707df822d0c86ec924d40acede23c1bf"), size: (bytes: 73464020, str: "70.06 MiB"), path: "images/oracle/7/amd64/default/20230227_07:46/rootfs.tar.xz"), "2023-02-28 07:46": (type: "tar.xz", digest: (algorithm: "sha256", hex: "55081a8c715e45ec909696a76fb903982ffa88a0f2c97bf2cf4b059df11a7bfc"), size: (bytes: 73791008, str: "70.37 MiB"), path: "images/oracle/7/amd64/default/20230228_07:46/rootfs.tar.xz")},
+                        ),
+                        "arm64": (
+                            tags: {"2023-02-25 08:13": (type: "tar.xz", digest: (algorithm: "sha256", hex: "95af1ed817e71714a127c73f7d83cf7d45c01378c28da554be83c3d3e7cbbd24"), size: (bytes: 71612552, str: "68.30 MiB"), path: "images/oracle/7/arm64/default/20230225_08:13/rootfs.tar.xz"), "2023-02-27 07:48": (type: "tar.xz", digest: (algorithm: "sha256", hex: "389540041821e5e836e58a8b523fd7e513216141e34430cd2446197d459bf365"), size: (bytes: 72624676, str: "69.26 MiB"), path: "images/oracle/7/arm64/default/20230227_07:48/rootfs.tar.xz"), "2023-02-28 08:49": (type: "tar.xz", digest: (algorithm: "sha256", hex: "d40017c46189eaeabba6b6de48b7ee08743b7e6dcfdfc8aeded297bccd3f3df2"), size: (bytes: 71954836, str: "68.62 MiB"), path: "images/oracle/7/arm64/default/20230228_08:49/rootfs.tar.xz")},
+                        ),
+                    },
+                ),
+            },
+        ),
+        "8": (
+            variant: {
+                "cloud": (
+                    arch: {
+                        "amd64": (
+                            tags: {"2023-02-25 08:12": (type: "tar.xz", digest: (algorithm: "sha256", hex: "06f7f81e8a934c611f47913f3568f0996f168622ff25ac9e9b7fe091d21889c3"), size: (bytes: 115396580, str: "110.05 MiB"), path: "images/oracle/8/amd64/cloud/20230225_08:12/rootfs.tar.xz"), "2023-02-27 07:46": (type: "tar.xz", digest: (algorithm: "sha256", hex: "de79574c978bbf49257530c4bc498ab39fb09e09f35507fd352edf1381fe91fe"), size: (bytes: 116585516, str: "111.18 MiB"), path: "images/oracle/8/amd64/cloud/20230227_07:46/rootfs.tar.xz"), "2023-02-28 07:47": (type: "tar.xz", digest: (algorithm: "sha256", hex: "db3fc512e5719a9393e0f25a9ca8b7f92b937f8c82af4ef2d814dc64e164dd31"), size: (bytes: 117075096, str: "111.65 MiB"), path: "images/oracle/8/amd64/cloud/20230228_07:47/rootfs.tar.xz")},
+                        ),
+                        "arm64": (
+                            tags: {"2023-02-25 08:13": (type: "tar.xz", digest: (algorithm: "sha256", hex: "2cb885754f419a38e57d90afa854f196379653191e593b225f7c5b7c71e1f43a"), size: (bytes: 112006924, str: "106.82 MiB"), path: "images/oracle/8/arm64/cloud/20230225_08:13/rootfs.tar.xz"), "2023-02-27 07:47": (type: "tar.xz", digest: (algorithm: "sha256", hex: "85adfaecabab86a1dc18de322aa617b1c845e217f181f63f887a86064c1cbeec"), size: (bytes: 112315260, str: "107.11 MiB"), path: "images/oracle/8/arm64/cloud/20230227_07:47/rootfs.tar.xz"), "2023-02-28 07:49": (type: "tar.xz", digest: (algorithm: "sha256", hex: "dc74eeb26b402ce7686469635850fa895784e549d69442db477c6ad61af55a69"), size: (bytes: 112384264, str: "107.18 MiB"), path: "images/oracle/8/arm64/cloud/20230228_07:49/rootfs.tar.xz")},
+                        ),
+                    },
+                ),
+                "default": (
+                    arch: {
+                        "amd64": (
+                            tags: {"2023-02-25 08:12": (type: "tar.xz", digest: (algorithm: "sha256", hex: "e36c5787fbc320f1fd18eedc8ff2281e68b7b2e7148a2e23bd52f3182a702c7e"), size: (bytes: 99843140, str: "95.22 MiB"), path: "images/oracle/8/amd64/default/20230225_08:12/rootfs.tar.xz"), "2023-02-27 07:47": (type: "tar.xz", digest: (algorithm: "sha256", hex: "a62572dc865e39368da1a738188228c567e7a7ea488ab5779c524ca4f2380abe"), size: (bytes: 99673244, str: "95.06 MiB"), path: "images/oracle/8/amd64/default/20230227_07:47/rootfs.tar.xz"), "2023-02-28 07:46": (type: "tar.xz", digest: (algorithm: "sha256", hex: "9108d6a6353cc44c2c28380e6403551c48f772c7621307849e640d1794946b86"), size: (bytes: 100108388, str: "95.47 MiB"), path: "images/oracle/8/amd64/default/20230228_07:46/rootfs.tar.xz")},
+                        ),
+                        "arm64": (
+                            tags: {"2023-02-25 09:24": (type: "tar.xz", digest: (algorithm: "sha256", hex: "8d6def42879d2521a1a624c61df12dd3618d570b44d3dcd2e5653c770ade7bc2"), size: (bytes: 96861260, str: "92.37 MiB"), path: "images/oracle/8/arm64/default/20230225_09:24/rootfs.tar.xz"), "2023-02-27 07:48": (type: "tar.xz", digest: (algorithm: "sha256", hex: "682659df7c769fc5da3f580e07d1ff8f61e4ad0941d9910cb97541bb53fe27d6"), size: (bytes: 96884256, str: "92.40 MiB"), path: "images/oracle/8/arm64/default/20230227_07:48/rootfs.tar.xz"), "2023-02-28 07:51": (type: "tar.xz", digest: (algorithm: "sha256", hex: "5407ee69c51cf38b68cc8af6c0524468fd4b551aeda87124cb6d9ac5446955c0"), size: (bytes: 97130324, str: "92.63 MiB"), path: "images/oracle/8/arm64/default/20230228_07:51/rootfs.tar.xz")},
+                        ),
+                    },
+                ),
+            },
+        ),
+        "9": (
+            variant: {
+                "cloud": (
+                    arch: {
+                        "amd64": (
+                            tags: {"2023-02-25 09:25": (type: "tar.xz", digest: (algorithm: "sha256", hex: "ab453b79e83e49a300fe7bca4f41de4e329c221741c764ff0b5d74b1cce592f4"), size: (bytes: 115030024, str: "109.70 MiB"), path: "images/oracle/9/amd64/cloud/20230225_09:25/rootfs.tar.xz"), "2023-02-27 08:49": (type: "tar.xz", digest: (algorithm: "sha256", hex: "b4e81a9b4cc9b9309ff5cc5cb4d9c2b49200db3e3e59e4a1485a638710b88144"), size: (bytes: 114531000, str: "109.23 MiB"), path: "images/oracle/9/amd64/cloud/20230227_08:49/rootfs.tar.xz"), "2023-02-28 07:46": (type: "tar.xz", digest: (algorithm: "sha256", hex: "dccf59718ef6dc26f95d0560c94cacb6e5eef12f51f3f81faebc885ba0a2fa1b"), size: (bytes: 114628084, str: "109.32 MiB"), path: "images/oracle/9/amd64/cloud/20230228_07:46/rootfs.tar.xz")},
+                        ),
+                        "arm64": (
+                            tags: {"2023-02-26 09:03": (type: "tar.xz", digest: (algorithm: "sha256", hex: "ccaccc3a9a577e4fd6e013babb4bab3dcef38462f80e15c645e1e9e1bdda91f8"), size: (bytes: 110371896, str: "105.26 MiB"), path: "images/oracle/9/arm64/cloud/20230226_09:03/rootfs.tar.xz"), "2023-02-27 07:48": (type: "tar.xz", digest: (algorithm: "sha256", hex: "4c2842f1b21f8ee979ee3bd540f4f642db1b822564f01129cd717b6916b4eb67"), size: (bytes: 110751656, str: "105.62 MiB"), path: "images/oracle/9/arm64/cloud/20230227_07:48/rootfs.tar.xz"), "2023-02-28 07:48": (type: "tar.xz", digest: (algorithm: "sha256", hex: "25aa16da363fa688bd0df9ac38e538b5fe53a815c365e507d2d29fd182b5f0a9"), size: (bytes: 110919912, str: "105.78 MiB"), path: "images/oracle/9/arm64/cloud/20230228_07:48/rootfs.tar.xz")},
+                        ),
+                    },
+                ),
+                "default": (
+                    arch: {
+                        "amd64": (
+                            tags: {"2023-02-25 09:24": (type: "tar.xz", digest: (algorithm: "sha256", hex: "762cfef962b618a0f2fe170aa617269babb532822c7dcdcc42dd4fcbbbbe8d68"), size: (bytes: 97609776, str: "93.09 MiB"), path: "images/oracle/9/amd64/default/20230225_09:24/rootfs.tar.xz"), "2023-02-27 07:46": (type: "tar.xz", digest: (algorithm: "sha256", hex: "877cf47d29c5b3406cf298b55a5aa4fd55102c55e9ebe387a4a53a0414316300"), size: (bytes: 97690496, str: "93.16 MiB"), path: "images/oracle/9/amd64/default/20230227_07:46/rootfs.tar.xz"), "2023-02-28 07:47": (type: "tar.xz", digest: (algorithm: "sha256", hex: "cba00d783babbc558518cf78055a37045bb353a5fa21086bcc24f64c754a312b"), size: (bytes: 97851532, str: "93.32 MiB"), path: "images/oracle/9/amd64/default/20230228_07:47/rootfs.tar.xz")},
+                        ),
+                        "arm64": (
+                            tags: {"2023-02-25 08:13": (type: "tar.xz", digest: (algorithm: "sha256", hex: "81cea8ea168ef531b78d1ba7336abcc4a010ff6e201ec356744b85d018e5d505"), size: (bytes: 93653556, str: "89.31 MiB"), path: "images/oracle/9/arm64/default/20230225_08:13/rootfs.tar.xz"), "2023-02-27 07:48": (type: "tar.xz", digest: (algorithm: "sha256", hex: "81cf897480413e6cfe0d8c1d2bfdf4686bf53bc71d2c4f6053978721d8a4caad"), size: (bytes: 94227584, str: "89.86 MiB"), path: "images/oracle/9/arm64/default/20230227_07:48/rootfs.tar.xz"), "2023-02-28 07:48": (type: "tar.xz", digest: (algorithm: "sha256", hex: "424960dd72b44d6333d1a8f66be19bc08f78735940478653ce1c7436b4ffee4a"), size: (bytes: 93986976, str: "89.63 MiB"), path: "images/oracle/9/arm64/default/20230228_07:48/rootfs.tar.xz")},
+                        ),
+                    },
+                ),
+            },
+        ),
+    },
+)

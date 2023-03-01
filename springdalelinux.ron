@@ -1,0 +1,65 @@
+(
+    os: "springdalelinux",
+    codename: {
+        "7": (
+            variant: {
+                "cloud": (
+                    arch: {
+                        "amd64": (
+                            tags: {"2023-02-26 06:39": (type: "tar.xz", digest: (algorithm: "sha256", hex: "235477812aae3d3a90f80c29fe6038ac1160aba2a652b2af7aebadb9bf597947"), size: (bytes: 88536080, str: "84.43 MiB"), path: "images/springdalelinux/7/amd64/cloud/20230226_06:39/rootfs.tar.xz"), "2023-02-27 06:38": (type: "tar.xz", digest: (algorithm: "sha256", hex: "e79e7653fe3b3b3ae52bd239a94b005920a967ac6116ed54c888d81f848a7f7b"), size: (bytes: 88492872, str: "84.39 MiB"), path: "images/springdalelinux/7/amd64/cloud/20230227_06:38/rootfs.tar.xz"), "2023-02-28 06:38": (type: "tar.xz", digest: (algorithm: "sha256", hex: "5bee5a6a003f0e8a2a2fb003ca17b4377422b019ee14fc8790235f6faacf9495"), size: (bytes: 88377280, str: "84.28 MiB"), path: "images/springdalelinux/7/amd64/cloud/20230228_06:38/rootfs.tar.xz")},
+                        ),
+                        "i386": (
+                            tags: {"2023-02-26 06:39": (type: "tar.xz", digest: (algorithm: "sha256", hex: "f0a0449fe931ce19e401d0b06c162e0a827165d520972807b8a9c27c84f8f405"), size: (bytes: 86748652, str: "82.73 MiB"), path: "images/springdalelinux/7/i386/cloud/20230226_06:39/rootfs.tar.xz"), "2023-02-27 06:39": (type: "tar.xz", digest: (algorithm: "sha256", hex: "bdaf7aacbdfc15200a88c422d4348935767079494e88e7683a0aae82230e3cd8"), size: (bytes: 85726404, str: "81.76 MiB"), path: "images/springdalelinux/7/i386/cloud/20230227_06:39/rootfs.tar.xz"), "2023-02-28 06:38": (type: "tar.xz", digest: (algorithm: "sha256", hex: "21ac31b01c499c76411de71151f6b93e782ef3fb28841a1c925f09946ffadbe4"), size: (bytes: 86173516, str: "82.18 MiB"), path: "images/springdalelinux/7/i386/cloud/20230228_06:38/rootfs.tar.xz")},
+                        ),
+                    },
+                ),
+                "default": (
+                    arch: {
+                        "amd64": (
+                            tags: {"2023-02-26 06:38": (type: "tar.xz", digest: (algorithm: "sha256", hex: "d3952dc05d4e6a79533e0c9636d57108c869d3bc87233bba1a0b19f69dcba5ac"), size: (bytes: 74677672, str: "71.22 MiB"), path: "images/springdalelinux/7/amd64/default/20230226_06:38/rootfs.tar.xz"), "2023-02-27 06:38": (type: "tar.xz", digest: (algorithm: "sha256", hex: "32cdb2db4358e4123a66357e1511c7418eaa26d7f4df60a321ab8e8595699139"), size: (bytes: 74171200, str: "70.74 MiB"), path: "images/springdalelinux/7/amd64/default/20230227_06:38/rootfs.tar.xz"), "2023-02-28 06:39": (type: "tar.xz", digest: (algorithm: "sha256", hex: "c431d3b4dfd40adbc5cc019c1a50cb3f5689d463f18e67ca626aba3ee20553e5"), size: (bytes: 74828156, str: "71.36 MiB"), path: "images/springdalelinux/7/amd64/default/20230228_06:39/rootfs.tar.xz")},
+                        ),
+                        "i386": (
+                            tags: {"2023-02-26 06:40": (type: "tar.xz", digest: (algorithm: "sha256", hex: "25915cfc0354aad09edf27a97a72b72c7ea261d879596d8a8eeb687cfff751ba"), size: (bytes: 72668148, str: "69.30 MiB"), path: "images/springdalelinux/7/i386/default/20230226_06:40/rootfs.tar.xz"), "2023-02-27 06:38": (type: "tar.xz", digest: (algorithm: "sha256", hex: "e0c64b37c81d406df5d3e575e8b139e65d3b04b947b3f51c93bf065f573629ea"), size: (bytes: 72650180, str: "69.28 MiB"), path: "images/springdalelinux/7/i386/default/20230227_06:38/rootfs.tar.xz"), "2023-02-28 06:38": (type: "tar.xz", digest: (algorithm: "sha256", hex: "8a3b72dfc75903ae7d414c570bbe3fcfdc0c2d72634bcccb4a2f7081597fe276"), size: (bytes: 72836840, str: "69.46 MiB"), path: "images/springdalelinux/7/i386/default/20230228_06:38/rootfs.tar.xz")},
+                        ),
+                    },
+                ),
+            },
+        ),
+        "8": (
+            variant: {
+                "cloud": (
+                    arch: {
+                        "amd64": (
+                            tags: {"2023-02-26 06:38": (type: "tar.xz", digest: (algorithm: "sha256", hex: "89009e24356dbb93f1f955b497dbd3ded02c1b7978cc28c43209752bb96095ef"), size: (bytes: 129149640, str: "123.17 MiB"), path: "images/springdalelinux/8/amd64/cloud/20230226_06:38/rootfs.tar.xz"), "2023-02-27 06:38": (type: "tar.xz", digest: (algorithm: "sha256", hex: "00b39e8c7d7106bf37edf286d9c6fc714f1b1d31a9ad93a00f3c241117defd42"), size: (bytes: 129304420, str: "123.31 MiB"), path: "images/springdalelinux/8/amd64/cloud/20230227_06:38/rootfs.tar.xz"), "2023-02-28 06:38": (type: "tar.xz", digest: (algorithm: "sha256", hex: "503d583ec0b29c6cabe845de5f95ba7848814f712b102381d0597c7b794eaee8"), size: (bytes: 128620672, str: "122.66 MiB"), path: "images/springdalelinux/8/amd64/cloud/20230228_06:38/rootfs.tar.xz")},
+                        ),
+                    },
+                ),
+                "default": (
+                    arch: {
+                        "amd64": (
+                            tags: {"2023-02-26 06:39": (type: "tar.xz", digest: (algorithm: "sha256", hex: "9d83599ed1a7b68dfaf0a218e1de240a86865f2882ce6f062c5b18081d0d1060"), size: (bytes: 111305104, str: "106.15 MiB"), path: "images/springdalelinux/8/amd64/default/20230226_06:39/rootfs.tar.xz"), "2023-02-27 06:38": (type: "tar.xz", digest: (algorithm: "sha256", hex: "968b1e1408865aa955796ec7cfec7b55ce7ff581bc29826d18c624663da5cb69"), size: (bytes: 110963792, str: "105.82 MiB"), path: "images/springdalelinux/8/amd64/default/20230227_06:38/rootfs.tar.xz"), "2023-02-28 06:38": (type: "tar.xz", digest: (algorithm: "sha256", hex: "dc7bfca0b9dd68935b29f1a643ca6d225f31caa192802fbfb2cd06d5b40ddd85"), size: (bytes: 111875908, str: "106.69 MiB"), path: "images/springdalelinux/8/amd64/default/20230228_06:38/rootfs.tar.xz")},
+                        ),
+                    },
+                ),
+            },
+        ),
+        "9": (
+            variant: {
+                "cloud": (
+                    arch: {
+                        "amd64": (
+                            tags: {"2023-02-26 06:38": (type: "tar.xz", digest: (algorithm: "sha256", hex: "9a3a56b5384ffea95659f742abd1d96d8c5d999597146af6de536a40d710e960"), size: (bytes: 114501688, str: "109.20 MiB"), path: "images/springdalelinux/9/amd64/cloud/20230226_06:38/rootfs.tar.xz"), "2023-02-27 07:27": (type: "tar.xz", digest: (algorithm: "sha256", hex: "ba738660f23921f7ff36d3f29c5bca1e3442d455018be1f64fc6af583dbefeb0"), size: (bytes: 114456964, str: "109.15 MiB"), path: "images/springdalelinux/9/amd64/cloud/20230227_07:27/rootfs.tar.xz"), "2023-02-28 06:38": (type: "tar.xz", digest: (algorithm: "sha256", hex: "2ad9bb2b9c629f92794b32b02bd2e49d8cda160d076f7f8fb3758350d15453c8"), size: (bytes: 115308600, str: "109.97 MiB"), path: "images/springdalelinux/9/amd64/cloud/20230228_06:38/rootfs.tar.xz")},
+                        ),
+                    },
+                ),
+                "default": (
+                    arch: {
+                        "amd64": (
+                            tags: {"2023-02-26 06:38": (type: "tar.xz", digest: (algorithm: "sha256", hex: "ddf768d3b3047204057ebdd48a4bd77b7e56db8da6f45331dc13f57275bd4c22"), size: (bytes: 90760720, str: "86.56 MiB"), path: "images/springdalelinux/9/amd64/default/20230226_06:38/rootfs.tar.xz"), "2023-02-27 06:38": (type: "tar.xz", digest: (algorithm: "sha256", hex: "8e328f615fc5e67f5affde9fef364dd4eb987852884cb544e817cdfbb8f69a84"), size: (bytes: 90768696, str: "86.56 MiB"), path: "images/springdalelinux/9/amd64/default/20230227_06:38/rootfs.tar.xz"), "2023-02-28 06:39": (type: "tar.xz", digest: (algorithm: "sha256", hex: "0410ea57dc522c42af891d5c2788d7bf093c818a225c785004123415e17b204f"), size: (bytes: 91332448, str: "87.10 MiB"), path: "images/springdalelinux/9/amd64/default/20230228_06:39/rootfs.tar.xz")},
+                        ),
+                    },
+                ),
+            },
+        ),
+    },
+)

@@ -1,0 +1,113 @@
+(
+    os: "alt",
+    codename: {
+        "Sisyphus": (
+            variant: {
+                "cloud": (
+                    arch: {
+                        "amd64": (
+                            tags: {"2023-02-26 01:17": (type: "tar.xz", digest: (algorithm: "sha256", hex: "59621f3ef38ae2ce88816229dfb0bd2cef19e8c4b3842bb718e21a5e5f5a49c1"), size: (bytes: 212403032, str: "202.56 MiB"), path: "images/alt/Sisyphus/amd64/cloud/20230226_01:17/rootfs.tar.xz"), "2023-02-27 01:17": (type: "tar.xz", digest: (algorithm: "sha256", hex: "c4efd88e18be7f25aa86fdaf5a801511390488800662427e947d4bc6d000b812"), size: (bytes: 212408824, str: "202.57 MiB"), path: "images/alt/Sisyphus/amd64/cloud/20230227_01:17/rootfs.tar.xz"), "2023-02-28 01:17": (type: "tar.xz", digest: (algorithm: "sha256", hex: "35a2adac5a98138618050b32722b3fa5c345b49ea6a6e9f83ee30bca0a98293a"), size: (bytes: 212455104, str: "202.61 MiB"), path: "images/alt/Sisyphus/amd64/cloud/20230228_01:17/rootfs.tar.xz")},
+                        ),
+                        "arm64": (
+                            tags: {"2023-02-26 01:18": (type: "tar.xz", digest: (algorithm: "sha256", hex: "0c2200957e1cf711d0b4d1d8e14d4998d64807d76206f8e0487970cd56a9e2cc"), size: (bytes: 163596108, str: "156.02 MiB"), path: "images/alt/Sisyphus/arm64/cloud/20230226_01:18/rootfs.tar.xz"), "2023-02-27 01:46": (type: "tar.xz", digest: (algorithm: "sha256", hex: "1615a84478c55538af6b89c05831eb04f944c49d78f08d5536a6c9be10fa2348"), size: (bytes: 163192692, str: "155.63 MiB"), path: "images/alt/Sisyphus/arm64/cloud/20230227_01:46/rootfs.tar.xz"), "2023-02-28 01:17": (type: "tar.xz", digest: (algorithm: "sha256", hex: "601b25f3a7867ea20094d2fc77e082c482667da6b3ca8104987bc1cb9434c6ee"), size: (bytes: 163303608, str: "155.74 MiB"), path: "images/alt/Sisyphus/arm64/cloud/20230228_01:17/rootfs.tar.xz")},
+                        ),
+                        "armhf": (
+                            tags: {"2023-02-26 01:18": (type: "tar.xz", digest: (algorithm: "sha256", hex: "d39214dad29ac81e28c42890d2a0634e0c2ed8b845816b60ac1a123df9dd1925"), size: (bytes: 156046768, str: "148.82 MiB"), path: "images/alt/Sisyphus/armhf/cloud/20230226_01:18/rootfs.tar.xz"), "2023-02-27 01:18": (type: "tar.xz", digest: (algorithm: "sha256", hex: "569bf24bf95ad2803d0b4ff11697231d6bfb8d6c3872538250ae1730062f2225"), size: (bytes: 155875596, str: "148.65 MiB"), path: "images/alt/Sisyphus/armhf/cloud/20230227_01:18/rootfs.tar.xz"), "2023-02-28 01:18": (type: "tar.xz", digest: (algorithm: "sha256", hex: "37b4e4e0abab9eac20e188036b2407b2773e73a6bf682024eee71f62c40b236b"), size: (bytes: 155852864, str: "148.63 MiB"), path: "images/alt/Sisyphus/armhf/cloud/20230228_01:18/rootfs.tar.xz")},
+                        ),
+                        "ppc64el": (
+                            tags: {"2023-02-26 01:18": (type: "tar.xz", digest: (algorithm: "sha256", hex: "ccd6f62a87eb23d67b2124a9d265243ce9941dea1c87517a7e2d74f9bf3d33f7"), size: (bytes: 166739220, str: "159.01 MiB"), path: "images/alt/Sisyphus/ppc64el/cloud/20230226_01:18/rootfs.tar.xz"), "2023-02-27 01:17": (type: "tar.xz", digest: (algorithm: "sha256", hex: "8ab5095f9dc80bcbc36afb48864bf2d55a8a1242ae83b91673061342dc4a6e04"), size: (bytes: 167543732, str: "159.78 MiB"), path: "images/alt/Sisyphus/ppc64el/cloud/20230227_01:17/rootfs.tar.xz"), "2023-02-28 01:17": (type: "tar.xz", digest: (algorithm: "sha256", hex: "5cdbe3c969b236f7ae5c179e33d3b926f2aaf32e8a756e83b4ed208563e795a4"), size: (bytes: 167175176, str: "159.43 MiB"), path: "images/alt/Sisyphus/ppc64el/cloud/20230228_01:17/rootfs.tar.xz")},
+                        ),
+                    },
+                ),
+                "default": (
+                    arch: {
+                        "amd64": (
+                            tags: {"2023-02-26 01:18": (type: "tar.xz", digest: (algorithm: "sha256", hex: "5775383c43af7b3e1f834d3d1969094c5a29c56601e55fd52841a0caa63e0a94"), size: (bytes: 192941784, str: "184.00 MiB"), path: "images/alt/Sisyphus/amd64/default/20230226_01:18/rootfs.tar.xz"), "2023-02-27 01:17": (type: "tar.xz", digest: (algorithm: "sha256", hex: "9db55ac08fa15b0d39ade718f4f7a5f444208586d057594e7e474b9088893e35"), size: (bytes: 192902020, str: "183.97 MiB"), path: "images/alt/Sisyphus/amd64/default/20230227_01:17/rootfs.tar.xz"), "2023-02-28 01:17": (type: "tar.xz", digest: (algorithm: "sha256", hex: "3543c80ab72d21fc4a08bf9372af7d70079b9688a2536d904142d76585e50627"), size: (bytes: 192988336, str: "184.05 MiB"), path: "images/alt/Sisyphus/amd64/default/20230228_01:17/rootfs.tar.xz")},
+                        ),
+                        "arm64": (
+                            tags: {"2023-02-26 01:17": (type: "tar.xz", digest: (algorithm: "sha256", hex: "3d6524b2b23af17c26efa05f2315b9d0270e2e1ec0097cf34e3a48db028dbf00"), size: (bytes: 143561844, str: "136.91 MiB"), path: "images/alt/Sisyphus/arm64/default/20230226_01:17/rootfs.tar.xz"), "2023-02-27 01:17": (type: "tar.xz", digest: (algorithm: "sha256", hex: "2a4775ff01b3311e8b76baf9265c2ee161fdbae06d6ec2a5b0d3239bb94e085d"), size: (bytes: 144847576, str: "138.14 MiB"), path: "images/alt/Sisyphus/arm64/default/20230227_01:17/rootfs.tar.xz"), "2023-02-28 01:18": (type: "tar.xz", digest: (algorithm: "sha256", hex: "6ee4ff45b6291190aeaee36c9645d735d1b75f083d4916d12162c417311d10ea"), size: (bytes: 143148672, str: "136.52 MiB"), path: "images/alt/Sisyphus/arm64/default/20230228_01:18/rootfs.tar.xz")},
+                        ),
+                        "armhf": (
+                            tags: {"2023-02-26 01:18": (type: "tar.xz", digest: (algorithm: "sha256", hex: "9e13a6a0c1180aa47d4be47fa5eebb755c0e3a46117c278fa4c0d92673348d5d"), size: (bytes: 135968320, str: "129.67 MiB"), path: "images/alt/Sisyphus/armhf/default/20230226_01:18/rootfs.tar.xz"), "2023-02-27 01:18": (type: "tar.xz", digest: (algorithm: "sha256", hex: "3b7ba8341a9053c95be57c8e0bcbaf55e854d4833897cb05a67a41b9c7b3636c"), size: (bytes: 136228892, str: "129.92 MiB"), path: "images/alt/Sisyphus/armhf/default/20230227_01:18/rootfs.tar.xz"), "2023-02-28 01:18": (type: "tar.xz", digest: (algorithm: "sha256", hex: "4c7345c32b0995648b3650b59e01fad3f6e0cf4f8d1a7fb66f67e2d7ae4e75ee"), size: (bytes: 136767740, str: "130.43 MiB"), path: "images/alt/Sisyphus/armhf/default/20230228_01:18/rootfs.tar.xz")},
+                        ),
+                        "ppc64el": (
+                            tags: {"2023-02-26 01:18": (type: "tar.xz", digest: (algorithm: "sha256", hex: "3b29c3ba6e5fd5949dd0e20e02c3a442b36d757f3405fa300e2cb039e2abc971"), size: (bytes: 145852916, str: "139.10 MiB"), path: "images/alt/Sisyphus/ppc64el/default/20230226_01:18/rootfs.tar.xz"), "2023-02-27 01:17": (type: "tar.xz", digest: (algorithm: "sha256", hex: "f996e373d325ca70619f43cf205ea69b5fa9e4bd7b5255474fa1204c6e919e9c"), size: (bytes: 146491000, str: "139.70 MiB"), path: "images/alt/Sisyphus/ppc64el/default/20230227_01:17/rootfs.tar.xz"), "2023-02-28 01:17": (type: "tar.xz", digest: (algorithm: "sha256", hex: "c05d8fc9b851c69dc877d375d3f781d36d2a6233681b4100e9c6224bad755cea"), size: (bytes: 146510444, str: "139.72 MiB"), path: "images/alt/Sisyphus/ppc64el/default/20230228_01:17/rootfs.tar.xz")},
+                        ),
+                    },
+                ),
+            },
+        ),
+        "p10": (
+            variant: {
+                "cloud": (
+                    arch: {
+                        "amd64": (
+                            tags: {"2023-02-26 01:17": (type: "tar.xz", digest: (algorithm: "sha256", hex: "4545cbee6ee76e6bca9d2490df80383376d1a39b4216b80e403380ded5d61f28"), size: (bytes: 209560148, str: "199.85 MiB"), path: "images/alt/p10/amd64/cloud/20230226_01:17/rootfs.tar.xz"), "2023-02-27 01:17": (type: "tar.xz", digest: (algorithm: "sha256", hex: "f432ba1fff6b6caaa7e6ba6ed0403fab1e0982616f8769cf926625fce3a4a173"), size: (bytes: 209593924, str: "199.88 MiB"), path: "images/alt/p10/amd64/cloud/20230227_01:17/rootfs.tar.xz"), "2023-02-28 01:19": (type: "tar.xz", digest: (algorithm: "sha256", hex: "1bc7b9d1ec38ede71834561ac9445fa60e24d106341c0cf93a4461f5013328f9"), size: (bytes: 209531084, str: "199.82 MiB"), path: "images/alt/p10/amd64/cloud/20230228_01:19/rootfs.tar.xz")},
+                        ),
+                        "arm64": (
+                            tags: {"2023-02-26 01:18": (type: "tar.xz", digest: (algorithm: "sha256", hex: "533c736307ae96ac055fbd091d7509064f5f9b4af827a9afa0cefe9ba31fbcb1"), size: (bytes: 159639076, str: "152.24 MiB"), path: "images/alt/p10/arm64/cloud/20230226_01:18/rootfs.tar.xz"), "2023-02-27 01:17": (type: "tar.xz", digest: (algorithm: "sha256", hex: "e2b78d08c78e0ef0a7fee4d9c0677ef63df164155cb2594f738ca430f44db5c1"), size: (bytes: 160434552, str: "153.00 MiB"), path: "images/alt/p10/arm64/cloud/20230227_01:17/rootfs.tar.xz"), "2023-02-28 01:18": (type: "tar.xz", digest: (algorithm: "sha256", hex: "e8a35759bc7994fb9a61120793e844c503f9543380d8cdf35d81da62eb5ae808"), size: (bytes: 160330056, str: "152.90 MiB"), path: "images/alt/p10/arm64/cloud/20230228_01:18/rootfs.tar.xz")},
+                        ),
+                        "armhf": (
+                            tags: {"2023-02-26 01:17": (type: "tar.xz", digest: (algorithm: "sha256", hex: "bf2a2a57569d5ec44af2269e2e20b1d1b9205955c96237428a67c09f474ead52"), size: (bytes: 151125852, str: "144.12 MiB"), path: "images/alt/p10/armhf/cloud/20230226_01:17/rootfs.tar.xz"), "2023-02-27 01:17": (type: "tar.xz", digest: (algorithm: "sha256", hex: "d4f885e5620fb779307d438708102c45fac0f92924d7a8def24bdb306d27fb16"), size: (bytes: 151328452, str: "144.32 MiB"), path: "images/alt/p10/armhf/cloud/20230227_01:17/rootfs.tar.xz"), "2023-02-28 01:18": (type: "tar.xz", digest: (algorithm: "sha256", hex: "2af5934fff4192a0f50c2505c3d2313800fa7de04d37492645d05b249fbb8941"), size: (bytes: 151257572, str: "144.25 MiB"), path: "images/alt/p10/armhf/cloud/20230228_01:18/rootfs.tar.xz")},
+                        ),
+                        "ppc64el": (
+                            tags: {"2023-02-26 01:17": (type: "tar.xz", digest: (algorithm: "sha256", hex: "31d69fd32fb1c1baac2c76435c43e67ba7a25c19c156556cefa5a12dd2c0a1a7"), size: (bytes: 163843116, str: "156.25 MiB"), path: "images/alt/p10/ppc64el/cloud/20230226_01:17/rootfs.tar.xz"), "2023-02-27 01:17": (type: "tar.xz", digest: (algorithm: "sha256", hex: "7ef5165aad85d21796d01d8ead555b88f0d1fb41b27dc43ceb7f7fcc44087648"), size: (bytes: 163174228, str: "155.62 MiB"), path: "images/alt/p10/ppc64el/cloud/20230227_01:17/rootfs.tar.xz"), "2023-02-28 01:17": (type: "tar.xz", digest: (algorithm: "sha256", hex: "8030f61071806313c08145ede6044188a637bb9a6006e376cd69826c705d3e47"), size: (bytes: 163695136, str: "156.11 MiB"), path: "images/alt/p10/ppc64el/cloud/20230228_01:17/rootfs.tar.xz")},
+                        ),
+                    },
+                ),
+                "default": (
+                    arch: {
+                        "amd64": (
+                            tags: {"2023-02-26 01:18": (type: "tar.xz", digest: (algorithm: "sha256", hex: "ed59f296991a86cb5737723ba5b9d5ab7a247414a252df6e18e80affccb7e961"), size: (bytes: 191121556, str: "182.27 MiB"), path: "images/alt/p10/amd64/default/20230226_01:18/rootfs.tar.xz"), "2023-02-27 01:47": (type: "tar.xz", digest: (algorithm: "sha256", hex: "cb40355819cb1065734bb636b9bfc839d7ef391e7670b98fb8515d4546c42d18"), size: (bytes: 191297172, str: "182.44 MiB"), path: "images/alt/p10/amd64/default/20230227_01:47/rootfs.tar.xz"), "2023-02-28 01:17": (type: "tar.xz", digest: (algorithm: "sha256", hex: "1c211b0b3f69133967438c9ffcef68c9247144e53c195191342e987e0af4425f"), size: (bytes: 191207024, str: "182.35 MiB"), path: "images/alt/p10/amd64/default/20230228_01:17/rootfs.tar.xz")},
+                        ),
+                        "arm64": (
+                            tags: {"2023-02-26 01:18": (type: "tar.xz", digest: (algorithm: "sha256", hex: "1965dbcabf40e5c5a922332c4fbafe5a8681fb7660f306aafbdd6a09f0aacea0"), size: (bytes: 141286628, str: "134.74 MiB"), path: "images/alt/p10/arm64/default/20230226_01:18/rootfs.tar.xz"), "2023-02-27 01:18": (type: "tar.xz", digest: (algorithm: "sha256", hex: "0f7a9ab9312629e1f129798c7322ac6a652393fc30d5288450302e79ded7a479"), size: (bytes: 141195180, str: "134.65 MiB"), path: "images/alt/p10/arm64/default/20230227_01:18/rootfs.tar.xz"), "2023-02-28 01:47": (type: "tar.xz", digest: (algorithm: "sha256", hex: "2ca1395c561f28d70605a13ddfa58cc160aa00ae54abc6201484847591761b8d"), size: (bytes: 141972168, str: "135.40 MiB"), path: "images/alt/p10/arm64/default/20230228_01:47/rootfs.tar.xz")},
+                        ),
+                        "armhf": (
+                            tags: {"2023-02-26 01:17": (type: "tar.xz", digest: (algorithm: "sha256", hex: "f695122ca4a04b0024af1413d0bb8eac26217ea9078bdd76bfeaad7ddb8c093a"), size: (bytes: 133361108, str: "127.18 MiB"), path: "images/alt/p10/armhf/default/20230226_01:17/rootfs.tar.xz"), "2023-02-27 01:18": (type: "tar.xz", digest: (algorithm: "sha256", hex: "b13883b58c1a3d43b4a3d6fd043a71cb603caa89e69500ecec190fbcddde549f"), size: (bytes: 133134408, str: "126.97 MiB"), path: "images/alt/p10/armhf/default/20230227_01:18/rootfs.tar.xz"), "2023-02-28 01:18": (type: "tar.xz", digest: (algorithm: "sha256", hex: "e002396b2b9fa7c8f4681b78a4bb75bd21d8d4a06785ed546a3b08328423ef30"), size: (bytes: 132939276, str: "126.78 MiB"), path: "images/alt/p10/armhf/default/20230228_01:18/rootfs.tar.xz")},
+                        ),
+                        "ppc64el": (
+                            tags: {"2023-02-26 01:17": (type: "tar.xz", digest: (algorithm: "sha256", hex: "0877d0078520e3c0268fbe4ed392675cd05c51dac3b13d8675826413ffa03e2e"), size: (bytes: 143971716, str: "137.30 MiB"), path: "images/alt/p10/ppc64el/default/20230226_01:17/rootfs.tar.xz"), "2023-02-27 01:17": (type: "tar.xz", digest: (algorithm: "sha256", hex: "50979af7a60e3203eea163c509fe66e5c4a29e7540e913197d895ec982b84146"), size: (bytes: 143957556, str: "137.29 MiB"), path: "images/alt/p10/ppc64el/default/20230227_01:17/rootfs.tar.xz"), "2023-02-28 01:17": (type: "tar.xz", digest: (algorithm: "sha256", hex: "a9dd198352977fc52aba4359f8375e74a2513c0883832f0873d6bfb7122f984b"), size: (bytes: 143638796, str: "136.98 MiB"), path: "images/alt/p10/ppc64el/default/20230228_01:17/rootfs.tar.xz")},
+                        ),
+                    },
+                ),
+            },
+        ),
+        "p9": (
+            variant: {
+                "cloud": (
+                    arch: {
+                        "amd64": (
+                            tags: {"2023-02-26 01:17": (type: "tar.xz", digest: (algorithm: "sha256", hex: "9ae6c595d6f97c4a5ff88c42c32b3f50b83c7a9781e1c8f826137976be300703"), size: (bytes: 195560556, str: "186.50 MiB"), path: "images/alt/p9/amd64/cloud/20230226_01:17/rootfs.tar.xz"), "2023-02-27 01:17": (type: "tar.xz", digest: (algorithm: "sha256", hex: "d8965591f6052c9b779f620e71c2ea39d9465407ea48f02d3487217fb351074a"), size: (bytes: 195601232, str: "186.54 MiB"), path: "images/alt/p9/amd64/cloud/20230227_01:17/rootfs.tar.xz"), "2023-02-28 01:47": (type: "tar.xz", digest: (algorithm: "sha256", hex: "4f0067657930184836544bea7eb31dbd4315be38c8714642bc0cd6fc7fcf1658"), size: (bytes: 195629224, str: "186.57 MiB"), path: "images/alt/p9/amd64/cloud/20230228_01:47/rootfs.tar.xz")},
+                        ),
+                        "arm64": (
+                            tags: {"2023-02-26 01:17": (type: "tar.xz", digest: (algorithm: "sha256", hex: "951a29f0527f9db596327c1755d67e2ff72349a6ad3acf5c8ffd382215cd1b71"), size: (bytes: 147379976, str: "140.55 MiB"), path: "images/alt/p9/arm64/cloud/20230226_01:17/rootfs.tar.xz"), "2023-02-27 01:27": (type: "tar.xz", digest: (algorithm: "sha256", hex: "6ed009a1f95f6f605e0e386063d424372c778f871d4e183362659355fb0a2e10"), size: (bytes: 147653704, str: "140.81 MiB"), path: "images/alt/p9/arm64/cloud/20230227_01:27/rootfs.tar.xz"), "2023-02-28 01:18": (type: "tar.xz", digest: (algorithm: "sha256", hex: "6e081f72df2affccc8586a59db08e616728fdc2dd0ae57f6d1a01c5be655c3c8"), size: (bytes: 148275752, str: "141.41 MiB"), path: "images/alt/p9/arm64/cloud/20230228_01:18/rootfs.tar.xz")},
+                        ),
+                        "armhf": (
+                            tags: {"2023-02-26 01:17": (type: "tar.xz", digest: (algorithm: "sha256", hex: "1ede35c9cb8f992aa0ca4210ffeaaee1086aceb957175160381dc257f658cd50"), size: (bytes: 132002796, str: "125.89 MiB"), path: "images/alt/p9/armhf/cloud/20230226_01:17/rootfs.tar.xz"), "2023-02-27 01:18": (type: "tar.xz", digest: (algorithm: "sha256", hex: "3db407cff4b47dd677633aec0b5e2cfeb9c5d65d03cece2898ed04524f686af4"), size: (bytes: 131687156, str: "125.59 MiB"), path: "images/alt/p9/armhf/cloud/20230227_01:18/rootfs.tar.xz"), "2023-02-28 01:17": (type: "tar.xz", digest: (algorithm: "sha256", hex: "d6aa39813120101e914755a59f1ab69f64f2b9a312434b8b50d88398553ec1fb"), size: (bytes: 131787516, str: "125.68 MiB"), path: "images/alt/p9/armhf/cloud/20230228_01:17/rootfs.tar.xz")},
+                        ),
+                        "ppc64el": (
+                            tags: {"2023-02-26 01:17": (type: "tar.xz", digest: (algorithm: "sha256", hex: "6b8a55ffa39fd78ade7f1e7deb75e8c5133f049c18bb83f42ca25c3f6936a366"), size: (bytes: 153143552, str: "146.05 MiB"), path: "images/alt/p9/ppc64el/cloud/20230226_01:17/rootfs.tar.xz"), "2023-02-27 01:17": (type: "tar.xz", digest: (algorithm: "sha256", hex: "022df2742cd3db09c63f41ef64b4ae1c75ce9c442985a623bba3854ea4bc4f18"), size: (bytes: 152283848, str: "145.23 MiB"), path: "images/alt/p9/ppc64el/cloud/20230227_01:17/rootfs.tar.xz"), "2023-02-28 01:17": (type: "tar.xz", digest: (algorithm: "sha256", hex: "dc5e38cf3b369597e21f4c21b292b7ee5ba1762569273a3214e953f67d435596"), size: (bytes: 152566044, str: "145.50 MiB"), path: "images/alt/p9/ppc64el/cloud/20230228_01:17/rootfs.tar.xz")},
+                        ),
+                    },
+                ),
+                "default": (
+                    arch: {
+                        "amd64": (
+                            tags: {"2023-02-26 01:17": (type: "tar.xz", digest: (algorithm: "sha256", hex: "4f303ad59b2b1fd60ed96942a608a6bc3bf8854136f4342979fbc1d890a354e3"), size: (bytes: 172189824, str: "164.21 MiB"), path: "images/alt/p9/amd64/default/20230226_01:17/rootfs.tar.xz"), "2023-02-27 01:18": (type: "tar.xz", digest: (algorithm: "sha256", hex: "a692fd080522aceccb27d46c83bc22b472ab9f4a515cb2666814d2f79347ba0c"), size: (bytes: 172200080, str: "164.22 MiB"), path: "images/alt/p9/amd64/default/20230227_01:18/rootfs.tar.xz"), "2023-02-28 01:19": (type: "tar.xz", digest: (algorithm: "sha256", hex: "57aba038a7aa2e91857c2c258a440aa9c510ae34424fe394afd97d700ede85c9"), size: (bytes: 172184740, str: "164.21 MiB"), path: "images/alt/p9/amd64/default/20230228_01:19/rootfs.tar.xz")},
+                        ),
+                        "arm64": (
+                            tags: {"2023-02-26 01:17": (type: "tar.xz", digest: (algorithm: "sha256", hex: "5b1bdf933d573cd6dd18de732d400a88e6d4557d8837e9876b11d5a8fe8b43f4"), size: (bytes: 124949108, str: "119.16 MiB"), path: "images/alt/p9/arm64/default/20230226_01:17/rootfs.tar.xz"), "2023-02-27 01:18": (type: "tar.xz", digest: (algorithm: "sha256", hex: "ad76ac67ff2683cbfc24fca0eaf467704a923517e7fb493a1cdd6b191573a5bc"), size: (bytes: 124971424, str: "119.18 MiB"), path: "images/alt/p9/arm64/default/20230227_01:18/rootfs.tar.xz"), "2023-02-28 01:17": (type: "tar.xz", digest: (algorithm: "sha256", hex: "bc36259c80d6653a404895779a1ea2f814337df82e15d6f14c3e49c45ca1c1bb"), size: (bytes: 125047752, str: "119.25 MiB"), path: "images/alt/p9/arm64/default/20230228_01:17/rootfs.tar.xz")},
+                        ),
+                        "armhf": (
+                            tags: {"2023-02-26 01:17": (type: "tar.xz", digest: (algorithm: "sha256", hex: "78dd99404ad3638e473ee19cb15738cc8cb638cd7a9d655c44284f745ca6168f"), size: (bytes: 109824444, str: "104.74 MiB"), path: "images/alt/p9/armhf/default/20230226_01:17/rootfs.tar.xz"), "2023-02-27 01:46": (type: "tar.xz", digest: (algorithm: "sha256", hex: "19db8f3318aedf5d4de82e49888083dbb542527b59e6bb59fbad308c08add6c1"), size: (bytes: 110111100, str: "105.01 MiB"), path: "images/alt/p9/armhf/default/20230227_01:46/rootfs.tar.xz"), "2023-02-28 01:17": (type: "tar.xz", digest: (algorithm: "sha256", hex: "078552d89975fc8d982f5304394d13186bd71ebb81be735c86e3a9bff12e1b4c"), size: (bytes: 109931560, str: "104.84 MiB"), path: "images/alt/p9/armhf/default/20230228_01:17/rootfs.tar.xz")},
+                        ),
+                        "ppc64el": (
+                            tags: {"2023-02-26 01:18": (type: "tar.xz", digest: (algorithm: "sha256", hex: "a8090c266b4da70b92f8973f4f1a135c864a579cce41441e732bdf16adb4bd2a"), size: (bytes: 128700612, str: "122.74 MiB"), path: "images/alt/p9/ppc64el/default/20230226_01:18/rootfs.tar.xz"), "2023-02-27 01:17": (type: "tar.xz", digest: (algorithm: "sha256", hex: "a55d0527a839da182581762be55accf9f42f0444ba6e642249f0829d2ef2d3c1"), size: (bytes: 128616488, str: "122.66 MiB"), path: "images/alt/p9/ppc64el/default/20230227_01:17/rootfs.tar.xz"), "2023-02-28 01:17": (type: "tar.xz", digest: (algorithm: "sha256", hex: "2e7896c45598848ad318949c653be8346f580be639974587a68d2f156cc1f5dd"), size: (bytes: 128624696, str: "122.67 MiB"), path: "images/alt/p9/ppc64el/default/20230228_01:17/rootfs.tar.xz")},
+                        ),
+                    },
+                ),
+            },
+        ),
+    },
+)

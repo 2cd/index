@@ -1,0 +1,19 @@
+(
+    os: "busybox",
+    codename: {
+        "1.34.1": (
+            variant: {
+                "default": (
+                    arch: {
+                        "amd64": (
+                            tags: {"2023-02-26 06:01": (type: "tar.xz", digest: (algorithm: "sha256", hex: "f9deb92a536ead2b86a87625684b7e38ff35c8cec9af5f3aece83b519921ca6b"), size: (bytes: 1205416, str: "1.15 MiB"), path: "images/busybox/1.34.1/amd64/default/20230226_06:01/rootfs.tar.xz"), "2023-02-27 06:00": (type: "tar.xz", digest: (algorithm: "sha256", hex: "51ffa716e0e76c18d2d0ce49f0682da9969cc1acef93e827e47dd98fba7e0c07"), size: (bytes: 1205608, str: "1.15 MiB"), path: "images/busybox/1.34.1/amd64/default/20230227_06:00/rootfs.tar.xz"), "2023-02-28 06:01": (type: "tar.xz", digest: (algorithm: "sha256", hex: "323b1bec485f79a6bc6145e81829a5b8d762a7090fad809f4556a9a3e6fc5a9b"), size: (bytes: 1205720, str: "1.15 MiB"), path: "images/busybox/1.34.1/amd64/default/20230228_06:01/rootfs.tar.xz")},
+                        ),
+                        "arm64": (
+                            tags: {"2023-02-26 06:00": (type: "tar.xz", digest: (algorithm: "sha256", hex: "500cbeb08382ad308c43f4b8f57955dd3d76137db3e9661f76bbb2436821ebe3"), size: (bytes: 965340, str: "942.71 KiB"), path: "images/busybox/1.34.1/arm64/default/20230226_06:00/rootfs.tar.xz"), "2023-02-27 06:00": (type: "tar.xz", digest: (algorithm: "sha256", hex: "800bef479009daa300c8432aff60832c2691983baf78567f8a1062a23cbd4dcc"), size: (bytes: 965560, str: "942.93 KiB"), path: "images/busybox/1.34.1/arm64/default/20230227_06:00/rootfs.tar.xz"), "2023-02-28 06:01": (type: "tar.xz", digest: (algorithm: "sha256", hex: "de06b372d2359f29d883280018083396c2876191f900298cace6911dd9aaf53f"), size: (bytes: 965284, str: "942.66 KiB"), path: "images/busybox/1.34.1/arm64/default/20230228_06:01/rootfs.tar.xz")},
+                        ),
+                    },
+                ),
+            },
+        ),
+    },
+)

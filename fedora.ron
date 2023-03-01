@@ -1,0 +1,104 @@
+(
+    os: "fedora",
+    codename: {
+        "36": (
+            variant: {
+                "cloud": (
+                    arch: {
+                        "amd64": (
+                            tags: {"2023-02-26 20:33": (type: "tar.xz", digest: (algorithm: "sha256", hex: "f9e2d972884b368ca72fe31eb29801deb28608465968770e4b2d4c464501f422"), size: (bytes: 103652236, str: "98.85 MiB"), path: "images/fedora/36/amd64/cloud/20230226_20:33/rootfs.tar.xz"), "2023-02-27 20:34": (type: "tar.xz", digest: (algorithm: "sha256", hex: "3fbd518f1f2bf45732bba59ad4acce560dbe589c1ac7c44879cd2c61f121f3d3"), size: (bytes: 103791748, str: "98.98 MiB"), path: "images/fedora/36/amd64/cloud/20230227_20:34/rootfs.tar.xz"), "2023-02-28 20:33": (type: "tar.xz", digest: (algorithm: "sha256", hex: "6c81d0a7cc8af04eaf6e3fcbc5b602da9fedb26728cc1ae7db58275813e28ba8"), size: (bytes: 103956344, str: "99.14 MiB"), path: "images/fedora/36/amd64/cloud/20230228_20:33/rootfs.tar.xz")},
+                        ),
+                        "arm64": (
+                            tags: {"2023-02-26 20:33": (type: "tar.xz", digest: (algorithm: "sha256", hex: "610a306312b85a85049d02a38f17b14a36ad7d04cd7b78ce430de6e444894561"), size: (bytes: 100147116, str: "95.51 MiB"), path: "images/fedora/36/arm64/cloud/20230226_20:33/rootfs.tar.xz"), "2023-02-27 20:33": (type: "tar.xz", digest: (algorithm: "sha256", hex: "635e7593302ec5be2264b2b5fb743aab622bce18f7b907982288f4e20e224a9e"), size: (bytes: 99981364, str: "95.35 MiB"), path: "images/fedora/36/arm64/cloud/20230227_20:33/rootfs.tar.xz"), "2023-02-28 20:33": (type: "tar.xz", digest: (algorithm: "sha256", hex: "1f066bf452e005307e6aa751d8bb15a662812c0588960b14ae13912a6f4efff5"), size: (bytes: 99553332, str: "94.94 MiB"), path: "images/fedora/36/arm64/cloud/20230228_20:33/rootfs.tar.xz")},
+                        ),
+                        "ppc64el": (
+                            tags: {"2023-02-26 20:34": (type: "tar.xz", digest: (algorithm: "sha256", hex: "7eb09ac8fd41e346df6be065078c6d20596c48c7341774e9821f5dbced8c6297"), size: (bytes: 106698456, str: "101.76 MiB"), path: "images/fedora/36/ppc64el/cloud/20230226_20:34/rootfs.tar.xz"), "2023-02-27 20:33": (type: "tar.xz", digest: (algorithm: "sha256", hex: "29e7dc236206c0cf62f9f83c42604c16fa425dd609dea11f396e5ac11d5e53ec"), size: (bytes: 106549512, str: "101.61 MiB"), path: "images/fedora/36/ppc64el/cloud/20230227_20:33/rootfs.tar.xz"), "2023-02-28 20:33": (type: "tar.xz", digest: (algorithm: "sha256", hex: "a1346ea50e215bce280a4dd1bcde43916d2477db80e487a0b3e1637599fb0866"), size: (bytes: 106528312, str: "101.59 MiB"), path: "images/fedora/36/ppc64el/cloud/20230228_20:33/rootfs.tar.xz")},
+                        ),
+                        "s390x": (
+                            tags: {"2023-02-26 20:33": (type: "tar.xz", digest: (algorithm: "sha256", hex: "386640049a49c7681ba8cc4735a476f11e3f42dbf1fa4fc154708f6a7a622b57"), size: (bytes: 98974456, str: "94.39 MiB"), path: "images/fedora/36/s390x/cloud/20230226_20:33/rootfs.tar.xz"), "2023-02-27 20:33": (type: "tar.xz", digest: (algorithm: "sha256", hex: "5f61e362108f295563c8eb71d8e669b9baa6d8dc427ec0c6b6707c9ce1f946df"), size: (bytes: 99016652, str: "94.43 MiB"), path: "images/fedora/36/s390x/cloud/20230227_20:33/rootfs.tar.xz"), "2023-02-28 20:34": (type: "tar.xz", digest: (algorithm: "sha256", hex: "ce57b219d58103ef0d7297254b1dc9076865883a7ddc7e1391c67401beac4ce7"), size: (bytes: 99327380, str: "94.73 MiB"), path: "images/fedora/36/s390x/cloud/20230228_20:34/rootfs.tar.xz")},
+                        ),
+                    },
+                ),
+                "default": (
+                    arch: {
+                        "amd64": (
+                            tags: {"2023-02-26 20:33": (type: "tar.xz", digest: (algorithm: "sha256", hex: "57da844c5a8dcafa898275b64723ceb27d6496abd24237fc61ef439b11a937d6"), size: (bytes: 94279124, str: "89.91 MiB"), path: "images/fedora/36/amd64/default/20230226_20:33/rootfs.tar.xz"), "2023-02-27 20:33": (type: "tar.xz", digest: (algorithm: "sha256", hex: "49418909f1453dec30aa178b74cad6ae800e8280bbccf8131dbc35846ac827be"), size: (bytes: 94045740, str: "89.69 MiB"), path: "images/fedora/36/amd64/default/20230227_20:33/rootfs.tar.xz"), "2023-02-28 20:33": (type: "tar.xz", digest: (algorithm: "sha256", hex: "dfa5610ed08f6228344594b68a7f1bbc8abc2bb01091e5e5dacb1062a5a3673c"), size: (bytes: 94156188, str: "89.79 MiB"), path: "images/fedora/36/amd64/default/20230228_20:33/rootfs.tar.xz")},
+                        ),
+                        "arm64": (
+                            tags: {"2023-02-25 20:33": (type: "tar.xz", digest: (algorithm: "sha256", hex: "db5365bcbf94df147706787ef2f7546e18c4b8f41a57d6a4736df17dc3b50daf"), size: (bytes: 90141948, str: "85.97 MiB"), path: "images/fedora/36/arm64/default/20230225_20:33/rootfs.tar.xz"), "2023-02-26 21:18": (type: "tar.xz", digest: (algorithm: "sha256", hex: "f8460d2455cd39122212e3f70a196c557bb10f6b38a03f403bbeac56b70f12b0"), size: (bytes: 90859676, str: "86.65 MiB"), path: "images/fedora/36/arm64/default/20230226_21:18/rootfs.tar.xz"), "2023-02-27 20:33": (type: "tar.xz", digest: (algorithm: "sha256", hex: "d4f4243ac67b37ba12035a5069446339d75b9cdcf289e3c44c92661547d980ad"), size: (bytes: 90174616, str: "86.00 MiB"), path: "images/fedora/36/arm64/default/20230227_20:33/rootfs.tar.xz")},
+                        ),
+                        "ppc64el": (
+                            tags: {"2023-02-26 20:34": (type: "tar.xz", digest: (algorithm: "sha256", hex: "9eecba1dc9c578c88d872fefac409820c68cdd87938b35a90f66c5f37d29d927"), size: (bytes: 96186764, str: "91.73 MiB"), path: "images/fedora/36/ppc64el/default/20230226_20:34/rootfs.tar.xz"), "2023-02-27 20:33": (type: "tar.xz", digest: (algorithm: "sha256", hex: "8bf2b4ffc921bb7063075bd8f9c98c05527149b5b5720f3dace713bd06ca989c"), size: (bytes: 96590432, str: "92.12 MiB"), path: "images/fedora/36/ppc64el/default/20230227_20:33/rootfs.tar.xz"), "2023-02-28 20:33": (type: "tar.xz", digest: (algorithm: "sha256", hex: "5368753f9badc1db5e775352832a64fe87e3240097ce5ded3a4542d7299be668"), size: (bytes: 95767376, str: "91.33 MiB"), path: "images/fedora/36/ppc64el/default/20230228_20:33/rootfs.tar.xz")},
+                        ),
+                        "s390x": (
+                            tags: {"2023-02-26 20:34": (type: "tar.xz", digest: (algorithm: "sha256", hex: "44d04e9700fb71d841ba027aad3c901ec0846b6e35938d7a2d41e1f8427b405a"), size: (bytes: 90355832, str: "86.17 MiB"), path: "images/fedora/36/s390x/default/20230226_20:34/rootfs.tar.xz"), "2023-02-27 20:33": (type: "tar.xz", digest: (algorithm: "sha256", hex: "4f3f76dae146350d869607876b3ad2121c5a3749385e068efdba18ae94741e58"), size: (bytes: 90261672, str: "86.08 MiB"), path: "images/fedora/36/s390x/default/20230227_20:33/rootfs.tar.xz"), "2023-02-28 20:33": (type: "tar.xz", digest: (algorithm: "sha256", hex: "356b2ddc3e29d2e11d44b18f5797ed9ee100f3c4a0a13619b3683d8b744ce681"), size: (bytes: 89751076, str: "85.59 MiB"), path: "images/fedora/36/s390x/default/20230228_20:33/rootfs.tar.xz")},
+                        ),
+                    },
+                ),
+            },
+        ),
+        "37": (
+            variant: {
+                "cloud": (
+                    arch: {
+                        "amd64": (
+                            tags: {"2023-02-26 20:33": (type: "tar.xz", digest: (algorithm: "sha256", hex: "6bea73d117204d6176be12ee76338cda5eb8233342c7ca20c56aa7376a485113"), size: (bytes: 103999184, str: "99.18 MiB"), path: "images/fedora/37/amd64/cloud/20230226_20:33/rootfs.tar.xz"), "2023-02-27 20:35": (type: "tar.xz", digest: (algorithm: "sha256", hex: "a17905f8e8e76fd99b85e397302688c68b1bacd7da4b471e0112ad5d79e6da63"), size: (bytes: 104003688, str: "99.19 MiB"), path: "images/fedora/37/amd64/cloud/20230227_20:35/rootfs.tar.xz"), "2023-02-28 20:33": (type: "tar.xz", digest: (algorithm: "sha256", hex: "feb508c24e87593a23d26c30b92bebe7505fad11af1085b436d382afb009a6ce"), size: (bytes: 104217148, str: "99.39 MiB"), path: "images/fedora/37/amd64/cloud/20230228_20:33/rootfs.tar.xz")},
+                        ),
+                        "arm64": (
+                            tags: {"2023-02-26 20:33": (type: "tar.xz", digest: (algorithm: "sha256", hex: "262cdea2438ecfacd03ab776b7ef59156eb49ed3019a036565168dfb2512093f"), size: (bytes: 100341752, str: "95.69 MiB"), path: "images/fedora/37/arm64/cloud/20230226_20:33/rootfs.tar.xz"), "2023-02-27 21:17": (type: "tar.xz", digest: (algorithm: "sha256", hex: "612b45ffc987308930ac05b01587cfad25f36d1b054c034f11f57f4532078fc1"), size: (bytes: 100377212, str: "95.73 MiB"), path: "images/fedora/37/arm64/cloud/20230227_21:17/rootfs.tar.xz"), "2023-02-28 21:32": (type: "tar.xz", digest: (algorithm: "sha256", hex: "8c4911ba3572edb069b0a89976d95b52b1ead604e6ed1ebe0cb59650c59f945b"), size: (bytes: 100135688, str: "95.50 MiB"), path: "images/fedora/37/arm64/cloud/20230228_21:32/rootfs.tar.xz")},
+                        ),
+                        "ppc64el": (
+                            tags: {"2023-02-26 20:34": (type: "tar.xz", digest: (algorithm: "sha256", hex: "bdc9fb9d4bb20db6872e67ee34461b6942ff3d394fe5c70b3e12ed6347ffee50"), size: (bytes: 107709236, str: "102.72 MiB"), path: "images/fedora/37/ppc64el/cloud/20230226_20:34/rootfs.tar.xz"), "2023-02-27 20:33": (type: "tar.xz", digest: (algorithm: "sha256", hex: "533887a5076c5936fd6b84f8a95cf88072eef8c76383daad72e1b4c38afc2f48"), size: (bytes: 107801144, str: "102.81 MiB"), path: "images/fedora/37/ppc64el/cloud/20230227_20:33/rootfs.tar.xz"), "2023-02-28 20:33": (type: "tar.xz", digest: (algorithm: "sha256", hex: "24460457904bad14c6ee5b9b9be8a6510497543af7673a9c9531f9a9934e9efe"), size: (bytes: 107828416, str: "102.83 MiB"), path: "images/fedora/37/ppc64el/cloud/20230228_20:33/rootfs.tar.xz")},
+                        ),
+                        "s390x": (
+                            tags: {"2023-02-26 20:34": (type: "tar.xz", digest: (algorithm: "sha256", hex: "e227086128dc76890e1fc693a55112c90cd7bd827fdcf94744739f9d1c9edcdb"), size: (bytes: 99917976, str: "95.29 MiB"), path: "images/fedora/37/s390x/cloud/20230226_20:34/rootfs.tar.xz"), "2023-02-27 20:33": (type: "tar.xz", digest: (algorithm: "sha256", hex: "8441fd2c26845a2623fb5083fd789c43304158c4e05f78fbbb6b078671468f28"), size: (bytes: 99860524, str: "95.23 MiB"), path: "images/fedora/37/s390x/cloud/20230227_20:33/rootfs.tar.xz"), "2023-02-28 20:34": (type: "tar.xz", digest: (algorithm: "sha256", hex: "ea599b076300ab41c80ca8e462c14a82a9b6f12c9fb6aeb35c1db4b63c6708cc"), size: (bytes: 99925596, str: "95.30 MiB"), path: "images/fedora/37/s390x/cloud/20230228_20:34/rootfs.tar.xz")},
+                        ),
+                    },
+                ),
+                "default": (
+                    arch: {
+                        "amd64": (
+                            tags: {"2023-02-26 20:33": (type: "tar.xz", digest: (algorithm: "sha256", hex: "f63469c870f30aea8562adeaf3c2839a7041a1ce1fe3c241ed4131685ef7e214"), size: (bytes: 93983704, str: "89.63 MiB"), path: "images/fedora/37/amd64/default/20230226_20:33/rootfs.tar.xz"), "2023-02-27 20:33": (type: "tar.xz", digest: (algorithm: "sha256", hex: "8ff95d0d9e5addb26fd4624be6cc1113c964780e71466beb8902119c99a2818f"), size: (bytes: 93995676, str: "89.64 MiB"), path: "images/fedora/37/amd64/default/20230227_20:33/rootfs.tar.xz"), "2023-02-28 20:33": (type: "tar.xz", digest: (algorithm: "sha256", hex: "27028145330a7a9bbc60ae6d84625da4d9f130213ee4d95b5392d1f9c33193ff"), size: (bytes: 93658584, str: "89.32 MiB"), path: "images/fedora/37/amd64/default/20230228_20:33/rootfs.tar.xz")},
+                        ),
+                        "arm64": (
+                            tags: {"2023-02-25 20:33": (type: "tar.xz", digest: (algorithm: "sha256", hex: "c23bf807ba7f59424258ee53d05f9c375301c35bde36b83195e8ab70fba6dc75"), size: (bytes: 90084468, str: "85.91 MiB"), path: "images/fedora/37/arm64/default/20230225_20:33/rootfs.tar.xz"), "2023-02-26 20:33": (type: "tar.xz", digest: (algorithm: "sha256", hex: "48370745765cf6cf11fe98bf3ecc6fe2855f3ff545dd9d410c10fcbe1b3a6de2"), size: (bytes: 91055916, str: "86.84 MiB"), path: "images/fedora/37/arm64/default/20230226_20:33/rootfs.tar.xz"), "2023-02-27 20:33": (type: "tar.xz", digest: (algorithm: "sha256", hex: "fd11099cb6acfd0ee509aaafc82e5d085daf7df733b94e948c159419131d3f73"), size: (bytes: 89384332, str: "85.24 MiB"), path: "images/fedora/37/arm64/default/20230227_20:33/rootfs.tar.xz")},
+                        ),
+                        "ppc64el": (
+                            tags: {"2023-02-26 20:34": (type: "tar.xz", digest: (algorithm: "sha256", hex: "11594b02a7961b5807dca728e717d5f618db5326f2a64e4ba38a7a6c27b46a68"), size: (bytes: 96417432, str: "91.95 MiB"), path: "images/fedora/37/ppc64el/default/20230226_20:34/rootfs.tar.xz"), "2023-02-27 20:33": (type: "tar.xz", digest: (algorithm: "sha256", hex: "dc1b6fbdefcd9d0ccba975aab07597d32ac0c6c6a154af247741581bfbeced64"), size: (bytes: 96416148, str: "91.95 MiB"), path: "images/fedora/37/ppc64el/default/20230227_20:33/rootfs.tar.xz"), "2023-02-28 20:33": (type: "tar.xz", digest: (algorithm: "sha256", hex: "4c769cd563121f0c1bb25f5ed8a1d9343674358f789fd07409dd3be4d7d3b787"), size: (bytes: 96228184, str: "91.77 MiB"), path: "images/fedora/37/ppc64el/default/20230228_20:33/rootfs.tar.xz")},
+                        ),
+                        "s390x": (
+                            tags: {"2023-02-26 20:33": (type: "tar.xz", digest: (algorithm: "sha256", hex: "24a4fbe87a6cc2b26160433bed226f5fea24765dcf15d54c4f2f6853fde28e69"), size: (bytes: 88964652, str: "84.84 MiB"), path: "images/fedora/37/s390x/default/20230226_20:33/rootfs.tar.xz"), "2023-02-27 20:33": (type: "tar.xz", digest: (algorithm: "sha256", hex: "46f752ac3ae458134a3c6665ef9499e4d04d8ae1db222e3056da90b02dd99da8"), size: (bytes: 89781784, str: "85.62 MiB"), path: "images/fedora/37/s390x/default/20230227_20:33/rootfs.tar.xz"), "2023-02-28 20:33": (type: "tar.xz", digest: (algorithm: "sha256", hex: "74a8c21000b258b3710db6bff90bf02bda5afe07a55afa5d1847f0a6a15a4343"), size: (bytes: 89413552, str: "85.27 MiB"), path: "images/fedora/37/s390x/default/20230228_20:33/rootfs.tar.xz")},
+                        ),
+                    },
+                ),
+            },
+        ),
+        "Rawhide": (
+            variant: {
+                "cloud": (
+                    arch: {
+                        "ppc64el": (
+                            tags: {"2023-02-26 20:34": (type: "tar.xz", digest: (algorithm: "sha256", hex: "4bab23a9f28a0e91934ea15ab365533f7ee6a4ba625fade8e017cc0b84bb7fa6"), size: (bytes: 110526928, str: "105.41 MiB"), path: "images/fedora/Rawhide/ppc64el/cloud/20230226_20:34/rootfs.tar.xz"), "2023-02-27 20:33": (type: "tar.xz", digest: (algorithm: "sha256", hex: "fe8cb980f61312c2ea7438c55c1044a93ba0a884e5706338e44db0edf121983a"), size: (bytes: 110844864, str: "105.71 MiB"), path: "images/fedora/Rawhide/ppc64el/cloud/20230227_20:33/rootfs.tar.xz"), "2023-02-28 20:33": (type: "tar.xz", digest: (algorithm: "sha256", hex: "4d59d02287e12dc4a32b96741f61ea36f9a39e51d73c61af61d966a6bc6a0bfa"), size: (bytes: 110214748, str: "105.11 MiB"), path: "images/fedora/Rawhide/ppc64el/cloud/20230228_20:33/rootfs.tar.xz")},
+                        ),
+                        "s390x": (
+                            tags: {"2023-02-26 20:34": (type: "tar.xz", digest: (algorithm: "sha256", hex: "ec7a9aac9420a251224c8666eb24683e0bc2551a873152bb5b23919e4fef8d4e"), size: (bytes: 106232996, str: "101.31 MiB"), path: "images/fedora/Rawhide/s390x/cloud/20230226_20:34/rootfs.tar.xz"), "2023-02-27 20:33": (type: "tar.xz", digest: (algorithm: "sha256", hex: "914faff90e8b276d9590ada226d0be0af8018fa3eb2366cccfe5a463f64e4e49"), size: (bytes: 105331496, str: "100.45 MiB"), path: "images/fedora/Rawhide/s390x/cloud/20230227_20:33/rootfs.tar.xz"), "2023-02-28 20:34": (type: "tar.xz", digest: (algorithm: "sha256", hex: "2d9cb7674181947580f89778f76dd49303ca5324e2c8a9b14ba88699126ad767"), size: (bytes: 106203572, str: "101.28 MiB"), path: "images/fedora/Rawhide/s390x/cloud/20230228_20:34/rootfs.tar.xz")},
+                        ),
+                    },
+                ),
+                "default": (
+                    arch: {
+                        "amd64": (
+                            tags: {"2023-02-10 02:25": (type: "tar.xz", digest: (algorithm: "sha256", hex: "e710c6b1e51fddf55299d5b8f01881b7ab7a9cbb962120f2ff79bc9dd6d88032"), size: (bytes: 94928792, str: "90.53 MiB"), path: "images/fedora/Rawhide/amd64/default/20230210_02:25/rootfs.tar.xz")},
+                        ),
+                        "ppc64el": (
+                            tags: {"2023-02-26 20:34": (type: "tar.xz", digest: (algorithm: "sha256", hex: "e58b9ebec4c8c632fd8419bdab2c30aa5b45faeb4f2257f9a4210b8ef6d9e136"), size: (bytes: 99406932, str: "94.80 MiB"), path: "images/fedora/Rawhide/ppc64el/default/20230226_20:34/rootfs.tar.xz"), "2023-02-27 20:33": (type: "tar.xz", digest: (algorithm: "sha256", hex: "dcac2f13ce0d5dd6ef1bda353ed8b03d5572dff1a047ba2437b446ba143b63d2"), size: (bytes: 98932696, str: "94.35 MiB"), path: "images/fedora/Rawhide/ppc64el/default/20230227_20:33/rootfs.tar.xz"), "2023-02-28 20:33": (type: "tar.xz", digest: (algorithm: "sha256", hex: "c525a3bb7facbe7edebb98c1d07c692bdbde84d69ce21ab20d0b42b583bff5ae"), size: (bytes: 99089032, str: "94.50 MiB"), path: "images/fedora/Rawhide/ppc64el/default/20230228_20:33/rootfs.tar.xz")},
+                        ),
+                        "s390x": (
+                            tags: {"2023-02-26 20:33": (type: "tar.xz", digest: (algorithm: "sha256", hex: "7e1fd66eaf07cd7bb7112ce27b06ebed217c73b7a5a0cd8d097c5dfc29377486"), size: (bytes: 94673552, str: "90.29 MiB"), path: "images/fedora/Rawhide/s390x/default/20230226_20:33/rootfs.tar.xz"), "2023-02-27 20:33": (type: "tar.xz", digest: (algorithm: "sha256", hex: "cee6e3cb23e44343a9165f4ae4d2e5f4a91cf0ba2841e6a2603c3c9c97c496dd"), size: (bytes: 95093352, str: "90.69 MiB"), path: "images/fedora/Rawhide/s390x/default/20230227_20:33/rootfs.tar.xz"), "2023-02-28 20:33": (type: "tar.xz", digest: (algorithm: "sha256", hex: "1e384db486fa1945bce6c98b00882a7fe5f94867ed4526c7ef97066b182c0edb"), size: (bytes: 94882184, str: "90.49 MiB"), path: "images/fedora/Rawhide/s390x/default/20230228_20:33/rootfs.tar.xz")},
+                        ),
+                    },
+                ),
+            },
+        ),
+    },
+)

@@ -1,0 +1,35 @@
+(
+    os: "voidlinux",
+    codename: {
+        "current": (
+            variant: {
+                "default": (
+                    arch: {
+                        "amd64": (
+                            tags: {"2023-02-26 17:10": (type: "tar.xz", digest: (algorithm: "sha256", hex: "5780c96ee7031f3f1ec155e46b788bee22480b03c1eac3b8781ac301785ae73c"), size: (bytes: 75617608, str: "72.11 MiB"), path: "images/voidlinux/current/amd64/default/20230226_17:10/rootfs.tar.xz"), "2023-02-27 17:10": (type: "tar.xz", digest: (algorithm: "sha256", hex: "8624718f73ca22e0f6fe276e739fc6f4b7cd05cbf5c3030903f65156e08e18bf"), size: (bytes: 75611772, str: "72.11 MiB"), path: "images/voidlinux/current/amd64/default/20230227_17:10/rootfs.tar.xz"), "2023-02-28 17:10": (type: "tar.xz", digest: (algorithm: "sha256", hex: "54c27a3498dd7ec5cefea199951ff1b45d18383e1019c48f75e8b4e5f1361e2b"), size: (bytes: 75626200, str: "72.12 MiB"), path: "images/voidlinux/current/amd64/default/20230228_17:10/rootfs.tar.xz")},
+                        ),
+                        "arm64": (
+                            tags: {"2023-02-26 17:10": (type: "tar.xz", digest: (algorithm: "sha256", hex: "556016e02603ca288f45977e66518ee403e910ef0bd5454b0bd80242159e07e8"), size: (bytes: 75056728, str: "71.58 MiB"), path: "images/voidlinux/current/arm64/default/20230226_17:10/rootfs.tar.xz"), "2023-02-27 17:26": (type: "tar.xz", digest: (algorithm: "sha256", hex: "d933d3b5a5e2ac27ace959619d5bc0b64a98f69e1b7f3679ca6eddca2269825a"), size: (bytes: 74915648, str: "71.45 MiB"), path: "images/voidlinux/current/arm64/default/20230227_17:26/rootfs.tar.xz"), "2023-02-28 17:11": (type: "tar.xz", digest: (algorithm: "sha256", hex: "dbf2d26cf1b1db15f9d83a444db7c40e312ae76e0c41ee6efbc99adec1e8993e"), size: (bytes: 75029104, str: "71.55 MiB"), path: "images/voidlinux/current/arm64/default/20230228_17:11/rootfs.tar.xz")},
+                        ),
+                        "armhf": (
+                            tags: {"2023-02-25 17:10": (type: "tar.xz", digest: (algorithm: "sha256", hex: "12ac92bf1bc05ab84a0fb028acdc26d5fa99bdf2c8cf891380e12ac9f88a721a"), size: (bytes: 71770240, str: "68.45 MiB"), path: "images/voidlinux/current/armhf/default/20230225_17:10/rootfs.tar.xz"), "2023-02-26 17:22": (type: "tar.xz", digest: (algorithm: "sha256", hex: "379f547d8ed95749bdd71f3827189b6823000dd385227905356e700304371e77"), size: (bytes: 72450632, str: "69.09 MiB"), path: "images/voidlinux/current/armhf/default/20230226_17:22/rootfs.tar.xz"), "2023-02-28 17:11": (type: "tar.xz", digest: (algorithm: "sha256", hex: "f50952109aee1c48ea517bc0896ff6977eb1fa664b7d9d5b5fba5e7a03a89d75"), size: (bytes: 72119388, str: "68.78 MiB"), path: "images/voidlinux/current/armhf/default/20230228_17:11/rootfs.tar.xz")},
+                        ),
+                    },
+                ),
+                "musl": (
+                    arch: {
+                        "amd64": (
+                            tags: {"2023-02-26 17:10": (type: "tar.xz", digest: (algorithm: "sha256", hex: "fad8ff40a5027c7a8d1326a4b3a7b3f9b1fde31bfb7adc03389b522333f74d0a"), size: (bytes: 51615272, str: "49.22 MiB"), path: "images/voidlinux/current/amd64/musl/20230226_17:10/rootfs.tar.xz"), "2023-02-27 17:10": (type: "tar.xz", digest: (algorithm: "sha256", hex: "210c39821fb7dbec648e72f7d9fab86d066cbf12b179eaa1069542f165d4aa1a"), size: (bytes: 51618584, str: "49.23 MiB"), path: "images/voidlinux/current/amd64/musl/20230227_17:10/rootfs.tar.xz"), "2023-02-28 17:10": (type: "tar.xz", digest: (algorithm: "sha256", hex: "d737f37f0e9db4bf8b68123a9f204a48fd2666c6b8f40f44596fe237654a7bb7"), size: (bytes: 51617872, str: "49.23 MiB"), path: "images/voidlinux/current/amd64/musl/20230228_17:10/rootfs.tar.xz")},
+                        ),
+                        "arm64": (
+                            tags: {"2023-02-26 17:10": (type: "tar.xz", digest: (algorithm: "sha256", hex: "209af187dcb43c5e34030dc089785baec226fc61d4c151c24dde4c4562ffee99"), size: (bytes: 51335208, str: "48.96 MiB"), path: "images/voidlinux/current/arm64/musl/20230226_17:10/rootfs.tar.xz"), "2023-02-27 17:51": (type: "tar.xz", digest: (algorithm: "sha256", hex: "f80c7d6e95b35ba4a221ba48d0d25ce4d56c46e629eabf7301c8d4de835da1c2"), size: (bytes: 51517824, str: "49.13 MiB"), path: "images/voidlinux/current/arm64/musl/20230227_17:51/rootfs.tar.xz"), "2023-02-28 17:11": (type: "tar.xz", digest: (algorithm: "sha256", hex: "3fee7fdeab952fde3327ffcdd6746c7131a1761004e2994c23db8429f96d0a2c"), size: (bytes: 51464616, str: "49.08 MiB"), path: "images/voidlinux/current/arm64/musl/20230228_17:11/rootfs.tar.xz")},
+                        ),
+                        "armhf": (
+                            tags: {"2023-02-25 17:10": (type: "tar.xz", digest: (algorithm: "sha256", hex: "7f7c07972756a468d2f59591cb94b2cfbcadf6ff9fe90e63f225e4f1e8f20d9a"), size: (bytes: 48259868, str: "46.02 MiB"), path: "images/voidlinux/current/armhf/musl/20230225_17:10/rootfs.tar.xz"), "2023-02-26 17:10": (type: "tar.xz", digest: (algorithm: "sha256", hex: "473253fb48dc38ea9d43452965edefe5f7898a80fcbe91ce92f9879a4f0c5dbe"), size: (bytes: 48435124, str: "46.19 MiB"), path: "images/voidlinux/current/armhf/musl/20230226_17:10/rootfs.tar.xz"), "2023-02-28 17:11": (type: "tar.xz", digest: (algorithm: "sha256", hex: "72e67542c2a21351caf0e9c091b6cd2d26d23cbd0c8e3213b970bde979fcf679"), size: (bytes: 49287324, str: "47.00 MiB"), path: "images/voidlinux/current/armhf/musl/20230228_17:11/rootfs.tar.xz")},
+                        ),
+                    },
+                ),
+            },
+        ),
+    },
+)
