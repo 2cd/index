@@ -35,13 +35,6 @@
                         ),
                     },
                 ),
-                "desktop-kde": (
-                    arch: {
-                        "amd64": (
-                            tags: {"2023-02-26 04:56": (type: "tar.xz", digest: (algorithm: "sha256", hex: "2b6eb631ef774eede44f59de851b09523c857795eace00a8c0472ee5135c0a26"), size: (bytes: 40518488, str: "38.64 MiB"), path: "images/opensuse/15.4/amd64/desktop-kde/20230226_04:56/rootfs.tar.xz"), "2023-02-27 04:20": (type: "tar.xz", digest: (algorithm: "sha256", hex: "fbc7ea57ebd5e502cd12030dc9f65f3b4924b5dd4fe42d0d67db0bf2a2fa64bd"), size: (bytes: 40517692, str: "38.64 MiB"), path: "images/opensuse/15.4/amd64/desktop-kde/20230227_04:20/rootfs.tar.xz"), "2023-02-28 04:20": (type: "tar.xz", digest: (algorithm: "sha256", hex: "999deab7a73852bad897f67f283369c2f0b5045ee7f401a83b15bda9d34129be"), size: (bytes: 40504876, str: "38.63 MiB"), path: "images/opensuse/15.4/amd64/desktop-kde/20230228_04:20/rootfs.tar.xz")},
-                        ),
-                    },
-                ),
             },
         ),
         "tumbleweed": (
@@ -72,13 +65,6 @@
                         ),
                         "s390x": (
                             tags: {"2023-02-26 04:56": (type: "tar.xz", digest: (algorithm: "sha256", hex: "645941dacafebd4e441e18038ece89d93bff77e18af9d9ace116f9db4119bd56"), size: (bytes: 37634564, str: "35.89 MiB"), path: "images/opensuse/tumbleweed/s390x/default/20230226_04:56/rootfs.tar.xz"), "2023-02-27 04:20": (type: "tar.xz", digest: (algorithm: "sha256", hex: "0c872627166f0bd76a9cb31ea188689d2592da1d0961e8b5a50753c70178de99"), size: (bytes: 37614720, str: "35.87 MiB"), path: "images/opensuse/tumbleweed/s390x/default/20230227_04:20/rootfs.tar.xz"), "2023-02-28 04:20": (type: "tar.xz", digest: (algorithm: "sha256", hex: "75ee9f154d50086d70352996d89ec7957ad4a0bb2a8dbea15330598f469bdec5"), size: (bytes: 37945072, str: "36.19 MiB"), path: "images/opensuse/tumbleweed/s390x/default/20230228_04:20/rootfs.tar.xz")},
-                        ),
-                    },
-                ),
-                "desktop-kde": (
-                    arch: {
-                        "amd64": (
-                            tags: {"2023-02-26 04:56": (type: "tar.xz", digest: (algorithm: "sha256", hex: "16ef1db51bf0614a690a9a2ad0250243078f7227b8d944d7ee2ad5e128c299db"), size: (bytes: 39816092, str: "37.97 MiB"), path: "images/opensuse/tumbleweed/amd64/desktop-kde/20230226_04:56/rootfs.tar.xz"), "2023-02-27 04:21": (type: "tar.xz", digest: (algorithm: "sha256", hex: "9acdc4f5fa2be39f1061775dac48a2cff2491cb3c412ddc26d41ec2e233a7129"), size: (bytes: 39830496, str: "37.99 MiB"), path: "images/opensuse/tumbleweed/amd64/desktop-kde/20230227_04:21/rootfs.tar.xz"), "2023-02-28 04:21": (type: "tar.xz", digest: (algorithm: "sha256", hex: "5c9f1d523ba8854af39a5f34bf5b0feebf992938a9096d219c7f802239687441"), size: (bytes: 39825932, str: "37.98 MiB"), path: "images/opensuse/tumbleweed/amd64/desktop-kde/20230228_04:21/rootfs.tar.xz")},
                         ),
                     },
                 ),
