@@ -20,7 +20,7 @@ docker exec -it arch-zsh-amd64 zsh
 ```toml
 [main]
 name = "arch"
-tag = ["zsh", "2023-02-22"]
+tag = ["zsh", "2023-03-01"]
 os = "arch"
 release = "latest"
 arch = "amd64"
@@ -29,10 +29,10 @@ xorg_or_wayland = false
 syntax_version = "0.0.0-alpha.4"
 
 [file]
-name = "arch-zsh_amd64_2023-02-22_00-18.tar.zst"
+name = "arch-zsh_amd64_2023-03-01_00-18.tar.zst"
 
 # This value can be used to verify the integrity of the file
-sha256 = "8df3b832d78d492dd2ddc53eda71650f727a997c1c09f6984d214320d3fc2990"
+sha256 = "7a69381747e2ed832b31b890dd2a81b7d37b9ec2ca57d42970dfb1235f2b72d3"
 
 # zstd: [1-22]
 zstd-level = 20
@@ -41,48 +41,48 @@ zstd-level = 20
 # Installed size ≈ tar-size
 # Installed size is approximately equal to the size of the tar file
 tar = "1.1G"
-tar_bytes = 1109840384
+tar_bytes = 1110370816
 
 # Space occupied ≈ tar-size + zstd-size
 # You will need to prepare a large enough space before installation.
 zstd = "267M"
-zstd_bytes = 279323545
+zstd_bytes = 279653810
 
 [compatibility]
 compatible_mode = true
 
-previous_version = "latest01"
+previous_version = "latest02"
 
 # The value is &str, not int
-previous_date = "20230215"
-previous_tag = "2023-02-15"
-previous_file = "arch-zsh_amd64_2023-02-15_00-17-rootfs.tar.zst"
-previous_sha256 = "6cf67eb2f2ea6d84467d46c64172bfeaedc17f7cfb3a0451a0a20e1f082021d9"
+previous_date = "20230222"
+previous_tag = "2023-02-22"
+previous_file = "arch-zsh_amd64_2023-02-22_00-18-rootfs.tar.zst"
+previous_sha256 = "8df3b832d78d492dd2ddc53eda71650f727a997c1c09f6984d214320d3fc2990"
 
-current_version = "latest02"
-current_date = "20230222"
-old_file = "arch-zsh_amd64_2023-02-08_00-17-rootfs.tar.zst"
-old_sha256 = "2425b7084a993faf274dca014c892f5acfe88b249c980972bf25e8c63380041f"
+current_version = "latest01"
+current_date = "20230301"
+old_file = "arch-zsh_amd64_2023-02-15_00-17-rootfs.tar.zst"
+old_sha256 = "6cf67eb2f2ea6d84467d46c64172bfeaedc17f7cfb3a0451a0a20e1f082021d9"
 # edition 2021
 # DISTRO_NAME=arch_amd64
-# ROOTFS_FILE=arch-zsh_amd64_2023-02-22_00-18-rootfs.tar.zst
-# SHA256SUM=8df3b832d78d492dd2ddc53eda71650f727a997c1c09f6984d214320d3fc2990
-# BUILD_DATE=20230222
-# BUILD_TAG=2023-02-22
+# ROOTFS_FILE=arch-zsh_amd64_2023-03-01_00-18-rootfs.tar.zst
+# SHA256SUM=7a69381747e2ed832b31b890dd2a81b7d37b9ec2ca57d42970dfb1235f2b72d3
+# BUILD_DATE=20230301
+# BUILD_TAG=2023-03-01
 # STATUS=completed
-# VERSION=latest02
+# VERSION=latest01
 # END_TIME=00:18
 
 [time]
 format = "rfc-3339"
 zone = "UTC"
-date = 2023-02-22
-begin = 2023-02-22 00:08:11.274043788+00:00
-start-sync_0 = 00:12:06
-start-zstd = 00:13:36
-start-sync_1 = 00:17:53
-end-sync_1 = 00:18:15
-end = 2023-02-22 00:18:15.335298230+00:00
+date = 2023-03-01
+begin = 2023-03-01 00:09:04.238662266+00:00
+start-sync_0 = 00:12:12
+start-zstd = 00:13:44
+start-sync_1 = 00:18:04
+end-sync_1 = 00:18:27
+end = 2023-03-01 00:18:27.196222370+00:00
 
 [server]
 repo = "cake233/arch-zsh-amd64"
