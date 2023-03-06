@@ -56,7 +56,7 @@ func main() {
 ```toml
 [main]
 name = "go"
-tag = ["latest", "2023-02-20"]
+tag = ["latest", "2023-03-06"]
 os = "debian"
 release = "stable"
 arch = "amd64"
@@ -65,10 +65,10 @@ xorg_or_wayland = false
 syntax_version = "0.0.0-alpha.4"
 
 [file]
-name = "go_amd64_2023-02-20_12-09.tar.zst"
+name = "go_amd64_2023-03-06_12-10.tar.zst"
 
 # This value can be used to verify the integrity of the file
-sha256 = "53d1e04be57f5fd3c94b1380c7d4c9cb34aed08fc845bd327aadbbd7cb96339f"
+sha256 = "390102cfa736a1d9b0cd2f1377de5649f0d3db1c0d90ff6b12a7de1c3536b320"
 
 # zstd: [1-22]
 zstd-level = 22
@@ -77,48 +77,48 @@ zstd-level = 22
 # Installed size ≈ tar-size
 # Installed size is approximately equal to the size of the tar file
 tar = "789M"
-tar_bytes = 827122688
+tar_bytes = 827125248
 
 # Space occupied ≈ tar-size + zstd-size
 # You will need to prepare a large enough space before installation.
 zstd = "183M"
-zstd_bytes = 191777455
+zstd_bytes = 191793381
 
 [compatibility]
 compatible_mode = true
 
-previous_version = "latest02"
+previous_version = "latest01"
 
 # The value is &str, not int
-previous_date = "20230206"
-previous_tag = "2023-02-06"
-previous_file = "go_amd64_2023-02-06_12-08-rootfs.tar.zst"
-previous_sha256 = "ae3a228ba33779936a060b8b30908a33e9418e098feb33e8a54d61de9a533cba"
+previous_date = "20230220"
+previous_tag = "2023-02-20"
+previous_file = "go_amd64_2023-02-20_12-09-rootfs.tar.zst"
+previous_sha256 = "53d1e04be57f5fd3c94b1380c7d4c9cb34aed08fc845bd327aadbbd7cb96339f"
 
-current_version = "latest01"
-current_date = "20230220"
-old_file = "go_amd64_2023-01-23_12-10-rootfs.tar.zst"
-old_sha256 = "d9523d59d814db190c4c64b37283b7f72eda4a49ef24c5c367ebccb4b886c02c"
+current_version = "latest02"
+current_date = "20230306"
+old_file = "go_amd64_2023-02-06_12-08-rootfs.tar.zst"
+old_sha256 = "ae3a228ba33779936a060b8b30908a33e9418e098feb33e8a54d61de9a533cba"
 # edition 2021
 # DISTRO_NAME=go_amd64
-# ROOTFS_FILE=go_amd64_2023-02-20_12-09-rootfs.tar.zst
-# SHA256SUM=53d1e04be57f5fd3c94b1380c7d4c9cb34aed08fc845bd327aadbbd7cb96339f
-# BUILD_DATE=20230220
-# BUILD_TAG=2023-02-20
+# ROOTFS_FILE=go_amd64_2023-03-06_12-10-rootfs.tar.zst
+# SHA256SUM=390102cfa736a1d9b0cd2f1377de5649f0d3db1c0d90ff6b12a7de1c3536b320
+# BUILD_DATE=20230306
+# BUILD_TAG=2023-03-06
 # STATUS=completed
-# VERSION=latest01
-# END_TIME=12:09
+# VERSION=latest02
+# END_TIME=12:10
 
 [time]
 format = "rfc-3339"
 zone = "UTC"
-date = 2023-02-20
-begin = 2023-02-20 12:02:33.176192951+00:00
-start-sync_0 = 12:03:43
-start-zstd = 12:04:44
-start-sync_1 = 12:09:30
-end-sync_1 = 12:09:47
-end = 2023-02-20 12:09:47.792455158+00:00
+date = 2023-03-06
+begin = 2023-03-06 12:02:36.846546064+00:00
+start-sync_0 = 12:04:00
+start-zstd = 12:04:18
+start-sync_1 = 12:09:47
+end-sync_1 = 12:10:06
+end = 2023-03-06 12:10:06.060479064+00:00
 
 [server]
 repo = "cake233/go-amd64"
