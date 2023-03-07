@@ -1,6 +1,6 @@
 [main]
 name = "fedora"
-tag = ["xfce", "2023-02-28"]
+tag = ["xfce", "2023-03-07"]
 os = "fedora"
 release = "rawhide"
 arch = "arm64"
@@ -9,10 +9,10 @@ xorg_or_wayland = true
 syntax_version = "0.0.0-alpha.4"
 
 [file]
-name = "fedora-xfce_arm64_2023-02-28_15-37.tar.zst"
+name = "fedora-xfce_arm64_2023-03-07_15-10.tar.zst"
 
 # This value can be used to verify the integrity of the file
-sha256 = "0234861a8516b1a08898635fe738cdf8431ab04eacfc8e2be73bd3fc7e11d94d"
+sha256 = "1e2ddb68a18aee806cc080e45d33e3f5dbc2d16610a3940b16356ffa372fd453"
 
 # zstd: [1-22]
 zstd-level = 19
@@ -21,48 +21,48 @@ zstd-level = 19
 # Installed size ≈ tar-size
 # Installed size is approximately equal to the size of the tar file
 tar = "5.9G"
-tar_bytes = 6244887040
+tar_bytes = 6275512832
 
 # Space occupied ≈ tar-size + zstd-size
 # You will need to prepare a large enough space before installation.
 zstd = "1.6G"
-zstd_bytes = 1627664097
+zstd_bytes = 1611507141
 
 [compatibility]
 compatible_mode = true
 
-previous_version = "latest01"
+previous_version = "latest02"
 
 # The value is &str, not int
-previous_date = "20230221"
-previous_tag = "2023-02-21"
-previous_file = "fedora-xfce_arm64_2023-02-21_14-49-rootfs.tar.zst"
-previous_sha256 = "f83d09adc75c88fe6470009a99dc19460f684ffb02f38e5c2c543a1ee7096a92"
+previous_date = "20230228"
+previous_tag = "2023-02-28"
+previous_file = "fedora-xfce_arm64_2023-02-28_15-37-rootfs.tar.zst"
+previous_sha256 = "0234861a8516b1a08898635fe738cdf8431ab04eacfc8e2be73bd3fc7e11d94d"
 
-current_version = "latest02"
-current_date = "20230228"
-old_file = "fedora-xfce_arm64_2023-02-14_14-52-rootfs.tar.zst"
-old_sha256 = "87f3fed52856d9be4a06f723956d3870ae44bec66c8d42f058bd13daca9d5e20"
+current_version = "latest01"
+current_date = "20230307"
+old_file = "fedora-xfce_arm64_2023-02-21_14-49-rootfs.tar.zst"
+old_sha256 = "f83d09adc75c88fe6470009a99dc19460f684ffb02f38e5c2c543a1ee7096a92"
 # edition 2021
 # DISTRO_NAME=fedora-rawhide_arm64
-# ROOTFS_FILE=fedora-xfce_arm64_2023-02-28_15-37-rootfs.tar.zst
-# SHA256SUM=0234861a8516b1a08898635fe738cdf8431ab04eacfc8e2be73bd3fc7e11d94d
-# BUILD_DATE=20230228
-# BUILD_TAG=2023-02-28
+# ROOTFS_FILE=fedora-xfce_arm64_2023-03-07_15-10-rootfs.tar.zst
+# SHA256SUM=1e2ddb68a18aee806cc080e45d33e3f5dbc2d16610a3940b16356ffa372fd453
+# BUILD_DATE=20230307
+# BUILD_TAG=2023-03-07
 # STATUS=completed
-# VERSION=latest02
-# END_TIME=15:37
+# VERSION=latest01
+# END_TIME=15:10
 
 [time]
 format = "rfc-3339"
 zone = "UTC"
-date = 2023-02-28
-begin = 2023-02-28 13:02:42.040158849+00:00
-start-sync_0 = 15:05:19
-start-zstd = 15:11:53
-start-sync_1 = 15:35:10
-end-sync_1 = 15:37:07
-end = 2023-02-28 15:37:07.493764373+00:00
+date = 2023-03-07
+begin = 2023-03-07 13:05:18.508309980+00:00
+start-sync_0 = 14:47:25
+start-zstd = 14:52:10
+start-sync_1 = 15:09:07
+end-sync_1 = 15:10:40
+end = 2023-03-07 15:10:40.901480203+00:00
 
 [server]
 repo = "cake233/fedora-xfce-arm64"
@@ -77,7 +77,7 @@ split = false
 [server.node2]
 name = "tmoe"
 current = true
-previous = false
+previous = true
 in_sync = false
 split = false
 
@@ -86,8 +86,6 @@ name = "azure"
 current = true
 previous = true
 in_sync = false
-start_sync = 2023-02-28 18:26:19.991236858+00:00
-end_sync = 2023-02-28 18:30:55.090042067+00:00
 split = false
 
 [server.node4]
