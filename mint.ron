@@ -60,7 +60,7 @@
                 "cloud": (
                     arch: {
                         "amd64": (
-                            tags: {"2023-03-02 08:51": (type: "tar.xz", digest: (algorithm: "sha256", hex: "1e065f9e5b64b9a4f93531d1b488fa55f8abaf5a3d360ee8a38baad0c8103920"), size: (bytes: 194773124, str: "185.75 MiB"), path: "images/mint/tricia/amd64/cloud/20230302_08:51/rootfs.tar.xz"), "2023-03-03 08:51": (type: "tar.xz", digest: (algorithm: "sha256", hex: "219f4bffaf53496e72f7c61aae8080ed624bdc3e8a556ad88252d813d29dda53"), size: (bytes: 194882616, str: "185.85 MiB"), path: "images/mint/tricia/amd64/cloud/20230303_08:51/rootfs.tar.xz"), "2023-03-04 08:51": (type: "tar.xz", digest: (algorithm: "sha256", hex: "1e1d1c9f3b5dc3fcc5a842282f5bdd6b62ac4693cc5840999c9ed9bf9788b1a8"), size: (bytes: 194854380, str: "185.83 MiB"), path: "images/mint/tricia/amd64/cloud/20230304_08:51/rootfs.tar.xz")},
+                            tags: {"2023-03-03 08:51": (type: "tar.xz", digest: (algorithm: "sha256", hex: "219f4bffaf53496e72f7c61aae8080ed624bdc3e8a556ad88252d813d29dda53"), size: (bytes: 194882616, str: "185.85 MiB"), path: "images/mint/tricia/amd64/cloud/20230303_08:51/rootfs.tar.xz"), "2023-03-04 08:51": (type: "tar.xz", digest: (algorithm: "sha256", hex: "1e1d1c9f3b5dc3fcc5a842282f5bdd6b62ac4693cc5840999c9ed9bf9788b1a8"), size: (bytes: 194854380, str: "185.83 MiB"), path: "images/mint/tricia/amd64/cloud/20230304_08:51/rootfs.tar.xz"), "2023-03-06 16:11": (type: "tar.xz", digest: (algorithm: "sha256", hex: "81d188a7cacb08c838baa20df0a0fec5218304e30f29c544f0d40ecd21900b90"), size: (bytes: 194829944, str: "185.80 MiB"), path: "images/mint/tricia/amd64/cloud/20230306_16:11/rootfs.tar.xz")},
                         ),
                     },
                 ),
@@ -121,7 +121,7 @@
                 "default": (
                     arch: {
                         "amd64": (
-                            tags: {"2023-03-02 08:53": (type: "tar.xz", digest: (algorithm: "sha256", hex: "c4387769914f5e5e5b4bce69ff86b9f7541a151b4ca247408df15f60fecaee82"), size: (bytes: 195395388, str: "186.34 MiB"), path: "images/mint/uma/amd64/default/20230302_08:53/rootfs.tar.xz"), "2023-03-03 08:51": (type: "tar.xz", digest: (algorithm: "sha256", hex: "1cafd7b7761fc5757a22f8836a85cbfcc7b1417ebe4fdf1ecc0c76a111501c85"), size: (bytes: 195565232, str: "186.51 MiB"), path: "images/mint/uma/amd64/default/20230303_08:51/rootfs.tar.xz"), "2023-03-04 08:53": (type: "tar.xz", digest: (algorithm: "sha256", hex: "2d28929e468e8f3f529b69a63afd20ffa8f4028e4a526c13db8b790061a6dc60"), size: (bytes: 195579844, str: "186.52 MiB"), path: "images/mint/uma/amd64/default/20230304_08:53/rootfs.tar.xz")},
+                            tags: {"2023-03-03 08:51": (type: "tar.xz", digest: (algorithm: "sha256", hex: "1cafd7b7761fc5757a22f8836a85cbfcc7b1417ebe4fdf1ecc0c76a111501c85"), size: (bytes: 195565232, str: "186.51 MiB"), path: "images/mint/uma/amd64/default/20230303_08:51/rootfs.tar.xz"), "2023-03-04 08:53": (type: "tar.xz", digest: (algorithm: "sha256", hex: "2d28929e468e8f3f529b69a63afd20ffa8f4028e4a526c13db8b790061a6dc60"), size: (bytes: 195579844, str: "186.52 MiB"), path: "images/mint/uma/amd64/default/20230304_08:53/rootfs.tar.xz"), "2023-03-06 16:42": (type: "tar.xz", digest: (algorithm: "sha256", hex: "7d444e70dff935da21428db9c65a6fd100687ca87c683786475e313050c2ee79"), size: (bytes: 195595472, str: "186.53 MiB"), path: "images/mint/uma/amd64/default/20230306_16:42/rootfs.tar.xz")},
                         ),
                     },
                 ),
