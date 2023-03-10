@@ -6,7 +6,7 @@
                 "default": (
                     arch: {
                         "amd64": (
-                            tags: {"2023-03-06 15:09": (type: "tar.xz", digest: (algorithm: "sha256", hex: "b2564809e0d63f710883207d4cf70662a5e7b29351307a52906975ffb7c59314"), size: (bytes: 73054772, str: "69.67 MiB"), path: "images/plamo/6.x/amd64/default/20230306_15:09/rootfs.tar.xz"), "2023-03-08 01:34": (type: "tar.xz", digest: (algorithm: "sha256", hex: "20e9d50300976eba943533edccd7ed62424faecf64216bbce3a1795182af2f79"), size: (bytes: 73034432, str: "69.65 MiB"), path: "images/plamo/6.x/amd64/default/20230308_01:34/rootfs.tar.xz"), "2023-03-09 01:33": (type: "tar.xz", digest: (algorithm: "sha256", hex: "7ae6a95b85a5599df176139566221c101b28e527a8207167b9d1f3cb1485f5b7"), size: (bytes: 73089408, str: "69.70 MiB"), path: "images/plamo/6.x/amd64/default/20230309_01:33/rootfs.tar.xz")},
+                            tags: {"2023-03-08 01:34": (type: "tar.xz", digest: (algorithm: "sha256", hex: "20e9d50300976eba943533edccd7ed62424faecf64216bbce3a1795182af2f79"), size: (bytes: 73034432, str: "69.65 MiB"), path: "images/plamo/6.x/amd64/default/20230308_01:34/rootfs.tar.xz"), "2023-03-09 01:33": (type: "tar.xz", digest: (algorithm: "sha256", hex: "7ae6a95b85a5599df176139566221c101b28e527a8207167b9d1f3cb1485f5b7"), size: (bytes: 73089408, str: "69.70 MiB"), path: "images/plamo/6.x/amd64/default/20230309_01:33/rootfs.tar.xz"), "2023-03-10 02:47": (type: "tar.xz", digest: (algorithm: "sha256", hex: "4fd400e25917b36c6e7c39ea2543e9485bed3e9fda50f7da4f0be64f3b0eeb10"), size: (bytes: 73061956, str: "69.68 MiB"), path: "images/plamo/6.x/amd64/default/20230310_02:47/rootfs.tar.xz")},
                         ),
                     },
                 ),
@@ -17,7 +17,7 @@
                 "default": (
                     arch: {
                         "amd64": (
-                            tags: {"2023-03-06 15:09": (type: "tar.xz", digest: (algorithm: "sha256", hex: "a9ae5632a22d7cac86f1d7c45cb5c7303aebb1f620c1548dee00eaab7d11af6b"), size: (bytes: 217329780, str: "207.26 MiB"), path: "images/plamo/7.x/amd64/default/20230306_15:09/rootfs.tar.xz"), "2023-03-08 01:34": (type: "tar.xz", digest: (algorithm: "sha256", hex: "5b1a0afea4ee142ddebfccf328a04c413ce59f28d9299079f84f7cee60dc2323"), size: (bytes: 217304276, str: "207.24 MiB"), path: "images/plamo/7.x/amd64/default/20230308_01:34/rootfs.tar.xz"), "2023-03-09 01:34": (type: "tar.xz", digest: (algorithm: "sha256", hex: "5f29b56d2b0589827b148b55287a8a515b46f70aa4b36b7d2054c1825d6a60cd"), size: (bytes: 217308984, str: "207.24 MiB"), path: "images/plamo/7.x/amd64/default/20230309_01:34/rootfs.tar.xz")},
+                            tags: {"2023-03-08 01:34": (type: "tar.xz", digest: (algorithm: "sha256", hex: "5b1a0afea4ee142ddebfccf328a04c413ce59f28d9299079f84f7cee60dc2323"), size: (bytes: 217304276, str: "207.24 MiB"), path: "images/plamo/7.x/amd64/default/20230308_01:34/rootfs.tar.xz"), "2023-03-09 01:34": (type: "tar.xz", digest: (algorithm: "sha256", hex: "5f29b56d2b0589827b148b55287a8a515b46f70aa4b36b7d2054c1825d6a60cd"), size: (bytes: 217308984, str: "207.24 MiB"), path: "images/plamo/7.x/amd64/default/20230309_01:34/rootfs.tar.xz"), "2023-03-10 02:47": (type: "tar.xz", digest: (algorithm: "sha256", hex: "a04a84e2cc3e5c57bd604852398c937c8b0717e11b28917e4f3c005310df63a3"), size: (bytes: 217323664, str: "207.26 MiB"), path: "images/plamo/7.x/amd64/default/20230310_02:47/rootfs.tar.xz")},
                         ),
                     },
                 ),
