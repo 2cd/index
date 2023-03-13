@@ -20,7 +20,7 @@ docker exec -it php-amd64 bash
 ```toml
 [main]
 name = "php"
-tag = ["latest", "2023-02-27"]
+tag = ["latest", "2023-03-13"]
 os = "debian"
 release = "stable"
 arch = "amd64"
@@ -29,10 +29,10 @@ xorg_or_wayland = false
 syntax_version = "0.0.0-alpha.4"
 
 [file]
-name = "php_amd64_2023-02-27_12-08.tar.zst"
+name = "php_amd64_2023-03-13_12-08.tar.zst"
 
 # This value can be used to verify the integrity of the file
-sha256 = "c5d63f9169695961ca92d4087fb58bff960d7398b9306c5e95b12001d8d4f394"
+sha256 = "5327de36def8f14a24169214ae4f2e8ef869685678d83ca8d6db17573dacdd96"
 
 # zstd: [1-22]
 zstd-level = 22
@@ -41,48 +41,48 @@ zstd-level = 22
 # Installed size ≈ tar-size
 # Installed size is approximately equal to the size of the tar file
 tar = "492M"
-tar_bytes = 514887680
+tar_bytes = 514885632
 
 # Space occupied ≈ tar-size + zstd-size
 # You will need to prepare a large enough space before installation.
 zstd = "98M"
-zstd_bytes = 101879281
+zstd_bytes = 101878448
 
 [compatibility]
 compatible_mode = true
 
-previous_version = "latest01"
+previous_version = "latest02"
 
 # The value is &str, not int
-previous_date = "20230213"
-previous_tag = "2023-02-13"
-previous_file = "php_amd64_2023-02-13_12-07-rootfs.tar.zst"
-previous_sha256 = "245f2cef293cea8c5e21ba6df4ed96b576b90932660a4854646aceb60c0f6d8c"
+previous_date = "20230227"
+previous_tag = "2023-02-27"
+previous_file = "php_amd64_2023-02-27_12-08-rootfs.tar.zst"
+previous_sha256 = "c5d63f9169695961ca92d4087fb58bff960d7398b9306c5e95b12001d8d4f394"
 
-current_version = "latest02"
-current_date = "20230227"
-old_file = "php_amd64_2023-01-30_12-08-rootfs.tar.zst"
-old_sha256 = "0fb2d3a42fbbc792288d18028bccd52bcbe314aa8738b2163d4cce39cf3473be"
+current_version = "latest01"
+current_date = "20230313"
+old_file = "php_amd64_2023-02-13_12-07-rootfs.tar.zst"
+old_sha256 = "245f2cef293cea8c5e21ba6df4ed96b576b90932660a4854646aceb60c0f6d8c"
 # edition 2021
 # DISTRO_NAME=php_amd64
-# ROOTFS_FILE=php_amd64_2023-02-27_12-08-rootfs.tar.zst
-# SHA256SUM=c5d63f9169695961ca92d4087fb58bff960d7398b9306c5e95b12001d8d4f394
-# BUILD_DATE=20230227
-# BUILD_TAG=2023-02-27
+# ROOTFS_FILE=php_amd64_2023-03-13_12-08-rootfs.tar.zst
+# SHA256SUM=5327de36def8f14a24169214ae4f2e8ef869685678d83ca8d6db17573dacdd96
+# BUILD_DATE=20230313
+# BUILD_TAG=2023-03-13
 # STATUS=completed
-# VERSION=latest02
+# VERSION=latest01
 # END_TIME=12:08
 
 [time]
 format = "rfc-3339"
 zone = "UTC"
-date = 2023-02-27
-begin = 2023-02-27 12:02:42.437152848+00:00
-start-sync_0 = 12:03:54
-start-zstd = 12:04:10
+date = 2023-03-13
+begin = 2023-03-13 12:02:41.679037034+00:00
+start-sync_0 = 12:03:40
+start-zstd = 12:03:54
 start-sync_1 = 12:08:28
-end-sync_1 = 12:08:43
-end = 2023-02-27 12:08:43.364081395+00:00
+end-sync_1 = 12:08:40
+end = 2023-03-13 12:08:40.741087340+00:00
 
 [server]
 repo = "cake233/php-amd64"
@@ -120,7 +120,7 @@ PHP_INI_DIR = '/usr/local/etc/php'
 [version]
 ldd = 'ldd (Debian GLIBC 2.31-13+deb11u5) 2.31'
 php = '''
-PHP 8.2.3 (cli) (built: Feb 14 2023 20:22:21) (NTS)
+PHP 8.2.3 (cli) (built: Mar  1 2023 12:07:49) (NTS)
 Copyright (c) The PHP Group
 Zend Engine v4.2.3, Copyright (c) Zend Technologies
 '''
