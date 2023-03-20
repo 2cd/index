@@ -20,7 +20,7 @@ docker exec -it nginx-alpine-amd64 bash
 ```toml
 [main]
 name = "nginx"
-tag = ["alpine", "2023-03-06", "musl-libc", "musl"]
+tag = ["alpine", "2023-03-20", "musl-libc", "musl"]
 os = "alpine"
 release = "stable"
 arch = "amd64"
@@ -29,10 +29,10 @@ xorg_or_wayland = false
 syntax_version = "0.0.0-alpha.4"
 
 [file]
-name = "nginx-musl_amd64_2023-03-06_12-03.tar.zst"
+name = "nginx-musl_amd64_2023-03-20_12-04.tar.zst"
 
 # This value can be used to verify the integrity of the file
-sha256 = "f101dd3ec36484bd6132d9a23b05205d817f0d64430216d33d9e3d8a30b33ae8"
+sha256 = "0f3615c1c4d081a112f7a3ff9210d8f97166788da85a10a98f00f9c6dccaf6e7"
 
 # zstd: [1-22]
 zstd-level = 22
@@ -46,43 +46,43 @@ tar_bytes = 53966848
 # Space occupied ≈ tar-size + zstd-size
 # You will need to prepare a large enough space before installation.
 zstd = "15M"
-zstd_bytes = 14817982
+zstd_bytes = 14816257
 
 [compatibility]
 compatible_mode = true
 
-previous_version = "latest02"
+previous_version = "latest01"
 
 # The value is &str, not int
-previous_date = "20230220"
-previous_tag = "2023-02-20"
-previous_file = "nginx-musl_amd64_2023-02-20_12-04-rootfs.tar.zst"
-previous_sha256 = "c58344f368fce10431e14c328c1e4f779b3b43873b580231cad76e65638753a2"
+previous_date = "20230306"
+previous_tag = "2023-03-06"
+previous_file = "nginx-musl_amd64_2023-03-06_12-03-rootfs.tar.zst"
+previous_sha256 = "f101dd3ec36484bd6132d9a23b05205d817f0d64430216d33d9e3d8a30b33ae8"
 
-current_version = "latest01"
-current_date = "20230306"
-old_file = "nginx-musl_amd64_2023-02-06_12-03-rootfs.tar.zst"
-old_sha256 = "7db6981e0fa787a6079f622bc4b6457d1c1a59574eafa2e4c037f1243fa3571e"
+current_version = "latest02"
+current_date = "20230320"
+old_file = "nginx-musl_amd64_2023-02-20_12-04-rootfs.tar.zst"
+old_sha256 = "c58344f368fce10431e14c328c1e4f779b3b43873b580231cad76e65638753a2"
 # edition 2021
 # DISTRO_NAME=nginx_amd64
-# ROOTFS_FILE=nginx-musl_amd64_2023-03-06_12-03-rootfs.tar.zst
-# SHA256SUM=f101dd3ec36484bd6132d9a23b05205d817f0d64430216d33d9e3d8a30b33ae8
-# BUILD_DATE=20230306
-# BUILD_TAG=2023-03-06
+# ROOTFS_FILE=nginx-musl_amd64_2023-03-20_12-04-rootfs.tar.zst
+# SHA256SUM=0f3615c1c4d081a112f7a3ff9210d8f97166788da85a10a98f00f9c6dccaf6e7
+# BUILD_DATE=20230320
+# BUILD_TAG=2023-03-20
 # STATUS=completed
-# VERSION=latest01
-# END_TIME=12:03
+# VERSION=latest02
+# END_TIME=12:04
 
 [time]
 format = "rfc-3339"
 zone = "UTC"
-date = 2023-03-06
-begin = 2023-03-06 12:02:37.619643718+00:00
-start-sync_0 = 12:03:15
-start-zstd = 12:03:24
-start-sync_1 = 12:03:49
-end-sync_1 = 12:03:57
-end = 2023-03-06 12:03:57.444302662+00:00
+date = 2023-03-20
+begin = 2023-03-20 12:02:40.167441853+00:00
+start-sync_0 = 12:03:25
+start-zstd = 12:03:33
+start-sync_1 = 12:04:04
+end-sync_1 = 12:04:12
+end = 2023-03-20 12:04:12.771748589+00:00
 
 [server]
 repo = "cake233/nginx-alpine-amd64"
