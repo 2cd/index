@@ -6,7 +6,7 @@
                 "default": (
                     arch: {
                         "amd64": (
-                            tags: {"2023-03-17 20:46": (type: "tar.xz", digest: (algorithm: "sha256", hex: "21a01f9b3631733d9f3c728134791de06622c8903b6f66f438235473965960c0"), size: (bytes: 77859276, str: "74.25 MiB"), path: "images/pld/current/amd64/default/20230317_20:46/rootfs.tar.xz"), "2023-03-18 20:47": (type: "tar.xz", digest: (algorithm: "sha256", hex: "c9348c2d6ad0b67cea582fe3f6d1ed4354981427528491215e7713397d0601af"), size: (bytes: 77860808, str: "74.25 MiB"), path: "images/pld/current/amd64/default/20230318_20:47/rootfs.tar.xz"), "2023-03-19 20:47": (type: "tar.xz", digest: (algorithm: "sha256", hex: "489c571793182744bf3effbd573c8fa584c3bce04549f923e9bc02f49103c3e9"), size: (bytes: 77865308, str: "74.26 MiB"), path: "images/pld/current/amd64/default/20230319_20:47/rootfs.tar.xz")},
+                            tags: {"2023-03-18 20:47": (type: "tar.xz", digest: (algorithm: "sha256", hex: "c9348c2d6ad0b67cea582fe3f6d1ed4354981427528491215e7713397d0601af"), size: (bytes: 77860808, str: "74.25 MiB"), path: "images/pld/current/amd64/default/20230318_20:47/rootfs.tar.xz"), "2023-03-19 20:47": (type: "tar.xz", digest: (algorithm: "sha256", hex: "489c571793182744bf3effbd573c8fa584c3bce04549f923e9bc02f49103c3e9"), size: (bytes: 77865308, str: "74.26 MiB"), path: "images/pld/current/amd64/default/20230319_20:47/rootfs.tar.xz"), "2023-03-20 20:48": (type: "tar.xz", digest: (algorithm: "sha256", hex: "b91100021deae8d4c275d1ae97a61452617d3c6a95f61567d1d7d50fa1c6af10"), size: (bytes: 77852536, str: "74.25 MiB"), path: "images/pld/current/amd64/default/20230320_20:48/rootfs.tar.xz")},
                         ),
                     },
                 ),
