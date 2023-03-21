@@ -77,7 +77,7 @@ localhost:5903
 ```toml
 [main]
 name = "fedora"
-tag = ["kde", "2023-03-14"]
+tag = ["kde", "2023-03-21"]
 os = "fedora"
 release = "rawhide"
 arch = "arm64"
@@ -86,10 +86,10 @@ xorg_or_wayland = true
 syntax_version = "0.0.0-alpha.4"
 
 [file]
-name = "fedora-kde_arm64_2023-03-14_14-35.tar.zst"
+name = "fedora-kde_arm64_2023-03-21_15-26.tar.zst"
 
 # This value can be used to verify the integrity of the file
-sha256 = "56bc1548020436828dac9ee8f2525e60502115b060f44e69fc92ba4b4d1cb42b"
+sha256 = "dc6eef2800aefb308378ec26bf0706ad9b2577f9b4247a6bafbfc10f1cf0a5b2"
 
 # zstd: [1-22]
 zstd-level = 19
@@ -97,49 +97,49 @@ zstd-level = 19
 [file.size]
 # Installed size ≈ tar-size
 # Installed size is approximately equal to the size of the tar file
-tar = "2.6G"
-tar_bytes = 2778673152
+tar = "7.1G"
+tar_bytes = 7572110336
 
 # Space occupied ≈ tar-size + zstd-size
 # You will need to prepare a large enough space before installation.
-zstd = "561M"
-zstd_bytes = 587473970
+zstd = "1.9G"
+zstd_bytes = 1971145400
 
 [compatibility]
 compatible_mode = true
 
-previous_version = "latest01"
+previous_version = "latest02"
 
 # The value is &str, not int
-previous_date = "20230307"
-previous_tag = "2023-03-07"
-previous_file = "fedora-kde_arm64_2023-03-07_15-40-rootfs.tar.zst"
-previous_sha256 = "86d06918cdfef47c576db3f03697b2c03db713298396f63d276447019572ede0"
+previous_date = "20230314"
+previous_tag = "2023-03-14"
+previous_file = "fedora-kde_arm64_2023-03-14_14-35-rootfs.tar.zst"
+previous_sha256 = "56bc1548020436828dac9ee8f2525e60502115b060f44e69fc92ba4b4d1cb42b"
 
-current_version = "latest02"
-current_date = "20230314"
-old_file = "fedora-kde_arm64_2023-02-28_15-39-rootfs.tar.zst"
-old_sha256 = "ed988d89240edc31de7813ec68d5300c04b22a1ff42b9b361145533431eb1ab8"
+current_version = "latest01"
+current_date = "20230321"
+old_file = "fedora-kde_arm64_2023-03-07_15-40-rootfs.tar.zst"
+old_sha256 = "86d06918cdfef47c576db3f03697b2c03db713298396f63d276447019572ede0"
 # edition 2021
 # DISTRO_NAME=fedora-rawhide_arm64
-# ROOTFS_FILE=fedora-kde_arm64_2023-03-14_14-35-rootfs.tar.zst
-# SHA256SUM=56bc1548020436828dac9ee8f2525e60502115b060f44e69fc92ba4b4d1cb42b
-# BUILD_DATE=20230314
-# BUILD_TAG=2023-03-14
+# ROOTFS_FILE=fedora-kde_arm64_2023-03-21_15-26-rootfs.tar.zst
+# SHA256SUM=dc6eef2800aefb308378ec26bf0706ad9b2577f9b4247a6bafbfc10f1cf0a5b2
+# BUILD_DATE=20230321
+# BUILD_TAG=2023-03-21
 # STATUS=completed
-# VERSION=latest02
-# END_TIME=14:35
+# VERSION=latest01
+# END_TIME=15:26
 
 [time]
 format = "rfc-3339"
 zone = "UTC"
-date = 2023-03-14
-begin = 2023-03-14 13:02:43.735765385+00:00
-start-sync_0 = 14:25:42
-start-zstd = 14:27:05
-start-sync_1 = 14:35:08
-end-sync_1 = 14:35:50
-end = 2023-03-14 14:35:50.555115364+00:00
+date = 2023-03-21
+begin = 2023-03-21 13:02:41.152667393+00:00
+start-sync_0 = 14:57:11
+start-zstd = 15:02:50
+start-sync_1 = 15:24:56
+end-sync_1 = 15:26:58
+end = 2023-03-21 15:26:58.049805481+00:00
 
 [server]
 repo = "cake233/fedora-kde-arm64"
