@@ -77,7 +77,7 @@ localhost:5903
 ```toml
 [main]
 name = "debian"
-tag = ["xfce", "2023-03-15"]
+tag = ["xfce", "2023-03-22"]
 os = "debian"
 release = "sid"
 arch = "amd64"
@@ -86,10 +86,10 @@ xorg_or_wayland = true
 syntax_version = "0.0.0-alpha.4"
 
 [file]
-name = "debian-xfce_amd64_2023-03-15_12-55.tar.zst"
+name = "debian-xfce_amd64_2023-03-22_12-43.tar.zst"
 
 # This value can be used to verify the integrity of the file
-sha256 = "996e23a45f54822433196ed8fa377c523a98259f50dc61a9d9cd8dcc5d5e0421"
+sha256 = "fbdd8f6c79bbaccc60e4e817db7ecb3483cba77c49f6e1b61084258fed44849c"
 
 # zstd: [1-22]
 zstd-level = 19
@@ -98,48 +98,48 @@ zstd-level = 19
 # Installed size ≈ tar-size
 # Installed size is approximately equal to the size of the tar file
 tar = "4.0G"
-tar_bytes = 4196933632
+tar_bytes = 4208892416
 
 # Space occupied ≈ tar-size + zstd-size
 # You will need to prepare a large enough space before installation.
 zstd = "1.1G"
-zstd_bytes = 1175034521
+zstd_bytes = 1180410651
 
 [compatibility]
 compatible_mode = true
 
-previous_version = "latest01"
+previous_version = "latest02"
 
 # The value is &str, not int
-previous_date = "20230308"
-previous_tag = "2023-03-08"
-previous_file = "debian-xfce_amd64_2023-03-08_12-53-rootfs.tar.zst"
-previous_sha256 = "5bd8e28385ecc1ac8b73cbfb5a34891a7563ee8d8bffc531a0627b770daa4de5"
+previous_date = "20230315"
+previous_tag = "2023-03-15"
+previous_file = "debian-xfce_amd64_2023-03-15_12-55-rootfs.tar.zst"
+previous_sha256 = "996e23a45f54822433196ed8fa377c523a98259f50dc61a9d9cd8dcc5d5e0421"
 
-current_version = "latest02"
-current_date = "20230315"
-old_file = "debian-xfce_amd64_2023-03-01_12-49-rootfs.tar.zst"
-old_sha256 = "1da2e3ed2ebe25af1f4536fb8214d4d177240aa3f490c117a2f883ecc3cb814a"
+current_version = "latest01"
+current_date = "20230322"
+old_file = "debian-xfce_amd64_2023-03-08_12-53-rootfs.tar.zst"
+old_sha256 = "5bd8e28385ecc1ac8b73cbfb5a34891a7563ee8d8bffc531a0627b770daa4de5"
 # edition 2021
 # DISTRO_NAME=debian-sid_amd64
-# ROOTFS_FILE=debian-xfce_amd64_2023-03-15_12-55-rootfs.tar.zst
-# SHA256SUM=996e23a45f54822433196ed8fa377c523a98259f50dc61a9d9cd8dcc5d5e0421
-# BUILD_DATE=20230315
-# BUILD_TAG=2023-03-15
+# ROOTFS_FILE=debian-xfce_amd64_2023-03-22_12-43-rootfs.tar.zst
+# SHA256SUM=fbdd8f6c79bbaccc60e4e817db7ecb3483cba77c49f6e1b61084258fed44849c
+# BUILD_DATE=20230322
+# BUILD_TAG=2023-03-22
 # STATUS=completed
-# VERSION=latest02
-# END_TIME=12:55
+# VERSION=latest01
+# END_TIME=12:43
 
 [time]
 format = "rfc-3339"
 zone = "UTC"
-date = 2023-03-15
-begin = 2023-03-15 12:21:49.710155117+00:00
-start-sync_0 = 12:31:09
-start-zstd = 12:35:25
-start-sync_1 = 12:53:53
-end-sync_1 = 12:55:15
-end = 2023-03-15 12:55:15.829605914+00:00
+date = 2023-03-22
+begin = 2023-03-22 12:19:05.556696758+00:00
+start-sync_0 = 12:24:57
+start-zstd = 12:28:20
+start-sync_1 = 12:42:21
+end-sync_1 = 12:43:29
+end = 2023-03-22 12:43:29.604049720+00:00
 
 [server]
 repo = "cake233/debian-xfce-amd64"
