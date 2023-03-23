@@ -1,6 +1,6 @@
 [main]
 name = "alpine"
-tag = ["zsh", "2023-03-16"]
+tag = ["zsh", "2023-03-23"]
 os = "alpine"
 release = "edge"
 arch = "arm64"
@@ -9,10 +9,10 @@ xorg_or_wayland = false
 syntax_version = "0.0.0-alpha.4"
 
 [file]
-name = "alpine-zsh_arm64_2023-03-16_00-06.tar.zst"
+name = "alpine-zsh_arm64_2023-03-23_00-06.tar.zst"
 
 # This value can be used to verify the integrity of the file
-sha256 = "9f28aca3a297e64080ecad7f98cd13a299e148ffcff895d287e4611e2c819fb4"
+sha256 = "344c146dd7372bba6f54bfeb68b12331f0a890d719e77f62271ba203fde0bfb5"
 
 # zstd: [1-22]
 zstd-level = 20
@@ -21,48 +21,48 @@ zstd-level = 20
 # Installed size ≈ tar-size
 # Installed size is approximately equal to the size of the tar file
 tar = "109M"
-tar_bytes = 113996288
+tar_bytes = 114072576
 
 # Space occupied ≈ tar-size + zstd-size
 # You will need to prepare a large enough space before installation.
 zstd = "31M"
-zstd_bytes = 32235334
+zstd_bytes = 32255739
 
 [compatibility]
 compatible_mode = true
 
-previous_version = "latest02"
+previous_version = "latest01"
 
 # The value is &str, not int
-previous_date = "20230309"
-previous_tag = "2023-03-09"
-previous_file = "alpine-zsh_arm64_2023-03-09_00-05-rootfs.tar.zst"
-previous_sha256 = "af83b564ff8da77aef5053fa09c15c5c51970d955c96e4aa0b146d36df268237"
+previous_date = "20230316"
+previous_tag = "2023-03-16"
+previous_file = "alpine-zsh_arm64_2023-03-16_00-06-rootfs.tar.zst"
+previous_sha256 = "9f28aca3a297e64080ecad7f98cd13a299e148ffcff895d287e4611e2c819fb4"
 
-current_version = "latest01"
-current_date = "20230316"
-old_file = "alpine-zsh_arm64_2023-03-02_00-06-rootfs.tar.zst"
-old_sha256 = "ae75e8995fae850d8b4a62225725a8b3a2512d17d2f0f29cef975e38ef8af16c"
+current_version = "latest02"
+current_date = "20230323"
+old_file = "alpine-zsh_arm64_2023-03-09_00-05-rootfs.tar.zst"
+old_sha256 = "af83b564ff8da77aef5053fa09c15c5c51970d955c96e4aa0b146d36df268237"
 # edition 2021
 # DISTRO_NAME=alpine-edge_arm64
-# ROOTFS_FILE=alpine-zsh_arm64_2023-03-16_00-06-rootfs.tar.zst
-# SHA256SUM=9f28aca3a297e64080ecad7f98cd13a299e148ffcff895d287e4611e2c819fb4
-# BUILD_DATE=20230316
-# BUILD_TAG=2023-03-16
+# ROOTFS_FILE=alpine-zsh_arm64_2023-03-23_00-06-rootfs.tar.zst
+# SHA256SUM=344c146dd7372bba6f54bfeb68b12331f0a890d719e77f62271ba203fde0bfb5
+# BUILD_DATE=20230323
+# BUILD_TAG=2023-03-23
 # STATUS=completed
-# VERSION=latest01
+# VERSION=latest02
 # END_TIME=00:06
 
 [time]
 format = "rfc-3339"
 zone = "UTC"
-date = 2023-03-16
-begin = 2023-03-16 00:02:29.727333256+00:00
-start-sync_0 = 00:04:05
-start-zstd = 00:05:27
-start-sync_1 = 00:06:05
-end-sync_1 = 00:06:12
-end = 2023-03-16 00:06:12.586990394+00:00
+date = 2023-03-23
+begin = 2023-03-23 00:02:41.973212203+00:00
+start-sync_0 = 00:04:29
+start-zstd = 00:05:54
+start-sync_1 = 00:06:30
+end-sync_1 = 00:06:41
+end = 2023-03-23 00:06:41.685398117+00:00
 
 [server]
 repo = "cake233/alpine-zsh-arm64"
@@ -77,7 +77,7 @@ split = false
 [server.node2]
 name = "tmoe"
 current = true
-previous = false
+previous = true
 in_sync = false
 split = false
 
@@ -86,8 +86,6 @@ name = "azure"
 current = true
 previous = true
 in_sync = false
-start_sync = 2023-03-16 06:03:52.416240943+00:00
-end_sync = 2023-03-16 06:04:06.419522976+00:00
 split = false
 
 [server.node4]
