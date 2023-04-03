@@ -69,7 +69,7 @@ ldd "$FILE"
 ```toml
 [main]
 name = "rust"
-tag = ["latest", "2023-03-31", "nightly", "unstable", "default", "gnu-libc"]
+tag = ["latest", "2023-04-03", "nightly", "unstable", "default", "gnu-libc"]
 os = "debian"
 release = "sid"
 arch = "arm64"
@@ -78,10 +78,10 @@ xorg_or_wayland = false
 syntax_version = "0.0.0-alpha.4"
 
 [file]
-name = "rust_arm64_2023-03-31_03-08.tar.zst"
+name = "rust_arm64_2023-04-03_03-05.tar.zst"
 
 # This value can be used to verify the integrity of the file
-sha256 = "80fb0e31f4c173e27ac3bdb0e3264d8a2a4809046535136090deca8710cb4e94"
+sha256 = "7e507694b239ceae91fac3184595cde5d7685eb5c94d162b72ac3b2c53d68d85"
 
 # zstd: [1-22]
 zstd-level = 20
@@ -90,48 +90,48 @@ zstd-level = 20
 # Installed size ≈ tar-size
 # Installed size is approximately equal to the size of the tar file
 tar = "1.8G"
-tar_bytes = 1868637184
+tar_bytes = 1868952064
 
 # Space occupied ≈ tar-size + zstd-size
 # You will need to prepare a large enough space before installation.
 zstd = "245M"
-zstd_bytes = 256551197
+zstd_bytes = 256726022
 
 [compatibility]
 compatible_mode = true
 
-previous_version = "latest02"
+previous_version = "latest01"
 
 # The value is &str, not int
-previous_date = "20230327"
-previous_tag = "2023-03-27"
-previous_file = "rust_arm64_2023-03-27_03-08-rootfs.tar.zst"
-previous_sha256 = "2fd968f136ee28d64866a27a305215efdb4bb56d0bb0bc78b04ea3b81d386e1d"
+previous_date = "20230331"
+previous_tag = "2023-03-31"
+previous_file = "rust_arm64_2023-03-31_03-08-rootfs.tar.zst"
+previous_sha256 = "80fb0e31f4c173e27ac3bdb0e3264d8a2a4809046535136090deca8710cb4e94"
 
-current_version = "latest01"
-current_date = "20230331"
-old_file = "rust_arm64_2023-03-24_03-06-rootfs.tar.zst"
-old_sha256 = "76d2b0734ced2b01f65dc26163c6e18ef6aa0d6d0f2b372480ee2e1c4aba4d8e"
+current_version = "latest02"
+current_date = "20230403"
+old_file = "rust_arm64_2023-03-27_03-08-rootfs.tar.zst"
+old_sha256 = "2fd968f136ee28d64866a27a305215efdb4bb56d0bb0bc78b04ea3b81d386e1d"
 # edition 2021
 # DISTRO_NAME=rust_arm64
-# ROOTFS_FILE=rust_arm64_2023-03-31_03-08-rootfs.tar.zst
-# SHA256SUM=80fb0e31f4c173e27ac3bdb0e3264d8a2a4809046535136090deca8710cb4e94
-# BUILD_DATE=20230331
-# BUILD_TAG=2023-03-31
+# ROOTFS_FILE=rust_arm64_2023-04-03_03-05-rootfs.tar.zst
+# SHA256SUM=7e507694b239ceae91fac3184595cde5d7685eb5c94d162b72ac3b2c53d68d85
+# BUILD_DATE=20230403
+# BUILD_TAG=2023-04-03
 # STATUS=completed
-# VERSION=latest01
-# END_TIME=03:08
+# VERSION=latest02
+# END_TIME=03:05
 
 [time]
 format = "rfc-3339"
 zone = "UTC"
-date = 2023-03-31
-begin = 2023-03-31 02:52:31.286179116+00:00
-start-sync_0 = 03:00:21
-start-zstd = 03:01:39
-start-sync_1 = 03:08:12
-end-sync_1 = 03:08:33
-end = 2023-03-31 03:08:33.443039896+00:00
+date = 2023-04-03
+begin = 2023-04-03 02:52:25.590672804+00:00
+start-sync_0 = 02:58:38
+start-zstd = 02:59:47
+start-sync_1 = 03:05:22
+end-sync_1 = 03:05:41
+end = 2023-04-03 03:05:41.239320518+00:00
 
 [server]
 repo = "cake233/rust-arm64"
@@ -171,24 +171,24 @@ CARGO_HOME = "/usr/local/cargo"
 [version]
 ldd = 'ldd (Debian GLIBC 2.36-8) 2.36'
 rustup = 'rustup 1.25.2 (17db695f1 2023-02-01)'
-cargo = 'cargo 1.70.0-nightly (145219a9f 2023-03-27)'
-rustc = 'rustc 1.70.0-nightly (ec2f40c6b 2023-03-30)'
+cargo = 'cargo 1.70.0-nightly (0e474cfd7 2023-03-31)'
+rustc = 'rustc 1.70.0-nightly (3a8a131e9 2023-04-02)'
 cc = 'cc (Debian 12.2.0-14) 12.2.0'
 cargo_verbose = '''
-cargo 1.70.0-nightly (145219a9f 2023-03-27)
+cargo 1.70.0-nightly (0e474cfd7 2023-03-31)
 release: 1.70.0-nightly
-commit-hash: 145219a9f089f8b57c09f40525374fbade1e34ae
-commit-date: 2023-03-27
+commit-hash: 0e474cfd7b16b018cf46e95da3f6a5b2f1f6a9e7
+commit-date: 2023-03-31
 host: aarch64-unknown-linux-gnu
 libgit2: 1.5.0 (sys:0.16.0 vendored)
 libcurl: 8.0.1-DEV (sys:0.4.61+curl-8.0.1 vendored ssl:OpenSSL/1.1.1q)
 os: Linux [64-bit]
 '''
 rustc_verbose = '''
-rustc 1.70.0-nightly (ec2f40c6b 2023-03-30)
+rustc 1.70.0-nightly (3a8a131e9 2023-04-02)
 binary: rustc
-commit-hash: ec2f40c6b04f0e9850dd1f454e8639d319f4ed9b
-commit-date: 2023-03-30
+commit-hash: 3a8a131e9509c478ece1c58fe0ea2d49463d2300
+commit-date: 2023-04-02
 host: aarch64-unknown-linux-gnu
 release: 1.70.0-nightly
 LLVM version: 16.0.0
