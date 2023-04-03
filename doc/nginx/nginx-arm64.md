@@ -20,7 +20,7 @@ docker exec -it nginx-arm64 bash
 ```toml
 [main]
 name = "nginx"
-tag = ["latest", "2023-03-20"]
+tag = ["latest", "2023-04-03"]
 os = "debian"
 release = "stable"
 arch = "arm64"
@@ -29,10 +29,10 @@ xorg_or_wayland = false
 syntax_version = "0.0.0-alpha.4"
 
 [file]
-name = "nginx_arm64_2023-03-20_12-07.tar.zst"
+name = "nginx_arm64_2023-04-03_12-07.tar.zst"
 
 # This value can be used to verify the integrity of the file
-sha256 = "5c34e08092f2bb2781a57523294942cb8118372d569f389546dac725b8a56df3"
+sha256 = "f9c9cde25ea4bc645a33c939cc19f1932cd2461e64db762aaa4ef6c93d403e4b"
 
 # zstd: [1-22]
 zstd-level = 22
@@ -41,48 +41,48 @@ zstd-level = 22
 # Installed size ≈ tar-size
 # Installed size is approximately equal to the size of the tar file
 tar = "156M"
-tar_bytes = 163149824
+tar_bytes = 163457536
 
 # Space occupied ≈ tar-size + zstd-size
 # You will need to prepare a large enough space before installation.
 zstd = "39M"
-zstd_bytes = 40605980
+zstd_bytes = 40629587
 
 [compatibility]
 compatible_mode = true
 
-previous_version = "latest01"
+previous_version = "latest02"
 
 # The value is &str, not int
-previous_date = "20230306"
-previous_tag = "2023-03-06"
-previous_file = "nginx_arm64_2023-03-06_12-06-rootfs.tar.zst"
-previous_sha256 = "4cad6c88fd3596112e0cbd73bcccf1ca6402ac96a80feae431371775e32dba59"
+previous_date = "20230320"
+previous_tag = "2023-03-20"
+previous_file = "nginx_arm64_2023-03-20_12-07-rootfs.tar.zst"
+previous_sha256 = "5c34e08092f2bb2781a57523294942cb8118372d569f389546dac725b8a56df3"
 
-current_version = "latest02"
-current_date = "20230320"
-old_file = "nginx_arm64_2023-02-20_12-06-rootfs.tar.zst"
-old_sha256 = "ab17be06fc8ac689490eec360cc64e0a676518c50d2d5a193cb7bf9b872201c6"
+current_version = "latest01"
+current_date = "20230403"
+old_file = "nginx_arm64_2023-03-06_12-06-rootfs.tar.zst"
+old_sha256 = "4cad6c88fd3596112e0cbd73bcccf1ca6402ac96a80feae431371775e32dba59"
 # edition 2021
 # DISTRO_NAME=nginx_arm64
-# ROOTFS_FILE=nginx_arm64_2023-03-20_12-07-rootfs.tar.zst
-# SHA256SUM=5c34e08092f2bb2781a57523294942cb8118372d569f389546dac725b8a56df3
-# BUILD_DATE=20230320
-# BUILD_TAG=2023-03-20
+# ROOTFS_FILE=nginx_arm64_2023-04-03_12-07-rootfs.tar.zst
+# SHA256SUM=f9c9cde25ea4bc645a33c939cc19f1932cd2461e64db762aaa4ef6c93d403e4b
+# BUILD_DATE=20230403
+# BUILD_TAG=2023-04-03
 # STATUS=completed
-# VERSION=latest02
+# VERSION=latest01
 # END_TIME=12:07
 
 [time]
 format = "rfc-3339"
 zone = "UTC"
-date = 2023-03-20
-begin = 2023-03-20 12:02:42.104385938+00:00
-start-sync_0 = 12:05:14
-start-zstd = 12:05:28
-start-sync_1 = 12:07:14
-end-sync_1 = 12:07:25
-end = 2023-03-20 12:07:25.073370850+00:00
+date = 2023-04-03
+begin = 2023-04-03 12:02:41.855565502+00:00
+start-sync_0 = 12:05:21
+start-zstd = 12:05:34
+start-sync_1 = 12:07:23
+end-sync_1 = 12:07:33
+end = 2023-04-03 12:07:33.079996294+00:00
 
 [server]
 repo = "cake233/nginx-arm64"
@@ -118,7 +118,7 @@ LANG = "en_US.UTF-8"
 
 [version]
 ldd = 'ldd (Debian GLIBC 2.31-13+deb11u5) 2.31'
-nginx = '1.23.3'
-njs = '0.7.9'
+nginx = '1.23.4'
+njs = '0.7.11'
 pkg_release = '1~bullseye'
 ```
