@@ -77,7 +77,7 @@ localhost:5903
 ```toml
 [main]
 name = "alpine"
-tag = ["kde", "2023-03-30"]
+tag = ["kde", "2023-04-06"]
 os = "alpine"
 release = "edge"
 arch = "arm64"
@@ -86,10 +86,10 @@ xorg_or_wayland = true
 syntax_version = "0.0.0-alpha.4"
 
 [file]
-name = "alpine-kde_arm64_2023-03-30_00-26.tar.zst"
+name = "alpine-kde_arm64_2023-04-06_00-24.tar.zst"
 
 # This value can be used to verify the integrity of the file
-sha256 = "95a8a34f752d20fedf227e819fa6c9a749a470643cfcfcaecebbbc23ccd135fb"
+sha256 = "82547c1cc530737ad4ed74ead7994a5914c9498935ed3926de953be81f056519"
 
 # zstd: [1-22]
 zstd-level = 19
@@ -98,48 +98,48 @@ zstd-level = 19
 # Installed size ≈ tar-size
 # Installed size is approximately equal to the size of the tar file
 tar = "1.9G"
-tar_bytes = 1955197440
+tar_bytes = 1956506624
 
 # Space occupied ≈ tar-size + zstd-size
 # You will need to prepare a large enough space before installation.
 zstd = "553M"
-zstd_bytes = 579413875
+zstd_bytes = 579765623
 
 [compatibility]
 compatible_mode = true
 
-previous_version = "latest02"
+previous_version = "latest01"
 
 # The value is &str, not int
-previous_date = "20230323"
-previous_tag = "2023-03-23"
-previous_file = "alpine-kde_arm64_2023-03-23_00-29-rootfs.tar.zst"
-previous_sha256 = "4118a62520a98abcf185fee4203aa5b03ed36f17406364e2c30118f46ede62c3"
+previous_date = "20230330"
+previous_tag = "2023-03-30"
+previous_file = "alpine-kde_arm64_2023-03-30_00-26-rootfs.tar.zst"
+previous_sha256 = "95a8a34f752d20fedf227e819fa6c9a749a470643cfcfcaecebbbc23ccd135fb"
 
-current_version = "latest01"
-current_date = "20230330"
-old_file = "alpine-kde_arm64_2023-03-16_00-24-rootfs.tar.zst"
-old_sha256 = "c20cd6a79b3759232b99e80cc3ec3f0b176a7230766999f0e4d91aa616df2c0d"
+current_version = "latest02"
+current_date = "20230406"
+old_file = "alpine-kde_arm64_2023-03-23_00-29-rootfs.tar.zst"
+old_sha256 = "4118a62520a98abcf185fee4203aa5b03ed36f17406364e2c30118f46ede62c3"
 # edition 2021
 # DISTRO_NAME=alpine-edge_arm64
-# ROOTFS_FILE=alpine-kde_arm64_2023-03-30_00-26-rootfs.tar.zst
-# SHA256SUM=95a8a34f752d20fedf227e819fa6c9a749a470643cfcfcaecebbbc23ccd135fb
-# BUILD_DATE=20230330
-# BUILD_TAG=2023-03-30
+# ROOTFS_FILE=alpine-kde_arm64_2023-04-06_00-24-rootfs.tar.zst
+# SHA256SUM=82547c1cc530737ad4ed74ead7994a5914c9498935ed3926de953be81f056519
+# BUILD_DATE=20230406
+# BUILD_TAG=2023-04-06
 # STATUS=completed
-# VERSION=latest01
-# END_TIME=00:26
+# VERSION=latest02
+# END_TIME=00:24
 
 [time]
 format = "rfc-3339"
 zone = "UTC"
-date = 2023-03-30
-begin = 2023-03-30 00:06:26.747954860+00:00
-start-sync_0 = 00:18:11
-start-zstd = 00:19:45
-start-sync_1 = 00:26:15
-end-sync_1 = 00:26:57
-end = 2023-03-30 00:26:57.655946442+00:00
+date = 2023-04-06
+begin = 2023-04-06 00:07:07.118027737+00:00
+start-sync_0 = 00:15:42
+start-zstd = 00:17:12
+start-sync_1 = 00:23:34
+end-sync_1 = 00:24:12
+end = 2023-04-06 00:24:12.553283717+00:00
 
 [server]
 repo = "cake233/alpine-kde-arm64"
