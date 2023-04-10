@@ -44,7 +44,7 @@ docker exec -it dotnet-arm64 /usr/local/powershell/pwsh
 ```toml
 [main]
 name = "dotnet"
-tag = ["latest", "2023-03-13", ".NET", "dotnet-sdk"]
+tag = ["latest", "2023-04-10", ".NET", "dotnet-sdk"]
 os = "arch"
 release = "latest"
 arch = "arm64"
@@ -53,10 +53,10 @@ xorg_or_wayland = false
 syntax_version = "0.0.0-alpha.4"
 
 [file]
-name = "dotnet_arm64_2023-03-13_12-32.tar.zst"
+name = "dotnet_arm64_2023-04-10_12-39.tar.zst"
 
 # This value can be used to verify the integrity of the file
-sha256 = "af78e012f0faedbadb06861166901d9f03528c9a1a9e5b7119344e586b4412fe"
+sha256 = "e1389308e59e06b38ff11cf1dd2fec380d8921ded09f040bc6f9e4acae428f57"
 
 # zstd: [1-22]
 zstd-level = 22
@@ -64,49 +64,49 @@ zstd-level = 22
 [file.size]
 # Installed size ≈ tar-size
 # Installed size is approximately equal to the size of the tar file
-tar = "1.7G"
-tar_bytes = 1823853568
+tar = "1.8G"
+tar_bytes = 1827356672
 
 # Space occupied ≈ tar-size + zstd-size
 # You will need to prepare a large enough space before installation.
-zstd = "405M"
-zstd_bytes = 424269492
+zstd = "406M"
+zstd_bytes = 425004262
 
 [compatibility]
 compatible_mode = true
 
-previous_version = "latest02"
+previous_version = "latest01"
 
 # The value is &str, not int
-previous_date = "20230227"
-previous_tag = "2023-02-27"
-previous_file = "dotnet_arm64_2023-02-27_12-38-rootfs.tar.zst"
-previous_sha256 = "c2a401f9554d6c9e4d249ddde02aa1317b9dfb12c2b07737b40fddcc75841c78"
+previous_date = "20230313"
+previous_tag = "2023-03-13"
+previous_file = "dotnet_arm64_2023-03-13_12-32-rootfs.tar.zst"
+previous_sha256 = "af78e012f0faedbadb06861166901d9f03528c9a1a9e5b7119344e586b4412fe"
 
-current_version = "latest01"
-current_date = "20230313"
-old_file = "dotnet_arm64_2023-02-13_12-30-rootfs.tar.zst"
-old_sha256 = "bbd98b89af3ee9922286971a2d7c9dae870a556b61962dd8d6c26facc438424b"
+current_version = "latest02"
+current_date = "20230410"
+old_file = "dotnet_arm64_2023-02-27_12-38-rootfs.tar.zst"
+old_sha256 = "c2a401f9554d6c9e4d249ddde02aa1317b9dfb12c2b07737b40fddcc75841c78"
 # edition 2021
 # DISTRO_NAME=dotnet_arm64
-# ROOTFS_FILE=dotnet_arm64_2023-03-13_12-32-rootfs.tar.zst
-# SHA256SUM=af78e012f0faedbadb06861166901d9f03528c9a1a9e5b7119344e586b4412fe
-# BUILD_DATE=20230313
-# BUILD_TAG=2023-03-13
+# ROOTFS_FILE=dotnet_arm64_2023-04-10_12-39-rootfs.tar.zst
+# SHA256SUM=e1389308e59e06b38ff11cf1dd2fec380d8921ded09f040bc6f9e4acae428f57
+# BUILD_DATE=20230410
+# BUILD_TAG=2023-04-10
 # STATUS=completed
-# VERSION=latest01
-# END_TIME=12:32
+# VERSION=latest02
+# END_TIME=12:39
 
 [time]
 format = "rfc-3339"
 zone = "UTC"
-date = 2023-03-13
-begin = 2023-03-13 12:02:40.331773399+00:00
-start-sync_0 = 12:21:39
-start-zstd = 12:22:28
-start-sync_1 = 12:32:18
-end-sync_1 = 12:32:49
-end = 2023-03-13 12:32:49.298603791+00:00
+date = 2023-04-10
+begin = 2023-04-10 12:02:35.287038622+00:00
+start-sync_0 = 12:26:16
+start-zstd = 12:27:14
+start-sync_1 = 12:38:32
+end-sync_1 = 12:39:07
+end = 2023-04-10 12:39:07.493312015+00:00
 
 [server]
 repo = "cake233/dotnet-arm64"
@@ -150,32 +150,32 @@ NUGET_XMLDOC_MODE = "skip"
 
 [version]
 ldd = 'ldd (GNU libc) 2.35'
-git = 'git version 2.39.2'
-dotnet = '7.0.201'
+git = 'git version 2.40.0'
+dotnet = '7.0.202'
 powershell = 'PowerShell 7.3.3'
 dotnet_info = '''
 .NET SDK:
- Version:   7.0.201
- Commit:    68f2d7e7a3
+ Version:   7.0.202
+ Commit:    6c74320bc3
 
 Runtime Environment:
  OS Name:     archarm
  OS Version:  
  OS Platform: Linux
  RID:         linux-arm64
- Base Path:   /usr/local/dotnet/sdk/7.0.201/
+ Base Path:   /usr/local/dotnet/sdk/7.0.202/
 
 Host:
-  Version:      7.0.3
+  Version:      7.0.4
   Architecture: arm64
-  Commit:       0a2bda10e8
+  Commit:       0a396acafe
 
 .NET SDKs installed:
-  7.0.201 [/usr/local/dotnet/sdk]
+  7.0.202 [/usr/local/dotnet/sdk]
 
 .NET runtimes installed:
-  Microsoft.AspNetCore.App 7.0.3 [/usr/local/dotnet/shared/Microsoft.AspNetCore.App]
-  Microsoft.NETCore.App 7.0.3 [/usr/local/dotnet/shared/Microsoft.NETCore.App]
+  Microsoft.AspNetCore.App 7.0.4 [/usr/local/dotnet/shared/Microsoft.AspNetCore.App]
+  Microsoft.NETCore.App 7.0.4 [/usr/local/dotnet/shared/Microsoft.NETCore.App]
 
 Other architectures found:
   None
