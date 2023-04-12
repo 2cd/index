@@ -1,6 +1,6 @@
 [main]
 name = "debian"
-tag = ["zsh", "2023-04-05"]
+tag = ["zsh", "2023-04-12"]
 os = "debian"
 release = "sid"
 arch = "i386"
@@ -9,10 +9,10 @@ xorg_or_wayland = false
 syntax_version = "0.0.0-alpha.4"
 
 [file]
-name = "debian-zsh_i386_2023-04-05_12-19.tar.zst"
+name = "debian-zsh_i386_2023-04-12_12-21.tar.zst"
 
 # This value can be used to verify the integrity of the file
-sha256 = "4bd1d3f15fac7284cd3ce5b9d30df1512443c4b52e68c5f5f6016249261c9781"
+sha256 = "136039e40a03815492f63e9d1d43a11c130b656b5a484d60ec3998265b57b603"
 
 # zstd: [1-22]
 zstd-level = 20
@@ -21,48 +21,48 @@ zstd-level = 20
 # Installed size ≈ tar-size
 # Installed size is approximately equal to the size of the tar file
 tar = "778M"
-tar_bytes = 815007232
+tar_bytes = 815019520
 
 # Space occupied ≈ tar-size + zstd-size
 # You will need to prepare a large enough space before installation.
 zstd = "154M"
-zstd_bytes = 161029812
+zstd_bytes = 160970899
 
 [compatibility]
 compatible_mode = true
 
-previous_version = "latest02"
+previous_version = "latest01"
 
 # The value is &str, not int
-previous_date = "20230329"
-previous_tag = "2023-03-29"
-previous_file = "debian-zsh_i386_2023-03-29_12-18-rootfs.tar.zst"
-previous_sha256 = "023faeaa70abd20dac2c586f7a7a10d7c55df5a341a7415456a43db370f3e998"
+previous_date = "20230405"
+previous_tag = "2023-04-05"
+previous_file = "debian-zsh_i386_2023-04-05_12-19-rootfs.tar.zst"
+previous_sha256 = "4bd1d3f15fac7284cd3ce5b9d30df1512443c4b52e68c5f5f6016249261c9781"
 
-current_version = "latest01"
-current_date = "20230405"
-old_file = "debian-zsh_i386_2023-03-22_12-18-rootfs.tar.zst"
-old_sha256 = "98a05b8d8ac851ffda8397c0f43b95f5e43bf4503241b88136ce8b028c596ab8"
+current_version = "latest02"
+current_date = "20230412"
+old_file = "debian-zsh_i386_2023-03-29_12-18-rootfs.tar.zst"
+old_sha256 = "023faeaa70abd20dac2c586f7a7a10d7c55df5a341a7415456a43db370f3e998"
 # edition 2021
 # DISTRO_NAME=debian-sid_i386
-# ROOTFS_FILE=debian-zsh_i386_2023-04-05_12-19-rootfs.tar.zst
-# SHA256SUM=4bd1d3f15fac7284cd3ce5b9d30df1512443c4b52e68c5f5f6016249261c9781
-# BUILD_DATE=20230405
-# BUILD_TAG=2023-04-05
+# ROOTFS_FILE=debian-zsh_i386_2023-04-12_12-21-rootfs.tar.zst
+# SHA256SUM=136039e40a03815492f63e9d1d43a11c130b656b5a484d60ec3998265b57b603
+# BUILD_DATE=20230412
+# BUILD_TAG=2023-04-12
 # STATUS=completed
-# VERSION=latest01
-# END_TIME=12:19
+# VERSION=latest02
+# END_TIME=12:21
 
 [time]
 format = "rfc-3339"
 zone = "UTC"
-date = 2023-04-05
-begin = 2023-04-05 12:02:31.756437828+00:00
-start-sync_0 = 12:14:32
-start-zstd = 12:16:23
-start-sync_1 = 12:19:04
-end-sync_1 = 12:19:19
-end = 2023-04-05 12:19:19.675166398+00:00
+date = 2023-04-12
+begin = 2023-04-12 12:02:43.036980600+00:00
+start-sync_0 = 12:16:35
+start-zstd = 12:18:29
+start-sync_1 = 12:21:05
+end-sync_1 = 12:21:22
+end = 2023-04-12 12:21:22.883033958+00:00
 
 [server]
 repo = "cake233/debian-zsh-386"
@@ -77,7 +77,7 @@ split = false
 [server.node2]
 name = "tmoe"
 current = true
-previous = false
+previous = true
 in_sync = false
 split = false
 
@@ -86,8 +86,6 @@ name = "azure"
 current = true
 previous = true
 in_sync = false
-start_sync = 2023-04-05 18:03:40.379435922+00:00
-end_sync = 2023-04-05 18:04:11.125263110+00:00
 split = false
 
 [server.node4]
@@ -99,5 +97,5 @@ current = true
 LANG = "en_US.UTF-8"
 
 [version]
-ldd = 'ldd (Debian GLIBC 2.36-8) 2.36'
+ldd = 'ldd (Debian GLIBC 2.36-9) 2.36'
 zsh = 'zsh 5.9 (i686-debian-linux-gnu)'
