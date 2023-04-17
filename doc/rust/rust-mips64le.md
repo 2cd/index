@@ -69,7 +69,7 @@ ldd "$FILE"
 ```toml
 [main]
 name = "rust"
-tag = ["latest", "2023-04-10", "nightly", "unstable", "default", "gnu-libc"]
+tag = ["latest", "2023-04-17", "nightly", "unstable", "default", "gnu-libc"]
 os = "debian"
 release = "sid"
 arch = "mips64el"
@@ -78,10 +78,10 @@ xorg_or_wayland = false
 syntax_version = "0.0.0-alpha.4"
 
 [file]
-name = "rust_mips64el_2023-04-10_03-04.tar.zst"
+name = "rust_mips64el_2023-04-17_03-05.tar.zst"
 
 # This value can be used to verify the integrity of the file
-sha256 = "3e5ebb9de49be678dbf915eb5bbd21b053a32e9c1556e93ff5c3704902f05025"
+sha256 = "a7a2a51b190eb8722cee350d98f80c70bcea0276e8cf2a0198400a9057358b06"
 
 # zstd: [1-22]
 zstd-level = 20
@@ -90,48 +90,48 @@ zstd-level = 20
 # Installed size ≈ tar-size
 # Installed size is approximately equal to the size of the tar file
 tar = "1.6G"
-tar_bytes = 1652018688
+tar_bytes = 1651325440
 
 # Space occupied ≈ tar-size + zstd-size
 # You will need to prepare a large enough space before installation.
 zstd = "193M"
-zstd_bytes = 202089412
+zstd_bytes = 201682091
 
 [compatibility]
 compatible_mode = true
 
-previous_version = "latest01"
+previous_version = "latest02"
 
 # The value is &str, not int
-previous_date = "20230407"
-previous_tag = "2023-04-07"
-previous_file = "rust_mips64el_2023-04-07_03-05-rootfs.tar.zst"
-previous_sha256 = "87867a5d30aec0ee042d7377005fcb8ef92e1e83273212cac1e2b6db340b9e76"
+previous_date = "20230410"
+previous_tag = "2023-04-10"
+previous_file = "rust_mips64el_2023-04-10_03-04-rootfs.tar.zst"
+previous_sha256 = "3e5ebb9de49be678dbf915eb5bbd21b053a32e9c1556e93ff5c3704902f05025"
 
-current_version = "latest02"
-current_date = "20230410"
-old_file = "rust_mips64el_2023-04-03_03-06-rootfs.tar.zst"
-old_sha256 = "cac0fc6d5bbc2d227c6ab44fb6e9663c5511920aa1c6d8a1a54532332f433c3b"
+current_version = "latest01"
+current_date = "20230417"
+old_file = "rust_mips64el_2023-04-07_03-05-rootfs.tar.zst"
+old_sha256 = "87867a5d30aec0ee042d7377005fcb8ef92e1e83273212cac1e2b6db340b9e76"
 # edition 2021
 # DISTRO_NAME=rust_mips64el
-# ROOTFS_FILE=rust_mips64el_2023-04-10_03-04-rootfs.tar.zst
-# SHA256SUM=3e5ebb9de49be678dbf915eb5bbd21b053a32e9c1556e93ff5c3704902f05025
-# BUILD_DATE=20230410
-# BUILD_TAG=2023-04-10
+# ROOTFS_FILE=rust_mips64el_2023-04-17_03-05-rootfs.tar.zst
+# SHA256SUM=a7a2a51b190eb8722cee350d98f80c70bcea0276e8cf2a0198400a9057358b06
+# BUILD_DATE=20230417
+# BUILD_TAG=2023-04-17
 # STATUS=completed
-# VERSION=latest02
-# END_TIME=03:04
+# VERSION=latest01
+# END_TIME=03:05
 
 [time]
 format = "rfc-3339"
 zone = "UTC"
-date = 2023-04-10
-begin = 2023-04-10 02:52:26.128653515+00:00
-start-sync_0 = 02:58:15
-start-zstd = 02:59:09
-start-sync_1 = 03:04:15
-end-sync_1 = 03:04:31
-end = 2023-04-10 03:04:31.968994836+00:00
+date = 2023-04-17
+begin = 2023-04-17 02:52:29.664341328+00:00
+start-sync_0 = 02:58:23
+start-zstd = 02:59:23
+start-sync_1 = 03:04:41
+end-sync_1 = 03:05:01
+end = 2023-04-17 03:05:01.143442504+00:00
 
 [server]
 repo = "cake233/rust-mips64le"
@@ -169,28 +169,29 @@ RUSTUP_HOME = "/usr/local/rustup"
 CARGO_HOME = "/usr/local/cargo"
 
 [version]
-ldd = 'ldd (Debian GLIBC 2.36-8) 2.36'
+ldd = 'ldd (Debian GLIBC 2.36-9) 2.36'
 rustup = 'rustup 1.25.1 (bb60b1e89 2022-07-12)'
-cargo = 'cargo 1.70.0-nightly (0e474cfd7 2023-03-31)'
-rustc = 'rustc 1.70.0-nightly (696aaad58 2023-04-09)'
+cargo = 'cargo 1.71.0-nightly (d0a4cbcee 2023-04-16)'
+rustc = 'rustc 1.71.0-nightly (d0f204e4d 2023-04-16)'
 cc = 'cc (Debian 12.2.0-14) 12.2.0'
 cargo_verbose = '''
-cargo 1.70.0-nightly (0e474cfd7 2023-03-31)
-release: 1.70.0-nightly
-commit-hash: 0e474cfd7b16b018cf46e95da3f6a5b2f1f6a9e7
-commit-date: 2023-03-31
+cargo 1.71.0-nightly (d0a4cbcee 2023-04-16)
+release: 1.71.0-nightly
+commit-hash: d0a4cbcee614fdb7ba66e860e603a00a644d71f8
+commit-date: 2023-04-16
 host: mips64el-unknown-linux-gnuabi64
-libgit2: 1.5.0 (sys:0.16.0 vendored)
-libcurl: 8.0.1-DEV (sys:0.4.61+curl-8.0.1 vendored ssl:OpenSSL/1.1.1q)
+libgit2: 1.6.3 (sys:0.17.0 vendored)
+libcurl: 8.0.1-DEV (sys:0.4.61+curl-8.0.1 vendored ssl:OpenSSL/1.1.1t)
+ssl: OpenSSL 1.1.1t  7 Feb 2023
 os: Linux [64-bit]
 '''
 rustc_verbose = '''
-rustc 1.70.0-nightly (696aaad58 2023-04-09)
+rustc 1.71.0-nightly (d0f204e4d 2023-04-16)
 binary: rustc
-commit-hash: 696aaad58c57a589f6fb2ecff5bae2eec581cb71
-commit-date: 2023-04-09
+commit-hash: d0f204e4d750b62f9d6c2593405e828757126832
+commit-date: 2023-04-16
 host: mips64el-unknown-linux-gnuabi64
-release: 1.70.0-nightly
+release: 1.71.0-nightly
 LLVM version: 16.0.2
 '''
 ```
