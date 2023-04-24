@@ -1,6 +1,6 @@
 [main]
 name = "ruby"
-tag = ["latest", "2023-04-10"]
+tag = ["latest", "2023-04-24"]
 os = "debian"
 release = "stable"
 arch = "arm64"
@@ -9,10 +9,10 @@ xorg_or_wayland = false
 syntax_version = "0.0.0-alpha.4"
 
 [file]
-name = "ruby_arm64_2023-04-10_12-11.tar.zst"
+name = "ruby_arm64_2023-04-24_12-11.tar.zst"
 
 # This value can be used to verify the integrity of the file
-sha256 = "46944be8fa7ee38c60746ed9b2dace80b239292d100cc37de73fd61da9f7e66d"
+sha256 = "f6c71aa4bd709247b92c2de990eb55f28e7ec55fbab1f719fa406abc0369f791"
 
 # zstd: [1-22]
 zstd-level = 22
@@ -21,48 +21,48 @@ zstd-level = 22
 # Installed size ≈ tar-size
 # Installed size is approximately equal to the size of the tar file
 tar = "849M"
-tar_bytes = 889368064
+tar_bytes = 889371136
 
 # Space occupied ≈ tar-size + zstd-size
 # You will need to prepare a large enough space before installation.
 zstd = "201M"
-zstd_bytes = 210069010
+zstd_bytes = 210096839
 
 [compatibility]
 compatible_mode = true
 
-previous_version = "latest02"
+previous_version = "latest01"
 
 # The value is &str, not int
-previous_date = "20230327"
-previous_tag = "2023-03-27"
-previous_file = "ruby_arm64_2023-03-27_12-11-rootfs.tar.zst"
-previous_sha256 = "e321f2044a4079e1d8626928605822c6d834bc66313ba6c36c5623013a04f45a"
+previous_date = "20230410"
+previous_tag = "2023-04-10"
+previous_file = "ruby_arm64_2023-04-10_12-11-rootfs.tar.zst"
+previous_sha256 = "46944be8fa7ee38c60746ed9b2dace80b239292d100cc37de73fd61da9f7e66d"
 
-current_version = "latest01"
-current_date = "20230410"
-old_file = "ruby_arm64_2023-03-13_12-11-rootfs.tar.zst"
-old_sha256 = "fb37ab7e4ebd208f47c22675ef79c6b2afd0052567a245084571d76d1b623fca"
+current_version = "latest02"
+current_date = "20230424"
+old_file = "ruby_arm64_2023-03-27_12-11-rootfs.tar.zst"
+old_sha256 = "e321f2044a4079e1d8626928605822c6d834bc66313ba6c36c5623013a04f45a"
 # edition 2021
 # DISTRO_NAME=ruby_arm64
-# ROOTFS_FILE=ruby_arm64_2023-04-10_12-11-rootfs.tar.zst
-# SHA256SUM=46944be8fa7ee38c60746ed9b2dace80b239292d100cc37de73fd61da9f7e66d
-# BUILD_DATE=20230410
-# BUILD_TAG=2023-04-10
+# ROOTFS_FILE=ruby_arm64_2023-04-24_12-11-rootfs.tar.zst
+# SHA256SUM=f6c71aa4bd709247b92c2de990eb55f28e7ec55fbab1f719fa406abc0369f791
+# BUILD_DATE=20230424
+# BUILD_TAG=2023-04-24
 # STATUS=completed
-# VERSION=latest01
+# VERSION=latest02
 # END_TIME=12:11
 
 [time]
 format = "rfc-3339"
 zone = "UTC"
-date = 2023-04-10
-begin = 2023-04-10 12:02:35.633812912+00:00
-start-sync_0 = 12:05:59
-start-zstd = 12:06:15
-start-sync_1 = 12:10:51
-end-sync_1 = 12:11:09
-end = 2023-04-10 12:11:09.811130482+00:00
+date = 2023-04-24
+begin = 2023-04-24 12:02:44.560027485+00:00
+start-sync_0 = 12:06:05
+start-zstd = 12:06:21
+start-sync_1 = 12:10:46
+end-sync_1 = 12:11:05
+end = 2023-04-24 12:11:05.396563262+00:00
 
 [server]
 repo = "cake233/ruby-arm64"
@@ -77,7 +77,7 @@ split = false
 [server.node2]
 name = "tmoe"
 current = true
-previous = false
+previous = true
 in_sync = false
 split = false
 
@@ -86,8 +86,6 @@ name = "azure"
 current = true
 previous = true
 in_sync = false
-start_sync = 2023-04-10 18:06:12.010592772+00:00
-end_sync = 2023-04-10 18:06:54.039163463+00:00
 split = false
 
 [server.node4]
