@@ -20,7 +20,7 @@ docker exec -it arch-arm64 sh
 ```toml
 [main]
 name = "arch"
-tag = ["base", "2023-04-25"]
+tag = ["base", "2023-04-26"]
 os = "arch"
 release = "latest"
 arch = "arm64"
@@ -29,10 +29,10 @@ xorg_or_wayland = false
 syntax_version = "0.0.0-alpha.4"
 
 [file]
-name = "arch_arm64_2023-04-25_21-46.tar.zst"
+name = "arch_arm64_2023-04-26_00-07.tar.zst"
 
 # This value can be used to verify the integrity of the file
-sha256 = "411aac795ea2582bfb6b4e6507df192db70e2c43370bef59341ed57f680f55b6"
+sha256 = "280979a09f80db86fc08500e9e137c09aaa3987e5862aeb0ac08fb182fc6f8cb"
 
 # zstd: [1-22]
 zstd-level = 12
@@ -46,7 +46,7 @@ tar_bytes = 947745280
 # Space occupied ≈ tar-size + zstd-size
 # You will need to prepare a large enough space before installation.
 zstd = "255M"
-zstd_bytes = 266552962
+zstd_bytes = 266552925
 
 [compatibility]
 compatible_mode = true
@@ -60,29 +60,29 @@ previous_file = ""
 previous_sha256 = ""
 
 current_version = "latest01"
-current_date = "20230425"
+current_date = "20230426"
 old_file = ""
 old_sha256 = ""
 # edition 2021
 # DISTRO_NAME=arch_arm64
-# ROOTFS_FILE=arch_arm64_2023-04-25_21-46-rootfs.tar.zst
-# SHA256SUM=411aac795ea2582bfb6b4e6507df192db70e2c43370bef59341ed57f680f55b6
-# BUILD_DATE=20230425
-# BUILD_TAG=2023-04-25
+# ROOTFS_FILE=arch_arm64_2023-04-26_00-07-rootfs.tar.zst
+# SHA256SUM=280979a09f80db86fc08500e9e137c09aaa3987e5862aeb0ac08fb182fc6f8cb
+# BUILD_DATE=20230426
+# BUILD_TAG=2023-04-26
 # STATUS=completed
 # VERSION=latest01
-# END_TIME=21:46
+# END_TIME=00:07
 
 [time]
 format = "rfc-3339"
 zone = "UTC"
-date = 2023-04-25
-begin = 2023-04-25 21:41:54.343027137+00:00
-start-sync_0 = 21:44:34
-start-zstd = 21:45:16
-start-sync_1 = 21:45:40
-end-sync_1 = 21:46:01
-end = 2023-04-25 21:46:01.382563483+00:00
+date = 2023-04-26
+begin = 2023-04-26 00:02:32.861266094+00:00
+start-sync_0 = 00:05:35
+start-zstd = 00:06:23
+start-sync_1 = 00:06:45
+end-sync_1 = 00:07:08
+end = 2023-04-26 00:07:08.499722907+00:00
 
 [server]
 repo = "cake233/arch-arm64"
