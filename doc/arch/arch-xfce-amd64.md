@@ -77,7 +77,7 @@ localhost:5903
 ```toml
 [main]
 name = "arch"
-tag = ["xfce", "2023-04-25"]
+tag = ["xfce", "2023-04-26"]
 os = "arch"
 release = "latest"
 arch = "amd64"
@@ -86,10 +86,10 @@ xorg_or_wayland = true
 syntax_version = "0.0.0-alpha.4"
 
 [file]
-name = "arch-xfce_amd64_2023-04-25_23-01.tar.zst"
+name = "arch-xfce_amd64_2023-04-26_01-02.tar.zst"
 
 # This value can be used to verify the integrity of the file
-sha256 = "21aa295a5475a4145ae58d698ae555f89846be118fae9fed8c927cf9e81149fb"
+sha256 = "b527d9986dbf22e077772c1cd21a2d98675abfde8a3a855fc3f204d5bbbcfeef"
 
 # zstd: [1-22]
 zstd-level = 19
@@ -97,13 +97,13 @@ zstd-level = 19
 [file.size]
 # Installed size ≈ tar-size
 # Installed size is approximately equal to the size of the tar file
-tar = "3.8G"
-tar_bytes = 3989258752
+tar = "3.7G"
+tar_bytes = 3972000256
 
 # Space occupied ≈ tar-size + zstd-size
 # You will need to prepare a large enough space before installation.
-zstd = "1.2G"
-zstd_bytes = 1187039645
+zstd = "1.1G"
+zstd_bytes = 1169606515
 
 [compatibility]
 compatible_mode = true
@@ -117,29 +117,29 @@ previous_file = "arch-xfce_amd64_2023-04-19_00-53-rootfs.tar.zst"
 previous_sha256 = "3de9535ff6ce8157b617d0adfa37080c476d80e430daa63bd3eb5a1dab8c4dad"
 
 current_version = "latest01"
-current_date = "20230425"
+current_date = "20230426"
 old_file = "arch-xfce_amd64_2023-04-12_00-52-rootfs.tar.zst"
 old_sha256 = "a7401f0ad317a3e010d40e9fd8e6d4342723b15992d60aefa4af40cf9c5fcbc9"
 # edition 2021
 # DISTRO_NAME=arch_amd64
-# ROOTFS_FILE=arch-xfce_amd64_2023-04-25_23-01-rootfs.tar.zst
-# SHA256SUM=21aa295a5475a4145ae58d698ae555f89846be118fae9fed8c927cf9e81149fb
-# BUILD_DATE=20230425
-# BUILD_TAG=2023-04-25
+# ROOTFS_FILE=arch-xfce_amd64_2023-04-26_01-02-rootfs.tar.zst
+# SHA256SUM=b527d9986dbf22e077772c1cd21a2d98675abfde8a3a855fc3f204d5bbbcfeef
+# BUILD_DATE=20230426
+# BUILD_TAG=2023-04-26
 # STATUS=completed
 # VERSION=latest01
-# END_TIME=23:01
+# END_TIME=01:02
 
 [time]
 format = "rfc-3339"
 zone = "UTC"
-date = 2023-04-25
-begin = 2023-04-25 22:38:11.270094116+00:00
-start-sync_0 = 22:41:56
-start-zstd = 22:45:11
-start-sync_1 = 23:00:09
-end-sync_1 = 23:01:17
-end = 2023-04-25 23:01:17.178879474+00:00
+date = 2023-04-26
+begin = 2023-04-26 00:34:48.165837259+00:00
+start-sync_0 = 00:39:19
+start-zstd = 00:43:22
+start-sync_1 = 01:00:40
+end-sync_1 = 01:02:06
+end = 2023-04-26 01:02:06.919140620+00:00
 
 [server]
 repo = "cake233/arch-xfce-amd64"
