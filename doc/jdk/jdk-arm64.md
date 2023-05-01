@@ -20,7 +20,7 @@ docker exec -it jdk-arm64 bash
 ```toml
 [main]
 name = "jdk"
-tag = ["latest", "2023-04-17"]
+tag = ["latest", "2023-05-01"]
 os = "debian"
 release = "stable"
 arch = "arm64"
@@ -29,10 +29,10 @@ xorg_or_wayland = false
 syntax_version = "0.0.0-alpha.4"
 
 [file]
-name = "jdk_arm64_2023-04-17_12-10.tar.zst"
+name = "jdk_arm64_2023-05-01_12-11.tar.zst"
 
 # This value can be used to verify the integrity of the file
-sha256 = "23520fb650e8894d5e400e38a6cc2d4c5d08688d1f3041c9446497d1440f67d5"
+sha256 = "cfe83a7ec08db571323b37312ae4c321c83ceb9342b7e316507a3f60ade8254b"
 
 # zstd: [1-22]
 zstd-level = 22
@@ -41,48 +41,48 @@ zstd-level = 22
 # Installed size ≈ tar-size
 # Installed size is approximately equal to the size of the tar file
 tar = "433M"
-tar_bytes = 453436416
+tar_bytes = 453479424
 
 # Space occupied ≈ tar-size + zstd-size
 # You will need to prepare a large enough space before installation.
 zstd = "185M"
-zstd_bytes = 193328438
+zstd_bytes = 193351784
 
 [compatibility]
 compatible_mode = true
 
-previous_version = "latest01"
+previous_version = "latest02"
 
 # The value is &str, not int
-previous_date = "20230403"
-previous_tag = "2023-04-03"
-previous_file = "jdk_arm64_2023-04-03_12-10-rootfs.tar.zst"
-previous_sha256 = "d9119d8ce1400fb95c2c29520f0ccd2f538a13bfff21b8102450151333009060"
+previous_date = "20230417"
+previous_tag = "2023-04-17"
+previous_file = "jdk_arm64_2023-04-17_12-10-rootfs.tar.zst"
+previous_sha256 = "23520fb650e8894d5e400e38a6cc2d4c5d08688d1f3041c9446497d1440f67d5"
 
-current_version = "latest02"
-current_date = "20230417"
-old_file = "jdk_arm64_2023-03-20_12-09-rootfs.tar.zst"
-old_sha256 = "4d2dacc491f3a6e238dcd5dae49c22ca95f00332f633ae0c945db29745201ccb"
+current_version = "latest01"
+current_date = "20230501"
+old_file = "jdk_arm64_2023-04-03_12-10-rootfs.tar.zst"
+old_sha256 = "d9119d8ce1400fb95c2c29520f0ccd2f538a13bfff21b8102450151333009060"
 # edition 2021
 # DISTRO_NAME=jdk_arm64
-# ROOTFS_FILE=jdk_arm64_2023-04-17_12-10-rootfs.tar.zst
-# SHA256SUM=23520fb650e8894d5e400e38a6cc2d4c5d08688d1f3041c9446497d1440f67d5
-# BUILD_DATE=20230417
-# BUILD_TAG=2023-04-17
+# ROOTFS_FILE=jdk_arm64_2023-05-01_12-11-rootfs.tar.zst
+# SHA256SUM=cfe83a7ec08db571323b37312ae4c321c83ceb9342b7e316507a3f60ade8254b
+# BUILD_DATE=20230501
+# BUILD_TAG=2023-05-01
 # STATUS=completed
-# VERSION=latest02
-# END_TIME=12:10
+# VERSION=latest01
+# END_TIME=12:11
 
 [time]
 format = "rfc-3339"
 zone = "UTC"
-date = 2023-04-17
-begin = 2023-04-17 12:02:33.525696281+00:00
-start-sync_0 = 12:05:21
-start-zstd = 12:05:33
-start-sync_1 = 12:09:47
-end-sync_1 = 12:10:08
-end = 2023-04-17 12:10:08.348577698+00:00
+date = 2023-05-01
+begin = 2023-05-01 12:02:37.886734699+00:00
+start-sync_0 = 12:06:12
+start-zstd = 12:06:31
+start-sync_1 = 12:10:42
+end-sync_1 = 12:11:03
+end = 2023-05-01 12:11:03.244956755+00:00
 
 [server]
 repo = "cake233/jdk-arm64"
@@ -119,7 +119,7 @@ PATH = "/usr/local/openjdk-20/bin${PATH:+:${PATH}}"
 JAVA_HOME = '/usr/local/openjdk-20'
 
 [version]
-ldd = 'ldd (Debian GLIBC 2.31-13+deb11u5) 2.31'
+ldd = 'ldd (Debian GLIBC 2.31-13+deb11u6) 2.31'
 java = '''
 openjdk 20 2023-03-21
 OpenJDK Runtime Environment (build 20+36-2344)
