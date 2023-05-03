@@ -1,6 +1,6 @@
 [main]
 name = "arch"
-tag = ["base", "2023-04-26"]
+tag = ["base", "2023-05-03"]
 os = "arch"
 release = "latest"
 arch = "armhf"
@@ -9,10 +9,10 @@ xorg_or_wayland = false
 syntax_version = "0.0.0-alpha.4"
 
 [file]
-name = "arch_armhf_2023-04-26_00-06.tar.zst"
+name = "arch_armhf_2023-05-03_00-07.tar.zst"
 
 # This value can be used to verify the integrity of the file
-sha256 = "dfe1611e472a95b7fb213071bccd5f8095b1dc20d5e63130597574697505d8d4"
+sha256 = "0408da391244231eb2fc2a974254df9d06a0795c130cb268ebfa585d1c1db9a4"
 
 # zstd: [1-22]
 zstd-level = 12
@@ -21,12 +21,12 @@ zstd-level = 12
 # Installed size ≈ tar-size
 # Installed size is approximately equal to the size of the tar file
 tar = "806M"
-tar_bytes = 844456448
+tar_bytes = 844463616
 
 # Space occupied ≈ tar-size + zstd-size
 # You will need to prepare a large enough space before installation.
 zstd = "239M"
-zstd_bytes = 249912038
+zstd_bytes = 249903312
 
 [compatibility]
 compatible_mode = true
@@ -40,29 +40,29 @@ previous_file = ""
 previous_sha256 = ""
 
 current_version = "latest01"
-current_date = "20230426"
+current_date = "20230503"
 old_file = ""
 old_sha256 = ""
 # edition 2021
 # DISTRO_NAME=arch_armhf
-# ROOTFS_FILE=arch_armhf_2023-04-26_00-06-rootfs.tar.zst
-# SHA256SUM=dfe1611e472a95b7fb213071bccd5f8095b1dc20d5e63130597574697505d8d4
-# BUILD_DATE=20230426
-# BUILD_TAG=2023-04-26
+# ROOTFS_FILE=arch_armhf_2023-05-03_00-07-rootfs.tar.zst
+# SHA256SUM=0408da391244231eb2fc2a974254df9d06a0795c130cb268ebfa585d1c1db9a4
+# BUILD_DATE=20230503
+# BUILD_TAG=2023-05-03
 # STATUS=completed
 # VERSION=latest01
-# END_TIME=00:06
+# END_TIME=00:07
 
 [time]
 format = "rfc-3339"
 zone = "UTC"
-date = 2023-04-26
-begin = 2023-04-26 00:02:29.543060841+00:00
-start-sync_0 = 00:05:27
-start-zstd = 00:06:04
-start-sync_1 = 00:06:25
-end-sync_1 = 00:06:45
-end = 2023-04-26 00:06:45.852856594+00:00
+date = 2023-05-03
+begin = 2023-05-03 00:02:28.657626656+00:00
+start-sync_0 = 00:06:04
+start-zstd = 00:06:52
+start-sync_1 = 00:07:14
+end-sync_1 = 00:07:38
+end = 2023-05-03 00:07:38.550740171+00:00
 
 [server]
 repo = "cake233/arch-armv7"
