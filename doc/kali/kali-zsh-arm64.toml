@@ -1,6 +1,6 @@
 [main]
 name = "kali"
-tag = ["zsh", "2023-04-27"]
+tag = ["zsh", "2023-05-04"]
 os = "kali"
 release = "rolling"
 arch = "arm64"
@@ -9,10 +9,10 @@ xorg_or_wayland = false
 syntax_version = "0.0.0-alpha.4"
 
 [file]
-name = "kali-zsh_arm64_2023-04-27_12-18.tar.zst"
+name = "kali-zsh_arm64_2023-05-04_12-19.tar.zst"
 
 # This value can be used to verify the integrity of the file
-sha256 = "22debf324826392b997b055c5404fbd69450a7a855287011c7c549d508ec14c1"
+sha256 = "8b517154652f02389a610eee79a822f4ddab2a5949cbe2d11e012d1cc16ca0f0"
 
 # zstd: [1-22]
 zstd-level = 20
@@ -21,48 +21,48 @@ zstd-level = 20
 # Installed size ≈ tar-size
 # Installed size is approximately equal to the size of the tar file
 tar = "816M"
-tar_bytes = 854892032
+tar_bytes = 854957568
 
 # Space occupied ≈ tar-size + zstd-size
 # You will need to prepare a large enough space before installation.
 zstd = "149M"
-zstd_bytes = 156129395
+zstd_bytes = 156106302
 
 [compatibility]
 compatible_mode = true
 
-previous_version = "latest01"
+previous_version = "latest02"
 
 # The value is &str, not int
-previous_date = "20230413"
-previous_tag = "2023-04-13"
-previous_file = "kali-zsh_arm64_2023-04-13_12-18-rootfs.tar.zst"
-previous_sha256 = "7912654caf95a178e08a64139cb8494358ff60f12c4dee85b234084e53d68782"
+previous_date = "20230427"
+previous_tag = "2023-04-27"
+previous_file = "kali-zsh_arm64_2023-04-27_12-18-rootfs.tar.zst"
+previous_sha256 = "22debf324826392b997b055c5404fbd69450a7a855287011c7c549d508ec14c1"
 
-current_version = "latest02"
-current_date = "20230427"
-old_file = "kali-zsh_arm64_2023-04-06_12-18-rootfs.tar.zst"
-old_sha256 = "b0bd4c767bd975f91a6608cbb6b2da50aa52a5550e199363809d21173d2f9ab3"
+current_version = "latest01"
+current_date = "20230504"
+old_file = "kali-zsh_arm64_2023-04-13_12-18-rootfs.tar.zst"
+old_sha256 = "7912654caf95a178e08a64139cb8494358ff60f12c4dee85b234084e53d68782"
 # edition 2021
 # DISTRO_NAME=kali-rolling_arm64
-# ROOTFS_FILE=kali-zsh_arm64_2023-04-27_12-18-rootfs.tar.zst
-# SHA256SUM=22debf324826392b997b055c5404fbd69450a7a855287011c7c549d508ec14c1
-# BUILD_DATE=20230427
-# BUILD_TAG=2023-04-27
+# ROOTFS_FILE=kali-zsh_arm64_2023-05-04_12-19-rootfs.tar.zst
+# SHA256SUM=8b517154652f02389a610eee79a822f4ddab2a5949cbe2d11e012d1cc16ca0f0
+# BUILD_DATE=20230504
+# BUILD_TAG=2023-05-04
 # STATUS=completed
-# VERSION=latest02
-# END_TIME=12:18
+# VERSION=latest01
+# END_TIME=12:19
 
 [time]
 format = "rfc-3339"
 zone = "UTC"
-date = 2023-04-27
-begin = 2023-04-27 12:02:32.979020579+00:00
-start-sync_0 = 12:13:59
-start-zstd = 12:15:43
-start-sync_1 = 12:18:09
-end-sync_1 = 12:18:22
-end = 2023-04-27 12:18:22.030988333+00:00
+date = 2023-05-04
+begin = 2023-05-04 12:02:30.462139996+00:00
+start-sync_0 = 12:14:24
+start-zstd = 12:16:12
+start-sync_1 = 12:18:46
+end-sync_1 = 12:19:01
+end = 2023-05-04 12:19:01.421169637+00:00
 
 [server]
 repo = "cake233/kali-zsh-arm64"
@@ -77,7 +77,7 @@ split = false
 [server.node2]
 name = "tmoe"
 current = true
-previous = false
+previous = true
 in_sync = false
 split = false
 
@@ -86,8 +86,6 @@ name = "azure"
 current = true
 previous = true
 in_sync = false
-start_sync = 2023-04-27 18:03:55.780152184+00:00
-end_sync = 2023-04-27 18:04:24.364781698+00:00
 split = false
 
 [server.node4]
