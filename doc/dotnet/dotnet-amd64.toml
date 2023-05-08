@@ -1,6 +1,6 @@
 [main]
 name = "dotnet"
-tag = ["latest", "2023-04-24", ".NET", "dotnet-sdk"]
+tag = ["latest", "2023-05-08", ".NET", "dotnet-sdk"]
 os = "arch"
 release = "latest"
 arch = "amd64"
@@ -9,10 +9,10 @@ xorg_or_wayland = false
 syntax_version = "0.0.0-alpha.4"
 
 [file]
-name = "dotnet_amd64_2023-04-24_12-17.tar.zst"
+name = "dotnet_amd64_2023-05-08_12-22.tar.zst"
 
 # This value can be used to verify the integrity of the file
-sha256 = "f8017c808775f697646709fcdf59e902a7e85008afbc61dbfce2695aec6205f3"
+sha256 = "435c5e07bebabfd38b71ecb2eb331b04acc52ace878c3537c68b01191d12abce"
 
 # zstd: [1-22]
 zstd-level = 22
@@ -21,48 +21,48 @@ zstd-level = 22
 # Installed size ≈ tar-size
 # Installed size is approximately equal to the size of the tar file
 tar = "1.8G"
-tar_bytes = 1842220032
+tar_bytes = 1856347136
 
 # Space occupied ≈ tar-size + zstd-size
 # You will need to prepare a large enough space before installation.
-zstd = "428M"
-zstd_bytes = 448164325
+zstd = "431M"
+zstd_bytes = 451192186
 
 [compatibility]
 compatible_mode = true
 
-previous_version = "latest02"
+previous_version = "latest01"
 
 # The value is &str, not int
-previous_date = "20230410"
-previous_tag = "2023-04-10"
-previous_file = "dotnet_amd64_2023-04-10_12-16-rootfs.tar.zst"
-previous_sha256 = "9283152f748df93353b588d1f4adde32efd9aedded2bd06568e5c4ac4bb144f4"
+previous_date = "20230424"
+previous_tag = "2023-04-24"
+previous_file = "dotnet_amd64_2023-04-24_12-17-rootfs.tar.zst"
+previous_sha256 = "f8017c808775f697646709fcdf59e902a7e85008afbc61dbfce2695aec6205f3"
 
-current_version = "latest01"
-current_date = "20230424"
-old_file = "dotnet_amd64_2023-03-13_12-17-rootfs.tar.zst"
-old_sha256 = "4048a5f78ca72b870899e291e2361e4e8d63604ae52e732ba20595ed7dc132e7"
+current_version = "latest02"
+current_date = "20230508"
+old_file = "dotnet_amd64_2023-04-10_12-16-rootfs.tar.zst"
+old_sha256 = "9283152f748df93353b588d1f4adde32efd9aedded2bd06568e5c4ac4bb144f4"
 # edition 2021
 # DISTRO_NAME=dotnet_amd64
-# ROOTFS_FILE=dotnet_amd64_2023-04-24_12-17-rootfs.tar.zst
-# SHA256SUM=f8017c808775f697646709fcdf59e902a7e85008afbc61dbfce2695aec6205f3
-# BUILD_DATE=20230424
-# BUILD_TAG=2023-04-24
+# ROOTFS_FILE=dotnet_amd64_2023-05-08_12-22-rootfs.tar.zst
+# SHA256SUM=435c5e07bebabfd38b71ecb2eb331b04acc52ace878c3537c68b01191d12abce
+# BUILD_DATE=20230508
+# BUILD_TAG=2023-05-08
 # STATUS=completed
-# VERSION=latest01
-# END_TIME=12:17
+# VERSION=latest02
+# END_TIME=12:22
 
 [time]
 format = "rfc-3339"
 zone = "UTC"
-date = 2023-04-24
-begin = 2023-04-24 12:02:41.586433543+00:00
-start-sync_0 = 12:06:34
-start-zstd = 12:07:21
-start-sync_1 = 12:16:54
-end-sync_1 = 12:17:24
-end = 2023-04-24 12:17:24.235772728+00:00
+date = 2023-05-08
+begin = 2023-05-08 12:02:50.669734091+00:00
+start-sync_0 = 12:08:02
+start-zstd = 12:09:28
+start-sync_1 = 12:21:44
+end-sync_1 = 12:22:24
+end = 2023-05-08 12:22:24.495470454+00:00
 
 [server]
 repo = "cake233/dotnet-amd64"
@@ -77,7 +77,7 @@ split = false
 [server.node2]
 name = "tmoe"
 current = true
-previous = false
+previous = true
 in_sync = false
 split = false
 
@@ -86,8 +86,6 @@ name = "azure"
 current = true
 previous = true
 in_sync = false
-start_sync = 2023-04-24 18:18:19.584511039+00:00
-end_sync = 2023-04-24 18:19:20.629817248+00:00
 split = false
 
 [server.node4]
@@ -108,7 +106,7 @@ NUGET_XMLDOC_MODE = "skip"
 
 [version]
 ldd = 'ldd (GNU libc) 2.37'
-git = 'git version 2.40.0'
+git = 'git version 2.40.1'
 dotnet = '7.0.203'
 powershell = 'PowerShell 7.3.4'
 dotnet_info = '''
