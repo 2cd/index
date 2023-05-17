@@ -77,7 +77,7 @@ localhost:5903
 ```toml
 [main]
 name = "arch"
-tag = ["xfce", "2023-05-10"]
+tag = ["xfce", "2023-05-17"]
 os = "arch"
 release = "latest"
 arch = "armhf"
@@ -86,10 +86,10 @@ xorg_or_wayland = true
 syntax_version = "0.0.0-alpha.4"
 
 [file]
-name = "arch-xfce_armhf_2023-05-10_01-02.tar.zst"
+name = "arch-xfce_armhf_2023-05-17_01-09.tar.zst"
 
 # This value can be used to verify the integrity of the file
-sha256 = "960cc397716b2ed82c70b3af5f41b0f56764feeef970fd28e21da6876328bfc2"
+sha256 = "bfe44aff5c57498ba762f19ff407bfe611cac3f7ddcbdb1ad30f8d35f3304f9a"
 
 # zstd: [1-22]
 zstd-level = 19
@@ -98,48 +98,48 @@ zstd-level = 19
 # Installed size ≈ tar-size
 # Installed size is approximately equal to the size of the tar file
 tar = "3.3G"
-tar_bytes = 3538254848
+tar_bytes = 3535597056
 
 # Space occupied ≈ tar-size + zstd-size
 # You will need to prepare a large enough space before installation.
 zstd = "1.1G"
-zstd_bytes = 1145427617
+zstd_bytes = 1127094155
 
 [compatibility]
 compatible_mode = true
 
-previous_version = "latest02"
+previous_version = "latest01"
 
 # The value is &str, not int
-previous_date = "20230503"
-previous_tag = "2023-05-03"
-previous_file = "arch-xfce_armhf_2023-05-03_01-11-rootfs.tar.zst"
-previous_sha256 = "f7b9ec0942a8d2f6c4c9986eda9ea64a29924021e10be6f687ac3cfddacc106f"
+previous_date = "20230510"
+previous_tag = "2023-05-10"
+previous_file = "arch-xfce_armhf_2023-05-10_01-02-rootfs.tar.zst"
+previous_sha256 = "960cc397716b2ed82c70b3af5f41b0f56764feeef970fd28e21da6876328bfc2"
 
-current_version = "latest01"
-current_date = "20230510"
-old_file = "arch-xfce_armhf_2023-04-26_01-09-rootfs.tar.zst"
-old_sha256 = "114412659fe7b1187bd66fe3ee344a95d1730a8e33f5868a4a60b6eed8b6e846"
+current_version = "latest02"
+current_date = "20230517"
+old_file = "arch-xfce_armhf_2023-05-03_01-11-rootfs.tar.zst"
+old_sha256 = "f7b9ec0942a8d2f6c4c9986eda9ea64a29924021e10be6f687ac3cfddacc106f"
 # edition 2021
 # DISTRO_NAME=arch_armhf
-# ROOTFS_FILE=arch-xfce_armhf_2023-05-10_01-02-rootfs.tar.zst
-# SHA256SUM=960cc397716b2ed82c70b3af5f41b0f56764feeef970fd28e21da6876328bfc2
-# BUILD_DATE=20230510
-# BUILD_TAG=2023-05-10
+# ROOTFS_FILE=arch-xfce_armhf_2023-05-17_01-09-rootfs.tar.zst
+# SHA256SUM=bfe44aff5c57498ba762f19ff407bfe611cac3f7ddcbdb1ad30f8d35f3304f9a
+# BUILD_DATE=20230517
+# BUILD_TAG=2023-05-17
 # STATUS=completed
-# VERSION=latest01
-# END_TIME=01:02
+# VERSION=latest02
+# END_TIME=01:09
 
 [time]
 format = "rfc-3339"
 zone = "UTC"
-date = 2023-05-10
-begin = 2023-05-10 00:31:37.861611188+00:00
-start-sync_0 = 00:46:57
-start-zstd = 00:49:36
-start-sync_1 = 01:01:19
-end-sync_1 = 01:02:25
-end = 2023-05-10 01:02:25.062972916+00:00
+date = 2023-05-17
+begin = 2023-05-17 00:35:30.364155915+00:00
+start-sync_0 = 00:52:19
+start-zstd = 00:55:09
+start-sync_1 = 01:08:43
+end-sync_1 = 01:09:59
+end = 2023-05-17 01:09:59.636106725+00:00
 
 [server]
 repo = "cake233/arch-xfce-armv7"
