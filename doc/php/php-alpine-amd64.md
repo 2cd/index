@@ -20,7 +20,7 @@ docker exec -it php-alpine-amd64 bash
 ```toml
 [main]
 name = "php"
-tag = ["alpine", "2023-05-08", "musl-libc", "musl"]
+tag = ["alpine", "2023-05-22", "musl-libc", "musl"]
 os = "alpine"
 release = "stable"
 arch = "amd64"
@@ -29,10 +29,10 @@ xorg_or_wayland = false
 syntax_version = "0.0.0-alpha.4"
 
 [file]
-name = "php-musl_amd64_2023-05-08_12-05.tar.zst"
+name = "php-musl_amd64_2023-05-22_12-04.tar.zst"
 
 # This value can be used to verify the integrity of the file
-sha256 = "660217a47103122f428c5e448eee44d894dc10c144f6f93fc2303c744bd7db3c"
+sha256 = "71c1313caaa3c728d5cc53323e6a9df21b1714409a243467331fe39b669b8074"
 
 # zstd: [1-22]
 zstd-level = 22
@@ -41,48 +41,48 @@ zstd-level = 22
 # Installed size ≈ tar-size
 # Installed size is approximately equal to the size of the tar file
 tar = "104M"
-tar_bytes = 108892672
+tar_bytes = 108187648
 
 # Space occupied ≈ tar-size + zstd-size
 # You will need to prepare a large enough space before installation.
 zstd = "26M"
-zstd_bytes = 26603429
+zstd_bytes = 26527142
 
 [compatibility]
 compatible_mode = true
 
-previous_version = "latest02"
+previous_version = "latest01"
 
 # The value is &str, not int
-previous_date = "20230424"
-previous_tag = "2023-04-24"
-previous_file = "php-musl_amd64_2023-04-24_12-05-rootfs.tar.zst"
-previous_sha256 = "8664c9c8b80ef9b2c2a1a434afbb63f2e3b06e1132787372712bffc3dcd8ce60"
+previous_date = "20230508"
+previous_tag = "2023-05-08"
+previous_file = "php-musl_amd64_2023-05-08_12-05-rootfs.tar.zst"
+previous_sha256 = "660217a47103122f428c5e448eee44d894dc10c144f6f93fc2303c744bd7db3c"
 
-current_version = "latest01"
-current_date = "20230508"
-old_file = "php-musl_amd64_2023-04-10_12-04-rootfs.tar.zst"
-old_sha256 = "f863295a6785cc52e0297fb9d350a8ea0a0390f25219a4f9e9f842fffc5da2c1"
+current_version = "latest02"
+current_date = "20230522"
+old_file = "php-musl_amd64_2023-04-24_12-05-rootfs.tar.zst"
+old_sha256 = "8664c9c8b80ef9b2c2a1a434afbb63f2e3b06e1132787372712bffc3dcd8ce60"
 # edition 2021
 # DISTRO_NAME=php_amd64
-# ROOTFS_FILE=php-musl_amd64_2023-05-08_12-05-rootfs.tar.zst
-# SHA256SUM=660217a47103122f428c5e448eee44d894dc10c144f6f93fc2303c744bd7db3c
-# BUILD_DATE=20230508
-# BUILD_TAG=2023-05-08
+# ROOTFS_FILE=php-musl_amd64_2023-05-22_12-04-rootfs.tar.zst
+# SHA256SUM=71c1313caaa3c728d5cc53323e6a9df21b1714409a243467331fe39b669b8074
+# BUILD_DATE=20230522
+# BUILD_TAG=2023-05-22
 # STATUS=completed
-# VERSION=latest01
-# END_TIME=12:05
+# VERSION=latest02
+# END_TIME=12:04
 
 [time]
 format = "rfc-3339"
 zone = "UTC"
-date = 2023-05-08
-begin = 2023-05-08 12:02:45.514091350+00:00
-start-sync_0 = 12:03:59
-start-zstd = 12:04:06
-start-sync_1 = 12:04:57
-end-sync_1 = 12:05:04
-end = 2023-05-08 12:05:04.586608005+00:00
+date = 2023-05-22
+begin = 2023-05-22 12:02:36.457566499+00:00
+start-sync_0 = 12:03:31
+start-zstd = 12:03:36
+start-sync_1 = 12:04:20
+end-sync_1 = 12:04:25
+end = 2023-05-22 12:04:25.902926861+00:00
 
 [server]
 repo = "cake233/php-alpine-amd64"
@@ -118,11 +118,11 @@ LANG = "C.UTF-8"
 PHP_INI_DIR = '/usr/local/etc/php'
 
 [version]
-ldd = 'musl libc (x86_64) Version 1.2.3'
+ldd = 'musl libc (x86_64) Version 1.2.4'
 php = '''
-PHP 8.2.5 (cli) (built: Apr 14 2023 17:48:55) (NTS)
+PHP 8.2.6 (cli) (built: May 11 2023 20:14:18) (NTS)
 Copyright (c) The PHP Group
-Zend Engine v4.2.5, Copyright (c) Zend Technologies
+Zend Engine v4.2.6, Copyright (c) Zend Technologies
 '''
 
 [other]
@@ -132,6 +132,6 @@ php_cflags = '-fstack-protector-strong -fpic -fpie -O2 -D_LARGEFILE_SOURCE -D_FI
 php_cppflags = '-fstack-protector-strong -fpic -fpie -O2 -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64'
 php_ldflags = '-Wl,-O1 -pie'
 gpg_keys = '39B641343D8C104B2B146DC3F9C39DC0B9698544 E60913E4DF209907D8E30D96659A97C9CF2A795A 1198C0117593497A5EC5C199286AF1F9897469DC'
-php_url = 'https://www.php.net/distributions/php-8.2.5.tar.xz'
-php_src_url = 'https://www.php.net/distributions/php-8.2.5.tar.xz.asc'
+php_url = 'https://www.php.net/distributions/php-8.2.6.tar.xz'
+php_src_url = 'https://www.php.net/distributions/php-8.2.6.tar.xz.asc'
 ```
