@@ -20,7 +20,7 @@ docker exec -it debian-zsh-386 zsh
 ```toml
 [main]
 name = "debian"
-tag = ["zsh", "2023-05-24"]
+tag = ["zsh", "2023-05-31"]
 os = "debian"
 release = "sid"
 arch = "i386"
@@ -29,10 +29,10 @@ xorg_or_wayland = false
 syntax_version = "0.0.0-alpha.4"
 
 [file]
-name = "debian-zsh_i386_2023-05-24_12-18.tar.zst"
+name = "debian-zsh_i386_2023-05-31_12-18.tar.zst"
 
 # This value can be used to verify the integrity of the file
-sha256 = "c1cd9e35d222ad22d3b2122144d5efa5b835e49eaf8b1faea2f95feb621c293a"
+sha256 = "dfa425ebdbbbddbc76f26b40d5ff37e7594980d652d4dd81dbd3c58fb2237a59"
 
 # zstd: [1-22]
 zstd-level = 20
@@ -41,48 +41,48 @@ zstd-level = 20
 # Installed size ≈ tar-size
 # Installed size is approximately equal to the size of the tar file
 tar = "778M"
-tar_bytes = 815771648
+tar_bytes = 815732224
 
 # Space occupied ≈ tar-size + zstd-size
 # You will need to prepare a large enough space before installation.
 zstd = "154M"
-zstd_bytes = 161008684
+zstd_bytes = 161027671
 
 [compatibility]
 compatible_mode = true
 
-previous_version = "latest01"
+previous_version = "latest02"
 
 # The value is &str, not int
-previous_date = "20230517"
-previous_tag = "2023-05-17"
-previous_file = "debian-zsh_i386_2023-05-17_12-21-rootfs.tar.zst"
-previous_sha256 = "244ba9efb7989ee941c1dc63190fbceafd61a2a4311e52ce8a6b3d37fd05cd5a"
+previous_date = "20230524"
+previous_tag = "2023-05-24"
+previous_file = "debian-zsh_i386_2023-05-24_12-18-rootfs.tar.zst"
+previous_sha256 = "c1cd9e35d222ad22d3b2122144d5efa5b835e49eaf8b1faea2f95feb621c293a"
 
-current_version = "latest02"
-current_date = "20230524"
-old_file = "debian-zsh_i386_2023-05-10_12-18-rootfs.tar.zst"
-old_sha256 = "4da85172c5428c3941c8a89acf55e9b930fd27ee826d5bc2f9e917e318a28e72"
+current_version = "latest01"
+current_date = "20230531"
+old_file = "debian-zsh_i386_2023-05-17_12-21-rootfs.tar.zst"
+old_sha256 = "244ba9efb7989ee941c1dc63190fbceafd61a2a4311e52ce8a6b3d37fd05cd5a"
 # edition 2021
 # DISTRO_NAME=debian-sid_i386
-# ROOTFS_FILE=debian-zsh_i386_2023-05-24_12-18-rootfs.tar.zst
-# SHA256SUM=c1cd9e35d222ad22d3b2122144d5efa5b835e49eaf8b1faea2f95feb621c293a
-# BUILD_DATE=20230524
-# BUILD_TAG=2023-05-24
+# ROOTFS_FILE=debian-zsh_i386_2023-05-31_12-18-rootfs.tar.zst
+# SHA256SUM=dfa425ebdbbbddbc76f26b40d5ff37e7594980d652d4dd81dbd3c58fb2237a59
+# BUILD_DATE=20230531
+# BUILD_TAG=2023-05-31
 # STATUS=completed
-# VERSION=latest02
+# VERSION=latest01
 # END_TIME=12:18
 
 [time]
 format = "rfc-3339"
 zone = "UTC"
-date = 2023-05-24
-begin = 2023-05-24 12:02:33.546313738+00:00
-start-sync_0 = 12:14:16
-start-zstd = 12:16:02
-start-sync_1 = 12:18:33
-end-sync_1 = 12:18:46
-end = 2023-05-24 12:18:46.200789824+00:00
+date = 2023-05-31
+begin = 2023-05-31 12:02:40.086879432+00:00
+start-sync_0 = 12:14:13
+start-zstd = 12:16:00
+start-sync_1 = 12:18:37
+end-sync_1 = 12:18:52
+end = 2023-05-31 12:18:52.574399870+00:00
 
 [server]
 repo = "cake233/debian-zsh-386"
