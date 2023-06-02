@@ -1,6 +1,6 @@
 [main]
 name = "rust"
-tag = ["latest", "2023-05-19", "nightly", "unstable", "default", "gnu-libc"]
+tag = ["latest", "2023-06-02", "nightly", "unstable", "default", "gnu-libc"]
 os = "debian"
 release = "sid"
 arch = "ppc64el"
@@ -9,10 +9,10 @@ xorg_or_wayland = false
 syntax_version = "0.0.0-alpha.4"
 
 [file]
-name = "rust_ppc64el_2023-05-19_03-08.tar.zst"
+name = "rust_ppc64el_2023-06-02_03-05.tar.zst"
 
 # This value can be used to verify the integrity of the file
-sha256 = "854fb031cc94983f8f9c742b8a1ed9a5c65acff25c883c329de858d049e9424b"
+sha256 = "fb62f683d2c7b09b0c0808d389916d62ade8fbfeae2b2d9db47ef441a2d6a076"
 
 # zstd: [1-22]
 zstd-level = 20
@@ -21,48 +21,48 @@ zstd-level = 20
 # Installed size ≈ tar-size
 # Installed size is approximately equal to the size of the tar file
 tar = "1.6G"
-tar_bytes = 1689361920
+tar_bytes = 1697649664
 
 # Space occupied ≈ tar-size + zstd-size
 # You will need to prepare a large enough space before installation.
-zstd = "220M"
-zstd_bytes = 229906422
+zstd = "218M"
+zstd_bytes = 228279657
 
 [compatibility]
 compatible_mode = true
 
-previous_version = "latest02"
+previous_version = "latest01"
 
 # The value is &str, not int
-previous_date = "20230515"
-previous_tag = "2023-05-15"
-previous_file = "rust_ppc64el_2023-05-15_03-07-rootfs.tar.zst"
-previous_sha256 = "70165c517a678e8a3bdd51334539b66cb92e6b6baef66a4cf44927461e6a07f6"
+previous_date = "20230519"
+previous_tag = "2023-05-19"
+previous_file = "rust_ppc64el_2023-05-19_03-08-rootfs.tar.zst"
+previous_sha256 = "854fb031cc94983f8f9c742b8a1ed9a5c65acff25c883c329de858d049e9424b"
 
-current_version = "latest01"
-current_date = "20230519"
-old_file = "rust_ppc64el_2023-05-12_03-07-rootfs.tar.zst"
-old_sha256 = "c69a9fe985bfde85cbd927b52a3b8e7454f311eeefb933ea01dd40a3217eb344"
+current_version = "latest02"
+current_date = "20230602"
+old_file = "rust_ppc64el_2023-05-15_03-07-rootfs.tar.zst"
+old_sha256 = "70165c517a678e8a3bdd51334539b66cb92e6b6baef66a4cf44927461e6a07f6"
 # edition 2021
 # DISTRO_NAME=rust_ppc64el
-# ROOTFS_FILE=rust_ppc64el_2023-05-19_03-08-rootfs.tar.zst
-# SHA256SUM=854fb031cc94983f8f9c742b8a1ed9a5c65acff25c883c329de858d049e9424b
-# BUILD_DATE=20230519
-# BUILD_TAG=2023-05-19
+# ROOTFS_FILE=rust_ppc64el_2023-06-02_03-05-rootfs.tar.zst
+# SHA256SUM=fb62f683d2c7b09b0c0808d389916d62ade8fbfeae2b2d9db47ef441a2d6a076
+# BUILD_DATE=20230602
+# BUILD_TAG=2023-06-02
 # STATUS=completed
-# VERSION=latest01
-# END_TIME=03:08
+# VERSION=latest02
+# END_TIME=03:05
 
 [time]
 format = "rfc-3339"
 zone = "UTC"
-date = 2023-05-19
-begin = 2023-05-19 02:52:55.645087623+00:00
-start-sync_0 = 03:00:04
-start-zstd = 03:01:18
-start-sync_1 = 03:07:39
-end-sync_1 = 03:08:03
-end = 2023-05-19 03:08:03.797789716+00:00
+date = 2023-06-02
+begin = 2023-06-02 02:52:31.204416269+00:00
+start-sync_0 = 02:58:26
+start-zstd = 02:59:25
+start-sync_1 = 03:04:49
+end-sync_1 = 03:05:07
+end = 2023-06-02 03:05:07.038676286+00:00
 
 [server]
 repo = "cake233/rust-ppc64le"
@@ -77,7 +77,7 @@ split = false
 [server.node2]
 name = "tmoe"
 current = true
-previous = false
+previous = true
 in_sync = false
 split = false
 
@@ -86,14 +86,6 @@ name = "azure"
 current = true
 previous = true
 in_sync = false
-start_sync = 2023-05-29 05:10:12.827033113+00:00
-end_sync = 2023-05-29 05:10:36.432928489+00:00
-start_sync = 2023-05-26 05:09:27.545162092+00:00
-end_sync = 2023-05-26 05:09:52.553677916+00:00
-start_sync = 2023-05-22 05:09:45.906212654+00:00
-end_sync = 2023-05-22 05:10:08.581404440+00:00
-start_sync = 2023-05-19 05:10:00.253564825+00:00
-end_sync = 2023-05-19 05:10:37.660700170+00:00
 split = false
 
 [server.node4]
@@ -110,14 +102,14 @@ CARGO_HOME = "/usr/local/cargo"
 [version]
 ldd = 'ldd (Debian GLIBC 2.36-9) 2.36'
 rustup = 'rustup 1.26.0 (5af9b9484 2023-04-05)'
-cargo = 'cargo 1.71.0-nightly (09276c703 2023-05-16)'
-rustc = 'rustc 1.71.0-nightly (d3f416dc0 2023-05-18)'
+cargo = 'cargo 1.72.0-nightly (f7b95e316 2023-05-30)'
+rustc = 'rustc 1.72.0-nightly (d59363ad0 2023-06-01)'
 cc = 'cc (Debian 12.2.0-14) 12.2.0'
 cargo_verbose = '''
-cargo 1.71.0-nightly (09276c703 2023-05-16)
-release: 1.71.0-nightly
-commit-hash: 09276c703a473ab33daaeb94917232e80eefd628
-commit-date: 2023-05-16
+cargo 1.72.0-nightly (f7b95e316 2023-05-30)
+release: 1.72.0-nightly
+commit-hash: f7b95e31642e09c2b6eabb18ed75007dda6677a0
+commit-date: 2023-05-30
 host: powerpc64le-unknown-linux-gnu
 libgit2: 1.6.4 (sys:0.17.1 vendored)
 libcurl: 8.0.1-DEV (sys:0.4.61+curl-8.0.1 vendored ssl:OpenSSL/1.1.1t)
@@ -125,11 +117,11 @@ ssl: OpenSSL 1.1.1t  7 Feb 2023
 os: Linux [64-bit]
 '''
 rustc_verbose = '''
-rustc 1.71.0-nightly (d3f416dc0 2023-05-18)
+rustc 1.72.0-nightly (d59363ad0 2023-06-01)
 binary: rustc
-commit-hash: d3f416dc063fc478c7250873246cb2d4136d8c42
-commit-date: 2023-05-18
+commit-hash: d59363ad0b6391b7fc5bbb02c9ccf9300eef3753
+commit-date: 2023-06-01
 host: powerpc64le-unknown-linux-gnu
-release: 1.71.0-nightly
+release: 1.72.0-nightly
 LLVM version: 16.0.4
 '''
