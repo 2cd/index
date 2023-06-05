@@ -1,6 +1,6 @@
 [main]
 name = "swift"
-tag = ["latest", "2023-05-22", "nightly"]
+tag = ["latest", "2023-06-05", "nightly"]
 os = "ubuntu"
 release = "focal"
 arch = "amd64"
@@ -9,10 +9,10 @@ xorg_or_wayland = false
 syntax_version = "0.0.0-alpha.4"
 
 [file]
-name = "swift_amd64_2023-05-22_12-27.tar.zst"
+name = "swift_amd64_2023-06-05_12-31.tar.zst"
 
 # This value can be used to verify the integrity of the file
-sha256 = "ac68706048ef8de1633c4cc0dbebb9315dde1fde4dea1f61886483f94cb96a23"
+sha256 = "659416f28c56308af446d3f741a40ff52d298b04049260ad32aec4f7c20b8fc5"
 
 # zstd: [1-22]
 zstd-level = 22
@@ -21,48 +21,48 @@ zstd-level = 22
 # Installed size ≈ tar-size
 # Installed size is approximately equal to the size of the tar file
 tar = "2.7G"
-tar_bytes = 2882633728
+tar_bytes = 2890602496
 
 # Space occupied ≈ tar-size + zstd-size
 # You will need to prepare a large enough space before installation.
-zstd = "498M"
-zstd_bytes = 521718259
+zstd = "499M"
+zstd_bytes = 522958837
 
 [compatibility]
 compatible_mode = true
 
-previous_version = "latest02"
+previous_version = "latest01"
 
 # The value is &str, not int
-previous_date = "20230508"
-previous_tag = "2023-05-08"
-previous_file = "swift_amd64_2023-05-08_12-27-rootfs.tar.zst"
-previous_sha256 = "c1a651f22815d44ecd1becd3ff688d57b1b65310f9ef07fa4f5cbff2ce8efb9d"
+previous_date = "20230522"
+previous_tag = "2023-05-22"
+previous_file = "swift_amd64_2023-05-22_12-27-rootfs.tar.zst"
+previous_sha256 = "ac68706048ef8de1633c4cc0dbebb9315dde1fde4dea1f61886483f94cb96a23"
 
-current_version = "latest01"
-current_date = "20230522"
-old_file = "swift_amd64_2023-04-24_12-26-rootfs.tar.zst"
-old_sha256 = "491bea3e228c97dc3da85acd09d302df271efe9cd88778b84ff0b4d607ac84b4"
+current_version = "latest02"
+current_date = "20230605"
+old_file = "swift_amd64_2023-05-08_12-27-rootfs.tar.zst"
+old_sha256 = "c1a651f22815d44ecd1becd3ff688d57b1b65310f9ef07fa4f5cbff2ce8efb9d"
 # edition 2021
 # DISTRO_NAME=swift_amd64
-# ROOTFS_FILE=swift_amd64_2023-05-22_12-27-rootfs.tar.zst
-# SHA256SUM=ac68706048ef8de1633c4cc0dbebb9315dde1fde4dea1f61886483f94cb96a23
-# BUILD_DATE=20230522
-# BUILD_TAG=2023-05-22
+# ROOTFS_FILE=swift_amd64_2023-06-05_12-31-rootfs.tar.zst
+# SHA256SUM=659416f28c56308af446d3f741a40ff52d298b04049260ad32aec4f7c20b8fc5
+# BUILD_DATE=20230605
+# BUILD_TAG=2023-06-05
 # STATUS=completed
-# VERSION=latest01
-# END_TIME=12:27
+# VERSION=latest02
+# END_TIME=12:31
 
 [time]
 format = "rfc-3339"
 zone = "UTC"
-date = 2023-05-22
-begin = 2023-05-22 12:02:38.525567293+00:00
-start-sync_0 = 12:06:09
-start-zstd = 12:08:20
-start-sync_1 = 12:26:26
-end-sync_1 = 12:27:01
-end = 2023-05-22 12:27:01.641050425+00:00
+date = 2023-06-05
+begin = 2023-06-05 12:02:41.361662023+00:00
+start-sync_0 = 12:05:55
+start-zstd = 12:08:19
+start-sync_1 = 12:30:58
+end-sync_1 = 12:31:39
+end = 2023-06-05 12:31:39.339383985+00:00
 
 [server]
 repo = "cake233/swift-amd64"
@@ -77,7 +77,7 @@ split = false
 [server.node2]
 name = "tmoe"
 current = true
-previous = false
+previous = true
 in_sync = false
 split = false
 
@@ -86,8 +86,6 @@ name = "azure"
 current = true
 previous = true
 in_sync = false
-start_sync = 2023-05-22 18:19:02.529708182+00:00
-end_sync = 2023-05-22 18:20:25.555512134+00:00
 split = false
 
 [server.node4]
@@ -102,6 +100,6 @@ LANG = "en_US.UTF-8"
 ldd = 'ldd (Ubuntu GLIBC 2.31-0ubuntu9.9) 2.31'
 git = 'git version 2.25.1'
 swift = '''
-Swift version 5.9-dev (LLVM 3653146fb31d979, Swift 570c364cc4e6100)
+Swift version 5.9-dev (LLVM 4a3b38183d7bb09, Swift 7c83991a31390e0)
 Target: x86_64-unknown-linux-gnu
 '''
