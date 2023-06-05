@@ -20,7 +20,7 @@ docker exec -it ruby-arm64 bash
 ```toml
 [main]
 name = "ruby"
-tag = ["latest", "2023-05-22"]
+tag = ["latest", "2023-06-05"]
 os = "debian"
 release = "stable"
 arch = "arm64"
@@ -29,10 +29,10 @@ xorg_or_wayland = false
 syntax_version = "0.0.0-alpha.4"
 
 [file]
-name = "ruby_arm64_2023-05-22_12-11.tar.zst"
+name = "ruby_arm64_2023-06-05_12-11.tar.zst"
 
 # This value can be used to verify the integrity of the file
-sha256 = "59a553cd1f692eb5bef9dfb72215487eba2c2399f23bf2237bb5b450d46f521b"
+sha256 = "8a8d4ef0f23101b5c00a6b364ef456afac5424599e40c00bb856694e92a91837"
 
 # zstd: [1-22]
 zstd-level = 22
@@ -41,48 +41,48 @@ zstd-level = 22
 # Installed size ≈ tar-size
 # Installed size is approximately equal to the size of the tar file
 tar = "849M"
-tar_bytes = 889429504
+tar_bytes = 889413632
 
 # Space occupied ≈ tar-size + zstd-size
 # You will need to prepare a large enough space before installation.
 zstd = "201M"
-zstd_bytes = 210118199
+zstd_bytes = 210124676
 
 [compatibility]
 compatible_mode = true
 
-previous_version = "latest01"
+previous_version = "latest02"
 
 # The value is &str, not int
-previous_date = "20230508"
-previous_tag = "2023-05-08"
-previous_file = "ruby_arm64_2023-05-08_12-11-rootfs.tar.zst"
-previous_sha256 = "37eaee631036b23b44799ef4a8c723d98848483e4f58f987958cd290fc10dcf6"
+previous_date = "20230522"
+previous_tag = "2023-05-22"
+previous_file = "ruby_arm64_2023-05-22_12-11-rootfs.tar.zst"
+previous_sha256 = "59a553cd1f692eb5bef9dfb72215487eba2c2399f23bf2237bb5b450d46f521b"
 
-current_version = "latest02"
-current_date = "20230522"
-old_file = "ruby_arm64_2023-04-24_12-11-rootfs.tar.zst"
-old_sha256 = "f6c71aa4bd709247b92c2de990eb55f28e7ec55fbab1f719fa406abc0369f791"
+current_version = "latest01"
+current_date = "20230605"
+old_file = "ruby_arm64_2023-05-08_12-11-rootfs.tar.zst"
+old_sha256 = "37eaee631036b23b44799ef4a8c723d98848483e4f58f987958cd290fc10dcf6"
 # edition 2021
 # DISTRO_NAME=ruby_arm64
-# ROOTFS_FILE=ruby_arm64_2023-05-22_12-11-rootfs.tar.zst
-# SHA256SUM=59a553cd1f692eb5bef9dfb72215487eba2c2399f23bf2237bb5b450d46f521b
-# BUILD_DATE=20230522
-# BUILD_TAG=2023-05-22
+# ROOTFS_FILE=ruby_arm64_2023-06-05_12-11-rootfs.tar.zst
+# SHA256SUM=8a8d4ef0f23101b5c00a6b364ef456afac5424599e40c00bb856694e92a91837
+# BUILD_DATE=20230605
+# BUILD_TAG=2023-06-05
 # STATUS=completed
-# VERSION=latest02
+# VERSION=latest01
 # END_TIME=12:11
 
 [time]
 format = "rfc-3339"
 zone = "UTC"
-date = 2023-05-22
-begin = 2023-05-22 12:02:38.267510460+00:00
-start-sync_0 = 12:06:17
-start-zstd = 12:06:31
-start-sync_1 = 12:11:17
-end-sync_1 = 12:11:34
-end = 2023-05-22 12:11:34.483152385+00:00
+date = 2023-06-05
+begin = 2023-06-05 12:02:39.392208989+00:00
+start-sync_0 = 12:06:08
+start-zstd = 12:06:23
+start-sync_1 = 12:11:03
+end-sync_1 = 12:11:19
+end = 2023-06-05 12:11:19.712472396+00:00
 
 [server]
 repo = "cake233/ruby-arm64"
