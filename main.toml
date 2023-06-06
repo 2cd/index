@@ -1,5 +1,5 @@
 list = ["almalinux", "alpine", "alt", "amazonlinux", "apertis", "archlinux", "busybox", "centos", "debian", "devuan", "fedora", "funtoo", "gentoo", "kali", "mint", "openeuler", "opensuse", "openwrt", "oracle", "plamo", "pld", "rockylinux", "springdalelinux", "ubuntu", "voidlinux"]
 
 [time]
-last-update = "2023-06-06T00:24:08.071493403Z"
-readable = 00:24:08
+last-update = "2023-06-06T12:24:13.784094227Z"
+readable = 12:24:13
