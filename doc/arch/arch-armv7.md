@@ -20,7 +20,7 @@ docker exec -it arch-armv7 sh
 ```toml
 [main]
 name = "arch"
-tag = ["base", "2023-05-31"]
+tag = ["base", "2023-06-07"]
 os = "arch"
 release = "latest"
 arch = "armhf"
@@ -29,10 +29,10 @@ xorg_or_wayland = false
 syntax_version = "0.0.0-alpha.4"
 
 [file]
-name = "arch_armhf_2023-05-31_00-07.tar.zst"
+name = "arch_armhf_2023-06-07_00-06.tar.zst"
 
 # This value can be used to verify the integrity of the file
-sha256 = "029d7ddc4c004ba3583bea505b01b78af6c9ea41347170e3d68232460195b0e0"
+sha256 = "7561cc1fbc1e79e9853dcb4dbed7b3874817fa1005c04c7f7414bbd6a09ee640"
 
 # zstd: [1-22]
 zstd-level = 12
@@ -46,7 +46,7 @@ tar_bytes = 845547520
 # Space occupied ≈ tar-size + zstd-size
 # You will need to prepare a large enough space before installation.
 zstd = "239M"
-zstd_bytes = 250001347
+zstd_bytes = 250001020
 
 [compatibility]
 compatible_mode = true
@@ -60,29 +60,29 @@ previous_file = ""
 previous_sha256 = ""
 
 current_version = "latest01"
-current_date = "20230531"
+current_date = "20230607"
 old_file = ""
 old_sha256 = ""
 # edition 2021
 # DISTRO_NAME=arch_armhf
-# ROOTFS_FILE=arch_armhf_2023-05-31_00-07-rootfs.tar.zst
-# SHA256SUM=029d7ddc4c004ba3583bea505b01b78af6c9ea41347170e3d68232460195b0e0
-# BUILD_DATE=20230531
-# BUILD_TAG=2023-05-31
+# ROOTFS_FILE=arch_armhf_2023-06-07_00-06-rootfs.tar.zst
+# SHA256SUM=7561cc1fbc1e79e9853dcb4dbed7b3874817fa1005c04c7f7414bbd6a09ee640
+# BUILD_DATE=20230607
+# BUILD_TAG=2023-06-07
 # STATUS=completed
 # VERSION=latest01
-# END_TIME=00:07
+# END_TIME=00:06
 
 [time]
 format = "rfc-3339"
 zone = "UTC"
-date = 2023-05-31
-begin = 2023-05-31 00:02:31.111334638+00:00
-start-sync_0 = 00:05:46
-start-zstd = 00:06:27
-start-sync_1 = 00:06:46
-end-sync_1 = 00:07:08
-end = 2023-05-31 00:07:08.667664265+00:00
+date = 2023-06-07
+begin = 2023-06-07 00:02:30.669292352+00:00
+start-sync_0 = 00:05:22
+start-zstd = 00:06:02
+start-sync_1 = 00:06:21
+end-sync_1 = 00:06:42
+end = 2023-06-07 00:06:42.779611506+00:00
 
 [server]
 repo = "cake233/arch-armv7"
