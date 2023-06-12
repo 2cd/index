@@ -1,6 +1,6 @@
 [main]
 name = "jdk"
-tag = ["latest", "2023-05-29"]
+tag = ["latest", "2023-06-12"]
 os = "debian"
 release = "stable"
 arch = "amd64"
@@ -9,10 +9,10 @@ xorg_or_wayland = false
 syntax_version = "0.0.0-alpha.4"
 
 [file]
-name = "jdk_amd64_2023-05-29_12-08.tar.zst"
+name = "jdk_amd64_2023-06-12_12-08.tar.zst"
 
 # This value can be used to verify the integrity of the file
-sha256 = "b4b4e23967d1c961f02ec4fc8e6c2644d7c47c19354bfdbb440ba87652fc1f21"
+sha256 = "24a2135f6ee302a22314b37e03b96ff220dbe608bded3a6c91ffb1009c23b170"
 
 # zstd: [1-22]
 zstd-level = 22
@@ -21,12 +21,12 @@ zstd-level = 22
 # Installed size ≈ tar-size
 # Installed size is approximately equal to the size of the tar file
 tar = "438M"
-tar_bytes = 458966016
+tar_bytes = 458964992
 
 # Space occupied ≈ tar-size + zstd-size
 # You will need to prepare a large enough space before installation.
 zstd = "187M"
-zstd_bytes = 196001401
+zstd_bytes = 195986239
 
 [compatibility]
 compatible_mode = true
@@ -34,21 +34,21 @@ compatible_mode = true
 previous_version = "latest02"
 
 # The value is &str, not int
-previous_date = "20230515"
-previous_tag = "2023-05-15"
-previous_file = "jdk_amd64_2023-05-15_12-07-rootfs.tar.zst"
-previous_sha256 = "e3262c640d4e94a79d534244f14282182e35a2885c07212530feb890cb69d804"
+previous_date = "20211128"
+previous_tag = ""
+previous_file = ""
+previous_sha256 = ""
 
 current_version = "latest01"
-current_date = "20230529"
-old_file = "jdk_amd64_2023-05-01_12-07-rootfs.tar.zst"
-old_sha256 = "bc9b42a7a5fdad59825e216ed7d55a8fb1556b70d42fcb8694c3b628aed038da"
+current_date = "20230612"
+old_file = ""
+old_sha256 = ""
 # edition 2021
 # DISTRO_NAME=jdk_amd64
-# ROOTFS_FILE=jdk_amd64_2023-05-29_12-08-rootfs.tar.zst
-# SHA256SUM=b4b4e23967d1c961f02ec4fc8e6c2644d7c47c19354bfdbb440ba87652fc1f21
-# BUILD_DATE=20230529
-# BUILD_TAG=2023-05-29
+# ROOTFS_FILE=jdk_amd64_2023-06-12_12-08-rootfs.tar.zst
+# SHA256SUM=24a2135f6ee302a22314b37e03b96ff220dbe608bded3a6c91ffb1009c23b170
+# BUILD_DATE=20230612
+# BUILD_TAG=2023-06-12
 # STATUS=completed
 # VERSION=latest01
 # END_TIME=12:08
@@ -56,13 +56,13 @@ old_sha256 = "bc9b42a7a5fdad59825e216ed7d55a8fb1556b70d42fcb8694c3b628aed038da"
 [time]
 format = "rfc-3339"
 zone = "UTC"
-date = 2023-05-29
-begin = 2023-05-29 12:02:42.618073597+00:00
-start-sync_0 = 12:03:51
-start-zstd = 12:04:07
-start-sync_1 = 12:08:27
-end-sync_1 = 12:08:46
-end = 2023-05-29 12:08:46.328741516+00:00
+date = 2023-06-12
+begin = 2023-06-12 12:02:43.022954601+00:00
+start-sync_0 = 12:03:45
+start-zstd = 12:03:58
+start-sync_1 = 12:07:46
+end-sync_1 = 12:08:02
+end = 2023-06-12 12:08:02.952724053+00:00
 
 [server]
 repo = "cake233/jdk-amd64"
@@ -77,7 +77,7 @@ split = false
 [server.node2]
 name = "tmoe"
 current = true
-previous = false
+previous = true
 in_sync = false
 split = false
 
@@ -86,8 +86,6 @@ name = "azure"
 current = true
 previous = true
 in_sync = false
-start_sync = 2023-05-29 18:12:27.783745207+00:00
-end_sync = 2023-05-29 18:13:11.000999945+00:00
 split = false
 
 [server.node4]
