@@ -20,7 +20,7 @@ docker exec -it nginx-alpine-arm64 bash
 ```toml
 [main]
 name = "nginx"
-tag = ["alpine", "2023-05-29", "musl-libc", "musl"]
+tag = ["alpine", "2023-06-12", "musl-libc", "musl"]
 os = "alpine"
 release = "stable"
 arch = "arm64"
@@ -29,10 +29,10 @@ xorg_or_wayland = false
 syntax_version = "0.0.0-alpha.4"
 
 [file]
-name = "nginx-musl_arm64_2023-05-29_12-04.tar.zst"
+name = "nginx-musl_arm64_2023-06-12_12-04.tar.zst"
 
 # This value can be used to verify the integrity of the file
-sha256 = "3bdc12ef53f914ea8d27104ca40f99aad2b6eadd5b9a8bfad7e489e6fec3f9b7"
+sha256 = "043a20116b1bbd835b40e5e16c54abfe122fd26096eb63387c7ab91d409ae90e"
 
 # zstd: [1-22]
 zstd-level = 22
@@ -46,7 +46,7 @@ tar_bytes = 60989440
 # Space occupied ≈ tar-size + zstd-size
 # You will need to prepare a large enough space before installation.
 zstd = "14M"
-zstd_bytes = 14238563
+zstd_bytes = 14242909
 
 [compatibility]
 compatible_mode = true
@@ -54,21 +54,21 @@ compatible_mode = true
 previous_version = "latest02"
 
 # The value is &str, not int
-previous_date = "20230515"
-previous_tag = "2023-05-15"
-previous_file = "nginx-musl_arm64_2023-05-15_12-04-rootfs.tar.zst"
-previous_sha256 = "6caabeaee8baa2a55c3af1e490eed24c19c3780555ba14ebe48314767c58c87d"
+previous_date = "20211128"
+previous_tag = ""
+previous_file = ""
+previous_sha256 = ""
 
 current_version = "latest01"
-current_date = "20230529"
-old_file = "nginx-musl_arm64_2023-05-01_12-04-rootfs.tar.zst"
-old_sha256 = "2df6562d8b59743fd8d937ca0a80e62193b43eaf17be1896020fc15813905ecc"
+current_date = "20230612"
+old_file = ""
+old_sha256 = ""
 # edition 2021
 # DISTRO_NAME=nginx_arm64
-# ROOTFS_FILE=nginx-musl_arm64_2023-05-29_12-04-rootfs.tar.zst
-# SHA256SUM=3bdc12ef53f914ea8d27104ca40f99aad2b6eadd5b9a8bfad7e489e6fec3f9b7
-# BUILD_DATE=20230529
-# BUILD_TAG=2023-05-29
+# ROOTFS_FILE=nginx-musl_arm64_2023-06-12_12-04-rootfs.tar.zst
+# SHA256SUM=043a20116b1bbd835b40e5e16c54abfe122fd26096eb63387c7ab91d409ae90e
+# BUILD_DATE=20230612
+# BUILD_TAG=2023-06-12
 # STATUS=completed
 # VERSION=latest01
 # END_TIME=12:04
@@ -76,13 +76,13 @@ old_sha256 = "2df6562d8b59743fd8d937ca0a80e62193b43eaf17be1896020fc15813905ecc"
 [time]
 format = "rfc-3339"
 zone = "UTC"
-date = 2023-05-29
-begin = 2023-05-29 12:02:45.011245910+00:00
-start-sync_0 = 12:03:49
-start-zstd = 12:04:00
-start-sync_1 = 12:04:29
-end-sync_1 = 12:04:39
-end = 2023-05-29 12:04:39.291260133+00:00
+date = 2023-06-12
+begin = 2023-06-12 12:02:45.150215547+00:00
+start-sync_0 = 12:03:38
+start-zstd = 12:03:48
+start-sync_1 = 12:04:15
+end-sync_1 = 12:04:23
+end = 2023-06-12 12:04:23.382811347+00:00
 
 [server]
 repo = "cake233/nginx-alpine-arm64"
