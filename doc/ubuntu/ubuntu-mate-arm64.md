@@ -77,7 +77,7 @@ localhost:5903
 ```toml
 [main]
 name = "ubuntu"
-tag = ["mate", "2023-06-06", "devel"]
+tag = ["mate", "2023-06-13", "devel"]
 os = "ubuntu"
 release = "dev"
 arch = "arm64"
@@ -86,10 +86,10 @@ xorg_or_wayland = true
 syntax_version = "0.0.0-alpha.4"
 
 [file]
-name = "ubuntu-mate_arm64_2023-06-06_00-53.tar.zst"
+name = "ubuntu-mate_arm64_2023-06-13_00-55.tar.zst"
 
 # This value can be used to verify the integrity of the file
-sha256 = "525d0b9f690cd765df45e11223f96d82280c85a2bf80953e77e41b3e6b4063a4"
+sha256 = "66d876eba6ffbb6c042fd7f5474ad0b97d4e152f22bca0f8330beb6a72252c5f"
 
 # zstd: [1-22]
 zstd-level = 19
@@ -98,48 +98,48 @@ zstd-level = 19
 # Installed size ≈ tar-size
 # Installed size is approximately equal to the size of the tar file
 tar = "4.3G"
-tar_bytes = 4573745152
+tar_bytes = 4574976000
 
 # Space occupied ≈ tar-size + zstd-size
 # You will need to prepare a large enough space before installation.
 zstd = "1.2G"
-zstd_bytes = 1229934564
+zstd_bytes = 1230549933
 
 [compatibility]
 compatible_mode = true
 
-previous_version = "latest02"
+previous_version = "latest01"
 
 # The value is &str, not int
-previous_date = "20230530"
-previous_tag = "2023-05-30"
-previous_file = "ubuntu-mate_arm64_2023-05-30_00-57-rootfs.tar.zst"
-previous_sha256 = "88aba9e07292ccb1306362fdfd8c15415c76f7e767ad666bd4287adc13f3b4c6"
+previous_date = "20230606"
+previous_tag = "2023-06-06"
+previous_file = "ubuntu-mate_arm64_2023-06-06_00-53-rootfs.tar.zst"
+previous_sha256 = "525d0b9f690cd765df45e11223f96d82280c85a2bf80953e77e41b3e6b4063a4"
 
-current_version = "latest01"
-current_date = "20230606"
-old_file = "ubuntu-mate_arm64_2023-05-23_00-55-rootfs.tar.zst"
-old_sha256 = "32b3dfcb208a0f08962ae6e7635ed10a27b66eb0683984b582eaa511fa9c0b5c"
+current_version = "latest02"
+current_date = "20230613"
+old_file = "ubuntu-mate_arm64_2023-05-30_00-57-rootfs.tar.zst"
+old_sha256 = "88aba9e07292ccb1306362fdfd8c15415c76f7e767ad666bd4287adc13f3b4c6"
 # edition 2021
 # DISTRO_NAME=ubuntu-dev_arm64
-# ROOTFS_FILE=ubuntu-mate_arm64_2023-06-06_00-53-rootfs.tar.zst
-# SHA256SUM=525d0b9f690cd765df45e11223f96d82280c85a2bf80953e77e41b3e6b4063a4
-# BUILD_DATE=20230606
-# BUILD_TAG=2023-06-06
+# ROOTFS_FILE=ubuntu-mate_arm64_2023-06-13_00-55-rootfs.tar.zst
+# SHA256SUM=66d876eba6ffbb6c042fd7f5474ad0b97d4e152f22bca0f8330beb6a72252c5f
+# BUILD_DATE=20230613
+# BUILD_TAG=2023-06-13
 # STATUS=completed
-# VERSION=latest01
-# END_TIME=00:53
+# VERSION=latest02
+# END_TIME=00:55
 
 [time]
 format = "rfc-3339"
 zone = "UTC"
-date = 2023-06-06
-begin = 2023-06-06 00:03:01.548177677+00:00
-start-sync_0 = 00:34:00
-start-zstd = 00:37:33
-start-sync_1 = 00:52:38
-end-sync_1 = 00:53:51
-end = 2023-06-06 00:53:51.703109899+00:00
+date = 2023-06-13
+begin = 2023-06-13 00:03:17.469060085+00:00
+start-sync_0 = 00:35:23
+start-zstd = 00:39:19
+start-sync_1 = 00:54:29
+end-sync_1 = 00:55:47
+end = 2023-06-13 00:55:48.012335609+00:00
 
 [server]
 repo = "cake233/ubuntu-mate-arm64"
