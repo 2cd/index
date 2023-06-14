@@ -20,7 +20,7 @@ docker exec -it debian-zsh-amd64 zsh
 ```toml
 [main]
 name = "debian"
-tag = ["zsh", "2023-06-07"]
+tag = ["zsh", "2023-06-14"]
 os = "debian"
 release = "sid"
 arch = "amd64"
@@ -29,10 +29,10 @@ xorg_or_wayland = false
 syntax_version = "0.0.0-alpha.4"
 
 [file]
-name = "debian-zsh_amd64_2023-06-07_12-10.tar.zst"
+name = "debian-zsh_amd64_2023-06-14_12-09.tar.zst"
 
 # This value can be used to verify the integrity of the file
-sha256 = "eccd2d264fc559fe3dcc0a7118b9ae9aed13231c2b6f36c0b4c5139ab6d38975"
+sha256 = "f3cd52cf074cf14acb2f263bc787471d048b2802d88dc8fa9d1012066c0a6edb"
 
 # zstd: [1-22]
 zstd-level = 20
@@ -40,49 +40,49 @@ zstd-level = 20
 [file.size]
 # Installed size ≈ tar-size
 # Installed size is approximately equal to the size of the tar file
-tar = "774M"
-tar_bytes = 811057664
+tar = "773M"
+tar_bytes = 810472960
 
 # Space occupied ≈ tar-size + zstd-size
 # You will need to prepare a large enough space before installation.
 zstd = "150M"
-zstd_bytes = 156928650
+zstd_bytes = 157036805
 
 [compatibility]
 compatible_mode = true
 
-previous_version = "latest01"
+previous_version = "latest02"
 
 # The value is &str, not int
-previous_date = "20230531"
-previous_tag = "2023-05-31"
-previous_file = "debian-zsh_amd64_2023-05-31_12-09-rootfs.tar.zst"
-previous_sha256 = "d100050b4f293cd4a57f644b398358bb9ed4d39178b937c80b28cc9fc29a29d3"
+previous_date = "20230607"
+previous_tag = "2023-06-07"
+previous_file = "debian-zsh_amd64_2023-06-07_12-10-rootfs.tar.zst"
+previous_sha256 = "eccd2d264fc559fe3dcc0a7118b9ae9aed13231c2b6f36c0b4c5139ab6d38975"
 
-current_version = "latest02"
-current_date = "20230607"
-old_file = "debian-zsh_amd64_2023-05-24_12-09-rootfs.tar.zst"
-old_sha256 = "b1b9dac7298edc744906975a16b18a491ec38103a8e6e5bb7258e4e4b8ccecfc"
+current_version = "latest01"
+current_date = "20230614"
+old_file = "debian-zsh_amd64_2023-05-31_12-09-rootfs.tar.zst"
+old_sha256 = "d100050b4f293cd4a57f644b398358bb9ed4d39178b937c80b28cc9fc29a29d3"
 # edition 2021
 # DISTRO_NAME=debian-sid_amd64
-# ROOTFS_FILE=debian-zsh_amd64_2023-06-07_12-10-rootfs.tar.zst
-# SHA256SUM=eccd2d264fc559fe3dcc0a7118b9ae9aed13231c2b6f36c0b4c5139ab6d38975
-# BUILD_DATE=20230607
-# BUILD_TAG=2023-06-07
+# ROOTFS_FILE=debian-zsh_amd64_2023-06-14_12-09-rootfs.tar.zst
+# SHA256SUM=f3cd52cf074cf14acb2f263bc787471d048b2802d88dc8fa9d1012066c0a6edb
+# BUILD_DATE=20230614
+# BUILD_TAG=2023-06-14
 # STATUS=completed
-# VERSION=latest02
-# END_TIME=12:10
+# VERSION=latest01
+# END_TIME=12:09
 
 [time]
 format = "rfc-3339"
 zone = "UTC"
-date = 2023-06-07
-begin = 2023-06-07 12:02:41.367736591+00:00
-start-sync_0 = 12:04:40
-start-zstd = 12:06:36
-start-sync_1 = 12:09:53
-end-sync_1 = 12:10:12
-end = 2023-06-07 12:10:12.066998686+00:00
+date = 2023-06-14
+begin = 2023-06-14 12:02:35.094458937+00:00
+start-sync_0 = 12:04:34
+start-zstd = 12:06:23
+start-sync_1 = 12:09:09
+end-sync_1 = 12:09:24
+end = 2023-06-14 12:09:24.679378171+00:00
 
 [server]
 repo = "cake233/debian-zsh-amd64"
