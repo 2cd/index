@@ -77,7 +77,7 @@ localhost:5903
 ```toml
 [main]
 name = "debian"
-tag = ["lxde", "2023-06-07"]
+tag = ["lxde", "2023-06-14"]
 os = "debian"
 release = "sid"
 arch = "armhf"
@@ -86,10 +86,10 @@ xorg_or_wayland = true
 syntax_version = "0.0.0-alpha.4"
 
 [file]
-name = "debian-lxde_armhf_2023-06-07_13-00.tar.zst"
+name = "debian-lxde_armhf_2023-06-14_12-58.tar.zst"
 
 # This value can be used to verify the integrity of the file
-sha256 = "554e7aa00e8fb05bb55c1a672fc09c769ddbb0e2bbb544da860ca7e1ebeeeacb"
+sha256 = "aa03cac63900e2833a8246dc4ed16081706be832afb582fab1135ac4c3f2e70e"
 
 # zstd: [1-22]
 zstd-level = 19
@@ -98,48 +98,48 @@ zstd-level = 19
 # Installed size ≈ tar-size
 # Installed size is approximately equal to the size of the tar file
 tar = "3.0G"
-tar_bytes = 3128812032
+tar_bytes = 3132315648
 
 # Space occupied ≈ tar-size + zstd-size
 # You will need to prepare a large enough space before installation.
-zstd = "947M"
-zstd_bytes = 992300466
+zstd = "948M"
+zstd_bytes = 993313749
 
 [compatibility]
 compatible_mode = true
 
-previous_version = "latest01"
+previous_version = "latest02"
 
 # The value is &str, not int
-previous_date = "20230531"
-previous_tag = "2023-05-31"
-previous_file = "debian-lxde_armhf_2023-05-31_12-59-rootfs.tar.zst"
-previous_sha256 = "a9cb331ed274497219fd8669cb3dc06e6e7d46837ae76fbe2598b8e71d8cea1a"
+previous_date = "20230607"
+previous_tag = "2023-06-07"
+previous_file = "debian-lxde_armhf_2023-06-07_13-00-rootfs.tar.zst"
+previous_sha256 = "554e7aa00e8fb05bb55c1a672fc09c769ddbb0e2bbb544da860ca7e1ebeeeacb"
 
-current_version = "latest02"
-current_date = "20230607"
-old_file = "debian-lxde_armhf_2023-05-24_12-55-rootfs.tar.zst"
-old_sha256 = "e2151de5d6eba175324b36e7ae9180a27e1de1bcd3582d9b90a2b856f801b204"
+current_version = "latest01"
+current_date = "20230614"
+old_file = "debian-lxde_armhf_2023-05-31_12-59-rootfs.tar.zst"
+old_sha256 = "a9cb331ed274497219fd8669cb3dc06e6e7d46837ae76fbe2598b8e71d8cea1a"
 # edition 2021
 # DISTRO_NAME=debian-sid_armhf
-# ROOTFS_FILE=debian-lxde_armhf_2023-06-07_13-00-rootfs.tar.zst
-# SHA256SUM=554e7aa00e8fb05bb55c1a672fc09c769ddbb0e2bbb544da860ca7e1ebeeeacb
-# BUILD_DATE=20230607
-# BUILD_TAG=2023-06-07
+# ROOTFS_FILE=debian-lxde_armhf_2023-06-14_12-58-rootfs.tar.zst
+# SHA256SUM=aa03cac63900e2833a8246dc4ed16081706be832afb582fab1135ac4c3f2e70e
+# BUILD_DATE=20230614
+# BUILD_TAG=2023-06-14
 # STATUS=completed
-# VERSION=latest02
-# END_TIME=13:00
+# VERSION=latest01
+# END_TIME=12:58
 
 [time]
 format = "rfc-3339"
 zone = "UTC"
-date = 2023-06-07
-begin = 2023-06-07 12:24:53.864659354+00:00
-start-sync_0 = 12:47:56
-start-zstd = 12:50:10
-start-sync_1 = 12:59:27
-end-sync_1 = 13:00:23
-end = 2023-06-07 13:00:23.279827093+00:00
+date = 2023-06-14
+begin = 2023-06-14 12:22:24.027022146+00:00
+start-sync_0 = 12:45:38
+start-zstd = 12:47:49
+start-sync_1 = 12:57:07
+end-sync_1 = 12:58:04
+end = 2023-06-14 12:58:04.405686619+00:00
 
 [server]
 repo = "cake233/debian-lxde-armv7"
