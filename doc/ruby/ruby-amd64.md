@@ -20,7 +20,7 @@ docker exec -it ruby-amd64 bash
 ```toml
 [main]
 name = "ruby"
-tag = ["latest", "2023-06-19"]
+tag = ["latest", "2023-07-03"]
 os = "debian"
 release = "stable"
 arch = "amd64"
@@ -29,10 +29,10 @@ xorg_or_wayland = false
 syntax_version = "0.0.0-alpha.4"
 
 [file]
-name = "ruby_amd64_2023-06-19_12-10.tar.zst"
+name = "ruby_amd64_2023-07-03_12-10.tar.zst"
 
 # This value can be used to verify the integrity of the file
-sha256 = "e3c0fb6f8fb53fa47356c15d882c779cec4af8c8be845f03b8eb92c0c3befe9d"
+sha256 = "121cdcdacb44958094fd90cb7eb6e8e6d9a8ad7f81d1dd46a2f6425d967450ed"
 
 # zstd: [1-22]
 zstd-level = 22
@@ -41,48 +41,48 @@ zstd-level = 22
 # Installed size ≈ tar-size
 # Installed size is approximately equal to the size of the tar file
 tar = "989M"
-tar_bytes = 1036635648
+tar_bytes = 1036641792
 
 # Space occupied ≈ tar-size + zstd-size
 # You will need to prepare a large enough space before installation.
 zstd = "214M"
-zstd_bytes = 223593249
+zstd_bytes = 223570718
 
 [compatibility]
 compatible_mode = true
 
-previous_version = "latest01"
+previous_version = "latest02"
 
 # The value is &str, not int
-previous_date = "20230605"
-previous_tag = "2023-06-05"
-previous_file = "ruby_amd64_2023-06-05_12-12-rootfs.tar.zst"
-previous_sha256 = "4f44b421eedbc7458ea029ae3403630fafeed2e343322719487566cd250f7c93"
+previous_date = "20230619"
+previous_tag = "2023-06-19"
+previous_file = "ruby_amd64_2023-06-19_12-10-rootfs.tar.zst"
+previous_sha256 = "e3c0fb6f8fb53fa47356c15d882c779cec4af8c8be845f03b8eb92c0c3befe9d"
 
-current_version = "latest02"
-current_date = "20230619"
-old_file = "ruby_amd64_2023-05-22_12-16-rootfs.tar.zst"
-old_sha256 = "7060e92bf4d13affe2f4aa9884e622fb18f3cabc55690b053470e22cd3009c0b"
+current_version = "latest01"
+current_date = "20230703"
+old_file = "ruby_amd64_2023-06-05_12-12-rootfs.tar.zst"
+old_sha256 = "4f44b421eedbc7458ea029ae3403630fafeed2e343322719487566cd250f7c93"
 # edition 2021
 # DISTRO_NAME=ruby_amd64
-# ROOTFS_FILE=ruby_amd64_2023-06-19_12-10-rootfs.tar.zst
-# SHA256SUM=e3c0fb6f8fb53fa47356c15d882c779cec4af8c8be845f03b8eb92c0c3befe9d
-# BUILD_DATE=20230619
-# BUILD_TAG=2023-06-19
+# ROOTFS_FILE=ruby_amd64_2023-07-03_12-10-rootfs.tar.zst
+# SHA256SUM=121cdcdacb44958094fd90cb7eb6e8e6d9a8ad7f81d1dd46a2f6425d967450ed
+# BUILD_DATE=20230703
+# BUILD_TAG=2023-07-03
 # STATUS=completed
-# VERSION=latest02
+# VERSION=latest01
 # END_TIME=12:10
 
 [time]
 format = "rfc-3339"
 zone = "UTC"
-date = 2023-06-19
-begin = 2023-06-19 12:02:47.722353785+00:00
-start-sync_0 = 12:04:50
-start-zstd = 12:05:05
-start-sync_1 = 12:10:34
-end-sync_1 = 12:10:52
-end = 2023-06-19 12:10:52.103555243+00:00
+date = 2023-07-03
+begin = 2023-07-03 12:02:36.720091576+00:00
+start-sync_0 = 12:03:45
+start-zstd = 12:05:14
+start-sync_1 = 12:10:28
+end-sync_1 = 12:10:47
+end = 2023-07-03 12:10:47.079930695+00:00
 
 [server]
 repo = "cake233/ruby-amd64"
