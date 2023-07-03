@@ -20,7 +20,7 @@ docker exec -it php-arm64 bash
 ```toml
 [main]
 name = "php"
-tag = ["latest", "2023-06-19"]
+tag = ["latest", "2023-07-03"]
 os = "debian"
 release = "stable"
 arch = "arm64"
@@ -29,10 +29,10 @@ xorg_or_wayland = false
 syntax_version = "0.0.0-alpha.4"
 
 [file]
-name = "php_arm64_2023-06-19_12-11.tar.zst"
+name = "php_arm64_2023-07-03_12-10.tar.zst"
 
 # This value can be used to verify the integrity of the file
-sha256 = "cdeb378566aab55a32caaf8da28dc7769608884c2468819810d6168b7af623cd"
+sha256 = "1c40c97fe0e841be74a60532d953fbc649e00ab8ac81a1608b06ef941f84409c"
 
 # zstd: [1-22]
 zstd-level = 22
@@ -46,43 +46,43 @@ tar_bytes = 558337536
 # Space occupied ≈ tar-size + zstd-size
 # You will need to prepare a large enough space before installation.
 zstd = "102M"
-zstd_bytes = 106385630
+zstd_bytes = 106385284
 
 [compatibility]
 compatible_mode = true
 
-previous_version = "latest01"
+previous_version = "latest02"
 
 # The value is &str, not int
-previous_date = "20230605"
-previous_tag = "2023-06-05"
-previous_file = "php_arm64_2023-06-05_12-09-rootfs.tar.zst"
-previous_sha256 = "8fdf5f0f3b84cd7828d8bafd936535d80751b54b6de32ac0a87b42c19fd042e9"
+previous_date = "20230619"
+previous_tag = "2023-06-19"
+previous_file = "php_arm64_2023-06-19_12-11-rootfs.tar.zst"
+previous_sha256 = "cdeb378566aab55a32caaf8da28dc7769608884c2468819810d6168b7af623cd"
 
-current_version = "latest02"
-current_date = "20230619"
-old_file = "php_arm64_2023-05-22_12-10-rootfs.tar.zst"
-old_sha256 = "0fcc37a86c205611d4d53a40781a5c1bd4a7def62bac38a30737687b50e87490"
+current_version = "latest01"
+current_date = "20230703"
+old_file = "php_arm64_2023-06-05_12-09-rootfs.tar.zst"
+old_sha256 = "8fdf5f0f3b84cd7828d8bafd936535d80751b54b6de32ac0a87b42c19fd042e9"
 # edition 2021
 # DISTRO_NAME=php_arm64
-# ROOTFS_FILE=php_arm64_2023-06-19_12-11-rootfs.tar.zst
-# SHA256SUM=cdeb378566aab55a32caaf8da28dc7769608884c2468819810d6168b7af623cd
-# BUILD_DATE=20230619
-# BUILD_TAG=2023-06-19
+# ROOTFS_FILE=php_arm64_2023-07-03_12-10-rootfs.tar.zst
+# SHA256SUM=1c40c97fe0e841be74a60532d953fbc649e00ab8ac81a1608b06ef941f84409c
+# BUILD_DATE=20230703
+# BUILD_TAG=2023-07-03
 # STATUS=completed
-# VERSION=latest02
-# END_TIME=12:11
+# VERSION=latest01
+# END_TIME=12:10
 
 [time]
 format = "rfc-3339"
 zone = "UTC"
-date = 2023-06-19
-begin = 2023-06-19 12:02:45.409663194+00:00
-start-sync_0 = 12:06:01
-start-zstd = 12:06:14
-start-sync_1 = 12:11:10
-end-sync_1 = 12:11:21
-end = 2023-06-19 12:11:21.990646050+00:00
+date = 2023-07-03
+begin = 2023-07-03 12:02:37.800030310+00:00
+start-sync_0 = 12:05:10
+start-zstd = 12:05:24
+start-sync_1 = 12:10:00
+end-sync_1 = 12:10:14
+end = 2023-07-03 12:10:14.250766750+00:00
 
 [server]
 repo = "cake233/php-arm64"
