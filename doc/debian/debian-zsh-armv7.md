@@ -20,7 +20,7 @@ docker exec -it debian-zsh-armv7 zsh
 ```toml
 [main]
 name = "debian"
-tag = ["zsh", "2023-06-28"]
+tag = ["zsh", "2023-07-05"]
 os = "debian"
 release = "sid"
 arch = "armhf"
@@ -29,10 +29,10 @@ xorg_or_wayland = false
 syntax_version = "0.0.0-alpha.4"
 
 [file]
-name = "debian-zsh_armhf_2023-06-28_12-17.tar.zst"
+name = "debian-zsh_armhf_2023-07-05_12-18.tar.zst"
 
 # This value can be used to verify the integrity of the file
-sha256 = "5485cc0e9833c7cdaba32359583ed4420d223e31145e2c3a303c000dff5870e5"
+sha256 = "758e2a187edd7b60e43ebbdff0eb92c52c5546292cb8722e3c0eac7fb8ecc591"
 
 # zstd: [1-22]
 zstd-level = 20
@@ -40,49 +40,49 @@ zstd-level = 20
 [file.size]
 # Installed size ≈ tar-size
 # Installed size is approximately equal to the size of the tar file
-tar = "703M"
-tar_bytes = 736938496
+tar = "628M"
+tar_bytes = 657540608
 
 # Space occupied ≈ tar-size + zstd-size
 # You will need to prepare a large enough space before installation.
-zstd = "144M"
-zstd_bytes = 150302435
+zstd = "125M"
+zstd_bytes = 130258237
 
 [compatibility]
 compatible_mode = true
 
-previous_version = "latest02"
+previous_version = "latest01"
 
 # The value is &str, not int
-previous_date = "20230621"
-previous_tag = "2023-06-21"
-previous_file = "debian-zsh_armhf_2023-06-21_12-18-rootfs.tar.zst"
-previous_sha256 = "234c033699138bf82fe4de517f9f15a8192f8c27bdede34e71ceecda0509f027"
+previous_date = "20230628"
+previous_tag = "2023-06-28"
+previous_file = "debian-zsh_armhf_2023-06-28_12-17-rootfs.tar.zst"
+previous_sha256 = "5485cc0e9833c7cdaba32359583ed4420d223e31145e2c3a303c000dff5870e5"
 
-current_version = "latest01"
-current_date = "20230628"
-old_file = "debian-zsh_armhf_2023-06-14_12-18-rootfs.tar.zst"
-old_sha256 = "3911beb1f2c40497646c30b2856978779d7337d850fcefdbf396d027b9a8903c"
+current_version = "latest02"
+current_date = "20230705"
+old_file = "debian-zsh_armhf_2023-06-21_12-18-rootfs.tar.zst"
+old_sha256 = "234c033699138bf82fe4de517f9f15a8192f8c27bdede34e71ceecda0509f027"
 # edition 2021
 # DISTRO_NAME=debian-sid_armhf
-# ROOTFS_FILE=debian-zsh_armhf_2023-06-28_12-17-rootfs.tar.zst
-# SHA256SUM=5485cc0e9833c7cdaba32359583ed4420d223e31145e2c3a303c000dff5870e5
-# BUILD_DATE=20230628
-# BUILD_TAG=2023-06-28
+# ROOTFS_FILE=debian-zsh_armhf_2023-07-05_12-18-rootfs.tar.zst
+# SHA256SUM=758e2a187edd7b60e43ebbdff0eb92c52c5546292cb8722e3c0eac7fb8ecc591
+# BUILD_DATE=20230705
+# BUILD_TAG=2023-07-05
 # STATUS=completed
-# VERSION=latest01
-# END_TIME=12:17
+# VERSION=latest02
+# END_TIME=12:18
 
 [time]
 format = "rfc-3339"
 zone = "UTC"
-date = 2023-06-28
-begin = 2023-06-28 12:02:31.993947890+00:00
-start-sync_0 = 12:13:22
-start-zstd = 12:15:03
-start-sync_1 = 12:17:08
-end-sync_1 = 12:17:22
-end = 2023-06-28 12:17:22.500211535+00:00
+date = 2023-07-05
+begin = 2023-07-05 12:02:36.869351223+00:00
+start-sync_0 = 12:15:11
+start-zstd = 12:15:46
+start-sync_1 = 12:18:09
+end-sync_1 = 12:18:22
+end = 2023-07-05 12:18:22.591424063+00:00
 
 [server]
 repo = "cake233/debian-zsh-armv7"
@@ -117,6 +117,6 @@ current = true
 LANG = "en_US.UTF-8"
 
 [version]
-ldd = 'ldd (Debian GLIBC 2.36-9) 2.36'
-zsh = 'zsh 5.9 (arm-unknown-linux-gnueabihf)'
+ldd = 'ldd (Debian GLIBC 2.37-3) 2.37'
+zsh = ''
 ```
