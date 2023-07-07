@@ -1,6 +1,6 @@
 [main]
 name = "rust"
-tag = ["alpine", "2023-07-03", "nightly", "unstable", "minimal", "musl-libc", "musl"]
+tag = ["alpine", "2023-07-07", "nightly", "unstable", "minimal", "musl-libc", "musl"]
 os = "alpine"
 release = "edge"
 arch = "arm64"
@@ -9,10 +9,10 @@ xorg_or_wayland = false
 syntax_version = "0.0.0-alpha.4"
 
 [file]
-name = "rust-musl_arm64_2023-07-03_03-02.tar.zst"
+name = "rust-musl_arm64_2023-07-07_03-00.tar.zst"
 
 # This value can be used to verify the integrity of the file
-sha256 = "a7962e1042271e248c9997a5caf410cebed1ddd00c85317cdda77bb2689a417e"
+sha256 = "400a1e23875f81815299dc8c2c557eb8edfc95180cb6da12e97d6eabfcf7791a"
 
 # zstd: [1-22]
 zstd-level = 22
@@ -20,49 +20,49 @@ zstd-level = 22
 [file.size]
 # Installed size ≈ tar-size
 # Installed size is approximately equal to the size of the tar file
-tar = "867M"
-tar_bytes = 908368896
+tar = "865M"
+tar_bytes = 906887168
 
 # Space occupied ≈ tar-size + zstd-size
 # You will need to prepare a large enough space before installation.
 zstd = "158M"
-zstd_bytes = 165314260
+zstd_bytes = 164735828
 
 [compatibility]
 compatible_mode = true
 
-previous_version = "latest02"
+previous_version = "latest01"
 
 # The value is &str, not int
-previous_date = "20230630"
-previous_tag = "2023-06-30"
-previous_file = "rust-musl_arm64_2023-06-30_03-00-rootfs.tar.zst"
-previous_sha256 = "f90a99eb1ef2e3b2a92b21ccf6c5d5e1e40c2471139b60df2eb757140a374664"
+previous_date = "20230703"
+previous_tag = "2023-07-03"
+previous_file = "rust-musl_arm64_2023-07-03_03-02-rootfs.tar.zst"
+previous_sha256 = "a7962e1042271e248c9997a5caf410cebed1ddd00c85317cdda77bb2689a417e"
 
-current_version = "latest01"
-current_date = "20230703"
-old_file = "rust-musl_arm64_2023-06-26_03-01-rootfs.tar.zst"
-old_sha256 = "cb5c15d4bca22671b23e6a177042f14d535dd1d2d71e5f2daf47bab30590d8f7"
+current_version = "latest02"
+current_date = "20230707"
+old_file = "rust-musl_arm64_2023-06-30_03-00-rootfs.tar.zst"
+old_sha256 = "f90a99eb1ef2e3b2a92b21ccf6c5d5e1e40c2471139b60df2eb757140a374664"
 # edition 2021
 # DISTRO_NAME=rust_arm64
-# ROOTFS_FILE=rust-musl_arm64_2023-07-03_03-02-rootfs.tar.zst
-# SHA256SUM=a7962e1042271e248c9997a5caf410cebed1ddd00c85317cdda77bb2689a417e
-# BUILD_DATE=20230703
-# BUILD_TAG=2023-07-03
+# ROOTFS_FILE=rust-musl_arm64_2023-07-07_03-00-rootfs.tar.zst
+# SHA256SUM=400a1e23875f81815299dc8c2c557eb8edfc95180cb6da12e97d6eabfcf7791a
+# BUILD_DATE=20230707
+# BUILD_TAG=2023-07-07
 # STATUS=completed
-# VERSION=latest01
-# END_TIME=03:02
+# VERSION=latest02
+# END_TIME=03:00
 
 [time]
 format = "rfc-3339"
 zone = "UTC"
-date = 2023-07-03
-begin = 2023-07-03 02:52:33.898738314+00:00
-start-sync_0 = 02:56:38
-start-zstd = 02:57:17
-start-sync_1 = 03:01:59
-end-sync_1 = 03:02:13
-end = 2023-07-03 03:02:13.162396023+00:00
+date = 2023-07-07
+begin = 2023-07-07 02:52:29.894631900+00:00
+start-sync_0 = 02:54:19
+start-zstd = 02:54:58
+start-sync_1 = 02:59:47
+end-sync_1 = 03:00:02
+end = 2023-07-07 03:00:02.289492589+00:00
 
 [server]
 repo = "cake233/rust-alpine-arm64"
@@ -77,7 +77,7 @@ split = false
 [server.node2]
 name = "tmoe"
 current = true
-previous = false
+previous = true
 in_sync = false
 split = false
 
@@ -86,8 +86,6 @@ name = "azure"
 current = true
 previous = true
 in_sync = false
-start_sync = 2023-07-03 05:03:49.252713952+00:00
-end_sync = 2023-07-03 05:04:16.289676944+00:00
 split = false
 
 [server.node4]
@@ -105,7 +103,7 @@ CARGO_HOME = "/usr/local/cargo"
 ldd = 'musl libc (aarch64) Version 1.2.4'
 rustup = 'rustup 1.26.0 (5af9b9484 2023-04-05)'
 cargo = 'cargo 1.72.0-nightly (5b377cece 2023-06-30)'
-rustc = 'rustc 1.72.0-nightly (839e9a6e1 2023-07-02)'
+rustc = 'rustc 1.72.0-nightly (85bf07972 2023-07-06)'
 cc = 'cc (Alpine 13.1.1_git20230701) 13.1.1 20230701'
 cargo_verbose = '''
 cargo 1.72.0-nightly (5b377cece 2023-06-30)
@@ -119,10 +117,10 @@ ssl: OpenSSL 1.1.1u  30 May 2023
 os: Alpine Linux 3.18_alpha20230329 [64-bit]
 '''
 rustc_verbose = '''
-rustc 1.72.0-nightly (839e9a6e1 2023-07-02)
+rustc 1.72.0-nightly (85bf07972 2023-07-06)
 binary: rustc
-commit-hash: 839e9a6e1210934fd24b15548b811a97c77138fc
-commit-date: 2023-07-02
+commit-hash: 85bf07972a1041b9e25393b803d0e006bec3eaaf
+commit-date: 2023-07-06
 host: aarch64-unknown-linux-musl
 release: 1.72.0-nightly
 LLVM version: 16.0.5
