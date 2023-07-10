@@ -20,7 +20,7 @@ docker exec -it jdk-amd64 bash
 ```toml
 [main]
 name = "jdk"
-tag = ["latest", "2023-06-26"]
+tag = ["latest", "2023-07-10"]
 os = "debian"
 release = "stable"
 arch = "amd64"
@@ -29,10 +29,10 @@ xorg_or_wayland = false
 syntax_version = "0.0.0-alpha.4"
 
 [file]
-name = "jdk_amd64_2023-06-26_12-07.tar.zst"
+name = "jdk_amd64_2023-07-10_12-09.tar.zst"
 
 # This value can be used to verify the integrity of the file
-sha256 = "34ff08da715b3886ee809f7390baa2fb3084f0f0e143a5625e6e70fe4e48bc2a"
+sha256 = "757205a42ce31d3b439c4b79517a311e53b44048b1cc1ebd10de085b3980e033"
 
 # zstd: [1-22]
 zstd-level = 22
@@ -46,43 +46,43 @@ tar_bytes = 458964992
 # Space occupied ≈ tar-size + zstd-size
 # You will need to prepare a large enough space before installation.
 zstd = "187M"
-zstd_bytes = 195987024
+zstd_bytes = 195986514
 
 [compatibility]
 compatible_mode = true
 
-previous_version = "latest01"
+previous_version = "latest02"
 
 # The value is &str, not int
-previous_date = "20230612"
-previous_tag = "2023-06-12"
-previous_file = "jdk_amd64_2023-06-12_12-08-rootfs.tar.zst"
-previous_sha256 = "24a2135f6ee302a22314b37e03b96ff220dbe608bded3a6c91ffb1009c23b170"
+previous_date = "20230626"
+previous_tag = "2023-06-26"
+previous_file = "jdk_amd64_2023-06-26_12-07-rootfs.tar.zst"
+previous_sha256 = "34ff08da715b3886ee809f7390baa2fb3084f0f0e143a5625e6e70fe4e48bc2a"
 
-current_version = "latest02"
-current_date = "20230626"
-old_file = "jdk_amd64_2023-05-15_12-07-rootfs.tar.zst"
-old_sha256 = "e3262c640d4e94a79d534244f14282182e35a2885c07212530feb890cb69d804"
+current_version = "latest01"
+current_date = "20230710"
+old_file = "jdk_amd64_2023-06-12_12-08-rootfs.tar.zst"
+old_sha256 = "24a2135f6ee302a22314b37e03b96ff220dbe608bded3a6c91ffb1009c23b170"
 # edition 2021
 # DISTRO_NAME=jdk_amd64
-# ROOTFS_FILE=jdk_amd64_2023-06-26_12-07-rootfs.tar.zst
-# SHA256SUM=34ff08da715b3886ee809f7390baa2fb3084f0f0e143a5625e6e70fe4e48bc2a
-# BUILD_DATE=20230626
-# BUILD_TAG=2023-06-26
+# ROOTFS_FILE=jdk_amd64_2023-07-10_12-09-rootfs.tar.zst
+# SHA256SUM=757205a42ce31d3b439c4b79517a311e53b44048b1cc1ebd10de085b3980e033
+# BUILD_DATE=20230710
+# BUILD_TAG=2023-07-10
 # STATUS=completed
-# VERSION=latest02
-# END_TIME=12:07
+# VERSION=latest01
+# END_TIME=12:09
 
 [time]
 format = "rfc-3339"
 zone = "UTC"
-date = 2023-06-26
-begin = 2023-06-26 12:02:41.554877834+00:00
-start-sync_0 = 12:03:32
-start-zstd = 12:03:45
-start-sync_1 = 12:07:28
-end-sync_1 = 12:07:44
-end = 2023-06-26 12:07:45.015006863+00:00
+date = 2023-07-10
+begin = 2023-07-10 12:02:40.116115578+00:00
+start-sync_0 = 12:04:04
+start-zstd = 12:04:22
+start-sync_1 = 12:09:08
+end-sync_1 = 12:09:29
+end = 2023-07-10 12:09:29.402036242+00:00
 
 [server]
 repo = "cake233/jdk-amd64"
