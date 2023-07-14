@@ -69,7 +69,7 @@ ldd "$FILE"
 ```toml
 [main]
 name = "rust"
-tag = ["latest", "2023-07-10", "nightly", "unstable", "default", "gnu-libc"]
+tag = ["latest", "2023-07-14", "nightly", "unstable", "default", "gnu-libc"]
 os = "debian"
 release = "sid"
 arch = "s390x"
@@ -78,10 +78,10 @@ xorg_or_wayland = false
 syntax_version = "0.0.0-alpha.4"
 
 [file]
-name = "rust_s390x_2023-07-10_03-07.tar.zst"
+name = "rust_s390x_2023-07-14_03-08.tar.zst"
 
 # This value can be used to verify the integrity of the file
-sha256 = "1d6f8fd656c32399d7aca4741021cb3a15b8748f725a2586142dc2d7f09b28bc"
+sha256 = "c610cdb91c49d9cca509632e1598db579e36dd21418db2f008b76e29ce02a4bd"
 
 # zstd: [1-22]
 zstd-level = 20
@@ -89,49 +89,49 @@ zstd-level = 20
 [file.size]
 # Installed size ≈ tar-size
 # Installed size is approximately equal to the size of the tar file
-tar = "1.8G"
-tar_bytes = 1883512832
+tar = "2.0G"
+tar_bytes = 2129407488
 
 # Space occupied ≈ tar-size + zstd-size
 # You will need to prepare a large enough space before installation.
-zstd = "238M"
-zstd_bytes = 249176851
+zstd = "322M"
+zstd_bytes = 337301820
 
 [compatibility]
 compatible_mode = true
 
-previous_version = "latest02"
+previous_version = "latest01"
 
 # The value is &str, not int
-previous_date = "20230707"
-previous_tag = "2023-07-07"
-previous_file = "rust_s390x_2023-07-07_03-07-rootfs.tar.zst"
-previous_sha256 = "c21736b72de9ffdbaa4d74d171ff306de0ca78b5595d9b81cdc70f9e7298c831"
+previous_date = "20230710"
+previous_tag = "2023-07-10"
+previous_file = "rust_s390x_2023-07-10_03-07-rootfs.tar.zst"
+previous_sha256 = "1d6f8fd656c32399d7aca4741021cb3a15b8748f725a2586142dc2d7f09b28bc"
 
-current_version = "latest01"
-current_date = "20230710"
-old_file = "rust_s390x_2023-07-03_03-10-rootfs.tar.zst"
-old_sha256 = "151eba224e0e87080f2cbeb8a657a47d65e53c8211df797ebc28db90480ee740"
+current_version = "latest02"
+current_date = "20230714"
+old_file = "rust_s390x_2023-07-07_03-07-rootfs.tar.zst"
+old_sha256 = "c21736b72de9ffdbaa4d74d171ff306de0ca78b5595d9b81cdc70f9e7298c831"
 # edition 2021
 # DISTRO_NAME=rust_s390x
-# ROOTFS_FILE=rust_s390x_2023-07-10_03-07-rootfs.tar.zst
-# SHA256SUM=1d6f8fd656c32399d7aca4741021cb3a15b8748f725a2586142dc2d7f09b28bc
-# BUILD_DATE=20230710
-# BUILD_TAG=2023-07-10
+# ROOTFS_FILE=rust_s390x_2023-07-14_03-08-rootfs.tar.zst
+# SHA256SUM=c610cdb91c49d9cca509632e1598db579e36dd21418db2f008b76e29ce02a4bd
+# BUILD_DATE=20230714
+# BUILD_TAG=2023-07-14
 # STATUS=completed
-# VERSION=latest01
-# END_TIME=03:07
+# VERSION=latest02
+# END_TIME=03:08
 
 [time]
 format = "rfc-3339"
 zone = "UTC"
-date = 2023-07-10
-begin = 2023-07-10 02:52:29.898337196+00:00
-start-sync_0 = 02:59:35
-start-zstd = 03:00:45
-start-sync_1 = 03:07:24
-end-sync_1 = 03:07:45
-end = 2023-07-10 03:07:45.757701090+00:00
+date = 2023-07-14
+begin = 2023-07-14 02:52:37.874675936+00:00
+start-sync_0 = 02:59:14
+start-zstd = 03:00:26
+start-sync_1 = 03:08:12
+end-sync_1 = 03:08:37
+end = 2023-07-14 03:08:37.550379311+00:00
 
 [server]
 repo = "cake233/rust-s390x"
@@ -171,14 +171,14 @@ CARGO_HOME = "/usr/local/cargo"
 [version]
 ldd = 'ldd (Debian GLIBC 2.37-5) 2.37'
 rustup = 'rustup 1.26.0 (5af9b9484 2023-04-05)'
-cargo = 'cargo 1.73.0-nightly (45782b6b8 2023-07-05)'
-rustc = 'rustc 1.73.0-nightly (1065d876c 2023-07-09)'
-cc = 'cc (Debian 12.3.0-5) 12.3.0'
+cargo = 'cargo 1.73.0-nightly (694a57956 2023-07-11)'
+rustc = 'rustc 1.73.0-nightly (7bd81ee19 2023-07-13)'
+cc = 'cc (Debian 13.1.0-8) 13.1.0'
 cargo_verbose = '''
-cargo 1.73.0-nightly (45782b6b8 2023-07-05)
+cargo 1.73.0-nightly (694a57956 2023-07-11)
 release: 1.73.0-nightly
-commit-hash: 45782b6b8afd1da042d45c2daeec9c0744f72cc7
-commit-date: 2023-07-05
+commit-hash: 694a579566a9a1482b20aff8a68f0e4edd99bd28
+commit-date: 2023-07-11
 host: s390x-unknown-linux-gnu
 libgit2: 1.6.4 (sys:0.17.2 vendored)
 libcurl: 8.1.2-DEV (sys:0.4.63+curl-8.1.2 vendored ssl:OpenSSL/1.1.1u)
@@ -186,10 +186,10 @@ ssl: OpenSSL 1.1.1u  30 May 2023
 os: Linux [64-bit]
 '''
 rustc_verbose = '''
-rustc 1.73.0-nightly (1065d876c 2023-07-09)
+rustc 1.73.0-nightly (7bd81ee19 2023-07-13)
 binary: rustc
-commit-hash: 1065d876cdbc34a872b9e17c78caaa59ea0c94d4
-commit-date: 2023-07-09
+commit-hash: 7bd81ee1902c049691d0a1f03be5558bee51d100
+commit-date: 2023-07-13
 host: s390x-unknown-linux-gnu
 release: 1.73.0-nightly
 LLVM version: 16.0.5
