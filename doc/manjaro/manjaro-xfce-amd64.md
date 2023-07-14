@@ -77,7 +77,7 @@ localhost:5903
 ```toml
 [main]
 name = "manjaro"
-tag = ["xfce", "2023-07-07"]
+tag = ["xfce", "2023-07-14"]
 os = "manjaro"
 release = "stable"
 arch = "amd64"
@@ -86,10 +86,10 @@ xorg_or_wayland = true
 syntax_version = "0.0.0-alpha.4"
 
 [file]
-name = "manjaro-xfce_amd64_2023-07-07_12-44.tar.zst"
+name = "manjaro-xfce_amd64_2023-07-14_12-47.tar.zst"
 
 # This value can be used to verify the integrity of the file
-sha256 = "9163a6ab1e134a3e93afdf25146986379760aa223d2a59832088739b6e86e32b"
+sha256 = "5132cc87d9c2245e324a730b7bba75d8dce39613ddf7786b76b63e2ec4f04cc5"
 
 # zstd: [1-22]
 zstd-level = 19
@@ -97,49 +97,49 @@ zstd-level = 19
 [file.size]
 # Installed size ≈ tar-size
 # Installed size is approximately equal to the size of the tar file
-tar = "3.9G"
-tar_bytes = 4107938304
+tar = "3.8G"
+tar_bytes = 4051491840
 
 # Space occupied ≈ tar-size + zstd-size
 # You will need to prepare a large enough space before installation.
 zstd = "1.2G"
-zstd_bytes = 1208289797
+zstd_bytes = 1186506880
 
 [compatibility]
 compatible_mode = true
 
-previous_version = "latest02"
+previous_version = "latest01"
 
 # The value is &str, not int
-previous_date = "20230630"
-previous_tag = "2023-06-30"
-previous_file = "manjaro-xfce_amd64_2023-06-30_12-44-rootfs.tar.zst"
-previous_sha256 = "9ccff56af30691c85cdc8e35eab44806f80f44105f25a8de094c8e8e8c7458b6"
+previous_date = "20230707"
+previous_tag = "2023-07-07"
+previous_file = "manjaro-xfce_amd64_2023-07-07_12-44-rootfs.tar.zst"
+previous_sha256 = "9163a6ab1e134a3e93afdf25146986379760aa223d2a59832088739b6e86e32b"
 
-current_version = "latest01"
-current_date = "20230707"
-old_file = "manjaro-xfce_amd64_2023-06-23_12-49-rootfs.tar.zst"
-old_sha256 = "99001d2e1c7c83c10741ab6d856302f22aa35fb265566f081740a700982f0b08"
+current_version = "latest02"
+current_date = "20230714"
+old_file = "manjaro-xfce_amd64_2023-06-30_12-44-rootfs.tar.zst"
+old_sha256 = "9ccff56af30691c85cdc8e35eab44806f80f44105f25a8de094c8e8e8c7458b6"
 # edition 2021
 # DISTRO_NAME=manjaro-stable_amd64
-# ROOTFS_FILE=manjaro-xfce_amd64_2023-07-07_12-44-rootfs.tar.zst
-# SHA256SUM=9163a6ab1e134a3e93afdf25146986379760aa223d2a59832088739b6e86e32b
-# BUILD_DATE=20230707
-# BUILD_TAG=2023-07-07
+# ROOTFS_FILE=manjaro-xfce_amd64_2023-07-14_12-47-rootfs.tar.zst
+# SHA256SUM=5132cc87d9c2245e324a730b7bba75d8dce39613ddf7786b76b63e2ec4f04cc5
+# BUILD_DATE=20230714
+# BUILD_TAG=2023-07-14
 # STATUS=completed
-# VERSION=latest01
-# END_TIME=12:44
+# VERSION=latest02
+# END_TIME=12:47
 
 [time]
 format = "rfc-3339"
 zone = "UTC"
-date = 2023-07-07
-begin = 2023-07-07 12:20:57.510795414+00:00
-start-sync_0 = 12:25:04
-start-zstd = 12:28:04
-start-sync_1 = 12:43:36
-end-sync_1 = 12:44:46
-end = 2023-07-07 12:44:47.014632307+00:00
+date = 2023-07-14
+begin = 2023-07-14 12:20:20.728894049+00:00
+start-sync_0 = 12:24:23
+start-zstd = 12:28:14
+start-sync_1 = 12:46:05
+end-sync_1 = 12:47:27
+end = 2023-07-14 12:47:27.093354470+00:00
 
 [server]
 repo = "cake233/manjaro-xfce-amd64"
