@@ -1,6 +1,6 @@
 [main]
 name = "arch"
-tag = ["xfce", "2023-07-19"]
+tag = ["xfce", "2023-07-26"]
 os = "arch"
 release = "latest"
 arch = "arm64"
@@ -9,10 +9,10 @@ xorg_or_wayland = true
 syntax_version = "0.0.0-alpha.4"
 
 [file]
-name = "arch-xfce_arm64_2023-07-19_01-17.tar.zst"
+name = "arch-xfce_arm64_2023-07-26_01-11.tar.zst"
 
 # This value can be used to verify the integrity of the file
-sha256 = "49dc4b65c1da17c52aece552b92124143a46e61acdc551282429de95074bf2d9"
+sha256 = "75b65a645fda63fb868a744922a3d309672de44df485c21bbadafa236869847c"
 
 # zstd: [1-22]
 zstd-level = 19
@@ -21,48 +21,48 @@ zstd-level = 19
 # Installed size ≈ tar-size
 # Installed size is approximately equal to the size of the tar file
 tar = "4.3G"
-tar_bytes = 4541251072
+tar_bytes = 4560654336
 
 # Space occupied ≈ tar-size + zstd-size
 # You will need to prepare a large enough space before installation.
 zstd = "1.3G"
-zstd_bytes = 1292850806
+zstd_bytes = 1311018587
 
 [compatibility]
 compatible_mode = true
 
-previous_version = "latest02"
+previous_version = "latest01"
 
 # The value is &str, not int
-previous_date = "20230712"
-previous_tag = "2023-07-12"
-previous_file = "arch-xfce_arm64_2023-07-12_01-13-rootfs.tar.zst"
-previous_sha256 = "3a187954e1ea4e87578cb37b98b92f163c7773fbb66926540cd708bf157ba6aa"
+previous_date = "20230719"
+previous_tag = "2023-07-19"
+previous_file = "arch-xfce_arm64_2023-07-19_01-17-rootfs.tar.zst"
+previous_sha256 = "49dc4b65c1da17c52aece552b92124143a46e61acdc551282429de95074bf2d9"
 
-current_version = "latest01"
-current_date = "20230719"
-old_file = "arch-xfce_arm64_2023-07-05_01-08-rootfs.tar.zst"
-old_sha256 = "83cf7b63f08ed3a84ea80eebc8f47a14d512cab148799e123dbdf62a0f36459d"
+current_version = "latest02"
+current_date = "20230726"
+old_file = "arch-xfce_arm64_2023-07-12_01-13-rootfs.tar.zst"
+old_sha256 = "3a187954e1ea4e87578cb37b98b92f163c7773fbb66926540cd708bf157ba6aa"
 # edition 2021
 # DISTRO_NAME=arch_arm64
-# ROOTFS_FILE=arch-xfce_arm64_2023-07-19_01-17-rootfs.tar.zst
-# SHA256SUM=49dc4b65c1da17c52aece552b92124143a46e61acdc551282429de95074bf2d9
-# BUILD_DATE=20230719
-# BUILD_TAG=2023-07-19
+# ROOTFS_FILE=arch-xfce_arm64_2023-07-26_01-11-rootfs.tar.zst
+# SHA256SUM=75b65a645fda63fb868a744922a3d309672de44df485c21bbadafa236869847c
+# BUILD_DATE=20230726
+# BUILD_TAG=2023-07-26
 # STATUS=completed
-# VERSION=latest01
-# END_TIME=01:17
+# VERSION=latest02
+# END_TIME=01:11
 
 [time]
 format = "rfc-3339"
 zone = "UTC"
-date = 2023-07-19
-begin = 2023-07-19 00:37:44.875314518+00:00
-start-sync_0 = 00:52:11
-start-zstd = 00:56:24
-start-sync_1 = 01:15:59
-end-sync_1 = 01:17:26
-end = 2023-07-19 01:17:26.568355934+00:00
+date = 2023-07-26
+begin = 2023-07-26 00:40:11.976083297+00:00
+start-sync_0 = 00:51:10
+start-zstd = 00:54:44
+start-sync_1 = 01:10:37
+end-sync_1 = 01:11:52
+end = 2023-07-26 01:11:52.609671990+00:00
 
 [server]
 repo = "cake233/arch-xfce-arm64"
@@ -77,7 +77,7 @@ split = false
 [server.node2]
 name = "tmoe"
 current = true
-previous = false
+previous = true
 in_sync = false
 split = false
 
@@ -86,8 +86,6 @@ name = "azure"
 current = true
 previous = true
 in_sync = false
-start_sync = 2023-07-19 06:11:48.378088661+00:00
-end_sync = 2023-07-19 06:14:54.749055104+00:00
 split = false
 
 [server.node4]
