@@ -20,7 +20,7 @@ docker exec -it alpine-zsh-armv7 zsh
 ```toml
 [main]
 name = "alpine"
-tag = ["zsh", "2023-07-20"]
+tag = ["zsh", "2023-07-27"]
 os = "alpine"
 release = "edge"
 arch = "armhf"
@@ -29,10 +29,10 @@ xorg_or_wayland = false
 syntax_version = "0.0.0-alpha.4"
 
 [file]
-name = "alpine-zsh_armhf_2023-07-20_00-05.tar.zst"
+name = "alpine-zsh_armhf_2023-07-27_00-06.tar.zst"
 
 # This value can be used to verify the integrity of the file
-sha256 = "c10db841d0aad61767d1ee29cb5be2ed229b697f11ad54fe3698317bf702f9c2"
+sha256 = "abcf5b88b36496dc7ca0e90d453bdddeef4a6aad957a7c5b10284fa1e7f28096"
 
 # zstd: [1-22]
 zstd-level = 20
@@ -40,49 +40,49 @@ zstd-level = 20
 [file.size]
 # Installed size ≈ tar-size
 # Installed size is approximately equal to the size of the tar file
-tar = "78M"
-tar_bytes = 80803840
+tar = "106M"
+tar_bytes = 111036928
 
 # Space occupied ≈ tar-size + zstd-size
 # You will need to prepare a large enough space before installation.
-zstd = "30M"
-zstd_bytes = 30521987
+zstd = "35M"
+zstd_bytes = 36499318
 
 [compatibility]
 compatible_mode = true
 
-previous_version = "latest02"
+previous_version = "latest01"
 
 # The value is &str, not int
-previous_date = "20230713"
-previous_tag = "2023-07-13"
-previous_file = "alpine-zsh_armhf_2023-07-13_00-06-rootfs.tar.zst"
-previous_sha256 = "7a33a0f1d8dec490401f73ea876cc6091097c3449fb3a8966edcd7dd89698225"
+previous_date = "20230720"
+previous_tag = "2023-07-20"
+previous_file = "alpine-zsh_armhf_2023-07-20_00-05-rootfs.tar.zst"
+previous_sha256 = "c10db841d0aad61767d1ee29cb5be2ed229b697f11ad54fe3698317bf702f9c2"
 
-current_version = "latest01"
-current_date = "20230720"
-old_file = "alpine-zsh_armhf_2023-07-06_00-05-rootfs.tar.zst"
-old_sha256 = "5bb393f568e8d93a43e6cf427b737de6d4813f1792790c2ea8d86a458b701a43"
+current_version = "latest02"
+current_date = "20230727"
+old_file = "alpine-zsh_armhf_2023-07-13_00-06-rootfs.tar.zst"
+old_sha256 = "7a33a0f1d8dec490401f73ea876cc6091097c3449fb3a8966edcd7dd89698225"
 # edition 2021
 # DISTRO_NAME=alpine-edge_armhf
-# ROOTFS_FILE=alpine-zsh_armhf_2023-07-20_00-05-rootfs.tar.zst
-# SHA256SUM=c10db841d0aad61767d1ee29cb5be2ed229b697f11ad54fe3698317bf702f9c2
-# BUILD_DATE=20230720
-# BUILD_TAG=2023-07-20
+# ROOTFS_FILE=alpine-zsh_armhf_2023-07-27_00-06-rootfs.tar.zst
+# SHA256SUM=abcf5b88b36496dc7ca0e90d453bdddeef4a6aad957a7c5b10284fa1e7f28096
+# BUILD_DATE=20230727
+# BUILD_TAG=2023-07-27
 # STATUS=completed
-# VERSION=latest01
-# END_TIME=00:05
+# VERSION=latest02
+# END_TIME=00:06
 
 [time]
 format = "rfc-3339"
 zone = "UTC"
-date = 2023-07-20
-begin = 2023-07-20 00:02:28.969930330+00:00
-start-sync_0 = 00:03:48
-start-zstd = 00:05:08
-start-sync_1 = 00:05:30
-end-sync_1 = 00:05:37
-end = 2023-07-20 00:05:37.811493655+00:00
+date = 2023-07-27
+begin = 2023-07-27 00:02:33.270656560+00:00
+start-sync_0 = 00:04:29
+start-zstd = 00:05:56
+start-sync_1 = 00:06:36
+end-sync_1 = 00:06:48
+end = 2023-07-27 00:06:48.210127249+00:00
 
 [server]
 repo = "cake233/alpine-zsh-armv7"
