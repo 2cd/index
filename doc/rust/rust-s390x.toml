@@ -1,6 +1,6 @@
 [main]
 name = "rust"
-tag = ["latest", "2023-07-24", "nightly", "unstable", "default", "gnu-libc"]
+tag = ["latest", "2023-07-28", "nightly", "unstable", "default", "gnu-libc"]
 os = "debian"
 release = "sid"
 arch = "s390x"
@@ -9,10 +9,10 @@ xorg_or_wayland = false
 syntax_version = "0.0.0-alpha.4"
 
 [file]
-name = "rust_s390x_2023-07-24_03-09.tar.zst"
+name = "rust_s390x_2023-07-28_03-13.tar.zst"
 
 # This value can be used to verify the integrity of the file
-sha256 = "7b66fddfc73eb415c6b2cc34bbd844deaba9cbbdf3ecf2e4207676cf5ed97564"
+sha256 = "d3185dd17ee00fc2fe4266dcaa279c2f9e6643abff01459deb8481a982b76c36"
 
 # zstd: [1-22]
 zstd-level = 20
@@ -21,48 +21,48 @@ zstd-level = 20
 # Installed size ≈ tar-size
 # Installed size is approximately equal to the size of the tar file
 tar = "2.0G"
-tar_bytes = 2134241792
+tar_bytes = 2128596992
 
 # Space occupied ≈ tar-size + zstd-size
 # You will need to prepare a large enough space before installation.
 zstd = "320M"
-zstd_bytes = 334907563
+zstd_bytes = 334948653
 
 [compatibility]
 compatible_mode = true
 
-previous_version = "latest01"
+previous_version = "latest02"
 
 # The value is &str, not int
-previous_date = "20230717"
-previous_tag = "2023-07-17"
-previous_file = "rust_s390x_2023-07-17_03-13-rootfs.tar.zst"
-previous_sha256 = "251ce11c2a0f8daaac2b523a952ea2437ba531d8f233be427c6754d76410ec30"
+previous_date = "20230724"
+previous_tag = "2023-07-24"
+previous_file = "rust_s390x_2023-07-24_03-09-rootfs.tar.zst"
+previous_sha256 = "7b66fddfc73eb415c6b2cc34bbd844deaba9cbbdf3ecf2e4207676cf5ed97564"
 
-current_version = "latest02"
-current_date = "20230724"
-old_file = "rust_s390x_2023-07-14_03-08-rootfs.tar.zst"
-old_sha256 = "c610cdb91c49d9cca509632e1598db579e36dd21418db2f008b76e29ce02a4bd"
+current_version = "latest01"
+current_date = "20230728"
+old_file = "rust_s390x_2023-07-17_03-13-rootfs.tar.zst"
+old_sha256 = "251ce11c2a0f8daaac2b523a952ea2437ba531d8f233be427c6754d76410ec30"
 # edition 2021
 # DISTRO_NAME=rust_s390x
-# ROOTFS_FILE=rust_s390x_2023-07-24_03-09-rootfs.tar.zst
-# SHA256SUM=7b66fddfc73eb415c6b2cc34bbd844deaba9cbbdf3ecf2e4207676cf5ed97564
-# BUILD_DATE=20230724
-# BUILD_TAG=2023-07-24
+# ROOTFS_FILE=rust_s390x_2023-07-28_03-13-rootfs.tar.zst
+# SHA256SUM=d3185dd17ee00fc2fe4266dcaa279c2f9e6643abff01459deb8481a982b76c36
+# BUILD_DATE=20230728
+# BUILD_TAG=2023-07-28
 # STATUS=completed
-# VERSION=latest02
-# END_TIME=03:09
+# VERSION=latest01
+# END_TIME=03:13
 
 [time]
 format = "rfc-3339"
 zone = "UTC"
-date = 2023-07-24
-begin = 2023-07-24 02:52:28.930307173+00:00
-start-sync_0 = 03:00:22
-start-zstd = 03:01:35
-start-sync_1 = 03:09:26
-end-sync_1 = 03:09:51
-end = 2023-07-24 03:09:51.377595258+00:00
+date = 2023-07-28
+begin = 2023-07-28 02:52:34.256046604+00:00
+start-sync_0 = 03:01:01
+start-zstd = 03:02:38
+start-sync_1 = 03:13:14
+end-sync_1 = 03:13:47
+end = 2023-07-28 03:13:47.544654367+00:00
 
 [server]
 repo = "cake233/rust-s390x"
@@ -77,7 +77,7 @@ split = false
 [server.node2]
 name = "tmoe"
 current = true
-previous = false
+previous = true
 in_sync = false
 split = false
 
@@ -86,8 +86,6 @@ name = "azure"
 current = true
 previous = true
 in_sync = false
-start_sync = 2023-07-24 05:11:17.713848501+00:00
-end_sync = 2023-07-24 05:11:58.139036371+00:00
 split = false
 
 [server.node4]
@@ -104,14 +102,14 @@ CARGO_HOME = "/usr/local/cargo"
 [version]
 ldd = 'ldd (Debian GLIBC 2.37-6) 2.37'
 rustup = 'rustup 1.26.0 (5af9b9484 2023-04-05)'
-cargo = 'cargo 1.73.0-nightly (1b1555676 2023-07-18)'
-rustc = 'rustc 1.73.0-nightly (8771282d4 2023-07-23)'
+cargo = 'cargo 1.73.0-nightly (7ac9416d8 2023-07-24)'
+rustc = 'rustc 1.73.0-nightly (500647fd8 2023-07-27)'
 cc = 'cc (Debian 13.1.0-9) 13.1.0'
 cargo_verbose = '''
-cargo 1.73.0-nightly (1b1555676 2023-07-18)
+cargo 1.73.0-nightly (7ac9416d8 2023-07-24)
 release: 1.73.0-nightly
-commit-hash: 1b15556767f4b78a64e868eedf4073c423f02b93
-commit-date: 2023-07-18
+commit-hash: 7ac9416d82cd4fc5e707c9ec3574d22dff6466e5
+commit-date: 2023-07-24
 host: s390x-unknown-linux-gnu
 libgit2: 1.6.4 (sys:0.17.2 vendored)
 libcurl: 8.1.2-DEV (sys:0.4.63+curl-8.1.2 vendored ssl:OpenSSL/1.1.1u)
@@ -119,10 +117,10 @@ ssl: OpenSSL 1.1.1u  30 May 2023
 os: Linux [64-bit]
 '''
 rustc_verbose = '''
-rustc 1.73.0-nightly (8771282d4 2023-07-23)
+rustc 1.73.0-nightly (500647fd8 2023-07-27)
 binary: rustc
-commit-hash: 8771282d4e7a5c4569e49d1f878fb3ba90a974d0
-commit-date: 2023-07-23
+commit-hash: 500647fd8138cc09e87edb08d62f81654fbf6ef8
+commit-date: 2023-07-27
 host: s390x-unknown-linux-gnu
 release: 1.73.0-nightly
 LLVM version: 16.0.5
