@@ -69,7 +69,7 @@ ldd "$FILE"
 ```toml
 [main]
 name = "rust"
-tag = ["latest", "2023-07-21", "nightly", "unstable", "default", "gnu-libc"]
+tag = ["latest", "2023-07-31", "nightly", "unstable", "default", "gnu-libc"]
 os = "debian"
 release = "sid"
 arch = "ppc64el"
@@ -78,10 +78,10 @@ xorg_or_wayland = false
 syntax_version = "0.0.0-alpha.4"
 
 [file]
-name = "rust_ppc64el_2023-07-21_03-08.tar.zst"
+name = "rust_ppc64el_2023-07-31_03-10.tar.zst"
 
 # This value can be used to verify the integrity of the file
-sha256 = "2ea1172b623f17baa557c157b1ad3156cc438b416870a1439582b344a87490d9"
+sha256 = "9e7e800360cfdb030d376d86f3e5ae2036c628fb08efb20028fc4770107386d0"
 
 # zstd: [1-22]
 zstd-level = 20
@@ -90,48 +90,48 @@ zstd-level = 20
 # Installed size ≈ tar-size
 # Installed size is approximately equal to the size of the tar file
 tar = "1.9G"
-tar_bytes = 1981053952
+tar_bytes = 1976581632
 
 # Space occupied ≈ tar-size + zstd-size
 # You will need to prepare a large enough space before installation.
 zstd = "300M"
-zstd_bytes = 314177329
+zstd_bytes = 314012862
 
 [compatibility]
 compatible_mode = true
 
-previous_version = "latest02"
+previous_version = "latest01"
 
 # The value is &str, not int
-previous_date = "20230717"
-previous_tag = "2023-07-17"
-previous_file = "rust_ppc64el_2023-07-17_03-07-rootfs.tar.zst"
-previous_sha256 = "7aeba68500c3ed7eabc5f17eadac5b36824faa0bd5a179f96f48549c8e3ec06a"
+previous_date = "20230721"
+previous_tag = "2023-07-21"
+previous_file = "rust_ppc64el_2023-07-21_03-08-rootfs.tar.zst"
+previous_sha256 = "2ea1172b623f17baa557c157b1ad3156cc438b416870a1439582b344a87490d9"
 
-current_version = "latest01"
-current_date = "20230721"
-old_file = "rust_ppc64el_2023-07-14_03-07-rootfs.tar.zst"
-old_sha256 = "7af188814554ebd7e188a3a7ebba81bc6351cf68308b7e1e8ca92250cd7eb058"
+current_version = "latest02"
+current_date = "20230731"
+old_file = "rust_ppc64el_2023-07-17_03-07-rootfs.tar.zst"
+old_sha256 = "7aeba68500c3ed7eabc5f17eadac5b36824faa0bd5a179f96f48549c8e3ec06a"
 # edition 2021
 # DISTRO_NAME=rust_ppc64el
-# ROOTFS_FILE=rust_ppc64el_2023-07-21_03-08-rootfs.tar.zst
-# SHA256SUM=2ea1172b623f17baa557c157b1ad3156cc438b416870a1439582b344a87490d9
-# BUILD_DATE=20230721
-# BUILD_TAG=2023-07-21
+# ROOTFS_FILE=rust_ppc64el_2023-07-31_03-10-rootfs.tar.zst
+# SHA256SUM=9e7e800360cfdb030d376d86f3e5ae2036c628fb08efb20028fc4770107386d0
+# BUILD_DATE=20230731
+# BUILD_TAG=2023-07-31
 # STATUS=completed
-# VERSION=latest01
-# END_TIME=03:08
+# VERSION=latest02
+# END_TIME=03:10
 
 [time]
 format = "rfc-3339"
 zone = "UTC"
-date = 2023-07-21
-begin = 2023-07-21 02:52:36.388004585+00:00
-start-sync_0 = 02:59:04
-start-zstd = 03:00:08
-start-sync_1 = 03:07:54
-end-sync_1 = 03:08:17
-end = 2023-07-21 03:08:17.333030253+00:00
+date = 2023-07-31
+begin = 2023-07-31 02:52:37.152635695+00:00
+start-sync_0 = 03:00:20
+start-zstd = 03:01:36
+start-sync_1 = 03:10:05
+end-sync_1 = 03:10:33
+end = 2023-07-31 03:10:33.457181815+00:00
 
 [server]
 repo = "cake233/rust-ppc64le"
@@ -171,14 +171,14 @@ CARGO_HOME = "/usr/local/cargo"
 [version]
 ldd = 'ldd (Debian GLIBC 2.37-6) 2.37'
 rustup = 'rustup 1.26.0 (5af9b9484 2023-04-05)'
-cargo = 'cargo 1.73.0-nightly (1b1555676 2023-07-18)'
-rustc = 'rustc 1.73.0-nightly (399b06823 2023-07-20)'
-cc = 'cc (Debian 13.1.0-9) 13.1.0'
+cargo = 'cargo 1.73.0-nightly (7ac9416d8 2023-07-24)'
+rustc = 'rustc 1.73.0-nightly (32303b219 2023-07-29)'
+cc = 'cc (Debian 13.2.0-1) 13.2.0'
 cargo_verbose = '''
-cargo 1.73.0-nightly (1b1555676 2023-07-18)
+cargo 1.73.0-nightly (7ac9416d8 2023-07-24)
 release: 1.73.0-nightly
-commit-hash: 1b15556767f4b78a64e868eedf4073c423f02b93
-commit-date: 2023-07-18
+commit-hash: 7ac9416d82cd4fc5e707c9ec3574d22dff6466e5
+commit-date: 2023-07-24
 host: powerpc64le-unknown-linux-gnu
 libgit2: 1.6.4 (sys:0.17.2 vendored)
 libcurl: 8.1.2-DEV (sys:0.4.63+curl-8.1.2 vendored ssl:OpenSSL/1.1.1u)
@@ -186,10 +186,10 @@ ssl: OpenSSL 1.1.1u  30 May 2023
 os: Linux [64-bit]
 '''
 rustc_verbose = '''
-rustc 1.73.0-nightly (399b06823 2023-07-20)
+rustc 1.73.0-nightly (32303b219 2023-07-29)
 binary: rustc
-commit-hash: 399b068235ceea440540539b3bfd1aeb82214a28
-commit-date: 2023-07-20
+commit-hash: 32303b219d4dffa447aa606bc11c7a648f44a862
+commit-date: 2023-07-29
 host: powerpc64le-unknown-linux-gnu
 release: 1.73.0-nightly
 LLVM version: 16.0.5
