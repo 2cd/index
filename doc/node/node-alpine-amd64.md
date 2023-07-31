@@ -20,7 +20,7 @@ docker exec -it node-alpine-amd64 bash
 ```toml
 [main]
 name = "node"
-tag = ["alpine", "2023-07-17", "musl-libc", "musl"]
+tag = ["alpine", "2023-07-31", "musl-libc", "musl"]
 os = "alpine"
 release = "stable"
 arch = "amd64"
@@ -29,10 +29,10 @@ xorg_or_wayland = false
 syntax_version = "0.0.0-alpha.4"
 
 [file]
-name = "node-musl_amd64_2023-07-17_12-05.tar.zst"
+name = "node-musl_amd64_2023-07-31_12-05.tar.zst"
 
 # This value can be used to verify the integrity of the file
-sha256 = "8fce579edaa31ae39da200c63ea6b77287398eb256919d4fea12505d3b0fd908"
+sha256 = "ad43b727786bfb34d008f52745928e1a719691286698dfac188c1fa13f8ae05d"
 
 # zstd: [1-22]
 zstd-level = 22
@@ -41,48 +41,48 @@ zstd-level = 22
 # Installed size ≈ tar-size
 # Installed size is approximately equal to the size of the tar file
 tar = "192M"
-tar_bytes = 201121280
+tar_bytes = 201165824
 
 # Space occupied ≈ tar-size + zstd-size
 # You will need to prepare a large enough space before installation.
 zstd = "35M"
-zstd_bytes = 36443841
+zstd_bytes = 36493996
 
 [compatibility]
 compatible_mode = true
 
-previous_version = "latest02"
+previous_version = "latest01"
 
 # The value is &str, not int
-previous_date = "20230703"
-previous_tag = "2023-07-03"
-previous_file = "node-musl_amd64_2023-07-03_12-04-rootfs.tar.zst"
-previous_sha256 = "9c9b166c070fdfa5d60bd8e7f06641f854dc2f554e0df14016e690a63d924505"
+previous_date = "20230717"
+previous_tag = "2023-07-17"
+previous_file = "node-musl_amd64_2023-07-17_12-05-rootfs.tar.zst"
+previous_sha256 = "8fce579edaa31ae39da200c63ea6b77287398eb256919d4fea12505d3b0fd908"
 
-current_version = "latest01"
-current_date = "20230717"
-old_file = "node-musl_amd64_2023-06-19_12-05-rootfs.tar.zst"
-old_sha256 = "649121a3168432357fda548e98c02d88b7ebe8274da88ef94a6004b235726aa6"
+current_version = "latest02"
+current_date = "20230731"
+old_file = "node-musl_amd64_2023-07-03_12-04-rootfs.tar.zst"
+old_sha256 = "9c9b166c070fdfa5d60bd8e7f06641f854dc2f554e0df14016e690a63d924505"
 # edition 2021
 # DISTRO_NAME=node_amd64
-# ROOTFS_FILE=node-musl_amd64_2023-07-17_12-05-rootfs.tar.zst
-# SHA256SUM=8fce579edaa31ae39da200c63ea6b77287398eb256919d4fea12505d3b0fd908
-# BUILD_DATE=20230717
-# BUILD_TAG=2023-07-17
+# ROOTFS_FILE=node-musl_amd64_2023-07-31_12-05-rootfs.tar.zst
+# SHA256SUM=ad43b727786bfb34d008f52745928e1a719691286698dfac188c1fa13f8ae05d
+# BUILD_DATE=20230731
+# BUILD_TAG=2023-07-31
 # STATUS=completed
-# VERSION=latest01
+# VERSION=latest02
 # END_TIME=12:05
 
 [time]
 format = "rfc-3339"
 zone = "UTC"
-date = 2023-07-17
-begin = 2023-07-17 12:02:40.129426397+00:00
-start-sync_0 = 12:03:39
-start-zstd = 12:03:53
-start-sync_1 = 12:05:16
-end-sync_1 = 12:05:27
-end = 2023-07-17 12:05:27.679923684+00:00
+date = 2023-07-31
+begin = 2023-07-31 12:02:38.402219396+00:00
+start-sync_0 = 12:03:28
+start-zstd = 12:03:40
+start-sync_1 = 12:05:03
+end-sync_1 = 12:05:13
+end = 2023-07-31 12:05:13.573450519+00:00
 
 [server]
 repo = "cake233/node-alpine-amd64"
@@ -118,7 +118,7 @@ LANG = "C.UTF-8"
 
 [version]
 ldd = 'musl libc (x86_64) Version 1.2.4'
-node = 'v20.4.0'
+node = 'v20.5.0'
 yarn = '1.22.19'
-npm = '9.7.2'
+npm = '9.8.0'
 ```
