@@ -77,7 +77,7 @@ localhost:5903
 ```toml
 [main]
 name = "ubuntu"
-tag = ["kde", "2023-07-25", "devel"]
+tag = ["kde", "2023-08-01", "devel"]
 os = "ubuntu"
 release = "dev"
 arch = "arm64"
@@ -86,10 +86,10 @@ xorg_or_wayland = true
 syntax_version = "0.0.0-alpha.4"
 
 [file]
-name = "ubuntu-kde_arm64_2023-07-25_01-25.tar.zst"
+name = "ubuntu-kde_arm64_2023-08-01_01-06.tar.zst"
 
 # This value can be used to verify the integrity of the file
-sha256 = "9a2c545facc1204ab9a6082f015c7ab8fa8b6da02311d851ca474bde3db6781b"
+sha256 = "2d743a1f02eabffabf05b2a34f79ac4d48da01874ac7134b3817f6cc637a77b7"
 
 # zstd: [1-22]
 zstd-level = 19
@@ -98,48 +98,48 @@ zstd-level = 19
 # Installed size ≈ tar-size
 # Installed size is approximately equal to the size of the tar file
 tar = "4.8G"
-tar_bytes = 5063582208
+tar_bytes = 5063594496
 
 # Space occupied ≈ tar-size + zstd-size
 # You will need to prepare a large enough space before installation.
 zstd = "1.3G"
-zstd_bytes = 1382081872
+zstd_bytes = 1382026959
 
 [compatibility]
 compatible_mode = true
 
-previous_version = "latest02"
+previous_version = "latest01"
 
 # The value is &str, not int
-previous_date = "20230718"
-previous_tag = "2023-07-18"
-previous_file = "ubuntu-kde_arm64_2023-07-18_01-05-rootfs.tar.zst"
-previous_sha256 = "941e005827471fa11b81f447691f655768736f097b8d9ef51f0cbd739a56810d"
+previous_date = "20230725"
+previous_tag = "2023-07-25"
+previous_file = "ubuntu-kde_arm64_2023-07-25_01-25-rootfs.tar.zst"
+previous_sha256 = "9a2c545facc1204ab9a6082f015c7ab8fa8b6da02311d851ca474bde3db6781b"
 
-current_version = "latest01"
-current_date = "20230725"
-old_file = "ubuntu-kde_arm64_2023-07-11_01-05-rootfs.tar.zst"
-old_sha256 = "968968536119f0d9abdf104cf3a82d25f34c67600517dab4244f87e20fce45e2"
+current_version = "latest02"
+current_date = "20230801"
+old_file = "ubuntu-kde_arm64_2023-07-18_01-05-rootfs.tar.zst"
+old_sha256 = "941e005827471fa11b81f447691f655768736f097b8d9ef51f0cbd739a56810d"
 # edition 2021
 # DISTRO_NAME=ubuntu-dev_arm64
-# ROOTFS_FILE=ubuntu-kde_arm64_2023-07-25_01-25-rootfs.tar.zst
-# SHA256SUM=9a2c545facc1204ab9a6082f015c7ab8fa8b6da02311d851ca474bde3db6781b
-# BUILD_DATE=20230725
-# BUILD_TAG=2023-07-25
+# ROOTFS_FILE=ubuntu-kde_arm64_2023-08-01_01-06-rootfs.tar.zst
+# SHA256SUM=2d743a1f02eabffabf05b2a34f79ac4d48da01874ac7134b3817f6cc637a77b7
+# BUILD_DATE=20230801
+# BUILD_TAG=2023-08-01
 # STATUS=completed
-# VERSION=latest01
-# END_TIME=01:25
+# VERSION=latest02
+# END_TIME=01:06
 
 [time]
 format = "rfc-3339"
 zone = "UTC"
-date = 2023-07-25
-begin = 2023-07-25 00:03:00.698434877+00:00
-start-sync_0 = 00:56:57
-start-zstd = 01:02:06
-start-sync_1 = 01:23:34
-end-sync_1 = 01:25:11
-end = 2023-07-25 01:25:11.212261148+00:00
+date = 2023-08-01
+begin = 2023-08-01 00:03:06.030347962+00:00
+start-sync_0 = 00:42:40
+start-zstd = 00:46:45
+start-sync_1 = 01:04:58
+end-sync_1 = 01:06:36
+end = 2023-08-01 01:06:36.817367016+00:00
 
 [server]
 repo = "cake233/ubuntu-kde-arm64"
