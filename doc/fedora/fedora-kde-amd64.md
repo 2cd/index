@@ -77,7 +77,7 @@ localhost:5903
 ```toml
 [main]
 name = "fedora"
-tag = ["kde", "2023-08-01"]
+tag = ["kde", "2023-08-08"]
 os = "fedora"
 release = "rawhide"
 arch = "amd64"
@@ -86,10 +86,10 @@ xorg_or_wayland = true
 syntax_version = "0.0.0-alpha.4"
 
 [file]
-name = "fedora-kde_amd64_2023-08-01_13-00.tar.zst"
+name = "fedora-kde_amd64_2023-08-08_13-03.tar.zst"
 
 # This value can be used to verify the integrity of the file
-sha256 = "0252a939533d662dd8092762ae8f67a89f7d9e83683e8afab415919bc5273808"
+sha256 = "7bd3afe1b90ce7089e1113dff3b80b16c9ac99e212596d84400e647036c5fa1d"
 
 # zstd: [1-22]
 zstd-level = 19
@@ -98,48 +98,48 @@ zstd-level = 19
 # Installed size ≈ tar-size
 # Installed size is approximately equal to the size of the tar file
 tar = "3.0G"
-tar_bytes = 3118783488
+tar_bytes = 3119198208
 
 # Space occupied ≈ tar-size + zstd-size
 # You will need to prepare a large enough space before installation.
 zstd = "727M"
-zstd_bytes = 761925069
+zstd_bytes = 761960769
 
 [compatibility]
 compatible_mode = true
 
-previous_version = "latest01"
+previous_version = "latest02"
 
 # The value is &str, not int
-previous_date = "20230725"
-previous_tag = "2023-07-25"
-previous_file = "fedora-kde_amd64_2023-07-25_12-57-rootfs.tar.zst"
-previous_sha256 = "bd7ff0980c35ab209c7516b66bf2891c57cd0a58570fb9685c709b0312d55f7f"
+previous_date = "20230801"
+previous_tag = "2023-08-01"
+previous_file = "fedora-kde_amd64_2023-08-01_13-00-rootfs.tar.zst"
+previous_sha256 = "0252a939533d662dd8092762ae8f67a89f7d9e83683e8afab415919bc5273808"
 
-current_version = "latest02"
-current_date = "20230801"
-old_file = "fedora-kde_amd64_2023-07-18_12-54-rootfs.tar.zst"
-old_sha256 = "15d530e836768430947324f43f381b24c2c78b52b5838fed6474326eba082789"
+current_version = "latest01"
+current_date = "20230808"
+old_file = "fedora-kde_amd64_2023-07-25_12-57-rootfs.tar.zst"
+old_sha256 = "bd7ff0980c35ab209c7516b66bf2891c57cd0a58570fb9685c709b0312d55f7f"
 # edition 2021
 # DISTRO_NAME=fedora-rawhide_amd64
-# ROOTFS_FILE=fedora-kde_amd64_2023-08-01_13-00-rootfs.tar.zst
-# SHA256SUM=0252a939533d662dd8092762ae8f67a89f7d9e83683e8afab415919bc5273808
-# BUILD_DATE=20230801
-# BUILD_TAG=2023-08-01
+# ROOTFS_FILE=fedora-kde_amd64_2023-08-08_13-03-rootfs.tar.zst
+# SHA256SUM=7bd3afe1b90ce7089e1113dff3b80b16c9ac99e212596d84400e647036c5fa1d
+# BUILD_DATE=20230808
+# BUILD_TAG=2023-08-08
 # STATUS=completed
-# VERSION=latest02
-# END_TIME=13:00
+# VERSION=latest01
+# END_TIME=13:03
 
 [time]
 format = "rfc-3339"
 zone = "UTC"
-date = 2023-08-01
-begin = 2023-08-01 12:41:37.955014168+00:00
-start-sync_0 = 12:45:15
-start-zstd = 12:47:12
-start-sync_1 = 12:59:03
-end-sync_1 = 13:00:07
-end = 2023-08-01 13:00:07.533438607+00:00
+date = 2023-08-08
+begin = 2023-08-08 12:44:32.003747105+00:00
+start-sync_0 = 12:47:51
+start-zstd = 12:49:54
+start-sync_1 = 13:02:09
+end-sync_1 = 13:03:15
+end = 2023-08-08 13:03:15.664540306+00:00
 
 [server]
 repo = "cake233/fedora-kde-amd64"
@@ -174,7 +174,7 @@ current = true
 LANG = "en_US.UTF-8"
 
 [version]
-ldd = 'ldd (GNU libc) 2.37.9000'
+ldd = 'ldd (GNU libc) 2.38'
 zsh = 'zsh 5.9 (x86_64-redhat-linux-gnu)'
 
 [port]
