@@ -1,6 +1,6 @@
 [main]
 name = "ubuntu"
-tag = ["zsh", "2022-10-25", "devel"]
+tag = ["zsh", "2023-08-16", "devel"]
 os = "ubuntu"
 release = "dev"
 arch = "amd64"
@@ -9,10 +9,10 @@ xorg_or_wayland = false
 syntax_version = "0.0.0-alpha.4"
 
 [file]
-name = "ubuntu-zsh_amd64_2022-10-25_00-08.tar.zst"
+name = "ubuntu-zsh_amd64_2023-08-16_14-27.tar.zst"
 
 # This value can be used to verify the integrity of the file
-sha256 = "c64a68950e785356dfcf0217d29757449d3b4e9bbdebf140c6042a12a2c64633"
+sha256 = "5db7f462ebf1d4ea91a5feb511776f999daeb9f185bde9aedf0345ae2b0f5ae2"
 
 # zstd: [1-22]
 zstd-level = 20
@@ -20,49 +20,49 @@ zstd-level = 20
 [file.size]
 # Installed size ≈ tar-size
 # Installed size is approximately equal to the size of the tar file
-tar = "689M"
-tar_bytes = 722233856
+tar = "720M"
+tar_bytes = 754731008
 
 # Space occupied ≈ tar-size + zstd-size
 # You will need to prepare a large enough space before installation.
-zstd = "133M"
-zstd_bytes = 139133174
+zstd = "142M"
+zstd_bytes = 148001682
 
 [compatibility]
 compatible_mode = true
 
-previous_version = "latest02"
+previous_version = "latest01"
 
 # The value is &str, not int
-previous_date = "20221018"
-previous_tag = "2022-10-18"
-previous_file = "ubuntu-zsh_amd64_2022-10-18_00-09-rootfs.tar.zst"
-previous_sha256 = "940a63a129136df686cb61d29a140f895de1972af39c391fb17ab4a064ff25be"
+previous_date = "20221025"
+previous_tag = "2022-10-25"
+previous_file = "ubuntu-zsh_amd64_2022-10-25_00-08-rootfs.tar.zst"
+previous_sha256 = "c64a68950e785356dfcf0217d29757449d3b4e9bbdebf140c6042a12a2c64633"
 
-current_version = "latest01"
-current_date = "20221025"
-old_file = "ubuntu-zsh_amd64_2022-10-11_00-09-rootfs.tar.zst"
-old_sha256 = "26e7cd3294118eb5a33d034ba2096a009ebeda09ad61fe5fd550f1cab1aaa2e8"
+current_version = "latest02"
+current_date = "20230816"
+old_file = "ubuntu-zsh_amd64_2022-10-18_00-09-rootfs.tar.zst"
+old_sha256 = "940a63a129136df686cb61d29a140f895de1972af39c391fb17ab4a064ff25be"
 # edition 2021
 # DISTRO_NAME=ubuntu-dev_amd64
-# ROOTFS_FILE=ubuntu-zsh_amd64_2022-10-25_00-08-rootfs.tar.zst
-# SHA256SUM=c64a68950e785356dfcf0217d29757449d3b4e9bbdebf140c6042a12a2c64633
-# BUILD_DATE=20221025
-# BUILD_TAG=2022-10-25
+# ROOTFS_FILE=ubuntu-zsh_amd64_2023-08-16_14-27-rootfs.tar.zst
+# SHA256SUM=5db7f462ebf1d4ea91a5feb511776f999daeb9f185bde9aedf0345ae2b0f5ae2
+# BUILD_DATE=20230816
+# BUILD_TAG=2023-08-16
 # STATUS=completed
-# VERSION=latest01
-# END_TIME=00:08
+# VERSION=latest02
+# END_TIME=14:27
 
 [time]
 format = "rfc-3339"
 zone = "UTC"
-date = 2022-10-25
-begin = 2022-10-25 00:02:18.972156761+00:00
-start-sync_0 = 00:04:09
-start-zstd = 00:06:20
-start-sync_1 = 00:08:23
-end-sync_1 = 00:08:36
-end = 2022-10-25 00:08:36.537424131+00:00
+date = 2023-08-16
+begin = 2023-08-16 14:21:17.486516805+00:00
+start-sync_0 = 14:23:18
+start-zstd = 14:25:03
+start-sync_1 = 14:27:25
+end-sync_1 = 14:27:39
+end = 2023-08-16 14:27:39.815351879+00:00
 
 [server]
 repo = "cake233/ubuntu-zsh-amd64"
@@ -77,7 +77,7 @@ split = false
 [server.node2]
 name = "tmoe"
 current = true
-previous = false
+previous = true
 in_sync = false
 split = false
 
@@ -86,90 +86,6 @@ name = "azure"
 current = true
 previous = true
 in_sync = false
-start_sync = 2023-08-15 06:02:43.503857346+00:00
-end_sync = 2023-08-15 06:03:04.674286122+00:00
-start_sync = 2023-08-08 06:02:52.620289451+00:00
-end_sync = 2023-08-08 06:03:09.712972206+00:00
-start_sync = 2023-08-01 06:02:51.144265160+00:00
-end_sync = 2023-08-01 06:03:25.944798770+00:00
-start_sync = 2023-07-25 06:02:41.477809625+00:00
-end_sync = 2023-07-25 06:03:01.058748453+00:00
-start_sync = 2023-07-18 06:02:55.939103526+00:00
-end_sync = 2023-07-18 06:03:34.073322538+00:00
-start_sync = 2023-07-11 06:02:41.627606989+00:00
-end_sync = 2023-07-11 06:03:01.898152696+00:00
-start_sync = 2023-06-27 06:02:57.578346529+00:00
-end_sync = 2023-06-27 06:03:16.979621763+00:00
-start_sync = 2023-06-20 06:02:57.573216333+00:00
-end_sync = 2023-06-20 06:03:14.343571274+00:00
-start_sync = 2023-06-13 06:02:46.080217910+00:00
-end_sync = 2023-06-13 06:03:06.335697524+00:00
-start_sync = 2023-06-06 06:02:46.493435083+00:00
-end_sync = 2023-06-06 06:03:05.770249558+00:00
-start_sync = 2023-05-30 06:02:53.097952801+00:00
-end_sync = 2023-05-30 06:03:12.181255479+00:00
-start_sync = 2023-05-23 06:03:04.167344348+00:00
-end_sync = 2023-05-23 06:03:26.254199363+00:00
-start_sync = 2023-05-16 06:02:53.920311053+00:00
-end_sync = 2023-05-16 06:03:15.320057050+00:00
-start_sync = 2023-05-09 06:02:56.147723624+00:00
-end_sync = 2023-05-09 06:03:11.605647889+00:00
-start_sync = 2023-05-02 06:02:56.500621132+00:00
-end_sync = 2023-05-02 06:03:18.253508681+00:00
-start_sync = 2023-04-25 06:03:24.839716916+00:00
-end_sync = 2023-04-25 06:03:45.400756611+00:00
-start_sync = 2023-04-18 06:02:56.141184242+00:00
-end_sync = 2023-04-18 06:03:30.048599141+00:00
-start_sync = 2023-04-11 06:02:44.224493723+00:00
-end_sync = 2023-04-11 06:03:03.336001008+00:00
-start_sync = 2023-04-04 06:02:40.391047546+00:00
-end_sync = 2023-04-04 06:03:01.553812997+00:00
-start_sync = 2023-03-28 06:02:47.920082436+00:00
-end_sync = 2023-03-28 06:03:09.424438763+00:00
-start_sync = 2023-03-21 06:02:54.050987100+00:00
-end_sync = 2023-03-21 06:03:18.978424399+00:00
-start_sync = 2023-03-14 06:02:48.640457505+00:00
-end_sync = 2023-03-14 06:03:13.099262100+00:00
-start_sync = 2023-03-07 06:02:48.333010961+00:00
-end_sync = 2023-03-07 06:03:07.488502968+00:00
-start_sync = 2023-02-28 06:02:37.048766149+00:00
-end_sync = 2023-02-28 06:02:56.317580879+00:00
-start_sync = 2023-02-21 06:02:59.174400067+00:00
-end_sync = 2023-02-21 06:03:23.158159749+00:00
-start_sync = 2023-02-14 06:02:41.126796443+00:00
-end_sync = 2023-02-14 06:03:06.264673177+00:00
-start_sync = 2023-02-07 06:02:35.193872374+00:00
-end_sync = 2023-02-07 06:02:52.940995099+00:00
-start_sync = 2023-01-31 06:02:41.830635448+00:00
-end_sync = 2023-01-31 06:02:55.910710305+00:00
-start_sync = 2023-01-24 06:02:38.337136431+00:00
-end_sync = 2023-01-24 06:02:59.467657604+00:00
-start_sync = 2023-01-17 06:02:35.857158644+00:00
-end_sync = 2023-01-17 06:02:57.477887920+00:00
-start_sync = 2023-01-10 06:02:36.697218491+00:00
-end_sync = 2023-01-10 06:02:57.861783516+00:00
-start_sync = 2023-01-03 06:02:38.450137531+00:00
-end_sync = 2023-01-03 06:02:59.014900351+00:00
-start_sync = 2022-12-27 06:02:36.801314379+00:00
-end_sync = 2022-12-27 06:02:59.069779677+00:00
-start_sync = 2022-12-20 06:02:35.250620491+00:00
-end_sync = 2022-12-20 06:03:02.717880987+00:00
-start_sync = 2022-12-13 06:02:41.410361181+00:00
-end_sync = 2022-12-13 06:03:07.581944745+00:00
-start_sync = 2022-12-06 06:02:33.239652329+00:00
-end_sync = 2022-12-06 06:02:59.672126965+00:00
-start_sync = 2022-11-29 06:02:36.362896198+00:00
-end_sync = 2022-11-29 06:03:02.032220992+00:00
-start_sync = 2022-11-22 06:02:34.114339814+00:00
-end_sync = 2022-11-22 06:02:54.820943488+00:00
-start_sync = 2022-11-15 06:02:41.373777362+00:00
-end_sync = 2022-11-15 06:03:04.551235453+00:00
-start_sync = 2022-11-08 06:02:36.788533475+00:00
-end_sync = 2022-11-08 06:03:02.748946085+00:00
-start_sync = 2022-11-01 06:02:43.673618368+00:00
-end_sync = 2022-11-01 06:03:05.077076486+00:00
-start_sync = 2022-10-25 06:02:38.462520517+00:00
-end_sync = 2022-10-25 06:03:13.077786850+00:00
 split = false
 
 [server.node4]
@@ -181,5 +97,5 @@ current = true
 LANG = "en_US.UTF-8"
 
 [version]
-ldd = 'ldd (Ubuntu GLIBC 2.36-0ubuntu4) 2.36'
+ldd = 'ldd (Ubuntu GLIBC 2.37-0ubuntu2) 2.37'
 zsh = 'zsh 5.9 (x86_64-ubuntu-linux-gnu)'
