@@ -1,6 +1,6 @@
 [main]
 name = "alpine"
-tag = ["mate", "2023-08-10"]
+tag = ["mate", "2023-08-17"]
 os = "alpine"
 release = "edge"
 arch = "i386"
@@ -9,10 +9,10 @@ xorg_or_wayland = true
 syntax_version = "0.0.0-alpha.4"
 
 [file]
-name = "alpine-mate_i386_2023-08-10_00-20.tar.zst"
+name = "alpine-mate_i386_2023-08-17_00-12.tar.zst"
 
 # This value can be used to verify the integrity of the file
-sha256 = "2855da41111c620284fa151ba583a960cc22c19eab4015b8ec363d1822ba334a"
+sha256 = "ed3f4ec7bac9a606f1acdc5d29aee791060c75799a8d248ab3000674c0f61d41"
 
 # zstd: [1-22]
 zstd-level = 19
@@ -21,48 +21,48 @@ zstd-level = 19
 # Installed size ≈ tar-size
 # Installed size is approximately equal to the size of the tar file
 tar = "702M"
-tar_bytes = 736086016
+tar_bytes = 736089600
 
 # Space occupied ≈ tar-size + zstd-size
 # You will need to prepare a large enough space before installation.
 zstd = "231M"
-zstd_bytes = 241241491
+zstd_bytes = 241207561
 
 [compatibility]
 compatible_mode = true
 
-previous_version = "latest02"
+previous_version = "latest01"
 
 # The value is &str, not int
-previous_date = "20230803"
-previous_tag = "2023-08-03"
-previous_file = "alpine-mate_i386_2023-08-03_00-14-rootfs.tar.zst"
-previous_sha256 = "79fee4eb22644f551af173c2212797f6d60ec730a2c8564da170461823821435"
+previous_date = "20230810"
+previous_tag = "2023-08-10"
+previous_file = "alpine-mate_i386_2023-08-10_00-20-rootfs.tar.zst"
+previous_sha256 = "2855da41111c620284fa151ba583a960cc22c19eab4015b8ec363d1822ba334a"
 
-current_version = "latest01"
-current_date = "20230810"
-old_file = "alpine-mate_i386_2023-07-27_00-12-rootfs.tar.zst"
-old_sha256 = "27c403c6563def2a4ca6e92c0a6f2aa36dd8d727560b84765453729d69ce25d9"
+current_version = "latest02"
+current_date = "20230817"
+old_file = "alpine-mate_i386_2023-08-03_00-14-rootfs.tar.zst"
+old_sha256 = "79fee4eb22644f551af173c2212797f6d60ec730a2c8564da170461823821435"
 # edition 2021
 # DISTRO_NAME=alpine-edge_i386
-# ROOTFS_FILE=alpine-mate_i386_2023-08-10_00-20-rootfs.tar.zst
-# SHA256SUM=2855da41111c620284fa151ba583a960cc22c19eab4015b8ec363d1822ba334a
-# BUILD_DATE=20230810
-# BUILD_TAG=2023-08-10
+# ROOTFS_FILE=alpine-mate_i386_2023-08-17_00-12-rootfs.tar.zst
+# SHA256SUM=ed3f4ec7bac9a606f1acdc5d29aee791060c75799a8d248ab3000674c0f61d41
+# BUILD_DATE=20230817
+# BUILD_TAG=2023-08-17
 # STATUS=completed
-# VERSION=latest01
-# END_TIME=00:20
+# VERSION=latest02
+# END_TIME=00:12
 
 [time]
 format = "rfc-3339"
 zone = "UTC"
-date = 2023-08-10
-begin = 2023-08-10 00:07:42.194164811+00:00
-start-sync_0 = 00:17:13
-start-zstd = 00:17:56
-start-sync_1 = 00:20:27
-end-sync_1 = 00:20:52
-end = 2023-08-10 00:20:52.695456996+00:00
+date = 2023-08-17
+begin = 2023-08-17 00:07:14.172622600+00:00
+start-sync_0 = 00:09:58
+start-zstd = 00:10:34
+start-sync_1 = 00:12:38
+end-sync_1 = 00:12:58
+end = 2023-08-17 00:12:58.271564630+00:00
 
 [server]
 repo = "cake233/alpine-mate-386"
@@ -77,7 +77,7 @@ split = false
 [server.node2]
 name = "tmoe"
 current = true
-previous = false
+previous = true
 in_sync = false
 split = false
 
@@ -86,8 +86,6 @@ name = "azure"
 current = true
 previous = true
 in_sync = false
-start_sync = 2023-08-10 06:07:00.438656499+00:00
-end_sync = 2023-08-10 06:07:39.348200656+00:00
 split = false
 
 [server.node4]
