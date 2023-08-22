@@ -77,7 +77,7 @@ localhost:5903
 ```toml
 [main]
 name = "fedora"
-tag = ["xfce", "2023-08-15"]
+tag = ["xfce", "2023-08-22"]
 os = "fedora"
 release = "rawhide"
 arch = "amd64"
@@ -86,10 +86,10 @@ xorg_or_wayland = true
 syntax_version = "0.0.0-alpha.4"
 
 [file]
-name = "fedora-xfce_amd64_2023-08-15_12-36.tar.zst"
+name = "fedora-xfce_amd64_2023-08-22_12-32.tar.zst"
 
 # This value can be used to verify the integrity of the file
-sha256 = "dcc27ff215e29efbc32e3df446a7ec607812c464d1197fc4eceea83316a96b53"
+sha256 = "595e17c8fd1c111d58794bfc4390a7c1b863ef9c07208c03bdcffe01d81b5664"
 
 # zstd: [1-22]
 zstd-level = 19
@@ -98,48 +98,48 @@ zstd-level = 19
 # Installed size ≈ tar-size
 # Installed size is approximately equal to the size of the tar file
 tar = "3.1G"
-tar_bytes = 3235438080
+tar_bytes = 3229953024
 
 # Space occupied ≈ tar-size + zstd-size
 # You will need to prepare a large enough space before installation.
-zstd = "790M"
-zstd_bytes = 827766887
+zstd = "768M"
+zstd_bytes = 805045312
 
 [compatibility]
 compatible_mode = true
 
-previous_version = "latest01"
+previous_version = "latest02"
 
 # The value is &str, not int
-previous_date = "20230808"
-previous_tag = "2023-08-08"
-previous_file = "fedora-xfce_amd64_2023-08-08_13-02-rootfs.tar.zst"
-previous_sha256 = "f70833674548042ec579207d7b15754b3a2caede7db4520ad47176ad029b84ef"
+previous_date = "20230815"
+previous_tag = "2023-08-15"
+previous_file = "fedora-xfce_amd64_2023-08-15_12-36-rootfs.tar.zst"
+previous_sha256 = "dcc27ff215e29efbc32e3df446a7ec607812c464d1197fc4eceea83316a96b53"
 
-current_version = "latest02"
-current_date = "20230815"
-old_file = "fedora-xfce_amd64_2023-08-01_12-58-rootfs.tar.zst"
-old_sha256 = "80c98d95da4153f2107b8a998cfeaa637b0289f20a6662ce5198808f85ad2fdf"
+current_version = "latest01"
+current_date = "20230822"
+old_file = "fedora-xfce_amd64_2023-08-08_13-02-rootfs.tar.zst"
+old_sha256 = "f70833674548042ec579207d7b15754b3a2caede7db4520ad47176ad029b84ef"
 # edition 2021
 # DISTRO_NAME=fedora-rawhide_amd64
-# ROOTFS_FILE=fedora-xfce_amd64_2023-08-15_12-36-rootfs.tar.zst
-# SHA256SUM=dcc27ff215e29efbc32e3df446a7ec607812c464d1197fc4eceea83316a96b53
-# BUILD_DATE=20230815
-# BUILD_TAG=2023-08-15
+# ROOTFS_FILE=fedora-xfce_amd64_2023-08-22_12-32-rootfs.tar.zst
+# SHA256SUM=595e17c8fd1c111d58794bfc4390a7c1b863ef9c07208c03bdcffe01d81b5664
+# BUILD_DATE=20230822
+# BUILD_TAG=2023-08-22
 # STATUS=completed
-# VERSION=latest02
-# END_TIME=12:36
+# VERSION=latest01
+# END_TIME=12:32
 
 [time]
 format = "rfc-3339"
 zone = "UTC"
-date = 2023-08-15
-begin = 2023-08-15 12:15:13.962050475+00:00
-start-sync_0 = 12:20:39
-start-zstd = 12:22:45
-start-sync_1 = 12:35:09
-end-sync_1 = 12:36:13
-end = 2023-08-15 12:36:13.865891098+00:00
+date = 2023-08-22
+begin = 2023-08-22 12:13:34.522287594+00:00
+start-sync_0 = 12:18:01
+start-zstd = 12:20:11
+start-sync_1 = 12:31:39
+end-sync_1 = 12:32:39
+end = 2023-08-22 12:32:39.115873933+00:00
 
 [server]
 repo = "cake233/fedora-xfce-amd64"
