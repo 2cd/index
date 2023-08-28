@@ -20,7 +20,7 @@ docker exec -it node-alpine-arm64 bash
 ```toml
 [main]
 name = "node"
-tag = ["alpine", "2023-08-14", "musl-libc", "musl"]
+tag = ["alpine", "2023-08-28", "musl-libc", "musl"]
 os = "alpine"
 release = "stable"
 arch = "arm64"
@@ -29,10 +29,10 @@ xorg_or_wayland = false
 syntax_version = "0.0.0-alpha.4"
 
 [file]
-name = "node-musl_arm64_2023-08-14_12-06.tar.zst"
+name = "node-musl_arm64_2023-08-28_12-05.tar.zst"
 
 # This value can be used to verify the integrity of the file
-sha256 = "713d0d29ee28ba746532de2b6adb1f2de778adc4e6bffbcf8f93c14f141f6ee6"
+sha256 = "c69d8a42ff37fa448c5e397e2d9f84e8be89833b14b664444cc15c15092c87f3"
 
 # zstd: [1-22]
 zstd-level = 22
@@ -46,7 +46,7 @@ tar_bytes = 207427072
 # Space occupied ≈ tar-size + zstd-size
 # You will need to prepare a large enough space before installation.
 zstd = "35M"
-zstd_bytes = 36137031
+zstd_bytes = 36138590
 
 [compatibility]
 compatible_mode = true
@@ -54,35 +54,35 @@ compatible_mode = true
 previous_version = "latest02"
 
 # The value is &str, not int
-previous_date = "20230731"
-previous_tag = "2023-07-31"
-previous_file = "node-musl_arm64_2023-07-31_12-05-rootfs.tar.zst"
-previous_sha256 = "2969958e82cec7dfd4c0038bd8199da2a88834b93de0a84334576edb54a4da61"
+previous_date = "20211128"
+previous_tag = ""
+previous_file = ""
+previous_sha256 = ""
 
 current_version = "latest01"
-current_date = "20230814"
-old_file = "node-musl_arm64_2023-07-17_12-05-rootfs.tar.zst"
-old_sha256 = "b380de87ca2643681fe9a24e6c13da9e430492194432c8e0ce428ab5d5367c91"
+current_date = "20230828"
+old_file = ""
+old_sha256 = ""
 # edition 2021
 # DISTRO_NAME=node_arm64
-# ROOTFS_FILE=node-musl_arm64_2023-08-14_12-06-rootfs.tar.zst
-# SHA256SUM=713d0d29ee28ba746532de2b6adb1f2de778adc4e6bffbcf8f93c14f141f6ee6
-# BUILD_DATE=20230814
-# BUILD_TAG=2023-08-14
+# ROOTFS_FILE=node-musl_arm64_2023-08-28_12-05-rootfs.tar.zst
+# SHA256SUM=c69d8a42ff37fa448c5e397e2d9f84e8be89833b14b664444cc15c15092c87f3
+# BUILD_DATE=20230828
+# BUILD_TAG=2023-08-28
 # STATUS=completed
 # VERSION=latest01
-# END_TIME=12:06
+# END_TIME=12:05
 
 [time]
 format = "rfc-3339"
 zone = "UTC"
-date = 2023-08-14
-begin = 2023-08-14 12:02:37.018357754+00:00
-start-sync_0 = 12:04:36
-start-zstd = 12:04:44
-start-sync_1 = 12:06:05
-end-sync_1 = 12:06:12
-end = 2023-08-14 12:06:12.803967157+00:00
+date = 2023-08-28
+begin = 2023-08-28 12:02:42.116805938+00:00
+start-sync_0 = 12:03:17
+start-zstd = 12:03:27
+start-sync_1 = 12:04:53
+end-sync_1 = 12:05:04
+end = 2023-08-28 12:05:04.957195478+00:00
 
 [server]
 repo = "cake233/node-alpine-arm64"
