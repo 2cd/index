@@ -20,7 +20,7 @@ docker exec -it node-arm64 bash
 ```toml
 [main]
 name = "node"
-tag = ["latest", "2023-08-14"]
+tag = ["latest", "2023-08-28"]
 os = "debian"
 release = "stable"
 arch = "arm64"
@@ -29,10 +29,10 @@ xorg_or_wayland = false
 syntax_version = "0.0.0-alpha.4"
 
 [file]
-name = "node_arm64_2023-08-14_12-12.tar.zst"
+name = "node_arm64_2023-08-28_12-11.tar.zst"
 
 # This value can be used to verify the integrity of the file
-sha256 = "eaaed66bb70342a30c17c0ee50a2af86029e611e94129cfa61c2d026fb9c872b"
+sha256 = "0a257a39a381f9aed8dd88d2b420405766a093e3a1fb15e2467cdb302bdd7fe2"
 
 # zstd: [1-22]
 zstd-level = 22
@@ -41,48 +41,48 @@ zstd-level = 22
 # Installed size ≈ tar-size
 # Installed size is approximately equal to the size of the tar file
 tar = "1.1G"
-tar_bytes = 1149769216
+tar_bytes = 1149721600
 
 # Space occupied ≈ tar-size + zstd-size
 # You will need to prepare a large enough space before installation.
 zstd = "211M"
-zstd_bytes = 220353986
+zstd_bytes = 220310043
 
 [compatibility]
 compatible_mode = true
 
-previous_version = "latest01"
+previous_version = "latest02"
 
 # The value is &str, not int
-previous_date = "20230731"
-previous_tag = "2023-07-31"
-previous_file = "node_arm64_2023-07-31_12-11-rootfs.tar.zst"
-previous_sha256 = "0a6d32b293015a33f1e33860d3c61ef038617e016740a17b9aab9f8b21192a82"
+previous_date = "20211128"
+previous_tag = ""
+previous_file = ""
+previous_sha256 = ""
 
-current_version = "latest02"
-current_date = "20230814"
-old_file = "node_arm64_2023-07-17_12-11-rootfs.tar.zst"
-old_sha256 = "f7d88bbd186335b7eca593d3056c45854c5ad9c25b84c82408652e1ff40ee1ad"
+current_version = "latest01"
+current_date = "20230828"
+old_file = ""
+old_sha256 = ""
 # edition 2021
 # DISTRO_NAME=node_arm64
-# ROOTFS_FILE=node_arm64_2023-08-14_12-12-rootfs.tar.zst
-# SHA256SUM=eaaed66bb70342a30c17c0ee50a2af86029e611e94129cfa61c2d026fb9c872b
-# BUILD_DATE=20230814
-# BUILD_TAG=2023-08-14
+# ROOTFS_FILE=node_arm64_2023-08-28_12-11-rootfs.tar.zst
+# SHA256SUM=0a257a39a381f9aed8dd88d2b420405766a093e3a1fb15e2467cdb302bdd7fe2
+# BUILD_DATE=20230828
+# BUILD_TAG=2023-08-28
 # STATUS=completed
-# VERSION=latest02
-# END_TIME=12:12
+# VERSION=latest01
+# END_TIME=12:11
 
 [time]
 format = "rfc-3339"
 zone = "UTC"
-date = 2023-08-14
-begin = 2023-08-14 12:02:39.133417404+00:00
-start-sync_0 = 12:06:06
-start-zstd = 12:06:21
-start-sync_1 = 12:12:16
-end-sync_1 = 12:12:38
-end = 2023-08-14 12:12:38.638497326+00:00
+date = 2023-08-28
+begin = 2023-08-28 12:02:40.347581889+00:00
+start-sync_0 = 12:05:03
+start-zstd = 12:05:19
+start-sync_1 = 12:11:01
+end-sync_1 = 12:11:20
+end = 2023-08-28 12:11:20.437414275+00:00
 
 [server]
 repo = "cake233/node-arm64"
