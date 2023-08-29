@@ -77,7 +77,7 @@ localhost:5903
 ```toml
 [main]
 name = "fedora"
-tag = ["lxqt", "2023-08-26"]
+tag = ["lxqt", "2023-08-29"]
 os = "fedora"
 release = "rawhide"
 arch = "amd64"
@@ -86,10 +86,10 @@ xorg_or_wayland = true
 syntax_version = "0.0.0-alpha.4"
 
 [file]
-name = "fedora-lxqt_amd64_2023-08-26_07-26.tar.zst"
+name = "fedora-lxqt_amd64_2023-08-29_13-00.tar.zst"
 
 # This value can be used to verify the integrity of the file
-sha256 = "7998fa383bc884746bd6138ab48cb80fe7c011a54e494930f5abdbb436ae775a"
+sha256 = "4649a25c9696a0a95f1c77fdc40dbdc45d084df86e2c1e2562a7b5265a3d98fb"
 
 # zstd: [1-22]
 zstd-level = 19
@@ -98,48 +98,48 @@ zstd-level = 19
 # Installed size ≈ tar-size
 # Installed size is approximately equal to the size of the tar file
 tar = "2.6G"
-tar_bytes = 2763130368
+tar_bytes = 2762994688
 
 # Space occupied ≈ tar-size + zstd-size
 # You will need to prepare a large enough space before installation.
 zstd = "637M"
-zstd_bytes = 667221060
+zstd_bytes = 667273433
 
 [compatibility]
 compatible_mode = true
 
-previous_version = "latest01"
+previous_version = "latest02"
 
 # The value is &str, not int
-previous_date = "20211102"
+previous_date = "20211128"
 previous_tag = ""
-previous_file = "fedora-rawhide_amd64+lxqt-2021_11-02-rootfs.tar.zst"
-previous_sha256 = "fc546284d21dbef914c7cafb3d7006b02cae4a8633067745fd826e8f3597cb70"
+previous_file = ""
+previous_sha256 = ""
 
-current_version = "latest02"
-current_date = "20230826"
-old_file = "fedora-rawhide_amd64+lxqt-2021_10-26-rootfs.tar.zst"
-old_sha256 = "e507e03c2fba7bde2a8166834367ba9a4d407b87840550d3504aab03a9f877c1"
+current_version = "latest01"
+current_date = "20230829"
+old_file = ""
+old_sha256 = ""
 # edition 2021
 # DISTRO_NAME=fedora-rawhide_amd64
-# ROOTFS_FILE=fedora-lxqt_amd64_2023-08-26_07-26-rootfs.tar.zst
-# SHA256SUM=7998fa383bc884746bd6138ab48cb80fe7c011a54e494930f5abdbb436ae775a
-# BUILD_DATE=20230826
-# BUILD_TAG=2023-08-26
+# ROOTFS_FILE=fedora-lxqt_amd64_2023-08-29_13-00-rootfs.tar.zst
+# SHA256SUM=4649a25c9696a0a95f1c77fdc40dbdc45d084df86e2c1e2562a7b5265a3d98fb
+# BUILD_DATE=20230829
+# BUILD_TAG=2023-08-29
 # STATUS=completed
-# VERSION=latest02
-# END_TIME=07:26
+# VERSION=latest01
+# END_TIME=13:00
 
 [time]
 format = "rfc-3339"
 zone = "UTC"
-date = 2023-08-26
-begin = 2023-08-26 07:11:51.231376701+00:00
-start-sync_0 = 07:14:53
-start-zstd = 07:16:15
-start-sync_1 = 07:25:20
-end-sync_1 = 07:26:13
-end = 2023-08-26 07:26:13.632350120+00:00
+date = 2023-08-29
+begin = 2023-08-29 12:45:53.694284794+00:00
+start-sync_0 = 12:48:27
+start-zstd = 12:49:58
+start-sync_1 = 12:59:35
+end-sync_1 = 13:00:27
+end = 2023-08-29 13:00:27.610337815+00:00
 
 [server]
 repo = "cake233/fedora-lxqt-amd64"
