@@ -1,6 +1,6 @@
 [main]
 name = "ubuntu"
-tag = ["mate", "2023-08-22", "devel"]
+tag = ["mate", "2023-08-29", "devel"]
 os = "ubuntu"
 release = "dev"
 arch = "amd64"
@@ -9,10 +9,10 @@ xorg_or_wayland = true
 syntax_version = "0.0.0-alpha.4"
 
 [file]
-name = "ubuntu-mate_amd64_2023-08-22_00-55.tar.zst"
+name = "ubuntu-mate_amd64_2023-08-29_00-57.tar.zst"
 
 # This value can be used to verify the integrity of the file
-sha256 = "5f87c21b9aacf0bef55b45d0a236257cff18a5c23b4add6dc093684d3f5c9441"
+sha256 = "d094a0467e7eb12ce84da589ceee48b4c55649d97df3a7f057616fc2a0cdaffe"
 
 # zstd: [1-22]
 zstd-level = 19
@@ -20,49 +20,49 @@ zstd-level = 19
 [file.size]
 # Installed size ≈ tar-size
 # Installed size is approximately equal to the size of the tar file
-tar = "4.7G"
-tar_bytes = 4985497600
+tar = "4.3G"
+tar_bytes = 4563867648
 
 # Space occupied ≈ tar-size + zstd-size
 # You will need to prepare a large enough space before installation.
-zstd = "1.3G"
-zstd_bytes = 1369446879
+zstd = "1.2G"
+zstd_bytes = 1232682838
 
 [compatibility]
 compatible_mode = true
 
-previous_version = "latest01"
+previous_version = "latest02"
 
 # The value is &str, not int
-previous_date = "20230816"
-previous_tag = "2023-08-16"
-previous_file = "ubuntu-mate_amd64_2023-08-16_15-21-rootfs.tar.zst"
-previous_sha256 = "b651a57d1b5f0d72f724b11b86d67b1e697195300b79347f15a28d6d2bcf4fae"
+previous_date = "20230822"
+previous_tag = "2023-08-22"
+previous_file = "ubuntu-mate_amd64_2023-08-22_00-55-rootfs.tar.zst"
+previous_sha256 = "5f87c21b9aacf0bef55b45d0a236257cff18a5c23b4add6dc093684d3f5c9441"
 
-current_version = "latest02"
-current_date = "20230822"
-old_file = "ubuntu-mate_amd64_2023-08-15_00-30-rootfs.tar.zst"
-old_sha256 = "a54d5bb4c826b06b309c2e8527c32664aff3cf0b433ef0827a74354e736a6dba"
+current_version = "latest01"
+current_date = "20230829"
+old_file = "ubuntu-mate_amd64_2023-08-16_15-21-rootfs.tar.zst"
+old_sha256 = "b651a57d1b5f0d72f724b11b86d67b1e697195300b79347f15a28d6d2bcf4fae"
 # edition 2021
 # DISTRO_NAME=ubuntu-dev_amd64
-# ROOTFS_FILE=ubuntu-mate_amd64_2023-08-22_00-55-rootfs.tar.zst
-# SHA256SUM=5f87c21b9aacf0bef55b45d0a236257cff18a5c23b4add6dc093684d3f5c9441
-# BUILD_DATE=20230822
-# BUILD_TAG=2023-08-22
+# ROOTFS_FILE=ubuntu-mate_amd64_2023-08-29_00-57-rootfs.tar.zst
+# SHA256SUM=d094a0467e7eb12ce84da589ceee48b4c55649d97df3a7f057616fc2a0cdaffe
+# BUILD_DATE=20230829
+# BUILD_TAG=2023-08-29
 # STATUS=completed
-# VERSION=latest02
-# END_TIME=00:55
+# VERSION=latest01
+# END_TIME=00:57
 
 [time]
 format = "rfc-3339"
 zone = "UTC"
-date = 2023-08-22
-begin = 2023-08-22 00:24:08.487328420+00:00
-start-sync_0 = 00:31:43
-start-zstd = 00:36:19
-start-sync_1 = 00:53:39
-end-sync_1 = 00:55:06
-end = 2023-08-22 00:55:06.093795003+00:00
+date = 2023-08-29
+begin = 2023-08-29 00:28:28.429569209+00:00
+start-sync_0 = 00:35:10
+start-zstd = 00:39:13
+start-sync_1 = 00:55:42
+end-sync_1 = 00:57:08
+end = 2023-08-29 00:57:08.957233719+00:00
 
 [server]
 repo = "cake233/ubuntu-mate-amd64"
@@ -77,7 +77,7 @@ split = false
 [server.node2]
 name = "tmoe"
 current = true
-previous = false
+previous = true
 in_sync = false
 split = false
 
@@ -86,8 +86,6 @@ name = "azure"
 current = true
 previous = true
 in_sync = false
-start_sync = 2023-08-22 06:18:47.493098702+00:00
-end_sync = 2023-08-22 06:22:15.223335934+00:00
 split = false
 
 [server.node4]
@@ -99,7 +97,7 @@ current = true
 LANG = "en_US.UTF-8"
 
 [version]
-ldd = 'ldd (Ubuntu GLIBC 2.37-0ubuntu2) 2.37'
+ldd = 'ldd (Ubuntu GLIBC 2.38-1ubuntu3) 2.38'
 zsh = 'zsh 5.9 (x86_64-ubuntu-linux-gnu)'
 
 [port]
