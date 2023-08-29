@@ -77,7 +77,7 @@ localhost:5903
 ```toml
 [main]
 name = "ubuntu"
-tag = ["lxqt", "2023-08-22", "devel"]
+tag = ["lxqt", "2023-08-29", "devel"]
 os = "ubuntu"
 release = "dev"
 arch = "arm64"
@@ -86,10 +86,10 @@ xorg_or_wayland = true
 syntax_version = "0.0.0-alpha.4"
 
 [file]
-name = "ubuntu-lxqt_arm64_2023-08-22_01-23.tar.zst"
+name = "ubuntu-lxqt_arm64_2023-08-29_01-22.tar.zst"
 
 # This value can be used to verify the integrity of the file
-sha256 = "4d0bbf58654e915b61c5acc6e040556d8e9186db2069936e2003d014e6948400"
+sha256 = "5570eeca73a6021cdc7a57f03bc95913e63a86f7e825e7421186365035b4bba8"
 
 # zstd: [1-22]
 zstd-level = 19
@@ -97,49 +97,49 @@ zstd-level = 19
 [file.size]
 # Installed size ≈ tar-size
 # Installed size is approximately equal to the size of the tar file
-tar = "4.9G"
-tar_bytes = 5204490752
+tar = "4.5G"
+tar_bytes = 4784530432
 
 # Space occupied ≈ tar-size + zstd-size
 # You will need to prepare a large enough space before installation.
-zstd = "1.4G"
-zstd_bytes = 1398955432
+zstd = "1.2G"
+zstd_bytes = 1270160714
 
 [compatibility]
 compatible_mode = true
 
-previous_version = "latest01"
+previous_version = "latest02"
 
 # The value is &str, not int
-previous_date = "20230816"
-previous_tag = "2023-08-16"
-previous_file = "ubuntu-lxqt_arm64_2023-08-16_15-41-rootfs.tar.zst"
-previous_sha256 = "cb5e541c59cf6ea01fa4d4e8752a7b6d52d314179d34053a2c57480d6327f076"
+previous_date = "20230822"
+previous_tag = "2023-08-22"
+previous_file = "ubuntu-lxqt_arm64_2023-08-22_01-23-rootfs.tar.zst"
+previous_sha256 = "4d0bbf58654e915b61c5acc6e040556d8e9186db2069936e2003d014e6948400"
 
-current_version = "latest02"
-current_date = "20230822"
-old_file = "ubuntu-lxqt_arm64_2023-08-15_01-00-rootfs.tar.zst"
-old_sha256 = "21246354e69d8e6d48248949d13418a5d3d31416648e10f7bf28db83267463a8"
+current_version = "latest01"
+current_date = "20230829"
+old_file = "ubuntu-lxqt_arm64_2023-08-16_15-41-rootfs.tar.zst"
+old_sha256 = "cb5e541c59cf6ea01fa4d4e8752a7b6d52d314179d34053a2c57480d6327f076"
 # edition 2021
 # DISTRO_NAME=ubuntu-dev_arm64
-# ROOTFS_FILE=ubuntu-lxqt_arm64_2023-08-22_01-23-rootfs.tar.zst
-# SHA256SUM=4d0bbf58654e915b61c5acc6e040556d8e9186db2069936e2003d014e6948400
-# BUILD_DATE=20230822
-# BUILD_TAG=2023-08-22
+# ROOTFS_FILE=ubuntu-lxqt_arm64_2023-08-29_01-22-rootfs.tar.zst
+# SHA256SUM=5570eeca73a6021cdc7a57f03bc95913e63a86f7e825e7421186365035b4bba8
+# BUILD_DATE=20230829
+# BUILD_TAG=2023-08-29
 # STATUS=completed
-# VERSION=latest02
-# END_TIME=01:23
+# VERSION=latest01
+# END_TIME=01:22
 
 [time]
 format = "rfc-3339"
 zone = "UTC"
-date = 2023-08-22
-begin = 2023-08-22 00:24:08.687037941+00:00
-start-sync_0 = 00:58:38
-start-zstd = 01:03:08
-start-sync_1 = 01:21:59
-end-sync_1 = 01:23:42
-end = 2023-08-22 01:23:42.296509026+00:00
+date = 2023-08-29
+begin = 2023-08-29 00:28:26.686963138+00:00
+start-sync_0 = 01:01:53
+start-zstd = 01:05:32
+start-sync_1 = 01:21:32
+end-sync_1 = 01:22:49
+end = 2023-08-29 01:22:49.332732917+00:00
 
 [server]
 repo = "cake233/ubuntu-lxqt-arm64"
@@ -174,7 +174,7 @@ current = true
 LANG = "en_US.UTF-8"
 
 [version]
-ldd = 'ldd (Ubuntu GLIBC 2.37-0ubuntu2) 2.37'
+ldd = 'ldd (Ubuntu GLIBC 2.38-1ubuntu3) 2.38'
 zsh = 'zsh 5.9 (aarch64-unknown-linux-gnu)'
 
 [port]
