@@ -77,7 +77,7 @@ localhost:5903
 ```toml
 [main]
 name = "arch"
-tag = ["xfce", "2023-08-25"]
+tag = ["xfce", "2023-08-30"]
 os = "arch"
 release = "latest"
 arch = "arm64"
@@ -86,10 +86,10 @@ xorg_or_wayland = true
 syntax_version = "0.0.0-alpha.4"
 
 [file]
-name = "arch-xfce_arm64_2023-08-25_10-09.tar.zst"
+name = "arch-xfce_arm64_2023-08-30_01-21.tar.zst"
 
 # This value can be used to verify the integrity of the file
-sha256 = "12032874fa11df0b59a16d41253c18910bde68245b3ecafafd50afcedc1eb07f"
+sha256 = "70d648c713fbca587d16e5fb2a9c320e04c73101873aa88a79fe649dd961642b"
 
 # zstd: [1-22]
 zstd-level = 19
@@ -98,12 +98,12 @@ zstd-level = 19
 # Installed size ≈ tar-size
 # Installed size is approximately equal to the size of the tar file
 tar = "4.3G"
-tar_bytes = 4558070272
+tar_bytes = 4537880576
 
 # Space occupied ≈ tar-size + zstd-size
 # You will need to prepare a large enough space before installation.
 zstd = "1.3G"
-zstd_bytes = 1308002419
+zstd_bytes = 1298520258
 
 [compatibility]
 compatible_mode = true
@@ -117,29 +117,29 @@ previous_file = ""
 previous_sha256 = ""
 
 current_version = "latest01"
-current_date = "20230825"
+current_date = "20230830"
 old_file = ""
 old_sha256 = ""
 # edition 2021
 # DISTRO_NAME=arch_arm64
-# ROOTFS_FILE=arch-xfce_arm64_2023-08-25_10-09-rootfs.tar.zst
-# SHA256SUM=12032874fa11df0b59a16d41253c18910bde68245b3ecafafd50afcedc1eb07f
-# BUILD_DATE=20230825
-# BUILD_TAG=2023-08-25
+# ROOTFS_FILE=arch-xfce_arm64_2023-08-30_01-21-rootfs.tar.zst
+# SHA256SUM=70d648c713fbca587d16e5fb2a9c320e04c73101873aa88a79fe649dd961642b
+# BUILD_DATE=20230830
+# BUILD_TAG=2023-08-30
 # STATUS=completed
 # VERSION=latest01
-# END_TIME=10:09
+# END_TIME=01:21
 
 [time]
 format = "rfc-3339"
 zone = "UTC"
-date = 2023-08-25
-begin = 2023-08-25 09:31:45.627266678+00:00
-start-sync_0 = 09:45:49
-start-zstd = 09:49:43
-start-sync_1 = 10:07:25
-end-sync_1 = 10:09:52
-end = 2023-08-25 10:09:52.778876847+00:00
+date = 2023-08-30
+begin = 2023-08-30 00:45:00.444856758+00:00
+start-sync_0 = 01:00:10
+start-zstd = 01:04:07
+start-sync_1 = 01:20:21
+end-sync_1 = 01:21:46
+end = 2023-08-30 01:21:46.537463699+00:00
 
 [server]
 repo = "cake233/arch-xfce-arm64"
