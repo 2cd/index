@@ -1,6 +1,6 @@
 [main]
 name = "arch"
-tag = ["mate", "2023-08-25"]
+tag = ["mate", "2023-08-30"]
 os = "arch"
 release = "latest"
 arch = "amd64"
@@ -9,10 +9,10 @@ xorg_or_wayland = true
 syntax_version = "0.0.0-alpha.4"
 
 [file]
-name = "arch-mate_amd64_2023-08-25_09-59.tar.zst"
+name = "arch-mate_amd64_2023-08-30_01-13.tar.zst"
 
 # This value can be used to verify the integrity of the file
-sha256 = "e5755cc8c4fe0a09ab7c0347a1a5710c36e7fd16e6157c0d3da97246c393e8d5"
+sha256 = "fed0aa69c41cac941f8576c8e23dbd6fe710f0c03541276d659d34463845e368"
 
 # zstd: [1-22]
 zstd-level = 19
@@ -21,12 +21,12 @@ zstd-level = 19
 # Installed size ≈ tar-size
 # Installed size is approximately equal to the size of the tar file
 tar = "4.6G"
-tar_bytes = 4843845120
+tar_bytes = 4859096064
 
 # Space occupied ≈ tar-size + zstd-size
 # You will need to prepare a large enough space before installation.
 zstd = "1.3G"
-zstd_bytes = 1378701596
+zstd_bytes = 1382304471
 
 [compatibility]
 compatible_mode = true
@@ -34,35 +34,35 @@ compatible_mode = true
 previous_version = "latest02"
 
 # The value is &str, not int
-previous_date = "20230809"
-previous_tag = "2023-08-09"
-previous_file = "arch-mate_amd64_2023-08-09_01-16-rootfs.tar.zst"
-previous_sha256 = "bfaadce397bdcd7e5bf614facdd80e63b06b19b93f5e7e5f6e5acf82f00f6150"
+previous_date = "20211128"
+previous_tag = ""
+previous_file = ""
+previous_sha256 = ""
 
 current_version = "latest01"
-current_date = "20230825"
-old_file = "arch-mate_amd64_2023-08-02_01-13-rootfs.tar.zst"
-old_sha256 = "36fb006c35b53a5ec33b8d09d5f6be38d29d87b2e72ce3b1bada7a73a164fa3a"
+current_date = "20230830"
+old_file = ""
+old_sha256 = ""
 # edition 2021
 # DISTRO_NAME=arch_amd64
-# ROOTFS_FILE=arch-mate_amd64_2023-08-25_09-59-rootfs.tar.zst
-# SHA256SUM=e5755cc8c4fe0a09ab7c0347a1a5710c36e7fd16e6157c0d3da97246c393e8d5
-# BUILD_DATE=20230825
-# BUILD_TAG=2023-08-25
+# ROOTFS_FILE=arch-mate_amd64_2023-08-30_01-13-rootfs.tar.zst
+# SHA256SUM=fed0aa69c41cac941f8576c8e23dbd6fe710f0c03541276d659d34463845e368
+# BUILD_DATE=20230830
+# BUILD_TAG=2023-08-30
 # STATUS=completed
 # VERSION=latest01
-# END_TIME=09:59
+# END_TIME=01:13
 
 [time]
 format = "rfc-3339"
 zone = "UTC"
-date = 2023-08-25
-begin = 2023-08-25 09:31:42.180735490+00:00
-start-sync_0 = 09:36:37
-start-zstd = 09:41:29
-start-sync_1 = 09:57:59
-end-sync_1 = 09:59:33
-end = 2023-08-25 09:59:33.954611149+00:00
+date = 2023-08-30
+begin = 2023-08-30 00:44:57.868836099+00:00
+start-sync_0 = 00:50:13
+start-zstd = 00:54:47
+start-sync_1 = 01:12:03
+end-sync_1 = 01:13:37
+end = 2023-08-30 01:13:37.197009016+00:00
 
 [server]
 repo = "cake233/arch-mate-amd64"
@@ -77,7 +77,7 @@ split = false
 [server.node2]
 name = "tmoe"
 current = true
-previous = false
+previous = true
 in_sync = false
 split = false
 
@@ -86,8 +86,6 @@ name = "azure"
 current = true
 previous = true
 in_sync = false
-start_sync = 2023-08-25 21:05:00.885699912+00:00
-end_sync = 2023-08-25 21:08:07.481836624+00:00
 split = false
 
 [server.node4]
