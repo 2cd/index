@@ -77,7 +77,7 @@ localhost:5903
 ```toml
 [main]
 name = "alpine"
-tag = ["xfce", "2023-08-24"]
+tag = ["xfce", "2023-08-31"]
 os = "alpine"
 release = "edge"
 arch = "arm64"
@@ -86,10 +86,10 @@ xorg_or_wayland = true
 syntax_version = "0.0.0-alpha.4"
 
 [file]
-name = "alpine-xfce_arm64_2023-08-24_00-18.tar.zst"
+name = "alpine-xfce_arm64_2023-08-31_00-17.tar.zst"
 
 # This value can be used to verify the integrity of the file
-sha256 = "e62d1d8b6b24964ee65630c54b8d88fd83f099976818f6ed46411e42cf3c1157"
+sha256 = "5ec09175edbdeb95858de338999eb0698d12fde2efab26c50e2f8195bd24bd4f"
 
 # zstd: [1-22]
 zstd-level = 19
@@ -98,48 +98,48 @@ zstd-level = 19
 # Installed size ≈ tar-size
 # Installed size is approximately equal to the size of the tar file
 tar = "1.3G"
-tar_bytes = 1351668224
+tar_bytes = 1335652864
 
 # Space occupied ≈ tar-size + zstd-size
 # You will need to prepare a large enough space before installation.
-zstd = "426M"
-zstd_bytes = 446207474
+zstd = "409M"
+zstd_bytes = 428643937
 
 [compatibility]
 compatible_mode = true
 
-previous_version = "latest02"
+previous_version = "latest01"
 
 # The value is &str, not int
-previous_date = "20230817"
-previous_tag = "2023-08-17"
-previous_file = "alpine-xfce_arm64_2023-08-17_00-16-rootfs.tar.zst"
-previous_sha256 = "fcdf7517fb0d372a138e8f1d9b37f1696341d9327a555a480614fb305217d9ad"
+previous_date = "20230824"
+previous_tag = "2023-08-24"
+previous_file = "alpine-xfce_arm64_2023-08-24_00-18-rootfs.tar.zst"
+previous_sha256 = "e62d1d8b6b24964ee65630c54b8d88fd83f099976818f6ed46411e42cf3c1157"
 
-current_version = "latest01"
-current_date = "20230824"
-old_file = "alpine-xfce_arm64_2023-08-10_00-29-rootfs.tar.zst"
-old_sha256 = "ea5cef26d349188d6e827d4c309dd4fe3e4f87e322cb219953efdfef239d98d8"
+current_version = "latest02"
+current_date = "20230831"
+old_file = "alpine-xfce_arm64_2023-08-17_00-16-rootfs.tar.zst"
+old_sha256 = "fcdf7517fb0d372a138e8f1d9b37f1696341d9327a555a480614fb305217d9ad"
 # edition 2021
 # DISTRO_NAME=alpine-edge_arm64
-# ROOTFS_FILE=alpine-xfce_arm64_2023-08-24_00-18-rootfs.tar.zst
-# SHA256SUM=e62d1d8b6b24964ee65630c54b8d88fd83f099976818f6ed46411e42cf3c1157
-# BUILD_DATE=20230824
-# BUILD_TAG=2023-08-24
+# ROOTFS_FILE=alpine-xfce_arm64_2023-08-31_00-17-rootfs.tar.zst
+# SHA256SUM=5ec09175edbdeb95858de338999eb0698d12fde2efab26c50e2f8195bd24bd4f
+# BUILD_DATE=20230831
+# BUILD_TAG=2023-08-31
 # STATUS=completed
-# VERSION=latest01
-# END_TIME=00:18
+# VERSION=latest02
+# END_TIME=00:17
 
 [time]
 format = "rfc-3339"
 zone = "UTC"
-date = 2023-08-24
-begin = 2023-08-24 00:07:34.659500008+00:00
-start-sync_0 = 00:11:44
-start-zstd = 00:12:57
-start-sync_1 = 00:18:11
-end-sync_1 = 00:18:48
-end = 2023-08-24 00:18:48.957489483+00:00
+date = 2023-08-31
+begin = 2023-08-31 00:07:58.039233202+00:00
+start-sync_0 = 00:11:22
+start-zstd = 00:12:19
+start-sync_1 = 00:16:30
+end-sync_1 = 00:17:04
+end = 2023-08-31 00:17:04.141036223+00:00
 
 [server]
 repo = "cake233/alpine-xfce-arm64"
