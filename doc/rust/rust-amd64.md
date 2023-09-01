@@ -69,7 +69,7 @@ ldd "$FILE"
 ```toml
 [main]
 name = "rust"
-tag = ["latest", "2023-08-28", "nightly", "unstable", "default", "gnu-libc"]
+tag = ["latest", "2023-09-01", "nightly", "unstable", "default", "gnu-libc"]
 os = "debian"
 release = "sid"
 arch = "amd64"
@@ -78,10 +78,10 @@ xorg_or_wayland = false
 syntax_version = "0.0.0-alpha.4"
 
 [file]
-name = "rust_amd64_2023-08-28_03-03.tar.zst"
+name = "rust_amd64_2023-09-01_03-00.tar.zst"
 
 # This value can be used to verify the integrity of the file
-sha256 = "801d247ba9250b58505e591a03074a0a7c30954b9a8b695aee2005a72486b3c2"
+sha256 = "00fcfbc247f7e7a06c9495aac71fcd7f30ccf345ce31865423cdf2814f0b27cb"
 
 # zstd: [1-22]
 zstd-level = 20
@@ -90,48 +90,48 @@ zstd-level = 20
 # Installed size ≈ tar-size
 # Installed size is approximately equal to the size of the tar file
 tar = "1.5G"
-tar_bytes = 1570570752
+tar_bytes = 1566196224
 
 # Space occupied ≈ tar-size + zstd-size
 # You will need to prepare a large enough space before installation.
-zstd = "218M"
-zstd_bytes = 227904904
+zstd = "219M"
+zstd_bytes = 228857726
 
 [compatibility]
 compatible_mode = true
 
-previous_version = "latest02"
+previous_version = "latest01"
 
 # The value is &str, not int
-previous_date = "20211128"
-previous_tag = ""
-previous_file = ""
-previous_sha256 = ""
+previous_date = "20230828"
+previous_tag = "2023-08-28"
+previous_file = "rust_amd64_2023-08-28_03-03-rootfs.tar.zst"
+previous_sha256 = "801d247ba9250b58505e591a03074a0a7c30954b9a8b695aee2005a72486b3c2"
 
-current_version = "latest01"
-current_date = "20230828"
-old_file = ""
-old_sha256 = ""
+current_version = "latest02"
+current_date = "20230901"
+old_file = "rust_amd64_2023-08-25_03-02-rootfs.tar.zst"
+old_sha256 = "792e3c75e98c5458a1b123b02d45679c84bda9fa06347d858a73283040cac6fa"
 # edition 2021
 # DISTRO_NAME=rust_amd64
-# ROOTFS_FILE=rust_amd64_2023-08-28_03-03-rootfs.tar.zst
-# SHA256SUM=801d247ba9250b58505e591a03074a0a7c30954b9a8b695aee2005a72486b3c2
-# BUILD_DATE=20230828
-# BUILD_TAG=2023-08-28
+# ROOTFS_FILE=rust_amd64_2023-09-01_03-00-rootfs.tar.zst
+# SHA256SUM=00fcfbc247f7e7a06c9495aac71fcd7f30ccf345ce31865423cdf2814f0b27cb
+# BUILD_DATE=20230901
+# BUILD_TAG=2023-09-01
 # STATUS=completed
-# VERSION=latest01
-# END_TIME=03:03
+# VERSION=latest02
+# END_TIME=03:00
 
 [time]
 format = "rfc-3339"
 zone = "UTC"
-date = 2023-08-28
-begin = 2023-08-28 02:52:46.671355377+00:00
-start-sync_0 = 02:55:22
-start-zstd = 02:56:28
-start-sync_1 = 03:02:41
-end-sync_1 = 03:03:06
-end = 2023-08-28 03:03:06.612959983+00:00
+date = 2023-09-01
+begin = 2023-09-01 02:52:29.865968904+00:00
+start-sync_0 = 02:54:20
+start-zstd = 02:55:17
+start-sync_1 = 03:00:12
+end-sync_1 = 03:00:33
+end = 2023-09-01 03:00:33.170451155+00:00
 
 [server]
 repo = "cake233/rust-amd64"
@@ -171,25 +171,25 @@ CARGO_HOME = "/usr/local/cargo"
 [version]
 ldd = 'ldd (Debian GLIBC 2.37-7) 2.37'
 rustup = 'rustup 1.26.0 (5af9b9484 2023-04-05)'
-cargo = 'cargo 1.74.0-nightly (925280f02 2023-08-25)'
-rustc = 'rustc 1.74.0-nightly (8550f15e1 2023-08-27)'
+cargo = 'cargo 1.74.0-nightly (96fe1c9e1 2023-08-29)'
+rustc = 'rustc 1.74.0-nightly (2f5df8a94 2023-08-31)'
 cc = 'cc (Debian 13.2.0-2) 13.2.0'
 cargo_verbose = '''
-cargo 1.74.0-nightly (925280f02 2023-08-25)
+cargo 1.74.0-nightly (96fe1c9e1 2023-08-29)
 release: 1.74.0-nightly
-commit-hash: 925280f028db3a322935e040719a0754703947cf
-commit-date: 2023-08-25
+commit-hash: 96fe1c9e1aecd8f57063e3753969bb6418fd2fd5
+commit-date: 2023-08-29
 host: x86_64-unknown-linux-gnu
-libgit2: 1.6.4 (sys:0.17.2 vendored)
+libgit2: 1.7.1 (sys:0.18.0 vendored)
 libcurl: 8.2.1-DEV (sys:0.4.65+curl-8.2.1 vendored ssl:OpenSSL/1.1.1u)
 ssl: OpenSSL 1.1.1u  30 May 2023
 os: Debian [64-bit]
 '''
 rustc_verbose = '''
-rustc 1.74.0-nightly (8550f15e1 2023-08-27)
+rustc 1.74.0-nightly (2f5df8a94 2023-08-31)
 binary: rustc
-commit-hash: 8550f15e148407159af401e02b1d9259762b3496
-commit-date: 2023-08-27
+commit-hash: 2f5df8a94bb3c5fae4e3fcbfc8ef20f1f976cb19
+commit-date: 2023-08-31
 host: x86_64-unknown-linux-gnu
 release: 1.74.0-nightly
 LLVM version: 17.0.0
