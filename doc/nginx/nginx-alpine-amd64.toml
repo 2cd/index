@@ -1,6 +1,6 @@
 [main]
 name = "nginx"
-tag = ["alpine", "2023-08-21", "musl-libc", "musl"]
+tag = ["alpine", "2023-09-04", "musl-libc", "musl"]
 os = "alpine"
 release = "stable"
 arch = "amd64"
@@ -9,10 +9,10 @@ xorg_or_wayland = false
 syntax_version = "0.0.0-alpha.4"
 
 [file]
-name = "nginx-musl_amd64_2023-08-21_12-03.tar.zst"
+name = "nginx-musl_amd64_2023-09-04_12-04.tar.zst"
 
 # This value can be used to verify the integrity of the file
-sha256 = "05d4ce51557cc9be5482895835d2f19f09b3cb57f777974aacea52faf64298fe"
+sha256 = "e03b724006afc278d7645fec5eba9007ab072a8288771e06bcf618a922f02c88"
 
 # zstd: [1-22]
 zstd-level = 22
@@ -26,43 +26,43 @@ tar_bytes = 53293056
 # Space occupied ≈ tar-size + zstd-size
 # You will need to prepare a large enough space before installation.
 zstd = "15M"
-zstd_bytes = 15098329
+zstd_bytes = 15097275
 
 [compatibility]
 compatible_mode = true
 
-previous_version = "latest01"
+previous_version = "latest02"
 
 # The value is &str, not int
-previous_date = "20230807"
-previous_tag = "2023-08-07"
-previous_file = "nginx-musl_amd64_2023-08-07_12-04-rootfs.tar.zst"
-previous_sha256 = "df55291429d7c3f82ac3e97c52f11d4f266fb3b5aedd58a4368171b45affd15d"
+previous_date = "20211128"
+previous_tag = ""
+previous_file = ""
+previous_sha256 = ""
 
-current_version = "latest02"
-current_date = "20230821"
-old_file = "nginx-musl_amd64_2023-07-24_12-03-rootfs.tar.zst"
-old_sha256 = "a0f8021978e78ae36698a9a8a1d5df439a6f79d9cee1039f94d5dd08f970881a"
+current_version = "latest01"
+current_date = "20230904"
+old_file = ""
+old_sha256 = ""
 # edition 2021
 # DISTRO_NAME=nginx_amd64
-# ROOTFS_FILE=nginx-musl_amd64_2023-08-21_12-03-rootfs.tar.zst
-# SHA256SUM=05d4ce51557cc9be5482895835d2f19f09b3cb57f777974aacea52faf64298fe
-# BUILD_DATE=20230821
-# BUILD_TAG=2023-08-21
+# ROOTFS_FILE=nginx-musl_amd64_2023-09-04_12-04-rootfs.tar.zst
+# SHA256SUM=e03b724006afc278d7645fec5eba9007ab072a8288771e06bcf618a922f02c88
+# BUILD_DATE=20230904
+# BUILD_TAG=2023-09-04
 # STATUS=completed
-# VERSION=latest02
-# END_TIME=12:03
+# VERSION=latest01
+# END_TIME=12:04
 
 [time]
 format = "rfc-3339"
 zone = "UTC"
-date = 2023-08-21
-begin = 2023-08-21 12:02:39.530890882+00:00
-start-sync_0 = 12:03:15
-start-zstd = 12:03:21
-start-sync_1 = 12:03:47
-end-sync_1 = 12:03:54
-end = 2023-08-21 12:03:54.393822773+00:00
+date = 2023-09-04
+begin = 2023-09-04 12:02:49.727950924+00:00
+start-sync_0 = 12:04:02
+start-zstd = 12:04:11
+start-sync_1 = 12:04:43
+end-sync_1 = 12:04:51
+end = 2023-09-04 12:04:51.805413013+00:00
 
 [server]
 repo = "cake233/nginx-alpine-amd64"
@@ -77,7 +77,7 @@ split = false
 [server.node2]
 name = "tmoe"
 current = true
-previous = false
+previous = true
 in_sync = false
 split = false
 
@@ -86,8 +86,6 @@ name = "azure"
 current = true
 previous = true
 in_sync = false
-start_sync = 2023-08-21 18:03:02.752656001+00:00
-end_sync = 2023-08-21 18:03:11.224417366+00:00
 split = false
 
 [server.node4]
