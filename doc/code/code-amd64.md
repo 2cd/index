@@ -210,7 +210,7 @@ editor 0.set || nano 0.set
 ```toml
 [main]
 name = "code"
-tag = ["latest", "2023-08-21", "vsc", "vscode", "web"]
+tag = ["latest", "2023-09-04", "vsc", "vscode", "web"]
 os = "debian"
 release = "sid"
 arch = "amd64"
@@ -219,10 +219,10 @@ xorg_or_wayland = false
 syntax_version = "0.0.0-alpha.4"
 
 [file]
-name = "code_amd64_2023-08-21_12-09.tar.zst"
+name = "code_amd64_2023-09-04_12-09.tar.zst"
 
 # This value can be used to verify the integrity of the file
-sha256 = "2f0af7a1b485a7ea5ecb1c6111f874fab3766a264c86f5ae3dffad01f5ed4793"
+sha256 = "34f61063c4edd7758752b2e1f916d656e322a33ae5f9c36040acf8e38ef30389"
 
 # zstd: [1-22]
 zstd-level = 22
@@ -231,48 +231,48 @@ zstd-level = 22
 # Installed size ≈ tar-size
 # Installed size is approximately equal to the size of the tar file
 tar = "497M"
-tar_bytes = 520553472
+tar_bytes = 520583680
 
 # Space occupied ≈ tar-size + zstd-size
 # You will need to prepare a large enough space before installation.
 zstd = "84M"
-zstd_bytes = 87721964
+zstd_bytes = 87740601
 
 [compatibility]
 compatible_mode = true
 
-previous_version = "latest01"
+previous_version = "latest02"
 
 # The value is &str, not int
-previous_date = "20230807"
-previous_tag = "2023-08-07"
-previous_file = "code_amd64_2023-08-07_12-10-rootfs.tar.zst"
-previous_sha256 = "c1d3afee198f2936797e78c70ed55c39363648e6c66350fbaf6938493b317fca"
+previous_date = "20211128"
+previous_tag = ""
+previous_file = ""
+previous_sha256 = ""
 
-current_version = "latest02"
-current_date = "20230821"
-old_file = "code_amd64_2023-07-24_12-10-rootfs.tar.zst"
-old_sha256 = "10f53a93917b419e60a0647d7038cf02af9153e8ae4fdeb4177095093aa6702e"
+current_version = "latest01"
+current_date = "20230904"
+old_file = ""
+old_sha256 = ""
 # edition 2021
 # DISTRO_NAME=code_amd64
-# ROOTFS_FILE=code_amd64_2023-08-21_12-09-rootfs.tar.zst
-# SHA256SUM=2f0af7a1b485a7ea5ecb1c6111f874fab3766a264c86f5ae3dffad01f5ed4793
-# BUILD_DATE=20230821
-# BUILD_TAG=2023-08-21
+# ROOTFS_FILE=code_amd64_2023-09-04_12-09-rootfs.tar.zst
+# SHA256SUM=34f61063c4edd7758752b2e1f916d656e322a33ae5f9c36040acf8e38ef30389
+# BUILD_DATE=20230904
+# BUILD_TAG=2023-09-04
 # STATUS=completed
-# VERSION=latest02
+# VERSION=latest01
 # END_TIME=12:09
 
 [time]
 format = "rfc-3339"
 zone = "UTC"
-date = 2023-08-21
-begin = 2023-08-21 12:02:41.157528158+00:00
-start-sync_0 = 12:04:01
-start-zstd = 12:04:32
-start-sync_1 = 12:08:53
-end-sync_1 = 12:09:06
-end = 2023-08-21 12:09:06.893658624+00:00
+date = 2023-09-04
+begin = 2023-09-04 12:02:50.362087948+00:00
+start-sync_0 = 12:04:35
+start-zstd = 12:05:04
+start-sync_1 = 12:08:54
+end-sync_1 = 12:09:08
+end = 2023-09-04 12:09:08.426832722+00:00
 
 [server]
 repo = "cake233/code-amd64"
