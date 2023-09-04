@@ -210,7 +210,7 @@ editor 0.set || nano 0.set
 ```toml
 [main]
 name = "code"
-tag = ["latest", "2023-08-21", "vsc", "vscode", "web"]
+tag = ["latest", "2023-09-04", "vsc", "vscode", "web"]
 os = "debian"
 release = "sid"
 arch = "armhf"
@@ -219,10 +219,10 @@ xorg_or_wayland = false
 syntax_version = "0.0.0-alpha.4"
 
 [file]
-name = "code_armhf_2023-08-21_12-12.tar.zst"
+name = "code_armhf_2023-09-04_12-15.tar.zst"
 
 # This value can be used to verify the integrity of the file
-sha256 = "9835b609bcbd5be552250fe1dfdb916364a9437a5c6a044baec99fe6be800446"
+sha256 = "42568b0e6b420f39b6433282c8491e9f4e9581b468716474b2492a9a8f4f6db9"
 
 # zstd: [1-22]
 zstd-level = 22
@@ -231,48 +231,48 @@ zstd-level = 22
 # Installed size ≈ tar-size
 # Installed size is approximately equal to the size of the tar file
 tar = "499M"
-tar_bytes = 522752512
+tar_bytes = 522768384
 
 # Space occupied ≈ tar-size + zstd-size
 # You will need to prepare a large enough space before installation.
 zstd = "80M"
-zstd_bytes = 83070998
+zstd_bytes = 83072986
 
 [compatibility]
 compatible_mode = true
 
-previous_version = "latest01"
+previous_version = "latest02"
 
 # The value is &str, not int
-previous_date = "20230807"
-previous_tag = "2023-08-07"
-previous_file = "code_armhf_2023-08-07_12-13-rootfs.tar.zst"
-previous_sha256 = "643b87f4ad96143667ca7b73613768e27f77894572477bfdd7ad46eb3c362e67"
+previous_date = "20211128"
+previous_tag = ""
+previous_file = ""
+previous_sha256 = ""
 
-current_version = "latest02"
-current_date = "20230821"
-old_file = "code_armhf_2023-07-24_12-12-rootfs.tar.zst"
-old_sha256 = "b734202c361f0959d74c57b5166e1dfcc14f49888fd20000aebfb0426d7c098b"
+current_version = "latest01"
+current_date = "20230904"
+old_file = ""
+old_sha256 = ""
 # edition 2021
 # DISTRO_NAME=code_armhf
-# ROOTFS_FILE=code_armhf_2023-08-21_12-12-rootfs.tar.zst
-# SHA256SUM=9835b609bcbd5be552250fe1dfdb916364a9437a5c6a044baec99fe6be800446
-# BUILD_DATE=20230821
-# BUILD_TAG=2023-08-21
+# ROOTFS_FILE=code_armhf_2023-09-04_12-15-rootfs.tar.zst
+# SHA256SUM=42568b0e6b420f39b6433282c8491e9f4e9581b468716474b2492a9a8f4f6db9
+# BUILD_DATE=20230904
+# BUILD_TAG=2023-09-04
 # STATUS=completed
-# VERSION=latest02
-# END_TIME=12:12
+# VERSION=latest01
+# END_TIME=12:15
 
 [time]
 format = "rfc-3339"
 zone = "UTC"
-date = 2023-08-21
-begin = 2023-08-21 12:02:39.526343686+00:00
-start-sync_0 = 12:07:40
-start-zstd = 12:08:09
-start-sync_1 = 12:12:00
-end-sync_1 = 12:12:13
-end = 2023-08-21 12:12:13.052248050+00:00
+date = 2023-09-04
+begin = 2023-09-04 12:02:51.478994501+00:00
+start-sync_0 = 12:09:57
+start-zstd = 12:10:32
+start-sync_1 = 12:15:04
+end-sync_1 = 12:15:17
+end = 2023-09-04 12:15:17.410136918+00:00
 
 [server]
 repo = "cake233/code-armv7"
