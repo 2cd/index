@@ -56,7 +56,7 @@ func main() {
 ```toml
 [main]
 name = "go"
-tag = ["latest", "2023-08-21"]
+tag = ["latest", "2023-09-04"]
 os = "debian"
 release = "stable"
 arch = "arm64"
@@ -65,10 +65,10 @@ xorg_or_wayland = false
 syntax_version = "0.0.0-alpha.4"
 
 [file]
-name = "go_arm64_2023-08-21_12-10.tar.zst"
+name = "go_arm64_2023-09-04_12-11.tar.zst"
 
 # This value can be used to verify the integrity of the file
-sha256 = "8fdbbe1e3b81a855eef93d4c3e644cbeed72a3e6793dddf8a576afe788f3b71a"
+sha256 = "613b3c74e1d6e3585b75437f2e1482c42d8af77d73f30f9f97f50fea59297180"
 
 # zstd: [1-22]
 zstd-level = 22
@@ -82,43 +82,43 @@ tar_bytes = 875772928
 # Space occupied ≈ tar-size + zstd-size
 # You will need to prepare a large enough space before installation.
 zstd = "159M"
-zstd_bytes = 166501974
+zstd_bytes = 166498339
 
 [compatibility]
 compatible_mode = true
 
-previous_version = "latest01"
+previous_version = "latest02"
 
 # The value is &str, not int
-previous_date = "20230807"
-previous_tag = "2023-08-07"
-previous_file = "go_arm64_2023-08-07_12-11-rootfs.tar.zst"
-previous_sha256 = "556a664954b77f7493ebd74872b02a206b0224cd346eda721b99382052c846bb"
+previous_date = "20211128"
+previous_tag = ""
+previous_file = ""
+previous_sha256 = ""
 
-current_version = "latest02"
-current_date = "20230821"
-old_file = "go_arm64_2023-07-24_12-10-rootfs.tar.zst"
-old_sha256 = "83f561528d6b0dce752fb5d8aacfe0b50f501beabcae08cf6c5b5f5a59a0f1dd"
+current_version = "latest01"
+current_date = "20230904"
+old_file = ""
+old_sha256 = ""
 # edition 2021
 # DISTRO_NAME=go_arm64
-# ROOTFS_FILE=go_arm64_2023-08-21_12-10-rootfs.tar.zst
-# SHA256SUM=8fdbbe1e3b81a855eef93d4c3e644cbeed72a3e6793dddf8a576afe788f3b71a
-# BUILD_DATE=20230821
-# BUILD_TAG=2023-08-21
+# ROOTFS_FILE=go_arm64_2023-09-04_12-11-rootfs.tar.zst
+# SHA256SUM=613b3c74e1d6e3585b75437f2e1482c42d8af77d73f30f9f97f50fea59297180
+# BUILD_DATE=20230904
+# BUILD_TAG=2023-09-04
 # STATUS=completed
-# VERSION=latest02
-# END_TIME=12:10
+# VERSION=latest01
+# END_TIME=12:11
 
 [time]
 format = "rfc-3339"
 zone = "UTC"
-date = 2023-08-21
-begin = 2023-08-21 12:02:43.270067742+00:00
-start-sync_0 = 12:05:17
-start-zstd = 12:05:36
-start-sync_1 = 12:10:23
-end-sync_1 = 12:10:44
-end = 2023-08-21 12:10:44.108235083+00:00
+date = 2023-09-04
+begin = 2023-09-04 12:02:47.696681515+00:00
+start-sync_0 = 12:05:51
+start-zstd = 12:06:01
+start-sync_1 = 12:10:49
+end-sync_1 = 12:11:05
+end = 2023-09-04 12:11:05.159809261+00:00
 
 [server]
 repo = "cake233/go-arm64"
