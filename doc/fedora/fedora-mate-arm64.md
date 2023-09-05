@@ -77,7 +77,7 @@ localhost:5903
 ```toml
 [main]
 name = "fedora"
-tag = ["mate", "2023-08-29"]
+tag = ["mate", "2023-09-05"]
 os = "fedora"
 release = "rawhide"
 arch = "arm64"
@@ -86,10 +86,10 @@ xorg_or_wayland = true
 syntax_version = "0.0.0-alpha.4"
 
 [file]
-name = "fedora-mate_arm64_2023-08-29_15-37.tar.zst"
+name = "fedora-mate_arm64_2023-09-05_15-03.tar.zst"
 
 # This value can be used to verify the integrity of the file
-sha256 = "f4459130df77fc13367ff9b6e66ab1611b1faa8069e232f64aaaaf6542b7ebbc"
+sha256 = "1407bb9f32a6bb5c0479f361e5644795adf289badacff334339768a74b57251c"
 
 # zstd: [1-22]
 zstd-level = 19
@@ -98,12 +98,12 @@ zstd-level = 19
 # Installed size ≈ tar-size
 # Installed size is approximately equal to the size of the tar file
 tar = "6.5G"
-tar_bytes = 6937218560
+tar_bytes = 6954106880
 
 # Space occupied ≈ tar-size + zstd-size
 # You will need to prepare a large enough space before installation.
 zstd = "1.6G"
-zstd_bytes = 1686879731
+zstd_bytes = 1696189537
 
 [compatibility]
 compatible_mode = true
@@ -117,29 +117,29 @@ previous_file = ""
 previous_sha256 = ""
 
 current_version = "latest01"
-current_date = "20230829"
+current_date = "20230905"
 old_file = ""
 old_sha256 = ""
 # edition 2021
 # DISTRO_NAME=fedora-rawhide_arm64
-# ROOTFS_FILE=fedora-mate_arm64_2023-08-29_15-37-rootfs.tar.zst
-# SHA256SUM=f4459130df77fc13367ff9b6e66ab1611b1faa8069e232f64aaaaf6542b7ebbc
-# BUILD_DATE=20230829
-# BUILD_TAG=2023-08-29
+# ROOTFS_FILE=fedora-mate_arm64_2023-09-05_15-03-rootfs.tar.zst
+# SHA256SUM=1407bb9f32a6bb5c0479f361e5644795adf289badacff334339768a74b57251c
+# BUILD_DATE=20230905
+# BUILD_TAG=2023-09-05
 # STATUS=completed
 # VERSION=latest01
-# END_TIME=15:37
+# END_TIME=15:03
 
 [time]
 format = "rfc-3339"
 zone = "UTC"
-date = 2023-08-29
-begin = 2023-08-29 12:45:59.516346649+00:00
-start-sync_0 = 14:58:23
-start-zstd = 15:05:37
-start-sync_1 = 15:35:09
-end-sync_1 = 15:37:27
-end = 2023-08-29 15:37:27.464709203+00:00
+date = 2023-09-05
+begin = 2023-09-05 12:36:20.234092976+00:00
+start-sync_0 = 14:31:10
+start-zstd = 14:37:12
+start-sync_1 = 15:01:16
+end-sync_1 = 15:03:52
+end = 2023-09-05 15:03:52.918367375+00:00
 
 [server]
 repo = "cake233/fedora-mate-arm64"
@@ -174,7 +174,7 @@ current = true
 LANG = "en_US.UTF-8"
 
 [version]
-ldd = 'ldd (GNU libc) 2.38'
+ldd = 'ldd (GNU libc) 2.38.9000'
 zsh = 'zsh 5.9 (aarch64-redhat-linux-gnu)'
 
 [port]
