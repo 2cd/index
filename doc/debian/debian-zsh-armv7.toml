@@ -1,6 +1,6 @@
 [main]
 name = "debian"
-tag = ["zsh", "2023-08-30"]
+tag = ["zsh", "2023-09-06"]
 os = "debian"
 release = "sid"
 arch = "armhf"
@@ -9,10 +9,10 @@ xorg_or_wayland = false
 syntax_version = "0.0.0-alpha.4"
 
 [file]
-name = "debian-zsh_armhf_2023-08-30_12-18.tar.zst"
+name = "debian-zsh_armhf_2023-09-06_12-21.tar.zst"
 
 # This value can be used to verify the integrity of the file
-sha256 = "b05bad75f347abb612b1bbdca00216f0fa844a28b7bda0f3e46625c31271f82d"
+sha256 = "40da9f13af24a4f6bd84865f1de56e703edcc3423cd94d4772cedcc9f2684a0b"
 
 # zstd: [1-22]
 zstd-level = 20
@@ -21,48 +21,48 @@ zstd-level = 20
 # Installed size ≈ tar-size
 # Installed size is approximately equal to the size of the tar file
 tar = "740M"
-tar_bytes = 775445504
+tar_bytes = 775501824
 
 # Space occupied ≈ tar-size + zstd-size
 # You will need to prepare a large enough space before installation.
 zstd = "156M"
-zstd_bytes = 163226346
+zstd_bytes = 163270850
 
 [compatibility]
 compatible_mode = true
 
-previous_version = "latest02"
+previous_version = "latest01"
 
 # The value is &str, not int
-previous_date = "20211128"
-previous_tag = ""
-previous_file = ""
-previous_sha256 = ""
+previous_date = "20230830"
+previous_tag = "2023-08-30"
+previous_file = "debian-zsh_armhf_2023-08-30_12-18-rootfs.tar.zst"
+previous_sha256 = "b05bad75f347abb612b1bbdca00216f0fa844a28b7bda0f3e46625c31271f82d"
 
-current_version = "latest01"
-current_date = "20230830"
-old_file = ""
-old_sha256 = ""
+current_version = "latest02"
+current_date = "20230906"
+old_file = "debian-zsh_armhf_2023-08-16_12-17-rootfs.tar.zst"
+old_sha256 = "806faeaaeb55d3d93ef6512a1c3650da3187125b857705a27f8d34f8f855d3fe"
 # edition 2021
 # DISTRO_NAME=debian-sid_armhf
-# ROOTFS_FILE=debian-zsh_armhf_2023-08-30_12-18-rootfs.tar.zst
-# SHA256SUM=b05bad75f347abb612b1bbdca00216f0fa844a28b7bda0f3e46625c31271f82d
-# BUILD_DATE=20230830
-# BUILD_TAG=2023-08-30
+# ROOTFS_FILE=debian-zsh_armhf_2023-09-06_12-21-rootfs.tar.zst
+# SHA256SUM=40da9f13af24a4f6bd84865f1de56e703edcc3423cd94d4772cedcc9f2684a0b
+# BUILD_DATE=20230906
+# BUILD_TAG=2023-09-06
 # STATUS=completed
-# VERSION=latest01
-# END_TIME=12:18
+# VERSION=latest02
+# END_TIME=12:21
 
 [time]
 format = "rfc-3339"
 zone = "UTC"
-date = 2023-08-30
-begin = 2023-08-30 12:02:41.323289589+00:00
-start-sync_0 = 12:14:30
-start-zstd = 12:16:11
-start-sync_1 = 12:18:32
-end-sync_1 = 12:18:50
-end = 2023-08-30 12:18:50.878557883+00:00
+date = 2023-09-06
+begin = 2023-09-06 12:02:43.123742865+00:00
+start-sync_0 = 12:16:22
+start-zstd = 12:18:10
+start-sync_1 = 12:21:05
+end-sync_1 = 12:21:24
+end = 2023-09-06 12:21:24.414143491+00:00
 
 [server]
 repo = "cake233/debian-zsh-armv7"
@@ -77,7 +77,7 @@ split = false
 [server.node2]
 name = "tmoe"
 current = true
-previous = false
+previous = true
 in_sync = false
 split = false
 
@@ -86,8 +86,6 @@ name = "azure"
 current = true
 previous = true
 in_sync = false
-start_sync = 2023-08-30 18:07:51.238981042+00:00
-end_sync = 2023-08-30 18:08:19.998488530+00:00
 split = false
 
 [server.node4]
