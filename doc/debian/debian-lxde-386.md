@@ -77,7 +77,7 @@ localhost:5903
 ```toml
 [main]
 name = "debian"
-tag = ["lxde", "2023-08-30"]
+tag = ["lxde", "2023-09-06"]
 os = "debian"
 release = "sid"
 arch = "i386"
@@ -86,10 +86,10 @@ xorg_or_wayland = true
 syntax_version = "0.0.0-alpha.4"
 
 [file]
-name = "debian-lxde_i386_2023-08-30_13-24.tar.zst"
+name = "debian-lxde_i386_2023-09-06_13-33.tar.zst"
 
 # This value can be used to verify the integrity of the file
-sha256 = "1d4a8a2f9d487d5e63e7bd3191e48262b4948a483a8cbe2265940aed68a01de1"
+sha256 = "fc927be3f7c46cfed7c1ec996578e77b6c71eabbf1f1c690db8a286377ebb498"
 
 # zstd: [1-22]
 zstd-level = 19
@@ -98,48 +98,48 @@ zstd-level = 19
 # Installed size ≈ tar-size
 # Installed size is approximately equal to the size of the tar file
 tar = "4.2G"
-tar_bytes = 4419297792
+tar_bytes = 4423030272
 
 # Space occupied ≈ tar-size + zstd-size
 # You will need to prepare a large enough space before installation.
 zstd = "1.2G"
-zstd_bytes = 1245586018
+zstd_bytes = 1246314257
 
 [compatibility]
 compatible_mode = true
 
-previous_version = "latest02"
+previous_version = "latest01"
 
 # The value is &str, not int
-previous_date = "20211128"
-previous_tag = ""
-previous_file = ""
-previous_sha256 = ""
+previous_date = "20230830"
+previous_tag = "2023-08-30"
+previous_file = "debian-lxde_i386_2023-08-30_13-24-rootfs.tar.zst"
+previous_sha256 = "1d4a8a2f9d487d5e63e7bd3191e48262b4948a483a8cbe2265940aed68a01de1"
 
-current_version = "latest01"
-current_date = "20230830"
-old_file = ""
-old_sha256 = ""
+current_version = "latest02"
+current_date = "20230906"
+old_file = "debian-lxde_i386_2023-08-16_13-32-rootfs.tar.zst"
+old_sha256 = "5856f06738f31380a143543e02792103d087c96317c79739973417dd75664dae"
 # edition 2021
 # DISTRO_NAME=debian-sid_i386
-# ROOTFS_FILE=debian-lxde_i386_2023-08-30_13-24-rootfs.tar.zst
-# SHA256SUM=1d4a8a2f9d487d5e63e7bd3191e48262b4948a483a8cbe2265940aed68a01de1
-# BUILD_DATE=20230830
-# BUILD_TAG=2023-08-30
+# ROOTFS_FILE=debian-lxde_i386_2023-09-06_13-33-rootfs.tar.zst
+# SHA256SUM=fc927be3f7c46cfed7c1ec996578e77b6c71eabbf1f1c690db8a286377ebb498
+# BUILD_DATE=20230906
+# BUILD_TAG=2023-09-06
 # STATUS=completed
-# VERSION=latest01
-# END_TIME=13:24
+# VERSION=latest02
+# END_TIME=13:33
 
 [time]
 format = "rfc-3339"
 zone = "UTC"
-date = 2023-08-30
-begin = 2023-08-30 12:25:14.990583276+00:00
-start-sync_0 = 12:59:54
-start-zstd = 13:03:55
-start-sync_1 = 13:22:34
-end-sync_1 = 13:24:09
-end = 2023-08-30 13:24:09.260538714+00:00
+date = 2023-09-06
+begin = 2023-09-06 12:22:39.336637694+00:00
+start-sync_0 = 13:06:02
+start-zstd = 13:10:33
+start-sync_1 = 13:31:46
+end-sync_1 = 13:33:29
+end = 2023-09-06 13:33:30.007982245+00:00
 
 [server]
 repo = "cake233/debian-lxde-386"
