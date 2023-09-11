@@ -20,7 +20,7 @@ docker exec -it ruby-amd64 bash
 ```toml
 [main]
 name = "ruby"
-tag = ["latest", "2023-08-28"]
+tag = ["latest", "2023-09-11"]
 os = "debian"
 release = "stable"
 arch = "amd64"
@@ -29,10 +29,10 @@ xorg_or_wayland = false
 syntax_version = "0.0.0-alpha.4"
 
 [file]
-name = "ruby_amd64_2023-08-28_12-11.tar.zst"
+name = "ruby_amd64_2023-09-11_12-09.tar.zst"
 
 # This value can be used to verify the integrity of the file
-sha256 = "1ebda5fdb049d59879fef73b39bfd6cd95b807f90bec3cfa0906ce645f90ec3e"
+sha256 = "773b81bcb449347ac211974ca784896a73680f74d0ad5441f813e6e797d57206"
 
 # zstd: [1-22]
 zstd-level = 22
@@ -41,48 +41,48 @@ zstd-level = 22
 # Installed size ≈ tar-size
 # Installed size is approximately equal to the size of the tar file
 tar = "989M"
-tar_bytes = 1036572160
+tar_bytes = 1036609024
 
 # Space occupied ≈ tar-size + zstd-size
 # You will need to prepare a large enough space before installation.
 zstd = "214M"
-zstd_bytes = 223629144
+zstd_bytes = 223661942
 
 [compatibility]
 compatible_mode = true
 
-previous_version = "latest02"
+previous_version = "latest01"
 
 # The value is &str, not int
-previous_date = "20211128"
-previous_tag = ""
-previous_file = ""
-previous_sha256 = ""
+previous_date = "20230828"
+previous_tag = "2023-08-28"
+previous_file = "ruby_amd64_2023-08-28_12-11-rootfs.tar.zst"
+previous_sha256 = "1ebda5fdb049d59879fef73b39bfd6cd95b807f90bec3cfa0906ce645f90ec3e"
 
-current_version = "latest01"
-current_date = "20230828"
-old_file = ""
-old_sha256 = ""
+current_version = "latest02"
+current_date = "20230911"
+old_file = "ruby_amd64_2023-08-14_12-13-rootfs.tar.zst"
+old_sha256 = "3101bda2ab053332dd23d9606357a28922874617765fe0f8d18a2b4e3c4d0a9a"
 # edition 2021
 # DISTRO_NAME=ruby_amd64
-# ROOTFS_FILE=ruby_amd64_2023-08-28_12-11-rootfs.tar.zst
-# SHA256SUM=1ebda5fdb049d59879fef73b39bfd6cd95b807f90bec3cfa0906ce645f90ec3e
-# BUILD_DATE=20230828
-# BUILD_TAG=2023-08-28
+# ROOTFS_FILE=ruby_amd64_2023-09-11_12-09-rootfs.tar.zst
+# SHA256SUM=773b81bcb449347ac211974ca784896a73680f74d0ad5441f813e6e797d57206
+# BUILD_DATE=20230911
+# BUILD_TAG=2023-09-11
 # STATUS=completed
-# VERSION=latest01
-# END_TIME=12:11
+# VERSION=latest02
+# END_TIME=12:09
 
 [time]
 format = "rfc-3339"
 zone = "UTC"
-date = 2023-08-28
-begin = 2023-08-28 12:02:40.619254924+00:00
-start-sync_0 = 12:03:20
-start-zstd = 12:05:16
-start-sync_1 = 12:10:46
-end-sync_1 = 12:11:06
-end = 2023-08-28 12:11:06.861644992+00:00
+date = 2023-09-11
+begin = 2023-09-11 12:02:40.593319343+00:00
+start-sync_0 = 12:04:02
+start-zstd = 12:04:16
+start-sync_1 = 12:09:25
+end-sync_1 = 12:09:45
+end = 2023-09-11 12:09:45.752460683+00:00
 
 [server]
 repo = "cake233/ruby-amd64"
