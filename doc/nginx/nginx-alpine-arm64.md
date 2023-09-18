@@ -20,7 +20,7 @@ docker exec -it nginx-alpine-arm64 bash
 ```toml
 [main]
 name = "nginx"
-tag = ["alpine", "2023-09-04", "musl-libc", "musl"]
+tag = ["alpine", "2023-09-18", "musl-libc", "musl"]
 os = "alpine"
 release = "stable"
 arch = "arm64"
@@ -29,10 +29,10 @@ xorg_or_wayland = false
 syntax_version = "0.0.0-alpha.4"
 
 [file]
-name = "nginx-musl_arm64_2023-09-04_12-04.tar.zst"
+name = "nginx-musl_arm64_2023-09-18_12-04.tar.zst"
 
 # This value can be used to verify the integrity of the file
-sha256 = "8a8fdbefc5c1d5b21d603011c10d8c9be6f1718ad5590e7c76d5b2140ecd870e"
+sha256 = "05a5b9343d9b90a64898a2732697e21fdca3de90c689aeee2cced819ec41b0a8"
 
 # zstd: [1-22]
 zstd-level = 22
@@ -46,43 +46,43 @@ tar_bytes = 61597696
 # Space occupied ≈ tar-size + zstd-size
 # You will need to prepare a large enough space before installation.
 zstd = "14M"
-zstd_bytes = 14651997
+zstd_bytes = 14651824
 
 [compatibility]
 compatible_mode = true
 
-previous_version = "latest02"
+previous_version = "latest01"
 
 # The value is &str, not int
-previous_date = "20211128"
-previous_tag = ""
-previous_file = ""
-previous_sha256 = ""
+previous_date = "20230904"
+previous_tag = "2023-09-04"
+previous_file = "nginx-musl_arm64_2023-09-04_12-04-rootfs.tar.zst"
+previous_sha256 = "8a8fdbefc5c1d5b21d603011c10d8c9be6f1718ad5590e7c76d5b2140ecd870e"
 
-current_version = "latest01"
-current_date = "20230904"
-old_file = ""
-old_sha256 = ""
+current_version = "latest02"
+current_date = "20230918"
+old_file = "nginx-musl_arm64_2023-08-21_12-04-rootfs.tar.zst"
+old_sha256 = "9f9a92d6cafccc5d06cca625354600b7d897e085befa5634298eaa0c832eb030"
 # edition 2021
 # DISTRO_NAME=nginx_arm64
-# ROOTFS_FILE=nginx-musl_arm64_2023-09-04_12-04-rootfs.tar.zst
-# SHA256SUM=8a8fdbefc5c1d5b21d603011c10d8c9be6f1718ad5590e7c76d5b2140ecd870e
-# BUILD_DATE=20230904
-# BUILD_TAG=2023-09-04
+# ROOTFS_FILE=nginx-musl_arm64_2023-09-18_12-04-rootfs.tar.zst
+# SHA256SUM=05a5b9343d9b90a64898a2732697e21fdca3de90c689aeee2cced819ec41b0a8
+# BUILD_DATE=20230918
+# BUILD_TAG=2023-09-18
 # STATUS=completed
-# VERSION=latest01
+# VERSION=latest02
 # END_TIME=12:04
 
 [time]
 format = "rfc-3339"
 zone = "UTC"
-date = 2023-09-04
-begin = 2023-09-04 12:02:48.467295223+00:00
-start-sync_0 = 12:04:06
-start-zstd = 12:04:11
-start-sync_1 = 12:04:36
-end-sync_1 = 12:04:41
-end = 2023-09-04 12:04:41.785730385+00:00
+date = 2023-09-18
+begin = 2023-09-18 12:02:41.831198409+00:00
+start-sync_0 = 12:03:53
+start-zstd = 12:04:02
+start-sync_1 = 12:04:30
+end-sync_1 = 12:04:38
+end = 2023-09-18 12:04:38.227737221+00:00
 
 [server]
 repo = "cake233/nginx-alpine-arm64"
