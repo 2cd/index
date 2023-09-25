@@ -1,6 +1,6 @@
 [main]
 name = "ruby"
-tag = ["alpine", "2023-09-11", "musl-libc", "musl"]
+tag = ["alpine", "2023-09-25", "musl-libc", "musl"]
 os = "alpine"
 release = "stable"
 arch = "amd64"
@@ -9,10 +9,10 @@ xorg_or_wayland = false
 syntax_version = "0.0.0-alpha.4"
 
 [file]
-name = "ruby-musl_amd64_2023-09-11_12-04.tar.zst"
+name = "ruby-musl_amd64_2023-09-25_12-05.tar.zst"
 
 # This value can be used to verify the integrity of the file
-sha256 = "810e6099497d599fa20ae638e16b200390d4ab3e34816e4335162b7a3903abb5"
+sha256 = "f83ddbb14ae60aca34e9a5fa8137dc38005251df7f6339a26c19b1d4d5036156"
 
 # zstd: [1-22]
 zstd-level = 22
@@ -21,48 +21,48 @@ zstd-level = 22
 # Installed size ≈ tar-size
 # Installed size is approximately equal to the size of the tar file
 tar = "89M"
-tar_bytes = 92880896
+tar_bytes = 92925952
 
 # Space occupied ≈ tar-size + zstd-size
 # You will need to prepare a large enough space before installation.
 zstd = "37M"
-zstd_bytes = 37873395
+zstd_bytes = 37896534
 
 [compatibility]
 compatible_mode = true
 
-previous_version = "latest01"
+previous_version = "latest02"
 
 # The value is &str, not int
-previous_date = "20230828"
-previous_tag = "2023-08-28"
-previous_file = "ruby-musl_amd64_2023-08-28_12-03-rootfs.tar.zst"
-previous_sha256 = "d0b91b489423ecc1f1a1ddd544591490c91c7dde71cf8a699fdbacdd0b08a123"
+previous_date = "20230911"
+previous_tag = "2023-09-11"
+previous_file = "ruby-musl_amd64_2023-09-11_12-04-rootfs.tar.zst"
+previous_sha256 = "810e6099497d599fa20ae638e16b200390d4ab3e34816e4335162b7a3903abb5"
 
-current_version = "latest02"
-current_date = "20230911"
-old_file = "ruby-musl_amd64_2023-07-31_12-04-rootfs.tar.zst"
-old_sha256 = "dd1a8ffb5f529c591bfbaa14d9defdf12e32056fc8167ee51123a0873d6cb7a7"
+current_version = "latest01"
+current_date = "20230925"
+old_file = "ruby-musl_amd64_2023-08-28_12-03-rootfs.tar.zst"
+old_sha256 = "d0b91b489423ecc1f1a1ddd544591490c91c7dde71cf8a699fdbacdd0b08a123"
 # edition 2021
 # DISTRO_NAME=ruby_amd64
-# ROOTFS_FILE=ruby-musl_amd64_2023-09-11_12-04-rootfs.tar.zst
-# SHA256SUM=810e6099497d599fa20ae638e16b200390d4ab3e34816e4335162b7a3903abb5
-# BUILD_DATE=20230911
-# BUILD_TAG=2023-09-11
+# ROOTFS_FILE=ruby-musl_amd64_2023-09-25_12-05-rootfs.tar.zst
+# SHA256SUM=f83ddbb14ae60aca34e9a5fa8137dc38005251df7f6339a26c19b1d4d5036156
+# BUILD_DATE=20230925
+# BUILD_TAG=2023-09-25
 # STATUS=completed
-# VERSION=latest02
-# END_TIME=12:04
+# VERSION=latest01
+# END_TIME=12:05
 
 [time]
 format = "rfc-3339"
 zone = "UTC"
-date = 2023-09-11
-begin = 2023-09-11 12:02:41.621843367+00:00
-start-sync_0 = 12:03:47
-start-zstd = 12:03:56
-start-sync_1 = 12:04:36
-end-sync_1 = 12:04:45
-end = 2023-09-11 12:04:45.883383370+00:00
+date = 2023-09-25
+begin = 2023-09-25 12:02:40.594514421+00:00
+start-sync_0 = 12:03:56
+start-zstd = 12:04:09
+start-sync_1 = 12:04:55
+end-sync_1 = 12:05:07
+end = 2023-09-25 12:05:07.959239298+00:00
 
 [server]
 repo = "cake233/ruby-alpine-amd64"
@@ -77,7 +77,7 @@ split = false
 [server.node2]
 name = "tmoe"
 current = true
-previous = false
+previous = true
 in_sync = false
 split = false
 
@@ -86,8 +86,6 @@ name = "azure"
 current = true
 previous = true
 in_sync = false
-start_sync = 2023-09-11 18:03:12.476749302+00:00
-end_sync = 2023-09-11 18:03:24.821059347+00:00
 split = false
 
 [server.node4]
