@@ -69,7 +69,7 @@ ldd "$FILE"
 ```toml
 [main]
 name = "rust"
-tag = ["latest", "2023-09-22", "nightly", "unstable", "default", "gnu-libc"]
+tag = ["latest", "2023-09-25", "nightly", "unstable", "default", "gnu-libc"]
 os = "debian"
 release = "sid"
 arch = "armhf"
@@ -78,10 +78,10 @@ xorg_or_wayland = false
 syntax_version = "0.0.0-alpha.4"
 
 [file]
-name = "rust_armhf_2023-09-22_03-07.tar.zst"
+name = "rust_armhf_2023-09-25_03-06.tar.zst"
 
 # This value can be used to verify the integrity of the file
-sha256 = "a82230e326ec40eb93d5773a66cd80e15285948a311663da560e1587fb7ca433"
+sha256 = "e44946337b8811cc7dea6aab37e94e2e450388a5b9356b20cdee343513600d44"
 
 # zstd: [1-22]
 zstd-level = 20
@@ -90,48 +90,48 @@ zstd-level = 20
 # Installed size ≈ tar-size
 # Installed size is approximately equal to the size of the tar file
 tar = "1.6G"
-tar_bytes = 1679456256
+tar_bytes = 1681497600
 
 # Space occupied ≈ tar-size + zstd-size
 # You will need to prepare a large enough space before installation.
 zstd = "221M"
-zstd_bytes = 231257507
+zstd_bytes = 231386015
 
 [compatibility]
 compatible_mode = true
 
-previous_version = "latest02"
+previous_version = "latest01"
 
 # The value is &str, not int
-previous_date = "20211128"
-previous_tag = ""
-previous_file = ""
-previous_sha256 = ""
+previous_date = "20230922"
+previous_tag = "2023-09-22"
+previous_file = "rust_armhf_2023-09-22_03-07-rootfs.tar.zst"
+previous_sha256 = "a82230e326ec40eb93d5773a66cd80e15285948a311663da560e1587fb7ca433"
 
-current_version = "latest01"
-current_date = "20230922"
-old_file = ""
-old_sha256 = ""
+current_version = "latest02"
+current_date = "20230925"
+old_file = "rust_armhf_2023-09-15_03-04-rootfs.tar.zst"
+old_sha256 = "fb9d7e9ec53bdca49c8d2c638931b1f896bfd4d2ed2fd1e417b9035f3bbbe0e7"
 # edition 2021
 # DISTRO_NAME=rust_armhf
-# ROOTFS_FILE=rust_armhf_2023-09-22_03-07-rootfs.tar.zst
-# SHA256SUM=a82230e326ec40eb93d5773a66cd80e15285948a311663da560e1587fb7ca433
-# BUILD_DATE=20230922
-# BUILD_TAG=2023-09-22
+# ROOTFS_FILE=rust_armhf_2023-09-25_03-06-rootfs.tar.zst
+# SHA256SUM=e44946337b8811cc7dea6aab37e94e2e450388a5b9356b20cdee343513600d44
+# BUILD_DATE=20230925
+# BUILD_TAG=2023-09-25
 # STATUS=completed
-# VERSION=latest01
-# END_TIME=03:07
+# VERSION=latest02
+# END_TIME=03:06
 
 [time]
 format = "rfc-3339"
 zone = "UTC"
-date = 2023-09-22
-begin = 2023-09-22 02:52:35.349130251+00:00
-start-sync_0 = 03:00:24
-start-zstd = 03:01:33
-start-sync_1 = 03:07:10
-end-sync_1 = 03:07:32
-end = 2023-09-22 03:07:32.066761600+00:00
+date = 2023-09-25
+begin = 2023-09-25 02:52:34.307457524+00:00
+start-sync_0 = 02:59:43
+start-zstd = 03:00:54
+start-sync_1 = 03:06:22
+end-sync_1 = 03:06:47
+end = 2023-09-25 03:06:47.537223546+00:00
 
 [server]
 repo = "cake233/rust-armv7"
@@ -171,25 +171,25 @@ CARGO_HOME = "/usr/local/cargo"
 [version]
 ldd = 'ldd (Debian GLIBC 2.37-10) 2.37'
 rustup = 'rustup 1.26.0 (5af9b9484 2023-04-05)'
-cargo = 'cargo 1.74.0-nightly (b4ddf95ad 2023-09-18)'
-rustc = 'rustc 1.74.0-nightly (b3aa8e716 2023-09-21)'
+cargo = 'cargo 1.74.0-nightly (414d9e3a6 2023-09-22)'
+rustc = 'rustc 1.74.0-nightly (37390d656 2023-09-24)'
 cc = 'cc (Debian 13.2.0-4) 13.2.0'
 cargo_verbose = '''
-cargo 1.74.0-nightly (b4ddf95ad 2023-09-18)
+cargo 1.74.0-nightly (414d9e3a6 2023-09-22)
 release: 1.74.0-nightly
-commit-hash: b4ddf95ad9954118ac0dae835f2966394ad04c02
-commit-date: 2023-09-18
+commit-hash: 414d9e3a6d8096f3e276234ce220c868767a8792
+commit-date: 2023-09-22
 host: armv7-unknown-linux-gnueabihf
 libgit2: 1.7.1 (sys:0.18.0 vendored)
-libcurl: 8.2.1-DEV (sys:0.4.65+curl-8.2.1 vendored ssl:OpenSSL/1.1.1u)
+libcurl: 8.3.0-DEV (sys:0.4.66+curl-8.3.0 vendored ssl:OpenSSL/1.1.1u)
 ssl: OpenSSL 1.1.1u  30 May 2023
 os: Linux [32-bit]
 '''
 rustc_verbose = '''
-rustc 1.74.0-nightly (b3aa8e716 2023-09-21)
+rustc 1.74.0-nightly (37390d656 2023-09-24)
 binary: rustc
-commit-hash: b3aa8e7168a3d940122db3561289ffbf3f587262
-commit-date: 2023-09-21
+commit-hash: 37390d65636dd67e263753a3c04fbc60dcc4348e
+commit-date: 2023-09-24
 host: armv7-unknown-linux-gnueabihf
 release: 1.74.0-nightly
 LLVM version: 17.0.0
