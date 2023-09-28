@@ -77,7 +77,7 @@ localhost:5903
 ```toml
 [main]
 name = "kali"
-tag = ["xfce", "2023-09-21"]
+tag = ["xfce", "2023-09-28"]
 os = "kali"
 release = "rolling"
 arch = "arm64"
@@ -86,10 +86,10 @@ xorg_or_wayland = true
 syntax_version = "0.0.0-alpha.4"
 
 [file]
-name = "kali-xfce_arm64_2023-09-21_14-01.tar.zst"
+name = "kali-xfce_arm64_2023-09-28_13-43.tar.zst"
 
 # This value can be used to verify the integrity of the file
-sha256 = "e329b8db53e762005b8b4d7040b4af11c9d59abb9631ea87cdbedee56ea92786"
+sha256 = "0adf1fdecbbc9650ff2aee01c0b49b8143361a7e661205c3921c7902c606d6a8"
 
 # zstd: [1-22]
 zstd-level = 19
@@ -98,48 +98,48 @@ zstd-level = 19
 # Installed size ≈ tar-size
 # Installed size is approximately equal to the size of the tar file
 tar = "5.0G"
-tar_bytes = 5331888128
+tar_bytes = 5316834304
 
 # Space occupied ≈ tar-size + zstd-size
 # You will need to prepare a large enough space before installation.
 zstd = "1.4G"
-zstd_bytes = 1460484963
+zstd_bytes = 1447355469
 
 [compatibility]
 compatible_mode = true
 
-previous_version = "latest01"
+previous_version = "latest02"
 
 # The value is &str, not int
-previous_date = "20230914"
-previous_tag = "2023-09-14"
-previous_file = "kali-xfce_arm64_2023-09-14_13-41-rootfs.tar.zst"
-previous_sha256 = "bd6b391926497cc7a53f53ce9d34682c4d88aea244ef33eb9bde27ff6208f1c7"
+previous_date = "20230921"
+previous_tag = "2023-09-21"
+previous_file = "kali-xfce_arm64_2023-09-21_14-01-rootfs.tar.zst"
+previous_sha256 = "e329b8db53e762005b8b4d7040b4af11c9d59abb9631ea87cdbedee56ea92786"
 
-current_version = "latest02"
-current_date = "20230921"
-old_file = "kali-xfce_arm64_2023-09-07_13-31-rootfs.tar.zst"
-old_sha256 = "8992f5a2c73fb0fd756ef41b7168e870f6ff8e5b8339e35e0e39c9e6dbf174c4"
+current_version = "latest01"
+current_date = "20230928"
+old_file = "kali-xfce_arm64_2023-09-14_13-41-rootfs.tar.zst"
+old_sha256 = "bd6b391926497cc7a53f53ce9d34682c4d88aea244ef33eb9bde27ff6208f1c7"
 # edition 2021
 # DISTRO_NAME=kali-rolling_arm64
-# ROOTFS_FILE=kali-xfce_arm64_2023-09-21_14-01-rootfs.tar.zst
-# SHA256SUM=e329b8db53e762005b8b4d7040b4af11c9d59abb9631ea87cdbedee56ea92786
-# BUILD_DATE=20230921
-# BUILD_TAG=2023-09-21
+# ROOTFS_FILE=kali-xfce_arm64_2023-09-28_13-43-rootfs.tar.zst
+# SHA256SUM=0adf1fdecbbc9650ff2aee01c0b49b8143361a7e661205c3921c7902c606d6a8
+# BUILD_DATE=20230928
+# BUILD_TAG=2023-09-28
 # STATUS=completed
-# VERSION=latest02
-# END_TIME=14:01
+# VERSION=latest01
+# END_TIME=13:43
 
 [time]
 format = "rfc-3339"
 zone = "UTC"
-date = 2023-09-21
-begin = 2023-09-21 12:25:46.864893537+00:00
-start-sync_0 = 13:29:26
-start-zstd = 13:35:27
-start-sync_1 = 14:00:00
-end-sync_1 = 14:01:50
-end = 2023-09-21 14:01:50.875830799+00:00
+date = 2023-09-28
+begin = 2023-09-28 12:25:14.138183130+00:00
+start-sync_0 = 13:16:03
+start-zstd = 13:20:37
+start-sync_1 = 13:42:06
+end-sync_1 = 13:43:55
+end = 2023-09-28 13:43:55.797931197+00:00
 
 [server]
 repo = "cake233/kali-xfce-arm64"
@@ -174,7 +174,7 @@ current = true
 LANG = "en_US.UTF-8"
 
 [version]
-ldd = 'ldd (Debian GLIBC 2.37-7) 2.37'
+ldd = 'ldd (Debian GLIBC 2.37-10) 2.37'
 zsh = 'zsh 5.9 (aarch64-unknown-linux-gnu)'
 
 [port]
