@@ -20,7 +20,7 @@ docker exec -it ruby-arm64 bash
 ```toml
 [main]
 name = "ruby"
-tag = ["latest", "2023-09-25"]
+tag = ["latest", "2023-10-09"]
 os = "debian"
 release = "stable"
 arch = "arm64"
@@ -29,10 +29,10 @@ xorg_or_wayland = false
 syntax_version = "0.0.0-alpha.4"
 
 [file]
-name = "ruby_arm64_2023-09-25_12-13.tar.zst"
+name = "ruby_arm64_2023-10-09_12-14.tar.zst"
 
 # This value can be used to verify the integrity of the file
-sha256 = "34609600a80af48267e91221cb8f17b70e83bddd2d5c84a0ec5756fd0ad3f680"
+sha256 = "0c518a5d6c78c1edc72780149a9fa418e74b91053426f894ffe238eaf900edd0"
 
 # zstd: [1-22]
 zstd-level = 22
@@ -41,48 +41,48 @@ zstd-level = 22
 # Installed size ≈ tar-size
 # Installed size is approximately equal to the size of the tar file
 tar = "995M"
-tar_bytes = 1042751488
+tar_bytes = 1042735616
 
 # Space occupied ≈ tar-size + zstd-size
 # You will need to prepare a large enough space before installation.
 zstd = "212M"
-zstd_bytes = 222251554
+zstd_bytes = 222275542
 
 [compatibility]
 compatible_mode = true
 
-previous_version = "latest02"
+previous_version = "latest01"
 
 # The value is &str, not int
-previous_date = "20230911"
-previous_tag = "2023-09-11"
-previous_file = "ruby_arm64_2023-09-11_12-11-rootfs.tar.zst"
-previous_sha256 = "9a5bf849b4788bee44455105a88278147505c8e62ee87c5937493567385f321c"
+previous_date = "20230925"
+previous_tag = "2023-09-25"
+previous_file = "ruby_arm64_2023-09-25_12-13-rootfs.tar.zst"
+previous_sha256 = "34609600a80af48267e91221cb8f17b70e83bddd2d5c84a0ec5756fd0ad3f680"
 
-current_version = "latest01"
-current_date = "20230925"
-old_file = "ruby_arm64_2023-08-28_12-14-rootfs.tar.zst"
-old_sha256 = "ab46467b5187a9bb6459e2fb767108ba5fd63aa9868f1374f9f18282c5ca511b"
+current_version = "latest02"
+current_date = "20231009"
+old_file = "ruby_arm64_2023-09-11_12-11-rootfs.tar.zst"
+old_sha256 = "9a5bf849b4788bee44455105a88278147505c8e62ee87c5937493567385f321c"
 # edition 2021
 # DISTRO_NAME=ruby_arm64
-# ROOTFS_FILE=ruby_arm64_2023-09-25_12-13-rootfs.tar.zst
-# SHA256SUM=34609600a80af48267e91221cb8f17b70e83bddd2d5c84a0ec5756fd0ad3f680
-# BUILD_DATE=20230925
-# BUILD_TAG=2023-09-25
+# ROOTFS_FILE=ruby_arm64_2023-10-09_12-14-rootfs.tar.zst
+# SHA256SUM=0c518a5d6c78c1edc72780149a9fa418e74b91053426f894ffe238eaf900edd0
+# BUILD_DATE=20231009
+# BUILD_TAG=2023-10-09
 # STATUS=completed
-# VERSION=latest01
-# END_TIME=12:13
+# VERSION=latest02
+# END_TIME=12:14
 
 [time]
 format = "rfc-3339"
 zone = "UTC"
-date = 2023-09-25
-begin = 2023-09-25 12:02:40.278522539+00:00
-start-sync_0 = 12:06:52
-start-zstd = 12:07:07
-start-sync_1 = 12:12:45
-end-sync_1 = 12:13:11
-end = 2023-09-25 12:13:11.275150010+00:00
+date = 2023-10-09
+begin = 2023-10-09 12:02:41.082869386+00:00
+start-sync_0 = 12:08:11
+start-zstd = 12:08:36
+start-sync_1 = 12:14:30
+end-sync_1 = 12:14:55
+end = 2023-10-09 12:14:55.819306594+00:00
 
 [server]
 repo = "cake233/ruby-arm64"
@@ -121,7 +121,7 @@ BUNDLE_SILENCE_ROOT_WARNING = '1'
 BUNDLE_APP_CONFIG = '/usr/local/bundle'
 
 [version]
-ldd = 'ldd (Debian GLIBC 2.36-9+deb12u1) 2.36'
+ldd = 'ldd (Debian GLIBC 2.36-9+deb12u3) 2.36'
 ruby = 'ruby 3.2.2 (2023-03-30 revision e51014f9c0) [aarch64-linux]'
 gem = '3.4.10'
 bundle = 'Bundler version 2.4.10'
