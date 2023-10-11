@@ -77,7 +77,7 @@ localhost:5903
 ```toml
 [main]
 name = "debian"
-tag = ["mate", "2023-10-04"]
+tag = ["mate", "2023-10-11"]
 os = "debian"
 release = "sid"
 arch = "amd64"
@@ -86,10 +86,10 @@ xorg_or_wayland = true
 syntax_version = "0.0.0-alpha.4"
 
 [file]
-name = "debian-mate_amd64_2023-10-04_13-05.tar.zst"
+name = "debian-mate_amd64_2023-10-11_13-10.tar.zst"
 
 # This value can be used to verify the integrity of the file
-sha256 = "9aa8aadfd545f7c16c18a002851af18243f565b3832445ff3efd2f44980cc980"
+sha256 = "6ceec292eff13882db9e45efedb6bd871b1d5202e07de5489a34c83ca65e9c25"
 
 # zstd: [1-22]
 zstd-level = 19
@@ -98,48 +98,48 @@ zstd-level = 19
 # Installed size ≈ tar-size
 # Installed size is approximately equal to the size of the tar file
 tar = "4.0G"
-tar_bytes = 4188277760
+tar_bytes = 4189308416
 
 # Space occupied ≈ tar-size + zstd-size
 # You will need to prepare a large enough space before installation.
 zstd = "1.1G"
-zstd_bytes = 1128723368
+zstd_bytes = 1128855136
 
 [compatibility]
 compatible_mode = true
 
-previous_version = "latest02"
+previous_version = "latest01"
 
 # The value is &str, not int
-previous_date = "20230927"
-previous_tag = "2023-09-27"
-previous_file = "debian-mate_amd64_2023-09-27_12-58-rootfs.tar.zst"
-previous_sha256 = "55c1d9c3fa6c5f7f6668021edb39fe11be17c628eca9a55b6cad0abc694a8db7"
+previous_date = "20231004"
+previous_tag = "2023-10-04"
+previous_file = "debian-mate_amd64_2023-10-04_13-05-rootfs.tar.zst"
+previous_sha256 = "9aa8aadfd545f7c16c18a002851af18243f565b3832445ff3efd2f44980cc980"
 
-current_version = "latest01"
-current_date = "20231004"
-old_file = "debian-mate_amd64_2023-09-20_12-56-rootfs.tar.zst"
-old_sha256 = "eb033d670a1f7e16abb2c5f1bf49b54645bd76904fab914e2739976d5fa66dad"
+current_version = "latest02"
+current_date = "20231011"
+old_file = "debian-mate_amd64_2023-09-27_12-58-rootfs.tar.zst"
+old_sha256 = "55c1d9c3fa6c5f7f6668021edb39fe11be17c628eca9a55b6cad0abc694a8db7"
 # edition 2021
 # DISTRO_NAME=debian-sid_amd64
-# ROOTFS_FILE=debian-mate_amd64_2023-10-04_13-05-rootfs.tar.zst
-# SHA256SUM=9aa8aadfd545f7c16c18a002851af18243f565b3832445ff3efd2f44980cc980
-# BUILD_DATE=20231004
-# BUILD_TAG=2023-10-04
+# ROOTFS_FILE=debian-mate_amd64_2023-10-11_13-10-rootfs.tar.zst
+# SHA256SUM=6ceec292eff13882db9e45efedb6bd871b1d5202e07de5489a34c83ca65e9c25
+# BUILD_DATE=20231011
+# BUILD_TAG=2023-10-11
 # STATUS=completed
-# VERSION=latest01
-# END_TIME=13:05
+# VERSION=latest02
+# END_TIME=13:10
 
 [time]
 format = "rfc-3339"
 zone = "UTC"
-date = 2023-10-04
-begin = 2023-10-04 12:37:39.329312729+00:00
-start-sync_0 = 12:43:28
-start-zstd = 12:47:08
-start-sync_1 = 13:03:33
-end-sync_1 = 13:05:04
-end = 2023-10-04 13:05:04.422907309+00:00
+date = 2023-10-11
+begin = 2023-10-11 12:39:42.185211576+00:00
+start-sync_0 = 12:46:08
+start-zstd = 12:51:47
+start-sync_1 = 13:09:28
+end-sync_1 = 13:10:49
+end = 2023-10-11 13:10:49.059417372+00:00
 
 [server]
 repo = "cake233/debian-mate-amd64"
