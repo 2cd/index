@@ -20,7 +20,7 @@ docker exec -it nginx-alpine-armv7 bash
 ```toml
 [main]
 name = "nginx"
-tag = ["alpine", "2023-10-02", "musl-libc", "musl"]
+tag = ["alpine", "2023-10-16", "musl-libc", "musl"]
 os = "alpine"
 release = "stable"
 arch = "armhf"
@@ -29,10 +29,10 @@ xorg_or_wayland = false
 syntax_version = "0.0.0-alpha.4"
 
 [file]
-name = "nginx-musl_armhf_2023-10-02_12-04.tar.zst"
+name = "nginx-musl_armhf_2023-10-16_12-04.tar.zst"
 
 # This value can be used to verify the integrity of the file
-sha256 = "53ab9d61f2ba8a9c88bfc6f6fe98abda7e3a6b0c88421a1cebe73f861f5a2785"
+sha256 = "7f4b4784e53f09c5c68ad7811c345534631c24511d6fc8e361908a5f7e98a978"
 
 # zstd: [1-22]
 zstd-level = 22
@@ -46,43 +46,43 @@ tar_bytes = 36534272
 # Space occupied ≈ tar-size + zstd-size
 # You will need to prepare a large enough space before installation.
 zstd = "13M"
-zstd_bytes = 13137678
+zstd_bytes = 13137890
 
 [compatibility]
 compatible_mode = true
 
-previous_version = "latest02"
+previous_version = "latest01"
 
 # The value is &str, not int
-previous_date = "20230918"
-previous_tag = "2023-09-18"
-previous_file = "nginx-musl_armhf_2023-09-18_12-04-rootfs.tar.zst"
-previous_sha256 = "7b5575d53b077c6967ecf9129dccf9bdf1b913f09ab6d8713b670ca108243210"
+previous_date = "20231002"
+previous_tag = "2023-10-02"
+previous_file = "nginx-musl_armhf_2023-10-02_12-04-rootfs.tar.zst"
+previous_sha256 = "53ab9d61f2ba8a9c88bfc6f6fe98abda7e3a6b0c88421a1cebe73f861f5a2785"
 
-current_version = "latest01"
-current_date = "20231002"
-old_file = "nginx-musl_armhf_2023-09-04_12-04-rootfs.tar.zst"
-old_sha256 = "65abc5c4cd53e0f0b79dc25d755ffcafc48515df5602497a5878cdca30e8650c"
+current_version = "latest02"
+current_date = "20231016"
+old_file = "nginx-musl_armhf_2023-09-18_12-04-rootfs.tar.zst"
+old_sha256 = "7b5575d53b077c6967ecf9129dccf9bdf1b913f09ab6d8713b670ca108243210"
 # edition 2021
 # DISTRO_NAME=nginx_armhf
-# ROOTFS_FILE=nginx-musl_armhf_2023-10-02_12-04-rootfs.tar.zst
-# SHA256SUM=53ab9d61f2ba8a9c88bfc6f6fe98abda7e3a6b0c88421a1cebe73f861f5a2785
-# BUILD_DATE=20231002
-# BUILD_TAG=2023-10-02
+# ROOTFS_FILE=nginx-musl_armhf_2023-10-16_12-04-rootfs.tar.zst
+# SHA256SUM=7f4b4784e53f09c5c68ad7811c345534631c24511d6fc8e361908a5f7e98a978
+# BUILD_DATE=20231016
+# BUILD_TAG=2023-10-16
 # STATUS=completed
-# VERSION=latest01
+# VERSION=latest02
 # END_TIME=12:04
 
 [time]
 format = "rfc-3339"
 zone = "UTC"
-date = 2023-10-02
-begin = 2023-10-02 12:02:38.345496046+00:00
-start-sync_0 = 12:03:41
-start-zstd = 12:03:49
-start-sync_1 = 12:04:05
-end-sync_1 = 12:04:13
-end = 2023-10-02 12:04:13.393167864+00:00
+date = 2023-10-16
+begin = 2023-10-16 12:02:38.627783085+00:00
+start-sync_0 = 12:03:46
+start-zstd = 12:03:54
+start-sync_1 = 12:04:10
+end-sync_1 = 12:04:18
+end = 2023-10-16 12:04:18.644578171+00:00
 
 [server]
 repo = "cake233/nginx-alpine-armv7"
