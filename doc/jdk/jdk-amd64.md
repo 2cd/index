@@ -20,7 +20,7 @@ docker exec -it jdk-amd64 bash
 ```toml
 [main]
 name = "jdk"
-tag = ["latest", "2023-10-02"]
+tag = ["latest", "2023-10-16"]
 os = "debian"
 release = "stable"
 arch = "amd64"
@@ -29,10 +29,10 @@ xorg_or_wayland = false
 syntax_version = "0.0.0-alpha.4"
 
 [file]
-name = "jdk_amd64_2023-10-02_12-08.tar.zst"
+name = "jdk_amd64_2023-10-16_12-08.tar.zst"
 
 # This value can be used to verify the integrity of the file
-sha256 = "9a6e4b78008a3020a0bb154207577701bca8136dda7c48f67acb77f30c78480b"
+sha256 = "617bce0c184138685e9ce6a8bf8fdde0780834ccfb6ae3bd3cec669846d96e09"
 
 # zstd: [1-22]
 zstd-level = 22
@@ -41,48 +41,48 @@ zstd-level = 22
 # Installed size ≈ tar-size
 # Installed size is approximately equal to the size of the tar file
 tar = "452M"
-tar_bytes = 472992256
+tar_bytes = 473044992
 
 # Space occupied ≈ tar-size + zstd-size
 # You will need to prepare a large enough space before installation.
 zstd = "193M"
-zstd_bytes = 202148657
+zstd_bytes = 202113699
 
 [compatibility]
 compatible_mode = true
 
-previous_version = "latest02"
+previous_version = "latest01"
 
 # The value is &str, not int
-previous_date = "20230918"
-previous_tag = "2023-09-18"
-previous_file = "jdk_amd64_2023-09-18_12-08-rootfs.tar.zst"
-previous_sha256 = "2c6714e6fa02c8412bfa8c51f4f754f590167bae84fe07e0a53ac216f3b480e9"
+previous_date = "20231002"
+previous_tag = "2023-10-02"
+previous_file = "jdk_amd64_2023-10-02_12-08-rootfs.tar.zst"
+previous_sha256 = "9a6e4b78008a3020a0bb154207577701bca8136dda7c48f67acb77f30c78480b"
 
-current_version = "latest01"
-current_date = "20231002"
-old_file = ""
-old_sha256 = ""
+current_version = "latest02"
+current_date = "20231016"
+old_file = "jdk_amd64_2023-09-18_12-08-rootfs.tar.zst"
+old_sha256 = "2c6714e6fa02c8412bfa8c51f4f754f590167bae84fe07e0a53ac216f3b480e9"
 # edition 2021
 # DISTRO_NAME=jdk_amd64
-# ROOTFS_FILE=jdk_amd64_2023-10-02_12-08-rootfs.tar.zst
-# SHA256SUM=9a6e4b78008a3020a0bb154207577701bca8136dda7c48f67acb77f30c78480b
-# BUILD_DATE=20231002
-# BUILD_TAG=2023-10-02
+# ROOTFS_FILE=jdk_amd64_2023-10-16_12-08-rootfs.tar.zst
+# SHA256SUM=617bce0c184138685e9ce6a8bf8fdde0780834ccfb6ae3bd3cec669846d96e09
+# BUILD_DATE=20231016
+# BUILD_TAG=2023-10-16
 # STATUS=completed
-# VERSION=latest01
+# VERSION=latest02
 # END_TIME=12:08
 
 [time]
 format = "rfc-3339"
 zone = "UTC"
-date = 2023-10-02
-begin = 2023-10-02 12:02:40.140032118+00:00
-start-sync_0 = 12:03:49
-start-zstd = 12:04:02
-start-sync_1 = 12:07:58
-end-sync_1 = 12:08:24
-end = 2023-10-02 12:08:24.364687433+00:00
+date = 2023-10-16
+begin = 2023-10-16 12:02:36.102380342+00:00
+start-sync_0 = 12:03:57
+start-zstd = 12:04:08
+start-sync_1 = 12:07:51
+end-sync_1 = 12:08:13
+end = 2023-10-16 12:08:13.120738455+00:00
 
 [server]
 repo = "cake233/jdk-amd64"
@@ -119,7 +119,7 @@ PATH = "/usr/local/openjdk-21/bin${PATH:+:${PATH}}"
 JAVA_HOME = '/usr/local/openjdk-21'
 
 [version]
-ldd = 'ldd (Debian GLIBC 2.36-9+deb12u1) 2.36'
+ldd = 'ldd (Debian GLIBC 2.36-9+deb12u3) 2.36'
 java = '''
 openjdk 21 2023-09-19
 OpenJDK Runtime Environment (build 21+35-2513)
