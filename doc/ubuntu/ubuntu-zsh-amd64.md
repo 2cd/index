@@ -20,7 +20,7 @@ docker exec -it ubuntu-zsh-amd64 zsh
 ```toml
 [main]
 name = "ubuntu"
-tag = ["zsh", "2023-10-10", "devel"]
+tag = ["zsh", "2023-10-17", "devel"]
 os = "ubuntu"
 release = "dev"
 arch = "amd64"
@@ -29,10 +29,10 @@ xorg_or_wayland = false
 syntax_version = "0.0.0-alpha.4"
 
 [file]
-name = "ubuntu-zsh_amd64_2023-10-10_00-09.tar.zst"
+name = "ubuntu-zsh_amd64_2023-10-17_00-09.tar.zst"
 
 # This value can be used to verify the integrity of the file
-sha256 = "13977bff780e249c8ad2079c3864e26c15addd8c49924f9707f38c80cae9a063"
+sha256 = "50708d34e90dcc8d5eff50be0e152a756a74fc957f4d179425b0048b94f5f491"
 
 # zstd: [1-22]
 zstd-level = 20
@@ -41,48 +41,48 @@ zstd-level = 20
 # Installed size ≈ tar-size
 # Installed size is approximately equal to the size of the tar file
 tar = "765M"
-tar_bytes = 801577472
+tar_bytes = 801576960
 
 # Space occupied ≈ tar-size + zstd-size
 # You will need to prepare a large enough space before installation.
 zstd = "154M"
-zstd_bytes = 161186968
+zstd_bytes = 161236244
 
 [compatibility]
 compatible_mode = true
 
-previous_version = "latest02"
+previous_version = "latest01"
 
 # The value is &str, not int
-previous_date = "20211128"
-previous_tag = ""
-previous_file = ""
-previous_sha256 = ""
+previous_date = "20231010"
+previous_tag = "2023-10-10"
+previous_file = "ubuntu-zsh_amd64_2023-10-10_00-09-rootfs.tar.zst"
+previous_sha256 = "13977bff780e249c8ad2079c3864e26c15addd8c49924f9707f38c80cae9a063"
 
-current_version = "latest01"
-current_date = "20231010"
-old_file = ""
-old_sha256 = ""
+current_version = "latest02"
+current_date = "20231017"
+old_file = "ubuntu-zsh_amd64_2023-09-26_00-10-rootfs.tar.zst"
+old_sha256 = "9ef0550fdc503bc6ac698588d3dc9dd9d09a3dc5cca89df3876786b5b7f08f99"
 # edition 2021
 # DISTRO_NAME=ubuntu-dev_amd64
-# ROOTFS_FILE=ubuntu-zsh_amd64_2023-10-10_00-09-rootfs.tar.zst
-# SHA256SUM=13977bff780e249c8ad2079c3864e26c15addd8c49924f9707f38c80cae9a063
-# BUILD_DATE=20231010
-# BUILD_TAG=2023-10-10
+# ROOTFS_FILE=ubuntu-zsh_amd64_2023-10-17_00-09-rootfs.tar.zst
+# SHA256SUM=50708d34e90dcc8d5eff50be0e152a756a74fc957f4d179425b0048b94f5f491
+# BUILD_DATE=20231017
+# BUILD_TAG=2023-10-17
 # STATUS=completed
-# VERSION=latest01
+# VERSION=latest02
 # END_TIME=00:09
 
 [time]
 format = "rfc-3339"
 zone = "UTC"
-date = 2023-10-10
-begin = 2023-10-10 00:02:38.183576900+00:00
-start-sync_0 = 00:04:58
-start-zstd = 00:06:45
-start-sync_1 = 00:09:31
-end-sync_1 = 00:09:49
-end = 2023-10-10 00:09:49.743571567+00:00
+date = 2023-10-17
+begin = 2023-10-17 00:02:37.499744872+00:00
+start-sync_0 = 00:04:54
+start-zstd = 00:06:36
+start-sync_1 = 00:09:26
+end-sync_1 = 00:09:41
+end = 2023-10-17 00:09:41.990795243+00:00
 
 [server]
 repo = "cake233/ubuntu-zsh-amd64"
