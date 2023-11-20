@@ -44,7 +44,7 @@ docker exec -it swift-arm64 bash
 ```toml
 [main]
 name = "swift"
-tag = ["latest", "2023-10-23", "nightly"]
+tag = ["latest", "2023-11-20", "nightly"]
 os = "ubuntu"
 release = "focal"
 arch = "arm64"
@@ -53,10 +53,10 @@ xorg_or_wayland = false
 syntax_version = "0.0.0-alpha.4"
 
 [file]
-name = "swift_arm64_2023-10-23_12-39.tar.zst"
+name = "swift_arm64_2023-11-20_12-29.tar.zst"
 
 # This value can be used to verify the integrity of the file
-sha256 = "7b32a2e960c3662b4f12bc9815a9884337ef42a475ed5141b158b9f7db205680"
+sha256 = "f6f5dafe6e28c74b888b3fe6898633cb79ca16753f00f0096d3db992a3ce7184"
 
 # zstd: [1-22]
 zstd-level = 22
@@ -64,49 +64,49 @@ zstd-level = 22
 [file.size]
 # Installed size ≈ tar-size
 # Installed size is approximately equal to the size of the tar file
-tar = "2.9G"
-tar_bytes = 3017086464
+tar = "3.0G"
+tar_bytes = 3142614528
 
 # Space occupied ≈ tar-size + zstd-size
 # You will need to prepare a large enough space before installation.
-zstd = "511M"
-zstd_bytes = 534780219
+zstd = "531M"
+zstd_bytes = 556670007
 
 [compatibility]
 compatible_mode = true
 
-previous_version = "latest02"
+previous_version = "latest01"
 
 # The value is &str, not int
-previous_date = "20231009"
-previous_tag = "2023-10-09"
-previous_file = "swift_arm64_2023-10-09_12-33-rootfs.tar.zst"
-previous_sha256 = "40ce0c896281843bb4ae539d049d83ac3aa590089ce6db8539ebdba92af376e4"
+previous_date = "20231023"
+previous_tag = "2023-10-23"
+previous_file = "swift_arm64_2023-10-23_12-39-rootfs.tar.zst"
+previous_sha256 = "7b32a2e960c3662b4f12bc9815a9884337ef42a475ed5141b158b9f7db205680"
 
-current_version = "latest01"
-current_date = "20231023"
-old_file = "swift_arm64_2023-09-25_12-37-rootfs.tar.zst"
-old_sha256 = "cc8a05651744a19bbfeaee464d7ab6165162efb3f528c8e1b39061845b9b2ec8"
+current_version = "latest02"
+current_date = "20231120"
+old_file = "swift_arm64_2023-10-09_12-33-rootfs.tar.zst"
+old_sha256 = "40ce0c896281843bb4ae539d049d83ac3aa590089ce6db8539ebdba92af376e4"
 # edition 2021
 # DISTRO_NAME=swift_arm64
-# ROOTFS_FILE=swift_arm64_2023-10-23_12-39-rootfs.tar.zst
-# SHA256SUM=7b32a2e960c3662b4f12bc9815a9884337ef42a475ed5141b158b9f7db205680
-# BUILD_DATE=20231023
-# BUILD_TAG=2023-10-23
+# ROOTFS_FILE=swift_arm64_2023-11-20_12-29-rootfs.tar.zst
+# SHA256SUM=f6f5dafe6e28c74b888b3fe6898633cb79ca16753f00f0096d3db992a3ce7184
+# BUILD_DATE=20231120
+# BUILD_TAG=2023-11-20
 # STATUS=completed
-# VERSION=latest01
-# END_TIME=12:39
+# VERSION=latest02
+# END_TIME=12:29
 
 [time]
 format = "rfc-3339"
 zone = "UTC"
-date = 2023-10-23
-begin = 2023-10-23 12:02:42.250721508+00:00
-start-sync_0 = 12:15:34
-start-zstd = 12:17:48
-start-sync_1 = 12:38:30
-end-sync_1 = 12:39:26
-end = 2023-10-23 12:39:26.420459629+00:00
+date = 2023-11-20
+begin = 2023-11-20 12:02:43.935714950+00:00
+start-sync_0 = 12:12:37
+start-zstd = 12:14:22
+start-sync_1 = 12:28:38
+end-sync_1 = 12:29:09
+end = 2023-11-20 12:29:10.016943081+00:00
 
 [server]
 repo = "cake233/swift-arm64"
@@ -144,7 +144,7 @@ LANG = "en_US.UTF-8"
 ldd = 'ldd (Ubuntu GLIBC 2.31-0ubuntu9.12) 2.31'
 git = 'git version 2.25.1'
 swift = '''
-Swift version 5.11-dev (LLVM 4b3046825b8aba9, Swift 5fed4798d25e815)
+Swift version 5.11-dev (LLVM fe9a485647a386d, Swift e395df3ef372fd4)
 Target: aarch64-unknown-linux-gnu
 '''
 ```
