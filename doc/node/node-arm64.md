@@ -20,7 +20,7 @@ docker exec -it node-arm64 bash
 ```toml
 [main]
 name = "node"
-tag = ["latest", "2023-11-20"]
+tag = ["latest", "2023-12-04"]
 os = "debian"
 release = "stable"
 arch = "arm64"
@@ -29,10 +29,10 @@ xorg_or_wayland = false
 syntax_version = "0.0.0-alpha.4"
 
 [file]
-name = "node_arm64_2023-11-20_12-11.tar.zst"
+name = "node_arm64_2023-12-04_12-11.tar.zst"
 
 # This value can be used to verify the integrity of the file
-sha256 = "eb08b0926b37ce25f20c6fe276588729b80a00dbfd2996c2a7ca6d64a5a8753b"
+sha256 = "a1cf9799e83cf61e376a4abb62e899d8485c2e9184e75e379d3212bf3eacd4ff"
 
 # zstd: [1-22]
 zstd-level = 22
@@ -41,12 +41,12 @@ zstd-level = 22
 # Installed size ≈ tar-size
 # Installed size is approximately equal to the size of the tar file
 tar = "1.1G"
-tar_bytes = 1155685376
+tar_bytes = 1154589696
 
 # Space occupied ≈ tar-size + zstd-size
 # You will need to prepare a large enough space before installation.
 zstd = "212M"
-zstd_bytes = 221547094
+zstd_bytes = 221453375
 
 [compatibility]
 compatible_mode = true
@@ -60,15 +60,15 @@ previous_file = "node_arm64_2023-10-23_12-12-rootfs.tar.zst"
 previous_sha256 = "5f25fb70f40f6c3ce061762f04a1a0912c471259472d4a5b6aa5c42713219054"
 
 current_version = "latest02"
-current_date = "20231120"
-old_file = "node_arm64_2023-10-09_12-13-rootfs.tar.zst"
-old_sha256 = "d52cb472306dc9624792166952dc82ffce380ee2829f1beb28fdc246e7ef6940"
+current_date = "20231204"
+old_file = ""
+old_sha256 = ""
 # edition 2021
 # DISTRO_NAME=node_arm64
-# ROOTFS_FILE=node_arm64_2023-11-20_12-11-rootfs.tar.zst
-# SHA256SUM=eb08b0926b37ce25f20c6fe276588729b80a00dbfd2996c2a7ca6d64a5a8753b
-# BUILD_DATE=20231120
-# BUILD_TAG=2023-11-20
+# ROOTFS_FILE=node_arm64_2023-12-04_12-11-rootfs.tar.zst
+# SHA256SUM=a1cf9799e83cf61e376a4abb62e899d8485c2e9184e75e379d3212bf3eacd4ff
+# BUILD_DATE=20231204
+# BUILD_TAG=2023-12-04
 # STATUS=completed
 # VERSION=latest02
 # END_TIME=12:11
@@ -76,13 +76,13 @@ old_sha256 = "d52cb472306dc9624792166952dc82ffce380ee2829f1beb28fdc246e7ef6940"
 [time]
 format = "rfc-3339"
 zone = "UTC"
-date = 2023-11-20
-begin = 2023-11-20 12:02:41.367199140+00:00
-start-sync_0 = 12:06:16
-start-zstd = 12:06:32
-start-sync_1 = 12:11:31
-end-sync_1 = 12:11:50
-end = 2023-11-20 12:11:50.203191607+00:00
+date = 2023-12-04
+begin = 2023-12-04 12:02:36.220771751+00:00
+start-sync_0 = 12:05:51
+start-zstd = 12:06:07
+start-sync_1 = 12:10:57
+end-sync_1 = 12:11:14
+end = 2023-12-04 12:11:14.434646972+00:00
 
 [server]
 repo = "cake233/node-arm64"
@@ -118,7 +118,7 @@ LANG = "en_US.UTF-8"
 
 [version]
 ldd = 'ldd (Debian GLIBC 2.36-9+deb12u3) 2.36'
-node = 'v21.2.0'
+node = 'v21.3.0'
 yarn = '1.22.19'
-npm = '10.2.3'
+npm = '10.2.4'
 ```
