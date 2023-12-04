@@ -44,7 +44,7 @@ docker exec -it swift-amd64 bash
 ```toml
 [main]
 name = "swift"
-tag = ["latest", "2023-11-20", "nightly"]
+tag = ["latest", "2023-12-04", "nightly"]
 os = "ubuntu"
 release = "focal"
 arch = "amd64"
@@ -53,10 +53,10 @@ xorg_or_wayland = false
 syntax_version = "0.0.0-alpha.4"
 
 [file]
-name = "swift_amd64_2023-11-20_12-21.tar.zst"
+name = "swift_amd64_2023-12-04_12-22.tar.zst"
 
 # This value can be used to verify the integrity of the file
-sha256 = "674129dd618228c9812ffe081793ea8d694cd9f0b408b6e1fa441a4d26bb6513"
+sha256 = "357480fec3fcb85a6d86e6c704e7b93fdc6e8d32b51777946655d1d7b01b2dc0"
 
 # zstd: [1-22]
 zstd-level = 22
@@ -64,13 +64,13 @@ zstd-level = 22
 [file.size]
 # Installed size ≈ tar-size
 # Installed size is approximately equal to the size of the tar file
-tar = "3.0G"
-tar_bytes = 3179105280
+tar = "3.1G"
+tar_bytes = 3300828672
 
 # Space occupied ≈ tar-size + zstd-size
 # You will need to prepare a large enough space before installation.
-zstd = "551M"
-zstd_bytes = 577752808
+zstd = "558M"
+zstd_bytes = 584548359
 
 [compatibility]
 compatible_mode = true
@@ -84,29 +84,29 @@ previous_file = "swift_amd64_2023-10-23_12-27-rootfs.tar.zst"
 previous_sha256 = "3501a5d0d67f07d6a5b76dcc49bd2af55edbb51a376c1c0563926bf9d673f507"
 
 current_version = "latest02"
-current_date = "20231120"
-old_file = "swift_amd64_2023-10-09_12-29-rootfs.tar.zst"
-old_sha256 = "45cd6b4b953a0f31839184973ee02cbd2180face256a818cdfc2f7e29cdb3a04"
+current_date = "20231204"
+old_file = ""
+old_sha256 = ""
 # edition 2021
 # DISTRO_NAME=swift_amd64
-# ROOTFS_FILE=swift_amd64_2023-11-20_12-21-rootfs.tar.zst
-# SHA256SUM=674129dd618228c9812ffe081793ea8d694cd9f0b408b6e1fa441a4d26bb6513
-# BUILD_DATE=20231120
-# BUILD_TAG=2023-11-20
+# ROOTFS_FILE=swift_amd64_2023-12-04_12-22-rootfs.tar.zst
+# SHA256SUM=357480fec3fcb85a6d86e6c704e7b93fdc6e8d32b51777946655d1d7b01b2dc0
+# BUILD_DATE=20231204
+# BUILD_TAG=2023-12-04
 # STATUS=completed
 # VERSION=latest02
-# END_TIME=12:21
+# END_TIME=12:22
 
 [time]
 format = "rfc-3339"
 zone = "UTC"
-date = 2023-11-20
-begin = 2023-11-20 12:02:38.557985716+00:00
-start-sync_0 = 12:05:44
+date = 2023-12-04
+begin = 2023-12-04 12:02:34.796406900+00:00
+start-sync_0 = 12:05:41
 start-zstd = 12:07:24
-start-sync_1 = 12:21:24
-end-sync_1 = 12:21:53
-end = 2023-11-20 12:21:53.238711800+00:00
+start-sync_1 = 12:22:11
+end-sync_1 = 12:22:42
+end = 2023-12-04 12:22:42.159821309+00:00
 
 [server]
 repo = "cake233/swift-amd64"
@@ -144,7 +144,7 @@ LANG = "en_US.UTF-8"
 ldd = 'ldd (Ubuntu GLIBC 2.31-0ubuntu9.12) 2.31'
 git = 'git version 2.25.1'
 swift = '''
-Swift version 5.11-dev (LLVM fe9a485647a386d, Swift e395df3ef372fd4)
+Swift version 5.11-dev (LLVM e131e99f323910c, Swift 4c2476db5c2226d)
 Target: x86_64-unknown-linux-gnu
 '''
 ```
