@@ -77,7 +77,7 @@ localhost:5903
 ```toml
 [main]
 name = "ubuntu"
-tag = ["xfce", "2023-11-28", "devel"]
+tag = ["xfce", "2023-12-05", "devel"]
 os = "ubuntu"
 release = "dev"
 arch = "arm64"
@@ -86,10 +86,10 @@ xorg_or_wayland = true
 syntax_version = "0.0.0-alpha.4"
 
 [file]
-name = "ubuntu-xfce_arm64_2023-11-28_01-23.tar.zst"
+name = "ubuntu-xfce_arm64_2023-12-05_02-16.tar.zst"
 
 # This value can be used to verify the integrity of the file
-sha256 = "aa3f7ce4ef07c338f6cf4a3e213f476c8dff613bfd77105eafae8a04e3475d4a"
+sha256 = "7ddbe247918b88dc67de8900864378e43ffaac05a1eef44067cd14c65117995c"
 
 # zstd: [1-22]
 zstd-level = 19
@@ -98,12 +98,12 @@ zstd-level = 19
 # Installed size ≈ tar-size
 # Installed size is approximately equal to the size of the tar file
 tar = "4.6G"
-tar_bytes = 4833971200
+tar_bytes = 4900144128
 
 # Space occupied ≈ tar-size + zstd-size
 # You will need to prepare a large enough space before installation.
 zstd = "1.2G"
-zstd_bytes = 1256415682
+zstd_bytes = 1282855329
 
 [compatibility]
 compatible_mode = true
@@ -117,29 +117,29 @@ previous_file = "ubuntu-xfce_arm64_2023-11-21_01-20-rootfs.tar.zst"
 previous_sha256 = "8f0978224c5836e9b566878cde09920a16c85e7564da6f8b7e0239eba0edc7e8"
 
 current_version = "latest01"
-current_date = "20231128"
+current_date = "20231205"
 old_file = "ubuntu-xfce_arm64_2023-11-14_01-22-rootfs.tar.zst"
 old_sha256 = "4eac52a7d4843f1182f4eca028eea5d9e8b38159792dab7cda8e46a7c400bfe4"
 # edition 2021
 # DISTRO_NAME=ubuntu-dev_arm64
-# ROOTFS_FILE=ubuntu-xfce_arm64_2023-11-28_01-23-rootfs.tar.zst
-# SHA256SUM=aa3f7ce4ef07c338f6cf4a3e213f476c8dff613bfd77105eafae8a04e3475d4a
-# BUILD_DATE=20231128
-# BUILD_TAG=2023-11-28
+# ROOTFS_FILE=ubuntu-xfce_arm64_2023-12-05_02-16-rootfs.tar.zst
+# SHA256SUM=7ddbe247918b88dc67de8900864378e43ffaac05a1eef44067cd14c65117995c
+# BUILD_DATE=20231205
+# BUILD_TAG=2023-12-05
 # STATUS=completed
 # VERSION=latest01
-# END_TIME=01:23
+# END_TIME=02:16
 
 [time]
 format = "rfc-3339"
 zone = "UTC"
-date = 2023-11-28
-begin = 2023-11-28 00:23:17.241807894+00:00
-start-sync_0 = 01:07:15
-start-zstd = 01:09:49
-start-sync_1 = 01:22:44
-end-sync_1 = 01:23:48
-end = 2023-11-28 01:23:48.673740940+00:00
+date = 2023-12-05
+begin = 2023-12-05 00:37:35.633180513+00:00
+start-sync_0 = 02:01:04
+start-zstd = 02:03:33
+start-sync_1 = 02:15:48
+end-sync_1 = 02:16:51
+end = 2023-12-05 02:16:51.035389994+00:00
 
 [server]
 repo = "cake233/ubuntu-xfce-arm64"
@@ -174,7 +174,7 @@ current = true
 LANG = "en_US.UTF-8"
 
 [version]
-ldd = 'ldd (Ubuntu GLIBC 2.38-1ubuntu6) 2.38'
+ldd = 'ldd (Ubuntu GLIBC 2.38-3ubuntu1) 2.38'
 zsh = 'zsh 5.9 (aarch64-unknown-linux-gnu)'
 
 [port]
