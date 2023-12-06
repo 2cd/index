@@ -1,6 +1,6 @@
 [main]
 name = "arch"
-tag = ["zsh", "2023-11-29"]
+tag = ["zsh", "2023-12-06"]
 os = "arch"
 release = "latest"
 arch = "arm64"
@@ -9,10 +9,10 @@ xorg_or_wayland = false
 syntax_version = "0.0.0-alpha.4"
 
 [file]
-name = "arch-zsh_arm64_2023-11-29_00-27.tar.zst"
+name = "arch-zsh_arm64_2023-12-06_00-27.tar.zst"
 
 # This value can be used to verify the integrity of the file
-sha256 = "c70f0e7f79c5fbe260d15e26c217855242d86c1fae1af9985b2a835ff7becdc8"
+sha256 = "551713cfff7b97326be31c560ad7d2d9583378f5e46bdd4eb270b1a237b99cc6"
 
 # zstd: [1-22]
 zstd-level = 20
@@ -21,12 +21,12 @@ zstd-level = 20
 # Installed size ≈ tar-size
 # Installed size is approximately equal to the size of the tar file
 tar = "1.1G"
-tar_bytes = 1086654976
+tar_bytes = 1087980032
 
 # Space occupied ≈ tar-size + zstd-size
 # You will need to prepare a large enough space before installation.
-zstd = "243M"
-zstd_bytes = 254569030
+zstd = "244M"
+zstd_bytes = 254878680
 
 [compatibility]
 compatible_mode = true
@@ -40,15 +40,15 @@ previous_file = "arch-zsh_arm64_2023-11-22_00-28-rootfs.tar.zst"
 previous_sha256 = "494d04accb42a0e42218ff1ff555e261b6e1031f5eb0e6f0b5be21ad900262a2"
 
 current_version = "latest01"
-current_date = "20231129"
+current_date = "20231206"
 old_file = "arch-zsh_arm64_2023-11-15_00-31-rootfs.tar.zst"
 old_sha256 = "6a2b53196bbedc2899f5214c736d39db2b145bb51ce1a7dcf82f4a498ead0534"
 # edition 2021
 # DISTRO_NAME=arch_arm64
-# ROOTFS_FILE=arch-zsh_arm64_2023-11-29_00-27-rootfs.tar.zst
-# SHA256SUM=c70f0e7f79c5fbe260d15e26c217855242d86c1fae1af9985b2a835ff7becdc8
-# BUILD_DATE=20231129
-# BUILD_TAG=2023-11-29
+# ROOTFS_FILE=arch-zsh_arm64_2023-12-06_00-27-rootfs.tar.zst
+# SHA256SUM=551713cfff7b97326be31c560ad7d2d9583378f5e46bdd4eb270b1a237b99cc6
+# BUILD_DATE=20231206
+# BUILD_TAG=2023-12-06
 # STATUS=completed
 # VERSION=latest01
 # END_TIME=00:27
@@ -56,13 +56,13 @@ old_sha256 = "6a2b53196bbedc2899f5214c736d39db2b145bb51ce1a7dcf82f4a498ead0534"
 [time]
 format = "rfc-3339"
 zone = "UTC"
-date = 2023-11-29
-begin = 2023-11-29 00:08:27.764422025+00:00
-start-sync_0 = 00:22:03
-start-zstd = 00:23:28
-start-sync_1 = 00:26:52
-end-sync_1 = 00:27:11
-end = 2023-11-29 00:27:11.990561115+00:00
+date = 2023-12-06
+begin = 2023-12-06 00:08:51.455736454+00:00
+start-sync_0 = 00:22:25
+start-zstd = 00:23:55
+start-sync_1 = 00:27:18
+end-sync_1 = 00:27:37
+end = 2023-12-06 00:27:37.582792475+00:00
 
 [server]
 repo = "cake233/arch-zsh-arm64"
