@@ -1,6 +1,6 @@
 [main]
 name = "kali"
-tag = ["zsh", "2023-11-30"]
+tag = ["zsh", "2023-12-07"]
 os = "kali"
 release = "rolling"
 arch = "amd64"
@@ -9,10 +9,10 @@ xorg_or_wayland = false
 syntax_version = "0.0.0-alpha.4"
 
 [file]
-name = "kali-zsh_amd64_2023-11-30_12-08.tar.zst"
+name = "kali-zsh_amd64_2023-12-07_12-08.tar.zst"
 
 # This value can be used to verify the integrity of the file
-sha256 = "71d31a66b289fcf782f5feedce5649309b0d248afb912631203d0c05f97adfba"
+sha256 = "93bdf059842af60216aba538b5cdded0c9f9c6ae383fbd554dc0faadb9381441"
 
 # zstd: [1-22]
 zstd-level = 20
@@ -21,12 +21,12 @@ zstd-level = 20
 # Installed size ≈ tar-size
 # Installed size is approximately equal to the size of the tar file
 tar = "781M"
-tar_bytes = 818576384
+tar_bytes = 818145280
 
 # Space occupied ≈ tar-size + zstd-size
 # You will need to prepare a large enough space before installation.
 zstd = "152M"
-zstd_bytes = 158872197
+zstd_bytes = 158677906
 
 [compatibility]
 compatible_mode = true
@@ -40,15 +40,15 @@ previous_file = "kali-zsh_amd64_2023-11-23_12-08-rootfs.tar.zst"
 previous_sha256 = "49bd5b112a5355b9eacfecfbc04f4eda89eaf98a8445a0d500116ae927b2a4d4"
 
 current_version = "latest01"
-current_date = "20231130"
+current_date = "20231207"
 old_file = "kali-zsh_amd64_2023-11-16_12-08-rootfs.tar.zst"
 old_sha256 = "00a8cb4233616488af98b82bf3d385faba3681c3076f7597a75965b97497ef6a"
 # edition 2021
 # DISTRO_NAME=kali-rolling_amd64
-# ROOTFS_FILE=kali-zsh_amd64_2023-11-30_12-08-rootfs.tar.zst
-# SHA256SUM=71d31a66b289fcf782f5feedce5649309b0d248afb912631203d0c05f97adfba
-# BUILD_DATE=20231130
-# BUILD_TAG=2023-11-30
+# ROOTFS_FILE=kali-zsh_amd64_2023-12-07_12-08-rootfs.tar.zst
+# SHA256SUM=93bdf059842af60216aba538b5cdded0c9f9c6ae383fbd554dc0faadb9381441
+# BUILD_DATE=20231207
+# BUILD_TAG=2023-12-07
 # STATUS=completed
 # VERSION=latest01
 # END_TIME=12:08
@@ -56,13 +56,13 @@ old_sha256 = "00a8cb4233616488af98b82bf3d385faba3681c3076f7597a75965b97497ef6a"
 [time]
 format = "rfc-3339"
 zone = "UTC"
-date = 2023-11-30
-begin = 2023-11-30 12:02:35.041350265+00:00
-start-sync_0 = 12:04:31
-start-zstd = 12:06:13
-start-sync_1 = 12:08:27
-end-sync_1 = 12:08:42
-end = 2023-11-30 12:08:42.603236903+00:00
+date = 2023-12-07
+begin = 2023-12-07 12:02:34.486908706+00:00
+start-sync_0 = 12:04:25
+start-zstd = 12:06:07
+start-sync_1 = 12:08:22
+end-sync_1 = 12:08:37
+end = 2023-12-07 12:08:37.483509227+00:00
 
 [server]
 repo = "cake233/kali-zsh-amd64"
