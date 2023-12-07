@@ -77,7 +77,7 @@ localhost:5903
 ```toml
 [main]
 name = "kali"
-tag = ["xfce", "2023-11-30"]
+tag = ["xfce", "2023-12-07"]
 os = "kali"
 release = "rolling"
 arch = "armhf"
@@ -86,10 +86,10 @@ xorg_or_wayland = true
 syntax_version = "0.0.0-alpha.4"
 
 [file]
-name = "kali-xfce_armhf_2023-11-30_13-20.tar.zst"
+name = "kali-xfce_armhf_2023-12-07_13-20.tar.zst"
 
 # This value can be used to verify the integrity of the file
-sha256 = "ec74cf9e8ba89f346ca4d4179bddc828d6669c2b3c87b191baecc3753c533a36"
+sha256 = "e71937ea8c7ef94062e96302d68645bcfbf16135da0b017cf70c49d24d57b7a1"
 
 # zstd: [1-22]
 zstd-level = 19
@@ -98,12 +98,12 @@ zstd-level = 19
 # Installed size ≈ tar-size
 # Installed size is approximately equal to the size of the tar file
 tar = "2.7G"
-tar_bytes = 2857518080
+tar_bytes = 2840178688
 
 # Space occupied ≈ tar-size + zstd-size
 # You will need to prepare a large enough space before installation.
-zstd = "815M"
-zstd_bytes = 853930068
+zstd = "797M"
+zstd_bytes = 835286524
 
 [compatibility]
 compatible_mode = true
@@ -117,15 +117,15 @@ previous_file = "kali-xfce_armhf_2023-11-23_13-26-rootfs.tar.zst"
 previous_sha256 = "d2646d1827516fffab846d879e2614458afcbfec7e55130902408d1510fd8ac7"
 
 current_version = "latest02"
-current_date = "20231130"
+current_date = "20231207"
 old_file = "kali-xfce_armhf_2023-11-16_13-20-rootfs.tar.zst"
 old_sha256 = "8cb461452ac401cc89cf64e201b1e2a38ed624df3eb6ad90f3a80011059be440"
 # edition 2021
 # DISTRO_NAME=kali-rolling_armhf
-# ROOTFS_FILE=kali-xfce_armhf_2023-11-30_13-20-rootfs.tar.zst
-# SHA256SUM=ec74cf9e8ba89f346ca4d4179bddc828d6669c2b3c87b191baecc3753c533a36
-# BUILD_DATE=20231130
-# BUILD_TAG=2023-11-30
+# ROOTFS_FILE=kali-xfce_armhf_2023-12-07_13-20-rootfs.tar.zst
+# SHA256SUM=e71937ea8c7ef94062e96302d68645bcfbf16135da0b017cf70c49d24d57b7a1
+# BUILD_DATE=20231207
+# BUILD_TAG=2023-12-07
 # STATUS=completed
 # VERSION=latest02
 # END_TIME=13:20
@@ -133,13 +133,13 @@ old_sha256 = "8cb461452ac401cc89cf64e201b1e2a38ed624df3eb6ad90f3a80011059be440"
 [time]
 format = "rfc-3339"
 zone = "UTC"
-date = 2023-11-30
-begin = 2023-11-30 12:32:46.811041495+00:00
-start-sync_0 = 13:10:46
-start-zstd = 13:12:15
-start-sync_1 = 13:19:37
-end-sync_1 = 13:20:16
-end = 2023-11-30 13:20:16.284000049+00:00
+date = 2023-12-07
+begin = 2023-12-07 12:32:03.665180619+00:00
+start-sync_0 = 13:10:14
+start-zstd = 13:11:43
+start-sync_1 = 13:19:19
+end-sync_1 = 13:20:02
+end = 2023-12-07 13:20:02.237450166+00:00
 
 [server]
 repo = "cake233/kali-xfce-armv7"
