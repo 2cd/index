@@ -56,7 +56,7 @@ func main() {
 ```toml
 [main]
 name = "go"
-tag = ["latest", "2023-11-27"]
+tag = ["latest", "2023-12-11"]
 os = "debian"
 release = "stable"
 arch = "arm64"
@@ -65,10 +65,10 @@ xorg_or_wayland = false
 syntax_version = "0.0.0-alpha.4"
 
 [file]
-name = "go_arm64_2023-11-27_12-09.tar.zst"
+name = "go_arm64_2023-12-11_12-10.tar.zst"
 
 # This value can be used to verify the integrity of the file
-sha256 = "9c7f8f5c686d7d622eec4e0054e9039fff84d62820555bcc6604d825890ed796"
+sha256 = "ba139739d1358e103826d2c08cebf7f48bce3af4677138f887a4d2dbf65feeb3"
 
 # zstd: [1-22]
 zstd-level = 22
@@ -77,48 +77,48 @@ zstd-level = 22
 # Installed size ≈ tar-size
 # Installed size is approximately equal to the size of the tar file
 tar = "836M"
-tar_bytes = 876145664
+tar_bytes = 876220928
 
 # Space occupied ≈ tar-size + zstd-size
 # You will need to prepare a large enough space before installation.
 zstd = "159M"
-zstd_bytes = 166594696
+zstd_bytes = 166636890
 
 [compatibility]
 compatible_mode = true
 
-previous_version = "latest02"
+previous_version = "latest01"
 
 # The value is &str, not int
-previous_date = "20231016"
-previous_tag = "2023-10-16"
-previous_file = "go_arm64_2023-10-16_12-11-rootfs.tar.zst"
-previous_sha256 = "57199e6530806143529f184fdb303a7bec0592b638b17da15636a2bace370d4e"
+previous_date = "20231127"
+previous_tag = "2023-11-27"
+previous_file = "go_arm64_2023-11-27_12-09-rootfs.tar.zst"
+previous_sha256 = "9c7f8f5c686d7d622eec4e0054e9039fff84d62820555bcc6604d825890ed796"
 
-current_version = "latest01"
-current_date = "20231127"
-old_file = "go_arm64_2023-10-02_12-10-rootfs.tar.zst"
-old_sha256 = "c910ffa78584589912c4ab8d35235a9a300cafbe9f866cc987bea85088fb708d"
+current_version = "latest02"
+current_date = "20231211"
+old_file = "go_arm64_2023-10-16_12-11-rootfs.tar.zst"
+old_sha256 = "57199e6530806143529f184fdb303a7bec0592b638b17da15636a2bace370d4e"
 # edition 2021
 # DISTRO_NAME=go_arm64
-# ROOTFS_FILE=go_arm64_2023-11-27_12-09-rootfs.tar.zst
-# SHA256SUM=9c7f8f5c686d7d622eec4e0054e9039fff84d62820555bcc6604d825890ed796
-# BUILD_DATE=20231127
-# BUILD_TAG=2023-11-27
+# ROOTFS_FILE=go_arm64_2023-12-11_12-10-rootfs.tar.zst
+# SHA256SUM=ba139739d1358e103826d2c08cebf7f48bce3af4677138f887a4d2dbf65feeb3
+# BUILD_DATE=20231211
+# BUILD_TAG=2023-12-11
 # STATUS=completed
-# VERSION=latest01
-# END_TIME=12:09
+# VERSION=latest02
+# END_TIME=12:10
 
 [time]
 format = "rfc-3339"
 zone = "UTC"
-date = 2023-11-27
-begin = 2023-11-27 12:02:36.006103559+00:00
-start-sync_0 = 12:05:00
-start-zstd = 12:05:11
-start-sync_1 = 12:09:29
-end-sync_1 = 12:09:41
-end = 2023-11-27 12:09:41.764058876+00:00
+date = 2023-12-11
+begin = 2023-12-11 12:02:32.447876595+00:00
+start-sync_0 = 12:05:29
+start-zstd = 12:05:42
+start-sync_1 = 12:09:47
+end-sync_1 = 12:10:00
+end = 2023-12-11 12:10:00.040647157+00:00
 
 [server]
 repo = "cake233/go-arm64"
@@ -156,8 +156,8 @@ GOPATH = "/go"
 
 [version]
 ldd = 'ldd (Debian GLIBC 2.36-9+deb12u3) 2.36'
-go = 'go version go1.21.4 linux/arm64'
-gofmt = '/usr/local/go/bin/gofmt: go1.21.4'
+go = 'go version go1.21.5 linux/arm64'
+gofmt = '/usr/local/go/bin/gofmt: go1.21.5'
 
 [other]
 workdir = "/go"
