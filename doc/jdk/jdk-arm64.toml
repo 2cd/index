@@ -1,6 +1,6 @@
 [main]
 name = "jdk"
-tag = ["latest", "2023-11-27"]
+tag = ["latest", "2023-12-11"]
 os = "debian"
 release = "stable"
 arch = "arm64"
@@ -9,10 +9,10 @@ xorg_or_wayland = false
 syntax_version = "0.0.0-alpha.4"
 
 [file]
-name = "jdk_arm64_2023-11-27_12-09.tar.zst"
+name = "jdk_arm64_2023-12-11_12-09.tar.zst"
 
 # This value can be used to verify the integrity of the file
-sha256 = "b94b615bb1ae496e745776a82573ea481c04c8450b003065f081d589673a6326"
+sha256 = "3466cbc97da290c92fe4e61f7195ee6a411cd91e9a6afc9aa2870034f9e5641b"
 
 # zstd: [1-22]
 zstd-level = 22
@@ -21,48 +21,48 @@ zstd-level = 22
 # Installed size ≈ tar-size
 # Installed size is approximately equal to the size of the tar file
 tar = "476M"
-tar_bytes = 498477568
+tar_bytes = 498486272
 
 # Space occupied ≈ tar-size + zstd-size
 # You will need to prepare a large enough space before installation.
 zstd = "190M"
-zstd_bytes = 199092122
+zstd_bytes = 199101248
 
 [compatibility]
 compatible_mode = true
 
-previous_version = "latest01"
+previous_version = "latest02"
 
 # The value is &str, not int
-previous_date = "20231113"
-previous_tag = "2023-11-13"
-previous_file = "jdk_arm64_2023-11-13_12-10-rootfs.tar.zst"
-previous_sha256 = "3aa92fe726a17b79e8c45fe3ed7947d2e8748e737ee08d3eca76b07db8047ddf"
+previous_date = "20231127"
+previous_tag = "2023-11-27"
+previous_file = "jdk_arm64_2023-11-27_12-09-rootfs.tar.zst"
+previous_sha256 = "b94b615bb1ae496e745776a82573ea481c04c8450b003065f081d589673a6326"
 
-current_version = "latest02"
-current_date = "20231127"
-old_file = "jdk_arm64_2023-10-16_12-11-rootfs.tar.zst"
-old_sha256 = "4cc663a3b60680314cd999d8fdfb60cbce54df48fd75af3ef2c95dbfa32d877c"
+current_version = "latest01"
+current_date = "20231211"
+old_file = "jdk_arm64_2023-11-13_12-10-rootfs.tar.zst"
+old_sha256 = "3aa92fe726a17b79e8c45fe3ed7947d2e8748e737ee08d3eca76b07db8047ddf"
 # edition 2021
 # DISTRO_NAME=jdk_arm64
-# ROOTFS_FILE=jdk_arm64_2023-11-27_12-09-rootfs.tar.zst
-# SHA256SUM=b94b615bb1ae496e745776a82573ea481c04c8450b003065f081d589673a6326
-# BUILD_DATE=20231127
-# BUILD_TAG=2023-11-27
+# ROOTFS_FILE=jdk_arm64_2023-12-11_12-09-rootfs.tar.zst
+# SHA256SUM=3466cbc97da290c92fe4e61f7195ee6a411cd91e9a6afc9aa2870034f9e5641b
+# BUILD_DATE=20231211
+# BUILD_TAG=2023-12-11
 # STATUS=completed
-# VERSION=latest02
+# VERSION=latest01
 # END_TIME=12:09
 
 [time]
 format = "rfc-3339"
 zone = "UTC"
-date = 2023-11-27
-begin = 2023-11-27 12:02:36.896705444+00:00
-start-sync_0 = 12:05:54
-start-zstd = 12:06:04
-start-sync_1 = 12:09:14
-end-sync_1 = 12:09:28
-end = 2023-11-27 12:09:28.708835081+00:00
+date = 2023-12-11
+begin = 2023-12-11 12:02:32.502023875+00:00
+start-sync_0 = 12:05:36
+start-zstd = 12:05:47
+start-sync_1 = 12:09:04
+end-sync_1 = 12:09:17
+end = 2023-12-11 12:09:17.340092679+00:00
 
 [server]
 repo = "cake233/jdk-arm64"
@@ -77,7 +77,7 @@ split = false
 [server.node2]
 name = "tmoe"
 current = true
-previous = false
+previous = true
 in_sync = false
 split = false
 
@@ -86,8 +86,6 @@ name = "azure"
 current = true
 previous = true
 in_sync = false
-start_sync = 2023-11-27 18:14:23.470940791+00:00
-end_sync = 2023-11-27 18:14:58.887852733+00:00
 split = false
 
 [server.node4]
