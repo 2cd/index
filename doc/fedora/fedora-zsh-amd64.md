@@ -20,7 +20,7 @@ docker exec -it fedora-zsh-amd64 zsh
 ```toml
 [main]
 name = "fedora"
-tag = ["zsh", "2023-12-05"]
+tag = ["zsh", "2023-12-12"]
 os = "fedora"
 release = "rawhide"
 arch = "amd64"
@@ -29,10 +29,10 @@ xorg_or_wayland = false
 syntax_version = "0.0.0-alpha.4"
 
 [file]
-name = "fedora-zsh_amd64_2023-12-05_12-09.tar.zst"
+name = "fedora-zsh_amd64_2023-12-12_12-09.tar.zst"
 
 # This value can be used to verify the integrity of the file
-sha256 = "fc97ef6c35d28e48038d2f7e5aee58633a504a358dfd154661b0a0c39125f379"
+sha256 = "150e746c24ddc1ac0c8ee028a06ef7530c43960c65de5d1f95398611e2fcb320"
 
 # zstd: [1-22]
 zstd-level = 20
@@ -40,13 +40,13 @@ zstd-level = 20
 [file.size]
 # Installed size ≈ tar-size
 # Installed size is approximately equal to the size of the tar file
-tar = "1.4G"
-tar_bytes = 1420184576
+tar = "1.3G"
+tar_bytes = 1372984320
 
 # Space occupied ≈ tar-size + zstd-size
 # You will need to prepare a large enough space before installation.
-zstd = "241M"
-zstd_bytes = 252425570
+zstd = "232M"
+zstd_bytes = 242558917
 
 [compatibility]
 compatible_mode = true
@@ -60,15 +60,15 @@ previous_file = "fedora-zsh_amd64_2023-11-21_12-10-rootfs.tar.zst"
 previous_sha256 = "b43d40d283dfa9b330411c8f80bb7c0a98973e373e796dc5c92aa5f523deca53"
 
 current_version = "latest02"
-current_date = "20231205"
+current_date = "20231212"
 old_file = "fedora-zsh_amd64_2023-11-14_12-09-rootfs.tar.zst"
 old_sha256 = "a01be11bbf3c0e39592392a231a037949be299e60fba3af3310bbd546dd37ded"
 # edition 2021
 # DISTRO_NAME=fedora-rawhide_amd64
-# ROOTFS_FILE=fedora-zsh_amd64_2023-12-05_12-09-rootfs.tar.zst
-# SHA256SUM=fc97ef6c35d28e48038d2f7e5aee58633a504a358dfd154661b0a0c39125f379
-# BUILD_DATE=20231205
-# BUILD_TAG=2023-12-05
+# ROOTFS_FILE=fedora-zsh_amd64_2023-12-12_12-09-rootfs.tar.zst
+# SHA256SUM=150e746c24ddc1ac0c8ee028a06ef7530c43960c65de5d1f95398611e2fcb320
+# BUILD_DATE=20231212
+# BUILD_TAG=2023-12-12
 # STATUS=completed
 # VERSION=latest02
 # END_TIME=12:09
@@ -76,13 +76,13 @@ old_sha256 = "a01be11bbf3c0e39592392a231a037949be299e60fba3af3310bbd546dd37ded"
 [time]
 format = "rfc-3339"
 zone = "UTC"
-date = 2023-12-05
-begin = 2023-12-05 12:02:34.285380011+00:00
-start-sync_0 = 12:03:53
-start-zstd = 12:05:44
-start-sync_1 = 12:09:32
-end-sync_1 = 12:09:46
-end = 2023-12-05 12:09:46.857530574+00:00
+date = 2023-12-12
+begin = 2023-12-12 12:02:34.243084350+00:00
+start-sync_0 = 12:04:03
+start-zstd = 12:05:51
+start-sync_1 = 12:09:22
+end-sync_1 = 12:09:36
+end = 2023-12-12 12:09:36.837562767+00:00
 
 [server]
 repo = "cake233/fedora-zsh-amd64"
