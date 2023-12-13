@@ -77,7 +77,7 @@ localhost:5903
 ```toml
 [main]
 name = "debian"
-tag = ["lxde", "2023-12-06"]
+tag = ["lxde", "2023-12-13"]
 os = "debian"
 release = "sid"
 arch = "i386"
@@ -86,10 +86,10 @@ xorg_or_wayland = true
 syntax_version = "0.0.0-alpha.4"
 
 [file]
-name = "debian-lxde_i386_2023-12-06_13-12.tar.zst"
+name = "debian-lxde_i386_2023-12-13_13-10.tar.zst"
 
 # This value can be used to verify the integrity of the file
-sha256 = "65e58939c429a090d6798fdd25274d56b57669e56abf0efdffdabce0d7f3c45a"
+sha256 = "8c7dbd0559374bda5e33a8367b1f7e37fc38e7a93880a41832db42c1e2ee193a"
 
 # zstd: [1-22]
 zstd-level = 19
@@ -98,12 +98,12 @@ zstd-level = 19
 # Installed size ≈ tar-size
 # Installed size is approximately equal to the size of the tar file
 tar = "4.2G"
-tar_bytes = 4496575488
+tar_bytes = 4500460032
 
 # Space occupied ≈ tar-size + zstd-size
 # You will need to prepare a large enough space before installation.
 zstd = "1.2G"
-zstd_bytes = 1249459499
+zstd_bytes = 1250144933
 
 [compatibility]
 compatible_mode = true
@@ -117,29 +117,29 @@ previous_file = "debian-lxde_i386_2023-11-22_13-09-rootfs.tar.zst"
 previous_sha256 = "f2c121cfc651a4d898063c1602a60ff6033acfdca607ff97a8fc0b2ec04c8649"
 
 current_version = "latest01"
-current_date = "20231206"
+current_date = "20231213"
 old_file = "debian-lxde_i386_2023-11-15_13-22-rootfs.tar.zst"
 old_sha256 = "b8ee0fc44592ba743d4af1ecf4b197621d4e349e434c337223b4964877a5fa3f"
 # edition 2021
 # DISTRO_NAME=debian-sid_i386
-# ROOTFS_FILE=debian-lxde_i386_2023-12-06_13-12-rootfs.tar.zst
-# SHA256SUM=65e58939c429a090d6798fdd25274d56b57669e56abf0efdffdabce0d7f3c45a
-# BUILD_DATE=20231206
-# BUILD_TAG=2023-12-06
+# ROOTFS_FILE=debian-lxde_i386_2023-12-13_13-10-rootfs.tar.zst
+# SHA256SUM=8c7dbd0559374bda5e33a8367b1f7e37fc38e7a93880a41832db42c1e2ee193a
+# BUILD_DATE=20231213
+# BUILD_TAG=2023-12-13
 # STATUS=completed
 # VERSION=latest01
-# END_TIME=13:12
+# END_TIME=13:10
 
 [time]
 format = "rfc-3339"
 zone = "UTC"
-date = 2023-12-06
-begin = 2023-12-06 12:33:14.113284869+00:00
-start-sync_0 = 12:56:11
-start-zstd = 12:58:40
-start-sync_1 = 13:11:02
-end-sync_1 = 13:12:01
-end = 2023-12-06 13:12:01.192697604+00:00
+date = 2023-12-13
+begin = 2023-12-13 12:33:02.222290070+00:00
+start-sync_0 = 12:56:09
+start-zstd = 12:58:35
+start-sync_1 = 13:10:06
+end-sync_1 = 13:10:59
+end = 2023-12-13 13:10:59.260779807+00:00
 
 [server]
 repo = "cake233/debian-lxde-386"
