@@ -1,6 +1,6 @@
 [main]
 name = "debian"
-tag = ["zsh", "2023-12-06"]
+tag = ["zsh", "2023-12-13"]
 os = "debian"
 release = "sid"
 arch = "arm64"
@@ -9,10 +9,10 @@ xorg_or_wayland = false
 syntax_version = "0.0.0-alpha.4"
 
 [file]
-name = "debian-zsh_arm64_2023-12-06_12-32.tar.zst"
+name = "debian-zsh_arm64_2023-12-13_12-32.tar.zst"
 
 # This value can be used to verify the integrity of the file
-sha256 = "ee2b06db467e20745ccfcf632d3a01e0d29bd593e824781ec53cf4f92142bfc5"
+sha256 = "978ced511875d8f4de61ff728e0b432880c247bce592ecda7a8ce7822819472e"
 
 # zstd: [1-22]
 zstd-level = 20
@@ -21,12 +21,12 @@ zstd-level = 20
 # Installed size ≈ tar-size
 # Installed size is approximately equal to the size of the tar file
 tar = "824M"
-tar_bytes = 863020544
+tar_bytes = 863531008
 
 # Space occupied ≈ tar-size + zstd-size
 # You will need to prepare a large enough space before installation.
 zstd = "151M"
-zstd_bytes = 157589624
+zstd_bytes = 157757496
 
 [compatibility]
 compatible_mode = true
@@ -40,15 +40,15 @@ previous_file = "debian-zsh_arm64_2023-11-22_12-31-rootfs.tar.zst"
 previous_sha256 = "e42cd7823cc46adf76190a5e056d10b7ccfbdf87f330127e25bb0f770ecb6abf"
 
 current_version = "latest01"
-current_date = "20231206"
+current_date = "20231213"
 old_file = "debian-zsh_arm64_2023-11-15_12-31-rootfs.tar.zst"
 old_sha256 = "2edbc6d9efef4ab87d393f962ca8986d24998e018bdec122b6a538cbcfff868c"
 # edition 2021
 # DISTRO_NAME=debian-sid_arm64
-# ROOTFS_FILE=debian-zsh_arm64_2023-12-06_12-32-rootfs.tar.zst
-# SHA256SUM=ee2b06db467e20745ccfcf632d3a01e0d29bd593e824781ec53cf4f92142bfc5
-# BUILD_DATE=20231206
-# BUILD_TAG=2023-12-06
+# ROOTFS_FILE=debian-zsh_arm64_2023-12-13_12-32-rootfs.tar.zst
+# SHA256SUM=978ced511875d8f4de61ff728e0b432880c247bce592ecda7a8ce7822819472e
+# BUILD_DATE=20231213
+# BUILD_TAG=2023-12-13
 # STATUS=completed
 # VERSION=latest01
 # END_TIME=12:32
@@ -56,13 +56,13 @@ old_sha256 = "2edbc6d9efef4ab87d393f962ca8986d24998e018bdec122b6a538cbcfff868c"
 [time]
 format = "rfc-3339"
 zone = "UTC"
-date = 2023-12-06
-begin = 2023-12-06 12:02:36.670351370+00:00
-start-sync_0 = 12:28:38
-start-zstd = 12:30:22
-start-sync_1 = 12:32:38
-end-sync_1 = 12:32:53
-end = 2023-12-06 12:32:53.824583401+00:00
+date = 2023-12-13
+begin = 2023-12-13 12:02:40.367637504+00:00
+start-sync_0 = 12:28:36
+start-zstd = 12:30:17
+start-sync_1 = 12:32:26
+end-sync_1 = 12:32:41
+end = 2023-12-13 12:32:41.804148761+00:00
 
 [server]
 repo = "cake233/debian-zsh-arm64"
