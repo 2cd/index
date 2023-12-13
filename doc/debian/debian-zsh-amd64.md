@@ -20,7 +20,7 @@ docker exec -it debian-zsh-amd64 zsh
 ```toml
 [main]
 name = "debian"
-tag = ["zsh", "2023-12-06"]
+tag = ["zsh", "2023-12-13"]
 os = "debian"
 release = "sid"
 arch = "amd64"
@@ -29,10 +29,10 @@ xorg_or_wayland = false
 syntax_version = "0.0.0-alpha.4"
 
 [file]
-name = "debian-zsh_amd64_2023-12-06_12-08.tar.zst"
+name = "debian-zsh_amd64_2023-12-13_12-08.tar.zst"
 
 # This value can be used to verify the integrity of the file
-sha256 = "a34b96e8890194a5e5c59f44f75133b5f4b931e45a9cd717979355269f62e600"
+sha256 = "b777d3917c795f92c68710f6fe201fa49c8d60560cefd0b7dd4d1ce59c4dbd21"
 
 # zstd: [1-22]
 zstd-level = 20
@@ -41,12 +41,12 @@ zstd-level = 20
 # Installed size ≈ tar-size
 # Installed size is approximately equal to the size of the tar file
 tar = "783M"
-tar_bytes = 820043264
+tar_bytes = 820454912
 
 # Space occupied ≈ tar-size + zstd-size
 # You will need to prepare a large enough space before installation.
-zstd = "152M"
-zstd_bytes = 159190460
+zstd = "153M"
+zstd_bytes = 159391403
 
 [compatibility]
 compatible_mode = true
@@ -60,15 +60,15 @@ previous_file = "debian-zsh_amd64_2023-11-22_12-08-rootfs.tar.zst"
 previous_sha256 = "004cb4a492bb75e51a4ab9e8e2510407b07c288953494240c70b97399ccf0bc1"
 
 current_version = "latest01"
-current_date = "20231206"
+current_date = "20231213"
 old_file = "debian-zsh_amd64_2023-11-15_12-08-rootfs.tar.zst"
 old_sha256 = "151c473a389fbc2ecae2f7d746c0c8433fed817b4eb25ba2ce195a785edb8732"
 # edition 2021
 # DISTRO_NAME=debian-sid_amd64
-# ROOTFS_FILE=debian-zsh_amd64_2023-12-06_12-08-rootfs.tar.zst
-# SHA256SUM=a34b96e8890194a5e5c59f44f75133b5f4b931e45a9cd717979355269f62e600
-# BUILD_DATE=20231206
-# BUILD_TAG=2023-12-06
+# ROOTFS_FILE=debian-zsh_amd64_2023-12-13_12-08-rootfs.tar.zst
+# SHA256SUM=b777d3917c795f92c68710f6fe201fa49c8d60560cefd0b7dd4d1ce59c4dbd21
+# BUILD_DATE=20231213
+# BUILD_TAG=2023-12-13
 # STATUS=completed
 # VERSION=latest01
 # END_TIME=12:08
@@ -76,13 +76,13 @@ old_sha256 = "151c473a389fbc2ecae2f7d746c0c8433fed817b4eb25ba2ce195a785edb8732"
 [time]
 format = "rfc-3339"
 zone = "UTC"
-date = 2023-12-06
-begin = 2023-12-06 12:02:32.881691648+00:00
-start-sync_0 = 12:04:01
-start-zstd = 12:05:39
-start-sync_1 = 12:08:13
-end-sync_1 = 12:08:24
-end = 2023-12-06 12:08:24.775918464+00:00
+date = 2023-12-13
+begin = 2023-12-13 12:02:40.396476579+00:00
+start-sync_0 = 12:04:25
+start-zstd = 12:06:07
+start-sync_1 = 12:08:20
+end-sync_1 = 12:08:36
+end = 2023-12-13 12:08:36.259645800+00:00
 
 [server]
 repo = "cake233/debian-zsh-amd64"
