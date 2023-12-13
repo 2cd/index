@@ -77,7 +77,7 @@ localhost:5903
 ```toml
 [main]
 name = "debian"
-tag = ["mate", "2023-12-06"]
+tag = ["mate", "2023-12-13"]
 os = "debian"
 release = "sid"
 arch = "amd64"
@@ -86,10 +86,10 @@ xorg_or_wayland = true
 syntax_version = "0.0.0-alpha.4"
 
 [file]
-name = "debian-mate_amd64_2023-12-06_12-52.tar.zst"
+name = "debian-mate_amd64_2023-12-13_12-51.tar.zst"
 
 # This value can be used to verify the integrity of the file
-sha256 = "4c4434efd6408c2d3f89346a9f4d98264bc0942d694d20a5277dfe659e85c7e8"
+sha256 = "9ee8347fa5a03c0355dd0c4e05b663deb79c90eb54edc7b5e60834fb9db4f9de"
 
 # zstd: [1-22]
 zstd-level = 19
@@ -97,13 +97,13 @@ zstd-level = 19
 [file.size]
 # Installed size ≈ tar-size
 # Installed size is approximately equal to the size of the tar file
-tar = "4.0G"
-tar_bytes = 4292140032
+tar = "4.1G"
+tar_bytes = 4296357888
 
 # Space occupied ≈ tar-size + zstd-size
 # You will need to prepare a large enough space before installation.
 zstd = "1.1G"
-zstd_bytes = 1147582457
+zstd_bytes = 1148388935
 
 [compatibility]
 compatible_mode = true
@@ -117,29 +117,29 @@ previous_file = "debian-mate_amd64_2023-11-22_12-49-rootfs.tar.zst"
 previous_sha256 = "bc9998abddaa2535a1cb878dd23dd4ac4eb353046c80d110f33714de11749216"
 
 current_version = "latest02"
-current_date = "20231206"
+current_date = "20231213"
 old_file = "debian-mate_amd64_2023-11-15_12-50-rootfs.tar.zst"
 old_sha256 = "0f5c1a7225fc1ba7192e7eab68ec52a8b57f933f3bb29a9b2ccf1fc397424c86"
 # edition 2021
 # DISTRO_NAME=debian-sid_amd64
-# ROOTFS_FILE=debian-mate_amd64_2023-12-06_12-52-rootfs.tar.zst
-# SHA256SUM=4c4434efd6408c2d3f89346a9f4d98264bc0942d694d20a5277dfe659e85c7e8
-# BUILD_DATE=20231206
-# BUILD_TAG=2023-12-06
+# ROOTFS_FILE=debian-mate_amd64_2023-12-13_12-51-rootfs.tar.zst
+# SHA256SUM=9ee8347fa5a03c0355dd0c4e05b663deb79c90eb54edc7b5e60834fb9db4f9de
+# BUILD_DATE=20231213
+# BUILD_TAG=2023-12-13
 # STATUS=completed
 # VERSION=latest02
-# END_TIME=12:52
+# END_TIME=12:51
 
 [time]
 format = "rfc-3339"
 zone = "UTC"
-date = 2023-12-06
-begin = 2023-12-06 12:33:16.924866787+00:00
-start-sync_0 = 12:38:08
-start-zstd = 12:40:30
-start-sync_1 = 12:51:39
-end-sync_1 = 12:52:31
-end = 2023-12-06 12:52:31.806011721+00:00
+date = 2023-12-13
+begin = 2023-12-13 12:33:01.940564830+00:00
+start-sync_0 = 12:37:29
+start-zstd = 12:39:49
+start-sync_1 = 12:50:37
+end-sync_1 = 12:51:28
+end = 2023-12-13 12:51:28.444551751+00:00
 
 [server]
 repo = "cake233/debian-mate-amd64"
