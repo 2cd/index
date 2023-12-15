@@ -77,7 +77,7 @@ localhost:5903
 ```toml
 [main]
 name = "manjaro"
-tag = ["xfce", "2023-12-08"]
+tag = ["xfce", "2023-12-15"]
 os = "manjaro"
 release = "stable"
 arch = "amd64"
@@ -86,10 +86,10 @@ xorg_or_wayland = true
 syntax_version = "0.0.0-alpha.4"
 
 [file]
-name = "manjaro-xfce_amd64_2023-12-08_12-38.tar.zst"
+name = "manjaro-xfce_amd64_2023-12-15_12-34.tar.zst"
 
 # This value can be used to verify the integrity of the file
-sha256 = "5660e6ff5270f2811335251bb74d671514a955639aa3a6f91f598bc3cae238dd"
+sha256 = "495399a21ff86856e0a9eec7df363a0100502c080407ba5a6d39dfab1e568ce2"
 
 # zstd: [1-22]
 zstd-level = 19
@@ -97,13 +97,13 @@ zstd-level = 19
 [file.size]
 # Installed size ≈ tar-size
 # Installed size is approximately equal to the size of the tar file
-tar = "3.9G"
-tar_bytes = 4134161408
+tar = "4.0G"
+tar_bytes = 4210941440
 
 # Space occupied ≈ tar-size + zstd-size
 # You will need to prepare a large enough space before installation.
 zstd = "1.2G"
-zstd_bytes = 1198794802
+zstd_bytes = 1223399847
 
 [compatibility]
 compatible_mode = true
@@ -117,29 +117,29 @@ previous_file = "manjaro-xfce_amd64_2023-11-24_12-35-rootfs.tar.zst"
 previous_sha256 = "563d4d005b763ee8aff43bc1c95eb79caaa0324d4d3f81832494ae863e9137a6"
 
 current_version = "latest01"
-current_date = "20231208"
+current_date = "20231215"
 old_file = "manjaro-xfce_amd64_2023-11-17_12-39-rootfs.tar.zst"
 old_sha256 = "5f8e7483b18f74f1444e3445ac02960f94690fff7d87ef15a63452c159da3528"
 # edition 2021
 # DISTRO_NAME=manjaro-stable_amd64
-# ROOTFS_FILE=manjaro-xfce_amd64_2023-12-08_12-38-rootfs.tar.zst
-# SHA256SUM=5660e6ff5270f2811335251bb74d671514a955639aa3a6f91f598bc3cae238dd
-# BUILD_DATE=20231208
-# BUILD_TAG=2023-12-08
+# ROOTFS_FILE=manjaro-xfce_amd64_2023-12-15_12-34-rootfs.tar.zst
+# SHA256SUM=495399a21ff86856e0a9eec7df363a0100502c080407ba5a6d39dfab1e568ce2
+# BUILD_DATE=20231215
+# BUILD_TAG=2023-12-15
 # STATUS=completed
 # VERSION=latest01
-# END_TIME=12:38
+# END_TIME=12:34
 
 [time]
 format = "rfc-3339"
 zone = "UTC"
-date = 2023-12-08
-begin = 2023-12-08 12:21:02.656091930+00:00
-start-sync_0 = 12:24:40
-start-zstd = 12:26:42
-start-sync_1 = 12:37:40
-end-sync_1 = 12:38:36
-end = 2023-12-08 12:38:36.674043891+00:00
+date = 2023-12-15
+begin = 2023-12-15 12:17:16.319821869+00:00
+start-sync_0 = 12:20:12
+start-zstd = 12:22:16
+start-sync_1 = 12:33:40
+end-sync_1 = 12:34:33
+end = 2023-12-15 12:34:34.015806011+00:00
 
 [server]
 repo = "cake233/manjaro-xfce-amd64"
