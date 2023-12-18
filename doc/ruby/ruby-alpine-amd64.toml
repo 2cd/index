@@ -1,6 +1,6 @@
 [main]
 name = "ruby"
-tag = ["alpine", "2023-12-04", "musl-libc", "musl"]
+tag = ["alpine", "2023-12-18", "musl-libc", "musl"]
 os = "alpine"
 release = "stable"
 arch = "amd64"
@@ -9,10 +9,10 @@ xorg_or_wayland = false
 syntax_version = "0.0.0-alpha.4"
 
 [file]
-name = "ruby-musl_amd64_2023-12-04_12-04.tar.zst"
+name = "ruby-musl_amd64_2023-12-18_12-05.tar.zst"
 
 # This value can be used to verify the integrity of the file
-sha256 = "b14a2b955c075705f69eabe4d179b2c9b03c91dc16a6907636c081b992942097"
+sha256 = "7c7f0706f0a1f03041bb590ed01542f98ecf2d547a891f8f0178c215fe9f82a5"
 
 # zstd: [1-22]
 zstd-level = 22
@@ -20,13 +20,13 @@ zstd-level = 22
 [file.size]
 # Installed size ≈ tar-size
 # Installed size is approximately equal to the size of the tar file
-tar = "89M"
-tar_bytes = 92930560
+tar = "93M"
+tar_bytes = 96475136
 
 # Space occupied ≈ tar-size + zstd-size
 # You will need to prepare a large enough space before installation.
-zstd = "37M"
-zstd_bytes = 37892229
+zstd = "39M"
+zstd_bytes = 40775305
 
 [compatibility]
 compatible_mode = true
@@ -40,29 +40,29 @@ previous_file = "ruby-musl_amd64_2023-10-23_12-05-rootfs.tar.zst"
 previous_sha256 = "6a22a370509f3b74b5badfc9645de401ddcd37e90103135599bfbfc37ec6c7ef"
 
 current_version = "latest02"
-current_date = "20231204"
-old_file = ""
-old_sha256 = ""
+current_date = "20231218"
+old_file = "ruby-musl_amd64_2023-10-09_12-04-rootfs.tar.zst"
+old_sha256 = "032213458bd2ffa33461fb48d6d924c3c30e29cde8e10ca23694322ee018b0b7"
 # edition 2021
 # DISTRO_NAME=ruby_amd64
-# ROOTFS_FILE=ruby-musl_amd64_2023-12-04_12-04-rootfs.tar.zst
-# SHA256SUM=b14a2b955c075705f69eabe4d179b2c9b03c91dc16a6907636c081b992942097
-# BUILD_DATE=20231204
-# BUILD_TAG=2023-12-04
+# ROOTFS_FILE=ruby-musl_amd64_2023-12-18_12-05-rootfs.tar.zst
+# SHA256SUM=7c7f0706f0a1f03041bb590ed01542f98ecf2d547a891f8f0178c215fe9f82a5
+# BUILD_DATE=20231218
+# BUILD_TAG=2023-12-18
 # STATUS=completed
 # VERSION=latest02
-# END_TIME=12:04
+# END_TIME=12:05
 
 [time]
 format = "rfc-3339"
 zone = "UTC"
-date = 2023-12-04
-begin = 2023-12-04 12:02:34.725222329+00:00
-start-sync_0 = 12:04:06
-start-zstd = 12:04:12
-start-sync_1 = 12:04:49
-end-sync_1 = 12:04:55
-end = 2023-12-04 12:04:55.401287024+00:00
+date = 2023-12-18
+begin = 2023-12-18 12:02:36.767275445+00:00
+start-sync_0 = 12:04:15
+start-zstd = 12:04:25
+start-sync_1 = 12:05:02
+end-sync_1 = 12:05:12
+end = 2023-12-18 12:05:12.600996429+00:00
 
 [server]
 repo = "cake233/ruby-alpine-amd64"
@@ -101,7 +101,7 @@ BUNDLE_SILENCE_ROOT_WARNING = '1'
 BUNDLE_APP_CONFIG = '/usr/local/bundle'
 
 [version]
-ldd = 'musl libc (x86_64) Version 1.2.4'
+ldd = 'musl libc (x86_64) Version 1.2.4_git20230717'
 ruby = 'ruby 3.2.2 (2023-03-30 revision e51014f9c0) [x86_64-linux-musl]'
 gem = '3.4.10'
 bundle = 'Bundler version 2.4.10'
