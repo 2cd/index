@@ -77,7 +77,7 @@ localhost:5903
 ```toml
 [main]
 name = "debian"
-tag = ["lxde", "2023-12-13"]
+tag = ["lxde", "2023-12-20"]
 os = "debian"
 release = "sid"
 arch = "armhf"
@@ -86,10 +86,10 @@ xorg_or_wayland = true
 syntax_version = "0.0.0-alpha.4"
 
 [file]
-name = "debian-lxde_armhf_2023-12-13_13-00.tar.zst"
+name = "debian-lxde_armhf_2023-12-20_13-01.tar.zst"
 
 # This value can be used to verify the integrity of the file
-sha256 = "434400aec4cc4b1b1b6b45980c046bdc9cee1338577e379d971ac47e30144f07"
+sha256 = "8d293fd9882b1ce8a240522138b54539196ea9fdcf6cf361dd04837df0a3714c"
 
 # zstd: [1-22]
 zstd-level = 19
@@ -98,12 +98,12 @@ zstd-level = 19
 # Installed size ≈ tar-size
 # Installed size is approximately equal to the size of the tar file
 tar = "3.0G"
-tar_bytes = 3180922880
+tar_bytes = 3187077120
 
 # Space occupied ≈ tar-size + zstd-size
 # You will need to prepare a large enough space before installation.
-zstd = "957M"
-zstd_bytes = 1002954399
+zstd = "958M"
+zstd_bytes = 1003796912
 
 [compatibility]
 compatible_mode = true
@@ -117,29 +117,29 @@ previous_file = "debian-lxde_armhf_2023-11-22_13-00-rootfs.tar.zst"
 previous_sha256 = "5e859bc618e740900357c4753d2799d35a90253eee9defcc2868ef3b36135800"
 
 current_version = "latest01"
-current_date = "20231213"
+current_date = "20231220"
 old_file = "debian-lxde_armhf_2023-11-15_13-15-rootfs.tar.zst"
 old_sha256 = "166f1e146f8fe6c310be83c182007b8a45a3c84f49fdfe6cf9518c1dece9faeb"
 # edition 2021
 # DISTRO_NAME=debian-sid_armhf
-# ROOTFS_FILE=debian-lxde_armhf_2023-12-13_13-00-rootfs.tar.zst
-# SHA256SUM=434400aec4cc4b1b1b6b45980c046bdc9cee1338577e379d971ac47e30144f07
-# BUILD_DATE=20231213
-# BUILD_TAG=2023-12-13
+# ROOTFS_FILE=debian-lxde_armhf_2023-12-20_13-01-rootfs.tar.zst
+# SHA256SUM=8d293fd9882b1ce8a240522138b54539196ea9fdcf6cf361dd04837df0a3714c
+# BUILD_DATE=20231220
+# BUILD_TAG=2023-12-20
 # STATUS=completed
 # VERSION=latest01
-# END_TIME=13:00
+# END_TIME=13:01
 
 [time]
 format = "rfc-3339"
 zone = "UTC"
-date = 2023-12-13
-begin = 2023-12-13 12:33:01.921844370+00:00
-start-sync_0 = 12:51:03
-start-zstd = 12:52:36
-start-sync_1 = 12:59:58
-end-sync_1 = 13:00:48
-end = 2023-12-13 13:00:48.819290606+00:00
+date = 2023-12-20
+begin = 2023-12-20 12:32:00.189245171+00:00
+start-sync_0 = 12:51:17
+start-zstd = 12:52:53
+start-sync_1 = 13:00:31
+end-sync_1 = 13:01:18
+end = 2023-12-20 13:01:18.881022754+00:00
 
 [server]
 repo = "cake233/debian-lxde-armv7"
