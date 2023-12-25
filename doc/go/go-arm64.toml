@@ -1,6 +1,6 @@
 [main]
 name = "go"
-tag = ["latest", "2023-12-11"]
+tag = ["latest", "2023-12-25"]
 os = "debian"
 release = "stable"
 arch = "arm64"
@@ -9,10 +9,10 @@ xorg_or_wayland = false
 syntax_version = "0.0.0-alpha.4"
 
 [file]
-name = "go_arm64_2023-12-11_12-10.tar.zst"
+name = "go_arm64_2023-12-25_12-09.tar.zst"
 
 # This value can be used to verify the integrity of the file
-sha256 = "ba139739d1358e103826d2c08cebf7f48bce3af4677138f887a4d2dbf65feeb3"
+sha256 = "7c371b95c2c7a86359b85ec3e5670f8aafd997665f5e3d756598b69fea75458a"
 
 # zstd: [1-22]
 zstd-level = 22
@@ -21,12 +21,12 @@ zstd-level = 22
 # Installed size ≈ tar-size
 # Installed size is approximately equal to the size of the tar file
 tar = "836M"
-tar_bytes = 876220928
+tar_bytes = 876272640
 
 # Space occupied ≈ tar-size + zstd-size
 # You will need to prepare a large enough space before installation.
 zstd = "159M"
-zstd_bytes = 166636890
+zstd_bytes = 166670287
 
 [compatibility]
 compatible_mode = true
@@ -40,29 +40,29 @@ previous_file = "go_arm64_2023-11-27_12-09-rootfs.tar.zst"
 previous_sha256 = "9c7f8f5c686d7d622eec4e0054e9039fff84d62820555bcc6604d825890ed796"
 
 current_version = "latest02"
-current_date = "20231211"
+current_date = "20231225"
 old_file = "go_arm64_2023-10-16_12-11-rootfs.tar.zst"
 old_sha256 = "57199e6530806143529f184fdb303a7bec0592b638b17da15636a2bace370d4e"
 # edition 2021
 # DISTRO_NAME=go_arm64
-# ROOTFS_FILE=go_arm64_2023-12-11_12-10-rootfs.tar.zst
-# SHA256SUM=ba139739d1358e103826d2c08cebf7f48bce3af4677138f887a4d2dbf65feeb3
-# BUILD_DATE=20231211
-# BUILD_TAG=2023-12-11
+# ROOTFS_FILE=go_arm64_2023-12-25_12-09-rootfs.tar.zst
+# SHA256SUM=7c371b95c2c7a86359b85ec3e5670f8aafd997665f5e3d756598b69fea75458a
+# BUILD_DATE=20231225
+# BUILD_TAG=2023-12-25
 # STATUS=completed
 # VERSION=latest02
-# END_TIME=12:10
+# END_TIME=12:09
 
 [time]
 format = "rfc-3339"
 zone = "UTC"
-date = 2023-12-11
-begin = 2023-12-11 12:02:32.447876595+00:00
-start-sync_0 = 12:05:29
-start-zstd = 12:05:42
-start-sync_1 = 12:09:47
-end-sync_1 = 12:10:00
-end = 2023-12-11 12:10:00.040647157+00:00
+date = 2023-12-25
+begin = 2023-12-25 12:02:34.430446907+00:00
+start-sync_0 = 12:04:50
+start-zstd = 12:05:01
+start-sync_1 = 12:09:32
+end-sync_1 = 12:09:43
+end = 2023-12-25 12:09:43.724199230+00:00
 
 [server]
 repo = "cake233/go-arm64"
