@@ -20,7 +20,7 @@ docker exec -it jdk-arm64 bash
 ```toml
 [main]
 name = "jdk"
-tag = ["latest", "2023-12-11"]
+tag = ["latest", "2023-12-25"]
 os = "debian"
 release = "stable"
 arch = "arm64"
@@ -29,10 +29,10 @@ xorg_or_wayland = false
 syntax_version = "0.0.0-alpha.4"
 
 [file]
-name = "jdk_arm64_2023-12-11_12-09.tar.zst"
+name = "jdk_arm64_2023-12-25_12-09.tar.zst"
 
 # This value can be used to verify the integrity of the file
-sha256 = "3466cbc97da290c92fe4e61f7195ee6a411cd91e9a6afc9aa2870034f9e5641b"
+sha256 = "26f89ae6217c10c246b1e2b8797b334067e0558ca823b1271b65b8f38676eeb3"
 
 # zstd: [1-22]
 zstd-level = 22
@@ -46,7 +46,7 @@ tar_bytes = 498486272
 # Space occupied ≈ tar-size + zstd-size
 # You will need to prepare a large enough space before installation.
 zstd = "190M"
-zstd_bytes = 199101248
+zstd_bytes = 199104224
 
 [compatibility]
 compatible_mode = true
@@ -60,15 +60,15 @@ previous_file = "jdk_arm64_2023-11-27_12-09-rootfs.tar.zst"
 previous_sha256 = "b94b615bb1ae496e745776a82573ea481c04c8450b003065f081d589673a6326"
 
 current_version = "latest01"
-current_date = "20231211"
+current_date = "20231225"
 old_file = "jdk_arm64_2023-11-13_12-10-rootfs.tar.zst"
 old_sha256 = "3aa92fe726a17b79e8c45fe3ed7947d2e8748e737ee08d3eca76b07db8047ddf"
 # edition 2021
 # DISTRO_NAME=jdk_arm64
-# ROOTFS_FILE=jdk_arm64_2023-12-11_12-09-rootfs.tar.zst
-# SHA256SUM=3466cbc97da290c92fe4e61f7195ee6a411cd91e9a6afc9aa2870034f9e5641b
-# BUILD_DATE=20231211
-# BUILD_TAG=2023-12-11
+# ROOTFS_FILE=jdk_arm64_2023-12-25_12-09-rootfs.tar.zst
+# SHA256SUM=26f89ae6217c10c246b1e2b8797b334067e0558ca823b1271b65b8f38676eeb3
+# BUILD_DATE=20231225
+# BUILD_TAG=2023-12-25
 # STATUS=completed
 # VERSION=latest01
 # END_TIME=12:09
@@ -76,13 +76,13 @@ old_sha256 = "3aa92fe726a17b79e8c45fe3ed7947d2e8748e737ee08d3eca76b07db8047ddf"
 [time]
 format = "rfc-3339"
 zone = "UTC"
-date = 2023-12-11
-begin = 2023-12-11 12:02:32.502023875+00:00
-start-sync_0 = 12:05:36
-start-zstd = 12:05:47
-start-sync_1 = 12:09:04
-end-sync_1 = 12:09:17
-end = 2023-12-11 12:09:17.340092679+00:00
+date = 2023-12-25
+begin = 2023-12-25 12:02:37.693671515+00:00
+start-sync_0 = 12:05:44
+start-zstd = 12:05:59
+start-sync_1 = 12:09:13
+end-sync_1 = 12:09:30
+end = 2023-12-25 12:09:30.314921482+00:00
 
 [server]
 repo = "cake233/jdk-arm64"
