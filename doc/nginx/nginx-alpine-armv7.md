@@ -20,7 +20,7 @@ docker exec -it nginx-alpine-armv7 bash
 ```toml
 [main]
 name = "nginx"
-tag = ["alpine", "2023-12-11", "musl-libc", "musl"]
+tag = ["alpine", "2023-12-25", "musl-libc", "musl"]
 os = "alpine"
 release = "stable"
 arch = "armhf"
@@ -29,10 +29,10 @@ xorg_or_wayland = false
 syntax_version = "0.0.0-alpha.4"
 
 [file]
-name = "nginx-musl_armhf_2023-12-11_12-04.tar.zst"
+name = "nginx-musl_armhf_2023-12-25_12-04.tar.zst"
 
 # This value can be used to verify the integrity of the file
-sha256 = "0bfadd0c10d39179da160f4ff7fe8c3725ecfc814c6df8d3cae86eabcf593041"
+sha256 = "7b01e78a6c70e16b1bb58b370b7376a06209f76afc48cd30167a6ce3b4fd5ae1"
 
 # zstd: [1-22]
 zstd-level = 22
@@ -41,12 +41,12 @@ zstd-level = 22
 # Installed size ≈ tar-size
 # Installed size is approximately equal to the size of the tar file
 tar = "35M"
-tar_bytes = 36514304
+tar_bytes = 36516352
 
 # Space occupied ≈ tar-size + zstd-size
 # You will need to prepare a large enough space before installation.
 zstd = "13M"
-zstd_bytes = 13158107
+zstd_bytes = 13157326
 
 [compatibility]
 compatible_mode = true
@@ -60,15 +60,15 @@ previous_file = "nginx-musl_armhf_2023-11-27_12-04-rootfs.tar.zst"
 previous_sha256 = "d747743a84b4bc42417eb61902c09b5023ca9fbd515cb130a0003a2cca395a11"
 
 current_version = "latest01"
-current_date = "20231211"
+current_date = "20231225"
 old_file = "nginx-musl_armhf_2023-11-13_12-05-rootfs.tar.zst"
 old_sha256 = "5e7928be8fef2b4f40ce5f9fa7a83d3e844550fbc8d55737ffd522374d6061cf"
 # edition 2021
 # DISTRO_NAME=nginx_armhf
-# ROOTFS_FILE=nginx-musl_armhf_2023-12-11_12-04-rootfs.tar.zst
-# SHA256SUM=0bfadd0c10d39179da160f4ff7fe8c3725ecfc814c6df8d3cae86eabcf593041
-# BUILD_DATE=20231211
-# BUILD_TAG=2023-12-11
+# ROOTFS_FILE=nginx-musl_armhf_2023-12-25_12-04-rootfs.tar.zst
+# SHA256SUM=7b01e78a6c70e16b1bb58b370b7376a06209f76afc48cd30167a6ce3b4fd5ae1
+# BUILD_DATE=20231225
+# BUILD_TAG=2023-12-25
 # STATUS=completed
 # VERSION=latest01
 # END_TIME=12:04
@@ -76,13 +76,13 @@ old_sha256 = "5e7928be8fef2b4f40ce5f9fa7a83d3e844550fbc8d55737ffd522374d6061cf"
 [time]
 format = "rfc-3339"
 zone = "UTC"
-date = 2023-12-11
-begin = 2023-12-11 12:02:36.976370287+00:00
-start-sync_0 = 12:04:18
-start-zstd = 12:04:28
-start-sync_1 = 12:04:43
-end-sync_1 = 12:04:53
-end = 2023-12-11 12:04:53.692181984+00:00
+date = 2023-12-25
+begin = 2023-12-25 12:02:38.042156676+00:00
+start-sync_0 = 12:04:00
+start-zstd = 12:04:11
+start-sync_1 = 12:04:25
+end-sync_1 = 12:04:34
+end = 2023-12-25 12:04:34.360963871+00:00
 
 [server]
 repo = "cake233/nginx-alpine-armv7"
