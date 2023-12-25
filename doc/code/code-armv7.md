@@ -210,7 +210,7 @@ editor 0.set || nano 0.set
 ```toml
 [main]
 name = "code"
-tag = ["latest", "2023-12-11", "vsc", "vscode", "web"]
+tag = ["latest", "2023-12-25", "vsc", "vscode", "web"]
 os = "debian"
 release = "sid"
 arch = "armhf"
@@ -219,10 +219,10 @@ xorg_or_wayland = false
 syntax_version = "0.0.0-alpha.4"
 
 [file]
-name = "code_armhf_2023-12-11_12-11.tar.zst"
+name = "code_armhf_2023-12-25_12-10.tar.zst"
 
 # This value can be used to verify the integrity of the file
-sha256 = "637311d5753943a09abd05368fb2baf845475a252a741e49a861b48eb1fb31fa"
+sha256 = "1e2c3f7efa76953f760bf0b609453d07f00754a1b036ca6144f1403804fc12d9"
 
 # zstd: [1-22]
 zstd-level = 22
@@ -230,13 +230,13 @@ zstd-level = 22
 [file.size]
 # Installed size ≈ tar-size
 # Installed size is approximately equal to the size of the tar file
-tar = "470M"
-tar_bytes = 492204032
+tar = "448M"
+tar_bytes = 469210624
 
 # Space occupied ≈ tar-size + zstd-size
 # You will need to prepare a large enough space before installation.
 zstd = "79M"
-zstd_bytes = 82306407
+zstd_bytes = 82009246
 
 [compatibility]
 compatible_mode = true
@@ -250,29 +250,29 @@ previous_file = "code_armhf_2023-11-27_12-11-rootfs.tar.zst"
 previous_sha256 = "642d75b0ff9d86bad064e1f5e8a2e14764a56c53f0fab4093ad6baa13b57f85f"
 
 current_version = "latest01"
-current_date = "20231211"
+current_date = "20231225"
 old_file = "code_armhf_2023-11-13_12-12-rootfs.tar.zst"
 old_sha256 = "226028b07355b484a664f02306f46848f721efb7e57cc6d800113e8434ecb0f5"
 # edition 2021
 # DISTRO_NAME=code_armhf
-# ROOTFS_FILE=code_armhf_2023-12-11_12-11-rootfs.tar.zst
-# SHA256SUM=637311d5753943a09abd05368fb2baf845475a252a741e49a861b48eb1fb31fa
-# BUILD_DATE=20231211
-# BUILD_TAG=2023-12-11
+# ROOTFS_FILE=code_armhf_2023-12-25_12-10-rootfs.tar.zst
+# SHA256SUM=1e2c3f7efa76953f760bf0b609453d07f00754a1b036ca6144f1403804fc12d9
+# BUILD_DATE=20231225
+# BUILD_TAG=2023-12-25
 # STATUS=completed
 # VERSION=latest01
-# END_TIME=12:11
+# END_TIME=12:10
 
 [time]
 format = "rfc-3339"
 zone = "UTC"
-date = 2023-12-11
-begin = 2023-12-11 12:02:35.441346155+00:00
-start-sync_0 = 12:07:37
-start-zstd = 12:08:04
-start-sync_1 = 12:11:07
-end-sync_1 = 12:11:20
-end = 2023-12-11 12:11:20.097581670+00:00
+date = 2023-12-25
+begin = 2023-12-25 12:02:36.654704013+00:00
+start-sync_0 = 12:06:46
+start-zstd = 12:07:12
+start-sync_1 = 12:10:15
+end-sync_1 = 12:10:27
+end = 2023-12-25 12:10:27.907863648+00:00
 
 [server]
 repo = "cake233/code-armv7"
@@ -308,7 +308,7 @@ LANG = "en_US.UTF-8"
 
 [version]
 ldd = 'ldd (Debian GLIBC 2.37-13) 2.37'
-code = '4.19.1 0c98611e6b43803a9d5dba222d7023b569abfb49 with Code 1.84.2'
+code = '4.20.0 d0215eca8804d0be5d3551c39404e336032c3141 with Code 1.85.1'
 
 [port]
 tcp = [8080]
