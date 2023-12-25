@@ -1,6 +1,6 @@
 [main]
 name = "code"
-tag = ["latest", "2023-12-11", "vsc", "vscode", "web"]
+tag = ["latest", "2023-12-25", "vsc", "vscode", "web"]
 os = "debian"
 release = "sid"
 arch = "arm64"
@@ -9,10 +9,10 @@ xorg_or_wayland = false
 syntax_version = "0.0.0-alpha.4"
 
 [file]
-name = "code_arm64_2023-12-11_12-16.tar.zst"
+name = "code_arm64_2023-12-25_12-15.tar.zst"
 
 # This value can be used to verify the integrity of the file
-sha256 = "76276ac3e67632428a7881fefa7e9ac1f32dafb8fb7f23f8b50500ef260e1530"
+sha256 = "c098426cc1d598c57a5e75e8e0dea3d9197223293366389bf0c8296fb638cdf6"
 
 # zstd: [1-22]
 zstd-level = 22
@@ -20,13 +20,13 @@ zstd-level = 22
 [file.size]
 # Installed size ≈ tar-size
 # Installed size is approximately equal to the size of the tar file
-tar = "536M"
-tar_bytes = 561342464
+tar = "514M"
+tar_bytes = 538464256
 
 # Space occupied ≈ tar-size + zstd-size
 # You will need to prepare a large enough space before installation.
 zstd = "83M"
-zstd_bytes = 86670001
+zstd_bytes = 86410869
 
 [compatibility]
 compatible_mode = true
@@ -40,29 +40,29 @@ previous_file = "code_arm64_2023-11-27_12-15-rootfs.tar.zst"
 previous_sha256 = "852734949a23ccaef589a86348573164c2898236a92ae4108f3fa31368b39419"
 
 current_version = "latest01"
-current_date = "20231211"
+current_date = "20231225"
 old_file = "code_arm64_2023-11-13_12-15-rootfs.tar.zst"
 old_sha256 = "43cb114f228e8c670b86f742bf15bae6fcc189c7133cbbfaadb1add1f65e9ce1"
 # edition 2021
 # DISTRO_NAME=code_arm64
-# ROOTFS_FILE=code_arm64_2023-12-11_12-16-rootfs.tar.zst
-# SHA256SUM=76276ac3e67632428a7881fefa7e9ac1f32dafb8fb7f23f8b50500ef260e1530
-# BUILD_DATE=20231211
-# BUILD_TAG=2023-12-11
+# ROOTFS_FILE=code_arm64_2023-12-25_12-15-rootfs.tar.zst
+# SHA256SUM=c098426cc1d598c57a5e75e8e0dea3d9197223293366389bf0c8296fb638cdf6
+# BUILD_DATE=20231225
+# BUILD_TAG=2023-12-25
 # STATUS=completed
 # VERSION=latest01
-# END_TIME=12:16
+# END_TIME=12:15
 
 [time]
 format = "rfc-3339"
 zone = "UTC"
-date = 2023-12-11
-begin = 2023-12-11 12:02:34.132419825+00:00
-start-sync_0 = 12:12:25
-start-zstd = 12:12:54
-start-sync_1 = 12:16:04
-end-sync_1 = 12:16:17
-end = 2023-12-11 12:16:17.531206524+00:00
+date = 2023-12-25
+begin = 2023-12-25 12:02:37.525140542+00:00
+start-sync_0 = 12:11:25
+start-zstd = 12:11:51
+start-sync_1 = 12:15:09
+end-sync_1 = 12:15:21
+end = 2023-12-25 12:15:21.625760055+00:00
 
 [server]
 repo = "cake233/code-arm64"
@@ -98,7 +98,7 @@ LANG = "en_US.UTF-8"
 
 [version]
 ldd = 'ldd (Debian GLIBC 2.37-13) 2.37'
-code = '4.19.1 0c98611e6b43803a9d5dba222d7023b569abfb49 with Code 1.84.2'
+code = '4.20.0 d0215eca8804d0be5d3551c39404e336032c3141 with Code 1.85.1'
 
 [port]
 tcp = [8080]
