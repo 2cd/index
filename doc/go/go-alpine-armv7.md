@@ -56,7 +56,7 @@ func main() {
 ```toml
 [main]
 name = "go"
-tag = ["alpine", "2023-12-11", "musl-libc", "musl"]
+tag = ["alpine", "2023-12-25", "musl-libc", "musl"]
 os = "alpine"
 release = "stable"
 arch = "armhf"
@@ -65,10 +65,10 @@ xorg_or_wayland = false
 syntax_version = "0.0.0-alpha.4"
 
 [file]
-name = "go-musl_armhf_2023-12-11_12-06.tar.zst"
+name = "go-musl_armhf_2023-12-25_12-06.tar.zst"
 
 # This value can be used to verify the integrity of the file
-sha256 = "6c7d533634380cc4f7254bde8f41227a173efe0620ec79e1bc99ca34bf87a444"
+sha256 = "00f7b8084acdae36df5dd5b4a2b175065a144125244df27abb3eb1bb9a04f6b2"
 
 # zstd: [1-22]
 zstd-level = 22
@@ -77,12 +77,12 @@ zstd-level = 22
 # Installed size ≈ tar-size
 # Installed size is approximately equal to the size of the tar file
 tar = "231M"
-tar_bytes = 241529856
+tar_bytes = 241531392
 
 # Space occupied ≈ tar-size + zstd-size
 # You will need to prepare a large enough space before installation.
 zstd = "40M"
-zstd_bytes = 41394460
+zstd_bytes = 41413991
 
 [compatibility]
 compatible_mode = true
@@ -96,15 +96,15 @@ previous_file = "go-musl_armhf_2023-11-27_12-06-rootfs.tar.zst"
 previous_sha256 = "b526094b211062849f45d1cf4bee4f1eed5127547966d56ce50883f751d5f189"
 
 current_version = "latest01"
-current_date = "20231211"
+current_date = "20231225"
 old_file = "go-musl_armhf_2023-11-13_12-06-rootfs.tar.zst"
 old_sha256 = "0efa788337d9d1cf3c7e7c5bcd5a8a0e3c88d6137b9bdcb97b8924eb49a6d411"
 # edition 2021
 # DISTRO_NAME=go_armhf
-# ROOTFS_FILE=go-musl_armhf_2023-12-11_12-06-rootfs.tar.zst
-# SHA256SUM=6c7d533634380cc4f7254bde8f41227a173efe0620ec79e1bc99ca34bf87a444
-# BUILD_DATE=20231211
-# BUILD_TAG=2023-12-11
+# ROOTFS_FILE=go-musl_armhf_2023-12-25_12-06-rootfs.tar.zst
+# SHA256SUM=00f7b8084acdae36df5dd5b4a2b175065a144125244df27abb3eb1bb9a04f6b2
+# BUILD_DATE=20231225
+# BUILD_TAG=2023-12-25
 # STATUS=completed
 # VERSION=latest01
 # END_TIME=12:06
@@ -112,13 +112,13 @@ old_sha256 = "0efa788337d9d1cf3c7e7c5bcd5a8a0e3c88d6137b9bdcb97b8924eb49a6d411"
 [time]
 format = "rfc-3339"
 zone = "UTC"
-date = 2023-12-11
-begin = 2023-12-11 12:02:33.108766583+00:00
-start-sync_0 = 12:04:01
-start-zstd = 12:04:08
-start-sync_1 = 12:06:15
-end-sync_1 = 12:06:21
-end = 2023-12-11 12:06:21.674532956+00:00
+date = 2023-12-25
+begin = 2023-12-25 12:02:36.887769736+00:00
+start-sync_0 = 12:03:56
+start-zstd = 12:04:07
+start-sync_1 = 12:06:14
+end-sync_1 = 12:06:24
+end = 2023-12-25 12:06:24.818031970+00:00
 
 [server]
 repo = "cake233/go-alpine-armv7"
