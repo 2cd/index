@@ -77,7 +77,7 @@ localhost:5903
 ```toml
 [main]
 name = "fedora"
-tag = ["kde", "2023-12-19"]
+tag = ["kde", "2023-12-26"]
 os = "fedora"
 release = "rawhide"
 arch = "amd64"
@@ -86,10 +86,10 @@ xorg_or_wayland = true
 syntax_version = "0.0.0-alpha.4"
 
 [file]
-name = "fedora-kde_amd64_2023-12-19_13-02.tar.zst"
+name = "fedora-kde_amd64_2023-12-26_13-02.tar.zst"
 
 # This value can be used to verify the integrity of the file
-sha256 = "4becbadcfc862283b68b028eb855ad47bd2183cc3496253b9a8dcbed1749583a"
+sha256 = "83aed32daac66d83caf6a9c77d34a6f58a526712305c2cd0fd66de42c5bfcb4e"
 
 # zstd: [1-22]
 zstd-level = 19
@@ -98,12 +98,12 @@ zstd-level = 19
 # Installed size ≈ tar-size
 # Installed size is approximately equal to the size of the tar file
 tar = "5.4G"
-tar_bytes = 5713815552
+tar_bytes = 5714510848
 
 # Space occupied ≈ tar-size + zstd-size
 # You will need to prepare a large enough space before installation.
 zstd = "1.7G"
-zstd_bytes = 1817199703
+zstd_bytes = 1817176536
 
 [compatibility]
 compatible_mode = true
@@ -117,15 +117,15 @@ previous_file = "fedora-kde_amd64_2023-11-21_13-04-rootfs.tar.zst"
 previous_sha256 = "c6a87a864db035419ee5f0defa12060f813b3f7030d2d095e77c8ba4ebbd84c2"
 
 current_version = "latest02"
-current_date = "20231219"
+current_date = "20231226"
 old_file = "fedora-kde_amd64_2023-11-14_13-26-rootfs.tar.zst"
 old_sha256 = "b42cf55a6eb4bac0acc3e59f3622d671171b57764aae015f9f34ab9403ba381b"
 # edition 2021
 # DISTRO_NAME=fedora-rawhide_amd64
-# ROOTFS_FILE=fedora-kde_amd64_2023-12-19_13-02-rootfs.tar.zst
-# SHA256SUM=4becbadcfc862283b68b028eb855ad47bd2183cc3496253b9a8dcbed1749583a
-# BUILD_DATE=20231219
-# BUILD_TAG=2023-12-19
+# ROOTFS_FILE=fedora-kde_amd64_2023-12-26_13-02-rootfs.tar.zst
+# SHA256SUM=83aed32daac66d83caf6a9c77d34a6f58a526712305c2cd0fd66de42c5bfcb4e
+# BUILD_DATE=20231226
+# BUILD_TAG=2023-12-26
 # STATUS=completed
 # VERSION=latest02
 # END_TIME=13:02
@@ -133,13 +133,13 @@ old_sha256 = "b42cf55a6eb4bac0acc3e59f3622d671171b57764aae015f9f34ab9403ba381b"
 [time]
 format = "rfc-3339"
 zone = "UTC"
-date = 2023-12-19
-begin = 2023-12-19 12:38:09.871271201+00:00
+date = 2023-12-26
+begin = 2023-12-26 12:38:38.463658031+00:00
 start-sync_0 = 12:43:21
-start-zstd = 12:46:26
-start-sync_1 = 13:01:21
-end-sync_1 = 13:02:41
-end = 2023-12-19 13:02:41.705925699+00:00
+start-zstd = 12:46:25
+start-sync_1 = 13:01:30
+end-sync_1 = 13:02:49
+end = 2023-12-26 13:02:49.198985567+00:00
 
 [server]
 repo = "cake233/fedora-kde-amd64"
