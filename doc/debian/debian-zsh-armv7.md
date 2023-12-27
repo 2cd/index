@@ -20,7 +20,7 @@ docker exec -it debian-zsh-armv7 zsh
 ```toml
 [main]
 name = "debian"
-tag = ["zsh", "2023-12-20"]
+tag = ["zsh", "2023-12-27"]
 os = "debian"
 release = "sid"
 arch = "armhf"
@@ -29,10 +29,10 @@ xorg_or_wayland = false
 syntax_version = "0.0.0-alpha.4"
 
 [file]
-name = "debian-zsh_armhf_2023-12-20_12-14.tar.zst"
+name = "debian-zsh_armhf_2023-12-27_12-15.tar.zst"
 
 # This value can be used to verify the integrity of the file
-sha256 = "e881ba7667183bcc30d0e8eef96314e6d333b1377e317f721a1f06a94badfabe"
+sha256 = "ace6a6e528542af565b0c9ba515814f819b94605c8cece4f86419c052af20b4a"
 
 # zstd: [1-22]
 zstd-level = 20
@@ -41,12 +41,12 @@ zstd-level = 20
 # Installed size ≈ tar-size
 # Installed size is approximately equal to the size of the tar file
 tar = "703M"
-tar_bytes = 736611328
+tar_bytes = 736566272
 
 # Space occupied ≈ tar-size + zstd-size
 # You will need to prepare a large enough space before installation.
 zstd = "146M"
-zstd_bytes = 152371220
+zstd_bytes = 152363854
 
 [compatibility]
 compatible_mode = true
@@ -60,29 +60,29 @@ previous_file = "debian-zsh_armhf_2023-11-22_12-14-rootfs.tar.zst"
 previous_sha256 = "48dacd6f29c18ae3b335cf36bd15e9030bddac18a4a4f0822f5c9e047df18f66"
 
 current_version = "latest01"
-current_date = "20231220"
+current_date = "20231227"
 old_file = "debian-zsh_armhf_2023-11-15_12-14-rootfs.tar.zst"
 old_sha256 = "b7b560fd26058e3333762504bd31dceeb1bf06770a74ac0f8bec2a1bef1de3ee"
 # edition 2021
 # DISTRO_NAME=debian-sid_armhf
-# ROOTFS_FILE=debian-zsh_armhf_2023-12-20_12-14-rootfs.tar.zst
-# SHA256SUM=e881ba7667183bcc30d0e8eef96314e6d333b1377e317f721a1f06a94badfabe
-# BUILD_DATE=20231220
-# BUILD_TAG=2023-12-20
+# ROOTFS_FILE=debian-zsh_armhf_2023-12-27_12-15-rootfs.tar.zst
+# SHA256SUM=ace6a6e528542af565b0c9ba515814f819b94605c8cece4f86419c052af20b4a
+# BUILD_DATE=20231227
+# BUILD_TAG=2023-12-27
 # STATUS=completed
 # VERSION=latest01
-# END_TIME=12:14
+# END_TIME=12:15
 
 [time]
 format = "rfc-3339"
 zone = "UTC"
-date = 2023-12-20
-begin = 2023-12-20 12:02:31.976387352+00:00
-start-sync_0 = 12:10:52
-start-zstd = 12:12:28
-start-sync_1 = 12:14:34
-end-sync_1 = 12:14:44
-end = 2023-12-20 12:14:44.945127094+00:00
+date = 2023-12-27
+begin = 2023-12-27 12:02:30.169440655+00:00
+start-sync_0 = 12:11:57
+start-zstd = 12:13:33
+start-sync_1 = 12:15:27
+end-sync_1 = 12:15:37
+end = 2023-12-27 12:15:37.553983398+00:00
 
 [server]
 repo = "cake233/debian-zsh-armv7"
