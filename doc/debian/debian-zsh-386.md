@@ -20,7 +20,7 @@ docker exec -it debian-zsh-386 zsh
 ```toml
 [main]
 name = "debian"
-tag = ["zsh", "2023-12-20"]
+tag = ["zsh", "2023-12-27"]
 os = "debian"
 release = "sid"
 arch = "i386"
@@ -29,10 +29,10 @@ xorg_or_wayland = false
 syntax_version = "0.0.0-alpha.4"
 
 [file]
-name = "debian-zsh_i386_2023-12-20_12-14.tar.zst"
+name = "debian-zsh_i386_2023-12-27_12-15.tar.zst"
 
 # This value can be used to verify the integrity of the file
-sha256 = "1f83ddbdda0508bab31f36b29b7395eb45a5665d35ab28d125fa1e0e42aefc55"
+sha256 = "f9a473346d0e9cce82632883005e4ac90f653facd4806bcb10a06acf8cda896b"
 
 # zstd: [1-22]
 zstd-level = 20
@@ -41,12 +41,12 @@ zstd-level = 20
 # Installed size ≈ tar-size
 # Installed size is approximately equal to the size of the tar file
 tar = "788M"
-tar_bytes = 825764352
+tar_bytes = 825720320
 
 # Space occupied ≈ tar-size + zstd-size
 # You will need to prepare a large enough space before installation.
 zstd = "156M"
-zstd_bytes = 163373286
+zstd_bytes = 163353572
 
 [compatibility]
 compatible_mode = true
@@ -60,29 +60,29 @@ previous_file = "debian-zsh_i386_2023-11-22_12-15-rootfs.tar.zst"
 previous_sha256 = "87fd9e4b978a2e6420c559c40ded9614ffa0d773bd1d1ca378522c856c964d81"
 
 current_version = "latest01"
-current_date = "20231220"
+current_date = "20231227"
 old_file = "debian-zsh_i386_2023-11-15_12-15-rootfs.tar.zst"
 old_sha256 = "47e004f89a514836721806b9ae2d1197657c89d58a296ba1f44eb0e4a71c686b"
 # edition 2021
 # DISTRO_NAME=debian-sid_i386
-# ROOTFS_FILE=debian-zsh_i386_2023-12-20_12-14-rootfs.tar.zst
-# SHA256SUM=1f83ddbdda0508bab31f36b29b7395eb45a5665d35ab28d125fa1e0e42aefc55
-# BUILD_DATE=20231220
-# BUILD_TAG=2023-12-20
+# ROOTFS_FILE=debian-zsh_i386_2023-12-27_12-15-rootfs.tar.zst
+# SHA256SUM=f9a473346d0e9cce82632883005e4ac90f653facd4806bcb10a06acf8cda896b
+# BUILD_DATE=20231227
+# BUILD_TAG=2023-12-27
 # STATUS=completed
 # VERSION=latest01
-# END_TIME=12:14
+# END_TIME=12:15
 
 [time]
 format = "rfc-3339"
 zone = "UTC"
-date = 2023-12-20
-begin = 2023-12-20 12:02:36.251152824+00:00
-start-sync_0 = 12:10:52
-start-zstd = 12:12:30
-start-sync_1 = 12:14:42
-end-sync_1 = 12:14:55
-end = 2023-12-20 12:14:55.142469168+00:00
+date = 2023-12-27
+begin = 2023-12-27 12:02:32.505387213+00:00
+start-sync_0 = 12:11:09
+start-zstd = 12:12:51
+start-sync_1 = 12:15:04
+end-sync_1 = 12:15:19
+end = 2023-12-27 12:15:19.197946279+00:00
 
 [server]
 repo = "cake233/debian-zsh-386"
