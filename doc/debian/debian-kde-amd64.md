@@ -77,7 +77,7 @@ localhost:5903
 ```toml
 [main]
 name = "debian"
-tag = ["kde", "2023-12-20"]
+tag = ["kde", "2023-12-27"]
 os = "debian"
 release = "sid"
 arch = "amd64"
@@ -86,10 +86,10 @@ xorg_or_wayland = true
 syntax_version = "0.0.0-alpha.4"
 
 [file]
-name = "debian-kde_amd64_2023-12-20_12-59.tar.zst"
+name = "debian-kde_amd64_2023-12-27_12-58.tar.zst"
 
 # This value can be used to verify the integrity of the file
-sha256 = "33c7e5623681c19e22db5732ed6e5426c973de92d95489f74c4dafcd87f8ab6f"
+sha256 = "a9f266c30a6ca4ce18319cd45aa0956700473e9c728c055fe846224818fffef7"
 
 # zstd: [1-22]
 zstd-level = 19
@@ -98,12 +98,12 @@ zstd-level = 19
 # Installed size ≈ tar-size
 # Installed size is approximately equal to the size of the tar file
 tar = "5.7G"
-tar_bytes = 6055353856
+tar_bytes = 6057832448
 
 # Space occupied ≈ tar-size + zstd-size
 # You will need to prepare a large enough space before installation.
 zstd = "1.7G"
-zstd_bytes = 1737186910
+zstd_bytes = 1737515291
 
 [compatibility]
 compatible_mode = true
@@ -117,29 +117,29 @@ previous_file = "debian-kde_amd64_2023-11-22_12-58-rootfs.tar.zst"
 previous_sha256 = "344b1e8ea0dd4ad627fd183060ebf0625366f33922819d40091f7ac84c20c906"
 
 current_version = "latest01"
-current_date = "20231220"
+current_date = "20231227"
 old_file = "debian-kde_amd64_2023-11-15_13-12-rootfs.tar.zst"
 old_sha256 = "17717cbc2f530ef3b0d44de3906e9e57144529c851e0f6deba17e9a5f3bbd971"
 # edition 2021
 # DISTRO_NAME=debian-sid_amd64
-# ROOTFS_FILE=debian-kde_amd64_2023-12-20_12-59-rootfs.tar.zst
-# SHA256SUM=33c7e5623681c19e22db5732ed6e5426c973de92d95489f74c4dafcd87f8ab6f
-# BUILD_DATE=20231220
-# BUILD_TAG=2023-12-20
+# ROOTFS_FILE=debian-kde_amd64_2023-12-27_12-58-rootfs.tar.zst
+# SHA256SUM=a9f266c30a6ca4ce18319cd45aa0956700473e9c728c055fe846224818fffef7
+# BUILD_DATE=20231227
+# BUILD_TAG=2023-12-27
 # STATUS=completed
 # VERSION=latest01
-# END_TIME=12:59
+# END_TIME=12:58
 
 [time]
 format = "rfc-3339"
 zone = "UTC"
-date = 2023-12-20
-begin = 2023-12-20 12:32:01.128203403+00:00
-start-sync_0 = 12:38:06
-start-zstd = 12:41:36
-start-sync_1 = 12:58:27
-end-sync_1 = 12:59:43
-end = 2023-12-20 12:59:43.164625144+00:00
+date = 2023-12-27
+begin = 2023-12-27 12:31:10.677867741+00:00
+start-sync_0 = 12:37:28
+start-zstd = 12:40:58
+start-sync_1 = 12:57:38
+end-sync_1 = 12:58:53
+end = 2023-12-27 12:58:53.551215678+00:00
 
 [server]
 repo = "cake233/debian-kde-amd64"
