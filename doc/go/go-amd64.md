@@ -56,7 +56,7 @@ func main() {
 ```toml
 [main]
 name = "go"
-tag = ["latest", "2023-12-25"]
+tag = ["latest", "2024-01-01"]
 os = "debian"
 release = "stable"
 arch = "amd64"
@@ -65,10 +65,10 @@ xorg_or_wayland = false
 syntax_version = "0.0.0-alpha.4"
 
 [file]
-name = "go_amd64_2023-12-25_12-09.tar.zst"
+name = "go_amd64_2024-01-01_12-09.tar.zst"
 
 # This value can be used to verify the integrity of the file
-sha256 = "0080c0e9bdde8c86c3bdfb6863e71d87fe124a1e294ceb2d48e4f538f608cab3"
+sha256 = "5a596fbe227510ac940c42ed1689f89dbb7d5db594d45b081b8524d81a783d3a"
 
 # zstd: [1-22]
 zstd-level = 22
@@ -82,7 +82,7 @@ tar_bytes = 867933696
 # Space occupied ≈ tar-size + zstd-size
 # You will need to prepare a large enough space before installation.
 zstd = "159M"
-zstd_bytes = 166238203
+zstd_bytes = 166241220
 
 [compatibility]
 compatible_mode = true
@@ -96,15 +96,15 @@ previous_file = "go_amd64_2023-11-27_12-09-rootfs.tar.zst"
 previous_sha256 = "7f8beef0df3f7958effbcb96b8441b2f3accb2c0ac83f95c84b79b021f2cee90"
 
 current_version = "latest01"
-current_date = "20231225"
+current_date = "20240101"
 old_file = "go_amd64_2023-11-13_12-10-rootfs.tar.zst"
 old_sha256 = "98c97867a279e22f9ba0cb3c257a37035dfd79daa97dae799be8fedd761ed4c5"
 # edition 2021
 # DISTRO_NAME=go_amd64
-# ROOTFS_FILE=go_amd64_2023-12-25_12-09-rootfs.tar.zst
-# SHA256SUM=0080c0e9bdde8c86c3bdfb6863e71d87fe124a1e294ceb2d48e4f538f608cab3
-# BUILD_DATE=20231225
-# BUILD_TAG=2023-12-25
+# ROOTFS_FILE=go_amd64_2024-01-01_12-09-rootfs.tar.zst
+# SHA256SUM=5a596fbe227510ac940c42ed1689f89dbb7d5db594d45b081b8524d81a783d3a
+# BUILD_DATE=20240101
+# BUILD_TAG=2024-01-01
 # STATUS=completed
 # VERSION=latest01
 # END_TIME=12:09
@@ -112,13 +112,13 @@ old_sha256 = "98c97867a279e22f9ba0cb3c257a37035dfd79daa97dae799be8fedd761ed4c5"
 [time]
 format = "rfc-3339"
 zone = "UTC"
-date = 2023-12-25
-begin = 2023-12-25 12:02:37.598881508+00:00
-start-sync_0 = 12:04:05
-start-zstd = 12:04:21
-start-sync_1 = 12:08:59
-end-sync_1 = 12:09:14
-end = 2023-12-25 12:09:14.601330302+00:00
+date = 2024-01-01
+begin = 2024-01-01 12:02:36.300468178+00:00
+start-sync_0 = 12:04:12
+start-zstd = 12:04:26
+start-sync_1 = 12:09:07
+end-sync_1 = 12:09:22
+end = 2024-01-01 12:09:22.990037494+00:00
 
 [server]
 repo = "cake233/go-amd64"
