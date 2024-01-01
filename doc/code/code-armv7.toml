@@ -1,6 +1,6 @@
 [main]
 name = "code"
-tag = ["latest", "2023-12-25", "vsc", "vscode", "web"]
+tag = ["latest", "2024-01-01", "vsc", "vscode", "web"]
 os = "debian"
 release = "sid"
 arch = "armhf"
@@ -9,10 +9,10 @@ xorg_or_wayland = false
 syntax_version = "0.0.0-alpha.4"
 
 [file]
-name = "code_armhf_2023-12-25_12-10.tar.zst"
+name = "code_armhf_2024-01-01_12-10.tar.zst"
 
 # This value can be used to verify the integrity of the file
-sha256 = "1e2c3f7efa76953f760bf0b609453d07f00754a1b036ca6144f1403804fc12d9"
+sha256 = "7c5f001fd3329e0f5cf28f727a9dbf0e1e1c8f6e2186d90fc87016aceae84bde"
 
 # zstd: [1-22]
 zstd-level = 22
@@ -21,12 +21,12 @@ zstd-level = 22
 # Installed size ≈ tar-size
 # Installed size is approximately equal to the size of the tar file
 tar = "448M"
-tar_bytes = 469210624
+tar_bytes = 469247488
 
 # Space occupied ≈ tar-size + zstd-size
 # You will need to prepare a large enough space before installation.
 zstd = "79M"
-zstd_bytes = 82009246
+zstd_bytes = 82008580
 
 [compatibility]
 compatible_mode = true
@@ -40,15 +40,15 @@ previous_file = "code_armhf_2023-11-27_12-11-rootfs.tar.zst"
 previous_sha256 = "642d75b0ff9d86bad064e1f5e8a2e14764a56c53f0fab4093ad6baa13b57f85f"
 
 current_version = "latest01"
-current_date = "20231225"
+current_date = "20240101"
 old_file = "code_armhf_2023-11-13_12-12-rootfs.tar.zst"
 old_sha256 = "226028b07355b484a664f02306f46848f721efb7e57cc6d800113e8434ecb0f5"
 # edition 2021
 # DISTRO_NAME=code_armhf
-# ROOTFS_FILE=code_armhf_2023-12-25_12-10-rootfs.tar.zst
-# SHA256SUM=1e2c3f7efa76953f760bf0b609453d07f00754a1b036ca6144f1403804fc12d9
-# BUILD_DATE=20231225
-# BUILD_TAG=2023-12-25
+# ROOTFS_FILE=code_armhf_2024-01-01_12-10-rootfs.tar.zst
+# SHA256SUM=7c5f001fd3329e0f5cf28f727a9dbf0e1e1c8f6e2186d90fc87016aceae84bde
+# BUILD_DATE=20240101
+# BUILD_TAG=2024-01-01
 # STATUS=completed
 # VERSION=latest01
 # END_TIME=12:10
@@ -56,13 +56,13 @@ old_sha256 = "226028b07355b484a664f02306f46848f721efb7e57cc6d800113e8434ecb0f5"
 [time]
 format = "rfc-3339"
 zone = "UTC"
-date = 2023-12-25
-begin = 2023-12-25 12:02:36.654704013+00:00
-start-sync_0 = 12:06:46
-start-zstd = 12:07:12
-start-sync_1 = 12:10:15
-end-sync_1 = 12:10:27
-end = 2023-12-25 12:10:27.907863648+00:00
+date = 2024-01-01
+begin = 2024-01-01 12:02:33.915813522+00:00
+start-sync_0 = 12:06:37
+start-zstd = 12:06:58
+start-sync_1 = 12:09:52
+end-sync_1 = 12:10:01
+end = 2024-01-01 12:10:01.883050639+00:00
 
 [server]
 repo = "cake233/code-armv7"
