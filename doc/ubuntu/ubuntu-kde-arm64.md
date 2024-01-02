@@ -77,7 +77,7 @@ localhost:5903
 ```toml
 [main]
 name = "ubuntu"
-tag = ["kde", "2023-12-26", "devel"]
+tag = ["kde", "2024-01-02", "devel"]
 os = "ubuntu"
 release = "dev"
 arch = "arm64"
@@ -86,10 +86,10 @@ xorg_or_wayland = true
 syntax_version = "0.0.0-alpha.4"
 
 [file]
-name = "ubuntu-kde_arm64_2023-12-26_02-24.tar.zst"
+name = "ubuntu-kde_arm64_2024-01-02_02-25.tar.zst"
 
 # This value can be used to verify the integrity of the file
-sha256 = "28493bfd6af8691813be31288a8034e19c71bf0efd83fb235dc28a53fb2fb9f9"
+sha256 = "9c2d4042b688ab355feee8b90ec731ee65a95fd963770ef529e96a63ba0841c6"
 
 # zstd: [1-22]
 zstd-level = 19
@@ -98,12 +98,12 @@ zstd-level = 19
 # Installed size ≈ tar-size
 # Installed size is approximately equal to the size of the tar file
 tar = "5.4G"
-tar_bytes = 5765890048
+tar_bytes = 5769181184
 
 # Space occupied ≈ tar-size + zstd-size
 # You will need to prepare a large enough space before installation.
 zstd = "1.5G"
-zstd_bytes = 1559328351
+zstd_bytes = 1562213552
 
 [compatibility]
 compatible_mode = true
@@ -117,29 +117,29 @@ previous_file = "ubuntu-kde_arm64_2023-11-28_01-31-rootfs.tar.zst"
 previous_sha256 = "7be07739e590a892d4930d2f8cd54ae4a8b4674470a9e7ad44f2fc684a7f254d"
 
 current_version = "latest02"
-current_date = "20231226"
+current_date = "20240102"
 old_file = "ubuntu-kde_arm64_2023-11-21_01-31-rootfs.tar.zst"
 old_sha256 = "6794b9c83a7e4fd1410f4af77513be4a37251da16b6b4b2630aa26b79f0e8938"
 # edition 2021
 # DISTRO_NAME=ubuntu-dev_arm64
-# ROOTFS_FILE=ubuntu-kde_arm64_2023-12-26_02-24-rootfs.tar.zst
-# SHA256SUM=28493bfd6af8691813be31288a8034e19c71bf0efd83fb235dc28a53fb2fb9f9
-# BUILD_DATE=20231226
-# BUILD_TAG=2023-12-26
+# ROOTFS_FILE=ubuntu-kde_arm64_2024-01-02_02-25-rootfs.tar.zst
+# SHA256SUM=9c2d4042b688ab355feee8b90ec731ee65a95fd963770ef529e96a63ba0841c6
+# BUILD_DATE=20240102
+# BUILD_TAG=2024-01-02
 # STATUS=completed
 # VERSION=latest02
-# END_TIME=02:24
+# END_TIME=02:25
 
 [time]
 format = "rfc-3339"
 zone = "UTC"
-date = 2023-12-26
-begin = 2023-12-26 00:35:58.434538035+00:00
-start-sync_0 = 02:05:38
-start-zstd = 02:08:31
-start-sync_1 = 02:23:34
-end-sync_1 = 02:24:39
-end = 2023-12-26 02:24:39.444153017+00:00
+date = 2024-01-02
+begin = 2024-01-02 00:36:12.882674883+00:00
+start-sync_0 = 02:06:24
+start-zstd = 02:09:16
+start-sync_1 = 02:24:24
+end-sync_1 = 02:25:29
+end = 2024-01-02 02:25:29.169803864+00:00
 
 [server]
 repo = "cake233/ubuntu-kde-arm64"
