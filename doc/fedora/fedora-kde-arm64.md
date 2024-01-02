@@ -77,7 +77,7 @@ localhost:5903
 ```toml
 [main]
 name = "fedora"
-tag = ["kde", "2023-12-26"]
+tag = ["kde", "2024-01-02"]
 os = "fedora"
 release = "rawhide"
 arch = "arm64"
@@ -86,10 +86,10 @@ xorg_or_wayland = true
 syntax_version = "0.0.0-alpha.4"
 
 [file]
-name = "fedora-kde_arm64_2023-12-26_14-28.tar.zst"
+name = "fedora-kde_arm64_2024-01-02_14-26.tar.zst"
 
 # This value can be used to verify the integrity of the file
-sha256 = "3bb1538cbc84de78af0000804f63ec440504fc19d0098a6747deffa9cfca25c0"
+sha256 = "df3b82059796de78b9748efe474ca0b92254b1c9bde072559bca4942491ecdaf"
 
 # zstd: [1-22]
 zstd-level = 19
@@ -97,13 +97,13 @@ zstd-level = 19
 [file.size]
 # Installed size ≈ tar-size
 # Installed size is approximately equal to the size of the tar file
-tar = "7.3G"
-tar_bytes = 7828947456
+tar = "7.4G"
+tar_bytes = 7857832448
 
 # Space occupied ≈ tar-size + zstd-size
 # You will need to prepare a large enough space before installation.
 zstd = "1.9G"
-zstd_bytes = 2007406311
+zstd_bytes = 2012177125
 
 [compatibility]
 compatible_mode = true
@@ -117,29 +117,29 @@ previous_file = "fedora-kde_arm64_2023-11-21_14-34-rootfs.tar.zst"
 previous_sha256 = "786e794664181e84ad0ad1d81dca9e902337e5225297c15d5286056c81b28e52"
 
 current_version = "latest02"
-current_date = "20231226"
+current_date = "20240102"
 old_file = "fedora-kde_arm64_2023-11-14_14-54-rootfs.tar.zst"
 old_sha256 = "2edaeb92d54b15cad99788d421609db146688f042dd18c0bd4003d758e13cbf5"
 # edition 2021
 # DISTRO_NAME=fedora-rawhide_arm64
-# ROOTFS_FILE=fedora-kde_arm64_2023-12-26_14-28-rootfs.tar.zst
-# SHA256SUM=3bb1538cbc84de78af0000804f63ec440504fc19d0098a6747deffa9cfca25c0
-# BUILD_DATE=20231226
-# BUILD_TAG=2023-12-26
+# ROOTFS_FILE=fedora-kde_arm64_2024-01-02_14-26-rootfs.tar.zst
+# SHA256SUM=df3b82059796de78b9748efe474ca0b92254b1c9bde072559bca4942491ecdaf
+# BUILD_DATE=20240102
+# BUILD_TAG=2024-01-02
 # STATUS=completed
 # VERSION=latest02
-# END_TIME=14:28
+# END_TIME=14:26
 
 [time]
 format = "rfc-3339"
 zone = "UTC"
-date = 2023-12-26
-begin = 2023-12-26 12:38:38.660498194+00:00
-start-sync_0 = 14:04:50
-start-zstd = 14:08:29
-start-sync_1 = 14:26:45
-end-sync_1 = 14:28:07
-end = 2023-12-26 14:28:07.352277643+00:00
+date = 2024-01-02
+begin = 2024-01-02 12:38:25.125930644+00:00
+start-sync_0 = 14:03:56
+start-zstd = 14:07:33
+start-sync_1 = 14:25:20
+end-sync_1 = 14:26:41
+end = 2024-01-02 14:26:41.524956731+00:00
 
 [server]
 repo = "cake233/fedora-kde-arm64"
