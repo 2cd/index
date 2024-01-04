@@ -77,7 +77,7 @@ localhost:5903
 ```toml
 [main]
 name = "alpine"
-tag = ["kde", "2023-12-21"]
+tag = ["kde", "2024-01-04"]
 os = "alpine"
 release = "edge"
 arch = "arm64"
@@ -86,10 +86,10 @@ xorg_or_wayland = true
 syntax_version = "0.0.0-alpha.4"
 
 [file]
-name = "alpine-kde_arm64_2023-12-21_00-12.tar.zst"
+name = "alpine-kde_arm64_2024-01-04_00-13.tar.zst"
 
 # This value can be used to verify the integrity of the file
-sha256 = "e3d0b2d20f5eda971cf3a8abef083d8d78d80cd2f2bfaf1bf7e7a682b10672b5"
+sha256 = "a187e2333e6aa0a6b854af7b88dcac977e9162beb2375d2ce593886fee120783"
 
 # zstd: [1-22]
 zstd-level = 19
@@ -97,13 +97,13 @@ zstd-level = 19
 [file.size]
 # Installed size ≈ tar-size
 # Installed size is approximately equal to the size of the tar file
-tar = "912M"
-tar_bytes = 955413504
+tar = "914M"
+tar_bytes = 957965824
 
 # Space occupied ≈ tar-size + zstd-size
 # You will need to prepare a large enough space before installation.
-zstd = "291M"
-zstd_bytes = 305066702
+zstd = "294M"
+zstd_bytes = 307565774
 
 [compatibility]
 compatible_mode = true
@@ -117,29 +117,29 @@ previous_file = "alpine-kde_arm64_2023-11-23_00-11-rootfs.tar.zst"
 previous_sha256 = "e22ad7b747bd97ea37a6ce484354ffc7ae9129e45b8abd8efb8436881944d150"
 
 current_version = "latest02"
-current_date = "20231221"
+current_date = "20240104"
 old_file = "alpine-kde_arm64_2023-11-16_00-10-rootfs.tar.zst"
 old_sha256 = "36013ce7128c160178fec9f39b486dc79f169735b4bc60a6edb5c47502237f16"
 # edition 2021
 # DISTRO_NAME=alpine-edge_arm64
-# ROOTFS_FILE=alpine-kde_arm64_2023-12-21_00-12-rootfs.tar.zst
-# SHA256SUM=e3d0b2d20f5eda971cf3a8abef083d8d78d80cd2f2bfaf1bf7e7a682b10672b5
-# BUILD_DATE=20231221
-# BUILD_TAG=2023-12-21
+# ROOTFS_FILE=alpine-kde_arm64_2024-01-04_00-13-rootfs.tar.zst
+# SHA256SUM=a187e2333e6aa0a6b854af7b88dcac977e9162beb2375d2ce593886fee120783
+# BUILD_DATE=20240104
+# BUILD_TAG=2024-01-04
 # STATUS=completed
 # VERSION=latest02
-# END_TIME=00:12
+# END_TIME=00:13
 
 [time]
 format = "rfc-3339"
 zone = "UTC"
-date = 2023-12-21
-begin = 2023-12-21 00:06:27.481038092+00:00
-start-sync_0 = 00:09:03
-start-zstd = 00:09:38
-start-sync_1 = 00:12:09
-end-sync_1 = 00:12:32
-end = 2023-12-21 00:12:32.436936693+00:00
+date = 2024-01-04
+begin = 2024-01-04 00:07:01.277075858+00:00
+start-sync_0 = 00:09:28
+start-zstd = 00:10:04
+start-sync_1 = 00:12:43
+end-sync_1 = 00:13:05
+end = 2024-01-04 00:13:05.829947176+00:00
 
 [server]
 repo = "cake233/alpine-kde-arm64"
