@@ -77,7 +77,7 @@ localhost:5903
 ```toml
 [main]
 name = "kali"
-tag = ["xfce", "2023-12-28"]
+tag = ["xfce", "2024-01-04"]
 os = "kali"
 release = "rolling"
 arch = "arm64"
@@ -86,10 +86,10 @@ xorg_or_wayland = true
 syntax_version = "0.0.0-alpha.4"
 
 [file]
-name = "kali-xfce_arm64_2023-12-28_14-11.tar.zst"
+name = "kali-xfce_arm64_2024-01-04_14-14.tar.zst"
 
 # This value can be used to verify the integrity of the file
-sha256 = "af7c82ffee58d83c9bf89cbc6efba469544b3cc682a90c776299693d5891573e"
+sha256 = "0ddf55d6a8ab6c3a851b2d65029a87040aebfd64101ece7c032305b238fe1a0c"
 
 # zstd: [1-22]
 zstd-level = 19
@@ -97,13 +97,13 @@ zstd-level = 19
 [file.size]
 # Installed size ≈ tar-size
 # Installed size is approximately equal to the size of the tar file
-tar = "5.0G"
-tar_bytes = 5337766400
+tar = "5.1G"
+tar_bytes = 5379089408
 
 # Space occupied ≈ tar-size + zstd-size
 # You will need to prepare a large enough space before installation.
 zstd = "1.4G"
-zstd_bytes = 1450282102
+zstd_bytes = 1460382518
 
 [compatibility]
 compatible_mode = true
@@ -117,29 +117,29 @@ previous_file = "kali-xfce_arm64_2023-11-23_14-14-rootfs.tar.zst"
 previous_sha256 = "a30b80d59b73f8a22bd31c413a52f533c48a37b6e4c151e754e157677731403e"
 
 current_version = "latest01"
-current_date = "20231228"
+current_date = "20240104"
 old_file = "kali-xfce_arm64_2023-11-16_14-11-rootfs.tar.zst"
 old_sha256 = "737a22bc1354df9978f81fc124bf917bde85caa25346714c9ae7558ebf3f4dde"
 # edition 2021
 # DISTRO_NAME=kali-rolling_arm64
-# ROOTFS_FILE=kali-xfce_arm64_2023-12-28_14-11-rootfs.tar.zst
-# SHA256SUM=af7c82ffee58d83c9bf89cbc6efba469544b3cc682a90c776299693d5891573e
-# BUILD_DATE=20231228
-# BUILD_TAG=2023-12-28
+# ROOTFS_FILE=kali-xfce_arm64_2024-01-04_14-14-rootfs.tar.zst
+# SHA256SUM=0ddf55d6a8ab6c3a851b2d65029a87040aebfd64101ece7c032305b238fe1a0c
+# BUILD_DATE=20240104
+# BUILD_TAG=2024-01-04
 # STATUS=completed
 # VERSION=latest01
-# END_TIME=14:11
+# END_TIME=14:14
 
 [time]
 format = "rfc-3339"
 zone = "UTC"
-date = 2023-12-28
-begin = 2023-12-28 12:31:43.902697964+00:00
-start-sync_0 = 13:54:45
-start-zstd = 13:57:25
-start-sync_1 = 14:10:03
-end-sync_1 = 14:11:08
-end = 2023-12-28 14:11:08.093503489+00:00
+date = 2024-01-04
+begin = 2024-01-04 12:32:11.741196702+00:00
+start-sync_0 = 13:56:32
+start-zstd = 13:59:17
+start-sync_1 = 14:12:55
+end-sync_1 = 14:14:02
+end = 2024-01-04 14:14:02.893019387+00:00
 
 [server]
 repo = "cake233/kali-xfce-arm64"
