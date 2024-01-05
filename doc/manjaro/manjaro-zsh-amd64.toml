@@ -1,6 +1,6 @@
 [main]
 name = "manjaro"
-tag = ["zsh", "2023-12-29"]
+tag = ["zsh", "2024-01-05"]
 os = "manjaro"
 release = "stable"
 arch = "amd64"
@@ -9,10 +9,10 @@ xorg_or_wayland = false
 syntax_version = "0.0.0-alpha.4"
 
 [file]
-name = "manjaro-zsh_amd64_2023-12-29_12-09.tar.zst"
+name = "manjaro-zsh_amd64_2024-01-05_12-10.tar.zst"
 
 # This value can be used to verify the integrity of the file
-sha256 = "c71855c60a793cd65cb7fecd11af902a94f5d12300eca24ba37a8c2f2c1b6182"
+sha256 = "562a0ce3ff5bb7d6b93d4ef3401b8069badef565bd3395dc3956e9e6e3675a17"
 
 # zstd: [1-22]
 zstd-level = 20
@@ -21,12 +21,12 @@ zstd-level = 20
 # Installed size ≈ tar-size
 # Installed size is approximately equal to the size of the tar file
 tar = "1.3G"
-tar_bytes = 1288528896
+tar_bytes = 1288919040
 
 # Space occupied ≈ tar-size + zstd-size
 # You will need to prepare a large enough space before installation.
 zstd = "299M"
-zstd_bytes = 312753444
+zstd_bytes = 312810715
 
 [compatibility]
 compatible_mode = true
@@ -40,29 +40,29 @@ previous_file = "manjaro-zsh_amd64_2023-11-24_12-10-rootfs.tar.zst"
 previous_sha256 = "9557f25561203750d2572f11a170cc3c664349835ee3db4f43fe12592f3b102e"
 
 current_version = "latest01"
-current_date = "20231229"
+current_date = "20240105"
 old_file = "manjaro-zsh_amd64_2023-11-17_12-10-rootfs.tar.zst"
 old_sha256 = "257534893add329939104780e715ce043d91e475e72423b6e9a227046722a2b1"
 # edition 2021
 # DISTRO_NAME=manjaro-stable_amd64
-# ROOTFS_FILE=manjaro-zsh_amd64_2023-12-29_12-09-rootfs.tar.zst
-# SHA256SUM=c71855c60a793cd65cb7fecd11af902a94f5d12300eca24ba37a8c2f2c1b6182
-# BUILD_DATE=20231229
-# BUILD_TAG=2023-12-29
+# ROOTFS_FILE=manjaro-zsh_amd64_2024-01-05_12-10-rootfs.tar.zst
+# SHA256SUM=562a0ce3ff5bb7d6b93d4ef3401b8069badef565bd3395dc3956e9e6e3675a17
+# BUILD_DATE=20240105
+# BUILD_TAG=2024-01-05
 # STATUS=completed
 # VERSION=latest01
-# END_TIME=12:09
+# END_TIME=12:10
 
 [time]
 format = "rfc-3339"
 zone = "UTC"
-date = 2023-12-29
-begin = 2023-12-29 12:02:32.228810217+00:00
-start-sync_0 = 12:04:20
-start-zstd = 12:05:54
-start-sync_1 = 12:09:41
-end-sync_1 = 12:09:59
-end = 2023-12-29 12:09:59.177972894+00:00
+date = 2024-01-05
+begin = 2024-01-05 12:02:35.750651392+00:00
+start-sync_0 = 12:04:50
+start-zstd = 12:06:35
+start-sync_1 = 12:10:19
+end-sync_1 = 12:10:40
+end = 2024-01-05 12:10:40.288525854+00:00
 
 [server]
 repo = "cake233/manjaro-zsh-amd64"
