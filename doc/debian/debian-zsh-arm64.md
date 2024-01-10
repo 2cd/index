@@ -20,7 +20,7 @@ docker exec -it debian-zsh-arm64 zsh
 ```toml
 [main]
 name = "debian"
-tag = ["zsh", "2024-01-03"]
+tag = ["zsh", "2024-01-10"]
 os = "debian"
 release = "sid"
 arch = "arm64"
@@ -29,10 +29,10 @@ xorg_or_wayland = false
 syntax_version = "0.0.0-alpha.4"
 
 [file]
-name = "debian-zsh_arm64_2024-01-03_12-31.tar.zst"
+name = "debian-zsh_arm64_2024-01-10_12-21.tar.zst"
 
 # This value can be used to verify the integrity of the file
-sha256 = "7561dbfbd662e23128ef40d5db2bea7bf7cd436956ba377a9263981a14583738"
+sha256 = "e14b0f87e2369b63df53b3c1864a34ed5ff0dc2cf65cfe96bd2b1a4872b83e2f"
 
 # zstd: [1-22]
 zstd-level = 20
@@ -40,13 +40,13 @@ zstd-level = 20
 [file.size]
 # Installed size ≈ tar-size
 # Installed size is approximately equal to the size of the tar file
-tar = "827M"
-tar_bytes = 866199040
+tar = "701M"
+tar_bytes = 734867968
 
 # Space occupied ≈ tar-size + zstd-size
 # You will need to prepare a large enough space before installation.
-zstd = "153M"
-zstd_bytes = 159816440
+zstd = "125M"
+zstd_bytes = 130934018
 
 [compatibility]
 compatible_mode = true
@@ -60,29 +60,29 @@ previous_file = "debian-zsh_arm64_2023-11-22_12-31-rootfs.tar.zst"
 previous_sha256 = "e42cd7823cc46adf76190a5e056d10b7ccfbdf87f330127e25bb0f770ecb6abf"
 
 current_version = "latest01"
-current_date = "20240103"
+current_date = "20240110"
 old_file = "debian-zsh_arm64_2023-11-15_12-31-rootfs.tar.zst"
 old_sha256 = "2edbc6d9efef4ab87d393f962ca8986d24998e018bdec122b6a538cbcfff868c"
 # edition 2021
 # DISTRO_NAME=debian-sid_arm64
-# ROOTFS_FILE=debian-zsh_arm64_2024-01-03_12-31-rootfs.tar.zst
-# SHA256SUM=7561dbfbd662e23128ef40d5db2bea7bf7cd436956ba377a9263981a14583738
-# BUILD_DATE=20240103
-# BUILD_TAG=2024-01-03
+# ROOTFS_FILE=debian-zsh_arm64_2024-01-10_12-21-rootfs.tar.zst
+# SHA256SUM=e14b0f87e2369b63df53b3c1864a34ed5ff0dc2cf65cfe96bd2b1a4872b83e2f
+# BUILD_DATE=20240110
+# BUILD_TAG=2024-01-10
 # STATUS=completed
 # VERSION=latest01
-# END_TIME=12:31
+# END_TIME=12:21
 
 [time]
 format = "rfc-3339"
 zone = "UTC"
-date = 2024-01-03
-begin = 2024-01-03 12:02:39.375076848+00:00
-start-sync_0 = 12:27:08
-start-zstd = 12:28:50
-start-sync_1 = 12:31:01
-end-sync_1 = 12:31:16
-end = 2024-01-03 12:31:16.458916724+00:00
+date = 2024-01-10
+begin = 2024-01-10 12:02:32.617674984+00:00
+start-sync_0 = 12:19:31
+start-zstd = 12:19:54
+start-sync_1 = 12:21:44
+end-sync_1 = 12:21:56
+end = 2024-01-10 12:21:56.177683445+00:00
 
 [server]
 repo = "cake233/debian-zsh-arm64"
@@ -118,5 +118,5 @@ LANG = "en_US.UTF-8"
 
 [version]
 ldd = 'ldd (Debian GLIBC 2.37-13) 2.37'
-zsh = 'zsh 5.9 (aarch64-unknown-linux-gnu)'
+zsh = ''
 ```
