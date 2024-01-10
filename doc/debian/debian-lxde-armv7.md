@@ -77,7 +77,7 @@ localhost:5903
 ```toml
 [main]
 name = "debian"
-tag = ["lxde", "2024-01-03"]
+tag = ["lxde", "2024-01-10"]
 os = "debian"
 release = "sid"
 arch = "armhf"
@@ -86,10 +86,10 @@ xorg_or_wayland = true
 syntax_version = "0.0.0-alpha.4"
 
 [file]
-name = "debian-lxde_armhf_2024-01-03_13-01.tar.zst"
+name = "debian-lxde_armhf_2024-01-10_12-47.tar.zst"
 
 # This value can be used to verify the integrity of the file
-sha256 = "07cc540f33f51e374519f59a2597e44fe3a12635f7c042963cb8331490c8f7c1"
+sha256 = "402accc43c71a9c0305cfda7afbebdf14b7e40c9ad4c428133f3deaae219d138"
 
 # zstd: [1-22]
 zstd-level = 19
@@ -97,13 +97,13 @@ zstd-level = 19
 [file.size]
 # Installed size ≈ tar-size
 # Installed size is approximately equal to the size of the tar file
-tar = "3.0G"
-tar_bytes = 3190162944
+tar = "2.7G"
+tar_bytes = 2886121472
 
 # Space occupied ≈ tar-size + zstd-size
 # You will need to prepare a large enough space before installation.
-zstd = "960M"
-zstd_bytes = 1006257776
+zstd = "837M"
+zstd_bytes = 876882212
 
 [compatibility]
 compatible_mode = true
@@ -117,29 +117,29 @@ previous_file = "debian-lxde_armhf_2023-11-22_13-00-rootfs.tar.zst"
 previous_sha256 = "5e859bc618e740900357c4753d2799d35a90253eee9defcc2868ef3b36135800"
 
 current_version = "latest01"
-current_date = "20240103"
+current_date = "20240110"
 old_file = "debian-lxde_armhf_2023-11-15_13-15-rootfs.tar.zst"
 old_sha256 = "166f1e146f8fe6c310be83c182007b8a45a3c84f49fdfe6cf9518c1dece9faeb"
 # edition 2021
 # DISTRO_NAME=debian-sid_armhf
-# ROOTFS_FILE=debian-lxde_armhf_2024-01-03_13-01-rootfs.tar.zst
-# SHA256SUM=07cc540f33f51e374519f59a2597e44fe3a12635f7c042963cb8331490c8f7c1
-# BUILD_DATE=20240103
-# BUILD_TAG=2024-01-03
+# ROOTFS_FILE=debian-lxde_armhf_2024-01-10_12-47-rootfs.tar.zst
+# SHA256SUM=402accc43c71a9c0305cfda7afbebdf14b7e40c9ad4c428133f3deaae219d138
+# BUILD_DATE=20240110
+# BUILD_TAG=2024-01-10
 # STATUS=completed
 # VERSION=latest01
-# END_TIME=13:01
+# END_TIME=12:47
 
 [time]
 format = "rfc-3339"
 zone = "UTC"
-date = 2024-01-03
-begin = 2024-01-03 12:31:36.498923862+00:00
-start-sync_0 = 12:50:46
-start-zstd = 12:52:21
-start-sync_1 = 13:00:30
-end-sync_1 = 13:01:15
-end = 2024-01-03 13:01:15.388274849+00:00
+date = 2024-01-10
+begin = 2024-01-10 12:22:16.345645685+00:00
+start-sync_0 = 12:37:46
+start-zstd = 12:39:17
+start-sync_1 = 12:46:21
+end-sync_1 = 12:47:04
+end = 2024-01-10 12:47:04.745637255+00:00
 
 [server]
 repo = "cake233/debian-lxde-armv7"
@@ -175,7 +175,7 @@ LANG = "en_US.UTF-8"
 
 [version]
 ldd = 'ldd (Debian GLIBC 2.37-13) 2.37'
-zsh = 'zsh 5.9 (arm-unknown-linux-gnueabihf)'
+zsh = ''
 
 [port]
 tcp = [5902, 36080]
