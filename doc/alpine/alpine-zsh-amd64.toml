@@ -1,6 +1,6 @@
 [main]
 name = "alpine"
-tag = ["zsh", "2024-01-04"]
+tag = ["zsh", "2024-01-11"]
 os = "alpine"
 release = "edge"
 arch = "amd64"
@@ -9,10 +9,10 @@ xorg_or_wayland = false
 syntax_version = "0.0.0-alpha.4"
 
 [file]
-name = "alpine-zsh_amd64_2024-01-04_00-05.tar.zst"
+name = "alpine-zsh_amd64_2024-01-11_00-05.tar.zst"
 
 # This value can be used to verify the integrity of the file
-sha256 = "e9b6af1eed3dea8920f75246c06941b6717decd546a27d59b177da9019238b82"
+sha256 = "3aece31ea71f6559a0302d8f9f038ba101bb98652f05fb0a4b78934f00cb884c"
 
 # zstd: [1-22]
 zstd-level = 20
@@ -21,12 +21,12 @@ zstd-level = 20
 # Installed size ≈ tar-size
 # Installed size is approximately equal to the size of the tar file
 tar = "134M"
-tar_bytes = 140324864
+tar_bytes = 140403712
 
 # Space occupied ≈ tar-size + zstd-size
 # You will need to prepare a large enough space before installation.
 zstd = "41M"
-zstd_bytes = 42148635
+zstd_bytes = 42166477
 
 [compatibility]
 compatible_mode = true
@@ -40,15 +40,15 @@ previous_file = "alpine-zsh_amd64_2023-11-23_00-05-rootfs.tar.zst"
 previous_sha256 = "7d1b0c0bb6b2d7ae32504dc9e56db19ca6ff6fb38a1c1b21607acfcefca6346e"
 
 current_version = "latest02"
-current_date = "20240104"
+current_date = "20240111"
 old_file = "alpine-zsh_amd64_2023-11-16_00-05-rootfs.tar.zst"
 old_sha256 = "26f1c5265bcc50823e5d587e5bbf1184a7aa13765a10129e644b633d1a482661"
 # edition 2021
 # DISTRO_NAME=alpine-edge_amd64
-# ROOTFS_FILE=alpine-zsh_amd64_2024-01-04_00-05-rootfs.tar.zst
-# SHA256SUM=e9b6af1eed3dea8920f75246c06941b6717decd546a27d59b177da9019238b82
-# BUILD_DATE=20240104
-# BUILD_TAG=2024-01-04
+# ROOTFS_FILE=alpine-zsh_amd64_2024-01-11_00-05-rootfs.tar.zst
+# SHA256SUM=3aece31ea71f6559a0302d8f9f038ba101bb98652f05fb0a4b78934f00cb884c
+# BUILD_DATE=20240111
+# BUILD_TAG=2024-01-11
 # STATUS=completed
 # VERSION=latest02
 # END_TIME=00:05
@@ -56,13 +56,13 @@ old_sha256 = "26f1c5265bcc50823e5d587e5bbf1184a7aa13765a10129e644b633d1a482661"
 [time]
 format = "rfc-3339"
 zone = "UTC"
-date = 2024-01-04
-begin = 2024-01-04 00:02:34.301003414+00:00
-start-sync_0 = 00:03:29
-start-zstd = 00:04:54
-start-sync_1 = 00:05:31
-end-sync_1 = 00:05:41
-end = 2024-01-04 00:05:41.527274937+00:00
+date = 2024-01-11
+begin = 2024-01-11 00:02:30.740768615+00:00
+start-sync_0 = 00:03:09
+start-zstd = 00:04:35
+start-sync_1 = 00:05:12
+end-sync_1 = 00:05:22
+end = 2024-01-11 00:05:22.855536319+00:00
 
 [server]
 repo = "cake233/alpine-zsh-amd64"
