@@ -20,7 +20,7 @@ docker exec -it jdk-amd64 bash
 ```toml
 [main]
 name = "jdk"
-tag = ["latest", "2024-01-01"]
+tag = ["latest", "2024-01-15"]
 os = "debian"
 release = "stable"
 arch = "amd64"
@@ -29,10 +29,10 @@ xorg_or_wayland = false
 syntax_version = "0.0.0-alpha.4"
 
 [file]
-name = "jdk_amd64_2024-01-01_12-07.tar.zst"
+name = "jdk_amd64_2024-01-15_12-08.tar.zst"
 
 # This value can be used to verify the integrity of the file
-sha256 = "bc0d95a0987cd25adad051c25485933549f08a423852d9012180bbb1affb6df4"
+sha256 = "1124525258d0f92974eac4f42d53bf1b136bab71bd5dacf98bf8e9b6bd685114"
 
 # zstd: [1-22]
 zstd-level = 22
@@ -46,7 +46,7 @@ tar_bytes = 473057792
 # Space occupied ≈ tar-size + zstd-size
 # You will need to prepare a large enough space before installation.
 zstd = "193M"
-zstd_bytes = 202093932
+zstd_bytes = 202094083
 
 [compatibility]
 compatible_mode = true
@@ -54,35 +54,35 @@ compatible_mode = true
 previous_version = "latest02"
 
 # The value is &str, not int
-previous_date = "20231127"
-previous_tag = "2023-11-27"
-previous_file = "jdk_amd64_2023-11-27_12-08-rootfs.tar.zst"
-previous_sha256 = "261055552eca8f7bc7cd6839d3b8492cbe6378ad5e442109a65cc55152ab31c0"
+previous_date = "20211128"
+previous_tag = ""
+previous_file = ""
+previous_sha256 = ""
 
 current_version = "latest01"
-current_date = "20240101"
-old_file = "jdk_amd64_2023-11-13_12-10-rootfs.tar.zst"
-old_sha256 = "b5923a2040aa359e5dff42bd7511a258c287d0e7689993d6324884bfbe0190a0"
+current_date = "20240115"
+old_file = ""
+old_sha256 = ""
 # edition 2021
 # DISTRO_NAME=jdk_amd64
-# ROOTFS_FILE=jdk_amd64_2024-01-01_12-07-rootfs.tar.zst
-# SHA256SUM=bc0d95a0987cd25adad051c25485933549f08a423852d9012180bbb1affb6df4
-# BUILD_DATE=20240101
-# BUILD_TAG=2024-01-01
+# ROOTFS_FILE=jdk_amd64_2024-01-15_12-08-rootfs.tar.zst
+# SHA256SUM=1124525258d0f92974eac4f42d53bf1b136bab71bd5dacf98bf8e9b6bd685114
+# BUILD_DATE=20240115
+# BUILD_TAG=2024-01-15
 # STATUS=completed
 # VERSION=latest01
-# END_TIME=12:07
+# END_TIME=12:08
 
 [time]
 format = "rfc-3339"
 zone = "UTC"
-date = 2024-01-01
-begin = 2024-01-01 12:02:34.274422464+00:00
-start-sync_0 = 12:03:51
-start-zstd = 12:04:01
-start-sync_1 = 12:07:18
-end-sync_1 = 12:07:31
-end = 2024-01-01 12:07:31.344392562+00:00
+date = 2024-01-15
+begin = 2024-01-15 12:02:36.965775145+00:00
+start-sync_0 = 12:04:05
+start-zstd = 12:04:20
+start-sync_1 = 12:07:44
+end-sync_1 = 12:08:01
+end = 2024-01-15 12:08:01.181859832+00:00
 
 [server]
 repo = "cake233/jdk-amd64"
