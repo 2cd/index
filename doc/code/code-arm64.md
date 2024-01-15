@@ -210,7 +210,7 @@ editor 0.set || nano 0.set
 ```toml
 [main]
 name = "code"
-tag = ["latest", "2024-01-01", "vsc", "vscode", "web"]
+tag = ["latest", "2024-01-15", "vsc", "vscode", "web"]
 os = "debian"
 release = "sid"
 arch = "arm64"
@@ -219,10 +219,10 @@ xorg_or_wayland = false
 syntax_version = "0.0.0-alpha.4"
 
 [file]
-name = "code_arm64_2024-01-01_12-14.tar.zst"
+name = "code_arm64_2024-01-15_12-15.tar.zst"
 
 # This value can be used to verify the integrity of the file
-sha256 = "8f1ccca7aa2260be0e6553ee4da926343d34fd5f9ddbbf3e530fce7344c12a40"
+sha256 = "4205853035f35179f3aacdf4c9b17205b7fa9d8809e2dcf7695469cc5d9baf73"
 
 # zstd: [1-22]
 zstd-level = 22
@@ -231,48 +231,48 @@ zstd-level = 22
 # Installed size ≈ tar-size
 # Installed size is approximately equal to the size of the tar file
 tar = "514M"
-tar_bytes = 538554880
+tar_bytes = 538742272
 
 # Space occupied ≈ tar-size + zstd-size
 # You will need to prepare a large enough space before installation.
 zstd = "83M"
-zstd_bytes = 86376805
+zstd_bytes = 86438397
 
 [compatibility]
 compatible_mode = true
 
-previous_version = "latest02"
+previous_version = "latest01"
 
 # The value is &str, not int
-previous_date = "20231127"
-previous_tag = "2023-11-27"
-previous_file = "code_arm64_2023-11-27_12-15-rootfs.tar.zst"
-previous_sha256 = "852734949a23ccaef589a86348573164c2898236a92ae4108f3fa31368b39419"
+previous_date = "20231113"
+previous_tag = "2023-11-13"
+previous_file = "code_arm64_2023-11-13_12-15-rootfs.tar.zst"
+previous_sha256 = "43cb114f228e8c670b86f742bf15bae6fcc189c7133cbbfaadb1add1f65e9ce1"
 
-current_version = "latest01"
-current_date = "20240101"
-old_file = "code_arm64_2023-11-13_12-15-rootfs.tar.zst"
-old_sha256 = "43cb114f228e8c670b86f742bf15bae6fcc189c7133cbbfaadb1add1f65e9ce1"
+current_version = "latest02"
+current_date = "20240115"
+old_file = ""
+old_sha256 = ""
 # edition 2021
 # DISTRO_NAME=code_arm64
-# ROOTFS_FILE=code_arm64_2024-01-01_12-14-rootfs.tar.zst
-# SHA256SUM=8f1ccca7aa2260be0e6553ee4da926343d34fd5f9ddbbf3e530fce7344c12a40
-# BUILD_DATE=20240101
-# BUILD_TAG=2024-01-01
+# ROOTFS_FILE=code_arm64_2024-01-15_12-15-rootfs.tar.zst
+# SHA256SUM=4205853035f35179f3aacdf4c9b17205b7fa9d8809e2dcf7695469cc5d9baf73
+# BUILD_DATE=20240115
+# BUILD_TAG=2024-01-15
 # STATUS=completed
-# VERSION=latest01
-# END_TIME=12:14
+# VERSION=latest02
+# END_TIME=12:15
 
 [time]
 format = "rfc-3339"
 zone = "UTC"
-date = 2024-01-01
-begin = 2024-01-01 12:02:32.630335366+00:00
-start-sync_0 = 12:11:05
-start-zstd = 12:11:26
-start-sync_1 = 12:14:43
-end-sync_1 = 12:14:56
-end = 2024-01-01 12:14:56.692697582+00:00
+date = 2024-01-15
+begin = 2024-01-15 12:02:29.264833516+00:00
+start-sync_0 = 12:11:54
+start-zstd = 12:12:16
+start-sync_1 = 12:15:28
+end-sync_1 = 12:15:37
+end = 2024-01-15 12:15:37.798534149+00:00
 
 [server]
 repo = "cake233/code-arm64"
