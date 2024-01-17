@@ -1,6 +1,6 @@
 [main]
 name = "debian"
-tag = ["mate", "2024-01-10"]
+tag = ["mate", "2024-01-17"]
 os = "debian"
 release = "sid"
 arch = "amd64"
@@ -9,10 +9,10 @@ xorg_or_wayland = true
 syntax_version = "0.0.0-alpha.4"
 
 [file]
-name = "debian-mate_amd64_2024-01-10_12-38.tar.zst"
+name = "debian-mate_amd64_2024-01-17_12-50.tar.zst"
 
 # This value can be used to verify the integrity of the file
-sha256 = "6b7e05b4278cab87dbb48dcbd8e3f521e51c3d065eaf79b1fa4d9331ecd4f088"
+sha256 = "d2d673761635fdf40a3171e31c8b7b7f8a01b9328befc4c6fab04ec6e0c18f72"
 
 # zstd: [1-22]
 zstd-level = 19
@@ -20,13 +20,13 @@ zstd-level = 19
 [file.size]
 # Installed size ≈ tar-size
 # Installed size is approximately equal to the size of the tar file
-tar = "3.6G"
-tar_bytes = 3789975552
+tar = "4.0G"
+tar_bytes = 4237296640
 
 # Space occupied ≈ tar-size + zstd-size
 # You will need to prepare a large enough space before installation.
-zstd = "989M"
-zstd_bytes = 1036958951
+zstd = "1.1G"
+zstd_bytes = 1139918141
 
 [compatibility]
 compatible_mode = true
@@ -40,29 +40,29 @@ previous_file = "debian-mate_amd64_2023-11-22_12-49-rootfs.tar.zst"
 previous_sha256 = "bc9998abddaa2535a1cb878dd23dd4ac4eb353046c80d110f33714de11749216"
 
 current_version = "latest02"
-current_date = "20240110"
+current_date = "20240117"
 old_file = "debian-mate_amd64_2023-11-15_12-50-rootfs.tar.zst"
 old_sha256 = "0f5c1a7225fc1ba7192e7eab68ec52a8b57f933f3bb29a9b2ccf1fc397424c86"
 # edition 2021
 # DISTRO_NAME=debian-sid_amd64
-# ROOTFS_FILE=debian-mate_amd64_2024-01-10_12-38-rootfs.tar.zst
-# SHA256SUM=6b7e05b4278cab87dbb48dcbd8e3f521e51c3d065eaf79b1fa4d9331ecd4f088
-# BUILD_DATE=20240110
-# BUILD_TAG=2024-01-10
+# ROOTFS_FILE=debian-mate_amd64_2024-01-17_12-50-rootfs.tar.zst
+# SHA256SUM=d2d673761635fdf40a3171e31c8b7b7f8a01b9328befc4c6fab04ec6e0c18f72
+# BUILD_DATE=20240117
+# BUILD_TAG=2024-01-17
 # STATUS=completed
 # VERSION=latest02
-# END_TIME=12:38
+# END_TIME=12:50
 
 [time]
 format = "rfc-3339"
 zone = "UTC"
-date = 2024-01-10
-begin = 2024-01-10 12:22:11.516697217+00:00
-start-sync_0 = 12:25:50
-start-zstd = 12:27:54
-start-sync_1 = 12:37:28
-end-sync_1 = 12:38:12
-end = 2024-01-10 12:38:12.974628654+00:00
+date = 2024-01-17
+begin = 2024-01-17 12:32:29.023862355+00:00
+start-sync_0 = 12:36:55
+start-zstd = 12:39:16
+start-sync_1 = 12:49:31
+end-sync_1 = 12:50:21
+end = 2024-01-17 12:50:21.288208337+00:00
 
 [server]
 repo = "cake233/debian-mate-amd64"
@@ -98,7 +98,7 @@ LANG = "en_US.UTF-8"
 
 [version]
 ldd = 'ldd (Debian GLIBC 2.37-13) 2.37'
-zsh = ''
+zsh = 'zsh 5.9 (x86_64-debian-linux-gnu)'
 
 [port]
 tcp = [5902, 36080]
