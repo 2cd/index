@@ -77,7 +77,7 @@ localhost:5903
 ```toml
 [main]
 name = "alpine"
-tag = ["xfce", "2024-01-11"]
+tag = ["xfce", "2024-01-18"]
 os = "alpine"
 release = "edge"
 arch = "arm64"
@@ -86,10 +86,10 @@ xorg_or_wayland = true
 syntax_version = "0.0.0-alpha.4"
 
 [file]
-name = "alpine-xfce_arm64_2024-01-11_00-17.tar.zst"
+name = "alpine-xfce_arm64_2024-01-18_00-16.tar.zst"
 
 # This value can be used to verify the integrity of the file
-sha256 = "f557972dd5fc1c4ca6d57e4c04226d3f25d73d151521b04a22202a2a1a5c6a66"
+sha256 = "465bf26455cf1d2f7e23baed33dec43bf753b7bfc2e37441d48596e5f7d7b6cc"
 
 # zstd: [1-22]
 zstd-level = 19
@@ -98,12 +98,12 @@ zstd-level = 19
 # Installed size ≈ tar-size
 # Installed size is approximately equal to the size of the tar file
 tar = "1.3G"
-tar_bytes = 1364294144
+tar_bytes = 1362631680
 
 # Space occupied ≈ tar-size + zstd-size
 # You will need to prepare a large enough space before installation.
-zstd = "417M"
-zstd_bytes = 436411782
+zstd = "415M"
+zstd_bytes = 434408361
 
 [compatibility]
 compatible_mode = true
@@ -117,29 +117,29 @@ previous_file = "alpine-xfce_arm64_2023-11-23_00-15-rootfs.tar.zst"
 previous_sha256 = "a4e9a1c5c208f8809b1c235c01b41d285551fb045c3fe1ee6ea8d03703f4ce72"
 
 current_version = "latest02"
-current_date = "20240111"
+current_date = "20240118"
 old_file = "alpine-xfce_arm64_2023-11-16_00-15-rootfs.tar.zst"
 old_sha256 = "4afb6b6dd05b4a3b0fe7608f81a0fbc30dd2ee7f24fa6759de208a035c57a824"
 # edition 2021
 # DISTRO_NAME=alpine-edge_arm64
-# ROOTFS_FILE=alpine-xfce_arm64_2024-01-11_00-17-rootfs.tar.zst
-# SHA256SUM=f557972dd5fc1c4ca6d57e4c04226d3f25d73d151521b04a22202a2a1a5c6a66
-# BUILD_DATE=20240111
-# BUILD_TAG=2024-01-11
+# ROOTFS_FILE=alpine-xfce_arm64_2024-01-18_00-16-rootfs.tar.zst
+# SHA256SUM=465bf26455cf1d2f7e23baed33dec43bf753b7bfc2e37441d48596e5f7d7b6cc
+# BUILD_DATE=20240118
+# BUILD_TAG=2024-01-18
 # STATUS=completed
 # VERSION=latest02
-# END_TIME=00:17
+# END_TIME=00:16
 
 [time]
 format = "rfc-3339"
 zone = "UTC"
-date = 2024-01-11
-begin = 2024-01-11 00:08:37.940065930+00:00
-start-sync_0 = 00:11:56
-start-zstd = 00:12:45
-start-sync_1 = 00:16:35
-end-sync_1 = 00:17:02
-end = 2024-01-11 00:17:02.417234834+00:00
+date = 2024-01-18
+begin = 2024-01-18 00:07:20.416969469+00:00
+start-sync_0 = 00:11:12
+start-zstd = 00:12:03
+start-sync_1 = 00:16:12
+end-sync_1 = 00:16:39
+end = 2024-01-18 00:16:39.153270108+00:00
 
 [server]
 repo = "cake233/alpine-xfce-arm64"
