@@ -1,6 +1,6 @@
 [main]
 name = "alpine"
-tag = ["zsh", "2024-01-11"]
+tag = ["zsh", "2024-01-18"]
 os = "alpine"
 release = "edge"
 arch = "i386"
@@ -9,10 +9,10 @@ xorg_or_wayland = false
 syntax_version = "0.0.0-alpha.4"
 
 [file]
-name = "alpine-zsh_i386_2024-01-11_00-07.tar.zst"
+name = "alpine-zsh_i386_2024-01-18_00-07.tar.zst"
 
 # This value can be used to verify the integrity of the file
-sha256 = "1c46ff84187a39ee07dbaa4e2bf0439fa58571e795cef0a1079678edece49150"
+sha256 = "6988be066811073b471a2914f2bb78f3f9a85f3753a92859519751273d8b23c4"
 
 # zstd: [1-22]
 zstd-level = 20
@@ -20,13 +20,13 @@ zstd-level = 20
 [file.size]
 # Installed size ≈ tar-size
 # Installed size is approximately equal to the size of the tar file
-tar = "152M"
-tar_bytes = 158447616
+tar = "127M"
+tar_bytes = 132357120
 
 # Space occupied ≈ tar-size + zstd-size
 # You will need to prepare a large enough space before installation.
-zstd = "42M"
-zstd_bytes = 43511871
+zstd = "41M"
+zstd_bytes = 42068118
 
 [compatibility]
 compatible_mode = true
@@ -40,15 +40,15 @@ previous_file = "alpine-zsh_i386_2023-11-23_00-07-rootfs.tar.zst"
 previous_sha256 = "13009352fc5a67ce689caa47e19f2cfc3ee2cbb3430536794de28aad2ea5109f"
 
 current_version = "latest02"
-current_date = "20240111"
+current_date = "20240118"
 old_file = "alpine-zsh_i386_2023-11-16_00-06-rootfs.tar.zst"
 old_sha256 = "78b30eb67df00e983950ab9b46d35e9b662f327a8ce57e30cd5ee3c75e197560"
 # edition 2021
 # DISTRO_NAME=alpine-edge_i386
-# ROOTFS_FILE=alpine-zsh_i386_2024-01-11_00-07-rootfs.tar.zst
-# SHA256SUM=1c46ff84187a39ee07dbaa4e2bf0439fa58571e795cef0a1079678edece49150
-# BUILD_DATE=20240111
-# BUILD_TAG=2024-01-11
+# ROOTFS_FILE=alpine-zsh_i386_2024-01-18_00-07-rootfs.tar.zst
+# SHA256SUM=6988be066811073b471a2914f2bb78f3f9a85f3753a92859519751273d8b23c4
+# BUILD_DATE=20240118
+# BUILD_TAG=2024-01-18
 # STATUS=completed
 # VERSION=latest02
 # END_TIME=00:07
@@ -56,13 +56,13 @@ old_sha256 = "78b30eb67df00e983950ab9b46d35e9b662f327a8ce57e30cd5ee3c75e197560"
 [time]
 format = "rfc-3339"
 zone = "UTC"
-date = 2024-01-11
-begin = 2024-01-11 00:02:31.257323207+00:00
-start-sync_0 = 00:05:16
-start-zstd = 00:06:42
-start-sync_1 = 00:07:14
-end-sync_1 = 00:07:25
-end = 2024-01-11 00:07:25.221613485+00:00
+date = 2024-01-18
+begin = 2024-01-18 00:02:29.374144642+00:00
+start-sync_0 = 00:04:59
+start-zstd = 00:06:20
+start-sync_1 = 00:06:56
+end-sync_1 = 00:07:02
+end = 2024-01-18 00:07:03.009598891+00:00
 
 [server]
 repo = "cake233/alpine-zsh-386"
