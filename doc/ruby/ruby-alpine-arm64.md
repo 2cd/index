@@ -20,7 +20,7 @@ docker exec -it ruby-alpine-arm64 bash
 ```toml
 [main]
 name = "ruby"
-tag = ["alpine", "2024-01-08", "musl-libc", "musl"]
+tag = ["alpine", "2024-01-22", "musl-libc", "musl"]
 os = "alpine"
 release = "stable"
 arch = "arm64"
@@ -29,10 +29,10 @@ xorg_or_wayland = false
 syntax_version = "0.0.0-alpha.4"
 
 [file]
-name = "ruby-musl_arm64_2024-01-08_12-04.tar.zst"
+name = "ruby-musl_arm64_2024-01-22_12-06.tar.zst"
 
 # This value can be used to verify the integrity of the file
-sha256 = "c5b185315f17eec0a2c70362b8c2e5700eca62e26b1b81e984e9f2253a47206e"
+sha256 = "ecf1714c481d6f0c9f482f4824db0287f0962efab15f93d59a17615846f7d4a3"
 
 # zstd: [1-22]
 zstd-level = 22
@@ -41,12 +41,12 @@ zstd-level = 22
 # Installed size ≈ tar-size
 # Installed size is approximately equal to the size of the tar file
 tar = "109M"
-tar_bytes = 113428480
+tar_bytes = 113494016
 
 # Space occupied ≈ tar-size + zstd-size
 # You will need to prepare a large enough space before installation.
 zstd = "41M"
-zstd_bytes = 42479048
+zstd_bytes = 42481783
 
 [compatibility]
 compatible_mode = true
@@ -54,35 +54,35 @@ compatible_mode = true
 previous_version = "latest02"
 
 # The value is &str, not int
-previous_date = "20211128"
-previous_tag = ""
-previous_file = ""
-previous_sha256 = ""
+previous_date = "20231120"
+previous_tag = "2023-11-20"
+previous_file = "ruby-musl_arm64_2023-11-20_12-05-rootfs.tar.zst"
+previous_sha256 = "b17e54a2d369c4477ae6b85c5b47c2fdc214bd4086bed353570a226b87b8b490"
 
 current_version = "latest01"
-current_date = "20240108"
-old_file = ""
-old_sha256 = ""
+current_date = "20240122"
+old_file = "ruby-musl_arm64_2023-10-23_12-05-rootfs.tar.zst"
+old_sha256 = "adb94669c9065d82adf47bec9ade80cc7974c323c6ed38478c9db89beb17e0e0"
 # edition 2021
 # DISTRO_NAME=ruby_arm64
-# ROOTFS_FILE=ruby-musl_arm64_2024-01-08_12-04-rootfs.tar.zst
-# SHA256SUM=c5b185315f17eec0a2c70362b8c2e5700eca62e26b1b81e984e9f2253a47206e
-# BUILD_DATE=20240108
-# BUILD_TAG=2024-01-08
+# ROOTFS_FILE=ruby-musl_arm64_2024-01-22_12-06-rootfs.tar.zst
+# SHA256SUM=ecf1714c481d6f0c9f482f4824db0287f0962efab15f93d59a17615846f7d4a3
+# BUILD_DATE=20240122
+# BUILD_TAG=2024-01-22
 # STATUS=completed
 # VERSION=latest01
-# END_TIME=12:04
+# END_TIME=12:06
 
 [time]
 format = "rfc-3339"
 zone = "UTC"
-date = 2024-01-08
-begin = 2024-01-08 12:02:33.174974513+00:00
-start-sync_0 = 12:03:15
-start-zstd = 12:03:22
-start-sync_1 = 12:04:00
-end-sync_1 = 12:04:07
-end = 2024-01-08 12:04:07.914558954+00:00
+date = 2024-01-22
+begin = 2024-01-22 12:02:36.520337537+00:00
+start-sync_0 = 12:05:17
+start-zstd = 12:05:24
+start-sync_1 = 12:06:02
+end-sync_1 = 12:06:11
+end = 2024-01-22 12:06:11.318051221+00:00
 
 [server]
 repo = "cake233/ruby-alpine-arm64"
