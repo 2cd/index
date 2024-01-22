@@ -1,6 +1,6 @@
 [main]
 name = "ruby"
-tag = ["alpine", "2024-01-08", "musl-libc", "musl"]
+tag = ["alpine", "2024-01-22", "musl-libc", "musl"]
 os = "alpine"
 release = "stable"
 arch = "armhf"
@@ -9,10 +9,10 @@ xorg_or_wayland = false
 syntax_version = "0.0.0-alpha.4"
 
 [file]
-name = "ruby-musl_armhf_2024-01-08_12-03.tar.zst"
+name = "ruby-musl_armhf_2024-01-22_12-05.tar.zst"
 
 # This value can be used to verify the integrity of the file
-sha256 = "947bbaa512fc1168811d628133afe7a7a0ae8d1cb87f7ceef17de70a7b403423"
+sha256 = "8c7d6e574a8f957de34915a1b254bc0915a4164a4ec7040758431cd9bca05889"
 
 # zstd: [1-22]
 zstd-level = 22
@@ -21,48 +21,48 @@ zstd-level = 22
 # Installed size ≈ tar-size
 # Installed size is approximately equal to the size of the tar file
 tar = "81M"
-tar_bytes = 84835840
+tar_bytes = 84844032
 
 # Space occupied ≈ tar-size + zstd-size
 # You will need to prepare a large enough space before installation.
 zstd = "37M"
-zstd_bytes = 38691362
+zstd_bytes = 38699086
 
 [compatibility]
 compatible_mode = true
 
-previous_version = "latest02"
+previous_version = "latest01"
 
 # The value is &str, not int
-previous_date = "20211128"
-previous_tag = ""
-previous_file = ""
-previous_sha256 = ""
+previous_date = "20231023"
+previous_tag = "2023-10-23"
+previous_file = "ruby-musl_armhf_2023-10-23_12-05-rootfs.tar.zst"
+previous_sha256 = "36b119a2577045f9e849dd32a4d7b0b9299576805dfacd62e796a06e10736e81"
 
-current_version = "latest01"
-current_date = "20240108"
+current_version = "latest02"
+current_date = "20240122"
 old_file = ""
 old_sha256 = ""
 # edition 2021
 # DISTRO_NAME=ruby_armhf
-# ROOTFS_FILE=ruby-musl_armhf_2024-01-08_12-03-rootfs.tar.zst
-# SHA256SUM=947bbaa512fc1168811d628133afe7a7a0ae8d1cb87f7ceef17de70a7b403423
-# BUILD_DATE=20240108
-# BUILD_TAG=2024-01-08
+# ROOTFS_FILE=ruby-musl_armhf_2024-01-22_12-05-rootfs.tar.zst
+# SHA256SUM=8c7d6e574a8f957de34915a1b254bc0915a4164a4ec7040758431cd9bca05889
+# BUILD_DATE=20240122
+# BUILD_TAG=2024-01-22
 # STATUS=completed
-# VERSION=latest01
-# END_TIME=12:03
+# VERSION=latest02
+# END_TIME=12:05
 
 [time]
 format = "rfc-3339"
 zone = "UTC"
-date = 2024-01-08
-begin = 2024-01-08 12:02:33.441723468+00:00
-start-sync_0 = 12:02:54
-start-zstd = 12:03:00
-start-sync_1 = 12:03:33
-end-sync_1 = 12:03:40
-end = 2024-01-08 12:03:40.767066951+00:00
+date = 2024-01-22
+begin = 2024-01-22 12:02:33.390291442+00:00
+start-sync_0 = 12:04:14
+start-zstd = 12:04:21
+start-sync_1 = 12:04:55
+end-sync_1 = 12:05:03
+end = 2024-01-22 12:05:04.008432766+00:00
 
 [server]
 repo = "cake233/ruby-alpine-armv7"
