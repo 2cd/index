@@ -1,6 +1,6 @@
 [main]
 name = "ubuntu"
-tag = ["xfce", "2024-01-16", "devel"]
+tag = ["xfce", "2024-01-23", "devel"]
 os = "ubuntu"
 release = "dev"
 arch = "amd64"
@@ -9,10 +9,10 @@ xorg_or_wayland = true
 syntax_version = "0.0.0-alpha.4"
 
 [file]
-name = "ubuntu-xfce_amd64_2024-01-16_01-00.tar.zst"
+name = "ubuntu-xfce_amd64_2024-01-23_00-57.tar.zst"
 
 # This value can be used to verify the integrity of the file
-sha256 = "c5dae3ab5531aa519b4d7f9d55550ca03dd907bba8e54d19a3104c7545a7827f"
+sha256 = "af4491d10972ae77e57136ba40fe4ae1bf9017f0b85ad918beb78300efa21526"
 
 # zstd: [1-22]
 zstd-level = 19
@@ -21,12 +21,12 @@ zstd-level = 19
 # Installed size ≈ tar-size
 # Installed size is approximately equal to the size of the tar file
 tar = "4.1G"
-tar_bytes = 4332640256
+tar_bytes = 4381065728
 
 # Space occupied ≈ tar-size + zstd-size
 # You will need to prepare a large enough space before installation.
-zstd = "1.1G"
-zstd_bytes = 1164815934
+zstd = "1.2G"
+zstd_bytes = 1185240269
 
 [compatibility]
 compatible_mode = true
@@ -40,29 +40,29 @@ previous_file = "ubuntu-xfce_amd64_2023-11-28_00-44-rootfs.tar.zst"
 previous_sha256 = "24e4f54ca72a5187a485f13f658856991174b15aa2bfbe8e5698656545714cf1"
 
 current_version = "latest02"
-current_date = "20240116"
+current_date = "20240123"
 old_file = "ubuntu-xfce_amd64_2023-11-21_00-43-rootfs.tar.zst"
 old_sha256 = "caf9ba3bcf4d53bee683cc0fd6c476fa44d89de3f31cc0c53b180d1ed9c7fd11"
 # edition 2021
 # DISTRO_NAME=ubuntu-dev_amd64
-# ROOTFS_FILE=ubuntu-xfce_amd64_2024-01-16_01-00-rootfs.tar.zst
-# SHA256SUM=c5dae3ab5531aa519b4d7f9d55550ca03dd907bba8e54d19a3104c7545a7827f
-# BUILD_DATE=20240116
-# BUILD_TAG=2024-01-16
+# ROOTFS_FILE=ubuntu-xfce_amd64_2024-01-23_00-57-rootfs.tar.zst
+# SHA256SUM=af4491d10972ae77e57136ba40fe4ae1bf9017f0b85ad918beb78300efa21526
+# BUILD_DATE=20240123
+# BUILD_TAG=2024-01-23
 # STATUS=completed
 # VERSION=latest02
-# END_TIME=01:00
+# END_TIME=00:57
 
 [time]
 format = "rfc-3339"
 zone = "UTC"
-date = 2024-01-16
-begin = 2024-01-16 00:38:33.455032285+00:00
-start-sync_0 = 00:45:50
-start-zstd = 00:48:14
-start-sync_1 = 01:00:00
-end-sync_1 = 01:00:55
-end = 2024-01-16 01:00:55.596533140+00:00
+date = 2024-01-23
+begin = 2024-01-23 00:35:46.984612680+00:00
+start-sync_0 = 00:41:35
+start-zstd = 00:44:04
+start-sync_1 = 00:56:53
+end-sync_1 = 00:57:47
+end = 2024-01-23 00:57:47.740874136+00:00
 
 [server]
 repo = "cake233/ubuntu-xfce-amd64"
