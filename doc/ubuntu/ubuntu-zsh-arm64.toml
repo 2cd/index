@@ -1,6 +1,6 @@
 [main]
 name = "ubuntu"
-tag = ["zsh", "2024-01-16", "devel"]
+tag = ["zsh", "2024-01-23", "devel"]
 os = "ubuntu"
 release = "dev"
 arch = "arm64"
@@ -9,10 +9,10 @@ xorg_or_wayland = false
 syntax_version = "0.0.0-alpha.4"
 
 [file]
-name = "ubuntu-zsh_arm64_2024-01-16_00-38.tar.zst"
+name = "ubuntu-zsh_arm64_2024-01-23_00-35.tar.zst"
 
 # This value can be used to verify the integrity of the file
-sha256 = "f0396e148651e17ae6e8c24f9829959369e6447136bce85a5597fa2550d54142"
+sha256 = "2fc18a9c83ec4df62bc32a9dba77f33cb96f7b61eed13edfe460ce2dfac9d9f8"
 
 # zstd: [1-22]
 zstd-level = 20
@@ -21,12 +21,12 @@ zstd-level = 20
 # Installed size ≈ tar-size
 # Installed size is approximately equal to the size of the tar file
 tar = "769M"
-tar_bytes = 806124032
+tar_bytes = 806171136
 
 # Space occupied ≈ tar-size + zstd-size
 # You will need to prepare a large enough space before installation.
 zstd = "142M"
-zstd_bytes = 148851759
+zstd_bytes = 148870065
 
 [compatibility]
 compatible_mode = true
@@ -40,29 +40,29 @@ previous_file = "ubuntu-zsh_arm64_2023-11-28_00-22-rootfs.tar.zst"
 previous_sha256 = "7f2949eb921cf83e67f48fb11e63cd2f9ae4e66329c015e343ee50cb445e8be5"
 
 current_version = "latest02"
-current_date = "20240116"
+current_date = "20240123"
 old_file = "ubuntu-zsh_arm64_2023-11-21_00-23-rootfs.tar.zst"
 old_sha256 = "56743afceb8f982f3803799f3288eea5afaeeffff805897dd5aa438f4da35d9c"
 # edition 2021
 # DISTRO_NAME=ubuntu-dev_arm64
-# ROOTFS_FILE=ubuntu-zsh_arm64_2024-01-16_00-38-rootfs.tar.zst
-# SHA256SUM=f0396e148651e17ae6e8c24f9829959369e6447136bce85a5597fa2550d54142
-# BUILD_DATE=20240116
-# BUILD_TAG=2024-01-16
+# ROOTFS_FILE=ubuntu-zsh_arm64_2024-01-23_00-35-rootfs.tar.zst
+# SHA256SUM=2fc18a9c83ec4df62bc32a9dba77f33cb96f7b61eed13edfe460ce2dfac9d9f8
+# BUILD_DATE=20240123
+# BUILD_TAG=2024-01-23
 # STATUS=completed
 # VERSION=latest02
-# END_TIME=00:38
+# END_TIME=00:35
 
 [time]
 format = "rfc-3339"
 zone = "UTC"
-date = 2024-01-16
-begin = 2024-01-16 00:02:32.033343405+00:00
-start-sync_0 = 00:34:13
-start-zstd = 00:35:55
-start-sync_1 = 00:37:55
-end-sync_1 = 00:38:09
-end = 2024-01-16 00:38:09.600861524+00:00
+date = 2024-01-23
+begin = 2024-01-23 00:02:27.724058037+00:00
+start-sync_0 = 00:31:48
+start-zstd = 00:33:22
+start-sync_1 = 00:35:15
+end-sync_1 = 00:35:31
+end = 2024-01-23 00:35:31.112236182+00:00
 
 [server]
 repo = "cake233/ubuntu-zsh-arm64"
