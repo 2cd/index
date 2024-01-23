@@ -20,7 +20,7 @@ docker exec -it fedora-zsh-arm64 zsh
 ```toml
 [main]
 name = "fedora"
-tag = ["zsh", "2024-01-16"]
+tag = ["zsh", "2024-01-23"]
 os = "fedora"
 release = "rawhide"
 arch = "arm64"
@@ -29,10 +29,10 @@ xorg_or_wayland = false
 syntax_version = "0.0.0-alpha.4"
 
 [file]
-name = "fedora-zsh_arm64_2024-01-16_12-38.tar.zst"
+name = "fedora-zsh_arm64_2024-01-23_12-37.tar.zst"
 
 # This value can be used to verify the integrity of the file
-sha256 = "29aa6812761d57bd8c3c04465a0efbb7fc0cde12810e91236d1db0181675a001"
+sha256 = "c2e5c85c0e0131995736187ebaca2a8d2d0f64e36573af779bd3023f3c55ef36"
 
 # zstd: [1-22]
 zstd-level = 20
@@ -41,12 +41,12 @@ zstd-level = 20
 # Installed size ≈ tar-size
 # Installed size is approximately equal to the size of the tar file
 tar = "1.5G"
-tar_bytes = 1503873024
+tar_bytes = 1512762368
 
 # Space occupied ≈ tar-size + zstd-size
 # You will need to prepare a large enough space before installation.
-zstd = "216M"
-zstd_bytes = 226014705
+zstd = "218M"
+zstd_bytes = 227646293
 
 [compatibility]
 compatible_mode = true
@@ -60,29 +60,29 @@ previous_file = "fedora-zsh_arm64_2023-11-21_12-39-rootfs.tar.zst"
 previous_sha256 = "0556161d949de5a766ce1bdf709f9cade15fdcc3e710eea70b5f647ed0239af4"
 
 current_version = "latest01"
-current_date = "20240116"
+current_date = "20240123"
 old_file = "fedora-zsh_arm64_2023-11-14_12-59-rootfs.tar.zst"
 old_sha256 = "1fe588216e9d7b5abac29502c43ff6f1b6817fb2477a9e55f8a25f1512a1fb1f"
 # edition 2021
 # DISTRO_NAME=fedora-rawhide_arm64
-# ROOTFS_FILE=fedora-zsh_arm64_2024-01-16_12-38-rootfs.tar.zst
-# SHA256SUM=29aa6812761d57bd8c3c04465a0efbb7fc0cde12810e91236d1db0181675a001
-# BUILD_DATE=20240116
-# BUILD_TAG=2024-01-16
+# ROOTFS_FILE=fedora-zsh_arm64_2024-01-23_12-37-rootfs.tar.zst
+# SHA256SUM=c2e5c85c0e0131995736187ebaca2a8d2d0f64e36573af779bd3023f3c55ef36
+# BUILD_DATE=20240123
+# BUILD_TAG=2024-01-23
 # STATUS=completed
 # VERSION=latest01
-# END_TIME=12:38
+# END_TIME=12:37
 
 [time]
 format = "rfc-3339"
 zone = "UTC"
-date = 2024-01-16
-begin = 2024-01-16 12:02:33.980750708+00:00
-start-sync_0 = 12:32:57
-start-zstd = 12:34:46
-start-sync_1 = 12:38:04
-end-sync_1 = 12:38:20
-end = 2024-01-16 12:38:20.477168386+00:00
+date = 2024-01-23
+begin = 2024-01-23 12:02:35.160293796+00:00
+start-sync_0 = 12:32:38
+start-zstd = 12:34:28
+start-sync_1 = 12:37:41
+end-sync_1 = 12:37:58
+end = 2024-01-23 12:37:58.818489510+00:00
 
 [server]
 repo = "cake233/fedora-zsh-arm64"
