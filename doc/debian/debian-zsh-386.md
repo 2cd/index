@@ -20,7 +20,7 @@ docker exec -it debian-zsh-386 zsh
 ```toml
 [main]
 name = "debian"
-tag = ["zsh", "2024-01-17"]
+tag = ["zsh", "2024-01-24"]
 os = "debian"
 release = "sid"
 arch = "i386"
@@ -29,10 +29,10 @@ xorg_or_wayland = false
 syntax_version = "0.0.0-alpha.4"
 
 [file]
-name = "debian-zsh_i386_2024-01-17_12-15.tar.zst"
+name = "debian-zsh_i386_2024-01-24_12-15.tar.zst"
 
 # This value can be used to verify the integrity of the file
-sha256 = "d06c8df493528b8d2192a469697779459b278968075d32165dc0a8755c35c905"
+sha256 = "9a1a936d33b6f0cd48c1c0a5ba71b55477ef439f5f1908571a35bb015f89c68c"
 
 # zstd: [1-22]
 zstd-level = 20
@@ -41,12 +41,12 @@ zstd-level = 20
 # Installed size ≈ tar-size
 # Installed size is approximately equal to the size of the tar file
 tar = "791M"
-tar_bytes = 828702208
+tar_bytes = 828802048
 
 # Space occupied ≈ tar-size + zstd-size
 # You will need to prepare a large enough space before installation.
 zstd = "159M"
-zstd_bytes = 165921158
+zstd_bytes = 165991538
 
 [compatibility]
 compatible_mode = true
@@ -60,15 +60,15 @@ previous_file = "debian-zsh_i386_2023-11-22_12-15-rootfs.tar.zst"
 previous_sha256 = "87fd9e4b978a2e6420c559c40ded9614ffa0d773bd1d1ca378522c856c964d81"
 
 current_version = "latest01"
-current_date = "20240117"
+current_date = "20240124"
 old_file = "debian-zsh_i386_2023-11-15_12-15-rootfs.tar.zst"
 old_sha256 = "47e004f89a514836721806b9ae2d1197657c89d58a296ba1f44eb0e4a71c686b"
 # edition 2021
 # DISTRO_NAME=debian-sid_i386
-# ROOTFS_FILE=debian-zsh_i386_2024-01-17_12-15-rootfs.tar.zst
-# SHA256SUM=d06c8df493528b8d2192a469697779459b278968075d32165dc0a8755c35c905
-# BUILD_DATE=20240117
-# BUILD_TAG=2024-01-17
+# ROOTFS_FILE=debian-zsh_i386_2024-01-24_12-15-rootfs.tar.zst
+# SHA256SUM=9a1a936d33b6f0cd48c1c0a5ba71b55477ef439f5f1908571a35bb015f89c68c
+# BUILD_DATE=20240124
+# BUILD_TAG=2024-01-24
 # STATUS=completed
 # VERSION=latest01
 # END_TIME=12:15
@@ -76,13 +76,13 @@ old_sha256 = "47e004f89a514836721806b9ae2d1197657c89d58a296ba1f44eb0e4a71c686b"
 [time]
 format = "rfc-3339"
 zone = "UTC"
-date = 2024-01-17
-begin = 2024-01-17 12:02:28.105445061+00:00
-start-sync_0 = 12:11:06
-start-zstd = 12:12:42
-start-sync_1 = 12:15:03
-end-sync_1 = 12:15:15
-end = 2024-01-17 12:15:15.970344230+00:00
+date = 2024-01-24
+begin = 2024-01-24 12:02:36.125272369+00:00
+start-sync_0 = 12:11:41
+start-zstd = 12:13:23
+start-sync_1 = 12:15:44
+end-sync_1 = 12:15:59
+end = 2024-01-24 12:15:59.908427035+00:00
 
 [server]
 repo = "cake233/debian-zsh-386"
@@ -117,6 +117,6 @@ current = true
 LANG = "en_US.UTF-8"
 
 [version]
-ldd = 'ldd (Debian GLIBC 2.37-13) 2.37'
+ldd = 'ldd (Debian GLIBC 2.37-14) 2.37'
 zsh = 'zsh 5.9 (i686-debian-linux-gnu)'
 ```
