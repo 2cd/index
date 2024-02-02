@@ -69,7 +69,7 @@ ldd "$FILE"
 ```toml
 [main]
 name = "rust"
-tag = ["latest", "2024-01-26", "nightly", "unstable", "default", "gnu-libc"]
+tag = ["latest", "2024-02-02", "nightly", "unstable", "default", "gnu-libc"]
 os = "debian"
 release = "sid"
 arch = "s390x"
@@ -78,10 +78,10 @@ xorg_or_wayland = false
 syntax_version = "0.0.0-alpha.4"
 
 [file]
-name = "rust_s390x_2024-01-26_03-03.tar.zst"
+name = "rust_s390x_2024-02-02_03-03.tar.zst"
 
 # This value can be used to verify the integrity of the file
-sha256 = "c6b95c6a3606dee913996cff7838246b39b8065f788d1e5a1e2cf6dc6d052b17"
+sha256 = "e5e742b5f335235b854a6e28925b7ba24ab6ade808dfc71789b75b56663cb6de"
 
 # zstd: [1-22]
 zstd-level = 20
@@ -90,12 +90,12 @@ zstd-level = 20
 # Installed size ≈ tar-size
 # Installed size is approximately equal to the size of the tar file
 tar = "1.8G"
-tar_bytes = 1896776192
+tar_bytes = 1904859648
 
 # Space occupied ≈ tar-size + zstd-size
 # You will need to prepare a large enough space before installation.
-zstd = "244M"
-zstd_bytes = 255634206
+zstd = "245M"
+zstd_bytes = 256709492
 
 [compatibility]
 compatible_mode = true
@@ -109,15 +109,15 @@ previous_file = "rust_s390x_2023-11-27_03-03-rootfs.tar.zst"
 previous_sha256 = "0f7be992929dc68bf3a61de63f38fb4183872cdd03dc99de79f686900ace3a7a"
 
 current_version = "latest01"
-current_date = "20240126"
+current_date = "20240202"
 old_file = "rust_s390x_2023-11-24_03-03-rootfs.tar.zst"
 old_sha256 = "01d25ab207a3c75ccb002706693b5dcef13f255f94316f55bf6819ec89a31893"
 # edition 2021
 # DISTRO_NAME=rust_s390x
-# ROOTFS_FILE=rust_s390x_2024-01-26_03-03-rootfs.tar.zst
-# SHA256SUM=c6b95c6a3606dee913996cff7838246b39b8065f788d1e5a1e2cf6dc6d052b17
-# BUILD_DATE=20240126
-# BUILD_TAG=2024-01-26
+# ROOTFS_FILE=rust_s390x_2024-02-02_03-03-rootfs.tar.zst
+# SHA256SUM=e5e742b5f335235b854a6e28925b7ba24ab6ade808dfc71789b75b56663cb6de
+# BUILD_DATE=20240202
+# BUILD_TAG=2024-02-02
 # STATUS=completed
 # VERSION=latest01
 # END_TIME=03:03
@@ -125,13 +125,13 @@ old_sha256 = "01d25ab207a3c75ccb002706693b5dcef13f255f94316f55bf6819ec89a31893"
 [time]
 format = "rfc-3339"
 zone = "UTC"
-date = 2024-01-26
-begin = 2024-01-26 02:52:33.910913308+00:00
-start-sync_0 = 02:57:56
-start-zstd = 02:58:50
-start-sync_1 = 03:03:38
-end-sync_1 = 03:03:54
-end = 2024-01-26 03:03:54.787229893+00:00
+date = 2024-02-02
+begin = 2024-02-02 02:52:29.461076447+00:00
+start-sync_0 = 02:57:27
+start-zstd = 02:58:18
+start-sync_1 = 03:03:17
+end-sync_1 = 03:03:32
+end = 2024-02-02 03:03:32.839604671+00:00
 
 [server]
 repo = "cake233/rust-s390x"
@@ -169,11 +169,11 @@ RUSTUP_HOME = "/usr/local/rustup"
 CARGO_HOME = "/usr/local/cargo"
 
 [version]
-ldd = 'ldd (Debian GLIBC 2.37-14) 2.37'
+ldd = 'ldd (Debian GLIBC 2.37-15) 2.37'
 rustup = 'rustup 1.26.0 (5af9b9484 2023-04-05)'
 cargo = 'cargo 1.77.0-nightly (7bb7b5395 2024-01-20)'
-rustc = 'rustc 1.77.0-nightly (5bd5d214e 2024-01-25)'
-cc = 'cc (Debian 13.2.0-10) 13.2.0'
+rustc = 'rustc 1.77.0-nightly (11f32b73e 2024-01-31)'
+cc = 'cc (Debian 13.2.0-13) 13.2.0'
 cargo_verbose = '''
 cargo 1.77.0-nightly (7bb7b5395 2024-01-20)
 release: 1.77.0-nightly
@@ -186,10 +186,10 @@ ssl: OpenSSL 1.1.1w  11 Sep 2023
 os: Linux [64-bit]
 '''
 rustc_verbose = '''
-rustc 1.77.0-nightly (5bd5d214e 2024-01-25)
+rustc 1.77.0-nightly (11f32b73e 2024-01-31)
 binary: rustc
-commit-hash: 5bd5d214effd494f4bafb29b3a7a2f6c2070ca5c
-commit-date: 2024-01-25
+commit-hash: 11f32b73e0dc9287e305b5b9980d24aecdc8c17f
+commit-date: 2024-01-31
 host: s390x-unknown-linux-gnu
 release: 1.77.0-nightly
 LLVM version: 17.0.6
