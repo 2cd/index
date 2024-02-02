@@ -69,7 +69,7 @@ ldd "$FILE"
 ```toml
 [main]
 name = "rust"
-tag = ["latest", "2024-01-26", "nightly", "unstable", "default", "gnu-libc"]
+tag = ["latest", "2024-02-02", "nightly", "unstable", "default", "gnu-libc"]
 os = "debian"
 release = "sid"
 arch = "armhf"
@@ -78,10 +78,10 @@ xorg_or_wayland = false
 syntax_version = "0.0.0-alpha.4"
 
 [file]
-name = "rust_armhf_2024-01-26_03-02.tar.zst"
+name = "rust_armhf_2024-02-02_03-02.tar.zst"
 
 # This value can be used to verify the integrity of the file
-sha256 = "d0fc8137ba0809c4cd2881ea25d2f9c3a087aa22bdea32ff0e79181e82622459"
+sha256 = "82610d357ddf1cbae55a2b7c1262a6bf2179ea52d5f34e6b892f69e7ff060f6b"
 
 # zstd: [1-22]
 zstd-level = 20
@@ -90,12 +90,12 @@ zstd-level = 20
 # Installed size ≈ tar-size
 # Installed size is approximately equal to the size of the tar file
 tar = "1.5G"
-tar_bytes = 1551334912
+tar_bytes = 1550261760
 
 # Space occupied ≈ tar-size + zstd-size
 # You will need to prepare a large enough space before installation.
 zstd = "223M"
-zstd_bytes = 232867145
+zstd_bytes = 233670362
 
 [compatibility]
 compatible_mode = true
@@ -109,15 +109,15 @@ previous_file = "rust_armhf_2023-11-27_03-02-rootfs.tar.zst"
 previous_sha256 = "0fed4547656ffd8ba7829cb3754201131b84bb21d9852dfd826a3e5f7f445bf3"
 
 current_version = "latest02"
-current_date = "20240126"
+current_date = "20240202"
 old_file = "rust_armhf_2023-11-24_03-02-rootfs.tar.zst"
 old_sha256 = "045c23aa187a1eb0db2ae0d392d33e253adfbb5eda7332c3ccf056a969e646a6"
 # edition 2021
 # DISTRO_NAME=rust_armhf
-# ROOTFS_FILE=rust_armhf_2024-01-26_03-02-rootfs.tar.zst
-# SHA256SUM=d0fc8137ba0809c4cd2881ea25d2f9c3a087aa22bdea32ff0e79181e82622459
-# BUILD_DATE=20240126
-# BUILD_TAG=2024-01-26
+# ROOTFS_FILE=rust_armhf_2024-02-02_03-02-rootfs.tar.zst
+# SHA256SUM=82610d357ddf1cbae55a2b7c1262a6bf2179ea52d5f34e6b892f69e7ff060f6b
+# BUILD_DATE=20240202
+# BUILD_TAG=2024-02-02
 # STATUS=completed
 # VERSION=latest02
 # END_TIME=03:02
@@ -125,13 +125,13 @@ old_sha256 = "045c23aa187a1eb0db2ae0d392d33e253adfbb5eda7332c3ccf056a969e646a6"
 [time]
 format = "rfc-3339"
 zone = "UTC"
-date = 2024-01-26
-begin = 2024-01-26 02:52:32.944798639+00:00
-start-sync_0 = 02:57:24
-start-zstd = 02:58:07
-start-sync_1 = 03:01:58
-end-sync_1 = 03:02:12
-end = 2024-01-26 03:02:12.616321473+00:00
+date = 2024-02-02
+begin = 2024-02-02 02:52:29.020578074+00:00
+start-sync_0 = 02:57:22
+start-zstd = 02:58:05
+start-sync_1 = 03:01:46
+end-sync_1 = 03:02:01
+end = 2024-02-02 03:02:01.825019322+00:00
 
 [server]
 repo = "cake233/rust-armv7"
@@ -169,11 +169,11 @@ RUSTUP_HOME = "/usr/local/rustup"
 CARGO_HOME = "/usr/local/cargo"
 
 [version]
-ldd = 'ldd (Debian GLIBC 2.37-14) 2.37'
+ldd = 'ldd (Debian GLIBC 2.37-15) 2.37'
 rustup = 'rustup 1.26.0 (5af9b9484 2023-04-05)'
 cargo = 'cargo 1.77.0-nightly (7bb7b5395 2024-01-20)'
-rustc = 'rustc 1.77.0-nightly (5bd5d214e 2024-01-25)'
-cc = 'cc (Debian 13.2.0-10) 13.2.0'
+rustc = 'rustc 1.77.0-nightly (11f32b73e 2024-01-31)'
+cc = 'cc (Debian 13.2.0-13) 13.2.0'
 cargo_verbose = '''
 cargo 1.77.0-nightly (7bb7b5395 2024-01-20)
 release: 1.77.0-nightly
@@ -186,10 +186,10 @@ ssl: OpenSSL 1.1.1w  11 Sep 2023
 os: Linux [32-bit]
 '''
 rustc_verbose = '''
-rustc 1.77.0-nightly (5bd5d214e 2024-01-25)
+rustc 1.77.0-nightly (11f32b73e 2024-01-31)
 binary: rustc
-commit-hash: 5bd5d214effd494f4bafb29b3a7a2f6c2070ca5c
-commit-date: 2024-01-25
+commit-hash: 11f32b73e0dc9287e305b5b9980d24aecdc8c17f
+commit-date: 2024-01-31
 host: armv7-unknown-linux-gnueabihf
 release: 1.77.0-nightly
 LLVM version: 17.0.6
