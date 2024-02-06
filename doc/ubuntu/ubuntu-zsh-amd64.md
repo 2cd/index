@@ -20,7 +20,7 @@ docker exec -it ubuntu-zsh-amd64 zsh
 ```toml
 [main]
 name = "ubuntu"
-tag = ["zsh", "2024-01-23", "devel"]
+tag = ["zsh", "2024-02-06", "devel"]
 os = "ubuntu"
 release = "dev"
 arch = "amd64"
@@ -29,10 +29,10 @@ xorg_or_wayland = false
 syntax_version = "0.0.0-alpha.4"
 
 [file]
-name = "ubuntu-zsh_amd64_2024-01-23_00-08.tar.zst"
+name = "ubuntu-zsh_amd64_2024-02-06_00-08.tar.zst"
 
 # This value can be used to verify the integrity of the file
-sha256 = "3449fa634dbc7c819576348565825c3abd2113878ceace8f1bac45f30caf72fe"
+sha256 = "20c56545ec239ec4e33696912bc3b7e4b4466f1946f98f469db64d25e9310b98"
 
 # zstd: [1-22]
 zstd-level = 20
@@ -40,13 +40,13 @@ zstd-level = 20
 [file.size]
 # Installed size ≈ tar-size
 # Installed size is approximately equal to the size of the tar file
-tar = "729M"
-tar_bytes = 763854336
+tar = "728M"
+tar_bytes = 762699264
 
 # Space occupied ≈ tar-size + zstd-size
 # You will need to prepare a large enough space before installation.
-zstd = "145M"
-zstd_bytes = 151907940
+zstd = "146M"
+zstd_bytes = 152106342
 
 [compatibility]
 compatible_mode = true
@@ -60,15 +60,15 @@ previous_file = "ubuntu-zsh_amd64_2023-11-28_00-09-rootfs.tar.zst"
 previous_sha256 = "5798dea8c157f1f728d0cf05daa9da172f6184b6a4d083dbdbdfeb68824165a3"
 
 current_version = "latest02"
-current_date = "20240123"
+current_date = "20240206"
 old_file = "ubuntu-zsh_amd64_2023-11-21_00-08-rootfs.tar.zst"
 old_sha256 = "81fc9b6dee9587b6fd3bf5eb6936a5ffd26c2fab9c6c74388cb082f8b1497bbb"
 # edition 2021
 # DISTRO_NAME=ubuntu-dev_amd64
-# ROOTFS_FILE=ubuntu-zsh_amd64_2024-01-23_00-08-rootfs.tar.zst
-# SHA256SUM=3449fa634dbc7c819576348565825c3abd2113878ceace8f1bac45f30caf72fe
-# BUILD_DATE=20240123
-# BUILD_TAG=2024-01-23
+# ROOTFS_FILE=ubuntu-zsh_amd64_2024-02-06_00-08-rootfs.tar.zst
+# SHA256SUM=20c56545ec239ec4e33696912bc3b7e4b4466f1946f98f469db64d25e9310b98
+# BUILD_DATE=20240206
+# BUILD_TAG=2024-02-06
 # STATUS=completed
 # VERSION=latest02
 # END_TIME=00:08
@@ -76,13 +76,13 @@ old_sha256 = "81fc9b6dee9587b6fd3bf5eb6936a5ffd26c2fab9c6c74388cb082f8b1497bbb"
 [time]
 format = "rfc-3339"
 zone = "UTC"
-date = 2024-01-23
-begin = 2024-01-23 00:02:27.771246091+00:00
-start-sync_0 = 00:04:15
-start-zstd = 00:05:49
-start-sync_1 = 00:07:55
-end-sync_1 = 00:08:06
-end = 2024-01-23 00:08:06.481531191+00:00
+date = 2024-02-06
+begin = 2024-02-06 00:02:31.158230792+00:00
+start-sync_0 = 00:04:22
+start-zstd = 00:05:55
+start-sync_1 = 00:07:56
+end-sync_1 = 00:08:07
+end = 2024-02-06 00:08:07.855844184+00:00
 
 [server]
 repo = "cake233/ubuntu-zsh-amd64"
