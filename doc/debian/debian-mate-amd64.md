@@ -77,7 +77,7 @@ localhost:5903
 ```toml
 [main]
 name = "debian"
-tag = ["mate", "2024-02-07"]
+tag = ["mate", "2024-02-14"]
 os = "debian"
 release = "sid"
 arch = "amd64"
@@ -86,10 +86,10 @@ xorg_or_wayland = true
 syntax_version = "0.0.0-alpha.4"
 
 [file]
-name = "debian-mate_amd64_2024-02-07_12-51.tar.zst"
+name = "debian-mate_amd64_2024-02-14_12-51.tar.zst"
 
 # This value can be used to verify the integrity of the file
-sha256 = "25764e739e6ca649991d74d72fae4e2e73b15e830b713f57b903f46150bbdb17"
+sha256 = "dabd68b45bcbc10d5c9d4996fd54ba709b0ae328a8450d7ec16e1165b858597e"
 
 # zstd: [1-22]
 zstd-level = 19
@@ -98,12 +98,12 @@ zstd-level = 19
 # Installed size ≈ tar-size
 # Installed size is approximately equal to the size of the tar file
 tar = "4.1G"
-tar_bytes = 4343314944
+tar_bytes = 4321918976
 
 # Space occupied ≈ tar-size + zstd-size
 # You will need to prepare a large enough space before installation.
 zstd = "1.1G"
-zstd_bytes = 1155211862
+zstd_bytes = 1155514509
 
 [compatibility]
 compatible_mode = true
@@ -117,15 +117,15 @@ previous_file = "debian-mate_amd64_2023-11-22_12-49-rootfs.tar.zst"
 previous_sha256 = "bc9998abddaa2535a1cb878dd23dd4ac4eb353046c80d110f33714de11749216"
 
 current_version = "latest02"
-current_date = "20240207"
+current_date = "20240214"
 old_file = "debian-mate_amd64_2023-11-15_12-50-rootfs.tar.zst"
 old_sha256 = "0f5c1a7225fc1ba7192e7eab68ec52a8b57f933f3bb29a9b2ccf1fc397424c86"
 # edition 2021
 # DISTRO_NAME=debian-sid_amd64
-# ROOTFS_FILE=debian-mate_amd64_2024-02-07_12-51-rootfs.tar.zst
-# SHA256SUM=25764e739e6ca649991d74d72fae4e2e73b15e830b713f57b903f46150bbdb17
-# BUILD_DATE=20240207
-# BUILD_TAG=2024-02-07
+# ROOTFS_FILE=debian-mate_amd64_2024-02-14_12-51-rootfs.tar.zst
+# SHA256SUM=dabd68b45bcbc10d5c9d4996fd54ba709b0ae328a8450d7ec16e1165b858597e
+# BUILD_DATE=20240214
+# BUILD_TAG=2024-02-14
 # STATUS=completed
 # VERSION=latest02
 # END_TIME=12:51
@@ -133,13 +133,13 @@ old_sha256 = "0f5c1a7225fc1ba7192e7eab68ec52a8b57f933f3bb29a9b2ccf1fc397424c86"
 [time]
 format = "rfc-3339"
 zone = "UTC"
-date = 2024-02-07
-begin = 2024-02-07 12:33:26.190818118+00:00
-start-sync_0 = 12:37:51
-start-zstd = 12:40:14
-start-sync_1 = 12:50:48
-end-sync_1 = 12:51:39
-end = 2024-02-07 12:51:39.987731284+00:00
+date = 2024-02-14
+begin = 2024-02-14 12:33:41.138336501+00:00
+start-sync_0 = 12:38:01
+start-zstd = 12:40:24
+start-sync_1 = 12:51:07
+end-sync_1 = 12:51:56
+end = 2024-02-14 12:51:56.727511577+00:00
 
 [server]
 repo = "cake233/debian-mate-amd64"
