@@ -20,7 +20,7 @@ docker exec -it arch-zsh-arm64 zsh
 ```toml
 [main]
 name = "arch"
-tag = ["zsh", "2024-02-07"]
+tag = ["zsh", "2024-02-14"]
 os = "arch"
 release = "latest"
 arch = "arm64"
@@ -29,10 +29,10 @@ xorg_or_wayland = false
 syntax_version = "0.0.0-alpha.4"
 
 [file]
-name = "arch-zsh_arm64_2024-02-07_00-22.tar.zst"
+name = "arch-zsh_arm64_2024-02-14_00-22.tar.zst"
 
 # This value can be used to verify the integrity of the file
-sha256 = "54ad99b396e21768b18c4c56186c28e42a7930635eff239bfe1a0b38e023c574"
+sha256 = "616125fa040641c4d66cd117f710cef63f8c7ec13eeb23ffca491447856b3c7e"
 
 # zstd: [1-22]
 zstd-level = 20
@@ -41,12 +41,12 @@ zstd-level = 20
 # Installed size ≈ tar-size
 # Installed size is approximately equal to the size of the tar file
 tar = "1.1G"
-tar_bytes = 1095686144
+tar_bytes = 1096160768
 
 # Space occupied ≈ tar-size + zstd-size
 # You will need to prepare a large enough space before installation.
 zstd = "248M"
-zstd_bytes = 259233570
+zstd_bytes = 259344760
 
 [compatibility]
 compatible_mode = true
@@ -60,15 +60,15 @@ previous_file = "arch-zsh_arm64_2023-11-22_00-28-rootfs.tar.zst"
 previous_sha256 = "494d04accb42a0e42218ff1ff555e261b6e1031f5eb0e6f0b5be21ad900262a2"
 
 current_version = "latest01"
-current_date = "20240207"
+current_date = "20240214"
 old_file = "arch-zsh_arm64_2023-11-15_00-31-rootfs.tar.zst"
 old_sha256 = "6a2b53196bbedc2899f5214c736d39db2b145bb51ce1a7dcf82f4a498ead0534"
 # edition 2021
 # DISTRO_NAME=arch_arm64
-# ROOTFS_FILE=arch-zsh_arm64_2024-02-07_00-22-rootfs.tar.zst
-# SHA256SUM=54ad99b396e21768b18c4c56186c28e42a7930635eff239bfe1a0b38e023c574
-# BUILD_DATE=20240207
-# BUILD_TAG=2024-02-07
+# ROOTFS_FILE=arch-zsh_arm64_2024-02-14_00-22-rootfs.tar.zst
+# SHA256SUM=616125fa040641c4d66cd117f710cef63f8c7ec13eeb23ffca491447856b3c7e
+# BUILD_DATE=20240214
+# BUILD_TAG=2024-02-14
 # STATUS=completed
 # VERSION=latest01
 # END_TIME=00:22
@@ -76,13 +76,13 @@ old_sha256 = "6a2b53196bbedc2899f5214c736d39db2b145bb51ce1a7dcf82f4a498ead0534"
 [time]
 format = "rfc-3339"
 zone = "UTC"
-date = 2024-02-07
-begin = 2024-02-07 00:03:10.364914072+00:00
-start-sync_0 = 00:17:04
-start-zstd = 00:18:35
-start-sync_1 = 00:21:53
-end-sync_1 = 00:22:12
-end = 2024-02-07 00:22:12.388357830+00:00
+date = 2024-02-14
+begin = 2024-02-14 00:03:12.236841591+00:00
+start-sync_0 = 00:17:25
+start-zstd = 00:18:55
+start-sync_1 = 00:22:15
+end-sync_1 = 00:22:30
+end = 2024-02-14 00:22:30.676267952+00:00
 
 [server]
 repo = "cake233/arch-zsh-arm64"
