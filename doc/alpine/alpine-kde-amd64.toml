@@ -1,6 +1,6 @@
 [main]
 name = "alpine"
-tag = ["kde", "2024-02-08"]
+tag = ["kde", "2024-02-15"]
 os = "alpine"
 release = "edge"
 arch = "amd64"
@@ -9,10 +9,10 @@ xorg_or_wayland = true
 syntax_version = "0.0.0-alpha.4"
 
 [file]
-name = "alpine-kde_amd64_2024-02-08_00-13.tar.zst"
+name = "alpine-kde_amd64_2024-02-15_00-13.tar.zst"
 
 # This value can be used to verify the integrity of the file
-sha256 = "c8c5e2e082fadd8992a586cc9ae81fe3812fae6f3c0e93d33840327310397ec4"
+sha256 = "29fca30e057e73142c2c3559d442b1fedceb4e4f3948d296f00be9fe2bf9aeda"
 
 # zstd: [1-22]
 zstd-level = 19
@@ -20,13 +20,13 @@ zstd-level = 19
 [file.size]
 # Installed size ≈ tar-size
 # Installed size is approximately equal to the size of the tar file
-tar = "902M"
-tar_bytes = 945317376
+tar = "904M"
+tar_bytes = 947892224
 
 # Space occupied ≈ tar-size + zstd-size
 # You will need to prepare a large enough space before installation.
 zstd = "304M"
-zstd_bytes = 317739968
+zstd_bytes = 318725928
 
 [compatibility]
 compatible_mode = true
@@ -40,15 +40,15 @@ previous_file = "alpine-kde_amd64_2023-11-23_00-12-rootfs.tar.zst"
 previous_sha256 = "cd496874c1911e593d85b3867b0608af0a06cb1803f8bda37a482fa5acc10a80"
 
 current_version = "latest02"
-current_date = "20240208"
+current_date = "20240215"
 old_file = "alpine-kde_amd64_2023-11-16_00-11-rootfs.tar.zst"
 old_sha256 = "7843b56cf30b20d57482c9322f1d7d01d61b3b01950b78eebd7c5d518943df73"
 # edition 2021
 # DISTRO_NAME=alpine-edge_amd64
-# ROOTFS_FILE=alpine-kde_amd64_2024-02-08_00-13-rootfs.tar.zst
-# SHA256SUM=c8c5e2e082fadd8992a586cc9ae81fe3812fae6f3c0e93d33840327310397ec4
-# BUILD_DATE=20240208
-# BUILD_TAG=2024-02-08
+# ROOTFS_FILE=alpine-kde_amd64_2024-02-15_00-13-rootfs.tar.zst
+# SHA256SUM=29fca30e057e73142c2c3559d442b1fedceb4e4f3948d296f00be9fe2bf9aeda
+# BUILD_DATE=20240215
+# BUILD_TAG=2024-02-15
 # STATUS=completed
 # VERSION=latest02
 # END_TIME=00:13
@@ -56,13 +56,13 @@ old_sha256 = "7843b56cf30b20d57482c9322f1d7d01d61b3b01950b78eebd7c5d518943df73"
 [time]
 format = "rfc-3339"
 zone = "UTC"
-date = 2024-02-08
-begin = 2024-02-08 00:06:29.266659851+00:00
-start-sync_0 = 00:10:11
-start-zstd = 00:10:52
-start-sync_1 = 00:13:32
-end-sync_1 = 00:13:56
-end = 2024-02-08 00:13:56.779344285+00:00
+date = 2024-02-15
+begin = 2024-02-15 00:07:41.098713714+00:00
+start-sync_0 = 00:09:40
+start-zstd = 00:10:20
+start-sync_1 = 00:13:07
+end-sync_1 = 00:13:28
+end = 2024-02-15 00:13:28.840997709+00:00
 
 [server]
 repo = "cake233/alpine-kde-amd64"
