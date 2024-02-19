@@ -20,7 +20,7 @@ docker exec -it node-amd64 bash
 ```toml
 [main]
 name = "node"
-tag = ["latest", "2024-02-05"]
+tag = ["latest", "2024-02-19"]
 os = "debian"
 release = "stable"
 arch = "amd64"
@@ -29,10 +29,10 @@ xorg_or_wayland = false
 syntax_version = "0.0.0-alpha.4"
 
 [file]
-name = "node_amd64_2024-02-05_12-10.tar.zst"
+name = "node_amd64_2024-02-19_12-09.tar.zst"
 
 # This value can be used to verify the integrity of the file
-sha256 = "8925637cea6432d1df58a5a30a5accb23c0ab9c0ea27b64ca9a2f07a4d8376de"
+sha256 = "90e60c32c0fb65cb043c17adfddbdbfb0af9d274a14bf72f70a2cbc56f41e93d"
 
 # zstd: [1-22]
 zstd-level = 22
@@ -41,12 +41,12 @@ zstd-level = 22
 # Installed size ≈ tar-size
 # Installed size is approximately equal to the size of the tar file
 tar = "1.1G"
-tar_bytes = 1154765312
+tar_bytes = 1154795520
 
 # Space occupied ≈ tar-size + zstd-size
 # You will need to prepare a large enough space before installation.
 zstd = "213M"
-zstd_bytes = 223281556
+zstd_bytes = 223329292
 
 [compatibility]
 compatible_mode = true
@@ -60,29 +60,29 @@ previous_file = "node_amd64_2023-11-20_12-10-rootfs.tar.zst"
 previous_sha256 = "8b6315f3f5595cbd37cef7d21abab7f05dbfa5d75ce421553c672ffe1b9e97d5"
 
 current_version = "latest01"
-current_date = "20240205"
+current_date = "20240219"
 old_file = "node_amd64_2023-10-23_12-12-rootfs.tar.zst"
 old_sha256 = "1f17bafda7a19b3f68c929fe502834f4f35bb1a07bae52871d1f8d1f9206bdfa"
 # edition 2021
 # DISTRO_NAME=node_amd64
-# ROOTFS_FILE=node_amd64_2024-02-05_12-10-rootfs.tar.zst
-# SHA256SUM=8925637cea6432d1df58a5a30a5accb23c0ab9c0ea27b64ca9a2f07a4d8376de
-# BUILD_DATE=20240205
-# BUILD_TAG=2024-02-05
+# ROOTFS_FILE=node_amd64_2024-02-19_12-09-rootfs.tar.zst
+# SHA256SUM=90e60c32c0fb65cb043c17adfddbdbfb0af9d274a14bf72f70a2cbc56f41e93d
+# BUILD_DATE=20240219
+# BUILD_TAG=2024-02-19
 # STATUS=completed
 # VERSION=latest01
-# END_TIME=12:10
+# END_TIME=12:09
 
 [time]
 format = "rfc-3339"
 zone = "UTC"
-date = 2024-02-05
-begin = 2024-02-05 12:02:35.426746555+00:00
-start-sync_0 = 12:04:01
-start-zstd = 12:05:47
-start-sync_1 = 12:10:45
-end-sync_1 = 12:10:58
-end = 2024-02-05 12:10:58.600765347+00:00
+date = 2024-02-19
+begin = 2024-02-19 12:02:35.410102102+00:00
+start-sync_0 = 12:04:22
+start-zstd = 12:04:33
+start-sync_1 = 12:09:27
+end-sync_1 = 12:09:46
+end = 2024-02-19 12:09:46.331726961+00:00
 
 [server]
 repo = "cake233/node-amd64"
@@ -118,7 +118,7 @@ LANG = "en_US.UTF-8"
 
 [version]
 ldd = 'ldd (Debian GLIBC 2.36-9+deb12u4) 2.36'
-node = 'v21.6.1'
+node = 'v21.6.2'
 yarn = '1.22.19'
 npm = '10.2.4'
 ```
