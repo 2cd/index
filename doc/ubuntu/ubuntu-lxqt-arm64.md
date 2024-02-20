@@ -77,7 +77,7 @@ localhost:5903
 ```toml
 [main]
 name = "ubuntu"
-tag = ["lxqt", "2024-02-06", "devel"]
+tag = ["lxqt", "2024-02-20", "devel"]
 os = "ubuntu"
 release = "dev"
 arch = "arm64"
@@ -86,10 +86,10 @@ xorg_or_wayland = true
 syntax_version = "0.0.0-alpha.4"
 
 [file]
-name = "ubuntu-lxqt_arm64_2024-02-06_02-41.tar.zst"
+name = "ubuntu-lxqt_arm64_2024-02-20_02-45.tar.zst"
 
 # This value can be used to verify the integrity of the file
-sha256 = "35d1c08490d4203f8be7f02439abe64051bf088096320a4ac7466ed22588be1e"
+sha256 = "f2e94847c3c0dc5bf387ac097cc8c5841de8ae46fcad4a86eb8d22702ea24c1a"
 
 # zstd: [1-22]
 zstd-level = 19
@@ -98,12 +98,12 @@ zstd-level = 19
 # Installed size ≈ tar-size
 # Installed size is approximately equal to the size of the tar file
 tar = "4.8G"
-tar_bytes = 5047643648
+tar_bytes = 5058172928
 
 # Space occupied ≈ tar-size + zstd-size
 # You will need to prepare a large enough space before installation.
 zstd = "1.3G"
-zstd_bytes = 1308584492
+zstd_bytes = 1312217856
 
 [compatibility]
 compatible_mode = true
@@ -117,29 +117,29 @@ previous_file = "ubuntu-lxqt_arm64_2023-11-28_01-21-rootfs.tar.zst"
 previous_sha256 = "77762ee6b323144a2b718afe124cb5abb79d74638837a6dee9d0bda7319eae3f"
 
 current_version = "latest02"
-current_date = "20240206"
+current_date = "20240220"
 old_file = "ubuntu-lxqt_arm64_2023-11-21_01-23-rootfs.tar.zst"
 old_sha256 = "c83716271055d9762f996e86ec735de89c9cb1f91ffcc7e2705631fbbb5e478d"
 # edition 2021
 # DISTRO_NAME=ubuntu-dev_arm64
-# ROOTFS_FILE=ubuntu-lxqt_arm64_2024-02-06_02-41-rootfs.tar.zst
-# SHA256SUM=35d1c08490d4203f8be7f02439abe64051bf088096320a4ac7466ed22588be1e
-# BUILD_DATE=20240206
-# BUILD_TAG=2024-02-06
+# ROOTFS_FILE=ubuntu-lxqt_arm64_2024-02-20_02-45-rootfs.tar.zst
+# SHA256SUM=f2e94847c3c0dc5bf387ac097cc8c5841de8ae46fcad4a86eb8d22702ea24c1a
+# BUILD_DATE=20240220
+# BUILD_TAG=2024-02-20
 # STATUS=completed
 # VERSION=latest02
-# END_TIME=02:41
+# END_TIME=02:45
 
 [time]
 format = "rfc-3339"
 zone = "UTC"
-date = 2024-02-06
-begin = 2024-02-06 00:41:46.868173145+00:00
-start-sync_0 = 02:25:28
-start-zstd = 02:27:59
-start-sync_1 = 02:40:46
-end-sync_1 = 02:41:42
-end = 2024-02-06 02:41:42.497501322+00:00
+date = 2024-02-20
+begin = 2024-02-20 00:43:00.912282398+00:00
+start-sync_0 = 02:28:14
+start-zstd = 02:30:48
+start-sync_1 = 02:44:06
+end-sync_1 = 02:45:08
+end = 2024-02-20 02:45:08.286379391+00:00
 
 [server]
 repo = "cake233/ubuntu-lxqt-arm64"
