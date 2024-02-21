@@ -77,7 +77,7 @@ localhost:5903
 ```toml
 [main]
 name = "debian"
-tag = ["xfce", "2024-02-14"]
+tag = ["xfce", "2024-02-21"]
 os = "debian"
 release = "sid"
 arch = "amd64"
@@ -86,10 +86,10 @@ xorg_or_wayland = true
 syntax_version = "0.0.0-alpha.4"
 
 [file]
-name = "debian-xfce_amd64_2024-02-14_12-55.tar.zst"
+name = "debian-xfce_amd64_2024-02-21_13-08.tar.zst"
 
 # This value can be used to verify the integrity of the file
-sha256 = "6bd2fffe7bf00c744a25852ed3f63fe0d4e5400df0d518b57a2c3e44f15ca243"
+sha256 = "6cba8b12384c98d13021aefc44d319fd930dbdb98423f5122837f69a942fba88"
 
 # zstd: [1-22]
 zstd-level = 19
@@ -98,12 +98,12 @@ zstd-level = 19
 # Installed size ≈ tar-size
 # Installed size is approximately equal to the size of the tar file
 tar = "4.2G"
-tar_bytes = 4415619072
+tar_bytes = 4431338496
 
 # Space occupied ≈ tar-size + zstd-size
 # You will need to prepare a large enough space before installation.
 zstd = "1.2G"
-zstd_bytes = 1207399942
+zstd_bytes = 1223282149
 
 [compatibility]
 compatible_mode = true
@@ -117,29 +117,29 @@ previous_file = "debian-xfce_amd64_2023-11-22_12-51-rootfs.tar.zst"
 previous_sha256 = "4a47be055ad956ad19c5345b3bc30f3f2e65c239de0fb03ba11c44978c54ac59"
 
 current_version = "latest02"
-current_date = "20240214"
+current_date = "20240221"
 old_file = "debian-xfce_amd64_2023-11-15_12-50-rootfs.tar.zst"
 old_sha256 = "451ef96e57853e1bc231a2d9906e936ecf370e2fae7131f89dff8d51b3097aaa"
 # edition 2021
 # DISTRO_NAME=debian-sid_amd64
-# ROOTFS_FILE=debian-xfce_amd64_2024-02-14_12-55-rootfs.tar.zst
-# SHA256SUM=6bd2fffe7bf00c744a25852ed3f63fe0d4e5400df0d518b57a2c3e44f15ca243
-# BUILD_DATE=20240214
-# BUILD_TAG=2024-02-14
+# ROOTFS_FILE=debian-xfce_amd64_2024-02-21_13-08-rootfs.tar.zst
+# SHA256SUM=6cba8b12384c98d13021aefc44d319fd930dbdb98423f5122837f69a942fba88
+# BUILD_DATE=20240221
+# BUILD_TAG=2024-02-21
 # STATUS=completed
 # VERSION=latest02
-# END_TIME=12:55
+# END_TIME=13:08
 
 [time]
 format = "rfc-3339"
 zone = "UTC"
-date = 2024-02-14
-begin = 2024-02-14 12:33:43.154380151+00:00
-start-sync_0 = 12:39:31
-start-zstd = 12:41:55
-start-sync_1 = 12:54:10
-end-sync_1 = 12:55:02
-end = 2024-02-14 12:55:02.551244136+00:00
+date = 2024-02-21
+begin = 2024-02-21 12:33:40.288541122+00:00
+start-sync_0 = 12:51:44
+start-zstd = 12:54:14
+start-sync_1 = 13:07:42
+end-sync_1 = 13:08:35
+end = 2024-02-21 13:08:35.287527223+00:00
 
 [server]
 repo = "cake233/debian-xfce-amd64"
