@@ -69,7 +69,7 @@ ldd "$FILE"
 ```toml
 [main]
 name = "rust"
-tag = ["latest", "2024-02-19", "nightly", "unstable", "default", "gnu-libc"]
+tag = ["latest", "2024-02-23", "nightly", "unstable", "default", "gnu-libc"]
 os = "debian"
 release = "sid"
 arch = "ppc64el"
@@ -78,10 +78,10 @@ xorg_or_wayland = false
 syntax_version = "0.0.0-alpha.4"
 
 [file]
-name = "rust_ppc64el_2024-02-19_03-02.tar.zst"
+name = "rust_ppc64el_2024-02-23_03-02.tar.zst"
 
 # This value can be used to verify the integrity of the file
-sha256 = "9c6218ecd72969690bba0bd705b631433210c2967bd35605b95385eff680b45d"
+sha256 = "15344821767045292867edb4272f7c7f345e9faf448a308bf0be18d4eb1e6d47"
 
 # zstd: [1-22]
 zstd-level = 20
@@ -90,12 +90,12 @@ zstd-level = 20
 # Installed size ≈ tar-size
 # Installed size is approximately equal to the size of the tar file
 tar = "1.7G"
-tar_bytes = 1732552704
+tar_bytes = 1730975744
 
 # Space occupied ≈ tar-size + zstd-size
 # You will need to prepare a large enough space before installation.
 zstd = "224M"
-zstd_bytes = 234456541
+zstd_bytes = 234632315
 
 [compatibility]
 compatible_mode = true
@@ -109,15 +109,15 @@ previous_file = "rust_ppc64el_2023-11-27_03-02-rootfs.tar.zst"
 previous_sha256 = "b1ada3fb2e8f52a1963baf5be5bff055e54e7ab0805baa0a309c6b77a9998b55"
 
 current_version = "latest02"
-current_date = "20240219"
+current_date = "20240223"
 old_file = "rust_ppc64el_2023-11-24_03-02-rootfs.tar.zst"
 old_sha256 = "a81223bcdb5870598ca1c4a4db2222404549b763a08f7760e1ccfc21edd1917b"
 # edition 2021
 # DISTRO_NAME=rust_ppc64el
-# ROOTFS_FILE=rust_ppc64el_2024-02-19_03-02-rootfs.tar.zst
-# SHA256SUM=9c6218ecd72969690bba0bd705b631433210c2967bd35605b95385eff680b45d
-# BUILD_DATE=20240219
-# BUILD_TAG=2024-02-19
+# ROOTFS_FILE=rust_ppc64el_2024-02-23_03-02-rootfs.tar.zst
+# SHA256SUM=15344821767045292867edb4272f7c7f345e9faf448a308bf0be18d4eb1e6d47
+# BUILD_DATE=20240223
+# BUILD_TAG=2024-02-23
 # STATUS=completed
 # VERSION=latest02
 # END_TIME=03:02
@@ -125,13 +125,13 @@ old_sha256 = "a81223bcdb5870598ca1c4a4db2222404549b763a08f7760e1ccfc21edd1917b"
 [time]
 format = "rfc-3339"
 zone = "UTC"
-date = 2024-02-19
-begin = 2024-02-19 02:52:37.104816951+00:00
-start-sync_0 = 02:57:46
-start-zstd = 02:58:29
-start-sync_1 = 03:02:45
-end-sync_1 = 03:02:59
-end = 2024-02-19 03:02:59.100500548+00:00
+date = 2024-02-23
+begin = 2024-02-23 02:52:31.803500254+00:00
+start-sync_0 = 02:57:14
+start-zstd = 02:57:58
+start-sync_1 = 03:02:08
+end-sync_1 = 03:02:23
+end = 2024-02-23 03:02:23.061126973+00:00
 
 [server]
 repo = "cake233/rust-ppc64le"
@@ -171,14 +171,14 @@ CARGO_HOME = "/usr/local/cargo"
 [version]
 ldd = 'ldd (Debian GLIBC 2.37-15) 2.37'
 rustup = 'rustup 1.26.0 (5af9b9484 2023-04-05)'
-cargo = 'cargo 1.78.0-nightly (7b7af3077 2024-02-17)'
-rustc = 'rustc 1.78.0-nightly (2bf78d12d 2024-02-18)'
+cargo = 'cargo 1.78.0-nightly (194a60b29 2024-02-21)'
+rustc = 'rustc 1.78.0-nightly (397937d81 2024-02-22)'
 cc = 'cc (Debian 13.2.0-13) 13.2.0'
 cargo_verbose = '''
-cargo 1.78.0-nightly (7b7af3077 2024-02-17)
+cargo 1.78.0-nightly (194a60b29 2024-02-21)
 release: 1.78.0-nightly
-commit-hash: 7b7af3077bff8d60b7f124189bc9de227d3063a9
-commit-date: 2024-02-17
+commit-hash: 194a60b2952bd5d12ba15dd2577a97eed7d3c587
+commit-date: 2024-02-21
 host: powerpc64le-unknown-linux-gnu
 libgit2: 1.7.2 (sys:0.18.2 vendored)
 libcurl: 8.6.0-DEV (sys:0.4.71+curl-8.6.0 vendored ssl:OpenSSL/3.2.1)
@@ -186,10 +186,10 @@ ssl: OpenSSL 3.2.1 30 Jan 2024
 os: Linux [64-bit]
 '''
 rustc_verbose = '''
-rustc 1.78.0-nightly (2bf78d12d 2024-02-18)
+rustc 1.78.0-nightly (397937d81 2024-02-22)
 binary: rustc
-commit-hash: 2bf78d12d33ae02d10010309a0d85dd04e7cff72
-commit-date: 2024-02-18
+commit-hash: 397937d812852f9bbeb671005cb399dbcb357cde
+commit-date: 2024-02-22
 host: powerpc64le-unknown-linux-gnu
 release: 1.78.0-nightly
 LLVM version: 18.1.0
