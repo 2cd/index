@@ -20,7 +20,7 @@ docker exec -it jdk-arm64 bash
 ```toml
 [main]
 name = "jdk"
-tag = ["latest", "2024-01-15"]
+tag = ["latest", "2024-02-26"]
 os = "debian"
 release = "stable"
 arch = "arm64"
@@ -29,10 +29,10 @@ xorg_or_wayland = false
 syntax_version = "0.0.0-alpha.4"
 
 [file]
-name = "jdk_arm64_2024-01-15_12-09.tar.zst"
+name = "jdk_arm64_2024-02-26_12-09.tar.zst"
 
 # This value can be used to verify the integrity of the file
-sha256 = "057fa34a900645d5f1b957a58c7bc9330b1f2823600aebcc62b9300f3e45a8c0"
+sha256 = "622ab8f1c9581e4398282695bbc14f0af06c5fa4c349e42cb71953f4e85964a7"
 
 # zstd: [1-22]
 zstd-level = 22
@@ -41,12 +41,12 @@ zstd-level = 22
 # Installed size ≈ tar-size
 # Installed size is approximately equal to the size of the tar file
 tar = "476M"
-tar_bytes = 498486272
+tar_bytes = 498494464
 
 # Space occupied ≈ tar-size + zstd-size
 # You will need to prepare a large enough space before installation.
 zstd = "190M"
-zstd_bytes = 199103534
+zstd_bytes = 199071463
 
 [compatibility]
 compatible_mode = true
@@ -54,21 +54,21 @@ compatible_mode = true
 previous_version = "latest02"
 
 # The value is &str, not int
-previous_date = "20211128"
-previous_tag = ""
-previous_file = ""
-previous_sha256 = ""
+previous_date = "20231127"
+previous_tag = "2023-11-27"
+previous_file = "jdk_arm64_2023-11-27_12-09-rootfs.tar.zst"
+previous_sha256 = "b94b615bb1ae496e745776a82573ea481c04c8450b003065f081d589673a6326"
 
 current_version = "latest01"
-current_date = "20240115"
-old_file = ""
-old_sha256 = ""
+current_date = "20240226"
+old_file = "jdk_arm64_2023-11-13_12-10-rootfs.tar.zst"
+old_sha256 = "3aa92fe726a17b79e8c45fe3ed7947d2e8748e737ee08d3eca76b07db8047ddf"
 # edition 2021
 # DISTRO_NAME=jdk_arm64
-# ROOTFS_FILE=jdk_arm64_2024-01-15_12-09-rootfs.tar.zst
-# SHA256SUM=057fa34a900645d5f1b957a58c7bc9330b1f2823600aebcc62b9300f3e45a8c0
-# BUILD_DATE=20240115
-# BUILD_TAG=2024-01-15
+# ROOTFS_FILE=jdk_arm64_2024-02-26_12-09-rootfs.tar.zst
+# SHA256SUM=622ab8f1c9581e4398282695bbc14f0af06c5fa4c349e42cb71953f4e85964a7
+# BUILD_DATE=20240226
+# BUILD_TAG=2024-02-26
 # STATUS=completed
 # VERSION=latest01
 # END_TIME=12:09
@@ -76,13 +76,13 @@ old_sha256 = ""
 [time]
 format = "rfc-3339"
 zone = "UTC"
-date = 2024-01-15
-begin = 2024-01-15 12:02:34.912320252+00:00
-start-sync_0 = 12:05:49
-start-zstd = 12:06:03
-start-sync_1 = 12:09:11
-end-sync_1 = 12:09:27
-end = 2024-01-15 12:09:27.679851534+00:00
+date = 2024-02-26
+begin = 2024-02-26 12:02:32.752774415+00:00
+start-sync_0 = 12:05:32
+start-zstd = 12:05:42
+start-sync_1 = 12:09:09
+end-sync_1 = 12:09:21
+end = 2024-02-26 12:09:21.445936680+00:00
 
 [server]
 repo = "cake233/jdk-arm64"
@@ -119,7 +119,7 @@ PATH = "/usr/local/openjdk-21/bin${PATH:+:${PATH}}"
 JAVA_HOME = '/usr/local/openjdk-21'
 
 [version]
-ldd = 'ldd (Debian GLIBC 2.36-9+deb12u3) 2.36'
+ldd = 'ldd (Debian GLIBC 2.36-9+deb12u4) 2.36'
 java = '''
 openjdk 21 2023-09-19
 OpenJDK Runtime Environment (build 21+35-2513)
