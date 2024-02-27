@@ -1,6 +1,6 @@
 [main]
 name = "ubuntu"
-tag = ["mate", "2024-02-20", "devel"]
+tag = ["mate", "2024-02-27", "devel"]
 os = "ubuntu"
 release = "dev"
 arch = "amd64"
@@ -9,10 +9,10 @@ xorg_or_wayland = true
 syntax_version = "0.0.0-alpha.4"
 
 [file]
-name = "ubuntu-mate_amd64_2024-02-20_01-00.tar.zst"
+name = "ubuntu-mate_amd64_2024-02-27_01-01.tar.zst"
 
 # This value can be used to verify the integrity of the file
-sha256 = "0a5a8d6cf77f2b4a4874a162ff531e27585d6a6d91ad50671a7999cb175a5e5b"
+sha256 = "1e43d7da5c53c1bb53a672472c8b3615d44975e41d52ee4edb84a6ea23910d0f"
 
 # zstd: [1-22]
 zstd-level = 19
@@ -21,12 +21,12 @@ zstd-level = 19
 # Installed size ≈ tar-size
 # Installed size is approximately equal to the size of the tar file
 tar = "3.7G"
-tar_bytes = 3912398848
+tar_bytes = 3878085632
 
 # Space occupied ≈ tar-size + zstd-size
 # You will need to prepare a large enough space before installation.
-zstd = "990M"
-zstd_bytes = 1037559962
+zstd = "980M"
+zstd_bytes = 1026693812
 
 [compatibility]
 compatible_mode = true
@@ -40,29 +40,29 @@ previous_file = "ubuntu-mate_amd64_2023-11-28_00-45-rootfs.tar.zst"
 previous_sha256 = "9c9d6fe41799b22ebcb7544926072ddb9e3a6dc2c44b555ebe598f4900527fc3"
 
 current_version = "latest02"
-current_date = "20240220"
+current_date = "20240227"
 old_file = "ubuntu-mate_amd64_2023-11-21_00-43-rootfs.tar.zst"
 old_sha256 = "4d460a3a1770d73aac7d97068cab930745f5cfa0631b33846c0efb7ed96549c6"
 # edition 2021
 # DISTRO_NAME=ubuntu-dev_amd64
-# ROOTFS_FILE=ubuntu-mate_amd64_2024-02-20_01-00-rootfs.tar.zst
-# SHA256SUM=0a5a8d6cf77f2b4a4874a162ff531e27585d6a6d91ad50671a7999cb175a5e5b
-# BUILD_DATE=20240220
-# BUILD_TAG=2024-02-20
+# ROOTFS_FILE=ubuntu-mate_amd64_2024-02-27_01-01-rootfs.tar.zst
+# SHA256SUM=1e43d7da5c53c1bb53a672472c8b3615d44975e41d52ee4edb84a6ea23910d0f
+# BUILD_DATE=20240227
+# BUILD_TAG=2024-02-27
 # STATUS=completed
 # VERSION=latest02
-# END_TIME=01:00
+# END_TIME=01:01
 
 [time]
 format = "rfc-3339"
 zone = "UTC"
-date = 2024-02-20
-begin = 2024-02-20 00:43:00.282836682+00:00
-start-sync_0 = 00:47:46
-start-zstd = 00:49:57
-start-sync_1 = 00:59:38
-end-sync_1 = 01:00:24
-end = 2024-02-20 01:00:24.904361651+00:00
+date = 2024-02-27
+begin = 2024-02-27 00:43:23.032498630+00:00
+start-sync_0 = 00:48:47
+start-zstd = 00:50:59
+start-sync_1 = 01:00:55
+end-sync_1 = 01:01:40
+end = 2024-02-27 01:01:40.441312092+00:00
 
 [server]
 repo = "cake233/ubuntu-mate-amd64"
@@ -97,7 +97,7 @@ current = true
 LANG = "en_US.UTF-8"
 
 [version]
-ldd = 'ldd (Ubuntu GLIBC 2.38-3ubuntu1) 2.38'
+ldd = 'ldd (Ubuntu GLIBC 2.39-0ubuntu2) 2.39'
 zsh = 'zsh 5.9 (x86_64-ubuntu-linux-gnu)'
 
 [port]
