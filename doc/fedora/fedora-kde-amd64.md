@@ -77,7 +77,7 @@ localhost:5903
 ```toml
 [main]
 name = "fedora"
-tag = ["kde", "2024-02-20"]
+tag = ["kde", "2024-02-27"]
 os = "fedora"
 release = "rawhide"
 arch = "amd64"
@@ -86,10 +86,10 @@ xorg_or_wayland = true
 syntax_version = "0.0.0-alpha.4"
 
 [file]
-name = "fedora-kde_amd64_2024-02-20_12-40.tar.zst"
+name = "fedora-kde_amd64_2024-02-27_12-53.tar.zst"
 
 # This value can be used to verify the integrity of the file
-sha256 = "612012adbb29efa36eb6d2c9dbc3e258d6ca2294ac39e951eb2f05cde6c8fbdd"
+sha256 = "e1cf71dd3bfa093262157539b51f443ea6f605fd2a7eb46fcc318ee43ca6176c"
 
 # zstd: [1-22]
 zstd-level = 19
@@ -98,12 +98,12 @@ zstd-level = 19
 # Installed size ≈ tar-size
 # Installed size is approximately equal to the size of the tar file
 tar = "5.3G"
-tar_bytes = 5619869184
+tar_bytes = 5619914240
 
 # Space occupied ≈ tar-size + zstd-size
 # You will need to prepare a large enough space before installation.
 zstd = "1.7G"
-zstd_bytes = 1791417855
+zstd_bytes = 1794606931
 
 [compatibility]
 compatible_mode = true
@@ -117,29 +117,29 @@ previous_file = "fedora-kde_amd64_2023-11-21_13-04-rootfs.tar.zst"
 previous_sha256 = "c6a87a864db035419ee5f0defa12060f813b3f7030d2d095e77c8ba4ebbd84c2"
 
 current_version = "latest02"
-current_date = "20240220"
+current_date = "20240227"
 old_file = "fedora-kde_amd64_2023-11-14_13-26-rootfs.tar.zst"
 old_sha256 = "b42cf55a6eb4bac0acc3e59f3622d671171b57764aae015f9f34ab9403ba381b"
 # edition 2021
 # DISTRO_NAME=fedora-rawhide_amd64
-# ROOTFS_FILE=fedora-kde_amd64_2024-02-20_12-40-rootfs.tar.zst
-# SHA256SUM=612012adbb29efa36eb6d2c9dbc3e258d6ca2294ac39e951eb2f05cde6c8fbdd
-# BUILD_DATE=20240220
-# BUILD_TAG=2024-02-20
+# ROOTFS_FILE=fedora-kde_amd64_2024-02-27_12-53-rootfs.tar.zst
+# SHA256SUM=e1cf71dd3bfa093262157539b51f443ea6f605fd2a7eb46fcc318ee43ca6176c
+# BUILD_DATE=20240227
+# BUILD_TAG=2024-02-27
 # STATUS=completed
 # VERSION=latest02
-# END_TIME=12:40
+# END_TIME=12:53
 
 [time]
 format = "rfc-3339"
 zone = "UTC"
-date = 2024-02-20
-begin = 2024-02-20 12:17:00.070987640+00:00
-start-sync_0 = 12:21:39
-start-zstd = 12:24:41
-start-sync_1 = 12:39:30
-end-sync_1 = 12:40:47
-end = 2024-02-20 12:40:47.049796548+00:00
+date = 2024-02-27
+begin = 2024-02-27 12:28:40.880903603+00:00
+start-sync_0 = 12:33:27
+start-zstd = 12:36:24
+start-sync_1 = 12:52:11
+end-sync_1 = 12:53:30
+end = 2024-02-27 12:53:30.975682869+00:00
 
 [server]
 repo = "cake233/fedora-kde-amd64"
@@ -174,7 +174,7 @@ current = true
 LANG = "en_US.UTF-8"
 
 [version]
-ldd = 'ldd (GNU libc) 2.38.9000'
+ldd = 'ldd (GNU libc) 2.39.9000'
 zsh = 'zsh 5.9 (x86_64-redhat-linux-gnu)'
 
 [port]
