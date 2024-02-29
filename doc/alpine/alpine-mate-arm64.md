@@ -77,7 +77,7 @@ localhost:5903
 ```toml
 [main]
 name = "alpine"
-tag = ["mate", "2024-02-22"]
+tag = ["mate", "2024-02-29"]
 os = "alpine"
 release = "edge"
 arch = "arm64"
@@ -86,10 +86,10 @@ xorg_or_wayland = true
 syntax_version = "0.0.0-alpha.4"
 
 [file]
-name = "alpine-mate_arm64_2024-02-22_00-16.tar.zst"
+name = "alpine-mate_arm64_2024-02-29_00-14.tar.zst"
 
 # This value can be used to verify the integrity of the file
-sha256 = "05d76b3a30c38f8fb7882c37d8aceefedf4ca2c39be62795e017ec141321a735"
+sha256 = "93811e461047c893059a3085b83919dcc1f21e69df3b62a982a96f92f95dee77"
 
 # zstd: [1-22]
 zstd-level = 19
@@ -98,12 +98,12 @@ zstd-level = 19
 # Installed size ≈ tar-size
 # Installed size is approximately equal to the size of the tar file
 tar = "1.3G"
-tar_bytes = 1322716160
+tar_bytes = 1326088192
 
 # Space occupied ≈ tar-size + zstd-size
 # You will need to prepare a large enough space before installation.
-zstd = "381M"
-zstd_bytes = 399461028
+zstd = "383M"
+zstd_bytes = 400764862
 
 [compatibility]
 compatible_mode = true
@@ -117,29 +117,29 @@ previous_file = "alpine-mate_arm64_2023-11-23_00-12-rootfs.tar.zst"
 previous_sha256 = "aeb7aca0a3e298a6ce39c836569724a2f456fae0c3fd621f5256a8aa9efdff51"
 
 current_version = "latest02"
-current_date = "20240222"
+current_date = "20240229"
 old_file = "alpine-mate_arm64_2023-11-16_00-11-rootfs.tar.zst"
 old_sha256 = "4ffe72248f8c34945450570e941662d1bc212e0723826f11293976037180731a"
 # edition 2021
 # DISTRO_NAME=alpine-edge_arm64
-# ROOTFS_FILE=alpine-mate_arm64_2024-02-22_00-16-rootfs.tar.zst
-# SHA256SUM=05d76b3a30c38f8fb7882c37d8aceefedf4ca2c39be62795e017ec141321a735
-# BUILD_DATE=20240222
-# BUILD_TAG=2024-02-22
+# ROOTFS_FILE=alpine-mate_arm64_2024-02-29_00-14-rootfs.tar.zst
+# SHA256SUM=93811e461047c893059a3085b83919dcc1f21e69df3b62a982a96f92f95dee77
+# BUILD_DATE=20240229
+# BUILD_TAG=2024-02-29
 # STATUS=completed
 # VERSION=latest02
-# END_TIME=00:16
+# END_TIME=00:14
 
 [time]
 format = "rfc-3339"
 zone = "UTC"
-date = 2024-02-22
-begin = 2024-02-22 00:09:21.124333062+00:00
-start-sync_0 = 00:12:16
-start-zstd = 00:13:01
-start-sync_1 = 00:16:32
-end-sync_1 = 00:16:57
-end = 2024-02-22 00:16:57.685525946+00:00
+date = 2024-02-29
+begin = 2024-02-29 00:06:28.115990367+00:00
+start-sync_0 = 00:09:46
+start-zstd = 00:10:32
+start-sync_1 = 00:14:05
+end-sync_1 = 00:14:30
+end = 2024-02-29 00:14:30.314467905+00:00
 
 [server]
 repo = "cake233/alpine-mate-arm64"
