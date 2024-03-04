@@ -1,6 +1,6 @@
 [main]
 name = "ruby"
-tag = ["alpine", "2024-02-05", "musl-libc", "musl"]
+tag = ["alpine", "2024-03-04", "musl-libc", "musl"]
 os = "alpine"
 release = "stable"
 arch = "armhf"
@@ -9,10 +9,10 @@ xorg_or_wayland = false
 syntax_version = "0.0.0-alpha.4"
 
 [file]
-name = "ruby-musl_armhf_2024-02-05_12-04.tar.zst"
+name = "ruby-musl_armhf_2024-03-04_12-04.tar.zst"
 
 # This value can be used to verify the integrity of the file
-sha256 = "f1bed02ce1b47c6fe5a4d724a0e2d1994bd15eae499ed23956d49c23b30c0e7a"
+sha256 = "85a1b98250a1e59876176bc46598a1430a4d86df5c4ac66675960bc2cd8429d0"
 
 # zstd: [1-22]
 zstd-level = 22
@@ -26,7 +26,7 @@ tar_bytes = 84838912
 # Space occupied ≈ tar-size + zstd-size
 # You will need to prepare a large enough space before installation.
 zstd = "37M"
-zstd_bytes = 38682867
+zstd_bytes = 38683580
 
 [compatibility]
 compatible_mode = true
@@ -40,15 +40,15 @@ previous_file = "ruby-musl_armhf_2023-11-20_12-05-rootfs.tar.zst"
 previous_sha256 = "4999e1febd48771285368526a6a25d8678d041ca781495858daa7d9389ad4453"
 
 current_version = "latest01"
-current_date = "20240205"
+current_date = "20240304"
 old_file = "ruby-musl_armhf_2023-10-23_12-05-rootfs.tar.zst"
 old_sha256 = "36b119a2577045f9e849dd32a4d7b0b9299576805dfacd62e796a06e10736e81"
 # edition 2021
 # DISTRO_NAME=ruby_armhf
-# ROOTFS_FILE=ruby-musl_armhf_2024-02-05_12-04-rootfs.tar.zst
-# SHA256SUM=f1bed02ce1b47c6fe5a4d724a0e2d1994bd15eae499ed23956d49c23b30c0e7a
-# BUILD_DATE=20240205
-# BUILD_TAG=2024-02-05
+# ROOTFS_FILE=ruby-musl_armhf_2024-03-04_12-04-rootfs.tar.zst
+# SHA256SUM=85a1b98250a1e59876176bc46598a1430a4d86df5c4ac66675960bc2cd8429d0
+# BUILD_DATE=20240304
+# BUILD_TAG=2024-03-04
 # STATUS=completed
 # VERSION=latest01
 # END_TIME=12:04
@@ -56,13 +56,13 @@ old_sha256 = "36b119a2577045f9e849dd32a4d7b0b9299576805dfacd62e796a06e10736e81"
 [time]
 format = "rfc-3339"
 zone = "UTC"
-date = 2024-02-05
-begin = 2024-02-05 12:02:35.538197871+00:00
-start-sync_0 = 12:03:55
-start-zstd = 12:04:01
-start-sync_1 = 12:04:35
-end-sync_1 = 12:04:43
-end = 2024-02-05 12:04:43.062531108+00:00
+date = 2024-03-04
+begin = 2024-03-04 12:02:34.381575793+00:00
+start-sync_0 = 12:03:45
+start-zstd = 12:03:51
+start-sync_1 = 12:04:26
+end-sync_1 = 12:04:32
+end = 2024-03-04 12:04:32.661648913+00:00
 
 [server]
 repo = "cake233/ruby-alpine-armv7"
