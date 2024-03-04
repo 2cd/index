@@ -1,6 +1,6 @@
 [main]
 name = "ruby"
-tag = ["latest", "2024-02-19"]
+tag = ["latest", "2024-03-04"]
 os = "debian"
 release = "stable"
 arch = "arm64"
@@ -9,10 +9,10 @@ xorg_or_wayland = false
 syntax_version = "0.0.0-alpha.4"
 
 [file]
-name = "ruby_arm64_2024-02-19_12-11.tar.zst"
+name = "ruby_arm64_2024-03-04_12-10.tar.zst"
 
 # This value can be used to verify the integrity of the file
-sha256 = "11acac878c2bd9fac9ca52b1b8c9ddc9e64cf2fa3c644bb69d8a486565fd8f55"
+sha256 = "6effe6ff528ac7c483ed7a52818382ad7c9d7971c63348bbe538687f139e3400"
 
 # zstd: [1-22]
 zstd-level = 22
@@ -21,12 +21,12 @@ zstd-level = 22
 # Installed size ≈ tar-size
 # Installed size is approximately equal to the size of the tar file
 tar = "998M"
-tar_bytes = 1045464576
+tar_bytes = 1045493760
 
 # Space occupied ≈ tar-size + zstd-size
 # You will need to prepare a large enough space before installation.
 zstd = "214M"
-zstd_bytes = 224310330
+zstd_bytes = 224326871
 
 [compatibility]
 compatible_mode = true
@@ -40,29 +40,29 @@ previous_file = "ruby_arm64_2023-11-20_12-10-rootfs.tar.zst"
 previous_sha256 = "d3a46c6c67f9205f934a56e7385378bc90fa8848b95319da19e2bcae74bf2e39"
 
 current_version = "latest01"
-current_date = "20240219"
+current_date = "20240304"
 old_file = "ruby_arm64_2023-10-23_12-12-rootfs.tar.zst"
 old_sha256 = "dc10cb4964874666f78ea7f2b63dbc511685585218759a918b0903279fb55026"
 # edition 2021
 # DISTRO_NAME=ruby_arm64
-# ROOTFS_FILE=ruby_arm64_2024-02-19_12-11-rootfs.tar.zst
-# SHA256SUM=11acac878c2bd9fac9ca52b1b8c9ddc9e64cf2fa3c644bb69d8a486565fd8f55
-# BUILD_DATE=20240219
-# BUILD_TAG=2024-02-19
+# ROOTFS_FILE=ruby_arm64_2024-03-04_12-10-rootfs.tar.zst
+# SHA256SUM=6effe6ff528ac7c483ed7a52818382ad7c9d7971c63348bbe538687f139e3400
+# BUILD_DATE=20240304
+# BUILD_TAG=2024-03-04
 # STATUS=completed
 # VERSION=latest01
-# END_TIME=12:11
+# END_TIME=12:10
 
 [time]
 format = "rfc-3339"
 zone = "UTC"
-date = 2024-02-19
-begin = 2024-02-19 12:02:39.385279468+00:00
-start-sync_0 = 12:06:31
-start-zstd = 12:06:45
-start-sync_1 = 12:11:10
-end-sync_1 = 12:11:29
-end = 2024-02-19 12:11:29.073903462+00:00
+date = 2024-03-04
+begin = 2024-03-04 12:02:34.434171457+00:00
+start-sync_0 = 12:05:44
+start-zstd = 12:05:55
+start-sync_1 = 12:10:30
+end-sync_1 = 12:10:43
+end = 2024-03-04 12:10:43.842582936+00:00
 
 [server]
 repo = "cake233/ruby-arm64"
