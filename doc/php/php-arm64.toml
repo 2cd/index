@@ -1,6 +1,6 @@
 [main]
 name = "php"
-tag = ["latest", "2024-02-19"]
+tag = ["latest", "2024-03-04"]
 os = "debian"
 release = "stable"
 arch = "arm64"
@@ -9,10 +9,10 @@ xorg_or_wayland = false
 syntax_version = "0.0.0-alpha.4"
 
 [file]
-name = "php_arm64_2024-02-19_12-10.tar.zst"
+name = "php_arm64_2024-03-04_12-08.tar.zst"
 
 # This value can be used to verify the integrity of the file
-sha256 = "4485267f44e9e11cab656fe8ddcacf160d420ec37e957a05af269b920f12e101"
+sha256 = "5e1cf23909510bb3e530033d58a106f3ca67881706d05b0369feb902b09d29a3"
 
 # zstd: [1-22]
 zstd-level = 22
@@ -26,7 +26,7 @@ tar_bytes = 562873344
 # Space occupied ≈ tar-size + zstd-size
 # You will need to prepare a large enough space before installation.
 zstd = "102M"
-zstd_bytes = 106909830
+zstd_bytes = 106909199
 
 [compatibility]
 compatible_mode = true
@@ -40,29 +40,29 @@ previous_file = "php_arm64_2023-11-20_12-09-rootfs.tar.zst"
 previous_sha256 = "6870211b3d4ef8f352b34a924bfb0ab9e1d6caf7ad630a5d078222cea4d3396c"
 
 current_version = "latest01"
-current_date = "20240219"
+current_date = "20240304"
 old_file = "php_arm64_2023-10-23_12-10-rootfs.tar.zst"
 old_sha256 = "9bb2a5c727f7e945674ad050e98e4bdccd398e645e14a2ce74e53b9c1b6aa37c"
 # edition 2021
 # DISTRO_NAME=php_arm64
-# ROOTFS_FILE=php_arm64_2024-02-19_12-10-rootfs.tar.zst
-# SHA256SUM=4485267f44e9e11cab656fe8ddcacf160d420ec37e957a05af269b920f12e101
-# BUILD_DATE=20240219
-# BUILD_TAG=2024-02-19
+# ROOTFS_FILE=php_arm64_2024-03-04_12-08-rootfs.tar.zst
+# SHA256SUM=5e1cf23909510bb3e530033d58a106f3ca67881706d05b0369feb902b09d29a3
+# BUILD_DATE=20240304
+# BUILD_TAG=2024-03-04
 # STATUS=completed
 # VERSION=latest01
-# END_TIME=12:10
+# END_TIME=12:08
 
 [time]
 format = "rfc-3339"
 zone = "UTC"
-date = 2024-02-19
-begin = 2024-02-19 12:02:38.958761795+00:00
-start-sync_0 = 12:05:49
-start-zstd = 12:05:59
-start-sync_1 = 12:09:55
-end-sync_1 = 12:10:08
-end = 2024-02-19 12:10:08.368277245+00:00
+date = 2024-03-04
+begin = 2024-03-04 12:02:33.016652203+00:00
+start-sync_0 = 12:04:46
+start-zstd = 12:04:55
+start-sync_1 = 12:08:49
+end-sync_1 = 12:08:59
+end = 2024-03-04 12:08:59.912228056+00:00
 
 [server]
 repo = "cake233/php-arm64"
