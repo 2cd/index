@@ -20,7 +20,7 @@ docker exec -it ruby-alpine-amd64 bash
 ```toml
 [main]
 name = "ruby"
-tag = ["alpine", "2024-02-19", "musl-libc", "musl"]
+tag = ["alpine", "2024-03-04", "musl-libc", "musl"]
 os = "alpine"
 release = "stable"
 arch = "amd64"
@@ -29,10 +29,10 @@ xorg_or_wayland = false
 syntax_version = "0.0.0-alpha.4"
 
 [file]
-name = "ruby-musl_amd64_2024-02-19_12-04.tar.zst"
+name = "ruby-musl_amd64_2024-03-04_12-04.tar.zst"
 
 # This value can be used to verify the integrity of the file
-sha256 = "8fd4285c7e82f5ff53de64b0589466d5c017f01ee817a643b3706a25d542e1c2"
+sha256 = "068ff72d24b147497f52e392177cf6359b5067b8446e82d7cd9846d901e4f8e8"
 
 # zstd: [1-22]
 zstd-level = 22
@@ -46,43 +46,43 @@ tar_bytes = 99456512
 # Space occupied ≈ tar-size + zstd-size
 # You will need to prepare a large enough space before installation.
 zstd = "41M"
-zstd_bytes = 42580461
+zstd_bytes = 42580700
 
 [compatibility]
 compatible_mode = true
 
-previous_version = "latest02"
+previous_version = "latest01"
 
 # The value is &str, not int
-previous_date = "20211128"
-previous_tag = ""
-previous_file = ""
-previous_sha256 = ""
+previous_date = "20231023"
+previous_tag = "2023-10-23"
+previous_file = "ruby-musl_amd64_2023-10-23_12-05-rootfs.tar.zst"
+previous_sha256 = "6a22a370509f3b74b5badfc9645de401ddcd37e90103135599bfbfc37ec6c7ef"
 
-current_version = "latest01"
-current_date = "20240219"
-old_file = ""
-old_sha256 = ""
+current_version = "latest02"
+current_date = "20240304"
+old_file = "ruby-musl_amd64_2023-10-09_12-04-rootfs.tar.zst"
+old_sha256 = "032213458bd2ffa33461fb48d6d924c3c30e29cde8e10ca23694322ee018b0b7"
 # edition 2021
 # DISTRO_NAME=ruby_amd64
-# ROOTFS_FILE=ruby-musl_amd64_2024-02-19_12-04-rootfs.tar.zst
-# SHA256SUM=8fd4285c7e82f5ff53de64b0589466d5c017f01ee817a643b3706a25d542e1c2
-# BUILD_DATE=20240219
-# BUILD_TAG=2024-02-19
+# ROOTFS_FILE=ruby-musl_amd64_2024-03-04_12-04-rootfs.tar.zst
+# SHA256SUM=068ff72d24b147497f52e392177cf6359b5067b8446e82d7cd9846d901e4f8e8
+# BUILD_DATE=20240304
+# BUILD_TAG=2024-03-04
 # STATUS=completed
-# VERSION=latest01
+# VERSION=latest02
 # END_TIME=12:04
 
 [time]
 format = "rfc-3339"
 zone = "UTC"
-date = 2024-02-19
-begin = 2024-02-19 12:02:40.498363673+00:00
-start-sync_0 = 12:03:53
-start-zstd = 12:04:04
-start-sync_1 = 12:04:43
-end-sync_1 = 12:04:56
-end = 2024-02-19 12:04:56.305293510+00:00
+date = 2024-03-04
+begin = 2024-03-04 12:02:34.638247885+00:00
+start-sync_0 = 12:03:40
+start-zstd = 12:03:46
+start-sync_1 = 12:04:27
+end-sync_1 = 12:04:33
+end = 2024-03-04 12:04:33.610401511+00:00
 
 [server]
 repo = "cake233/ruby-alpine-amd64"
