@@ -20,7 +20,7 @@ docker exec -it php-alpine-armv7 bash
 ```toml
 [main]
 name = "php"
-tag = ["alpine", "2024-02-19", "musl-libc", "musl"]
+tag = ["alpine", "2024-03-04", "musl-libc", "musl"]
 os = "alpine"
 release = "stable"
 arch = "armhf"
@@ -29,10 +29,10 @@ xorg_or_wayland = false
 syntax_version = "0.0.0-alpha.4"
 
 [file]
-name = "php-musl_armhf_2024-02-19_12-05.tar.zst"
+name = "php-musl_armhf_2024-03-04_12-04.tar.zst"
 
 # This value can be used to verify the integrity of the file
-sha256 = "ad4f377a35813370e565d4da0ab6c13ea59f1d6334caf5cf8f4442520e338c8a"
+sha256 = "4d32a91964085239c3651f5cf54c43a6b6788000c66f7b4d7b7b87571f96e09c"
 
 # zstd: [1-22]
 zstd-level = 22
@@ -46,7 +46,7 @@ tar_bytes = 85834240
 # Space occupied ≈ tar-size + zstd-size
 # You will need to prepare a large enough space before installation.
 zstd = "25M"
-zstd_bytes = 25773531
+zstd_bytes = 25773802
 
 [compatibility]
 compatible_mode = true
@@ -60,29 +60,29 @@ previous_file = "php-musl_armhf_2023-11-20_12-04-rootfs.tar.zst"
 previous_sha256 = "9893258ff668fabc1adc786b539aaf4d5e3dcd954445be543d141a2a742a003f"
 
 current_version = "latest02"
-current_date = "20240219"
-old_file = ""
-old_sha256 = ""
+current_date = "20240304"
+old_file = "php-musl_armhf_2023-10-23_12-05-rootfs.tar.zst"
+old_sha256 = "c39c817787435f29a620f2a913a2f5c4e1f6e7046239d6ca0ef3c410ad7f8358"
 # edition 2021
 # DISTRO_NAME=php_armhf
-# ROOTFS_FILE=php-musl_armhf_2024-02-19_12-05-rootfs.tar.zst
-# SHA256SUM=ad4f377a35813370e565d4da0ab6c13ea59f1d6334caf5cf8f4442520e338c8a
-# BUILD_DATE=20240219
-# BUILD_TAG=2024-02-19
+# ROOTFS_FILE=php-musl_armhf_2024-03-04_12-04-rootfs.tar.zst
+# SHA256SUM=4d32a91964085239c3651f5cf54c43a6b6788000c66f7b4d7b7b87571f96e09c
+# BUILD_DATE=20240304
+# BUILD_TAG=2024-03-04
 # STATUS=completed
 # VERSION=latest02
-# END_TIME=12:05
+# END_TIME=12:04
 
 [time]
 format = "rfc-3339"
 zone = "UTC"
-date = 2024-02-19
-begin = 2024-02-19 12:02:36.662692579+00:00
-start-sync_0 = 12:04:26
-start-zstd = 12:04:31
-start-sync_1 = 12:05:02
-end-sync_1 = 12:05:08
-end = 2024-02-19 12:05:08.811592369+00:00
+date = 2024-03-04
+begin = 2024-03-04 12:02:36.736096084+00:00
+start-sync_0 = 12:03:55
+start-zstd = 12:04:04
+start-sync_1 = 12:04:35
+end-sync_1 = 12:04:44
+end = 2024-03-04 12:04:44.919526479+00:00
 
 [server]
 repo = "cake233/php-alpine-armv7"
