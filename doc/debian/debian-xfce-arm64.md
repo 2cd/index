@@ -77,7 +77,7 @@ localhost:5903
 ```toml
 [main]
 name = "debian"
-tag = ["xfce", "2024-02-28"]
+tag = ["xfce", "2024-03-06"]
 os = "debian"
 release = "sid"
 arch = "arm64"
@@ -86,10 +86,10 @@ xorg_or_wayland = true
 syntax_version = "0.0.0-alpha.4"
 
 [file]
-name = "debian-xfce_arm64_2024-02-28_14-06.tar.zst"
+name = "debian-xfce_arm64_2024-03-06_14-37.tar.zst"
 
 # This value can be used to verify the integrity of the file
-sha256 = "79b66ef969586f4e882b3a63a723919af19b51aa88b194d99dfc8d273e32fcf8"
+sha256 = "1fb93518df3d865f99175200ab576d5435bea1735277df349700943d16872333"
 
 # zstd: [1-22]
 zstd-level = 19
@@ -97,13 +97,13 @@ zstd-level = 19
 [file.size]
 # Installed size ≈ tar-size
 # Installed size is approximately equal to the size of the tar file
-tar = "4.7G"
-tar_bytes = 5041505792
+tar = "4.9G"
+tar_bytes = 5154755584
 
 # Space occupied ≈ tar-size + zstd-size
 # You will need to prepare a large enough space before installation.
 zstd = "1.3G"
-zstd_bytes = 1342982492
+zstd_bytes = 1378284526
 
 [compatibility]
 compatible_mode = true
@@ -117,29 +117,29 @@ previous_file = "debian-xfce_arm64_2023-11-22_13-52-rootfs.tar.zst"
 previous_sha256 = "637a5d80c302a0549389f503aa709cd1516b9c20962ce81c15f00f12b2d9a23f"
 
 current_version = "latest01"
-current_date = "20240228"
+current_date = "20240306"
 old_file = "debian-xfce_arm64_2023-11-15_13-54-rootfs.tar.zst"
 old_sha256 = "ebaa5dc9bc169cbfb68862b46781cf25de9b725890984b6a8bf06b1c9d4d4380"
 # edition 2021
 # DISTRO_NAME=debian-sid_arm64
-# ROOTFS_FILE=debian-xfce_arm64_2024-02-28_14-06-rootfs.tar.zst
-# SHA256SUM=79b66ef969586f4e882b3a63a723919af19b51aa88b194d99dfc8d273e32fcf8
-# BUILD_DATE=20240228
-# BUILD_TAG=2024-02-28
+# ROOTFS_FILE=debian-xfce_arm64_2024-03-06_14-37-rootfs.tar.zst
+# SHA256SUM=1fb93518df3d865f99175200ab576d5435bea1735277df349700943d16872333
+# BUILD_DATE=20240306
+# BUILD_TAG=2024-03-06
 # STATUS=completed
 # VERSION=latest01
-# END_TIME=14:06
+# END_TIME=14:37
 
 [time]
 format = "rfc-3339"
 zone = "UTC"
-date = 2024-02-28
-begin = 2024-02-28 12:33:59.489299140+00:00
-start-sync_0 = 13:49:28
-start-zstd = 13:52:03
-start-sync_1 = 14:05:38
-end-sync_1 = 14:06:41
-end = 2024-02-28 14:06:41.027887330+00:00
+date = 2024-03-06
+begin = 2024-03-06 12:41:37.682232089+00:00
+start-sync_0 = 14:20:01
+start-zstd = 14:22:40
+start-sync_1 = 14:36:55
+end-sync_1 = 14:37:54
+end = 2024-03-06 14:37:54.503927120+00:00
 
 [server]
 repo = "cake233/debian-xfce-arm64"
@@ -174,7 +174,7 @@ current = true
 LANG = "en_US.UTF-8"
 
 [version]
-ldd = 'ldd (Debian GLIBC 2.37-15) 2.37'
+ldd = 'ldd (Debian GLIBC 2.37-15.1) 2.37'
 zsh = 'zsh 5.9 (aarch64-unknown-linux-gnu)'
 
 [port]
